@@ -1,0 +1,273 @@
+/* ==========================================================================
+   RAAHI - Heritage Intelligence Design System
+   Matches DESIGN.md specifications & Luxury Aesthetic
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --color-surface: #faf9f5;
+  --color-surface-dim: #dbdad6;
+  --color-surface-bright: #faf9f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f4f0;
+  --color-surface-container: #efeeea;
+  --color-surface-container-high: #e9e8e4;
+  --color-surface-container-highest: #e3e2df;
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #42493e;
+  --color-inverse-surface: #2f312e;
+  --color-inverse-on-surface: #f2f1ed;
+  
+  --color-primary: #154212;
+  --color-primary-container: #2d5a27;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #9dd090;
+  --color-primary-fixed: #bcf0ae;
+  --color-primary-fixed-dim: #a1d494;
+  --color-on-primary-fixed: #002201;
+  --color-on-primary-fixed-variant: #23501e;
+  
+  --color-secondary: #735c00;
+  --color-secondary-container: #fed65b;
+  --color-secondary-fixed: #ffe088;
+  --color-secondary-fixed-dim: #e9c349;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #745c00;
+  
+  --color-outline: #72796e;
+  --color-outline-variant: #c2c9bb;
+  --color-background: #faf9f5;
+  
+  /* Glassmorphism & Elevation */
+  --glass-bg: rgba(255, 255, 255, 0.82);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-blur: blur(20px);
+  --shadow-subtle: 0 4px 20px rgba(0, 0, 0, 0.04);
+  --shadow-elevation: 0 12px 36px rgba(21, 66, 18, 0.08);
+  --shadow-floating: 0 20px 48px rgba(0, 0, 0, 0.12);
+}
+
+.dark {
+  --color-surface: #141613;
+  --color-surface-dim: #1e201d;
+  --color-surface-bright: #252824;
+  --color-surface-container-lowest: #1a1c19;
+  --color-surface-container-low: #20231f;
+  --color-surface-container: #262925;
+  --color-surface-container-high: #2d312c;
+  --color-surface-container-highest: #353a33;
+  --color-on-surface: #f2f1ed;
+  --color-on-surface-variant: #c2c9bb;
+  --color-inverse-surface: #faf9f5;
+  --color-inverse-on-surface: #1b1c1a;
+  --color-background: #121411;
+  --glass-bg: rgba(26, 28, 25, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-surface-container-low);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-outline-variant);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-container);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Glassmorphism Panels */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(21, 66, 18, 0.08);
+}
+.dark .glass-nav {
+  background: rgba(20, 22, 19, 0.88);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* AI Gradient Border */
+.ai-gradient-border {
+  position: relative;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  background: linear-gradient(var(--glass-bg), var(--glass-bg)) padding-box,
+              linear-gradient(135deg, #e9c349, rgba(253, 252, 248, 0.5), #154212) border-box;
+}
+
+.ai-border-gold {
+  position: relative;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  background: linear-gradient(var(--glass-bg), var(--glass-bg)) padding-box,
+              linear-gradient(135deg, #fed65b, #e9c349, #faf9f5) border-box;
+}
+
+/* Shimmer & Glow Effects */
+@keyframes goldPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(233, 195, 73, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(233, 195, 73, 0.6);
+  }
+}
+
+.glow-gold {
+  animation: goldPulse 3s infinite ease-in-out;
+}
+
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.float-animation {
+  animation: gentleFloat 4s infinite ease-in-out;
+}
+
+/* Masonry Grid */
+.masonry-grid {
+  column-count: 1;
+  column-gap: 24px;
+}
+@media (min-width: 768px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .masonry-grid {
+    column-count: 3;
+  }
+}
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 24px;
+}
+
+/* Material Symbols Adjustments */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+.material-symbols-outlined.fill-1,
+.material-symbols-outlined[style*="'FILL' 1"] {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Transitions */
+.view-section {
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.view-section.hidden-view {
+  display: none !important;
+  opacity: 0;
+  transform: translateY(12px);
+}
+.view-section.active-view {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 3D Perspective Card Tilt */
+.tilt-card {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0.2, 1), box-shadow 0.25s ease;
+}
+.tilt-card:hover {
+  transform: translateY(-6px) rotateX(2deg) rotateY(-2deg);
+}
+
+/* Luxury Boarding Pass Ticket Styles */
+.royal-ticket {
+  background: radial-gradient(circle at 0% 50%, transparent 12px, var(--color-surface-container-lowest) 13px),
+              radial-gradient(circle at 100% 50%, transparent 12px, var(--color-surface-container-lowest) 13px);
+  background-size: 100% 100%;
+  border-radius: 1.25rem;
+  border: 1px solid var(--color-outline-variant);
+  box-shadow: var(--shadow-elevation);
+}
+.dark .royal-ticket {
+  background: radial-gradient(circle at 0% 50%, transparent 12px, #1e201d 13px),
+              radial-gradient(circle at 100% 50%, transparent 12px, #1e201d 13px);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Interactive Map Hotspot Pins */
+.map-hotspot {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.map-hotspot:hover {
+  transform: scale(1.25) translateY(-4px);
+  z-index: 20;
+}
+
+/* Live Weather Pill Glow */
+.weather-pill {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(244, 244, 240, 0.8));
+  border: 1px solid rgba(115, 92, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.dark .weather-pill {
+  background: linear-gradient(135deg, rgba(40, 44, 38, 0.9), rgba(30, 32, 29, 0.8));
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Modals */
+.modal-backdrop {
+  background: rgba(15, 20, 14, 0.75);
+  backdrop-filter: blur(10px);
+}
+
+/* Step Progress Indicator */
+.step-line::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 36px;
+  bottom: -20px;
+  width: 2px;
+  background: var(--color-outline-variant);
+  opacity: 0.35;
+}
