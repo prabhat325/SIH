@@ -74,37 +74,26 @@ const RaahiAuth = {
 
   renderHeaderAuth() {
     const container = document.getElementById('header-auth-container');
-    const adminNavLink = document.getElementById('nav-admin-link');
     if (!container) return;
 
     if (this.currentUser) {
-      // Show admin nav link if user is admin
-      if (adminNavLink) {
-        if (this.currentUser.role === 'admin') {
-          adminNavLink.classList.remove('hidden');
-        } else {
-          adminNavLink.classList.add('hidden');
-        }
-      }
-
       container.innerHTML = `
         <div class="flex items-center gap-2">
-          <!-- Quick Role Switcher for SIH Jury Demo -->
-          <button onclick="RaahiAuth.toggleRole()" title="Switch Role (Traveler / Admin)" class="hidden sm:inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-full ${this.currentUser.role === 'admin' ? 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-300 border border-purple-400' : 'bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300'} transition-all">
+          <!-- Quick Role Switcher for SIH Jury Demo (Curator Admin / Traveler) -->
+          <button onclick="RaahiAuth.toggleRole()" title="Switch Role (Traveler / Curator Admin)" class="hidden sm:inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-full ${this.currentUser.role === 'admin' ? 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-300 border border-purple-400 shadow-2xs' : 'bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300'} transition-all">
             <span class="material-symbols-outlined text-xs">${this.currentUser.role === 'admin' ? 'verified_user' : 'person'}</span>
             <span>${this.currentUser.role === 'admin' ? 'Curator Admin' : 'Traveler'}</span>
           </button>
 
           <!-- User Profile Dropdown Button -->
           <div class="relative group">
-            <button onclick="RaahiApp.navigate('dashboard')" class="flex items-center gap-2 p-1 rounded-full hover:ring-2 hover:ring-amber-500 transition-all">
+            <button onclick="RaahiApp.navigate('dashboard')" class="flex items-center gap-2 p-1 rounded-full hover:ring-2 hover:ring-amber-500 transition-all" title="User Profile &amp; Dashboard">
               <img src="${this.currentUser.avatar}" alt="${this.currentUser.name}" class="w-8 h-8 rounded-full object-cover border-2 border-amber-500 shadow-sm">
             </button>
           </div>
         </div>
       `;
     } else {
-      if (adminNavLink) adminNavLink.classList.add('hidden');
       container.innerHTML = `
         <button onclick="RaahiAuth.openAuthModal()" class="text-xs font-bold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 px-3 py-1.5 rounded-xl border border-stone-200 dark:border-stone-700 transition-colors">
           Sign In

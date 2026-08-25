@@ -108,12 +108,25 @@ const RaahiApp = {
     // Update active navbar links
     document.querySelectorAll('.nav-route-link').forEach(link => {
       const linkRoute = link.getAttribute('data-route');
+      const isAdmin = linkRoute === 'admin';
+      const isEmergency = linkRoute === 'emergency';
+
       if (linkRoute === routeId) {
-        link.classList.add('text-amber-600', 'dark:text-amber-400', 'font-extrabold');
-        link.classList.remove('text-stone-700', 'dark:text-stone-300');
+        if (isAdmin) {
+          link.classList.add('bg-purple-100', 'dark:bg-purple-900/60', 'text-purple-800', 'dark:text-purple-200', 'border-purple-300', 'dark:border-purple-700', 'font-bold');
+          link.classList.remove('text-purple-700', 'dark:text-purple-300', 'bg-purple-50/70', 'dark:bg-purple-950/40');
+        } else if (!isEmergency) {
+          link.classList.add('text-amber-600', 'dark:text-amber-400', 'font-extrabold');
+          link.classList.remove('text-stone-700', 'dark:text-stone-300');
+        }
       } else {
-        link.classList.remove('text-amber-600', 'dark:text-amber-400', 'font-extrabold');
-        link.classList.add('text-stone-700', 'dark:text-stone-300');
+        if (isAdmin) {
+          link.classList.remove('bg-purple-100', 'dark:bg-purple-900/60', 'text-purple-800', 'dark:text-purple-200', 'border-purple-300', 'dark:border-purple-700');
+          link.classList.add('text-purple-700', 'dark:text-purple-300', 'bg-purple-50/70', 'dark:bg-purple-950/40');
+        } else if (!isEmergency) {
+          link.classList.remove('text-amber-600', 'dark:text-amber-400', 'font-extrabold');
+          link.classList.add('text-stone-700', 'dark:text-stone-300');
+        }
       }
     });
 
