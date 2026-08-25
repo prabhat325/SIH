@@ -900,3 +900,41 @@ h6,
   color: #fbbf24;
   border-color: #b45309;
 }
+
+/* ==========================================================================
+   DARK MODE REFINEMENTS & CONTRAST SYSTEM
+   ========================================================================== */
+
+/* Hero atmospheric gradient in dark mode: deep charcoal -> dark warm brown -> subtle amber glow */
+.dark .hero-atmospheric-bg {
+  background: radial-gradient(ellipse 90% 60% at 50% -10%, rgba(217, 119, 6, 0.12), rgba(28, 25, 23, 0.55) 45%, #0c0a09 100%) !important;
+}
+
+/* "Try asking" Suggestion Chips High-Contrast System */
+.chip-suggestion {
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark .chip-suggestion {
+  background-color: #23201d !important;
+  border-color: #3d3733 !important;
+  color: #f5f5f4 !important;
+}
+
+.dark .chip-suggestion:hover {
+  background-color: #2e2620 !important;
+  border-color: #d97706 !important;
+  color: #fbbf24 !important;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.2);
+}
+
+/* Ask Raahi Search Bar Dark Mode Polish */
+.dark .home-search-container {
+  background-color: #1a1715 !important;
+  border-color: #38322e !important;
+}
+
+.dark .home-search-container:focus-within {
+  border-color: #d97706 !important;
+  box-shadow: 0 0 0 1px #d97706, 0 12px 28px -6px rgba(0, 0, 0, 0.6) !important;
+}
