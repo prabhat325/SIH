@@ -407,18 +407,23 @@ const RaahiSmartMatch = {
             </div>
 
             <div class="space-y-1.5 flex-1 min-w-0">
-              <div class="flex flex-wrap items-center gap-2">
-                <!-- Match Score Badge -->
-                <span class="px-3 py-1 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-700 text-white font-mono text-xs font-extrabold shadow-sm flex items-center gap-1 match-badge-glow">
-                  <span class="material-symbols-outlined text-xs">auto_awesome</span>
-                  ${matchPercent}% Match
-                </span>
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <div class="flex flex-wrap items-center gap-2">
+                  <!-- Match Score Badge -->
+                  <span class="px-3 py-1 rounded-full bg-gradient-to-r from-emerald-600 to-emerald-700 text-white font-mono text-xs font-extrabold shadow-sm flex items-center gap-1 match-badge-glow">
+                    <span class="material-symbols-outlined text-xs">auto_awesome</span>
+                    ${matchPercent}% Match
+                  </span>
 
-                <!-- Safety Score Badge -->
-                <span class="px-2.5 py-1 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-[11px] font-bold border border-stone-200 dark:border-stone-700 flex items-center gap-1">
-                  <span class="material-symbols-outlined text-xs text-blue-500">verified_user</span>
-                  🛡️ ${safety} Safety Score
-                </span>
+                  <!-- Safety Score Badge -->
+                  <span class="px-2.5 py-1 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-[11px] font-bold border border-stone-200 dark:border-stone-700 flex items-center gap-1">
+                    <span class="material-symbols-outlined text-xs text-blue-500">verified_user</span>
+                    🛡️ ${safety} Safety Score
+                  </span>
+                </div>
+
+                <!-- Feedback Tracking Toolbar (❤️, 🔖, ✖️) -->
+                ${typeof RaahiFeedback !== 'undefined' ? RaahiFeedback.renderCardFeedbackToolbar(dest.id) : ''}
               </div>
 
               <h3 class="font-heading text-lg sm:text-xl font-bold text-stone-900 dark:text-white truncate">

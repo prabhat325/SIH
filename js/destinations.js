@@ -265,9 +265,12 @@ const RaahiDestinations = {
                 <span>Predict Budget</span>
               </button>
             </div>
-            <span class="text-xs font-bold text-stone-400">
-              Verified by Raahi ASI Intelligence
-            </span>
+            <div class="flex items-center gap-3">
+              ${typeof RaahiFeedback !== 'undefined' ? RaahiFeedback.renderCardFeedbackToolbar(dest.id) : ''}
+              <span class="text-xs font-bold text-stone-400 hidden sm:inline">
+                Verified by Raahi ASI Intelligence
+              </span>
+            </div>
           </div>
 
           <!-- =================================================================
