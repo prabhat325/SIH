@@ -3,18 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raahi - Safar aapka planning hamari | Luxury India Travel & AI Concierge</title>
-  <meta name="description" content="Raahi embodies the intersection of India's ancient cultural heritage and cutting-edge artificial intelligence. Curated journeys, bespoke itineraries, and immersive cultural experiences.">
-  
-  <!-- Google Fonts -->
+  <title>Raahi — Safar Aapka, Planning Hamari | India Tourism Discovery & AI Travel Planning</title>
+  <meta name="description" content="Raahi helps travelers discover tourist places, heritage stays, authentic regional dining, cultural events, local guides, and 24x7 emergency services across India.">
+
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Material Symbols Icons -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap">
-  
-  <!-- Tailwind CSS CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Material Symbols Outlined Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+  <!-- Leaflet.js Interactive Map Styles -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- Tailwind CSS CDN with Form and Container Plugins -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <script>
     tailwind.config = {
@@ -22,1175 +25,1299 @@
       theme: {
         extend: {
           colors: {
-            "primary": "#154212",
-            "primary-container": "#2d5a27",
-            "on-primary": "#ffffff",
-            "on-primary-container": "#9dd090",
-            "primary-fixed": "#bcf0ae",
-            "primary-fixed-dim": "#a1d494",
-            "inverse-primary": "#a1d494",
-            "secondary": "#735c00",
-            "secondary-container": "#fed65b",
-            "secondary-fixed": "#ffe088",
-            "secondary-fixed-dim": "#e9c349",
-            "on-secondary": "#ffffff",
-            "on-secondary-container": "#745c00",
-            "surface": "#faf9f5",
-            "surface-dim": "#dbdad6",
-            "surface-bright": "#faf9f5",
-            "surface-container-lowest": "#ffffff",
-            "surface-container-low": "#f4f4f0",
-            "surface-container": "#efeeea",
-            "surface-container-high": "#e9e8e4",
-            "surface-container-highest": "#e3e2df",
-            "on-surface": "#1b1c1a",
-            "on-surface-variant": "#42493e",
-            "inverse-surface": "#2f312e",
-            "inverse-on-surface": "#f2f1ed",
-            "outline": "#72796e",
-            "outline-variant": "#c2c9bb",
-            "background": "#faf9f5"
+            amber: {
+              50: '#fffbeb',
+              100: '#fef3c7',
+              200: '#fde68a',
+              300: '#fcd34d',
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+              700: '#b45309',
+              800: '#92400e',
+              900: '#78350f',
+              950: '#451a03',
+            }
           },
-          maxWidth: {
-            "container-max": "1280px"
-          },
-          spacing: {
-            "margin-desktop": "64px",
-            "margin-mobile": "20px",
-            "stack-sm": "12px",
-            "stack-md": "24px",
-            "stack-lg": "48px",
-            "gutter": "24px"
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'sans-serif'],
           }
         }
       }
     };
   </script>
-  
+
   <!-- Custom Design System Stylesheet -->
   <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="bg-background text-on-surface antialiased overflow-x-hidden min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary-container">
+<body class="bg-[#faf8f5] dark:bg-stone-950 text-stone-900 dark:text-stone-100 antialiased min-h-screen flex flex-col selection:bg-amber-500 selection:text-white transition-colors duration-200">
 
-  <!-- ==========================================
-       TOP NAVIGATION BAR
-       ========================================== -->
-  <header class="fixed top-0 w-full z-40 glass-nav transition-all duration-300">
-    <div class="flex justify-between items-center h-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
-      
-      <!-- Brand Logo -->
-      <a href="#home" class="flex flex-col group cursor-pointer">
-        <span class="font-heading text-2xl md:text-3xl font-extrabold tracking-tight text-primary dark:text-primary-fixed flex items-center gap-1.5 leading-none">
-          Raahi
-          <span class="w-2 h-2 rounded-full bg-secondary-fixed-dim inline-block animate-pulse"></span>
-        </span>
-        <span class="text-xs text-secondary font-medium italic tracking-normal mt-0.5">
-          Safar aapka planning hamari
-        </span>
-      </a>
-
-      <!-- Desktop Navigation Links -->
-      <nav class="hidden md:flex items-center gap-7">
-        <a href="#home" data-route="home" class="nav-route-link text-sm font-semibold text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors py-1">
-          Home
-        </a>
-        <a href="#destinations" data-route="destinations" class="nav-route-link text-sm font-semibold text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors py-1">
-          Destinations
-        </a>
-        <a href="#experiences" data-route="experiences" class="nav-route-link text-sm font-semibold text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors py-1">
-          Experiences
-        </a>
-        <a href="#planner" data-route="planner" class="nav-route-link text-sm font-semibold text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors py-1">
-          AI Planner
-        </a>
-        <a href="#journal" data-route="journal" class="nav-route-link text-sm font-semibold text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors py-1">
-          Journal
-        </a>
-        <a href="#admin" id="nav-admin-link" data-route="admin" class="nav-route-link hidden text-sm font-bold text-secondary dark:text-secondary-fixed hover:underline transition-colors py-1 flex items-center gap-1">
-          <span class="material-symbols-outlined text-sm">shield_person</span>
-          Admin
-        </a>
-      </nav>
-
-      <!-- Action & Utility Buttons -->
-      <div class="flex items-center gap-2.5">
+  <!-- =========================================================================
+       1. MAIN NAVIGATION HEADER
+       ========================================================================= -->
+  <header class="sticky top-0 z-40 bg-white/90 dark:bg-stone-900/90 backdrop-blur-md border-b border-stone-200 dark:border-stone-800 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
         
-        <!-- Currency Selector -->
-        <select id="currency-selector" class="px-2.5 py-1.5 bg-surface-container dark:bg-surface-container-high rounded-xl text-xs font-bold text-on-surface border border-outline-variant/30 focus:ring-1 focus:ring-primary outline-none cursor-pointer">
-          <option value="INR">₹ INR</option>
-          <option value="USD">$ USD</option>
-          <option value="EUR">€ EUR</option>
-          <option value="GBP">£ GBP</option>
-          <option value="AED">د.إ AED</option>
-        </select>
+        <!-- Brand Logo & Tagline -->
+        <a href="#home" class="flex items-center gap-3 group cursor-pointer">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-600 to-amber-500 flex items-center justify-center text-white shadow-md shadow-amber-500/20 group-hover:scale-105 transition-transform">
+            <span class="material-symbols-outlined text-2xl">explore</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-heading text-2xl font-extrabold text-stone-900 dark:text-white tracking-tight flex items-center gap-1.5 leading-none">
+              Raahi
+              <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+            </span>
+            <span class="text-[11px] text-amber-700 dark:text-amber-400 font-semibold tracking-wide mt-0.5">
+              Safar Aapka, Planning Hamari
+            </span>
+          </div>
+        </a>
 
-        <!-- Dark / Light Theme Toggle -->
-        <button id="btn-theme-toggle" class="p-2 rounded-full text-on-surface-variant hover:bg-surface-container transition-colors" title="Toggle Theme">
-          <span class="material-symbols-outlined text-xl" id="theme-toggle-icon">dark_mode</span>
-        </button>
+        <!-- Desktop Navigation Links (8 Core Links) -->
+        <nav class="hidden lg:flex items-center gap-6">
+          <a href="#home" data-route="home" class="nav-route-link text-xs font-bold text-amber-600 dark:text-amber-400 py-1 transition-colors">
+            Home
+          </a>
+          <a href="#explore" data-route="explore" class="nav-route-link text-xs font-semibold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 py-1 transition-colors">
+            Explore
+          </a>
+          <a href="#places" data-route="places" class="nav-route-link text-xs font-semibold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 py-1 transition-colors">
+            Places
+          </a>
+          <a href="#hotels" data-route="hotels" class="nav-route-link text-xs font-semibold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 py-1 transition-colors">
+            Hotels
+          </a>
+          <a href="#restaurants" data-route="restaurants" class="nav-route-link text-xs font-semibold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 py-1 transition-colors">
+            Restaurants
+          </a>
+          <a href="#events" data-route="events" class="nav-route-link text-xs font-semibold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 py-1 transition-colors">
+            Events
+          </a>
+          <a href="#guides" data-route="guides" class="nav-route-link text-xs font-semibold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 py-1 transition-colors">
+            Guides
+          </a>
+          <a href="#map" data-route="map" class="nav-route-link text-xs font-semibold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 py-1 transition-colors flex items-center gap-1">
+            <span class="material-symbols-outlined text-sm">map</span>
+            Map
+          </a>
+          <a href="#admin" id="nav-admin-link" data-route="admin" class="nav-route-link hidden text-xs font-bold text-purple-600 dark:text-purple-400 py-1 transition-colors flex items-center gap-1">
+            <span class="material-symbols-outlined text-sm">shield_person</span>
+            Admin
+          </a>
+        </nav>
 
-        <!-- Auth Header Container (User / Admin / Sign-in) -->
-        <div id="header-auth-container">
-          <!-- Populated by js/auth.js -->
+        <!-- Right Side Utility & Actions -->
+        <div class="flex items-center gap-3">
+          
+          <!-- Emergency SOS Red Button -->
+          <button onclick="RaahiApp.navigate('emergency')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-red-600 hover:bg-red-700 text-white font-bold text-xs shadow-md shadow-red-600/20 transition-all">
+            <span class="material-symbols-outlined text-sm">emergency</span>
+            <span class="hidden sm:inline">Emergency</span> 112
+          </button>
+
+          <!-- Quick Search (Ctrl+K) -->
+          <button onclick="RaahiApp.openGlobalSearch()" title="Quick Search (Ctrl+K)" class="p-2 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
+            <span class="material-symbols-outlined text-xl">search</span>
+          </button>
+
+          <!-- Theme Switcher -->
+          <button id="btn-theme-toggle" class="p-2 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors" title="Toggle Theme">
+            <span class="material-symbols-outlined text-xl" id="theme-toggle-icon">dark_mode</span>
+          </button>
+
+          <!-- User Auth Profile Container -->
+          <div id="header-auth-container">
+            <!-- Rendered by js/auth.js -->
+          </div>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobile-menu-toggle" class="lg:hidden p-2 rounded-xl text-stone-700 dark:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-800">
+            <span class="material-symbols-outlined text-2xl">menu</span>
+          </button>
         </div>
 
-        <!-- Plan My Trip CTA -->
-        <button onclick="RaahiApp.navigate('planner')" class="hidden xl:flex items-center gap-2 bg-primary text-on-primary text-xs font-semibold px-4 py-2 rounded-xl hover:bg-primary-container transition-all shadow-sm">
-          <span class="material-symbols-outlined text-base">auto_awesome</span>
-          Plan My Trip
-        </button>
-
-        <!-- Mobile Menu Toggle -->
-        <button id="mobile-menu-toggle" class="md:hidden p-2 text-primary dark:text-primary-fixed">
-          <span class="material-symbols-outlined text-2xl">menu</span>
-        </button>
       </div>
     </div>
   </header>
 
   <!-- Mobile Drawer Menu -->
-  <div id="mobile-menu-drawer" class="fixed inset-0 z-50 transform -translate-x-full transition-transform duration-300 md:hidden">
+  <div id="mobile-menu-drawer" class="fixed inset-0 z-50 transform -translate-x-full transition-transform duration-300 lg:hidden">
     <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" id="mobile-menu-close"></div>
-    <div class="relative w-4/5 max-w-sm h-full bg-surface dark:bg-inverse-surface p-6 shadow-2xl flex flex-col justify-between">
+    <div class="relative w-4/5 max-w-sm h-full bg-white dark:bg-stone-900 p-6 shadow-2xl flex flex-col justify-between overflow-y-auto">
       <div>
-        <div class="flex justify-between items-center pb-4 border-b border-outline-variant/20 mb-6">
-          <div class="flex flex-col">
-            <span class="font-heading text-2xl font-bold text-primary dark:text-primary-fixed leading-none">Raahi</span>
-            <span class="text-xs text-secondary font-medium italic mt-0.5">Safar aapka planning hamari</span>
+        <div class="flex justify-between items-center pb-4 border-b border-stone-200 dark:border-stone-800 mb-6">
+          <div class="flex items-center gap-2">
+            <span class="font-heading text-xl font-bold text-stone-900 dark:text-white">Raahi</span>
+            <span class="text-[10px] text-amber-600 font-bold">India</span>
           </div>
-          <button class="p-2 text-on-surface" onclick="RaahiApp.closeMobileMenu()">
+          <button class="p-1.5 text-stone-500 hover:text-stone-900" onclick="RaahiApp.closeMobileMenu()">
             <span class="material-symbols-outlined">close</span>
           </button>
         </div>
-        <nav class="flex flex-col gap-4">
-          <a href="#home" class="nav-route-link py-2 font-semibold text-base" data-route="home">Home</a>
-          <a href="#destinations" class="nav-route-link py-2 font-semibold text-base" data-route="destinations">Destinations Explorer</a>
-          <a href="#experiences" class="nav-route-link py-2 font-semibold text-base" data-route="experiences">Curated Experiences</a>
-          <a href="#planner" class="nav-route-link py-2 font-semibold text-base" data-route="planner">AI Trip Planner</a>
-          <a href="#journal" class="nav-route-link py-2 font-semibold text-base" data-route="journal">Travel Journal</a>
-          <a href="#admin" class="nav-route-link py-2 font-semibold text-base text-secondary flex items-center gap-2" data-route="admin">
-            <span class="material-symbols-outlined text-lg">shield_person</span>
-            Curator Admin Portal
-          </a>
+
+        <nav class="flex flex-col gap-2">
+          <a href="#home" class="nav-route-link py-2 px-3 rounded-xl font-bold text-sm" data-route="home">Home</a>
+          <a href="#explore" class="nav-route-link py-2 px-3 rounded-xl font-semibold text-sm" data-route="explore">Explore India</a>
+          <a href="#places" class="nav-route-link py-2 px-3 rounded-xl font-semibold text-sm" data-route="places">Tourist Places</a>
+          <a href="#hotels" class="nav-route-link py-2 px-3 rounded-xl font-semibold text-sm" data-route="hotels">Hotels (Discovery)</a>
+          <a href="#restaurants" class="nav-route-link py-2 px-3 rounded-xl font-semibold text-sm" data-route="restaurants">Restaurants &amp; Food</a>
+          <a href="#events" class="nav-route-link py-2 px-3 rounded-xl font-semibold text-sm" data-route="events">Cultural Events</a>
+          <a href="#guides" class="nav-route-link py-2 px-3 rounded-xl font-semibold text-sm" data-route="guides">Local Guides</a>
+          <a href="#map" class="nav-route-link py-2 px-3 rounded-xl font-semibold text-sm" data-route="map">Interactive Map</a>
+          <a href="#planner" class="nav-route-link py-2 px-3 rounded-xl font-semibold text-sm text-amber-600" data-route="planner">AI Trip Planner</a>
+          <a href="#emergency" class="nav-route-link py-2 px-3 rounded-xl font-bold text-sm text-red-600" data-route="emergency">Emergency SOS 112</a>
         </nav>
       </div>
-      <div class="pt-6 border-t border-outline-variant/20 flex flex-col gap-2">
-        <button onclick="RaahiAuth.openAuthModal()" class="w-full py-2.5 border border-primary text-primary dark:text-primary-fixed rounded-xl font-semibold text-xs">
-          Account Login (Traveler / Admin)
+
+      <div class="pt-6 border-t border-stone-200 dark:border-stone-800 space-y-2">
+        <button onclick="RaahiAuth.openAuthModal()" class="w-full py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold">
+          Account Login
         </button>
-        <button onclick="RaahiApp.navigate('planner')" class="w-full py-3 bg-primary text-on-primary rounded-xl font-semibold text-sm shadow-md">
+        <button onclick="RaahiApp.navigate('planner')" class="w-full py-3 rounded-xl bg-amber-600 text-white text-xs font-bold shadow-md">
           Start AI Journey Planner
         </button>
       </div>
     </div>
   </div>
 
-  <!-- ==========================================
-       MAIN CONTENT CONTAINER (MULTI-SCREEN VIEWS)
-       ========================================== -->
-  <main class="flex-grow pt-20">
+  <!-- =========================================================================
+       2. MULTI-SCREEN MAIN VIEWS CONTAINER
+       ========================================================================= -->
+  <main class="flex-grow">
 
-    <!-- ========================================
-         VIEW 1: HOME SCREEN (#home)
-         ======================================== -->
+    <!-- =======================================================================
+         VIEW 1: HOMEPAGE (#view-home) — 11 EXACT SECTIONS IN ORDER
+         ======================================================================= -->
     <div id="view-home" class="view-section active-view">
-      
-      <!-- 1. Hero Section with WebGL Mist & Golden Shimmer Shader -->
-      <section class="relative w-full min-h-[92vh] flex items-center justify-center overflow-hidden bg-inverse-surface">
-        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCglQPb0cjxxr7VZTU1LgM811EATymnZmJFRFqAnS-kq-LXFySX4ZdbMrmW4NbRNHOzMZzU9j6lKRA106lfm0YiXtpH9ter7ySHkVBSFnNzTPModKgo81n80qGeNm458ZtryGh9iMexRFB71cWeZbNutyalWS3bj0V_86-yZC6DZ21ayj0D0SuVzvMAERYfhF2PyEfR4V626rauFUCvG1TVdg5ouvCd97QJmdFXedFvIuu6C80ZFGCR" 
-             alt="Hero background" 
-             class="absolute inset-0 object-cover w-full h-full z-0 opacity-70">
-        
-        <div class="absolute inset-0 w-full h-full z-10 mix-blend-screen opacity-70 pointer-events-none">
-          <canvas id="hero-shader-canvas" class="w-full h-full block"></canvas>
-        </div>
 
-        <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-background z-20"></div>
-
-        <div class="relative z-30 w-full max-w-container-max px-margin-mobile md:px-margin-desktop mx-auto flex flex-col items-center text-center mt-8">
-          <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-semibold text-white border border-white/30 mb-6 shadow-sm">
-            <span class="material-symbols-outlined text-sm text-secondary-fixed">auto_awesome</span>
-            <span>Heritage Intelligence &amp; Bespoke Luxury</span>
+      <!-- SECTION 1: HERO / SEARCH -->
+      <section class="relative overflow-hidden bg-gradient-to-b from-amber-500/10 via-amber-500/5 to-transparent pt-12 pb-20 px-4 sm:px-6 lg:px-8 border-b border-stone-200/60 dark:border-stone-800/60">
+        <div class="max-w-5xl mx-auto text-center">
+          
+          <!-- Badge -->
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-100 dark:bg-amber-950/80 text-amber-900 dark:text-amber-300 text-xs font-extrabold uppercase tracking-wider mb-6 border border-amber-300 dark:border-amber-800 shadow-sm">
+            <span class="material-symbols-outlined text-sm text-amber-600">travel_explore</span>
+            <span>Discover Places • Plan Smarter • Travel Better</span>
           </div>
 
-          <h1 class="font-heading text-3xl sm:text-5xl md:text-6xl font-extrabold text-white mb-6 max-w-4xl drop-shadow-lg leading-tight">
-            Discover India.<br>
-            <span class="text-secondary-fixed-dim">Your Journey, Reimagined by AI.</span>
+          <!-- Hero Heading -->
+          <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-900 dark:text-white tracking-tight leading-tight mb-6">
+            Safar Aapka,<br>
+            <span class="text-amber-600 dark:text-amber-400">Planning Hamari</span>
           </h1>
 
-          <p class="text-sm sm:text-base md:text-lg text-white/90 mb-10 max-w-2xl drop-shadow-md leading-relaxed">
-            Experience the sublime intersection of ancient heritage and modern luxury. Let our intelligent concierge craft your perfect personalized itinerary.
+          <!-- Supporting Text -->
+          <p class="text-sm sm:text-base md:text-lg text-stone-600 dark:text-stone-300 max-w-2xl mx-auto mb-10 leading-relaxed font-medium">
+            Discover amazing places, local experiences, stays, food, events and everything you need for a memorable journey across India.
           </p>
 
-          <!-- Floating AI Search Bar -->
-          <div class="w-full max-w-4xl bg-white/25 dark:bg-black/40 backdrop-blur-2xl border border-white/35 rounded-2xl shadow-2xl p-4 md:p-6 transition-transform hover:scale-[1.01] duration-500">
-            <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4 items-end">
-              
-              <div class="text-left">
-                <label class="block text-white/90 text-xs font-semibold mb-1.5 ml-1">Destination</label>
-                <div class="relative">
-                  <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-white/70 text-lg">location_on</span>
-                  <input id="home-search-dest" type="text" placeholder="Where to? (e.g. Rajasthan)" 
-                         class="w-full bg-white/15 border border-white/25 text-white placeholder-white/60 text-xs rounded-xl py-3 pl-9 pr-3 focus:ring-2 focus:ring-secondary-fixed focus:border-transparent outline-none">
-                </div>
+          <!-- Large Search Bar ("Where do you want to go?") -->
+          <div class="max-w-3xl mx-auto bg-white dark:bg-stone-900 rounded-3xl p-3 shadow-xl border border-stone-200 dark:border-stone-800 mb-8">
+            <form id="home-search-form" class="flex flex-col sm:flex-row items-center gap-2">
+              <div class="relative flex-1 w-full">
+                <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-stone-400 text-xl">search</span>
+                <input id="home-search-input" type="text" placeholder="Where do you want to go? Search places, hotels, restaurants, events…" class="w-full pl-12 pr-4 py-3.5 bg-transparent text-xs sm:text-sm font-semibold text-stone-900 dark:text-white placeholder-stone-400 outline-none border-none focus:ring-0">
               </div>
+              <button type="submit" class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs sm:text-sm shadow-md transition-all flex items-center justify-center gap-2 shrink-0">
+                <span>Explore Now</span>
+                <span class="material-symbols-outlined text-base">arrow_forward</span>
+              </button>
+            </form>
+          </div>
 
-              <div class="text-left">
-                <label class="block text-white/90 text-xs font-semibold mb-1.5 ml-1">When / Dates</label>
-                <div class="relative">
-                  <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-white/70 text-lg">calendar_month</span>
-                  <input id="home-search-dates" type="text" placeholder="e.g. October 2026" 
-                         class="w-full bg-white/15 border border-white/25 text-white placeholder-white/60 text-xs rounded-xl py-3 pl-9 pr-3 focus:ring-2 focus:ring-secondary-fixed focus:border-transparent outline-none">
-                </div>
-              </div>
+          <!-- Quick Action Buttons -->
+          <div class="flex flex-wrap items-center justify-center gap-3 mb-10">
+            <button onclick="RaahiApp.navigate('places')" class="px-5 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all shadow-sm flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-sm">explore</span>
+              <span>Explore Tourist Places</span>
+            </button>
+            <button onclick="RaahiApp.navigate('map')" class="px-5 py-2.5 rounded-xl bg-white dark:bg-stone-850 text-stone-800 dark:text-stone-200 border border-stone-300 dark:border-stone-700 text-xs font-bold hover:bg-stone-100 dark:hover:bg-stone-800 transition-all flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm text-amber-600">map</span>
+              <span>Explore Interactive Map</span>
+            </button>
+          </div>
 
-              <div class="text-left">
-                <label class="block text-white/90 text-xs font-semibold mb-1.5 ml-1">Curated Interests</label>
-                <div class="relative">
-                  <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-white/70 text-lg">interests</span>
-                  <input id="home-search-interests" type="text" placeholder="Heritage, Wellness, Food" 
-                         class="w-full bg-white/15 border border-white/25 text-white placeholder-white/60 text-xs rounded-xl py-3 pl-9 pr-3 focus:ring-2 focus:ring-secondary-fixed focus:border-transparent outline-none">
-                </div>
-              </div>
-
-              <div>
-                <button id="home-search-submit" class="w-full bg-primary-container text-on-primary-container hover:bg-primary-fixed hover:text-on-primary-fixed text-xs font-bold py-3 px-6 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 group">
-                  <span class="material-symbols-outlined text-base group-hover:rotate-12 transition-transform">auto_awesome</span>
-                  Generate Journey
-                </button>
-              </div>
-
-            </div>
+          <!-- Quick Categories Pills (Places, Hotels, Restaurants, Events, Guides, Emergency) -->
+          <div class="flex flex-wrap items-center justify-center gap-2">
+            <button onclick="RaahiApp.navigate('places')" class="px-4 py-2 rounded-full bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm text-amber-600">temple_hindu</span>
+              <span>Places</span>
+            </button>
+            <button onclick="RaahiApp.navigate('hotels')" class="px-4 py-2 rounded-full bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-emerald-500 hover:text-emerald-600 transition-colors flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm text-emerald-600">hotel</span>
+              <span>Hotels</span>
+            </button>
+            <button onclick="RaahiApp.navigate('restaurants')" class="px-4 py-2 rounded-full bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm text-orange-600">restaurant</span>
+              <span>Restaurants</span>
+            </button>
+            <button onclick="RaahiApp.navigate('events')" class="px-4 py-2 rounded-full bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm text-purple-600">celebration</span>
+              <span>Events</span>
+            </button>
+            <button onclick="RaahiApp.navigate('guides')" class="px-4 py-2 rounded-full bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm text-blue-600">person_pin</span>
+              <span>Guides</span>
+            </button>
+            <button onclick="RaahiApp.navigate('emergency')" class="px-4 py-2 rounded-full bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800 text-xs font-extrabold text-red-700 dark:text-red-400 hover:bg-red-100 transition-colors flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm text-red-600">emergency</span>
+              <span>Emergency</span>
+            </button>
           </div>
 
         </div>
       </section>
 
-      <!-- 2. Popular Destinations Section (Masonry Grid) -->
-      <section class="py-16 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
-        <div class="mb-10 flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
+      <!-- SECTION 2: POPULAR DESTINATIONS ("Explore India with Raahi") -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
           <div>
-            <span class="text-xs font-bold text-secondary uppercase tracking-widest block mb-1">Subcontinent Panorama</span>
-            <h2 class="font-heading text-2xl md:text-3xl font-bold text-primary dark:text-inverse-primary">India, Waiting to Be Explored</h2>
-            <p class="text-xs md:text-sm text-on-surface-variant mt-1">Curated collections of the most captivating regions, blending iconic landmarks with serene retreats.</p>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-amber-600 mb-1">
+              <span class="material-symbols-outlined text-sm">location_on</span>
+              Regional Corridors
+            </div>
+            <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-stone-900 dark:text-white">
+              Explore India with Raahi
+            </h2>
+            <p class="text-xs sm:text-sm text-stone-500 mt-1">
+              Find places worth experiencing across North, South, East and West.
+            </p>
           </div>
-          <button onclick="RaahiApp.navigate('destinations')" class="text-xs font-semibold text-primary dark:text-inverse-primary flex items-center gap-1.5 px-4 py-2 rounded-full border border-outline-variant hover:bg-primary/5 transition-colors">
+          <button onclick="RaahiApp.navigate('explore')" class="px-4 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-colors flex items-center gap-1 self-start md:self-auto">
             <span>View All Destinations</span>
             <span class="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
         </div>
 
-        <div class="masonry-grid">
-          <!-- Rajasthan Card -->
-          <div onclick="RaahiDestinations.openDetailModal('thar-desert')" class="tilt-card masonry-item relative group rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8h5x7V2pd-Kmz-cfjTD46UKBcrBtIlWIqq62d3w1yQX_0nbvTERH4XE2mmGz4SZoRtmUHy-HIhz0FW_zea8kJZkw8wEnQfBP3AdkdjD4_eP33tT7JNNiTZQ5zWD9fUknOaK30zAVpzbhyGO4BWBq4t7eDuXd849wux6ppsoVgzDGQwiyjjXKwqlrKG8Upj653iLoEf1VarycxvudY6SPvtziN1E76-C3JXtS4TTGORUWBzf2c33SY" 
-                 alt="Rajasthan" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent flex flex-col justify-end p-6">
-              <span class="text-white/80 text-[11px] font-bold uppercase tracking-wider mb-1">Heritage &amp; Palaces</span>
-              <h3 class="font-heading text-xl font-bold text-white group-hover:text-secondary-fixed transition-colors">Royal Rajasthan</h3>
-            </div>
-          </div>
-
-          <!-- Kerala Card -->
-          <div onclick="RaahiDestinations.openDetailModal('kerala-backwaters')" class="tilt-card masonry-item relative group rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNv8d69XKaPG473nwU-TBCMFnHokFsx1X0U9FGALsqfnfITWjh13HyDpy34ifo6gnotC74GajczYca6mFGecYPHp1LKI5Ng5HeilZ1FooBjFLAfiaF8FoxRFVcldTSTMHPbyWkyTVa0oSuEJHqetd9Avl__vL76O964SVIB6yQD-eYT4G9b0hA4i13VK259hEDqKnLyorn4EBxkDKCMq6iPE7PZyKQM3_kC6-F2SWD2M-OwpA4-QGU" 
-                 alt="Kerala" class="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent flex flex-col justify-end p-6">
-              <span class="text-white/80 text-[11px] font-bold uppercase tracking-wider mb-1">Backwaters &amp; Wellness</span>
-              <h3 class="font-heading text-xl font-bold text-white group-hover:text-secondary-fixed transition-colors">Kerala Backwaters</h3>
-            </div>
-          </div>
-
-          <!-- Himalayas Card -->
-          <div onclick="RaahiDestinations.openDetailModal('himalayas-north')" class="tilt-card masonry-item relative group rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfsPgpT6t_lcXD1Yz0MEAujnl2Y5XzSRkXKV-4aS2tSIFfF5CBc8b6UgP6wbexyPUgstQP091lKJF3m7nK8vxKYa4VjsNNGTghdLzjSedZEnuaUqscJ1Uf0zqeqmJOvSmB7deY38cTJ79FOuhgT4a-bPC73aDTFb1vgrlZ4PZzT22-WQ7EnAwc8E_N8qbWfcvG_uyKTRV_37x0fcNa1auRn96ouGUfa1UccDqTJcrs847ug_-CQXW2" 
-                 alt="Himalayas" class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent flex flex-col justify-end p-6">
-              <span class="text-white/80 text-[11px] font-bold uppercase tracking-wider mb-1">Mountains &amp; Adventure</span>
-              <h3 class="font-heading text-xl font-bold text-white group-hover:text-secondary-fixed transition-colors">Himachal &amp; Ladakh</h3>
-            </div>
-          </div>
-
-          <!-- Coastal Goa Card -->
-          <div onclick="RaahiDestinations.openDetailModal('goa-coastal')" class="tilt-card masonry-item relative group rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwa8cmYUY11BWjy_6MrkFvRyFkUkPtQItarc5Cppyq93x4W0EK9T7x0They1sHYanh5KEzbJubUXVI-zcYU2fQRjJ_cAmrVUC4rbwdN_k7ZWdT2J4kys7Iekwc7pGLdYdHwz1Zt1viYmPrN3ICN1eiJt_osYnTsb1DoaDer7i7ecQAAAFbz4AottYYBsVKOEdj7k6YwpMFrLKh1RZMDm1t94ByUvQcEqQhipzdK40Pg9mMTH56V6nB" 
-                 alt="Goa" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent flex flex-col justify-end p-6">
-              <span class="text-white/80 text-[11px] font-bold uppercase tracking-wider mb-1">Beaches &amp; Indo-Portuguese Culture</span>
-              <h3 class="font-heading text-xl font-bold text-white group-hover:text-secondary-fixed transition-colors">South Goa Coves</h3>
-            </div>
-          </div>
+        <div id="home-destinations-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Populated by js/app.js -->
         </div>
       </section>
 
-      <!-- 3. Bento Feature Section -->
-      <section class="py-16 px-margin-mobile md:px-margin-desktop bg-surface-container-low dark:bg-surface-container-lowest relative overflow-hidden">
-        <div class="max-w-container-max mx-auto flex flex-col lg:flex-row items-center gap-12">
-          
-          <div class="flex-1 max-w-xl">
-            <div class="inline-flex items-center gap-2 bg-primary-container/10 text-primary dark:text-primary-fixed px-3.5 py-1 rounded-full text-xs font-bold mb-4 border border-primary/20">
-              <span class="material-symbols-outlined text-sm">auto_awesome</span>
-              Intelligent Itineraries
-            </div>
-            <h2 class="font-heading text-2xl sm:text-4xl font-bold text-primary dark:text-inverse-primary mb-4 leading-tight">
-              Your Personal Heritage Concierge.
-            </h2>
-            <p class="text-xs sm:text-sm md:text-base text-on-surface-variant mb-6 leading-relaxed">
-              Our AI doesn't just list places; it crafts experiences. By understanding your preferences, pace, and passions, we generate bespoke journeys that balance iconic sights with secluded treasures.
-            </p>
+      <!-- SECTION 3: EXPLORE BY CATEGORY (6 Premium Cards) -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <span class="text-xs font-extrabold uppercase tracking-wider text-amber-600">Discover by Interest</span>
+          <h2 class="font-heading text-3xl font-extrabold text-stone-900 dark:text-white mt-1">Explore by Category</h2>
+          <p class="text-xs sm:text-sm text-stone-500 mt-1">Everything you need for an unforgettable Indian discovery.</p>
+        </div>
 
-            <button onclick="RaahiApp.navigate('planner')" class="bg-primary text-on-primary text-xs md:text-sm font-semibold px-7 py-3 rounded-xl hover:bg-primary-container transition-colors shadow-sm flex items-center gap-2">
-              <span>Start AI Planner</span>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          
+          <!-- 1. Tourist Places -->
+          <div onclick="RaahiApp.navigate('places')" class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm hover:shadow-xl transition-all cursor-pointer group card-hover">
+            <div class="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-950 text-amber-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-2xl">account_balance</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white mb-2 group-hover:text-amber-600 transition-colors">Tourist Places</h3>
+            <p class="text-xs text-stone-500 dark:text-stone-400 leading-relaxed mb-4">Discover monuments, forts, temples, heritage sites and natural attractions.</p>
+            <span class="text-xs font-bold text-amber-600 flex items-center gap-1">
+              <span>Browse Sights</span>
               <span class="material-symbols-outlined text-sm">arrow_forward</span>
-            </button>
+            </span>
           </div>
 
-          <div class="flex-1 w-full relative">
-            <div class="glass-panel rounded-2xl p-6 shadow-xl ai-gradient-border">
-              <div class="flex items-center justify-between border-b border-outline-variant/20 pb-4 mb-5">
-                <div>
-                  <h4 class="font-heading text-lg font-bold text-primary dark:text-inverse-primary">7-Day Rajasthan Royal Journey</h4>
-                  <p class="text-xs text-on-surface-variant">Curated for Heritage &amp; Luxury</p>
-                </div>
-                <div class="w-9 h-9 rounded-full bg-primary-fixed text-primary-container flex items-center justify-center shadow-inner">
-                  <span class="material-symbols-outlined text-lg">electric_bolt</span>
-                </div>
-              </div>
-
-              <div class="space-y-3 text-xs">
-                <div class="flex items-start gap-3 p-3 rounded-xl bg-white dark:bg-surface-container border border-outline-variant/15">
-                  <div class="w-8 h-8 rounded-full bg-primary text-on-primary font-bold flex items-center justify-center shrink-0">D1</div>
-                  <div>
-                    <h5 class="font-bold text-on-surface">Arrival in Jaipur &amp; Rambagh Palace</h5>
-                    <p class="text-on-surface-variant">Private tour of City Palace archives &amp; candlelit Amer dinner.</p>
-                  </div>
-                </div>
-                <div class="flex items-start gap-3 p-3 rounded-xl bg-white dark:bg-surface-container border border-outline-variant/15">
-                  <div class="w-8 h-8 rounded-full bg-surface-container-high text-primary font-bold flex items-center justify-center shrink-0">D2</div>
-                  <div>
-                    <h5 class="font-bold text-on-surface">Amer Fort &amp; Bagru Textile Masterclass</h5>
-                    <p class="text-on-surface-variant">Early morning fort ascent avoiding crowds, followed by natural block printing.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="mt-5 pt-3 border-t border-outline-variant/20 flex justify-center">
-                <button onclick="RaahiApp.navigate('planner')" class="text-primary dark:text-inverse-primary text-xs font-bold hover:underline flex items-center gap-1">
-                  <span>Open Full Interactive Itinerary</span>
-                  <span class="material-symbols-outlined text-sm">open_in_new</span>
-                </button>
-              </div>
+          <!-- 2. Hotels -->
+          <div onclick="RaahiApp.navigate('hotels')" class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm hover:shadow-xl transition-all cursor-pointer group card-hover">
+            <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-950 text-emerald-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-2xl">hotel</span>
             </div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white mb-2 group-hover:text-emerald-600 transition-colors">Hotels</h3>
+            <p class="text-xs text-stone-500 dark:text-stone-400 leading-relaxed mb-4">Explore hotels and useful stay information.</p>
+            <span class="text-xs font-bold text-emerald-600 flex items-center gap-1">
+              <span>Explore Stays</span>
+              <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </span>
+          </div>
+
+          <!-- 3. Restaurants -->
+          <div onclick="RaahiApp.navigate('restaurants')" class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm hover:shadow-xl transition-all cursor-pointer group card-hover">
+            <div class="w-12 h-12 rounded-xl bg-orange-100 dark:bg-orange-950 text-orange-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-2xl">restaurant</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white mb-2 group-hover:text-orange-600 transition-colors">Restaurants</h3>
+            <p class="text-xs text-stone-500 dark:text-stone-400 leading-relaxed mb-4">Discover local food and restaurants.</p>
+            <span class="text-xs font-bold text-orange-600 flex items-center gap-1">
+              <span>Discover Cuisine</span>
+              <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </span>
+          </div>
+
+          <!-- 4. Events -->
+          <div onclick="RaahiApp.navigate('events')" class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm hover:shadow-xl transition-all cursor-pointer group card-hover">
+            <div class="w-12 h-12 rounded-xl bg-purple-100 dark:bg-purple-950 text-purple-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-2xl">celebration</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white mb-2 group-hover:text-purple-600 transition-colors">Events</h3>
+            <p class="text-xs text-stone-500 dark:text-stone-400 leading-relaxed mb-4">Find festivals, cultural events and experiences.</p>
+            <span class="text-xs font-bold text-purple-600 flex items-center gap-1">
+              <span>View Calendar</span>
+              <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </span>
+          </div>
+
+          <!-- 5. Local Guides -->
+          <div onclick="RaahiApp.navigate('guides')" class="p-6 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm hover:shadow-xl transition-all cursor-pointer group card-hover">
+            <div class="w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-950 text-blue-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-2xl">person_pin</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">Local Guides</h3>
+            <p class="text-xs text-stone-500 dark:text-stone-400 leading-relaxed mb-4">Discover knowledgeable local guides.</p>
+            <span class="text-xs font-bold text-blue-600 flex items-center gap-1">
+              <span>Meet Guides</span>
+              <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </span>
+          </div>
+
+          <!-- 6. Emergency -->
+          <div onclick="RaahiApp.navigate('emergency')" class="p-6 rounded-2xl bg-red-50/60 dark:bg-red-950/20 border border-red-200 dark:border-red-900/40 shadow-sm hover:shadow-xl transition-all cursor-pointer group card-hover">
+            <div class="w-12 h-12 rounded-xl bg-red-100 dark:bg-red-950 text-red-600 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+              <span class="material-symbols-outlined text-2xl">emergency</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-red-700 dark:text-red-400 mb-2">Emergency</h3>
+            <p class="text-xs text-stone-600 dark:text-stone-400 leading-relaxed mb-4">Quickly find nearby emergency services.</p>
+            <span class="text-xs font-bold text-red-600 flex items-center gap-1">
+              <span>Emergency Hub</span>
+              <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </span>
           </div>
 
         </div>
       </section>
 
-      <!-- 4. Curated by Passion (Bento Grid) -->
-      <section class="py-16 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
-        <h2 class="font-heading text-2xl md:text-3xl font-bold text-primary dark:text-inverse-primary text-center mb-10">Curated by Passion</h2>
-        
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[190px]">
-          <div onclick="RaahiExperiences.currentCategory='heritage'; RaahiApp.navigate('experiences');" 
-               class="col-span-2 row-span-2 relative rounded-2xl overflow-hidden group cursor-pointer border border-outline-variant/10 shadow-sm">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCq1IHEhPZ2DXEjlM6niqAcKHNIyYD95PiohA7J6-5PMoP4S4WxC2UkMGWm7xu6-ibvGnNu9DGHr6-gKsj1ircomIfs3Qcg6Bu_j85pGXHqX6OGYUKsggus9W7-WrWHhjcoPhMn9U3W7XbDj9kPMwjbRXGouoaOVPBs6O1bQlumo-trn-_jaglqQje1cNYpE_MaxAgUfdPSCseRW5WyyVJrzDfCnjD7iuqDBJU7XAohu_4X73ZY1jkd" 
-                 alt="Living Heritage" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent p-6 flex flex-col justify-end text-white">
-              <div class="w-10 h-10 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center mb-3 border border-white/30">
-                <span class="material-symbols-outlined text-xl">account_balance</span>
-              </div>
-              <h3 class="font-heading text-xl md:text-2xl font-bold mb-1">Living Heritage</h3>
-              <p class="text-xs text-white/80 hidden sm:block">Palaces, hill forts, and ancient cities that tell stories of millennia.</p>
+      <!-- SECTION 4: AI RECOMMENDATIONS ("Raahi Recommends") -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+          <div>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-amber-600 mb-1">
+              <span class="material-symbols-outlined text-sm">auto_awesome</span>
+              Smart Travel Intelligence
             </div>
-          </div>
-
-          <div onclick="RaahiExperiences.currentCategory='wellness'; RaahiApp.navigate('experiences');" 
-               class="relative rounded-2xl overflow-hidden group cursor-pointer border border-outline-variant/10 shadow-sm bg-surface-container-high hover:bg-primary-container/10 transition-colors p-6 flex flex-col items-center justify-center text-center">
-            <span class="material-symbols-outlined text-4xl text-primary dark:text-primary-fixed mb-2">spa</span>
-            <h3 class="font-heading text-xs sm:text-sm font-bold text-on-surface">Ayurveda &amp; Wellness</h3>
-          </div>
-
-          <div onclick="RaahiExperiences.currentCategory='spiritual'; RaahiApp.navigate('experiences');" 
-               class="relative rounded-2xl overflow-hidden group cursor-pointer border border-outline-variant/10 shadow-sm">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBji1LMGUSkCVSQ_uOOQ06AsKIPjOc07jsCOAJv5c0O64AHqBOZyRqIhzuHYxlDOYDMEtaVZAhoYqNStyKHumOLPRnvLTQH9QBjaMe5dqd1bUCisgBf-Ui4C-o2gPp26xwpJvegWu65YUnwfuke7IA3ybaSIAtrLerxLDR80ObSWJjXcjCQVcYruBqXHIoyO4B3_6_dVy4BF0986j3_LlU3ABuUWXDnN7BQ_885nMYoYp62mT0p6ltS" 
-                 alt="Spiritual Journeys" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90">
-            <div class="absolute inset-0 bg-black/40 p-6 flex flex-col items-center justify-center text-center text-white">
-              <span class="material-symbols-outlined text-3xl mb-2">self_improvement</span>
-              <h3 class="font-heading text-xs sm:text-sm font-bold">Spiritual Journeys</h3>
-            </div>
-          </div>
-
-          <div onclick="RaahiExperiences.currentCategory='adventure'; RaahiApp.navigate('experiences');" 
-               class="col-span-2 md:col-span-1 relative rounded-2xl overflow-hidden group cursor-pointer border border-outline-variant/10 shadow-sm">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMUYBs2pwdiLXpoIPkxjgqCZbUpDDAAs28yxzXCQFPwGmbydQHDhV4vb1HLsKZ0LDUPdLZZ2w74y3o8u8OYphNz3N4JTlFF8TDstt8IW3QB6emgCYOFQG1_ygf3qlT1j0Rd8SWA6jpjVADUymurhnaXEXdNn58FtbWgnkyAs22pb5LpXwBfCYFsYVuZxGrYyBsQkE-LSEn1a2gEznFa-R3cXPJKEWOc1vEJE0pxukWQsfyyurEoMel" 
-                 alt="Wildlife Safari" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent p-6 flex flex-col justify-end text-white">
-              <h3 class="font-heading text-xs sm:text-sm font-bold">Wildlife Safari</h3>
-            </div>
-          </div>
-
-          <div onclick="RaahiExperiences.currentCategory='culinary'; RaahiApp.navigate('experiences');" 
-               class="col-span-2 md:col-span-1 relative rounded-2xl overflow-hidden group cursor-pointer border border-outline-variant/10 shadow-sm bg-surface-container p-6 flex flex-col justify-between">
-            <span class="material-symbols-outlined text-3xl text-secondary">restaurant_menu</span>
-            <div>
-              <h3 class="font-heading text-xs sm:text-sm font-bold text-on-surface mb-0.5">Culinary Trails</h3>
-              <p class="text-[11px] text-on-surface-variant">Taste regional masterpieces.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 5. Editorial Section -->
-      <section class="py-16 px-margin-mobile md:px-margin-desktop bg-surface-container-lowest dark:bg-surface-container-low border-y border-outline-variant/10">
-        <div class="max-w-container-max mx-auto flex flex-col lg:flex-row items-center gap-12">
-          
-          <div class="flex-1 w-full relative">
-            <div class="aspect-[4/3] sm:aspect-[4/5] rounded-2xl overflow-hidden shadow-lg relative">
-              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIQn-NWvuVhnzSjB6yjYpNS5U0WyaDwKz6Mb8sbD9ZCl3kNbGMEUKpDr3hEkU8hksBV5D8lE1DAe49qySVx7fSsk0UygHOYkT02sUSs3WLqAQJnndwH1VmgGoZu94L7lhgvR_3clEMgDEH9ubrPJWBSlT_JD2Bovs_wrVZchO6o8k9ETwHaSWLBJx0IWKexVjfg7iKLqzXh49jODwojyA51C3FqYpzafA8egGfxW6Z9ZsBpUwQrCdB" 
-                   alt="Adalaj Stepwell" class="w-full h-full object-cover">
-              <div class="absolute bottom-4 left-4 right-4 bg-white/80 dark:bg-black/80 backdrop-blur-md rounded-xl p-3.5 border border-white/40 shadow-lg">
-                <span class="text-[10px] font-bold text-secondary uppercase tracking-widest block mb-0.5">Featured Secret</span>
-                <h4 class="font-heading text-sm font-bold text-primary dark:text-inverse-primary">Adalaj Stepwell, Gujarat</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="flex-1">
-            <span class="text-xs font-bold text-secondary uppercase tracking-widest block mb-1">Untold Stories</span>
-            <h2 class="font-heading text-2xl sm:text-4xl font-bold text-primary dark:text-inverse-primary mb-4 leading-tight">
-              Not Just the Famous Places.
+            <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-stone-900 dark:text-white">
+              Raahi Recommends
             </h2>
-            <p class="text-xs sm:text-sm md:text-base text-on-surface-variant mb-6 leading-relaxed">
-              Beyond the Taj Mahal and the beaches of Goa lies an India that few truly see. Our local experts and AI algorithms surface extraordinary architectural wonders, secluded tribal villages, and untouched natural landscapes.
+            <p class="text-xs sm:text-sm text-stone-500 mt-1">
+              Places selected for your interests and travel preferences.
             </p>
-            <button onclick="RaahiApp.navigate('destinations')" class="px-6 py-2.5 rounded-xl border border-primary/30 text-primary dark:text-inverse-primary font-semibold text-xs hover:bg-primary/5 transition-colors">
-              Explore All Hidden Gems
-            </button>
           </div>
+          <button onclick="RaahiApp.navigate('planner')" class="px-5 py-2.5 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-colors flex items-center gap-1.5 self-start md:self-auto shadow-sm">
+            <span class="material-symbols-outlined text-sm">auto_awesome</span>
+            <span>Plan with AI</span>
+          </button>
+        </div>
 
+        <div id="home-ai-recommendations-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Populated by js/app.js -->
         </div>
       </section>
 
-      <!-- 6. Call to Action Banner -->
-      <section class="py-20 px-margin-mobile md:px-margin-desktop bg-primary text-on-primary text-center relative overflow-hidden">
-        <div class="max-w-2xl mx-auto relative z-10 flex flex-col items-center">
-          <span class="material-symbols-outlined text-secondary-fixed text-5xl mb-4">explore</span>
-          <h2 class="font-heading text-2xl sm:text-4xl font-bold mb-3">Your Next Journey Starts Here.</h2>
-          <p class="text-xs sm:text-sm text-white/80 mb-8 max-w-lg">Let Raahi craft a bespoke voyage as unique as you are. Sophisticated planning, seamless execution.</p>
-          <button onclick="RaahiApp.navigate('planner')" class="bg-white text-primary hover:bg-surface font-bold text-xs sm:text-sm px-8 py-3.5 rounded-xl shadow-xl transition-all flex items-center gap-2">
-            <span>Design My Itinerary</span>
+      <!-- SECTION 5: INTERACTIVE MAP PREVIEW -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="p-8 sm:p-12 rounded-3xl bg-gradient-to-br from-stone-900 to-stone-950 text-white shadow-2xl relative overflow-hidden border border-stone-800">
+          <div class="relative z-10 max-w-xl">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-widest block mb-2">Geographic Exploration</span>
+            <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">
+              Explore Your Journey on the Map
+            </h2>
+            <p class="text-xs sm:text-sm text-stone-300 mb-6 leading-relaxed">
+              Navigate monuments, verified stays, authentic culinary alleys, festivals, local guides, and 24x7 emergency centers across India.
+            </p>
+            <div class="flex flex-wrap gap-3">
+              <button onclick="RaahiApp.navigate('map')" class="px-6 py-3 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shadow-lg transition-all flex items-center gap-2">
+                <span class="material-symbols-outlined text-base">map</span>
+                <span>Open Full Interactive Map</span>
+              </button>
+              <button onclick="RaahiApp.navigate('emergency')" class="px-5 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-xs transition-all flex items-center gap-2 border border-white/20">
+                <span class="material-symbols-outlined text-base text-red-400">emergency</span>
+                <span>Emergency Centers</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: UPCOMING EVENTS ("What's Happening") -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+          <div>
+            <span class="text-xs font-extrabold uppercase tracking-wider text-amber-600">Festivals &amp; Culture</span>
+            <h2 class="font-heading text-3xl font-extrabold text-stone-900 dark:text-white mt-1">What's Happening</h2>
+            <p class="text-xs sm:text-sm text-stone-500 mt-1">Discover cultural festivals, heritage carnivals and rituals.</p>
+          </div>
+          <button onclick="RaahiApp.navigate('events')" class="px-4 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-colors flex items-center gap-1 self-start md:self-auto">
+            <span>View All Events</span>
             <span class="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
         </div>
+
+        <div id="home-events-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Populated by js/events.js -->
+        </div>
+      </section>
+
+      <!-- SECTION 7: LOCAL GUIDES ("Meet the People Who Know the Place") -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+          <div>
+            <span class="text-xs font-extrabold uppercase tracking-wider text-amber-600">Verified Scholars &amp; Experts</span>
+            <h2 class="font-heading text-3xl font-extrabold text-stone-900 dark:text-white mt-1">Meet the People Who Know the Place</h2>
+            <p class="text-xs sm:text-sm text-stone-500 mt-1">Certified heritage scholars and local storytellers.</p>
+          </div>
+          <button onclick="RaahiApp.navigate('guides')" class="px-4 py-2 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-colors flex items-center gap-1 self-start md:self-auto">
+            <span>All Local Guides</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </button>
+        </div>
+
+        <div id="home-guides-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Populated by js/guides.js -->
+        </div>
+      </section>
+
+      <!-- SECTION 8: EMERGENCY SERVICES ("Raahi Has Your Back") -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <div class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-400 text-xs font-extrabold uppercase tracking-wider mb-2">
+            <span class="material-symbols-outlined text-sm">shield</span>
+            24x7 Traveler Safety
+          </div>
+          <h2 class="font-heading text-3xl font-extrabold text-stone-900 dark:text-white">Raahi Has Your Back</h2>
+          <p class="text-xs sm:text-sm text-stone-500 mt-1">Toll-free national emergency response and verified hospital/police hubs.</p>
+        </div>
+
+        <div id="home-emergency-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+          <!-- Populated by js/emergency.js -->
+        </div>
+
+        <div class="text-center">
+          <button onclick="RaahiEmergency.locateNearMe()" class="px-6 py-3.5 rounded-2xl bg-red-600 hover:bg-red-700 text-white font-bold text-xs sm:text-sm shadow-lg shadow-red-600/30 transition-all inline-flex items-center gap-2">
+            <span class="material-symbols-outlined text-base">my_location</span>
+            <span>Find Emergency Services Near Me</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- SECTION 9: COMMUNITY CONTRIBUTIONS ("Help us keep Raahi accurate") -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="p-8 sm:p-10 rounded-3xl bg-amber-50 dark:bg-amber-950/30 border-2 border-amber-200 dark:border-amber-900/60 flex flex-col md:flex-row items-center justify-between gap-6 shadow-sm">
+          <div class="space-y-2 text-center md:text-left">
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase text-amber-700 dark:text-amber-400">
+              <span class="material-symbols-outlined text-base">verified</span>
+              Crowdsourced Verification
+            </div>
+            <h3 class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              Help us keep Raahi accurate
+            </h3>
+            <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 max-w-xl">
+              Found outdated timings, changed ticket tariffs, or new accessibility facilities during your travels? Submit a change request for Chief Curator review.
+            </p>
+          </div>
+          <button onclick="RaahiCommunity.openSuggestModal('general', 'portal', 'Raahi Platform')" class="px-6 py-3 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shrink-0 shadow-md transition-all flex items-center gap-2">
+            <span class="material-symbols-outlined text-base">edit_note</span>
+            <span>Suggest a Change</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- SECTION 10: FINAL CTA ("Start Your Journey with Raahi") -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+        <div class="max-w-3xl mx-auto space-y-6">
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-stone-900 dark:text-white">
+            Start Your Journey with Raahi
+          </h2>
+          <p class="text-xs sm:text-sm md:text-base text-stone-500 max-w-xl mx-auto leading-relaxed">
+            Experience India with verified timings, honest culinary guides, certified local experts, and intelligent AI travel planning.
+          </p>
+          <div class="flex flex-wrap items-center justify-center gap-3">
+            <button onclick="RaahiApp.navigate('places')" class="px-7 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs sm:text-sm shadow-lg shadow-amber-600/20 transition-all">
+              Discover Places
+            </button>
+            <button onclick="RaahiApp.navigate('planner')" class="px-7 py-3.5 rounded-2xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 font-bold text-xs sm:text-sm hover:bg-amber-600 transition-all">
+              Start AI Planner
+            </button>
+          </div>
+        </div>
       </section>
 
     </div>
 
-    <!-- ========================================
-         VIEW 2: DESTINATIONS EXPLORER (#destinations)
-         ======================================== -->
-    <div id="view-destinations" class="view-section hidden-view">
-      <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12">
-        
-        <div class="text-center max-w-2xl mx-auto mb-10">
-          <span class="text-xs font-bold text-secondary uppercase tracking-widest block mb-1">Explore Regions</span>
-          <h1 class="font-heading text-3xl sm:text-4xl font-extrabold text-primary dark:text-inverse-primary mb-3">Discover the Essence of India</h1>
-          <p class="text-xs sm:text-sm text-on-surface-variant">Where millennia of heritage meet intelligent exploration. Find your next transformative journey.</p>
-        </div>
+    <!-- =======================================================================
+         VIEW 2: EXPLORE DESTINATIONS (#view-explore)
+         ======================================================================= -->
+    <div id="view-explore" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-amber-600">Pan-India Discovery</span>
+        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white mt-1">Explore India with Raahi</h1>
+        <p class="text-xs sm:text-sm text-stone-500 mt-2">Discover curated regional hubs across Uttar Pradesh, Rajasthan, Kerala, Delhi, Goa, and Kashmir.</p>
+      </div>
 
-        <div class="glass-panel p-4 rounded-2xl max-w-4xl mx-auto flex flex-col md:flex-row gap-3 shadow-sm mb-8">
-          <div class="flex-1 relative">
-            <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline text-lg">search</span>
-            <input type="text" placeholder="Where do you want to go? (e.g. Himalayas, Backwaters)" 
-                   class="destination-search-input w-full pl-11 pr-4 py-3 bg-surface-container-lowest dark:bg-surface-container border border-outline-variant/30 rounded-xl text-xs sm:text-sm outline-none focus:ring-2 focus:ring-primary">
-          </div>
-          <button onclick="RaahiDestinations.renderDestinations()" class="bg-primary text-on-primary font-semibold text-xs sm:text-sm px-6 py-3 rounded-xl hover:bg-primary-container transition-colors flex items-center justify-center gap-2">
-            <span class="material-symbols-outlined text-base">filter_list</span>
-            Search Destinations
-          </button>
-        </div>
-
-        <!-- Interactive Heritage Map of India -->
-        <div class="mb-14 bg-surface-container dark:bg-surface-container-low p-6 sm:p-8 rounded-3xl border border-outline-variant/20 relative overflow-hidden shadow-inner">
-          <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-2">
-            <div>
-              <span class="text-[11px] font-bold text-secondary uppercase tracking-wider block">Interactive Geo-Explorer</span>
-              <h3 class="font-heading text-xl font-bold text-primary dark:text-inverse-primary flex items-center gap-2">
-                <span class="material-symbols-outlined text-secondary">map</span>
-                Subcontinent Heritage Hotspots
-              </h3>
-            </div>
-            <p class="text-xs text-on-surface-variant">Click any pulsating pin to preview real-time climate, UNESCO status &amp; highlights.</p>
-          </div>
-
-          <div class="relative w-full h-80 sm:h-96 rounded-2xl overflow-hidden bg-gradient-to-tr from-primary/10 via-surface-container-high to-secondary-container/10 border border-outline-variant/30 flex items-center justify-center">
-            <div class="absolute inset-0 opacity-15 flex items-center justify-center pointer-events-none">
-              <span class="material-symbols-outlined text-[240px] text-primary">public</span>
-            </div>
-            <div id="map-hotspots-container" class="absolute inset-0"></div>
-          </div>
-        </div>
-
-        <!-- Region Filter Pills -->
-        <div class="flex gap-2 overflow-x-auto pb-4 mb-10 hide-scrollbar">
-          <button data-region="all" class="region-filter-btn px-5 py-2 rounded-full bg-primary text-on-primary font-semibold text-xs whitespace-nowrap shadow-sm">All Regions</button>
-          <button data-region="north" class="region-filter-btn px-5 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">North India</button>
-          <button data-region="south" class="region-filter-btn px-5 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">South India</button>
-          <button data-region="deserts" class="region-filter-btn px-5 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Deserts &amp; Forts</button>
-          <button data-region="beaches" class="region-filter-btn px-5 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Beaches &amp; Islands</button>
-          <button data-region="central" class="region-filter-btn px-5 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Central &amp; Temples</button>
-          <button data-region="northeast" class="region-filter-btn px-5 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Misty Northeast</button>
-        </div>
-
-        <!-- Iconic Regions Grid -->
-        <div class="mb-14">
-          <h3 class="font-heading text-lg font-bold text-primary dark:text-inverse-primary mb-4 flex items-center gap-2">
-            <span class="material-symbols-outlined text-secondary">explore</span>
-            Iconic Regions
-          </h3>
-          <div id="destinations-iconic-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-        </div>
-
-        <!-- Hidden Gems Section -->
-        <div>
-          <h3 class="font-heading text-lg font-bold text-primary dark:text-inverse-primary mb-4 flex items-center gap-2">
-            <span class="material-symbols-outlined text-secondary">auto_awesome</span>
-            Hidden Gems Curated for You
-          </h3>
-          <div id="destinations-gems-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-        </div>
-
+      <div id="explore-destinations-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Populated by js/app.js -->
       </div>
     </div>
 
-    <!-- ========================================
-         VIEW 3: CURATED EXPERIENCES (#experiences)
-         ======================================== -->
-    <div id="view-experiences" class="view-section hidden-view">
-      <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12">
-        
-        <div class="max-w-3xl mb-8">
-          <span class="text-xs font-bold text-secondary uppercase tracking-widest block mb-1">Bespoke Encounters</span>
-          <h1 class="font-heading text-3xl sm:text-4xl font-extrabold text-primary dark:text-inverse-primary mb-3">
-            Curated <span class="text-secondary">Experiences</span>
+    <!-- =======================================================================
+         VIEW 3: TOURIST PLACES DIRECTORY (#view-places)
+         ======================================================================= -->
+    <div id="view-places" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      
+      <!-- Top Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-wider text-amber-600">Monuments • Forts • Temples</span>
+          <h1 class="font-heading text-3xl sm:text-4xl font-extrabold text-stone-900 dark:text-white mt-1">Discover Amazing Places</h1>
+          <p class="text-xs sm:text-sm text-stone-500 mt-1">Verified timings, ASI ticket fees, and visitor guidelines.</p>
+        </div>
+        <span id="places-count-badge" class="px-3.5 py-1.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 font-bold text-xs self-start md:self-auto">
+          Loading Places...
+        </span>
+      </div>
+
+      <!-- Filters & Search Bar -->
+      <div class="p-4 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm space-y-4 mb-8">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <!-- Search input -->
+          <div class="relative sm:col-span-1">
+            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-stone-400 text-lg">search</span>
+            <input id="places-search-input" type="text" placeholder="Search places..." class="w-full pl-9 pr-3 py-2 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs text-stone-900 dark:text-white outline-none">
+          </div>
+
+          <!-- State filter -->
+          <select id="places-state-filter" class="w-full py-2 px-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-semibold text-stone-900 dark:text-white outline-none cursor-pointer">
+            <option value="all">All States &amp; Regions</option>
+            <option value="Uttar Pradesh">Uttar Pradesh (Lucknow, Varanasi, Agra)</option>
+            <option value="Rajasthan">Rajasthan (Jaipur)</option>
+            <option value="National Capital Territory">Delhi NCR</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Goa">Goa</option>
+          </select>
+
+          <!-- Rating filter -->
+          <select id="places-rating-filter" class="w-full py-2 px-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-semibold text-stone-900 dark:text-white outline-none cursor-pointer">
+            <option value="all">All Ratings (4.0+)</option>
+            <option value="4.7">Top Rated (4.7+ ★)</option>
+            <option value="4.8">Exceptional (4.8+ ★)</option>
+            <option value="4.9">World Wonder (4.9+ ★)</option>
+          </select>
+        </div>
+
+        <!-- Category Filter Chips -->
+        <div class="flex flex-wrap items-center gap-1.5 pt-2 border-t border-stone-100 dark:border-stone-800">
+          <button class="places-cat-btn px-3 py-1.5 rounded-full text-xs font-bold bg-amber-600 text-white transition-colors" data-cat="all">All Categories</button>
+          <button class="places-cat-btn px-3 py-1.5 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 transition-colors" data-cat="Heritage">Heritage &amp; Palaces</button>
+          <button class="places-cat-btn px-3 py-1.5 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 transition-colors" data-cat="Forts">Royal Forts</button>
+          <button class="places-cat-btn px-3 py-1.5 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 transition-colors" data-cat="Ghats">Sacred Ghats</button>
+          <button class="places-cat-btn px-3 py-1.5 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 transition-colors" data-cat="Nature">Lakes &amp; Nature</button>
+        </div>
+      </div>
+
+      <!-- Places Grid -->
+      <div id="places-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered by js/places.js -->
+      </div>
+
+    </div>
+
+    <!-- =======================================================================
+         VIEW 4: HOTELS & HERITAGE STAYS (#view-hotels)
+         ======================================================================= -->
+    <div id="view-hotels" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-600">Heritage Havelis • Eco Resorts</span>
+          <h1 class="font-heading text-3xl sm:text-4xl font-extrabold text-stone-900 dark:text-white mt-1">Hotels &amp; Stays Information</h1>
+          <p class="text-xs sm:text-sm text-stone-500 mt-1">Verified amenities and direct desk contacts (Strictly discovery information, no booking).</p>
+        </div>
+        <span id="hotels-count-badge" class="px-3.5 py-1.5 rounded-full bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 font-bold text-xs">
+          Loading Stays...
+        </span>
+      </div>
+
+      <!-- Search & City Filter -->
+      <div class="p-4 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm mb-8 flex flex-col sm:flex-row items-center gap-3">
+        <div class="relative flex-1 w-full">
+          <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-stone-400 text-lg">search</span>
+          <input id="hotels-search-input" type="text" placeholder="Search hotels, havelis, amenities..." class="w-full pl-9 pr-3 py-2 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs text-stone-900 dark:text-white outline-none">
+        </div>
+        <select id="hotels-city-filter" class="w-full sm:w-64 py-2 px-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-semibold text-stone-900 dark:text-white outline-none cursor-pointer">
+          <option value="all">All Cities</option>
+          <option value="Lucknow">Lucknow</option>
+          <option value="Agra">Agra</option>
+          <option value="Varanasi">Varanasi</option>
+          <option value="Jaipur">Jaipur</option>
+        </select>
+      </div>
+
+      <div id="hotels-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered by js/hotels.js -->
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         VIEW 5: RESTAURANTS & CULINARY GUIDE (#view-restaurants)
+         ======================================================================= -->
+    <div id="view-restaurants" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-wider text-orange-600">Awadhi • Banarasi • Rajasthani</span>
+          <h1 class="font-heading text-3xl sm:text-4xl font-extrabold text-stone-900 dark:text-white mt-1">Culinary &amp; Dining Guide</h1>
+          <p class="text-xs sm:text-sm text-stone-500 mt-1">Authentic century-old kitchens and regional specialty dishes.</p>
+        </div>
+        <span id="restaurants-count-badge" class="px-3.5 py-1.5 rounded-full bg-orange-100 dark:bg-orange-950 text-orange-800 dark:text-orange-300 font-bold text-xs">
+          Loading Restaurants...
+        </span>
+      </div>
+
+      <div class="p-4 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm mb-8 space-y-4">
+        <div class="relative w-full">
+          <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-stone-400 text-lg">search</span>
+          <input id="restaurants-search-input" type="text" placeholder="Search by restaurant name, kebab, thali, chaat..." class="w-full pl-9 pr-3 py-2 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs text-stone-900 dark:text-white outline-none">
+        </div>
+        <div class="flex flex-wrap items-center gap-1.5 pt-2 border-t border-stone-100 dark:border-stone-800">
+          <button class="rest-cuisine-btn px-3 py-1.5 rounded-full text-xs font-bold bg-amber-600 text-white" data-cuisine="all">All Cuisines</button>
+          <button class="rest-cuisine-btn px-3 py-1.5 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-cuisine="Awadhi">Awadhi &amp; Mughlai</button>
+          <button class="rest-cuisine-btn px-3 py-1.5 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-cuisine="Banarasi">Banarasi Chaat</button>
+          <button class="rest-cuisine-btn px-3 py-1.5 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-cuisine="Rajasthani">Rajasthani Thali</button>
+        </div>
+      </div>
+
+      <div id="restaurants-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered by js/restaurants.js -->
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         VIEW 6: CULTURAL EVENTS & FESTIVALS (#view-events)
+         ======================================================================= -->
+    <div id="view-events" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-purple-600">Cultural Calendar</span>
+        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white mt-1">What's Happening in India</h1>
+        <p class="text-xs sm:text-sm text-stone-500 mt-2">Explore living traditions, Dev Deepawali, Taj Mahotsav, and Pushkar Fair.</p>
+      </div>
+
+      <div id="events-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered by js/events.js -->
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         VIEW 7: LOCAL GUIDES DIRECTORY (#view-guides)
+         ======================================================================= -->
+    <div id="view-guides" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs font-extrabold uppercase tracking-wider text-blue-600">Local Experts</span>
+        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white mt-1">Meet the People Who Know the Place</h1>
+        <p class="text-xs sm:text-sm text-stone-500 mt-2">Certified multilingual heritage scholars and master storytellers.</p>
+      </div>
+
+      <div id="guides-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered by js/guides.js -->
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         VIEW 8: INTERACTIVE MAP (#view-map)
+         ======================================================================= -->
+    <div id="view-map" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+        <div>
+          <h1 class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+            Explore Your Journey on the Map
           </h1>
-          <p class="text-xs sm:text-sm md:text-base text-on-surface-variant leading-relaxed">
-            Discover the soul of the subcontinent through meticulously crafted moments. From serene backwaters to royal dining, let Raahi tailor the perfect memory for your voyage.
-          </p>
+          <p class="text-xs text-stone-500">Interactive pan-India pins for Places, Stays, Dining, Events, and Emergency Centers.</p>
         </div>
 
-        <!-- Category Filters -->
-        <div class="flex gap-2 overflow-x-auto pb-4 mb-10 hide-scrollbar">
-          <button data-category="all" class="experience-category-btn px-6 py-2 rounded-full bg-primary text-on-primary font-semibold text-xs whitespace-nowrap shadow-sm">All Experiences</button>
-          <button data-category="heritage" class="experience-category-btn px-6 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Heritage</button>
-          <button data-category="wellness" class="experience-category-btn px-6 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Wellness</button>
-          <button data-category="adventure" class="experience-category-btn px-6 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Adventure</button>
-          <button data-category="culinary" class="experience-category-btn px-6 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Culinary</button>
-          <button data-category="spiritual" class="experience-category-btn px-6 py-2 rounded-full bg-surface-container text-on-surface font-semibold text-xs whitespace-nowrap hover:bg-primary/10 transition-colors">Spiritual</button>
+        <!-- Layer Filters -->
+        <div class="flex flex-wrap items-center gap-1.5">
+          <button class="map-filter-btn px-3 py-1.5 rounded-full text-xs font-bold bg-amber-600 text-white" data-map-layer="all">All Layers</button>
+          <button class="map-filter-btn px-3 py-1.5 rounded-full text-xs font-bold bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-map-layer="places">Places</button>
+          <button class="map-filter-btn px-3 py-1.5 rounded-full text-xs font-bold bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-map-layer="hotels">Hotels</button>
+          <button class="map-filter-btn px-3 py-1.5 rounded-full text-xs font-bold bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-map-layer="restaurants">Dining</button>
+          <button class="map-filter-btn px-3 py-1.5 rounded-full text-xs font-bold bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-map-layer="emergency">Emergency</button>
         </div>
+      </div>
 
-        <!-- Boutique Activities Grid -->
-        <div id="experiences-grid" class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-16"></div>
-
-        <!-- Specialty Curations -->
-        <div>
-          <h3 class="font-heading text-xl font-bold text-primary dark:text-inverse-primary mb-6">Specialty Curations</h3>
-          <div id="specialty-curations-container" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
-        </div>
-
+      <!-- Large Interactive Leaflet Map Canvas -->
+      <div class="w-full h-[600px] rounded-3xl overflow-hidden shadow-xl border border-stone-200 dark:border-stone-800 relative">
+        <div id="raahi-interactive-map" class="w-full h-full z-10"></div>
       </div>
     </div>
 
-    <!-- ========================================
-         VIEW 4: AI TRIP PLANNER (#planner)
-         ======================================== -->
-    <div id="view-planner" class="view-section hidden-view">
-      <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12 flex flex-col xl:flex-row gap-8">
-        
-        <!-- Left: Planner Input Controls -->
-        <aside class="w-full xl:w-1/3 flex flex-col gap-6">
-          <div class="glass-panel rounded-2xl p-6 shadow-sm border border-outline-variant/20">
-            <div class="flex justify-between items-center mb-2">
-              <h1 class="font-heading text-2xl font-bold text-primary dark:text-inverse-primary">Design Your Journey</h1>
-            </div>
-            <div class="mb-4">
-              <span class="ai-engine-status-badge inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-bold bg-yellow-500/10 text-yellow-700 dark:text-yellow-300 border border-yellow-500/20">
-                <span class="w-2 h-2 rounded-full bg-yellow-500 inline-block"></span>
-                <span>Client ML Engine Active</span>
-              </span>
-            </div>
-            <p class="text-xs text-on-surface-variant mb-6">Our Heritage Intelligence engine will craft a bespoke itinerary.</p>
-            
-            <form id="planner-form" class="space-y-4" onsubmit="event.preventDefault();">
-              <div>
-                <label class="block text-xs font-bold text-on-surface mb-1">Destination</label>
-                <div class="relative">
-                  <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-lg">location_on</span>
-                  <input id="planner-destination-input" type="text" placeholder="e.g. Rajasthan, Kerala, Ladakh" 
-                         value="Rajasthan (Jaipur, Jodhpur, Udaipur)"
-                         class="w-full pl-9 pr-3 py-2.5 rounded-xl border border-surface-dim bg-white dark:bg-surface-container text-xs font-medium focus:ring-2 focus:ring-primary focus:border-transparent outline-none">
-                </div>
-              </div>
+    <!-- =======================================================================
+         VIEW 9: EMERGENCY SAFETY HUB (#view-emergency)
+         ======================================================================= -->
+    <div id="view-emergency" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-400 text-xs font-extrabold uppercase tracking-wider mb-2">
+          <span class="material-symbols-outlined text-sm text-red-600">emergency</span>
+          24x7 National Support
+        </div>
+        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white">Raahi Has Your Back</h1>
+        <p class="text-xs sm:text-sm text-stone-500 mt-2">Instant toll-free access to Police, Medical Trauma, Fire, and Tourist Helplines.</p>
+      </div>
 
-              <div class="grid grid-cols-2 gap-3">
-                <div>
-                  <label class="block text-xs font-bold text-on-surface mb-1">Start Date</label>
-                  <input id="planner-start-date" type="date" value="2026-10-12"
-                         class="w-full px-3 py-2.5 rounded-xl border border-surface-dim bg-white dark:bg-surface-container text-xs font-medium focus:ring-2 focus:ring-primary outline-none">
-                </div>
-                <div>
-                  <label class="block text-xs font-bold text-on-surface mb-1">End Date</label>
-                  <input id="planner-end-date" type="date" value="2026-10-18"
-                         class="w-full px-3 py-2.5 rounded-xl border border-surface-dim bg-white dark:bg-surface-container text-xs font-medium focus:ring-2 focus:ring-primary outline-none">
-                </div>
-              </div>
+      <!-- Helplines Grid -->
+      <div id="emergency-helplines-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <!-- Rendered by js/emergency.js -->
+      </div>
 
-              <div>
-                <label class="block text-xs font-bold text-on-surface mb-2">Curated Interests</label>
-                <div class="flex flex-wrap gap-2">
-                  <button type="button" data-interest="History & Heritage" class="interest-chip px-3 py-1.5 rounded-full bg-primary text-on-primary text-xs font-medium transition-colors">History &amp; Heritage</button>
-                  <button type="button" data-interest="Wellness" class="interest-chip px-3 py-1.5 rounded-full bg-surface-container text-on-surface text-xs font-medium hover:bg-primary/10 transition-colors">Wellness</button>
-                  <button type="button" data-interest="Culinary" class="interest-chip px-3 py-1.5 rounded-full bg-surface-container text-on-surface text-xs font-medium hover:bg-primary/10 transition-colors">Culinary</button>
-                  <button type="button" data-interest="Adventure" class="interest-chip px-3 py-1.5 rounded-full bg-surface-container text-on-surface text-xs font-medium hover:bg-primary/10 transition-colors">Adventure</button>
-                  <button type="button" data-interest="Spiritual" class="interest-chip px-3 py-1.5 rounded-full bg-surface-container text-on-surface text-xs font-medium hover:bg-primary/10 transition-colors">Spiritual</button>
-                </div>
-              </div>
+      <!-- Verified Centers List -->
+      <div class="space-y-4">
+        <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white">Verified Regional Emergency Stations</h3>
+        <div id="emergency-services-list" class="space-y-3">
+          <!-- Rendered by js/emergency.js -->
+        </div>
+      </div>
+    </div>
 
-              <div class="grid grid-cols-2 gap-3">
-                <div>
-                  <label class="block text-xs font-bold text-on-surface mb-1">Travelers</label>
-                  <select id="planner-travelers" class="w-full px-3 py-2.5 rounded-xl border border-surface-dim bg-white dark:bg-surface-container text-xs font-medium focus:ring-2 focus:ring-primary outline-none">
-                    <option>2 Adults</option>
-                    <option>1 Adult (Solo)</option>
-                    <option>Family (4)</option>
-                    <option>Small Group</option>
-                  </select>
-                </div>
-                <div>
-                  <label class="block text-xs font-bold text-on-surface mb-1">Pace</label>
-                  <select id="planner-pace" class="w-full px-3 py-2.5 rounded-xl border border-surface-dim bg-white dark:bg-surface-container text-xs font-medium focus:ring-2 focus:ring-primary outline-none">
-                    <option>Relaxed</option>
-                    <option>Moderate</option>
-                    <option>Fast Paced</option>
-                  </select>
-                </div>
-              </div>
+    <!-- =======================================================================
+         VIEW 10: AI TRIP PLANNER & ROYAL PASS (#view-planner)
+         ======================================================================= -->
+    <div id="view-planner" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 text-xs font-extrabold uppercase tracking-wider mb-2">
+          <span class="material-symbols-outlined text-sm text-amber-600">auto_awesome</span>
+          Intelligent Itinerary Generator
+        </div>
+        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white">Plan Smarter with Raahi AI</h1>
+        <p class="text-xs sm:text-sm text-stone-500 mt-2">Generate customized day-by-day travel schedules with multi-currency expense forecasts.</p>
+      </div>
 
-              <button id="btn-generate-journey" type="button" class="w-full mt-4 py-3.5 bg-primary text-on-primary font-bold text-xs sm:text-sm rounded-xl hover:bg-primary-container transition-colors shadow-md flex items-center justify-center gap-2 group">
-                <span class="material-symbols-outlined text-base group-hover:rotate-12 transition-transform">auto_awesome</span>
-                Generate My Journey
-              </button>
-            </form>
-          </div>
-        </aside>
-
-        <!-- Right: Interactive Itinerary Timeline -->
-        <section class="w-full xl:w-2/3 flex flex-col gap-5">
-          <div class="glass-panel rounded-2xl p-5 shadow-sm ai-gradient-border flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+        <!-- Planner Config Form -->
+        <div class="p-6 bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 shadow-sm space-y-4">
+          <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white">Journey Parameters</h3>
+          <form id="planner-form" class="space-y-4">
             <div>
-              <h2 id="itinerary-title" class="font-heading text-xl font-bold text-primary dark:text-inverse-primary flex items-center gap-2">
-                <span class="material-symbols-outlined text-secondary">explore</span>
-                Royal Rajasthan Exploratory
-              </h2>
-              <div class="flex items-center gap-3 mt-1 text-xs text-on-surface-variant">
-                <span id="itinerary-subtitle">7 Days • 2 Adults • Relaxed Luxury</span>
-                <span>•</span>
-                <span id="itinerary-budget" class="font-bold text-primary dark:text-primary-fixed">Est: ₹1,85,000</span>
-              </div>
+              <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Destination</label>
+              <select id="plan-dest-select" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-900 dark:text-white">
+                <option value="Lucknow &amp; Varanasi">Lucknow &amp; Varanasi Heritage</option>
+                <option value="Jaipur &amp; Royal Rajasthan">Jaipur &amp; Royal Rajasthan</option>
+                <option value="Agra &amp; Delhi Mughal Triangle">Agra &amp; Delhi Mughal Triangle</option>
+                <option value="Kerala Backwaters">Kerala Backwaters &amp; Munnar</option>
+              </select>
             </div>
-            
-            <div class="flex flex-wrap items-center gap-2">
-              <button id="btn-view-boarding-pass" class="px-3 py-1.5 rounded-xl bg-secondary-fixed text-on-secondary-fixed font-bold text-xs hover:opacity-90 transition-all flex items-center gap-1.5 shadow-sm" title="Generate Royal Travel Pass">
-                <span class="material-symbols-outlined text-sm">confirmation_number</span>
+            <div>
+              <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Duration</label>
+              <select id="plan-days-select" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-900 dark:text-white">
+                <option value="3">3 Days (Long Weekend)</option>
+                <option value="4" selected>4 Days (Classic Heritage)</option>
+                <option value="7">7 Days (Comprehensive Grand Tour)</option>
+              </select>
+            </div>
+            <div>
+              <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Travel Style</label>
+              <select id="plan-budget-select" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-900 dark:text-white">
+                <option value="Heritage Classic">Heritage Classic</option>
+                <option value="Royal Luxury">Royal Luxury</option>
+                <option value="Cultural Explorer">Cultural Explorer</option>
+              </select>
+            </div>
+            <button type="submit" class="w-full py-3.5 bg-amber-600 hover:bg-amber-700 text-white rounded-xl font-bold text-xs shadow-md transition-all flex items-center justify-center gap-2">
+              <span class="material-symbols-outlined text-base">auto_awesome</span>
+              <span>Synthesize AI Itinerary</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Plan Overview Card -->
+        <div class="lg:col-span-2 space-y-6">
+          <div class="p-6 bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Generated Itinerary</span>
+              <h3 id="planner-summary-title" class="font-heading text-xl font-bold text-stone-900 dark:text-white mt-0.5">Loading Plan...</h3>
+              <p class="text-xs text-stone-500 mt-1">Estimated Cost: <span id="planner-summary-cost" class="font-bold text-emerald-600 text-sm font-mono">₹32,000</span></p>
+            </div>
+            <div class="flex items-center gap-2">
+              <!-- Currency Selector -->
+              <select id="planner-currency-select" class="py-2 px-3 bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-800 dark:text-stone-200">
+                <option value="INR">₹ INR</option>
+                <option value="USD">$ USD</option>
+                <option value="EUR">€ EUR</option>
+                <option value="GBP">£ GBP</option>
+                <option value="AED">د.إ AED</option>
+              </select>
+              <button onclick="RaahiPlanner.openRoyalBoardingPass()" class="py-2.5 px-4 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 transition-colors flex items-center gap-1.5 shadow-sm">
+                <span class="material-symbols-outlined text-sm text-amber-400">confirmation_number</span>
                 <span>Royal Pass</span>
               </button>
-              <button id="btn-save-itinerary" class="p-2 rounded-lg bg-surface-container hover:bg-primary/10 text-primary dark:text-inverse-primary transition-colors text-xs font-semibold flex items-center gap-1" title="Save Itinerary">
-                <span class="material-symbols-outlined text-base">bookmark</span>
-                <span class="hidden sm:inline">Save</span>
-              </button>
-              <button id="btn-share-itinerary" class="p-2 rounded-lg bg-surface-container hover:bg-primary/10 text-primary dark:text-inverse-primary transition-colors text-xs font-semibold flex items-center gap-1" title="Share Journey">
-                <span class="material-symbols-outlined text-base">share</span>
-                <span class="hidden sm:inline">Share</span>
-              </button>
-              <button id="btn-export-itinerary" class="p-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container transition-colors text-xs font-semibold flex items-center gap-1" title="Export PDF">
-                <span class="material-symbols-outlined text-base">picture_as_pdf</span>
-                <span class="hidden sm:inline">Export</span>
-              </button>
             </div>
           </div>
 
-          <div id="planner-loading-state" class="hidden glass-panel rounded-2xl p-12 text-center border border-secondary-container/40">
-            <span class="material-symbols-outlined text-4xl text-secondary animate-spin mb-3">progress_activity</span>
-            <h4 class="font-heading text-lg font-bold text-primary dark:text-inverse-primary mb-2">Crafting Your Heritage Itinerary</h4>
-            <p id="planner-loading-text" class="text-xs text-on-surface-variant mb-6">Consulting Heritage Archives &amp; UNESCO databases...</p>
-            <div class="w-full max-w-md mx-auto bg-surface-container-high h-2 rounded-full overflow-hidden">
-              <div id="planner-progress-bar" class="bg-primary h-full transition-all duration-300 w-1/4"></div>
-            </div>
+          <!-- Day by Day Timeline Container -->
+          <div id="planner-days-container" class="space-y-6">
+            <!-- Populated by js/planner.js -->
           </div>
-
-          <div id="planner-content-state" class="space-y-4">
-            <div id="itinerary-timeline-days" class="space-y-4"></div>
-            <div class="glass-panel p-4 rounded-xl text-center border border-dashed border-outline-variant/40 flex items-center justify-center gap-2 text-xs text-on-surface-variant">
-              <span class="material-symbols-outlined text-secondary text-base">sync</span>
-              <span>All days synchronized with seasonal daylight and local temple visiting hours.</span>
-            </div>
-          </div>
-        </section>
-
-      </div>
-    </div>
-
-    <!-- ========================================
-         VIEW 5: TRAVEL JOURNAL (#journal)
-         ======================================== -->
-    <div id="view-journal" class="view-section hidden-view">
-      <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-12">
-        
-        <header class="mb-10 text-center md:text-left">
-          <span class="text-xs font-bold text-secondary uppercase tracking-widest block mb-1">Editorial &amp; Lore</span>
-          <h1 class="font-heading text-3xl sm:text-4xl font-extrabold text-primary dark:text-inverse-primary mb-2">The Raahi Journal</h1>
-          <p class="text-xs sm:text-sm text-on-surface-variant max-w-2xl">Curated stories, cultural insights, and expert guides for the discerning traveler navigating the Indian subcontinent.</p>
-        </header>
-
-        <section class="mb-12">
-          <div class="relative w-full h-[55vh] md:h-[65vh] rounded-2xl overflow-hidden group cursor-pointer shadow-lg" onclick="RaahiJournal.openArticleModal('golden-triangle-echoes')">
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdXZ4USmPjSOnzxnVLU6B-NffIkk11RHEpsErhi7-DmZptarioY9w0qZaIlCaemJGjvh-AHPuwQ8mMvcWG0bD1DnWxJIOHC-xrHTlc21L4pk66ijXuftYe2qxK_Dx5y2SVWsaOKVOdmnoYV5AxK77TnUCVOyqZRZsnKEAAXGI4SBk1SNZBMbLDX5gBAjmbPHbSEyP-0p8XRwAcapLDdcxAViGRK_aa-x_q5aSWgNo9gerZHvYZoe17" 
-                 alt="Featured Story" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-            <div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/90 via-inverse-surface/40 to-transparent"></div>
-            
-            <div class="absolute bottom-0 left-0 p-6 md:p-10 w-full md:w-3/4 text-white">
-              <span class="inline-block px-3 py-1 mb-3 rounded-full bg-secondary-fixed text-on-secondary-fixed text-xs font-bold uppercase tracking-wider">
-                Featured Insight
-              </span>
-              <h2 class="font-heading text-2xl sm:text-3xl md:text-4xl font-bold mb-3 leading-tight group-hover:text-secondary-fixed transition-colors">
-                Echoes of Empire: Traversing the Golden Triangle
-              </h2>
-              <p class="text-xs sm:text-sm text-surface-container-highest mb-6 hidden md:block max-w-xl">
-                A modern exploration of Delhi, Agra, and Jaipur, where centuries of history blend seamlessly with contemporary luxury and sustainable hospitality.
-              </p>
-              <button class="bg-primary text-on-primary px-6 py-2.5 rounded-xl text-xs sm:text-sm font-semibold hover:bg-primary-container transition-colors flex items-center gap-2 shadow-sm">
-                <span>Read Full Story</span>
-                <span class="material-symbols-outlined text-sm">arrow_forward</span>
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          <div class="lg:col-span-8 flex flex-col space-y-6">
-            <div class="flex items-center justify-between border-b border-outline-variant/30 pb-2">
-              <h3 class="font-heading text-lg font-bold text-primary dark:text-inverse-primary">Latest Narratives</h3>
-            </div>
-            <div id="journal-narratives-list" class="space-y-4"></div>
-          </div>
-
-          <aside class="lg:col-span-4 flex flex-col space-y-6">
-            <div class="ai-border-gold glass-panel rounded-2xl p-6 relative overflow-hidden shadow-sm">
-              <div class="flex items-center gap-2 mb-3">
-                <span class="material-symbols-outlined text-secondary fill-1">auto_awesome</span>
-                <h3 class="font-heading text-base font-bold text-primary dark:text-inverse-primary">Raahi Curator</h3>
-              </div>
-              <p class="text-xs text-on-surface-variant mb-4 leading-relaxed">
-                Let our intelligence engine curate a reading list tailored to your upcoming itinerary and personal interests.
-              </p>
-              <div class="space-y-2.5">
-                <button onclick="RaahiJournal.askCurator('I am traveling to Rajasthan and want to understand palace architecture')" 
-                        class="w-full text-left px-3.5 py-2.5 rounded-xl border border-outline-variant/40 hover:border-primary hover:bg-primary/5 transition-all flex items-center justify-between text-xs font-semibold text-on-surface bg-surface-container-lowest">
-                  <span>I'm traveling to Rajasthan</span>
-                  <span class="material-symbols-outlined text-sm text-outline">arrow_forward</span>
-                </button>
-                <button onclick="RaahiJournal.askCurator('I love culinary history and traditional spice heritage in India')" 
-                        class="w-full text-left px-3.5 py-2.5 rounded-xl border border-outline-variant/40 hover:border-primary hover:bg-primary/5 transition-all flex items-center justify-between text-xs font-semibold text-on-surface bg-surface-container-lowest">
-                  <span>I love culinary history</span>
-                  <span class="material-symbols-outlined text-sm text-outline">arrow_forward</span>
-                </button>
-              </div>
-            </div>
-
-            <div>
-              <h3 class="font-heading text-sm font-bold text-primary dark:text-inverse-primary mb-3 border-b border-outline-variant/30 pb-2">Explore by Topic</h3>
-              <div class="grid grid-cols-2 gap-3">
-                <button data-topic="architecture" class="journal-topic-btn p-4 rounded-xl bg-surface-container dark:bg-surface-container-low hover:bg-primary/10 transition-colors text-center flex flex-col items-center justify-center">
-                  <span class="material-symbols-outlined text-2xl text-primary dark:text-inverse-primary mb-1">account_balance</span>
-                  <span class="text-xs font-semibold text-on-surface">Architecture</span>
-                </button>
-                <button data-topic="gastronomy" class="journal-topic-btn p-4 rounded-xl bg-surface-container dark:bg-surface-container-low hover:bg-primary/10 transition-colors text-center flex flex-col items-center justify-center">
-                  <span class="material-symbols-outlined text-2xl text-primary dark:text-inverse-primary mb-1">restaurant</span>
-                  <span class="text-xs font-semibold text-on-surface">Gastronomy</span>
-                </button>
-                <button data-topic="wildlife" class="journal-topic-btn p-4 rounded-xl bg-surface-container dark:bg-surface-container-low hover:bg-primary/10 transition-colors text-center flex flex-col items-center justify-center">
-                  <span class="material-symbols-outlined text-2xl text-primary dark:text-inverse-primary mb-1">forest</span>
-                  <span class="text-xs font-semibold text-on-surface">Wildlife</span>
-                </button>
-                <button data-topic="wellness" class="journal-topic-btn p-4 rounded-xl bg-surface-container dark:bg-surface-container-low hover:bg-primary/10 transition-colors text-center flex flex-col items-center justify-center">
-                  <span class="material-symbols-outlined text-2xl text-primary dark:text-inverse-primary mb-1">spa</span>
-                  <span class="text-xs font-semibold text-on-surface">Wellness</span>
-                </button>
-              </div>
-            </div>
-          </aside>
         </div>
-
       </div>
     </div>
 
-    <!-- ========================================
-         VIEW 6: CURATOR & ADMIN PORTAL (#admin)
-         ======================================== -->
-    <div id="view-admin" class="view-section hidden-view">
-      <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-10">
-        
-        <!-- Admin Dashboard Header -->
-        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-6 border-b border-outline-variant/30 mb-8 gap-4">
+    <!-- =======================================================================
+         VIEW 11: USER DASHBOARD (#view-dashboard)
+         ======================================================================= -->
+    <div id="view-dashboard" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      
+      <!-- Profile Header -->
+      <div class="p-8 rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm mb-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div class="flex items-center gap-4">
+          <img id="dash-user-avatar" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80" alt="Avatar" class="w-20 h-20 rounded-full object-cover border-4 border-amber-500 shadow-md">
           <div>
-            <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed text-xs font-extrabold uppercase tracking-wider mb-2 shadow-sm">
-              <span class="material-symbols-outlined text-sm">shield_person</span>
-              Chief Curator &amp; Operations Portal
-            </div>
-            <h1 class="font-heading text-2xl sm:text-3xl font-extrabold text-primary dark:text-inverse-primary">Raahi Intelligence Dashboard</h1>
-          </div>
-
-          <div class="flex items-center gap-3">
-            <button onclick="RaahiApp.navigate('home')" class="px-4 py-2 rounded-xl border border-outline-variant hover:bg-surface-container text-xs font-semibold transition-colors">
-              Return to Storefront
-            </button>
-            <button onclick="RaahiAuth.logout()" class="px-4 py-2 rounded-xl bg-red-600/10 text-red-700 dark:text-red-300 hover:bg-red-600/20 text-xs font-semibold transition-colors flex items-center gap-1">
-              <span class="material-symbols-outlined text-sm">logout</span>
-              Sign Out
-            </button>
+            <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Welcome Back to Raahi</span>
+            <h1 id="dash-user-name" class="font-heading text-2xl font-bold text-stone-900 dark:text-white mt-0.5">Aakash Verma</h1>
+            <p id="dash-user-email" class="text-xs text-stone-500">aakash.traveler@raahi.in</p>
+            <p id="dash-user-bio" class="text-xs text-stone-600 dark:text-stone-400 mt-1 italic">Heritage explorer &amp; photographer.</p>
           </div>
         </div>
 
-        <!-- KPI Metrics Grid -->
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-          <div class="glass-panel p-5 rounded-2xl border border-outline-variant/20 shadow-sm">
-            <div class="flex justify-between items-start mb-2">
-              <span class="text-xs text-on-surface-variant font-medium">Guest Inquiries</span>
-              <span class="material-symbols-outlined text-primary text-xl">book_online</span>
-            </div>
-            <div class="font-heading text-2xl font-bold text-on-surface" id="admin-stat-reservations">3</div>
-            <span class="text-[11px] text-green-600 font-semibold flex items-center gap-0.5 mt-1">
-              <span class="material-symbols-outlined text-xs">trending_up</span> +18% this week
-            </span>
+        <!-- Quick Stats -->
+        <div class="flex items-center gap-6 border-t md:border-t-0 md:border-l border-stone-200 dark:border-stone-800 pt-4 md:pt-0 md:pl-8">
+          <div class="text-center">
+            <span id="dash-stat-saved" class="text-2xl font-extrabold text-amber-600 font-mono block">4</span>
+            <span class="text-[11px] text-stone-500 font-bold uppercase">Saved Places</span>
           </div>
-
-          <div class="glass-panel p-5 rounded-2xl border border-outline-variant/20 shadow-sm">
-            <div class="flex justify-between items-start mb-2">
-              <span class="text-xs text-on-surface-variant font-medium">Projected Revenue</span>
-              <span class="material-symbols-outlined text-secondary text-xl">payments</span>
-            </div>
-            <div class="font-heading text-2xl font-bold text-on-surface" id="admin-stat-revenue">₹18,82,500</div>
-            <span class="text-[11px] text-on-surface-variant mt-1 block">Luxury &amp; Bespoke Curations</span>
+          <div class="text-center">
+            <span id="dash-stat-reviews" class="text-2xl font-extrabold text-stone-900 dark:text-white font-mono block">2</span>
+            <span class="text-[11px] text-stone-500 font-bold uppercase">Reviews</span>
           </div>
-
-          <div class="glass-panel p-5 rounded-2xl border border-outline-variant/20 shadow-sm">
-            <div class="flex justify-between items-start mb-2">
-              <span class="text-xs text-on-surface-variant font-medium">AI Journeys Generated</span>
-              <span class="material-symbols-outlined text-primary text-xl">auto_awesome</span>
-            </div>
-            <div class="font-heading text-2xl font-bold text-on-surface">1,429</div>
-            <span class="text-[11px] text-green-600 font-semibold flex items-center gap-0.5 mt-1">
-              <span class="material-symbols-outlined text-xs">bolt</span> 99.4% Synthesis Uptime
-            </span>
-          </div>
-
-          <div class="glass-panel p-5 rounded-2xl border border-outline-variant/20 shadow-sm">
-            <div class="flex justify-between items-start mb-2">
-              <span class="text-xs text-on-surface-variant font-medium">Top Trending Region</span>
-              <span class="material-symbols-outlined text-secondary text-xl">location_on</span>
-            </div>
-            <div class="font-heading text-lg font-bold text-primary dark:text-inverse-primary">Royal Rajasthan</div>
-            <span class="text-[11px] text-on-surface-variant mt-1 block">44% of all AI prompt requests</span>
+          <div class="text-center">
+            <span id="dash-stat-contribs" class="text-2xl font-extrabold text-purple-600 font-mono block">3</span>
+            <span class="text-[11px] text-stone-500 font-bold uppercase">Contributions</span>
           </div>
         </div>
-
-        <!-- Main Admin Grid: Left Reservations Table, Right Inventory Manager -->
-        <div class="grid grid-cols-1 xl:grid-cols-12 gap-8">
-          
-          <!-- Guest Inquiries & Booking Manager (8 cols) -->
-          <div class="xl:col-span-8 flex flex-col gap-6">
-            <div class="glass-panel rounded-2xl p-6 shadow-sm border border-outline-variant/20">
-              <div class="flex justify-between items-center pb-4 border-b border-outline-variant/20 mb-4">
-                <div>
-                  <h3 class="font-heading text-lg font-bold text-primary dark:text-inverse-primary">Guest Reservation Requests</h3>
-                  <p class="text-xs text-on-surface-variant">Manage approvals, bespoke requests, and private concierge tickets.</p>
-                </div>
-                <span class="px-3 py-1 bg-primary/10 text-primary dark:text-primary-fixed rounded-full text-xs font-bold">
-                  Real-time Queue
-                </span>
-              </div>
-
-              <!-- Table -->
-              <div class="overflow-x-auto">
-                <table class="w-full text-left border-collapse">
-                  <thead>
-                    <tr class="border-b border-outline-variant/20 text-[11px] font-bold text-on-surface-variant uppercase tracking-wider">
-                      <th class="py-2.5 px-4">Ref #</th>
-                      <th class="py-2.5 px-4">Guest</th>
-                      <th class="py-2.5 px-4">Experience</th>
-                      <th class="py-2.5 px-4">Value</th>
-                      <th class="py-2.5 px-4">Status</th>
-                      <th class="py-2.5 px-4 text-right">Actions</th>
-                    </tr>
-                  </thead>
-                  <tbody id="admin-reservations-tbody">
-                    <!-- Populated dynamically by js/admin.js -->
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-
-          <!-- Inventory & Publishing CMS (4 cols) -->
-          <div class="xl:col-span-4 flex flex-col gap-6">
-            
-            <!-- Quick Add Experience Form -->
-            <div class="glass-panel rounded-2xl p-6 shadow-sm border border-outline-variant/20">
-              <h3 class="font-heading text-base font-bold text-primary dark:text-inverse-primary mb-1">Publish New Experience</h3>
-              <p class="text-xs text-on-surface-variant mb-4">Add a new boutique activity directly to the storefront.</p>
-
-              <form id="admin-add-experience-form" class="space-y-3">
-                <div>
-                  <label class="block text-[11px] font-bold text-on-surface mb-1">Title</label>
-                  <input id="new-exp-title" type="text" placeholder="e.g. Royal Polo & High Tea" required
-                         class="w-full px-3 py-2 text-xs rounded-xl border border-outline-variant/40 bg-surface-container dark:bg-surface-container-high outline-none focus:ring-1 focus:ring-primary">
-                </div>
-
-                <div class="grid grid-cols-2 gap-2">
-                  <div>
-                    <label class="block text-[11px] font-bold text-on-surface mb-1">Category</label>
-                    <select id="new-exp-category" class="w-full px-3 py-2 text-xs rounded-xl border border-outline-variant/40 bg-surface-container dark:bg-surface-container-high outline-none">
-                      <option value="heritage">Heritage</option>
-                      <option value="wellness">Wellness</option>
-                      <option value="adventure">Adventure</option>
-                      <option value="culinary">Culinary</option>
-                      <option value="spiritual">Spiritual</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label class="block text-[11px] font-bold text-on-surface mb-1">Price</label>
-                    <input id="new-exp-price" type="text" placeholder="₹22,000" required
-                           class="w-full px-3 py-2 text-xs rounded-xl border border-outline-variant/40 bg-surface-container dark:bg-surface-container-high outline-none">
-                  </div>
-                </div>
-
-                <div>
-                  <label class="block text-[11px] font-bold text-on-surface mb-1">Location</label>
-                  <input id="new-exp-location" type="text" placeholder="e.g. Jaipur, Rajasthan" required
-                         class="w-full px-3 py-2 text-xs rounded-xl border border-outline-variant/40 bg-surface-container dark:bg-surface-container-high outline-none">
-                </div>
-
-                <div>
-                  <label class="block text-[11px] font-bold text-on-surface mb-1">Description</label>
-                  <textarea id="new-exp-desc" rows="2" placeholder="Brief summary of the experience..."
-                            class="w-full px-3 py-2 text-xs rounded-xl border border-outline-variant/40 bg-surface-container dark:bg-surface-container-high outline-none"></textarea>
-                </div>
-
-                <button type="submit" class="w-full py-2.5 bg-primary text-on-primary rounded-xl font-bold text-xs hover:bg-primary-container transition-colors shadow-sm flex items-center justify-center gap-1.5">
-                  <span class="material-symbols-outlined text-sm">add_circle</span>
-                  Publish Experience
-                </button>
-              </form>
-            </div>
-
-            <!-- Active Experiences Inventory -->
-            <div class="glass-panel rounded-2xl p-6 shadow-sm border border-outline-variant/20">
-              <h3 class="font-heading text-base font-bold text-primary dark:text-inverse-primary mb-3">Live Curations Inventory</h3>
-              <div id="admin-inventory-list" class="space-y-2.5 max-h-72 overflow-y-auto pr-1">
-                <!-- Populated dynamically by js/admin.js -->
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
       </div>
+
+      <!-- Dashboard Tabs (Saved Places / My Reviews / My Contributions) -->
+      <div class="flex items-center gap-2 mb-6">
+        <button class="dash-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-amber-600 text-white" data-tab="saved">My Journey Collection</button>
+        <button class="dash-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-tab="reviews">My Reviews</button>
+        <button class="dash-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-tab="contributions">My Contributions</button>
+      </div>
+
+      <!-- Tab Pane 1: Saved Collection -->
+      <div id="dash-pane-saved" class="dash-tab-pane">
+        <div id="dash-saved-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Populated by js/dashboard.js -->
+        </div>
+      </div>
+
+      <!-- Tab Pane 2: My Reviews -->
+      <div id="dash-pane-reviews" class="dash-tab-pane hidden">
+        <div id="dash-reviews-list" class="space-y-3">
+          <!-- Populated by js/dashboard.js -->
+        </div>
+      </div>
+
+      <!-- Tab Pane 3: My Contributions -->
+      <div id="dash-pane-contributions" class="dash-tab-pane hidden">
+        <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="bg-stone-50 dark:bg-stone-800 text-[10px] uppercase font-bold text-stone-500 tracking-wider">
+                  <th class="py-3 px-4">Request ID</th>
+                  <th class="py-3 px-4">Resource</th>
+                  <th class="py-3 px-4">Change Type</th>
+                  <th class="py-3 px-4">Field</th>
+                  <th class="py-3 px-4">Date</th>
+                  <th class="py-3 px-4">Status</th>
+                </tr>
+              </thead>
+              <tbody id="dash-contributions-table-body">
+                <!-- Populated by js/dashboard.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- =======================================================================
+         VIEW 12: CHIEF CURATOR ADMIN PORTAL (#view-admin)
+         ======================================================================= -->
+    <div id="view-admin" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      
+      <!-- Admin Header -->
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
+        <div>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300 text-xs font-bold uppercase mb-1">
+            <span class="material-symbols-outlined text-sm">shield_person</span>
+            Smart India Hackathon Chief Curator Portal
+          </div>
+          <h1 class="font-heading text-3xl font-extrabold text-stone-900 dark:text-white">Admin &amp; Verification Hub</h1>
+        </div>
+        <button onclick="RaahiAuth.toggleRole()" class="px-4 py-2 rounded-xl bg-stone-100 dark:bg-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:bg-amber-100 transition-colors">
+          Switch to Traveler Mode
+        </button>
+      </div>
+
+      <!-- Statistics KPI Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+        <div class="p-6 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm">
+          <span class="text-[11px] font-bold text-stone-400 uppercase block mb-1">Total Verified Resources</span>
+          <span id="admin-stat-total-res" class="text-3xl font-extrabold text-stone-900 dark:text-white font-mono">30</span>
+        </div>
+        <div class="p-6 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm">
+          <span class="text-[11px] font-bold text-amber-600 uppercase block mb-1">Pending Change Requests</span>
+          <span id="admin-stat-pending" class="text-3xl font-extrabold text-amber-600 font-mono">1</span>
+        </div>
+        <div class="p-6 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm">
+          <span class="text-[11px] font-bold text-emerald-600 uppercase block mb-1">Approved &amp; Applied</span>
+          <span id="admin-stat-approved" class="text-3xl font-extrabold text-emerald-600 font-mono">1</span>
+        </div>
+        <div class="p-6 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm">
+          <span class="text-[11px] font-bold text-red-600 uppercase block mb-1">Rejected Requests</span>
+          <span id="admin-stat-rejected" class="text-3xl font-extrabold text-red-600 font-mono">1</span>
+        </div>
+      </div>
+
+      <!-- Verification Table -->
+      <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm">
+        <div class="p-6 border-b border-stone-200 dark:border-stone-800">
+          <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white">Community Change Requests Queue</h3>
+          <p class="text-xs text-stone-500">Review side-by-side diffs and apply verified corrections directly to the live platform.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-stone-50 dark:bg-stone-800 text-[10px] uppercase font-bold text-stone-500 tracking-wider">
+                <th class="py-3 px-4">ID</th>
+                <th class="py-3 px-4">Resource</th>
+                <th class="py-3 px-4">Field</th>
+                <th class="py-3 px-4">Submitted By</th>
+                <th class="py-3 px-4">Date</th>
+                <th class="py-3 px-4">Status</th>
+                <th class="py-3 px-4 text-right">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="admin-changes-table-body">
+              <!-- Populated by js/admin.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
     </div>
 
   </main>
 
-  <!-- ==========================================
-       GLOBAL FOOTER
-       ========================================== -->
-  <footer class="w-full py-12 bg-surface-container-low dark:bg-inverse-surface border-t border-outline-variant/20 mt-16 transition-colors">
-    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-6">
-      <div class="flex flex-col items-center md:items-start text-center md:text-left">
-        <div class="font-heading text-2xl font-extrabold text-primary dark:text-primary-fixed">Raahi</div>
-        <div class="text-xs text-secondary font-medium italic">Safar aapka planning hamari</div>
-        <p class="text-xs text-on-surface-variant dark:text-outline-variant mt-2">
-          © 2026 Raahi. Heritage Intelligence for the Modern Explorer.
-        </p>
+  <!-- =========================================================================
+       3. GLOBAL FOOTER
+       ========================================================================= -->
+  <footer class="bg-stone-900 text-stone-400 text-xs border-t border-stone-800 pt-16 pb-12 mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        
+        <!-- Brand Info -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-xl bg-amber-600 flex items-center justify-center text-white font-bold">
+              <span class="material-symbols-outlined text-lg">explore</span>
+            </div>
+            <span class="font-heading text-xl font-bold text-white">Raahi</span>
+          </div>
+          <p class="text-stone-400 leading-relaxed text-[11px]">
+            Safar Aapka, Planning Hamari. India's trusted tourism discovery and travel planning companion.
+          </p>
+          <div class="text-amber-400 text-[11px] font-semibold">
+            Smart India Hackathon (SIH) Showcase
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h4 class="font-heading text-xs font-bold uppercase tracking-wider text-white mb-3">Discovery</h4>
+          <ul class="space-y-2 text-[11px]">
+            <li><a href="#places" class="hover:text-amber-400 transition-colors">Tourist Places</a></li>
+            <li><a href="#hotels" class="hover:text-amber-400 transition-colors">Heritage Stays (Info)</a></li>
+            <li><a href="#restaurants" class="hover:text-amber-400 transition-colors">Culinary Guide</a></li>
+            <li><a href="#events" class="hover:text-amber-400 transition-colors">Cultural Festivals</a></li>
+            <li><a href="#guides" class="hover:text-amber-400 transition-colors">Local Guides</a></li>
+          </ul>
+        </div>
+
+        <!-- Features -->
+        <div>
+          <h4 class="font-heading text-xs font-bold uppercase tracking-wider text-white mb-3">Tools &amp; Safety</h4>
+          <ul class="space-y-2 text-[11px]">
+            <li><a href="#map" class="hover:text-amber-400 transition-colors">Interactive Map</a></li>
+            <li><a href="#planner" class="hover:text-amber-400 transition-colors">AI Trip Planner</a></li>
+            <li><a href="#emergency" class="hover:text-red-400 transition-colors font-bold">Emergency SOS (112)</a></li>
+            <li><a href="#dashboard" class="hover:text-amber-400 transition-colors">User Dashboard</a></li>
+            <li><a href="#admin" class="hover:text-purple-400 transition-colors">Chief Curator Portal</a></li>
+          </ul>
+        </div>
+
+        <!-- Helplines -->
+        <div>
+          <h4 class="font-heading text-xs font-bold uppercase tracking-wider text-white mb-3">24x7 Helplines</h4>
+          <div class="space-y-2 text-[11px]">
+            <p><strong>112:</strong> National Emergency SOS</p>
+            <p><strong>1363:</strong> Incredible India Tourist Line</p>
+            <p><strong>108:</strong> Free Ambulance Service</p>
+            <p><strong>1091:</strong> Women Safety Helpline</p>
+          </div>
+        </div>
+
       </div>
 
-      <nav class="flex flex-wrap justify-center gap-6 text-xs text-on-surface-variant font-medium">
-        <a href="#destinations" class="hover:text-primary dark:hover:text-primary-fixed transition-colors">Destinations</a>
-        <a href="#experiences" class="hover:text-primary dark:hover:text-primary-fixed transition-colors">Experiences</a>
-        <a href="#planner" class="hover:text-primary dark:hover:text-primary-fixed transition-colors">AI Planner</a>
-        <a href="#journal" class="hover:text-primary dark:hover:text-primary-fixed transition-colors">Journal</a>
-        <a href="#admin" class="text-secondary font-bold hover:underline transition-colors">Curator Admin</a>
-      </nav>
+      <div class="border-t border-stone-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
+        <p>© 2026 Raahi Tourism Platform. Built with pride for India.</p>
+        <p class="text-stone-500">Strictly for Discovery &amp; Planning • Zero Booking Clutter</p>
+      </div>
     </div>
   </footer>
 
-  <!-- ==========================================
-       GLOBAL FLOATING AI TRAVEL CONCIERGE BUTTON & DRAWER
-       ========================================== -->
+  <!-- =========================================================================
+       4. MODALS & FLOATING AI CONCIERGE
+       ========================================================================= -->
+
+  <!-- Modal 1: Place Detail Modal -->
+  <div id="place-detail-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiPlaces.closeDetailModal()"></div>
+    <div class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10">
+      <div id="place-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Hotel Detail Modal -->
+  <div id="hotel-detail-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiHotels.closeHotelModal()"></div>
+    <div class="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10">
+      <div id="hotel-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Restaurant Detail Modal -->
+  <div id="restaurant-detail-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiRestaurants.closeRestModal()"></div>
+    <div class="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10">
+      <div id="restaurant-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Event Detail Modal -->
+  <div id="event-detail-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiEvents.closeEventModal()"></div>
+    <div class="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10">
+      <div id="event-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Modal 5: Guide Detail Modal -->
+  <div id="guide-detail-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiGuides.closeGuideModal()"></div>
+    <div class="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10">
+      <div id="guide-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Modal 6: Community Suggest a Change Modal -->
+  <div id="suggest-change-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiCommunity.closeSuggestModal()"></div>
+    <div class="relative w-full max-w-lg bg-white dark:bg-stone-900 rounded-3xl shadow-2xl p-6 sm:p-8 z-10 max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between pb-4 border-b border-stone-200 dark:border-stone-800 mb-6">
+        <div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Help Us Keep Raahi Accurate</span>
+          <h3 id="suggest-modal-title" class="font-heading text-lg font-bold text-stone-900 dark:text-white mt-0.5">Suggest a Change</h3>
+        </div>
+        <button onclick="RaahiCommunity.closeSuggestModal()" class="w-8 h-8 rounded-full bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-stone-500">
+          <span class="material-symbols-outlined text-base">close</span>
+        </button>
+      </div>
+
+      <form id="suggest-change-form" class="space-y-4">
+        <div>
+          <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Resource Name</label>
+          <input id="suggest-modal-resource-name" type="text" readonly class="w-full p-3 bg-stone-100 dark:bg-stone-800 rounded-xl text-xs font-bold text-stone-700 dark:text-stone-300 border-none">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Change Type</label>
+            <select id="suggest-type-select" class="w-full p-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-semibold text-stone-900 dark:text-white">
+              <option value="Update Information">Update Information</option>
+              <option value="Correct Information">Correct Information</option>
+              <option value="Report Incorrect Information">Report Incorrect</option>
+              <option value="Suggest Deletion">Suggest Deletion</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Field to Change</label>
+            <select id="suggest-field-select" class="w-full p-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-semibold text-stone-900 dark:text-white">
+              <option value="Entry Fee">Entry Fee / Ticket Tariff</option>
+              <option value="Opening Hours">Opening Hours / Timings</option>
+              <option value="Contact Information">Contact Information</option>
+              <option value="Facilities &amp; Accessibility">Facilities &amp; Accessibility</option>
+              <option value="General Description">General Description</option>
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Current Information (Optional)</label>
+          <input id="suggest-current-val" type="text" placeholder="As currently displayed" class="w-full p-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs text-stone-900 dark:text-white">
+        </div>
+
+        <div>
+          <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Suggested Information *</label>
+          <textarea id="suggest-new-val" rows="2" placeholder="e.g. Revised entry fee is ₹60 for Indian nationals..." class="w-full p-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs text-stone-900 dark:text-white" required></textarea>
+        </div>
+
+        <div>
+          <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Reason / Context *</label>
+          <textarea id="suggest-reason" rows="2" placeholder="e.g. Visited yesterday and ticket counter displayed the new rate notice." class="w-full p-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs text-stone-900 dark:text-white" required></textarea>
+        </div>
+
+        <button type="submit" class="w-full py-3 bg-amber-600 hover:bg-amber-700 text-white rounded-xl text-xs font-bold shadow-md transition-all">
+          Submit Change Request
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal 7: Admin Side-by-Side Diff Review Modal -->
+  <div id="admin-diff-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiAdmin.closeDiffModal()"></div>
+    <div class="relative w-full max-w-2xl bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10 max-h-[90vh] overflow-y-auto">
+      <div id="admin-diff-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- Modal 8: Royal Boarding Pass Modal -->
+  <div id="royal-boarding-pass-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiPlanner.closeRoyalBoardingPass()"></div>
+    <div class="relative w-full max-w-2xl z-10">
+      <div id="royal-pass-content"></div>
+    </div>
+  </div>
+
+  <!-- Modal 9: Auth Sign-In / Register Modal -->
+  <div id="auth-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiAuth.closeAuthModal()"></div>
+    <div class="relative w-full max-w-md bg-white dark:bg-stone-900 rounded-3xl shadow-2xl p-6 sm:p-8 z-10">
+      <div class="flex items-center justify-between pb-4 border-b border-stone-200 dark:border-stone-800 mb-6">
+        <div>
+          <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Raahi Access</span>
+          <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white">Account Authentication</h3>
+        </div>
+        <button onclick="RaahiAuth.closeAuthModal()" class="w-8 h-8 rounded-full bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-stone-500">
+          <span class="material-symbols-outlined text-base">close</span>
+        </button>
+      </div>
+
+      <div class="space-y-3">
+        <p class="text-xs text-stone-500 mb-4">Choose an account profile to test the Raahi platform:</p>
+        
+        <button onclick="RaahiAuth.loginAs('traveler')" class="w-full p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 text-left hover:bg-amber-100 transition-colors flex items-center gap-3">
+          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80" alt="Traveler" class="w-12 h-12 rounded-full object-cover border-2 border-amber-600">
+          <div>
+            <h5 class="text-xs font-bold text-stone-900 dark:text-white">Aakash Verma (Traveler)</h5>
+            <p class="text-[11px] text-stone-500">Access saved places, custom reviews &amp; contributions.</p>
+          </div>
+        </button>
+
+        <button onclick="RaahiAuth.loginAs('admin')" class="w-full p-4 rounded-2xl bg-purple-50 dark:bg-purple-950/40 border border-purple-300 dark:border-purple-800 text-left hover:bg-purple-100 transition-colors flex items-center gap-3">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80" alt="Admin" class="w-12 h-12 rounded-full object-cover border-2 border-purple-600">
+          <div>
+            <h5 class="text-xs font-bold text-purple-900 dark:text-purple-300">Vikramaditya (Chief Curator)</h5>
+            <p class="text-[11px] text-stone-500">Access Admin Dashboard, KPI stats &amp; Diff verification.</p>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 10: Global Quick Search (Ctrl+K) -->
+  <div id="global-search-modal" class="fixed inset-0 z-50 hidden flex items-start justify-center pt-20 p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiApp.closeGlobalSearch()"></div>
+    <div class="relative w-full max-w-xl bg-white dark:bg-stone-900 rounded-3xl shadow-2xl border border-stone-200 dark:border-stone-800 overflow-hidden z-10">
+      <div class="p-4 border-b border-stone-200 dark:border-stone-800 flex items-center gap-3">
+        <span class="material-symbols-outlined text-stone-400">search</span>
+        <input id="global-search-modal-input" type="text" placeholder="Search monuments, stays, dining, events..." class="w-full bg-transparent text-sm font-semibold text-stone-900 dark:text-white outline-none border-none focus:ring-0">
+        <button onclick="RaahiApp.closeGlobalSearch()" class="px-2 py-1 bg-stone-100 dark:bg-stone-800 text-stone-500 rounded text-[10px] font-mono">ESC</button>
+      </div>
+      <div id="global-search-results" class="max-h-80 overflow-y-auto">
+        <div class="p-6 text-center text-xs text-stone-400">Type to discover monuments, stays, food, and events...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating AI Heritage Concierge FAB & Slide-Over Drawer -->
   <div class="fixed bottom-6 right-6 z-40">
-    <button id="ai-concierge-trigger" class="flex items-center gap-2 bg-primary hover:bg-primary-container text-on-primary px-4 py-3.5 rounded-full shadow-2xl transition-all hover:scale-105 border border-secondary-fixed/40 glow-gold">
-      <span class="material-symbols-outlined text-secondary-fixed fill-1 text-xl">auto_awesome</span>
-      <span class="text-xs font-bold hidden sm:inline">Ask Raahi AI</span>
+    <button id="ai-fab-toggle" class="w-14 h-14 rounded-full bg-amber-600 hover:bg-amber-700 text-white shadow-2xl flex items-center justify-center transition-all hover:scale-110 relative group" title="Ask Raahi AI">
+      <span class="material-symbols-outlined text-2xl">auto_awesome</span>
+      <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-emerald-500 border-2 border-white rounded-full animate-ping"></span>
+      <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-emerald-500 border-2 border-white rounded-full"></span>
     </button>
   </div>
 
-  <aside id="ai-concierge-drawer" class="fixed top-0 right-0 h-full w-full sm:w-96 bg-surface dark:bg-inverse-surface z-50 shadow-2xl border-l border-outline-variant/20 transform translate-x-full transition-transform duration-300 flex flex-col">
-    <div class="p-4 border-b border-outline-variant/20 flex justify-between items-center bg-surface-container dark:bg-surface-container-high">
-      <div class="flex items-center gap-2.5">
-        <div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center">
-          <span class="material-symbols-outlined text-sm text-secondary-fixed">auto_awesome</span>
+  <div id="ai-concierge-drawer" class="fixed top-0 right-0 h-full w-full sm:w-96 bg-white dark:bg-stone-900 shadow-2xl border-l border-stone-200 dark:border-stone-800 z-50 transform translate-x-full transition-transform duration-300 flex flex-col justify-between">
+    <div class="p-4 border-b border-stone-200 dark:border-stone-800 flex items-center justify-between bg-amber-50/50 dark:bg-amber-950/20">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-full bg-amber-600 text-white flex items-center justify-center">
+          <span class="material-symbols-outlined text-base">auto_awesome</span>
         </div>
         <div>
-          <h3 class="font-heading text-sm font-bold text-on-surface">Raahi AI Concierge</h3>
-          <span class="text-[10px] text-on-surface-variant flex items-center gap-1">
-            <span class="w-1.5 h-1.5 rounded-full bg-green-500 inline-block"></span> Heritage Engine Active
-          </span>
+          <h4 class="font-heading text-sm font-bold text-stone-900 dark:text-white">Raahi AI Concierge</h4>
+          <span class="text-[10px] text-emerald-600 dark:text-emerald-400 font-bold">● Active Heritage Companion</span>
         </div>
       </div>
-      <button id="ai-concierge-close" class="p-1.5 rounded-full hover:bg-black/10 text-on-surface">
-        <span class="material-symbols-outlined text-lg">close</span>
+      <button id="ai-drawer-close" class="p-1.5 text-stone-500 hover:text-stone-900">
+        <span class="material-symbols-outlined">close</span>
       </button>
     </div>
 
-    <div id="ai-chat-messages" class="flex-1 p-4 overflow-y-auto space-y-3"></div>
-
-    <div class="p-3 border-t border-outline-variant/10 bg-surface-container-low dark:bg-surface-container-lowest">
-      <span class="text-[10px] uppercase tracking-wider text-outline font-bold block mb-1.5">Suggested Inquiries</span>
-      <div class="flex flex-wrap gap-1.5">
-        <button class="ai-prompt-chip px-2.5 py-1 bg-surface dark:bg-surface-container rounded-lg text-[11px] text-on-surface hover:bg-primary/10 transition-colors border border-outline-variant/20">
-          What to wear in temples?
-        </button>
-        <button class="ai-prompt-chip px-2.5 py-1 bg-surface dark:bg-surface-container rounded-lg text-[11px] text-on-surface hover:bg-primary/10 transition-colors border border-outline-variant/20">
-          Best season for Kerala?
-        </button>
-        <button class="ai-prompt-chip px-2.5 py-1 bg-surface dark:bg-surface-container rounded-lg text-[11px] text-on-surface hover:bg-primary/10 transition-colors border border-outline-variant/20">
-          Luxury palace dining tips
-        </button>
+    <!-- AI Messages Container -->
+    <div id="ai-messages-container" class="p-4 flex-1 overflow-y-auto space-y-3">
+      <div class="flex items-start gap-2 mb-3">
+        <div class="w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0">R</div>
+        <div class="bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200 rounded-2xl rounded-tl-none px-4 py-3 max-w-[85%] text-xs shadow-sm space-y-1">
+          <p><strong>Namaste!</strong> I am your Raahi AI Heritage Concierge. Ask me about:</p>
+          <p>• Bara Imambara acoustic labyrinth &amp; timings</p>
+          <p>• Best sunrise boat spots in Varanasi</p>
+          <p>• Authentic Awadhi Galouti kebabs in Lucknow</p>
+          <p>• 24x7 Tourist Helpline (1363 / 112)</p>
+        </div>
       </div>
     </div>
 
-    <div class="p-3 border-t border-outline-variant/20 bg-surface dark:bg-inverse-surface">
-      <div class="flex gap-2">
-        <input id="ai-concierge-input" type="text" placeholder="Ask about routes, heritage, weather..." 
-               class="flex-1 px-3 py-2 text-xs rounded-xl border border-outline-variant/40 bg-surface-container dark:bg-surface-container-high text-on-surface focus:ring-2 focus:ring-primary outline-none">
-        <button id="ai-concierge-send" class="w-9 h-9 rounded-xl bg-primary text-on-primary flex items-center justify-center hover:bg-primary-container transition-colors shrink-0">
-          <span class="material-symbols-outlined text-sm">send</span>
+    <!-- AI Input Form -->
+    <div class="p-3 border-t border-stone-200 dark:border-stone-800">
+      <form id="ai-chat-form" class="flex items-center gap-2">
+        <input id="ai-chat-input" type="text" placeholder="Ask about places, timings, kebabs..." class="flex-1 px-3.5 py-2.5 bg-stone-100 dark:bg-stone-800 border-none rounded-xl text-xs text-stone-900 dark:text-white outline-none focus:ring-1 focus:ring-amber-600">
+        <button type="submit" class="p-2.5 rounded-xl bg-amber-600 text-white hover:bg-amber-700 transition-colors">
+          <span class="material-symbols-outlined text-base">send</span>
         </button>
-      </div>
-    </div>
-  </aside>
-
-  <!-- ==========================================
-       MODALS: AUTH LOGIN MODAL (USER / ADMIN)
-       ========================================== -->
-  <div id="auth-modal" class="fixed inset-0 z-50 modal-backdrop hidden flex items-center justify-center p-4">
-    <div class="bg-surface dark:bg-inverse-surface max-w-md w-full rounded-3xl shadow-2xl border border-outline-variant/30 overflow-hidden relative">
-      <button onclick="RaahiAuth.closeAuthModal()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-surface-container hover:bg-black/10 flex items-center justify-center text-on-surface transition-colors">
-        <span class="material-symbols-outlined text-lg">close</span>
-      </button>
-
-      <div class="p-6 sm:p-8">
-        <!-- Role Tabs -->
-        <div class="flex p-1 bg-surface-container dark:bg-surface-container-high rounded-2xl mb-6">
-          <button id="auth-tab-user" onclick="RaahiAuth.setAuthTab('user')" class="flex-1 py-2 rounded-xl text-xs font-bold transition-all bg-primary text-on-primary shadow-sm flex items-center justify-center gap-1.5">
-            <span class="material-symbols-outlined text-base">person</span>
-            Traveler
-          </button>
-          <button id="auth-tab-admin" onclick="RaahiAuth.setAuthTab('admin')" class="flex-1 py-2 rounded-xl text-xs font-bold transition-all text-on-surface hover:text-primary flex items-center justify-center gap-1.5">
-            <span class="material-symbols-outlined text-base">shield_person</span>
-            Curator Admin
-          </button>
-        </div>
-
-        <div class="mb-5 text-center">
-          <h3 id="auth-modal-role-title" class="font-heading text-xl font-bold text-primary dark:text-inverse-primary">Welcome, Traveler</h3>
-          <p id="auth-modal-role-subtitle" class="text-xs text-on-surface-variant mt-0.5">Sign in to access saved journeys, boarding passes &amp; wishlist.</p>
-        </div>
-
-        <!-- Quick 1-Click Demo Logins -->
-        <div class="space-y-2 mb-6">
-          <button onclick="RaahiAuth.login('user', 'Prabhat Dubey', 'prabhat@raahi.ai')" class="w-full py-2.5 px-4 rounded-xl bg-primary/10 hover:bg-primary/20 text-primary dark:text-primary-fixed text-xs font-bold transition-colors flex items-center justify-center gap-2 border border-primary/20">
-            <span class="material-symbols-outlined text-base">bolt</span>
-            ⚡ One-Click Login as Traveler (Prabhat)
-          </button>
-          <button onclick="RaahiAuth.login('admin', 'Aarav Sharma', 'admin@raahi.ai')" class="w-full py-2.5 px-4 rounded-xl bg-secondary-fixed/50 hover:bg-secondary-fixed text-on-secondary-fixed text-xs font-bold transition-colors flex items-center justify-center gap-2 border border-secondary/30">
-            <span class="material-symbols-outlined text-base">admin_panel_settings</span>
-            ⚡ One-Click Login as Curator Admin
-          </button>
-        </div>
-
-        <div class="relative flex py-2 items-center mb-4">
-          <div class="flex-grow border-t border-outline-variant/30"></div>
-          <span class="flex-shrink mx-3 text-[11px] text-outline font-semibold uppercase tracking-wider">or custom login</span>
-          <div class="flex-grow border-t border-outline-variant/30"></div>
-        </div>
-
-        <!-- Form -->
-        <form id="auth-form" class="space-y-3.5">
-          <input type="radio" name="auth-role" id="role-radio-user" value="user" checked class="hidden">
-          <input type="radio" name="auth-role" id="role-radio-admin" value="admin" class="hidden">
-
-          <div>
-            <label class="block text-xs font-bold text-on-surface mb-1">Email Address</label>
-            <input id="auth-email" type="email" value="traveler@raahi.ai" required
-                   class="w-full px-3.5 py-2.5 rounded-xl border border-outline-variant/40 bg-surface-container dark:bg-surface-container-high text-xs outline-none focus:ring-2 focus:ring-primary">
-          </div>
-
-          <div>
-            <label class="block text-xs font-bold text-on-surface mb-1">Password</label>
-            <input id="auth-password" type="password" value="••••••••" required
-                   class="w-full px-3.5 py-2.5 rounded-xl border border-outline-variant/40 bg-surface-container dark:bg-surface-container-high text-xs outline-none focus:ring-2 focus:ring-primary">
-          </div>
-
-          <button type="submit" class="w-full py-3 bg-primary text-on-primary rounded-xl font-bold text-xs hover:bg-primary-container transition-colors shadow-md">
-            Authenticate &amp; Enter
-          </button>
-        </form>
-      </div>
+      </form>
     </div>
   </div>
 
-  <!-- ==========================================
-       MODALS: OTHER SYSTEM MODALS
-       ========================================== -->
-  <div id="destination-detail-modal" class="fixed inset-0 z-50 modal-backdrop hidden flex items-center justify-center p-4">
-    <div class="bg-surface dark:bg-inverse-surface max-w-2xl w-full max-h-[90vh] overflow-y-auto rounded-2xl shadow-2xl border border-outline-variant/20" id="destination-modal-content"></div>
-  </div>
+  <!-- =========================================================================
+       5. JAVASCRIPT MODULE IMPORTS
+       ========================================================================= -->
+  <!-- Leaflet.js Interactive Map -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
-  <div id="experience-booking-modal" class="fixed inset-0 z-50 modal-backdrop hidden flex items-center justify-center p-4">
-    <div class="bg-surface dark:bg-inverse-surface max-w-2xl w-full max-h-[90vh] overflow-y-auto rounded-2xl shadow-2xl border border-outline-variant/20" id="experience-modal-content"></div>
-  </div>
-
-  <div id="journal-reader-modal" class="fixed inset-0 z-50 modal-backdrop hidden flex items-center justify-center p-4">
-    <div class="bg-surface dark:bg-inverse-surface max-w-3xl w-full max-h-[92vh] overflow-y-auto rounded-2xl shadow-2xl border border-outline-variant/20" id="journal-modal-content"></div>
-  </div>
-
-  <div id="royal-pass-modal" class="fixed inset-0 z-50 modal-backdrop hidden flex items-center justify-center p-4">
-    <div class="bg-surface dark:bg-inverse-surface max-w-2xl w-full max-h-[92vh] overflow-y-auto rounded-2xl shadow-2xl border border-outline-variant/20" id="royal-pass-modal-content"></div>
-  </div>
-
-  <!-- ==========================================
-       SCRIPTS
-       ========================================== -->
+  <!-- Raahi Submodules -->
   <script src="js/data.js"></script>
-  <script src="js/api.js"></script>
   <script src="js/auth.js"></script>
-  <script src="js/shader.js"></script>
+  <script src="js/places.js"></script>
+  <script src="js/hotels.js"></script>
+  <script src="js/restaurants.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/guides.js"></script>
+  <script src="js/emergency.js"></script>
+  <script src="js/map.js"></script>
   <script src="js/planner.js"></script>
-  <script src="js/destinations.js"></script>
-  <script src="js/experiences.js"></script>
-  <script src="js/journal.js"></script>
-  <script src="js/ai-concierge.js"></script>
+  <script src="js/community.js"></script>
+  <script src="js/dashboard.js"></script>
   <script src="js/admin.js"></script>
+  <script src="js/ai-concierge.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

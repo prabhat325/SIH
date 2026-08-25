@@ -271,3 +271,23 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   background: var(--color-outline-variant);
   opacity: 0.35;
 }
+
+/* Card Hover & Zoom Effects */
+.card-hover {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+.img-zoom {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-hover:hover .img-zoom {
+  transform: scale(1.05);
+}
+
+/* Custom Leaflet Marker Reset */
+.custom-leaflet-marker {
+  background: transparent;
+  border: none;
+}

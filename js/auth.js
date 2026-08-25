@@ -1,96 +1,169 @@
 /**
- * RAAHI - Authentication & User State Module
- * Supports Traveler & Curator Admin roles, demo credentials, profile dropdown, and session management.
+ * RAAHI — Authentication & User State Management
+ * Supports Traveler session, Chief Curator Admin, Login/Register modals, and Saved Items.
  */
 
 const RaahiAuth = {
   currentUser: null,
+  savedItems: [], // Array of item IDs saved by user
+  myReviews: [],
+  myContributions: [],
 
   init() {
-    this.loadSession();
-    this.bindEvents();
-    this.updateHeaderUI();
+    this.loadState();
+    this.renderHeaderAuth();
   },
 
-  loadSession() {
-    const saved = localStorage.getItem('raahi_user_session');
-    if (saved) {
-      try {
-        this.currentUser = JSON.parse(saved);
-      } catch (e) {
-        this.currentUser = null;
+  loadState() {
+    try {
+      const savedUser = localStorage.getItem('raahi_user');
+      if (savedUser) {
+        this.currentUser = JSON.parse(savedUser);
+      } else {
+        // Default demo traveler session
+        this.currentUser = {
+          id: "usr-demo",
+          name: "Aakash Verma",
+          email: "aakash.traveler@raahi.in",
+          role: "traveler", // "traveler" | "admin"
+          avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80",
+          bio: "Heritage explorer, photographer & cultural enthusiast."
+        };
       }
+
+      const savedList = localStorage.getItem('raahi_saved');
+      if (savedList) {
+        this.savedItems = JSON.parse(savedList);
+      } else {
+        this.savedItems = ["bara-imambara", "taj-mahal", "dashashwamedh-ghat", "tunday-kababi-lucknow"];
+      }
+
+      const reviewsList = localStorage.getItem('raahi_reviews');
+      if (reviewsList) {
+        this.myReviews = JSON.parse(reviewsList);
+      } else {
+        this.myReviews = [
+          {
+            id: "rev-1",
+            resourceId: "bara-imambara",
+            resourceName: "Bara Imambara & Bhool Bhulaiya",
+            rating: 5,
+            comment: "The acoustic engineering of the central hall is unbelievable. Make sure to hire a licensed guide for the Bhool Bhulaiya labyrinth!",
+            date: "2026-08-15"
+          },
+          {
+            id: "rev-2",
+            resourceId: "tunday-kababi-lucknow",
+            resourceName: "Tunday Kababi",
+            rating: 5,
+            comment: "The Galouti kebabs melt instantly. The historical Awadhi spices make it unforgettable.",
+            date: "2026-08-16"
+          }
+        ];
+      }
+    } catch (e) {
+      console.error("Auth state load error", e);
     }
   },
 
-  bindEvents() {
-    // Open auth modal buttons
-    const signinButtons = document.querySelectorAll('.btn-open-auth');
-    signinButtons.forEach(btn => {
-      btn.addEventListener('click', () => this.openAuthModal());
-    });
-
-    // Form submit
-    const authForm = document.getElementById('auth-form');
-    if (authForm) {
-      authForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const role = document.querySelector('input[name="auth-role"]:checked')?.value || 'user';
-        const email = document.getElementById('auth-email')?.value || 'traveler@raahi.ai';
-        const name = role === 'admin' ? 'Chief Curator (Admin)' : (email.split('@')[0] || 'Traveler');
-        this.login(role, name, email);
-      });
-    }
+  saveState() {
+    localStorage.setItem('raahi_user', JSON.stringify(this.currentUser));
+    localStorage.setItem('raahi_saved', JSON.stringify(this.savedItems));
+    localStorage.setItem('raahi_reviews', JSON.stringify(this.myReviews));
   },
 
-  login(role = 'user', name = '', email = '') {
-    if (role === 'admin') {
-      this.currentUser = {
-        role: 'admin',
-        name: name || 'Aarav Sharma',
-        title: 'Chief Heritage Curator',
-        email: email || 'admin@raahi.ai',
-        avatar: 'shield_person',
-        loginTime: new Date().toLocaleTimeString()
-      };
-      RaahiApp.showToast("Welcome back, Chief Curator! Admin portal unlocked.");
+  renderHeaderAuth() {
+    const container = document.getElementById('header-auth-container');
+    const adminNavLink = document.getElementById('nav-admin-link');
+    if (!container) return;
+
+    if (this.currentUser) {
+      // Show admin nav link if user is admin
+      if (adminNavLink) {
+        if (this.currentUser.role === 'admin') {
+          adminNavLink.classList.remove('hidden');
+        } else {
+          adminNavLink.classList.add('hidden');
+        }
+      }
+
+      container.innerHTML = `
+        <div class="flex items-center gap-2">
+          <!-- Quick Role Switcher for SIH Jury Demo -->
+          <button onclick="RaahiAuth.toggleRole()" title="Switch Role (Traveler / Admin)" class="hidden sm:inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-full ${this.currentUser.role === 'admin' ? 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-300 border border-purple-400' : 'bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300'} transition-all">
+            <span class="material-symbols-outlined text-xs">${this.currentUser.role === 'admin' ? 'verified_user' : 'person'}</span>
+            <span>${this.currentUser.role === 'admin' ? 'Curator Admin' : 'Traveler'}</span>
+          </button>
+
+          <!-- User Profile Dropdown Button -->
+          <div class="relative group">
+            <button onclick="RaahiApp.navigate('dashboard')" class="flex items-center gap-2 p-1 rounded-full hover:ring-2 hover:ring-amber-500 transition-all">
+              <img src="${this.currentUser.avatar}" alt="${this.currentUser.name}" class="w-8 h-8 rounded-full object-cover border-2 border-amber-500 shadow-sm">
+            </button>
+          </div>
+        </div>
+      `;
     } else {
-      this.currentUser = {
-        role: 'user',
-        name: name || 'Prabhat Dubey',
-        title: 'Royal Explorer',
-        email: email || 'prabhat@raahi.ai',
-        avatar: 'person',
-        loginTime: new Date().toLocaleTimeString()
-      };
-      RaahiApp.showToast(`Welcome to Raahi, ${this.currentUser.name}!`);
+      if (adminNavLink) adminNavLink.classList.add('hidden');
+      container.innerHTML = `
+        <button onclick="RaahiAuth.openAuthModal()" class="text-xs font-bold text-stone-700 dark:text-stone-300 hover:text-amber-600 dark:hover:text-amber-400 px-3 py-1.5 rounded-xl border border-stone-200 dark:border-stone-700 transition-colors">
+          Sign In
+        </button>
+      `;
     }
+  },
 
-    localStorage.setItem('raahi_user_session', JSON.stringify(this.currentUser));
-    this.closeAuthModal();
-    this.updateHeaderUI();
-
-    if (role === 'admin') {
+  toggleRole() {
+    if (!this.currentUser) return;
+    this.currentUser.role = this.currentUser.role === 'admin' ? 'traveler' : 'admin';
+    if (this.currentUser.role === 'admin') {
+      this.currentUser.name = "Vikramaditya Rathore (Chief Curator)";
+      this.currentUser.avatar = "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80";
+      RaahiApp.showToast("Switched to Chief Curator Admin Mode", "success");
+    } else {
+      this.currentUser.name = "Aakash Verma (Traveler)";
+      this.currentUser.avatar = "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80";
+      RaahiApp.showToast("Switched to Traveler Mode", "info");
+    }
+    this.saveState();
+    this.renderHeaderAuth();
+    if (this.currentUser.role === 'admin') {
       RaahiApp.navigate('admin');
+    } else {
+      RaahiApp.navigate('dashboard');
     }
   },
 
-  logout() {
-    this.currentUser = null;
-    localStorage.removeItem('raahi_user_session');
-    this.updateHeaderUI();
-    RaahiApp.showToast("Logged out successfully.");
-    if (RaahiApp.currentRoute === 'admin') {
-      RaahiApp.navigate('home');
+  toggleSave(itemId) {
+    if (!this.currentUser) {
+      this.openAuthModal();
+      return;
     }
+    const idx = this.savedItems.indexOf(itemId);
+    if (idx >= 0) {
+      this.savedItems.splice(idx, 1);
+      RaahiApp.showToast("Removed from your Journey Collection", "info");
+    } else {
+      this.savedItems.push(itemId);
+      RaahiApp.showToast("Saved to your Journey Collection!", "success");
+    }
+    this.saveState();
+    // Re-render UI elements that might display save status
+    if (typeof RaahiPlaces !== 'undefined') RaahiPlaces.renderPlaces();
+    if (typeof RaahiHotels !== 'undefined') RaahiHotels.renderHotels();
+    if (typeof RaahiRestaurants !== 'undefined') RaahiRestaurants.renderRestaurants();
+    if (typeof RaahiDashboard !== 'undefined') RaahiDashboard.renderSavedCollection();
   },
 
-  openAuthModal(defaultRole = 'user') {
+  isSaved(itemId) {
+    return this.savedItems.includes(itemId);
+  },
+
+  openAuthModal() {
     const modal = document.getElementById('auth-modal');
     if (modal) {
       modal.classList.remove('hidden');
       document.body.style.overflow = 'hidden';
-      this.setAuthTab(defaultRole);
     }
   },
 
@@ -102,89 +175,40 @@ const RaahiAuth = {
     }
   },
 
-  setAuthTab(role) {
-    const userTabBtn = document.getElementById('auth-tab-user');
-    const adminTabBtn = document.getElementById('auth-tab-admin');
-    const roleRadioUser = document.getElementById('role-radio-user');
-    const roleRadioAdmin = document.getElementById('role-radio-admin');
-    const roleTitle = document.getElementById('auth-modal-role-title');
-    const roleSubtitle = document.getElementById('auth-modal-role-subtitle');
-    const emailInput = document.getElementById('auth-email');
-
+  loginAs(role = 'traveler') {
     if (role === 'admin') {
-      if (adminTabBtn) adminTabBtn.classList.add('bg-primary', 'text-on-primary');
-      if (userTabBtn) userTabBtn.classList.remove('bg-primary', 'text-on-primary');
-      if (roleRadioAdmin) roleRadioAdmin.checked = true;
-      if (roleTitle) roleTitle.textContent = "Curator & Admin Portal";
-      if (roleSubtitle) roleSubtitle.textContent = "Manage experiences, guest reservations, and AI inventory.";
-      if (emailInput) emailInput.value = "admin@raahi.ai";
+      this.currentUser = {
+        id: "adm-01",
+        name: "Vikramaditya Rathore (Chief Curator)",
+        email: "curator@raahi.in",
+        role: "admin",
+        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80",
+        bio: "Senior Tourism Verifier & Heritage Board Reviewer."
+      };
+      RaahiApp.showToast("Logged in as Chief Curator Admin", "success");
     } else {
-      if (userTabBtn) userTabBtn.classList.add('bg-primary', 'text-on-primary');
-      if (adminTabBtn) adminTabBtn.classList.remove('bg-primary', 'text-on-primary');
-      if (roleRadioUser) roleRadioUser.checked = true;
-      if (roleTitle) roleTitle.textContent = "Welcome, Traveler";
-      if (roleSubtitle) roleSubtitle.textContent = "Sign in to access saved journeys, boarding passes & wishlist.";
-      if (emailInput) emailInput.value = "traveler@raahi.ai";
+      this.currentUser = {
+        id: "usr-demo",
+        name: "Aakash Verma",
+        email: "aakash.traveler@raahi.in",
+        role: "traveler",
+        avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80",
+        bio: "Heritage explorer, photographer & cultural enthusiast."
+      };
+      RaahiApp.showToast("Welcome back to Raahi!", "success");
     }
-  },
-
-  updateHeaderUI() {
-    const authContainer = document.getElementById('header-auth-container');
-    const adminNavLink = document.getElementById('nav-admin-link');
-
-    if (adminNavLink) {
-      if (this.currentUser && this.currentUser.role === 'admin') {
-        adminNavLink.classList.remove('hidden');
-      } else {
-        adminNavLink.classList.add('hidden');
-      }
-    }
-
-    if (!authContainer) return;
-
-    if (this.currentUser) {
-      const isAdmin = this.currentUser.role === 'admin';
-      authContainer.innerHTML = `
-        <div class="relative group">
-          <button class="flex items-center gap-2 px-3 py-1.5 rounded-full ${isAdmin ? 'bg-secondary-fixed text-on-secondary-fixed font-bold border border-secondary' : 'bg-surface-container text-on-surface font-semibold'} text-xs hover:opacity-90 transition-all">
-            <span class="material-symbols-outlined text-base">${this.currentUser.avatar}</span>
-            <span class="hidden sm:inline">${this.currentUser.name.split(' ')[0]}</span>
-            <span class="material-symbols-outlined text-xs">expand_more</span>
-          </button>
-
-          <!-- Dropdown Menu -->
-          <div class="absolute right-0 mt-2 w-48 bg-surface dark:bg-inverse-surface border border-outline-variant/30 rounded-2xl shadow-xl py-2 hidden group-hover:block group-focus-within:block z-50">
-            <div class="px-4 py-2 border-b border-outline-variant/20">
-              <span class="block text-xs font-bold text-on-surface">${this.currentUser.name}</span>
-              <span class="block text-[10px] text-secondary font-semibold uppercase tracking-wider">${this.currentUser.title}</span>
-            </div>
-
-            ${isAdmin ? `
-              <a href="#admin" onclick="RaahiApp.navigate('admin')" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-primary dark:text-primary-fixed hover:bg-primary/10 transition-colors">
-                <span class="material-symbols-outlined text-sm">dashboard</span>
-                Admin Dashboard
-              </a>
-            ` : `
-              <a href="#planner" onclick="RaahiApp.navigate('planner')" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-on-surface hover:bg-primary/10 transition-colors">
-                <span class="material-symbols-outlined text-sm">bookmark</span>
-                Saved Journeys
-              </a>
-            `}
-
-            <button onclick="RaahiAuth.logout()" class="w-full text-left flex items-center gap-2 px-4 py-2 text-xs font-semibold text-red-600 hover:bg-red-50 dark:hover:bg-red-950/30 transition-colors border-t border-outline-variant/20 mt-1">
-              <span class="material-symbols-outlined text-sm">logout</span>
-              Sign Out
-            </button>
-          </div>
-        </div>
-      `;
+    this.saveState();
+    this.closeAuthModal();
+    this.renderHeaderAuth();
+    if (role === 'admin') {
+      RaahiApp.navigate('admin');
     } else {
-      authContainer.innerHTML = `
-        <button onclick="RaahiAuth.openAuthModal()" class="btn-open-auth flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold text-primary dark:text-primary-fixed border border-primary/30 hover:bg-primary/5 transition-all">
-          <span class="material-symbols-outlined text-base">login</span>
-          <span>Sign In</span>
-        </button>
-      `;
+      RaahiApp.navigate('dashboard');
     }
   }
 };
+
+// Expose globally
+if (typeof window !== 'undefined') {
+  window.RaahiAuth = RaahiAuth;
+}

@@ -1,6 +1,6 @@
 /**
- * RAAHI - Main Application Controller (Advanced Edition)
- * Client-side Router, Theme Manager, Soundscapes, Auth, Admin Portal, Global Toasts.
+ * RAAHI — Main Application Orchestrator & Client-Side Router
+ * Brand: Raahi | Tagline: Safar Aapka, Planning Hamari
  */
 
 const RaahiApp = {
@@ -12,23 +12,26 @@ const RaahiApp = {
     this.initRouter();
     this.initNavLinks();
     this.initMobileMenu();
-    this.initCurrencySelector();
-
-    // Initialize Submodules
-    if (typeof RaahiAPI !== 'undefined') RaahiAPI.init();
-    if (typeof initRaahiHeroShader === 'function') {
-      initRaahiHeroShader('hero-shader-canvas');
-    }
-    if (typeof RaahiAuth !== 'undefined') RaahiAuth.init();
-    if (typeof RaahiPlanner !== 'undefined') RaahiPlanner.init();
-    if (typeof RaahiDestinations !== 'undefined') RaahiDestinations.init();
-    if (typeof RaahiExperiences !== 'undefined') RaahiExperiences.init();
-    if (typeof RaahiJournal !== 'undefined') RaahiJournal.init();
-    if (typeof RaahiAI !== 'undefined') RaahiAI.init();
-    if (typeof RaahiAdmin !== 'undefined') RaahiAdmin.init();
-
-    // Setup home search bar integration
+    this.initGlobalSearch();
     this.initHomeSearch();
+
+    // Initialize all domain submodules
+    if (typeof RaahiAuth !== 'undefined') RaahiAuth.init();
+    if (typeof RaahiPlaces !== 'undefined') RaahiPlaces.init();
+    if (typeof RaahiHotels !== 'undefined') RaahiHotels.init();
+    if (typeof RaahiRestaurants !== 'undefined') RaahiRestaurants.init();
+    if (typeof RaahiEvents !== 'undefined') RaahiEvents.init();
+    if (typeof RaahiGuides !== 'undefined') RaahiGuides.init();
+    if (typeof RaahiEmergency !== 'undefined') RaahiEmergency.init();
+    if (typeof RaahiPlanner !== 'undefined') RaahiPlanner.init();
+    if (typeof RaahiCommunity !== 'undefined') RaahiCommunity.init();
+    if (typeof RaahiDashboard !== 'undefined') RaahiDashboard.init();
+    if (typeof RaahiAdmin !== 'undefined') RaahiAdmin.init();
+    if (typeof RaahiAI !== 'undefined') RaahiAI.init();
+    if (typeof RaahiMap !== 'undefined') RaahiMap.init();
+
+    this.renderPopularDestinations();
+    this.renderAIRecommendations();
   },
 
   initTheme() {
@@ -59,18 +62,6 @@ const RaahiApp = {
     }
   },
 
-  initCurrencySelector() {
-    const selector = document.getElementById('currency-selector');
-    if (selector) {
-      selector.addEventListener('change', (e) => {
-        const val = e.target.value;
-        if (typeof RaahiPlanner !== 'undefined') {
-          RaahiPlanner.setCurrency(val);
-        }
-      });
-    }
-  },
-
   initRouter() {
     window.addEventListener('hashchange', () => {
       this.handleHashChange();
@@ -79,8 +70,15 @@ const RaahiApp = {
   },
 
   handleHashChange() {
-    const hash = window.location.hash.replace('#', '').toLowerCase().trim();
-    const validRoutes = ['home', 'destinations', 'experiences', 'planner', 'journal', 'admin'];
+    let hash = window.location.hash.replace('#', '').toLowerCase().trim();
+    if (hash === 'destinations') hash = 'explore';
+
+    const validRoutes = [
+      'home', 'explore', 'places', 'hotels', 'restaurants', 
+      'events', 'guides', 'map', 'emergency', 'planner', 
+      'dashboard', 'admin'
+    ];
+
     const targetRoute = validRoutes.includes(hash) ? hash : 'home';
     this.navigate(targetRoute, false);
   },
@@ -102,22 +100,42 @@ const RaahiApp = {
       }
     });
 
-    // Update active nav links
+    // Update active navbar links
     document.querySelectorAll('.nav-route-link').forEach(link => {
       const linkRoute = link.getAttribute('data-route');
       if (linkRoute === routeId) {
-        link.classList.add('text-primary', 'dark:text-inverse-primary', 'font-bold', 'border-b-2', 'border-primary');
-        link.classList.remove('text-on-surface-variant', 'dark:text-surface-variant');
+        link.classList.add('text-amber-600', 'dark:text-amber-400', 'font-extrabold');
+        link.classList.remove('text-stone-700', 'dark:text-stone-300');
       } else {
-        link.classList.remove('text-primary', 'dark:text-inverse-primary', 'font-bold', 'border-b-2', 'border-primary');
-        link.classList.add('text-on-surface-variant', 'dark:text-surface-variant');
+        link.classList.remove('text-amber-600', 'dark:text-amber-400', 'font-extrabold');
+        link.classList.add('text-stone-700', 'dark:text-stone-300');
       }
     });
 
-    // Scroll to top of the page
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Invalidate map size if navigating to map view
+    if (routeId === 'map' && typeof RaahiMap !== 'undefined') {
+      setTimeout(() => {
+        RaahiMap.initLeafletMap();
+        if (RaahiMap.mapInstance) RaahiMap.mapInstance.invalidateSize();
+      }, 150);
+    }
 
-    // Close mobile menu if open
+    // Invalidate charts if navigating to admin
+    if (routeId === 'admin' && typeof RaahiAdmin !== 'undefined') {
+      setTimeout(() => RaahiAdmin.renderMetrics(), 150);
+    }
+
+    // Refresh Dashboard if navigating to dashboard
+    if (routeId === 'dashboard' && typeof RaahiDashboard !== 'undefined') {
+      RaahiDashboard.renderAll();
+    }
+
+    // Refresh Planner if navigating to planner
+    if (routeId === 'planner' && typeof RaahiPlanner !== 'undefined') {
+      RaahiPlanner.renderItinerary();
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     this.closeMobileMenu();
   },
 
@@ -126,9 +144,7 @@ const RaahiApp = {
       link.addEventListener('click', (e) => {
         e.preventDefault();
         const route = link.getAttribute('data-route');
-        if (route) {
-          this.navigate(route);
-        }
+        if (route) this.navigate(route);
       });
     });
   },
@@ -159,51 +175,277 @@ const RaahiApp = {
   },
 
   initHomeSearch() {
-    const searchBtn = document.getElementById('home-search-submit');
-    if (searchBtn) {
-      searchBtn.addEventListener('click', () => {
-        const dest = document.getElementById('home-search-dest')?.value || '';
-        const dates = document.getElementById('home-search-dates')?.value || '';
-        const interest = document.getElementById('home-search-interests')?.value || '';
-
-        if (typeof RaahiPlanner !== 'undefined') {
-          RaahiPlanner.prefillPlanner(dest, interest ? [interest] : []);
+    const form = document.getElementById('home-search-form');
+    const input = document.getElementById('home-search-input');
+    if (form && input) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const query = input.value.trim();
+        if (query) {
+          if (typeof RaahiPlaces !== 'undefined') {
+            RaahiPlaces.searchQuery = query.toLowerCase();
+            const placesInput = document.getElementById('places-search-input');
+            if (placesInput) placesInput.value = query;
+            RaahiPlaces.renderPlaces();
+          }
+          this.navigate('places');
         }
-        this.navigate('planner');
       });
     }
   },
 
-  showToast(message, duration = 3200) {
-    let toastContainer = document.getElementById('raahi-toast-container');
-    if (!toastContainer) {
-      toastContainer = document.createElement('div');
-      toastContainer.id = 'raahi-toast-container';
-      toastContainer.className = 'fixed bottom-6 left-6 z-50 flex flex-col gap-2 pointer-events-none';
-      document.body.appendChild(toastContainer);
+  initGlobalSearch() {
+    // Quick Search modal listener
+    window.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault();
+        this.openGlobalSearch();
+      }
+    });
+
+    const searchInput = document.getElementById('global-search-modal-input');
+    const resultsContainer = document.getElementById('global-search-results');
+
+    if (searchInput && resultsContainer) {
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        if (!query) {
+          resultsContainer.innerHTML = '<div class="p-6 text-center text-xs text-stone-400">Type to discover monuments, stays, food, and events...</div>';
+          return;
+        }
+
+        const matchedPlaces = (RAAHI_DATA.places || []).filter(p => p.name.toLowerCase().includes(query) || p.city.toLowerCase().includes(query));
+        const matchedHotels = (RAAHI_DATA.hotels || []).filter(h => h.name.toLowerCase().includes(query) || h.city.toLowerCase().includes(query));
+        const matchedRest = (RAAHI_DATA.restaurants || []).filter(r => r.name.toLowerCase().includes(query) || r.cuisine.toLowerCase().includes(query));
+
+        let html = '';
+
+        if (matchedPlaces.length > 0) {
+          html += `<div class="p-3 bg-stone-50 dark:bg-stone-800/80 font-bold text-[10px] uppercase text-amber-600">Tourist Places</div>`;
+          html += matchedPlaces.slice(0, 3).map(p => `
+            <div onclick="RaahiApp.closeGlobalSearch(); RaahiPlaces.openDetailModal('${p.id}')" class="p-3 flex items-center justify-between hover:bg-amber-50/50 dark:hover:bg-stone-800 cursor-pointer border-b border-stone-100 dark:border-stone-800">
+              <div>
+                <h5 class="text-xs font-bold text-stone-900 dark:text-white">${p.name}</h5>
+                <span class="text-[11px] text-stone-500">${p.city} • ${p.category}</span>
+              </div>
+              <span class="text-xs text-amber-500 font-bold">★ ${p.rating}</span>
+            </div>
+          `).join('');
+        }
+
+        if (matchedHotels.length > 0) {
+          html += `<div class="p-3 bg-stone-50 dark:bg-stone-800/80 font-bold text-[10px] uppercase text-emerald-600">Hotels (Discovery)</div>`;
+          html += matchedHotels.slice(0, 2).map(h => `
+            <div onclick="RaahiApp.closeGlobalSearch(); RaahiHotels.openHotelModal('${h.id}')" class="p-3 flex items-center justify-between hover:bg-emerald-50/50 dark:hover:bg-stone-800 cursor-pointer border-b border-stone-100 dark:border-stone-800">
+              <div>
+                <h5 class="text-xs font-bold text-stone-900 dark:text-white">${h.name}</h5>
+                <span class="text-[11px] text-stone-500">${h.city} • ${h.priceTier}</span>
+              </div>
+              <span class="text-xs text-amber-500 font-bold">★ ${h.rating}</span>
+            </div>
+          `).join('');
+        }
+
+        if (matchedRest.length > 0) {
+          html += `<div class="p-3 bg-stone-50 dark:bg-stone-800/80 font-bold text-[10px] uppercase text-amber-700">Restaurants</div>`;
+          html += matchedRest.slice(0, 2).map(r => `
+            <div onclick="RaahiApp.closeGlobalSearch(); RaahiRestaurants.openRestModal('${r.id}')" class="p-3 flex items-center justify-between hover:bg-amber-50/50 dark:hover:bg-stone-800 cursor-pointer border-b border-stone-100 dark:border-stone-800">
+              <div>
+                <h5 class="text-xs font-bold text-stone-900 dark:text-white">${r.name}</h5>
+                <span class="text-[11px] text-stone-500">${r.cuisine} • ${r.city}</span>
+              </div>
+              <span class="text-xs text-amber-500 font-bold">★ ${r.rating}</span>
+            </div>
+          `).join('');
+        }
+
+        if (!html) {
+          resultsContainer.innerHTML = `<div class="p-6 text-center text-xs text-stone-500">No matching results found for "${query}".</div>`;
+        } else {
+          resultsContainer.innerHTML = html;
+        }
+      });
+    }
+  },
+
+  openGlobalSearch() {
+    const modal = document.getElementById('global-search-modal');
+    const input = document.getElementById('global-search-modal-input');
+    if (modal) {
+      modal.classList.remove('hidden');
+      if (input) {
+        input.value = '';
+        setTimeout(() => input.focus(), 100);
+      }
+      document.body.style.overflow = 'hidden';
+    }
+  },
+
+  closeGlobalSearch() {
+    const modal = document.getElementById('global-search-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+  },
+
+  renderPopularDestinations() {
+    const container = document.getElementById('home-destinations-container');
+    const exploreContainer = document.getElementById('explore-destinations-container');
+    if (!container && !exploreContainer) return;
+    if (!RAAHI_DATA.destinations) return;
+
+    const renderCard = (d) => `
+      <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
+        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
+          <img src="${d.image}" alt="${d.name}" loading="lazy" class="w-full h-full object-cover img-zoom">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent"></div>
+
+          <div class="absolute top-3.5 left-3.5 z-10">
+            <span class="px-3 py-1 rounded-full text-xs font-extrabold bg-black/60 backdrop-blur-md text-white border border-white/20">
+              ${d.state}
+            </span>
+          </div>
+
+          <div class="absolute bottom-4 left-4 right-4 text-white z-10">
+            <h3 class="font-heading text-2xl font-extrabold text-white mb-0.5">${d.name}</h3>
+            <p class="text-xs text-amber-300 font-medium line-clamp-1">${d.tagline}</p>
+          </div>
+        </div>
+
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-xs text-stone-600 dark:text-stone-400 line-clamp-2 mb-4 leading-relaxed">
+            ${d.description}
+          </p>
+
+          <div>
+            <div class="flex items-center justify-between py-2.5 border-t border-stone-100 dark:border-stone-800 text-xs font-semibold text-stone-700 dark:text-stone-300 mb-4">
+              <span class="flex items-center gap-1.5 text-amber-600 dark:text-amber-400">
+                <span class="material-symbols-outlined text-sm">attractions</span>
+                ${d.attractionsCount}+ Attractions
+              </span>
+              <span class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400">
+                <span class="material-symbols-outlined text-sm">hotel</span>
+                ${d.hotelsCount}+ Stays
+              </span>
+            </div>
+
+            <button onclick="RaahiPlaces.stateFilter='${d.name}'; RaahiApp.navigate('places'); RaahiPlaces.renderPlaces();" class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all shadow-sm">
+              <span>Explore ${d.name}</span>
+              <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    `;
+
+    if (container) {
+      container.innerHTML = RAAHI_DATA.destinations.map(renderCard).join('');
     }
 
+    if (exploreContainer) {
+      exploreContainer.innerHTML = RAAHI_DATA.destinations.map(renderCard).join('');
+    }
+  },
+
+  renderAIRecommendations() {
+    const container = document.getElementById('home-ai-recommendations-container');
+    if (!container || !RAAHI_DATA.places) return;
+
+    const aiList = RAAHI_DATA.places.filter(p => p.aiPick);
+
+    container.innerHTML = aiList.map(place => {
+      const isSaved = typeof RaahiAuth !== 'undefined' && RaahiAuth.isSaved(place.id);
+      return `
+        <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
+          <div class="relative h-56 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
+            <img src="${place.image}" alt="${place.name}" loading="lazy" class="w-full h-full object-cover img-zoom">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+
+            <div class="absolute top-3.5 left-3.5 flex items-center gap-1.5 z-10">
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-amber-600 text-white flex items-center gap-1 shadow-sm">
+                <span class="material-symbols-outlined text-xs">auto_awesome</span>
+                Raahi AI Pick
+              </span>
+            </div>
+
+            <button onclick="RaahiAuth.toggleSave('${place.id}')" title="Save Place" class="absolute top-3.5 right-3.5 w-8 h-8 rounded-full bg-white/80 dark:bg-stone-900/80 backdrop-blur-md flex items-center justify-center text-stone-700 dark:text-stone-200 hover:text-amber-600 transition-all z-10 shadow-sm">
+              <span class="material-symbols-outlined text-base ${isSaved ? 'text-amber-600 fill-current' : ''}">
+                ${isSaved ? 'bookmark_added' : 'bookmark_add'}
+              </span>
+            </button>
+
+            <div class="absolute bottom-3.5 left-3.5 right-3.5 text-white z-10">
+              <div class="flex items-center justify-between">
+                <span class="flex items-center gap-1 text-amber-400 text-xs font-extrabold">
+                  <span class="material-symbols-outlined text-sm">star</span>
+                  ${place.rating} (${place.reviewsCount})
+                </span>
+                <span class="text-[11px] text-stone-300 font-medium">${place.city}, ${place.state}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white mb-2 line-clamp-1 group-hover:text-amber-600 transition-colors">
+                ${place.name}
+              </h3>
+              
+              <!-- Subtle AI Recommendation Reason Box -->
+              <div class="p-3 rounded-xl bg-amber-50/80 dark:bg-amber-950/30 border border-amber-200/60 dark:border-amber-900/40 mb-4">
+                <span class="text-[10px] font-bold text-amber-800 dark:text-amber-300 uppercase tracking-wider block mb-0.5">Why Raahi Recommends</span>
+                <p class="text-xs text-stone-700 dark:text-stone-300 italic leading-relaxed">"${place.aiReason}"</p>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-2">
+              <button onclick="RaahiPlaces.openDetailModal('${place.id}')" class="w-full py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1">
+                <span>View Details</span>
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+              </button>
+              <button onclick="RaahiAuth.toggleSave('${place.id}')" class="w-full py-2.5 px-3 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-amber-950/30 hover:text-amber-700 transition-all flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-sm ${isSaved ? 'text-amber-600' : ''}">${isSaved ? 'bookmark_added' : 'bookmark_add'}</span>
+                <span>${isSaved ? 'Saved' : 'Save'}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  },
+
+  showToast(message, type = 'info') {
     const toast = document.createElement('div');
-    toast.className = 'glass-panel px-4 py-3 rounded-xl shadow-lg border border-outline-variant/30 text-xs md:text-sm font-medium text-on-surface flex items-center gap-2 pointer-events-auto transform translate-y-4 opacity-0 transition-all duration-300';
+    const bgClass = type === 'success' ? 'bg-emerald-600' : type === 'error' ? 'bg-red-600' : 'bg-stone-900 dark:bg-stone-800';
+    const icon = type === 'success' ? 'check_circle' : type === 'error' ? 'error' : 'info';
+
+    toast.className = `fixed bottom-6 left-1/2 -translate-x-1/2 z-50 ${bgClass} text-white px-5 py-3 rounded-2xl shadow-2xl flex items-center gap-2.5 text-xs font-bold transition-all duration-300 translate-y-12 opacity-0 pointer-events-none`;
     toast.innerHTML = `
-      <span class="material-symbols-outlined text-secondary text-base">info</span>
+      <span class="material-symbols-outlined text-base">${icon}</span>
       <span>${message}</span>
     `;
 
-    toastContainer.appendChild(toast);
+    document.body.appendChild(toast);
 
     setTimeout(() => {
-      toast.classList.remove('translate-y-4', 'opacity-0');
+      toast.classList.remove('translate-y-12', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
     }, 10);
 
     setTimeout(() => {
-      toast.classList.add('opacity-0', 'translate-y-2');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+      toast.classList.add('translate-y-12', 'opacity-0');
       setTimeout(() => toast.remove(), 300);
-    }, duration);
+    }, 3000);
   }
 };
 
-// Start application when DOM is ready
+// Global Bootstrapper on DOM ready
 document.addEventListener('DOMContentLoaded', () => {
   RaahiApp.init();
 });
+
+if (typeof window !== 'undefined') {
+  window.RaahiApp = RaahiApp;
+}

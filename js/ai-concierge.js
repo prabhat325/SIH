@@ -1,191 +1,117 @@
 /**
- * RAAHI - AI Travel Concierge Module ("Raahi AI")
- * Intelligent floating conversational drawer with rich heritage travel guidance.
+ * RAAHI — Floating AI Heritage Concierge
+ * Conversational heritage companion with knowledge about Indian monuments, food, safety, and timings.
  */
 
 const RaahiAI = {
   isOpen: false,
-  chatHistory: [],
-
-  knowledgeBase: {
-    "temple": "When visiting Indian temples and holy shrines, dress respectfully covering shoulders and knees. Slip-on footwear is recommended as shoes are left at the entrance. In South Indian temples, traditional dhotis or modest attire are often required.",
-    "kerala": "The ideal time for Kerala backwater houseboats is from September to March for pleasant sunny breezes. If you seek deep Ayurvedic rejuvenation (Panchakarma), the monsoon months (June–August) are traditionally celebrated as the most restorative season.",
-    "rajasthan": "For Rajasthan, the winter months from October to March offer cool desert evenings (12°C-18°C) and warm sunny days (24°C-28°C). We recommend experiencing Udaipur's Lake Pichola at sunset, followed by a private heritage haveli stay in Jodhpur.",
-    "packing": "For India luxury travel, pack breathable natural fabrics (linen, cotton), comfortable slip-on walking footwear for heritage monuments, a light pashmina/shawl for air-conditioned transit, and sun protection (SPF 50+ and polarized sunglasses).",
-    "food": "Indian culinary traditions are exceptionally rich for vegetarian, vegan, and gluten-conscious travelers. Look for regional specialties like Rajasthani Dal Baati Churma, Gujarati Thali, or South Indian Keralan Sadhyas prepared with cold-pressed coconut oil.",
-    "train": "For an ultra-luxury heritage railway journey, consider the Maharajas' Express or Palace on Wheels. For scenic daytime routes, the Vande Bharat Express or the UNESCO Darjeeling Toy Train offer unforgettable vistas."
-  },
 
   init() {
     this.bindEvents();
-    this.addInitialGreeting();
   },
 
   bindEvents() {
-    const triggerBtn = document.getElementById('ai-concierge-trigger');
-    const closeBtn = document.getElementById('ai-concierge-close');
-    const sendBtn = document.getElementById('ai-concierge-send');
-    const inputField = document.getElementById('ai-concierge-input');
+    const toggleBtn = document.getElementById('ai-fab-toggle');
+    const closeBtn = document.getElementById('ai-drawer-close');
+    const form = document.getElementById('ai-chat-form');
+    const input = document.getElementById('ai-chat-input');
 
-    if (triggerBtn) {
-      triggerBtn.addEventListener('click', () => this.toggleDrawer());
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => this.toggleDrawer());
     }
 
     if (closeBtn) {
       closeBtn.addEventListener('click', () => this.closeDrawer());
     }
 
-    if (sendBtn) {
-      sendBtn.addEventListener('click', () => this.sendMessage());
-    }
-
-    if (inputField) {
-      inputField.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter') {
-          e.preventDefault();
-          this.sendMessage();
+    if (form && input) {
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const text = input.value.trim();
+        if (text) {
+          this.sendMessage(text);
+          input.value = '';
         }
       });
     }
-
-    // Quick prompt chips in drawer
-    const promptChips = document.querySelectorAll('.ai-prompt-chip');
-    promptChips.forEach(chip => {
-      chip.addEventListener('click', () => {
-        const text = chip.textContent.trim();
-        this.processUserInput(text);
-      });
-    });
   },
 
   toggleDrawer() {
-    if (this.isOpen) {
-      this.closeDrawer();
-    } else {
-      this.openDrawer();
-    }
-  },
-
-  openDrawer() {
+    this.isOpen = !this.isOpen;
     const drawer = document.getElementById('ai-concierge-drawer');
-    if (drawer) {
+    if (!drawer) return;
+    if (this.isOpen) {
       drawer.classList.remove('translate-x-full');
-      this.isOpen = true;
+    } else {
+      drawer.classList.add('translate-x-full');
     }
   },
 
   closeDrawer() {
+    this.isOpen = false;
     const drawer = document.getElementById('ai-concierge-drawer');
-    if (drawer) {
-      drawer.classList.add('translate-x-full');
-      this.isOpen = false;
-    }
+    if (drawer) drawer.classList.add('translate-x-full');
   },
 
-  openDrawerWithPrompt(promptText) {
-    this.openDrawer();
-    setTimeout(() => {
-      this.processUserInput(promptText);
-    }, 300);
-  },
+  sendMessage(userQuery) {
+    const messagesContainer = document.getElementById('ai-messages-container');
+    if (!messagesContainer) return;
 
-  addInitialGreeting() {
-    const container = document.getElementById('ai-chat-messages');
-    if (container && this.chatHistory.length === 0) {
-      const greeting = "Namaste! I am **Raahi AI**, your Heritage Intelligence concierge. How may I assist your voyage across India today?";
-      this.appendMessage('assistant', greeting);
-    }
-  },
-
-  sendMessage() {
-    const input = document.getElementById('ai-concierge-input');
-    if (!input) return;
-    const text = input.value.trim();
-    if (!text) return;
-
-    input.value = '';
-    this.processUserInput(text);
-  },
-
-  processUserInput(text) {
-    this.appendMessage('user', text);
-
-    // Show typing indicator
-    const typingIndicator = document.createElement('div');
-    typingIndicator.id = 'ai-typing-indicator';
-    typingIndicator.className = 'flex items-center gap-2 text-xs text-on-surface-variant p-3 bg-surface-container rounded-xl w-max';
-    typingIndicator.innerHTML = `
-      <span class="material-symbols-outlined text-sm animate-spin text-secondary">progress_activity</span>
-      <span>Raahi AI is analyzing heritage records...</span>
-    `;
-    const container = document.getElementById('ai-chat-messages');
-    if (container) {
-      container.appendChild(typingIndicator);
-      container.scrollTop = container.scrollHeight;
-    }
-
-    setTimeout(async () => {
-      if (document.getElementById('ai-typing-indicator')) {
-        document.getElementById('ai-typing-indicator').remove();
-      }
-      
-      let reply = null;
-      if (typeof RaahiAPI !== 'undefined') {
-        reply = await RaahiAPI.sendChat(text);
-      }
-
-      const response = reply || this.generateResponse(text);
-      this.appendMessage('assistant', response);
-    }, 600);
-  },
-
-  generateResponse(query) {
-    const q = query.toLowerCase();
-
-    if (q.includes('temple') || q.includes('dress') || q.includes('wear') || q.includes('etiquette')) {
-      return this.knowledgeBase["temple"];
-    } else if (q.includes('kerala') || q.includes('houseboat') || q.includes('ayurveda')) {
-      return this.knowledgeBase["kerala"];
-    } else if (q.includes('rajasthan') || q.includes('jaipur') || q.includes('jodhpur') || q.includes('udaipur')) {
-      return this.knowledgeBase["rajasthan"];
-    } else if (q.includes('pack') || q.includes('luggage') || q.includes('clothes')) {
-      return this.knowledgeBase["packing"];
-    } else if (q.includes('food') || q.includes('eat') || q.includes('vegetarian') || q.includes('culinary')) {
-      return this.knowledgeBase["food"];
-    } else if (q.includes('train') || q.includes('rail') || q.includes('transit')) {
-      return this.knowledgeBase["train"];
-    } else if (q.includes('plan') || q.includes('itinerary')) {
-      return "I have tailored our **AI Trip Planner** for you! You can modify pacing, dates, and curated interests in the Planner tab, or click below to start customizing.";
-    } else {
-      return `Thank you for asking about "${query}". India offers extraordinary depths of culture, architectural splendor, and spiritual rejuvenation. Would you like me to recommend specific destinations, tailor your day-by-day itinerary, or suggest bespoke experiences like private houseboat charters?`;
-    }
-  },
-
-  appendMessage(role, text) {
-    const container = document.getElementById('ai-chat-messages');
-    if (!container) return;
-
-    const msgDiv = document.createElement('div');
-    const isUser = role === 'user';
-
-    msgDiv.className = `flex ${isUser ? 'justify-end' : 'justify-start'} mb-3`;
-    msgDiv.innerHTML = `
-      <div class="${isUser 
-        ? 'bg-primary text-on-primary rounded-2xl rounded-tr-sm' 
-        : 'bg-surface-container dark:bg-surface-container-high text-on-surface rounded-2xl rounded-tl-sm border border-outline-variant/20'} p-3.5 max-w-[85%] text-xs md:text-sm leading-relaxed shadow-sm">
-        ${this.formatMarkdown(text)}
+    // User Message Bubble
+    messagesContainer.innerHTML += `
+      <div class="flex justify-end mb-3">
+        <div class="bg-amber-600 text-white rounded-2xl rounded-tr-none px-4 py-2.5 max-w-[80%] text-xs shadow-sm">
+          ${userQuery}
+        </div>
       </div>
     `;
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
 
-    container.appendChild(msgDiv);
-    container.scrollTop = container.scrollHeight;
-    this.chatHistory.push({ role, text });
-  },
+    // Typing Indicator
+    const typingId = `typing-${Date.now()}`;
+    messagesContainer.innerHTML += `
+      <div id="${typingId}" class="flex items-start gap-2 mb-3">
+        <div class="w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center text-[10px] font-bold">R</div>
+        <div class="bg-stone-100 dark:bg-stone-800 rounded-2xl rounded-tl-none px-3.5 py-2 text-xs text-stone-500 italic">
+          Raahi AI is searching verified records...
+        </div>
+      </div>
+    `;
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
 
-  formatMarkdown(text) {
-    return text
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      .replace(/\*(.*?)\*/g, '<em>$1</em>')
-      .replace(/\n/g, '<br>');
+    // Simulated Intelligence Response
+    setTimeout(() => {
+      const typingEl = document.getElementById(typingId);
+      if (typingEl) typingEl.remove();
+
+      let botReply = "Namaste! I can assist you with ASI monument entry rules, best times to visit across India, authentic regional dining spots, and 24x7 emergency helplines.";
+
+      const q = userQuery.toLowerCase();
+      if (q.includes('lucknow') || q.includes('imambara')) {
+        botReply = "In Lucknow, don't miss the 18th-century **Bara Imambara & Bhool Bhulaiya** (open 6 AM - 5 PM). For lunch, try the 110-year-old legendary **Tunday Kababi** at Aminabad/Chowk for authentic Galouti kebabs!";
+      } else if (q.includes('varanasi') || q.includes('kashi') || q.includes('aarti')) {
+        botReply = "For Varanasi, the grand **Ganga Maha Aarti** at Dashashwamedh Ghat takes place daily at 06:30 PM. For morning boat rides, 5:30 AM sunrise from Assi to Manikarnika is unmatched. For chaat, visit **Kashi Chaat Bhandar**.";
+      } else if (q.includes('taj') || q.includes('agra')) {
+        botReply = "The **Taj Mahal** opens from sunrise to sunset and is closed on Fridays for prayers. Foreign tickets are ₹1100, and Indian tickets are ₹50 (+₹200 for main dome). Morning sunrise is the best time for photography!";
+      } else if (q.includes('emergency') || q.includes('police') || q.includes('help') || q.includes('sos')) {
+        botReply = "In case of any emergency anywhere in India, immediately dial **112** (All-in-one National Emergency). For tourist-specific assistance in 12 languages, dial **1363** (Incredible India Helpline).";
+      } else if (q.includes('jaipur') || q.includes('rajasthan')) {
+        botReply = "In Jaipur, visit **Amber Fort** early in the morning to explore Sheesh Mahal, then stop by Hawa Mahal and Jantar Mantar. For an authentic Rajasthani Thali, experience **Chokhi Dhani**!";
+      }
+
+      messagesContainer.innerHTML += `
+        <div class="flex items-start gap-2 mb-3">
+          <div class="w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0">R</div>
+          <div class="bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200 rounded-2xl rounded-tl-none px-4 py-3 max-w-[85%] text-xs shadow-sm space-y-1 leading-relaxed">
+            ${botReply}
+          </div>
+        </div>
+      `;
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }, 600);
   }
 };
+
+if (typeof window !== 'undefined') {
+  window.RaahiAI = RaahiAI;
+}
