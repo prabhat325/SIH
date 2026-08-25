@@ -1,6 +1,7 @@
 /**
  * RAAHI — Main Application Orchestrator & Client-Side Router
  * Brand: Raahi | Tagline: Safar Aapka, Planning Hamari
+ * Primary AI Feature: Raahi AI Travel Planner & Intelligent Search Layer
  */
 
 const RaahiApp = {
@@ -120,11 +121,6 @@ const RaahiApp = {
       }, 150);
     }
 
-    // Invalidate charts if navigating to admin
-    if (routeId === 'admin' && typeof RaahiAdmin !== 'undefined') {
-      setTimeout(() => RaahiAdmin.renderMetrics(), 150);
-    }
-
     // Refresh Dashboard if navigating to dashboard
     if (routeId === 'dashboard' && typeof RaahiDashboard !== 'undefined') {
       RaahiDashboard.renderAll();
@@ -132,7 +128,9 @@ const RaahiApp = {
 
     // Refresh Planner if navigating to planner
     if (routeId === 'planner' && typeof RaahiPlanner !== 'undefined') {
-      RaahiPlanner.renderItinerary();
+      if (RaahiPlanner.currentPlan) {
+        RaahiPlanner.renderItinerary();
+      }
     }
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -182,20 +180,32 @@ const RaahiApp = {
         e.preventDefault();
         const query = input.value.trim();
         if (query) {
-          if (typeof RaahiPlaces !== 'undefined') {
-            RaahiPlaces.searchQuery = query.toLowerCase();
-            const placesInput = document.getElementById('places-search-input');
-            if (placesInput) placesInput.value = query;
-            RaahiPlaces.renderPlaces();
-          }
-          this.navigate('places');
+          this.runSmartQuery(query);
         }
       });
     }
   },
 
+  // Smart Query Handler for Section 7 & 8 Natural Search Queries
+  runSmartQuery(queryText) {
+    if (!queryText) return;
+    const cleanQuery = queryText.trim();
+    
+    const homeInput = document.getElementById('home-search-input');
+    if (homeInput) homeInput.value = cleanQuery;
+
+    if (typeof RaahiPlaces !== 'undefined') {
+      RaahiPlaces.searchQuery = cleanQuery.toLowerCase();
+      const placesInput = document.getElementById('places-search-input');
+      if (placesInput) placesInput.value = cleanQuery;
+      RaahiPlaces.showAISearchBanner(cleanQuery);
+      RaahiPlaces.renderPlaces();
+    }
+
+    this.navigate('places');
+  },
+
   initGlobalSearch() {
-    // Quick Search modal listener
     window.addEventListener('keydown', (e) => {
       if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
         e.preventDefault();
@@ -239,7 +249,7 @@ const RaahiApp = {
             <div onclick="RaahiApp.closeGlobalSearch(); RaahiHotels.openHotelModal('${h.id}')" class="p-3 flex items-center justify-between hover:bg-emerald-50/50 dark:hover:bg-stone-800 cursor-pointer border-b border-stone-100 dark:border-stone-800">
               <div>
                 <h5 class="text-xs font-bold text-stone-900 dark:text-white">${h.name}</h5>
-                <span class="text-[11px] text-stone-500">${h.city} • ${h.priceTier}</span>
+                <span class="text-[11px] text-stone-500">${h.city} • ${h.category}</span>
               </div>
               <span class="text-xs text-amber-500 font-bold">★ ${h.rating}</span>
             </div>
@@ -348,6 +358,7 @@ const RaahiApp = {
     }
   },
 
+  // Section 6 & 12: AI Recommendations with "Why this recommendation?" trust trigger
   renderAIRecommendations() {
     const container = document.getElementById('home-ai-recommendations-container');
     if (!container || !RAAHI_DATA.places) return;
@@ -357,14 +368,14 @@ const RaahiApp = {
     container.innerHTML = aiList.map(place => {
       const isSaved = typeof RaahiAuth !== 'undefined' && RaahiAuth.isSaved(place.id);
       return `
-        <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
+        <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
           <div class="relative h-56 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
             <img src="${place.image}" alt="${place.name}" loading="lazy" class="w-full h-full object-cover img-zoom">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
             <div class="absolute top-3.5 left-3.5 flex items-center gap-1.5 z-10">
-              <span class="px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-amber-600 text-white flex items-center gap-1 shadow-sm">
-                <span class="material-symbols-outlined text-xs">auto_awesome</span>
+              <span class="px-3 py-1 rounded-full text-xs font-extrabold bg-amber-600 text-white flex items-center gap-1 shadow-sm">
+                <span class="material-symbols-outlined text-sm">auto_awesome</span>
                 Raahi AI Pick
               </span>
             </div>
@@ -392,9 +403,17 @@ const RaahiApp = {
                 ${place.name}
               </h3>
               
-              <!-- Subtle AI Recommendation Reason Box -->
-              <div class="p-3 rounded-xl bg-amber-50/80 dark:bg-amber-950/30 border border-amber-200/60 dark:border-amber-900/40 mb-4">
-                <span class="text-[10px] font-bold text-amber-800 dark:text-amber-300 uppercase tracking-wider block mb-0.5">Why Raahi Recommends</span>
+              <!-- Transparent AI Reason Box (Section 6 & 12) -->
+              <div class="p-3.5 rounded-2xl bg-amber-50/80 dark:bg-amber-950/30 border border-amber-200/60 dark:border-amber-900/40 mb-4 space-y-1.5">
+                <div class="flex items-center justify-between">
+                  <span class="text-[10px] font-extrabold text-amber-800 dark:text-amber-300 uppercase tracking-wider flex items-center gap-1">
+                    <span class="material-symbols-outlined text-xs text-amber-600">psychology</span>
+                    Why Raahi recommends this
+                  </span>
+                  <button onclick="RaahiApp.openAIExplanation('${place.aiReason.replace(/'/g, "\\'")}', '${place.name.replace(/'/g, "\\'")}')" class="text-[10px] font-bold text-amber-600 dark:text-amber-400 hover:underline">
+                    Why this?
+                  </button>
+                </div>
                 <p class="text-xs text-stone-700 dark:text-stone-300 italic leading-relaxed">"${place.aiReason}"</p>
               </div>
             </div>
@@ -413,6 +432,37 @@ const RaahiApp = {
         </div>
       `;
     }).join('');
+  },
+
+  // Modal 11: Open AI Transparent Explanation
+  openAIExplanation(reasonText, placeName) {
+    const modal = document.getElementById('ai-explanation-modal');
+    const content = document.getElementById('ai-explanation-content');
+    if (!modal || !content) return;
+
+    content.innerHTML = `
+      <div class="space-y-2">
+        <p class="font-bold text-stone-900 dark:text-white">Recommendation for ${placeName}:</p>
+        <p class="p-3 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 text-stone-800 dark:text-stone-200">
+          "${reasonText}"
+        </p>
+        <div class="space-y-1 pt-1 text-[11px] text-stone-500">
+          <p>• <strong>Factors evaluated:</strong> Visitor footfall, verified ASI preservation rating, seasonal daylight, proximity to cultural food clusters, and historical significance.</p>
+          <p>• <strong>Pacing Match:</strong> Perfectly timed for relaxed morning or sunset exploration.</p>
+        </div>
+      </div>
+    `;
+
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  },
+
+  closeAIExplanation() {
+    const modal = document.getElementById('ai-explanation-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
   },
 
   showToast(message, type = 'info') {

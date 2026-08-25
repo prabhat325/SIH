@@ -291,3 +291,88 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   background: transparent;
   border: none;
 }
+
+/* AI Travel Intelligence Enhancements */
+.ai-badge {
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.15), rgba(245, 158, 11, 0.25));
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #b45309;
+}
+.dark .ai-badge {
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.25), rgba(245, 158, 11, 0.15));
+  border-color: rgba(245, 158, 11, 0.35);
+  color: #fcd34d;
+}
+
+.ai-chip {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  user-select: none;
+}
+.ai-chip:hover {
+  transform: translateY(-2px);
+}
+.ai-chip.selected {
+  background-color: #d97706 !important;
+  color: #ffffff !important;
+  border-color: #d97706 !important;
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25);
+}
+
+/* Processing Stepper Pulse */
+@keyframes stepPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.7; }
+}
+.step-active-pulse {
+  animation: stepPulse 1.5s infinite ease-in-out;
+}
+
+/* Route Timeline Connector */
+.route-connector {
+  position: relative;
+}
+.route-connector::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 36px;
+  bottom: -16px;
+  width: 2px;
+  background: repeating-linear-gradient(to bottom, #d97706, #d97706 4px, transparent 4px, transparent 8px);
+  z-index: 1;
+}
+.route-connector:last-child::before {
+  display: none;
+}
+
+/* Subtle Shimmer for AI Cards */
+@keyframes aiGlow {
+  0%, 100% { border-color: rgba(245, 158, 11, 0.25); box-shadow: 0 4px 20px rgba(217, 119, 6, 0.04); }
+  50% { border-color: rgba(245, 158, 11, 0.5); box-shadow: 0 8px 24px rgba(217, 119, 6, 0.12); }
+}
+.ai-card-glow {
+  animation: aiGlow 4s infinite ease-in-out;
+}
+
+/* Story Flow Node Line */
+.flow-step-arrow::after {
+  content: '→';
+  position: absolute;
+  right: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d97706;
+  font-weight: bold;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .flow-step-arrow::after {
+    content: '↓';
+    right: 50%;
+    top: auto;
+    bottom: -18px;
+    transform: translateX(50%);
+  }
+}
+

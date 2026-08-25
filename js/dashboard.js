@@ -1,11 +1,11 @@
 /**
- * RAAHI — User Dashboard Module
- * "Welcome back to Raahi"
- * Sections: Stats, Saved Places (My Journey Collection), My Reviews, My Contributions
+ * RAAHI — User Dashboard & AI Personalization Module
+ * "Your Travel Profile" & "Personalized for You" (Section 11)
+ * Sections: Travel Profile, AI Interest Matching, Personalized Feed, Saved Journey Collection, My Reviews, My Contributions
  */
 
 const RaahiDashboard = {
-  activeTab: 'saved',
+  activeTab: 'personalized',
 
   init() {
     this.bindEvents();
@@ -21,7 +21,7 @@ const RaahiDashboard = {
         });
         btn.classList.remove('bg-stone-100', 'dark:bg-stone-800', 'text-stone-700', 'dark:text-stone-300');
         btn.classList.add('bg-amber-600', 'text-white');
-        this.activeTab = btn.getAttribute('data-tab') || 'saved';
+        this.activeTab = btn.getAttribute('data-tab') || 'personalized';
 
         document.querySelectorAll('.dash-tab-pane').forEach(p => p.classList.add('hidden'));
         const pane = document.getElementById(`dash-pane-${this.activeTab}`);
@@ -32,6 +32,7 @@ const RaahiDashboard = {
 
   renderAll() {
     this.renderProfileHeader();
+    this.renderPersonalizedFeed();
     this.renderSavedCollection();
     this.renderReviews();
     this.renderContributions();
@@ -63,6 +64,38 @@ const RaahiDashboard = {
     if (statSaved) statSaved.textContent = savedCount;
     if (statReviews) statReviews.textContent = reviewCount;
     if (statContribs) statContribs.textContent = contribCount;
+  },
+
+  // Section 11: Personalized for You Feed
+  renderPersonalizedFeed() {
+    const container = document.getElementById('dash-personalized-grid');
+    if (!container || !RAAHI_DATA.places) return;
+
+    // Pick recommendations matching heritage & food
+    const recommendations = (RAAHI_DATA.places || []).filter(p => p.aiPick || p.category === 'Heritage' || p.category === 'Forts').slice(0, 6);
+
+    container.innerHTML = recommendations.map(item => `
+      <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm flex flex-col justify-between p-4 group hover:border-amber-500 transition-colors">
+        <div class="flex items-start gap-3">
+          <img src="${item.image}" alt="${item.name}" class="w-20 h-20 rounded-xl object-cover shrink-0">
+          <div class="space-y-1">
+            <div class="flex items-center gap-1.5">
+              <span class="text-[10px] font-extrabold text-amber-600 uppercase tracking-wider">${item.city}</span>
+              <span class="text-[9px] px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 font-bold">98% Match</span>
+            </div>
+            <h4 class="font-heading text-sm font-bold text-stone-900 dark:text-white line-clamp-1">${item.name}</h4>
+            <p class="text-[11px] text-stone-500 line-clamp-1 italic">${item.aiReason || item.description}</p>
+          </div>
+        </div>
+        <div class="mt-3 pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between">
+          <span class="text-xs text-amber-500 font-bold">★ ${item.rating}</span>
+          <button onclick="RaahiPlaces.openDetailModal('${item.id}')" class="text-xs font-bold text-amber-600 hover:underline flex items-center gap-1">
+            <span>Explore Monument</span>
+            <span class="material-symbols-outlined text-xs">arrow_forward</span>
+          </button>
+        </div>
+      </div>
+    `).join('');
   },
 
   renderSavedCollection() {

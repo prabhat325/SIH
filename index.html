@@ -214,18 +214,61 @@
             Discover amazing places, local experiences, stays, food, events and everything you need for a memorable journey across India.
           </p>
 
-          <!-- Large Search Bar ("Where do you want to go?") -->
-          <div class="max-w-3xl mx-auto bg-white dark:bg-stone-900 rounded-3xl p-3 shadow-xl border border-stone-200 dark:border-stone-800 mb-8">
+          <!-- Large Search Bar ("Ask Raahi where you want to go...") -->
+          <div class="max-w-3xl mx-auto bg-white dark:bg-stone-900 rounded-3xl p-3 shadow-xl border border-stone-200 dark:border-stone-800 mb-4">
             <form id="home-search-form" class="flex flex-col sm:flex-row items-center gap-2">
               <div class="relative flex-1 w-full">
-                <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-stone-400 text-xl">search</span>
-                <input id="home-search-input" type="text" placeholder="Where do you want to go? Search places, hotels, restaurants, events…" class="w-full pl-12 pr-4 py-3.5 bg-transparent text-xs sm:text-sm font-semibold text-stone-900 dark:text-white placeholder-stone-400 outline-none border-none focus:ring-0">
+                <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-amber-500 text-xl">auto_awesome</span>
+                <input id="home-search-input" type="text" placeholder="Ask Raahi where you want to go... (e.g. Best historical places in Lucknow)" class="w-full pl-12 pr-4 py-3.5 bg-transparent text-xs sm:text-sm font-semibold text-stone-900 dark:text-white placeholder-stone-400 outline-none border-none focus:ring-0">
               </div>
               <button type="submit" class="w-full sm:w-auto px-8 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs sm:text-sm shadow-md transition-all flex items-center justify-center gap-2 shrink-0">
-                <span>Explore Now</span>
+                <span>Ask Raahi</span>
                 <span class="material-symbols-outlined text-base">arrow_forward</span>
               </button>
             </form>
+          </div>
+
+          <!-- Smart Search AI Suggestions (Section 7) -->
+          <div class="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-2 mb-10 text-xs">
+            <span class="text-stone-400 dark:text-stone-500 font-semibold flex items-center gap-1">
+              <span class="material-symbols-outlined text-xs text-amber-500">lightbulb</span>
+              Try asking:
+            </span>
+            <button onclick="RaahiApp.runSmartQuery('Best historical places in Lucknow')" class="px-3 py-1 rounded-full bg-white/80 dark:bg-stone-850 border border-stone-200 dark:border-stone-700 text-[11px] font-semibold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+              "Best historical places in Lucknow"
+            </button>
+            <button onclick="RaahiApp.runSmartQuery('Places to visit with family')" class="px-3 py-1 rounded-full bg-white/80 dark:bg-stone-850 border border-stone-200 dark:border-stone-700 text-[11px] font-semibold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+              "Places to visit with family"
+            </button>
+            <button onclick="RaahiApp.runSmartQuery('Nature destinations near me')" class="px-3 py-1 rounded-full bg-white/80 dark:bg-stone-850 border border-stone-200 dark:border-stone-700 text-[11px] font-semibold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+              "Nature destinations near me"
+            </button>
+            <button onclick="RaahiApp.runSmartQuery('Best food experiences in Varanasi')" class="px-3 py-1 rounded-full bg-white/80 dark:bg-stone-850 border border-stone-200 dark:border-stone-700 text-[11px] font-semibold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+              "Best food experiences in Varanasi"
+            </button>
+            <button onclick="RaahiApp.runSmartQuery('Places to visit in 2 days')" class="px-3 py-1 rounded-full bg-white/80 dark:bg-stone-850 border border-stone-200 dark:border-stone-700 text-[11px] font-semibold text-stone-700 dark:text-stone-300 hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+              "Places to visit in 2 days"
+            </button>
+          </div>
+
+          <!-- MAIN FEATURE CTA: Raahi AI Travel Planner Hero Banner (Section 1) -->
+          <div class="max-w-3xl mx-auto p-6 sm:p-7 rounded-3xl bg-gradient-to-r from-amber-500/15 via-amber-500/10 to-amber-600/15 border-2 border-amber-400/40 dark:border-amber-500/30 shadow-lg text-left mb-10 flex flex-col sm:flex-row items-center justify-between gap-6 relative overflow-hidden">
+            <div class="relative z-10 space-y-1.5 flex-1">
+              <div class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-600 text-white text-[10px] font-extrabold uppercase tracking-wider shadow-sm">
+                <span class="material-symbols-outlined text-xs">auto_awesome</span>
+                <span>Raahi AI Travel Planner</span>
+              </div>
+              <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-stone-900 dark:text-white">
+                Plan My Journey with AI
+              </h3>
+              <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed font-medium">
+                Tell Raahi your destination, interests, available time and travel preferences. We'll help you create a personalized travel plan.
+              </p>
+            </div>
+            <button onclick="RaahiApp.navigate('planner')" class="px-6 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-amber-600/30 transition-all flex items-center justify-center gap-2 shrink-0 z-10 group">
+              <span>Start Planning</span>
+              <span class="material-symbols-outlined text-base group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+            </button>
           </div>
 
           <!-- Quick Action Buttons -->
@@ -388,7 +431,178 @@
         </div>
       </section>
 
-      <!-- SECTION 4: AI RECOMMENDATIONS ("Raahi Recommends") -->
+      <!-- SECTION 3.5 / SECTION 13: MAJOR AI HOMEPAGE SHOWCASE ("Your Journey. Planned by Raahi.") -->
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="p-8 sm:p-12 rounded-3xl bg-gradient-to-br from-stone-900 via-stone-900 to-stone-950 text-white shadow-2xl relative overflow-hidden border border-stone-800">
+          
+          <!-- Subtle Amber ambient glow -->
+          <div class="absolute -top-24 -right-24 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+          
+          <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            
+            <!-- Left Side: Copy & Actions -->
+            <div class="lg:col-span-6 space-y-6">
+              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-extrabold uppercase tracking-wider">
+                <span class="material-symbols-outlined text-sm">auto_awesome</span>
+                <span>Travel Intelligence Layer</span>
+              </div>
+              
+              <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight">
+                Your Journey.<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200">
+                  Planned by Raahi.
+                </span>
+              </h2>
+
+              <p class="text-xs sm:text-sm md:text-base text-stone-300 leading-relaxed font-medium">
+                Not sure where to start? Tell us what kind of experience you're looking for and let Raahi create a personalized travel plan.
+              </p>
+
+              <div class="flex flex-wrap items-center gap-3 pt-2">
+                <button onclick="RaahiApp.navigate('planner')" class="px-6 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs sm:text-sm shadow-lg shadow-amber-600/30 transition-all flex items-center gap-2">
+                  <span class="material-symbols-outlined text-base">auto_awesome</span>
+                  <span>Plan My Journey</span>
+                </button>
+                <button onclick="RaahiAI.toggleDrawer()" class="px-6 py-3.5 rounded-2xl bg-white/10 hover:bg-white/20 text-white font-extrabold text-xs sm:text-sm border border-white/20 transition-all flex items-center gap-2">
+                  <span class="material-symbols-outlined text-base text-amber-400">chat_bubble</span>
+                  <span>Ask Raahi</span>
+                </button>
+              </div>
+
+              <!-- Live Stat Badges -->
+              <div class="grid grid-cols-3 gap-3 pt-4 border-t border-stone-800">
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                  <span class="text-base sm:text-lg font-mono font-extrabold text-amber-400 block">8+</span>
+                  <span class="text-[10px] text-stone-400 font-bold uppercase">Regions</span>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                  <span class="text-base sm:text-lg font-mono font-extrabold text-emerald-400 block">100%</span>
+                  <span class="text-[10px] text-stone-400 font-bold uppercase">ASI Verified</span>
+                </div>
+                <div class="p-3 rounded-xl bg-white/5 border border-white/10">
+                  <span class="text-base sm:text-lg font-mono font-extrabold text-white block">Custom</span>
+                  <span class="text-[10px] text-stone-400 font-bold uppercase">Itineraries</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Side: AI Route & Intelligence Interactive Preview -->
+            <div class="lg:col-span-6">
+              <div class="p-6 rounded-2xl bg-stone-950/80 border border-stone-800 shadow-xl space-y-4">
+                
+                <div class="flex items-center justify-between pb-3 border-b border-stone-800">
+                  <div class="flex items-center gap-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                    <span class="text-xs font-bold text-stone-200">Raahi Live Route Optimizer</span>
+                  </div>
+                  <span class="text-[10px] font-bold text-amber-400 uppercase tracking-wider px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/20">Lucknow Classic</span>
+                </div>
+
+                <!-- Animated Route Line Sequence -->
+                <div class="space-y-2.5 text-xs">
+                  <div class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-900 border border-stone-800">
+                    <span class="w-6 h-6 rounded-full bg-amber-600 text-white font-bold text-[10px] flex items-center justify-center shrink-0">1</span>
+                    <div class="flex-1">
+                      <h5 class="font-bold text-white">Bara Imambara &amp; Bhool Bhulaiya</h5>
+                      <span class="text-[10px] text-stone-400">Heritage Monument • 2.0 hrs</span>
+                    </div>
+                    <span class="text-[10px] text-amber-400 font-mono font-bold">09:00 AM</span>
+                  </div>
+
+                  <div class="flex items-center justify-center text-amber-500 text-xs font-bold py-0.5">
+                    <span class="material-symbols-outlined text-sm">arrow_downward</span>
+                    <span class="text-[10px] text-stone-400 ml-1">1.2 km scenic route</span>
+                  </div>
+
+                  <div class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-900 border border-stone-800">
+                    <span class="w-6 h-6 rounded-full bg-amber-600 text-white font-bold text-[10px] flex items-center justify-center shrink-0">2</span>
+                    <div class="flex-1">
+                      <h5 class="font-bold text-white">Rumi Darwaza Sunset Walk</h5>
+                      <span class="text-[10px] text-stone-400">Architectural Gateway • 45 mins</span>
+                    </div>
+                    <span class="text-[10px] text-amber-400 font-mono font-bold">11:30 AM</span>
+                  </div>
+
+                  <div class="flex items-center justify-center text-orange-500 text-xs font-bold py-0.5">
+                    <span class="material-symbols-outlined text-sm">arrow_downward</span>
+                    <span class="text-[10px] text-stone-400 ml-1">1.8 km culinary alley</span>
+                  </div>
+
+                  <div class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-900 border border-stone-800">
+                    <span class="w-6 h-6 rounded-full bg-orange-600 text-white font-bold text-[10px] flex items-center justify-center shrink-0">3</span>
+                    <div class="flex-1">
+                      <h5 class="font-bold text-white">Authentic Awadhi Lunch at Chowk</h5>
+                      <span class="text-[10px] text-stone-400">Galouti Kebabs &amp; Sheermal • 1.5 hrs</span>
+                    </div>
+                    <span class="text-[10px] text-orange-400 font-mono font-bold">01:00 PM</span>
+                  </div>
+                </div>
+
+                <div class="pt-2 flex items-center justify-between text-[11px] text-stone-400">
+                  <span class="flex items-center gap-1 text-emerald-400">
+                    <span class="material-symbols-outlined text-sm">tune</span>
+                    Optimized for minimal transit time
+                  </span>
+                  <button onclick="RaahiApp.navigate('planner')" class="font-bold text-amber-400 hover:underline">
+                    View Full Plan →
+                  </button>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- SECTION 15: AI/ML PRODUCT STORY WORKFLOW -->
+          <div class="mt-12 pt-8 border-t border-stone-800">
+            <div class="text-center mb-6">
+              <span class="text-[10px] font-extrabold uppercase tracking-widest text-amber-400">Under the Hood</span>
+              <h4 class="font-heading text-lg font-bold text-white mt-0.5">How Raahi Travel Intelligence Works</h4>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-2 text-center text-xs">
+              <div class="p-3 rounded-xl bg-white/5 border border-white/10 space-y-1">
+                <span class="material-symbols-outlined text-amber-400 text-xl block">tune</span>
+                <span class="font-bold text-white text-[11px] block">User Preferences</span>
+                <span class="text-[9px] text-stone-400 block">Interests &amp; Time</span>
+              </div>
+              <div class="p-3 rounded-xl bg-white/5 border border-white/10 space-y-1">
+                <span class="material-symbols-outlined text-amber-400 text-xl block">psychology</span>
+                <span class="font-bold text-white text-[11px] block">AI Recommendation</span>
+                <span class="text-[9px] text-stone-400 block">Match Engine</span>
+              </div>
+              <div class="p-3 rounded-xl bg-white/5 border border-white/10 space-y-1">
+                <span class="material-symbols-outlined text-amber-400 text-xl block">travel_explore</span>
+                <span class="font-bold text-white text-[11px] block">Personalized Places</span>
+                <span class="text-[9px] text-stone-400 block">Curated Sights</span>
+              </div>
+              <div class="p-3 rounded-xl bg-white/5 border border-white/10 space-y-1">
+                <span class="material-symbols-outlined text-amber-400 text-xl block">calendar_month</span>
+                <span class="font-bold text-white text-[11px] block">AI Itinerary</span>
+                <span class="text-[9px] text-stone-400 block">Day-by-Day Schedule</span>
+              </div>
+              <div class="p-3 rounded-xl bg-white/5 border border-white/10 space-y-1">
+                <span class="material-symbols-outlined text-amber-400 text-xl block">alt_route</span>
+                <span class="font-bold text-white text-[11px] block">Optimized Route</span>
+                <span class="text-[9px] text-stone-400 block">Shortest Pathways</span>
+              </div>
+              <div class="p-3 rounded-xl bg-white/5 border border-white/10 space-y-1">
+                <span class="material-symbols-outlined text-amber-400 text-xl block">map</span>
+                <span class="font-bold text-white text-[11px] block">Interactive Map</span>
+                <span class="text-[9px] text-stone-400 block">Geographic Pins</span>
+              </div>
+              <div class="p-3 rounded-xl bg-amber-500/20 border border-amber-500/40 space-y-1">
+                <span class="material-symbols-outlined text-amber-300 text-xl block">verified</span>
+                <span class="font-bold text-amber-300 text-[11px] block">Better Journey</span>
+                <span class="text-[9px] text-amber-200/80 block">Zero Stress</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION 4: AI RECOMMENDATIONS ("Recommended by Raahi AI") -->
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
           <div>
@@ -397,10 +611,10 @@
               Smart Travel Intelligence
             </div>
             <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-stone-900 dark:text-white">
-              Raahi Recommends
+              Recommended by Raahi AI
             </h2>
             <p class="text-xs sm:text-sm text-stone-500 mt-1">
-              Places selected for your interests and travel preferences.
+              Places selected for your interests, travel preferences and historical discovery.
             </p>
           </div>
           <button onclick="RaahiApp.navigate('planner')" class="px-5 py-2.5 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-colors flex items-center gap-1.5 self-start md:self-auto shadow-sm">
@@ -522,21 +736,27 @@
         </div>
       </section>
 
-      <!-- SECTION 10: FINAL CTA ("Start Your Journey with Raahi") -->
+      <!-- SECTION 10: FINAL HOMEPAGE AI CTA ("Your journey is unique. Your plan should be too.") -->
       <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <div class="max-w-3xl mx-auto space-y-6">
-          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-stone-900 dark:text-white">
-            Start Your Journey with Raahi
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 text-xs font-extrabold uppercase tracking-wider">
+            <span class="material-symbols-outlined text-sm text-amber-600">auto_awesome</span>
+            <span>Safar Aapka, Planning Hamari</span>
+          </div>
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-stone-900 dark:text-white leading-tight">
+            Your journey is unique.<br>Your plan should be too.
           </h2>
-          <p class="text-xs sm:text-sm md:text-base text-stone-500 max-w-xl mx-auto leading-relaxed">
-            Experience India with verified timings, honest culinary guides, certified local experts, and intelligent AI travel planning.
+          <p class="text-xs sm:text-sm md:text-base text-stone-600 dark:text-stone-300 max-w-xl mx-auto leading-relaxed font-medium">
+            Raahi AI understands what you love and helps you discover the right places, experiences and routes.
           </p>
-          <div class="flex flex-wrap items-center justify-center gap-3">
-            <button onclick="RaahiApp.navigate('places')" class="px-7 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs sm:text-sm shadow-lg shadow-amber-600/20 transition-all">
-              Discover Places
+          <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
+            <button onclick="RaahiApp.navigate('planner')" class="px-8 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs sm:text-sm shadow-lg shadow-amber-600/25 transition-all flex items-center gap-2">
+              <span class="material-symbols-outlined text-base">auto_awesome</span>
+              <span>Plan My Journey</span>
             </button>
-            <button onclick="RaahiApp.navigate('planner')" class="px-7 py-3.5 rounded-2xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 font-bold text-xs sm:text-sm hover:bg-amber-600 transition-all">
-              Start AI Planner
+            <button onclick="RaahiAI.toggleDrawer()" class="px-8 py-3.5 rounded-2xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 font-extrabold text-xs sm:text-sm hover:bg-amber-600 transition-all flex items-center gap-2">
+              <span class="material-symbols-outlined text-base text-amber-400">chat_bubble</span>
+              <span>Ask Raahi</span>
             </button>
           </div>
         </div>
@@ -574,6 +794,27 @@
         <span id="places-count-badge" class="px-3.5 py-1.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 font-bold text-xs self-start md:self-auto">
           Loading Places...
         </span>
+      </div>
+
+      <!-- AI Search Result Banner (Section 8) -->
+      <div id="places-ai-search-banner" class="hidden mb-6 p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-transparent border border-amber-300 dark:border-amber-800 shadow-sm flex items-start justify-between gap-4">
+        <div class="flex items-start gap-3">
+          <div class="w-8 h-8 rounded-full bg-amber-600 text-white flex items-center justify-center shrink-0">
+            <span class="material-symbols-outlined text-base">auto_awesome</span>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-extrabold text-amber-700 dark:text-amber-400 uppercase tracking-wider">Raahi AI Search</span>
+              <span class="text-[10px] px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 font-bold">Natural Query Match</span>
+            </div>
+            <p id="places-ai-search-text" class="text-xs sm:text-sm font-bold text-stone-900 dark:text-white mt-0.5">
+              "I found places matching your travel query."
+            </p>
+          </div>
+        </div>
+        <button onclick="RaahiPlaces.clearAISearchBanner()" class="p-1 text-stone-400 hover:text-stone-700 dark:hover:text-stone-200">
+          <span class="material-symbols-outlined text-sm">close</span>
+        </button>
       </div>
 
       <!-- Filters & Search Bar -->
@@ -777,83 +1018,428 @@
     <!-- =======================================================================
          VIEW 10: AI TRIP PLANNER & ROYAL PASS (#view-planner)
          ======================================================================= -->
+    <!-- =======================================================================
+         VIEW 10: RAAHI AI TRAVEL PLANNER (#view-planner)
+         ======================================================================= -->
     <div id="view-planner" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      
+      <!-- Top Title Header -->
       <div class="text-center max-w-3xl mx-auto mb-10">
-        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 text-xs font-extrabold uppercase tracking-wider mb-2">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 text-xs font-extrabold uppercase tracking-wider mb-2 border border-amber-300 dark:border-amber-800">
           <span class="material-symbols-outlined text-sm text-amber-600">auto_awesome</span>
-          Intelligent Itinerary Generator
+          <span>Raahi AI Travel Planner</span>
         </div>
-        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white">Plan Smarter with Raahi AI</h1>
-        <p class="text-xs sm:text-sm text-stone-500 mt-2">Generate customized day-by-day travel schedules with multi-currency expense forecasts.</p>
+        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white">Let's Plan Your Journey</h1>
+        <p class="text-xs sm:text-sm text-stone-500 dark:text-stone-400 mt-2 font-medium">Tell us what you love. Raahi plans the journey.</p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-        <!-- Planner Config Form -->
-        <div class="p-6 bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 shadow-sm space-y-4">
-          <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white">Journey Parameters</h3>
-          <form id="planner-form" class="space-y-4">
-            <div>
-              <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Destination</label>
-              <select id="plan-dest-select" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-900 dark:text-white">
-                <option value="Lucknow &amp; Varanasi">Lucknow &amp; Varanasi Heritage</option>
-                <option value="Jaipur &amp; Royal Rajasthan">Jaipur &amp; Royal Rajasthan</option>
-                <option value="Agra &amp; Delhi Mughal Triangle">Agra &amp; Delhi Mughal Triangle</option>
-                <option value="Kerala Backwaters">Kerala Backwaters &amp; Munnar</option>
-              </select>
-            </div>
-            <div>
-              <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Duration</label>
-              <select id="plan-days-select" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-900 dark:text-white">
-                <option value="3">3 Days (Long Weekend)</option>
-                <option value="4" selected>4 Days (Classic Heritage)</option>
-                <option value="7">7 Days (Comprehensive Grand Tour)</option>
-              </select>
-            </div>
-            <div>
-              <label class="text-[11px] font-bold text-stone-500 uppercase block mb-1">Travel Style</label>
-              <select id="plan-budget-select" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-900 dark:text-white">
-                <option value="Heritage Classic">Heritage Classic</option>
-                <option value="Royal Luxury">Royal Luxury</option>
-                <option value="Cultural Explorer">Cultural Explorer</option>
-              </select>
-            </div>
-            <button type="submit" class="w-full py-3.5 bg-amber-600 hover:bg-amber-700 text-white rounded-xl font-bold text-xs shadow-md transition-all flex items-center justify-center gap-2">
-              <span class="material-symbols-outlined text-base">auto_awesome</span>
-              <span>Synthesize AI Itinerary</span>
-            </button>
-          </form>
+      <!-- CONTAINER 1: MULTI-STEP PLANNER INPUT SCREEN (Section 2) -->
+      <div id="planner-wizard-container" class="max-w-4xl mx-auto bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 shadow-xl p-6 sm:p-10 mb-12">
+        
+        <!-- Step Progress Header Bar -->
+        <div class="mb-8 pb-6 border-b border-stone-100 dark:border-stone-800">
+          <div class="flex items-center justify-between text-xs font-bold text-stone-500 mb-3">
+            <span id="planner-step-counter" class="text-amber-600 dark:text-amber-400 font-extrabold uppercase tracking-wider">Step 1 of 5</span>
+            <span id="planner-step-title" class="text-stone-800 dark:text-stone-200 font-extrabold">Destination</span>
+          </div>
+          <div class="w-full bg-stone-100 dark:bg-stone-800 h-2 rounded-full overflow-hidden">
+            <div id="planner-progress-bar" class="h-full bg-amber-600 transition-all duration-300 rounded-full" style="width: 20%;"></div>
+          </div>
         </div>
 
-        <!-- Plan Overview Card -->
-        <div class="lg:col-span-2 space-y-6">
-          <div class="p-6 bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <form id="ai-planner-wizard-form" onsubmit="event.preventDefault();">
+          
+          <!-- STEP 1: DESTINATION -->
+          <div id="wizard-step-1" class="wizard-step space-y-6">
             <div>
-              <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Generated Itinerary</span>
-              <h3 id="planner-summary-title" class="font-heading text-xl font-bold text-stone-900 dark:text-white mt-0.5">Loading Plan...</h3>
-              <p class="text-xs text-stone-500 mt-1">Estimated Cost: <span id="planner-summary-cost" class="font-bold text-emerald-600 text-sm font-mono">₹32,000</span></p>
+              <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">Where do you want to go?</h3>
+              <p class="text-xs text-stone-500">Choose an iconic Indian heritage corridor or enter your destination.</p>
             </div>
-            <div class="flex items-center gap-2">
-              <!-- Currency Selector -->
-              <select id="planner-currency-select" class="py-2 px-3 bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-800 dark:text-stone-200">
-                <option value="INR">₹ INR</option>
-                <option value="USD">$ USD</option>
-                <option value="EUR">€ EUR</option>
-                <option value="GBP">£ GBP</option>
-                <option value="AED">د.إ AED</option>
-              </select>
-              <button onclick="RaahiPlanner.openRoyalBoardingPass()" class="py-2.5 px-4 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 transition-colors flex items-center gap-1.5 shadow-sm">
-                <span class="material-symbols-outlined text-sm text-amber-400">confirmation_number</span>
-                <span>Royal Pass</span>
+
+            <div class="relative">
+              <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-stone-400">search</span>
+              <input id="wizard-dest-input" type="text" value="Lucknow" placeholder="Enter destination (e.g. Lucknow, Agra, Varanasi, Jaipur)" class="w-full pl-12 pr-4 py-3.5 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-2xl text-xs sm:text-sm font-bold text-stone-900 dark:text-white outline-none focus:border-amber-500">
+            </div>
+
+            <div>
+              <label class="text-[11px] font-bold uppercase tracking-wider text-stone-400 block mb-2">Quick Popular Corridors</label>
+              <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <button type="button" onclick="RaahiPlanner.selectQuickDest('Lucknow')" class="quick-dest-chip p-3 rounded-2xl border border-amber-500 bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 font-bold text-xs flex items-center justify-between">
+                  <span>Lucknow</span>
+                  <span class="material-symbols-outlined text-sm">temple_hindu</span>
+                </button>
+                <button type="button" onclick="RaahiPlanner.selectQuickDest('Agra')" class="quick-dest-chip p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 font-bold text-xs flex items-center justify-between hover:border-amber-500">
+                  <span>Agra</span>
+                  <span class="material-symbols-outlined text-sm">account_balance</span>
+                </button>
+                <button type="button" onclick="RaahiPlanner.selectQuickDest('Varanasi')" class="quick-dest-chip p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 font-bold text-xs flex items-center justify-between hover:border-amber-500">
+                  <span>Varanasi</span>
+                  <span class="material-symbols-outlined text-sm">water</span>
+                </button>
+                <button type="button" onclick="RaahiPlanner.selectQuickDest('Jaipur')" class="quick-dest-chip p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 font-bold text-xs flex items-center justify-between hover:border-amber-500">
+                  <span>Jaipur</span>
+                  <span class="material-symbols-outlined text-sm">castle</span>
+                </button>
+                <button type="button" onclick="RaahiPlanner.selectQuickDest('Delhi')" class="quick-dest-chip p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 font-bold text-xs flex items-center justify-between hover:border-amber-500">
+                  <span>Delhi</span>
+                  <span class="material-symbols-outlined text-sm">history_edu</span>
+                </button>
+                <button type="button" onclick="RaahiPlanner.selectQuickDest('Kerala')" class="quick-dest-chip p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 font-bold text-xs flex items-center justify-between hover:border-amber-500">
+                  <span>Kerala</span>
+                  <span class="material-symbols-outlined text-sm">nature</span>
+                </button>
+                <button type="button" onclick="RaahiPlanner.selectQuickDest('Goa')" class="quick-dest-chip p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 font-bold text-xs flex items-center justify-between hover:border-amber-500">
+                  <span>Goa</span>
+                  <span class="material-symbols-outlined text-sm">beach_access</span>
+                </button>
+                <button type="button" onclick="RaahiPlanner.selectQuickDest('Kashmir')" class="quick-dest-chip p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 font-bold text-xs flex items-center justify-between hover:border-amber-500">
+                  <span>Kashmir</span>
+                  <span class="material-symbols-outlined text-sm">landscape</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2: DURATION -->
+          <div id="wizard-step-2" class="wizard-step hidden space-y-6">
+            <div>
+              <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">How much time do you have?</h3>
+              <p class="text-xs text-stone-500">Select the total duration for your customized travel schedule.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
+              <button type="button" onclick="RaahiPlanner.selectDuration(1)" class="duration-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-2xl font-extrabold block text-stone-900 dark:text-white">1</span>
+                <span class="text-xs font-bold text-stone-500 uppercase">Day</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectDuration(2)" class="duration-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-2xl font-extrabold block text-stone-900 dark:text-white">2</span>
+                <span class="text-xs font-bold text-stone-500 uppercase">Days</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectDuration(3)" class="duration-opt-btn p-4 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-center transition-all shadow-sm">
+                <span class="font-heading text-2xl font-extrabold block text-amber-600 dark:text-amber-400">3</span>
+                <span class="text-xs font-bold text-amber-800 dark:text-amber-300 uppercase">Days</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectDuration(5)" class="duration-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-2xl font-extrabold block text-stone-900 dark:text-white">5</span>
+                <span class="text-xs font-bold text-stone-500 uppercase">Days</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectDuration(7)" class="duration-opt-btn col-span-2 sm:col-span-1 p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-2xl font-extrabold block text-stone-900 dark:text-white">7+</span>
+                <span class="text-xs font-bold text-stone-500 uppercase">Grand Tour</span>
               </button>
             </div>
           </div>
 
-          <!-- Day by Day Timeline Container -->
-          <div id="planner-days-container" class="space-y-6">
-            <!-- Populated by js/planner.js -->
+          <!-- STEP 3: INTERESTS (MULTI-SELECT) -->
+          <div id="wizard-step-3" class="wizard-step hidden space-y-6">
+            <div>
+              <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">What do you enjoy?</h3>
+              <p class="text-xs text-stone-500">Select one or multiple interests to personalize your itinerary.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3" id="wizard-interests-grid">
+              <!-- Dynamically managed or static chips -->
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Heritage')" class="ai-chip selected p-3.5 rounded-2xl border border-amber-600 bg-amber-600 text-white font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base">account_balance</span>
+                <span>Heritage</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Culture')" class="ai-chip selected p-3.5 rounded-2xl border border-amber-600 bg-amber-600 text-white font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base">theater_comedy</span>
+                <span>Culture</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Nature')" class="ai-chip p-3.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base text-emerald-500">park</span>
+                <span>Nature</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Food')" class="ai-chip selected p-3.5 rounded-2xl border border-amber-600 bg-amber-600 text-white font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base">restaurant</span>
+                <span>Food</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Spiritual')" class="ai-chip p-3.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base text-orange-500">self_improvement</span>
+                <span>Spiritual</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Adventure')" class="ai-chip p-3.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base text-cyan-500">hiking</span>
+                <span>Adventure</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Shopping')" class="ai-chip p-3.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base text-pink-500">shopping_bag</span>
+                <span>Shopping</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Photography')" class="ai-chip selected p-3.5 rounded-2xl border border-amber-600 bg-amber-600 text-white font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base">photo_camera</span>
+                <span>Photography</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Family')" class="ai-chip p-3.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base text-blue-500">family_restroom</span>
+                <span>Family</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Nightlife')" class="ai-chip p-3.5 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-800 dark:text-stone-200 font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base text-purple-500">nightlife</span>
+                <span>Nightlife</span>
+              </div>
+              <div onclick="RaahiPlanner.toggleInterestChip(this, 'Local Experiences')" class="ai-chip selected col-span-2 sm:col-span-1 p-3.5 rounded-2xl border border-amber-600 bg-amber-600 text-white font-bold text-xs flex items-center gap-2">
+                <span class="material-symbols-outlined text-base">local_activity</span>
+                <span>Local Experiences</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 4: TRAVEL STYLE -->
+          <div id="wizard-step-4" class="wizard-step hidden space-y-6">
+            <div>
+              <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">What is your travel style?</h3>
+              <p class="text-xs text-stone-500">How would you like your trip paced and styled?</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <button type="button" onclick="RaahiPlanner.selectStyle('Relaxed')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                <span class="material-symbols-outlined text-amber-500 mb-1">spa</span>
+                <span class="font-bold text-xs text-stone-900 dark:text-white block">Relaxed</span>
+                <span class="text-[10px] text-stone-500">Slow immersive pace</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectStyle('Balanced')" class="style-opt-btn p-4 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-left transition-all shadow-sm">
+                <span class="material-symbols-outlined text-amber-600 mb-1">balance</span>
+                <span class="font-bold text-xs text-amber-900 dark:text-amber-300 block">Balanced</span>
+                <span class="text-[10px] text-amber-700 dark:text-amber-400">Ideal mix of sights</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectStyle('Packed')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                <span class="material-symbols-outlined text-amber-500 mb-1">speed</span>
+                <span class="font-bold text-xs text-stone-900 dark:text-white block">Packed</span>
+                <span class="text-[10px] text-stone-500">Max monuments &amp; sights</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectStyle('Budget-friendly')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                <span class="material-symbols-outlined text-emerald-500 mb-1">savings</span>
+                <span class="font-bold text-xs text-stone-900 dark:text-white block">Budget-friendly</span>
+                <span class="text-[10px] text-stone-500">Cost conscious picks</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectStyle('Premium')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                <span class="material-symbols-outlined text-amber-500 mb-1">diamond</span>
+                <span class="font-bold text-xs text-stone-900 dark:text-white block">Premium</span>
+                <span class="text-[10px] text-stone-500">Luxury havelis &amp; guides</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectStyle('Family-friendly')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                <span class="material-symbols-outlined text-blue-500 mb-1">family_restroom</span>
+                <span class="font-bold text-xs text-stone-900 dark:text-white block">Family-friendly</span>
+                <span class="text-[10px] text-stone-500">Kid &amp; senior accessible</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectStyle('Solo')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                <span class="material-symbols-outlined text-purple-500 mb-1">person</span>
+                <span class="font-bold text-xs text-stone-900 dark:text-white block">Solo</span>
+                <span class="text-[10px] text-stone-500">Autonomous discovery</span>
+              </button>
+              <button type="button" onclick="RaahiPlanner.selectStyle('Couple')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                <span class="material-symbols-outlined text-pink-500 mb-1">favorite</span>
+                <span class="font-bold text-xs text-stone-900 dark:text-white block">Couple</span>
+                <span class="text-[10px] text-stone-500">Romantic sunsets &amp; dining</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- STEP 5: PREFERENCES (OPTIONAL) -->
+          <div id="wizard-step-5" class="wizard-step hidden space-y-6">
+            <div>
+              <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">Tailor Your Specific Preferences</h3>
+              <p class="text-xs text-stone-500">Optional filters to make the generated itinerary 100% suitable for you.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+              <div>
+                <label class="font-bold text-stone-500 uppercase block mb-1">Accessibility Requirements</label>
+                <select id="pref-accessibility" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl font-semibold text-stone-900 dark:text-white outline-none">
+                  <option value="none">Standard Walking</option>
+                  <option value="wheelchair">Wheelchair Accessible Only</option>
+                  <option value="senior">Senior Citizen Friendly / Minimal Stairs</option>
+                  <option value="audio">Audio Guide Preferred</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="font-bold text-stone-500 uppercase block mb-1">Food Preferences</label>
+                <select id="pref-food" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl font-semibold text-stone-900 dark:text-white outline-none">
+                  <option value="all">Authentic Regional Flavors (Vegetarian &amp; Non-Veg)</option>
+                  <option value="pure-veg">Pure Vegetarian &amp; Jain Friendly</option>
+                  <option value="street-food">Street Food &amp; Century-old Alleys</option>
+                  <option value="fine-dining">Heritage Courtyard Fine Dining</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="font-bold text-stone-500 uppercase block mb-1">Preferred Distance &amp; Transit</label>
+                <select id="pref-distance" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl font-semibold text-stone-900 dark:text-white outline-none">
+                  <option value="compact">Compact (Minimal travel between sights)</option>
+                  <option value="moderate">City-wide (Covers all major iconic districts)</option>
+                  <option value="regional">Regional Outskirts (Includes nearby day excursions)</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="font-bold text-stone-500 uppercase block mb-1">Preferred Activity Level</label>
+                <select id="pref-activity" class="w-full p-3 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl font-semibold text-stone-900 dark:text-white outline-none">
+                  <option value="moderate">Moderate (Balanced pauses &amp; exploration)</option>
+                  <option value="low">Gentle &amp; Leisurely</option>
+                  <option value="high">High Energy &amp; Early Sunrise Starts</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Wizard Navigation Action Buttons -->
+          <div class="mt-8 pt-6 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between">
+            <button id="wizard-prev-btn" type="button" onclick="RaahiPlanner.prevStep()" class="hidden px-5 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors">
+              ← Back
+            </button>
+            <div class="flex-1"></div>
+            <button id="wizard-next-btn" type="button" onclick="RaahiPlanner.nextStep()" class="px-7 py-3 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs shadow-md transition-all flex items-center gap-2">
+              <span>Continue</span>
+              <span class="material-symbols-outlined text-sm">arrow_forward</span>
+            </button>
+            <button id="wizard-submit-btn" type="button" onclick="RaahiPlanner.startAIProcessing()" class="hidden px-8 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs sm:text-sm shadow-lg shadow-amber-600/30 transition-all flex items-center gap-2">
+              <span class="material-symbols-outlined text-base">auto_awesome</span>
+              <span>Create My Journey</span>
+            </button>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- CONTAINER 2: AI PROCESSING ANIMATION SCREEN (Section 3) -->
+      <div id="planner-processing-container" class="hidden max-w-2xl mx-auto py-16 px-6 text-center space-y-8 bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 shadow-2xl mb-12">
+        
+        <div class="relative w-24 h-24 mx-auto flex items-center justify-center">
+          <div class="absolute inset-0 rounded-full border-4 border-amber-500/20 border-t-amber-600 animate-spin"></div>
+          <div class="w-16 h-16 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-600">
+            <span class="material-symbols-outlined text-3xl animate-pulse">auto_awesome</span>
           </div>
         </div>
+
+        <div>
+          <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+            Raahi is planning your journey...
+          </h2>
+          <p class="text-xs sm:text-sm text-stone-500 mt-1">Synthesizing travel preferences, monument timings and optimal routes.</p>
+        </div>
+
+        <!-- Progress Steps Checklist -->
+        <div class="max-w-md mx-auto space-y-3 text-left text-xs font-semibold text-stone-700 dark:text-stone-300">
+          <div id="proc-step-1" class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-50 dark:bg-stone-800 transition-all">
+            <span class="proc-icon material-symbols-outlined text-base text-emerald-500">check_circle</span>
+            <span>Understanding your preferences</span>
+          </div>
+          <div id="proc-step-2" class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-50 dark:bg-stone-800 transition-all">
+            <span class="proc-icon material-symbols-outlined text-base text-emerald-500">check_circle</span>
+            <span>Finding suitable destinations</span>
+          </div>
+          <div id="proc-step-3" class="flex items-center gap-3 p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 transition-all">
+            <span class="proc-icon material-symbols-outlined text-base text-amber-600 step-active-pulse">pending</span>
+            <span class="text-amber-900 dark:text-amber-300 font-bold">Building your itinerary</span>
+          </div>
+          <div id="proc-step-4" class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-50 dark:bg-stone-800 text-stone-400 dark:text-stone-500 transition-all">
+            <span class="proc-icon material-symbols-outlined text-base">radio_button_unchecked</span>
+            <span>Optimizing your route</span>
+          </div>
+          <div id="proc-step-5" class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-50 dark:bg-stone-800 text-stone-400 dark:text-stone-500 transition-all">
+            <span class="proc-icon material-symbols-outlined text-base">radio_button_unchecked</span>
+            <span>Finding nearby experiences</span>
+          </div>
+        </div>
+
       </div>
+
+      <!-- CONTAINER 3: AI GENERATED ITINERARY RESULT SCREEN (Section 4 & 5) -->
+      <div id="planner-result-container" class="hidden space-y-8">
+        
+        <!-- Top Itinerary Summary Banner -->
+        <div class="p-6 sm:p-8 bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div class="space-y-1">
+            <div class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 text-[10px] font-extrabold uppercase tracking-wider">
+              <span class="material-symbols-outlined text-xs text-amber-600">verified</span>
+              <span>Your Raahi Journey</span>
+            </div>
+            <h2 id="planner-result-heading" class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              3 Days in Lucknow
+            </h2>
+            <p id="planner-result-ai-summary" class="text-xs text-stone-600 dark:text-stone-300 italic">
+              "Based on your interest in heritage, food and culture, here's a balanced 3-day journey."
+            </p>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-3">
+            <!-- Currency selector -->
+            <select id="planner-currency-select" class="py-2.5 px-3.5 bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-800 dark:text-stone-200">
+              <option value="INR">₹ INR</option>
+              <option value="USD">$ USD</option>
+              <option value="EUR">€ EUR</option>
+              <option value="GBP">£ GBP</option>
+              <option value="AED">د.إ AED</option>
+            </select>
+
+            <button onclick="RaahiPlanner.openRoyalBoardingPass()" class="px-5 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 transition-colors flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm text-amber-400">confirmation_number</span>
+              <span>Royal Pass</span>
+            </button>
+
+            <button onclick="RaahiPlanner.resetToWizard()" class="px-4 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-colors flex items-center gap-1">
+              <span class="material-symbols-outlined text-sm">tune</span>
+              <span>Adjust Plan</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Layout: Itinerary List (Left) & Route Map Visualizer (Right) -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          
+          <!-- Left 7 Cols: Day-by-Day Detailed Itinerary -->
+          <div class="lg:col-span-7 space-y-6" id="planner-itinerary-days-container">
+            <!-- Rendered by js/planner.js -->
+          </div>
+
+          <!-- Right 5 Cols: AI Route Visualization (Section 5) -->
+          <div class="lg:col-span-5 space-y-6 sticky top-24">
+            
+            <!-- Route Sequence Card -->
+            <div class="p-6 bg-white dark:bg-stone-900 rounded-3xl border border-stone-200 dark:border-stone-800 shadow-sm space-y-4">
+              <div class="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-stone-800">
+                <div>
+                  <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600 block">AI Recommended Route</span>
+                  <h4 class="font-heading text-base font-bold text-stone-900 dark:text-white">Optimized Waypoint Sequence</h4>
+                </div>
+                <button onclick="RaahiApp.navigate('map')" class="text-xs font-bold text-amber-600 hover:underline flex items-center gap-1">
+                  <span>Open Full Map</span>
+                  <span class="material-symbols-outlined text-sm">open_in_new</span>
+                </button>
+              </div>
+
+              <!-- Flow sequence container -->
+              <div id="planner-route-sequence-list" class="space-y-3">
+                <!-- Rendered by js/planner.js -->
+              </div>
+
+              <!-- Interactive mini Leaflet map for Route -->
+              <div class="w-full h-64 rounded-2xl overflow-hidden border border-stone-200 dark:border-stone-700 relative shadow-inner">
+                <div id="planner-route-map" class="w-full h-full z-10"></div>
+              </div>
+            </div>
+
+            <!-- Cost Forecast Box -->
+            <div class="p-5 rounded-2xl bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 flex items-center justify-between">
+              <div>
+                <span class="text-[10px] font-bold text-stone-500 uppercase block">Estimated Sights &amp; Entry Budget</span>
+                <span id="planner-total-budget-badge" class="font-heading text-2xl font-extrabold text-amber-700 dark:text-amber-400 font-mono">₹1,850</span>
+              </div>
+              <span class="text-[11px] text-stone-500 font-semibold text-right">
+                Based on current ASI<br>ticket tariffs
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </div>
 
     <!-- =======================================================================
@@ -861,44 +1447,80 @@
          ======================================================================= -->
     <div id="view-dashboard" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       
-      <!-- Profile Header -->
-      <div class="p-8 rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm mb-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
-        <div class="flex items-center gap-4">
-          <img id="dash-user-avatar" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80" alt="Avatar" class="w-20 h-20 rounded-full object-cover border-4 border-amber-500 shadow-md">
-          <div>
-            <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Welcome Back to Raahi</span>
-            <h1 id="dash-user-name" class="font-heading text-2xl font-bold text-stone-900 dark:text-white mt-0.5">Aakash Verma</h1>
-            <p id="dash-user-email" class="text-xs text-stone-500">aakash.traveler@raahi.in</p>
-            <p id="dash-user-bio" class="text-xs text-stone-600 dark:text-stone-400 mt-1 italic">Heritage explorer &amp; photographer.</p>
+      <!-- Profile Header & Travel Intelligence Profile (Section 11) -->
+      <div class="p-8 rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm mb-8 space-y-6">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div class="flex items-center gap-4">
+            <img id="dash-user-avatar" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80" alt="Avatar" class="w-20 h-20 rounded-full object-cover border-4 border-amber-500 shadow-md">
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Your Travel Profile</span>
+              <h1 id="dash-user-name" class="font-heading text-2xl font-bold text-stone-900 dark:text-white mt-0.5">Aakash Verma</h1>
+              <p id="dash-user-email" class="text-xs text-stone-500">aakash.traveler@raahi.in</p>
+              <p id="dash-user-bio" class="text-xs text-stone-600 dark:text-stone-400 mt-1 italic">Heritage explorer &amp; photographer.</p>
+            </div>
+          </div>
+
+          <!-- Quick Stats -->
+          <div class="flex items-center gap-6 border-t md:border-t-0 md:border-l border-stone-200 dark:border-stone-800 pt-4 md:pt-0 md:pl-8">
+            <div class="text-center">
+              <span id="dash-stat-saved" class="text-2xl font-extrabold text-amber-600 font-mono block">4</span>
+              <span class="text-[11px] text-stone-500 font-bold uppercase">Saved Places</span>
+            </div>
+            <div class="text-center">
+              <span id="dash-stat-reviews" class="text-2xl font-extrabold text-stone-900 dark:text-white font-mono block">2</span>
+              <span class="text-[11px] text-stone-500 font-bold uppercase">Reviews</span>
+            </div>
+            <div class="text-center">
+              <span id="dash-stat-contribs" class="text-2xl font-extrabold text-purple-600 font-mono block">3</span>
+              <span class="text-[11px] text-stone-500 font-bold uppercase">Contributions</span>
+            </div>
           </div>
         </div>
 
-        <!-- Quick Stats -->
-        <div class="flex items-center gap-6 border-t md:border-t-0 md:border-l border-stone-200 dark:border-stone-800 pt-4 md:pt-0 md:pl-8">
-          <div class="text-center">
-            <span id="dash-stat-saved" class="text-2xl font-extrabold text-amber-600 font-mono block">4</span>
-            <span class="text-[11px] text-stone-500 font-bold uppercase">Saved Places</span>
+        <!-- AI Travel Profile & Selected Interests -->
+        <div class="pt-6 border-t border-stone-100 dark:border-stone-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div>
+            <span class="text-[10px] font-extrabold text-amber-600 uppercase tracking-wider block mb-1">Your Travel Interests (AI Matched)</span>
+            <div class="flex flex-wrap items-center gap-1.5" id="dash-user-interests-container">
+              <span class="px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800 text-xs font-bold text-amber-900 dark:text-amber-300">Heritage</span>
+              <span class="px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800 text-xs font-bold text-amber-900 dark:text-amber-300">Food</span>
+              <span class="px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800 text-xs font-bold text-amber-900 dark:text-amber-300">Culture</span>
+              <span class="px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800 text-xs font-bold text-amber-900 dark:text-amber-300">Photography</span>
+            </div>
           </div>
-          <div class="text-center">
-            <span id="dash-stat-reviews" class="text-2xl font-extrabold text-stone-900 dark:text-white font-mono block">2</span>
-            <span class="text-[11px] text-stone-500 font-bold uppercase">Reviews</span>
-          </div>
-          <div class="text-center">
-            <span id="dash-stat-contribs" class="text-2xl font-extrabold text-purple-600 font-mono block">3</span>
-            <span class="text-[11px] text-stone-500 font-bold uppercase">Contributions</span>
-          </div>
+          <button onclick="RaahiApp.navigate('planner')" class="px-4 py-2 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-colors flex items-center gap-1.5 self-start sm:self-auto shadow-sm shrink-0">
+            <span class="material-symbols-outlined text-sm">auto_awesome</span>
+            <span>Update Travel Preferences</span>
+          </button>
         </div>
       </div>
 
-      <!-- Dashboard Tabs (Saved Places / My Reviews / My Contributions) -->
-      <div class="flex items-center gap-2 mb-6">
-        <button class="dash-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-amber-600 text-white" data-tab="saved">My Journey Collection</button>
+      <!-- Dashboard Tabs (Personalized for You / Saved Places / My Reviews / My Contributions) -->
+      <div class="flex flex-wrap items-center gap-2 mb-6">
+        <button class="dash-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-amber-600 text-white flex items-center gap-1.5" data-tab="personalized">
+          <span class="material-symbols-outlined text-sm">auto_awesome</span>
+          <span>Personalized for You</span>
+        </button>
+        <button class="dash-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-tab="saved">My Journey Collection</button>
         <button class="dash-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-tab="reviews">My Reviews</button>
         <button class="dash-tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300" data-tab="contributions">My Contributions</button>
       </div>
 
+      <!-- Tab Pane 0: Personalized for You (Section 11) -->
+      <div id="dash-pane-personalized" class="dash-tab-pane">
+        <div class="mb-4 flex items-center justify-between">
+          <div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white">AI Recommendations for Aakash</h3>
+            <p class="text-xs text-stone-500">Curated based on your saved heritage monuments and food preferences.</p>
+          </div>
+        </div>
+        <div id="dash-personalized-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Populated by js/dashboard.js -->
+        </div>
+      </div>
+
       <!-- Tab Pane 1: Saved Collection -->
-      <div id="dash-pane-saved" class="dash-tab-pane">
+      <div id="dash-pane-saved" class="dash-tab-pane hidden">
         <div id="dash-saved-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Populated by js/dashboard.js -->
         </div>
@@ -1247,28 +1869,87 @@
     </div>
   </div>
 
-  <!-- Floating AI Heritage Concierge FAB & Slide-Over Drawer -->
+  <!-- Modal 11: AI Transparent Explanation / Trust Modal (Section 12) -->
+  <div id="ai-explanation-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiApp.closeAIExplanation()"></div>
+    <div class="relative w-full max-w-md bg-white dark:bg-stone-900 rounded-3xl shadow-2xl p-6 sm:p-8 z-10 border border-amber-300 dark:border-amber-800 space-y-4">
+      <div class="flex items-center justify-between pb-3 border-b border-stone-200 dark:border-stone-800">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-full bg-amber-600 text-white flex items-center justify-center">
+            <span class="material-symbols-outlined text-sm">auto_awesome</span>
+          </div>
+          <div>
+            <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Transparent AI Intelligence</span>
+            <h3 class="font-heading text-base font-bold text-stone-900 dark:text-white">Why this recommendation?</h3>
+          </div>
+        </div>
+        <button onclick="RaahiApp.closeAIExplanation()" class="w-7 h-7 rounded-full bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-stone-500 hover:text-stone-900">
+          <span class="material-symbols-outlined text-sm">close</span>
+        </button>
+      </div>
+
+      <div id="ai-explanation-content" class="text-xs text-stone-700 dark:text-stone-300 space-y-3 leading-relaxed">
+        <p>Recommended because you frequently explore heritage destinations and saved historical places across Uttar Pradesh and Rajasthan.</p>
+      </div>
+
+      <div class="pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between text-[11px] text-stone-400">
+        <span>Powered by Raahi AI Preference Graph</span>
+        <button onclick="RaahiApp.closeAIExplanation()" class="font-bold text-amber-600 hover:underline">Got it</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating AI Travel Assistant FAB ("Ask Raahi" - Section 10) -->
   <div class="fixed bottom-6 right-6 z-40">
-    <button id="ai-fab-toggle" class="w-14 h-14 rounded-full bg-amber-600 hover:bg-amber-700 text-white shadow-2xl flex items-center justify-center transition-all hover:scale-110 relative group" title="Ask Raahi AI">
-      <span class="material-symbols-outlined text-2xl">auto_awesome</span>
+    <button id="ai-fab-toggle" class="px-4 py-3 rounded-full bg-amber-600 hover:bg-amber-700 text-white shadow-2xl flex items-center gap-2 transition-all hover:scale-105 relative group border border-amber-400/40" title="Ask Raahi">
+      <span class="material-symbols-outlined text-xl">auto_awesome</span>
+      <span class="font-bold text-xs">Ask Raahi</span>
       <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-emerald-500 border-2 border-white rounded-full animate-ping"></span>
       <span class="absolute -top-1 -right-1 w-3.5 h-3.5 bg-emerald-500 border-2 border-white rounded-full"></span>
     </button>
   </div>
 
+  <!-- Ask Raahi Floating Assistant Drawer (Section 10) -->
   <div id="ai-concierge-drawer" class="fixed top-0 right-0 h-full w-full sm:w-96 bg-white dark:bg-stone-900 shadow-2xl border-l border-stone-200 dark:border-stone-800 z-50 transform translate-x-full transition-transform duration-300 flex flex-col justify-between">
+    
+    <!-- Header -->
     <div class="p-4 border-b border-stone-200 dark:border-stone-800 flex items-center justify-between bg-amber-50/50 dark:bg-amber-950/20">
-      <div class="flex items-center gap-2">
-        <div class="w-8 h-8 rounded-full bg-amber-600 text-white flex items-center justify-center">
+      <div class="flex items-center gap-2.5">
+        <div class="w-8 h-8 rounded-full bg-amber-600 text-white flex items-center justify-center shadow-sm">
           <span class="material-symbols-outlined text-base">auto_awesome</span>
         </div>
         <div>
-          <h4 class="font-heading text-sm font-bold text-stone-900 dark:text-white">Raahi AI Concierge</h4>
-          <span class="text-[10px] text-emerald-600 dark:text-emerald-400 font-bold">● Active Heritage Companion</span>
+          <h4 class="font-heading text-sm font-bold text-stone-900 dark:text-white flex items-center gap-1.5">
+            Ask Raahi
+            <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+          </h4>
+          <span class="text-[10px] text-amber-700 dark:text-amber-400 font-bold">Safar Aapka, Planning Hamari</span>
         </div>
       </div>
-      <button id="ai-drawer-close" class="p-1.5 text-stone-500 hover:text-stone-900">
+      <button id="ai-drawer-close" class="p-1.5 text-stone-500 hover:text-stone-900 dark:hover:text-white rounded-lg">
         <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+
+    <!-- Suggested Prompts Chips Bar (Section 10) -->
+    <div class="p-3 bg-stone-50 dark:bg-stone-850 border-b border-stone-200 dark:border-stone-800 overflow-x-auto hide-scrollbar flex items-center gap-1.5 shrink-0">
+      <button onclick="RaahiAI.sendSuggestedPrompt('Plan my trip')" class="px-2.5 py-1 rounded-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-[10px] font-bold text-stone-700 dark:text-stone-300 whitespace-nowrap hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+        Plan my trip
+      </button>
+      <button onclick="RaahiAI.sendSuggestedPrompt('What should I visit nearby?')" class="px-2.5 py-1 rounded-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-[10px] font-bold text-stone-700 dark:text-stone-300 whitespace-nowrap hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+        What should I visit nearby?
+      </button>
+      <button onclick="RaahiAI.sendSuggestedPrompt('Best places for families')" class="px-2.5 py-1 rounded-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-[10px] font-bold text-stone-700 dark:text-stone-300 whitespace-nowrap hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+        Best places for families
+      </button>
+      <button onclick="RaahiAI.sendSuggestedPrompt('What can I do today?')" class="px-2.5 py-1 rounded-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-[10px] font-bold text-stone-700 dark:text-stone-300 whitespace-nowrap hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+        What can I do today?
+      </button>
+      <button onclick="RaahiAI.sendSuggestedPrompt('Find historical places')" class="px-2.5 py-1 rounded-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-[10px] font-bold text-stone-700 dark:text-stone-300 whitespace-nowrap hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+        Find historical places
+      </button>
+      <button onclick="RaahiAI.sendSuggestedPrompt('Show local food experiences')" class="px-2.5 py-1 rounded-full bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-[10px] font-bold text-stone-700 dark:text-stone-300 whitespace-nowrap hover:border-amber-500 hover:text-amber-600 transition-colors shadow-2xs">
+        Show local food experiences
       </button>
     </div>
 
@@ -1276,20 +1957,17 @@
     <div id="ai-messages-container" class="p-4 flex-1 overflow-y-auto space-y-3">
       <div class="flex items-start gap-2 mb-3">
         <div class="w-6 h-6 rounded-full bg-amber-600 text-white flex items-center justify-center text-[10px] font-bold shrink-0">R</div>
-        <div class="bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200 rounded-2xl rounded-tl-none px-4 py-3 max-w-[85%] text-xs shadow-sm space-y-1">
-          <p><strong>Namaste!</strong> I am your Raahi AI Heritage Concierge. Ask me about:</p>
-          <p>• Bara Imambara acoustic labyrinth &amp; timings</p>
-          <p>• Best sunrise boat spots in Varanasi</p>
-          <p>• Authentic Awadhi Galouti kebabs in Lucknow</p>
-          <p>• 24x7 Tourist Helpline (1363 / 112)</p>
+        <div class="bg-stone-100 dark:bg-stone-800 text-stone-800 dark:text-stone-200 rounded-2xl rounded-tl-none px-4 py-3 max-w-[85%] text-xs shadow-sm space-y-2 leading-relaxed">
+          <p class="font-bold text-stone-900 dark:text-white">Hi! Where would you like to explore?</p>
+          <p>I'm your Raahi AI travel intelligence companion. Ask me anything about destinations, monuments, authentic food, timings, or tap a prompt above!</p>
         </div>
       </div>
     </div>
 
     <!-- AI Input Form -->
-    <div class="p-3 border-t border-stone-200 dark:border-stone-800">
+    <div class="p-3 border-t border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-900">
       <form id="ai-chat-form" class="flex items-center gap-2">
-        <input id="ai-chat-input" type="text" placeholder="Ask about places, timings, kebabs..." class="flex-1 px-3.5 py-2.5 bg-stone-100 dark:bg-stone-800 border-none rounded-xl text-xs text-stone-900 dark:text-white outline-none focus:ring-1 focus:ring-amber-600">
+        <input id="ai-chat-input" type="text" placeholder="Ask Raahi where you want to go..." class="flex-1 px-3.5 py-2.5 bg-stone-100 dark:bg-stone-800 border-none rounded-xl text-xs text-stone-900 dark:text-white outline-none focus:ring-1 focus:ring-amber-600">
         <button type="submit" class="p-2.5 rounded-xl bg-amber-600 text-white hover:bg-amber-700 transition-colors">
           <span class="material-symbols-outlined text-base">send</span>
         </button>
