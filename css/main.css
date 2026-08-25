@@ -627,3 +627,104 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   }
 }
 
+/* ==========================================================================
+   Predictive ML Travel Budget Forecaster Styles
+   ========================================================================== */
+.budget-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(254, 243, 199, 0.2) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.dark .budget-card {
+  background: linear-gradient(145deg, rgba(28, 25, 23, 0.95) 0%, rgba(120, 53, 15, 0.25) 100%);
+  border-color: rgba(245, 158, 11, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.budget-breakdown-card {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.budget-breakdown-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.donut-segment {
+  transition: stroke-dasharray 0.8s cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 0.8s cubic-bezier(0.4, 0, 0.2, 1), stroke-width 0.2s ease;
+  cursor: pointer;
+}
+.donut-segment:hover {
+  stroke-width: 22;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+}
+
+.budget-tier-chip {
+  padding: 0.625rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1.5px solid;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.budget-tier-chip.active {
+  border-color: #d97706;
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #b45309;
+}
+.dark .budget-tier-chip.active {
+  background-color: rgba(180, 83, 9, 0.3);
+  color: #fde68a;
+  border-color: #f59e0b;
+}
+.budget-tier-chip:not(.active) {
+  border-color: #e7e5e4;
+  background-color: #fafaf9;
+  color: #78716c;
+}
+.dark .budget-tier-chip:not(.active) {
+  border-color: #44403c;
+  background-color: #1c1917;
+  color: #a8a29e;
+}
+
+/* ==========================================================================
+   Crowd & Climate Forecaster Styles
+   ========================================================================== */
+.crowd-climate-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 253, 244, 0.3) 50%, rgba(254, 243, 199, 0.2) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+.dark .crowd-climate-card {
+  background: linear-gradient(145deg, rgba(28, 25, 23, 0.95) 0%, rgba(6, 78, 59, 0.2) 50%, rgba(120, 53, 15, 0.15) 100%);
+  border-color: rgba(16, 185, 129, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.crowd-bar {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.crowd-bar:hover {
+  filter: brightness(1.15) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+  transform: scaleY(1.04);
+  transform-origin: bottom;
+}
+.crowd-bar.active-month {
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 2px #d97706, 0 4px 12px rgba(217, 119, 6, 0.4);
+}
+
+.climate-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border: 1px solid;
+  transition: all 0.2s ease;
+}
+

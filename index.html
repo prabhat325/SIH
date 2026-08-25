@@ -266,11 +266,15 @@
               </p>
             </div>
             <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 shrink-0 z-10 w-full sm:w-auto">
-              <button onclick="RaahiSmartMatch.openModal()" class="px-5 py-3.5 rounded-2xl bg-white dark:bg-stone-850 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-900 dark:text-white font-extrabold text-xs sm:text-sm border border-amber-300 dark:border-amber-700/60 shadow-sm transition-all flex items-center justify-center gap-2 group">
+              <button onclick="RaahiSmartMatch.openModal()" class="px-4 py-3.5 rounded-2xl bg-white dark:bg-stone-850 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-900 dark:text-white font-extrabold text-xs sm:text-sm border border-amber-300 dark:border-amber-700/60 shadow-sm transition-all flex items-center justify-center gap-1.5 group">
                 <span class="material-symbols-outlined text-base text-amber-600">tune</span>
                 <span>AI Smart Match</span>
               </button>
-              <button onclick="RaahiApp.navigate('planner')" class="px-6 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-amber-600/30 transition-all flex items-center justify-center gap-2 group">
+              <button onclick="RaahiBudgetForecaster.openModal()" class="px-4 py-3.5 rounded-2xl bg-white dark:bg-stone-850 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-900 dark:text-white font-extrabold text-xs sm:text-sm border border-amber-300 dark:border-amber-700/60 shadow-sm transition-all flex items-center justify-center gap-1.5 group">
+                <span class="material-symbols-outlined text-base text-amber-600">calculate</span>
+                <span>ML Budget</span>
+              </button>
+              <button onclick="RaahiApp.navigate('planner')" class="px-5 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-amber-600/30 transition-all flex items-center justify-center gap-2 group">
                 <span>Start Planning</span>
                 <span class="material-symbols-outlined text-base group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
               </button>
@@ -624,6 +628,10 @@
             </p>
           </div>
           <div class="flex flex-wrap items-center gap-2 self-start md:self-auto">
+            <button onclick="RaahiBudgetForecaster.openModal()" class="px-4 py-2.5 rounded-xl bg-white dark:bg-stone-850 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-900 dark:text-white text-xs font-bold border border-amber-300 dark:border-amber-700/60 shadow-sm transition-colors flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-sm text-amber-600">calculate</span>
+              <span>Predict Budget</span>
+            </button>
             <button onclick="RaahiSmartMatch.openModal()" class="px-4 py-2.5 rounded-xl bg-white dark:bg-stone-850 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-900 dark:text-white text-xs font-bold border border-amber-300 dark:border-amber-700/60 shadow-sm transition-colors flex items-center gap-1.5">
               <span class="material-symbols-outlined text-sm text-amber-600">tune</span>
               <span>AI Smart Match</span>
@@ -2133,6 +2141,249 @@
     </div>
   </div>
 
+  <!-- =========================================================================
+       Modal 14: Predictive ML Travel Budget Forecaster Modal
+       ========================================================================= -->
+  <div id="ai-budget-forecaster-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-3 sm:p-4 md:p-6">
+    <div class="absolute inset-0 bg-black/80 backdrop-blur-md" onclick="RaahiBudgetForecaster.closeModal()"></div>
+    <div class="relative w-full max-w-5xl max-h-[92vh] overflow-y-auto z-10 bg-white dark:bg-stone-900 rounded-3xl shadow-2xl border border-stone-200 dark:border-stone-800 p-6 sm:p-8 space-y-6">
+      
+      <!-- Header -->
+      <div class="flex items-start justify-between gap-4 pb-4 border-b border-stone-200 dark:border-stone-800">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-700 text-white flex items-center justify-center shadow-lg shadow-amber-600/30 shrink-0">
+            <span class="material-symbols-outlined text-2xl">calculate</span>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="px-2.5 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 text-[10px] font-extrabold uppercase tracking-wider">
+                Machine Learning Model
+              </span>
+              <span class="text-[10px] text-emerald-600 dark:text-emerald-400 font-bold flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                POST /api/v1/budget/predict
+              </span>
+            </div>
+            <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-stone-900 dark:text-white mt-1">
+              Predictive ML Travel Budget Forecaster
+            </h3>
+            <p class="text-xs text-stone-500">
+              Live cost estimation based on Indian destination indices, seasonal multipliers, and travel preferences.
+            </p>
+          </div>
+        </div>
+        <button onclick="RaahiBudgetForecaster.closeModal()" class="w-10 h-10 rounded-full bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-600 dark:text-stone-300 flex items-center justify-center transition-colors shrink-0">
+          <span class="material-symbols-outlined text-xl">close</span>
+        </button>
+      </div>
+
+      <!-- Main Two-Column Interactive Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- LEFT COLUMN: Interactive Parameter Inputs (5 Cols) -->
+        <div class="lg:col-span-5 space-y-6">
+          
+          <!-- Input 1: Destination Selector -->
+          <div class="space-y-2">
+            <label class="block text-xs font-extrabold uppercase tracking-wider text-stone-700 dark:text-stone-300">
+              1. Select Destination
+            </label>
+            <select id="budget-dest-select" onchange="RaahiBudgetForecaster.setDestination(this.value)" class="w-full px-4 py-3 rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-300 dark:border-stone-700 text-stone-900 dark:text-white text-xs font-bold focus:outline-none focus:border-amber-500 transition-colors">
+              <option value="lucknow" selected>Lucknow (Awadh Heritage &amp; Royal Culinary)</option>
+              <option value="varanasi">Varanasi (Sacred Ghats &amp; Silk Weavers)</option>
+              <option value="jaipur">Jaipur (Pink City Palaces &amp; Royal Forts)</option>
+              <option value="kerala">Kerala (Alleppey Backwaters &amp; Munnar Hills)</option>
+              <option value="goa">Goa (Sun, Coastal Taverns &amp; Portuguese Forts)</option>
+              <option value="agra">Agra (Taj Mahal &amp; Mughal Marvels)</option>
+              <option value="delhi">Delhi (Imperial Monuments &amp; Old Bazaars)</option>
+              <option value="kashmir">Kashmir (Dal Lake Shikaras &amp; Alpine Meadows)</option>
+            </select>
+          </div>
+
+          <!-- Input 2: Number of Days Slider (1 - 30) -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label class="text-xs font-extrabold uppercase tracking-wider text-stone-700 dark:text-stone-300">
+                2. Journey Duration
+              </label>
+              <span id="budget-days-readout" class="font-mono text-xs font-extrabold text-amber-600 bg-amber-50 dark:bg-amber-950/60 px-2.5 py-0.5 rounded-full">
+                4 Days
+              </span>
+            </div>
+            <input type="range" id="budget-days-slider" min="1" max="30" value="4" oninput="RaahiBudgetForecaster.setDays(this.value)" class="w-full accent-amber-600 h-2 bg-stone-200 dark:bg-stone-700 rounded-lg cursor-pointer">
+            <div class="flex justify-between text-[10px] text-stone-400 font-bold">
+              <span>1 Day</span>
+              <span>7 Days</span>
+              <span>14 Days</span>
+              <span>30 Days</span>
+            </div>
+          </div>
+
+          <!-- Input 3: Group Size (1 - 15) -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <label class="text-xs font-extrabold uppercase tracking-wider text-stone-700 dark:text-stone-300">
+                3. Group Size
+              </label>
+              <span id="budget-group-readout" class="font-mono text-xs font-extrabold text-amber-600 bg-amber-50 dark:bg-amber-950/60 px-2.5 py-0.5 rounded-full">
+                2 Travelers
+              </span>
+            </div>
+            <input type="range" id="budget-group-slider" min="1" max="15" value="2" oninput="RaahiBudgetForecaster.setGroupSize(this.value)" class="w-full accent-amber-600 h-2 bg-stone-200 dark:bg-stone-700 rounded-lg cursor-pointer">
+            <div class="flex justify-between text-[10px] text-stone-400 font-bold">
+              <span>Solo (1)</span>
+              <span>Couple (2)</span>
+              <span>Family (4)</span>
+              <span>Group (10+)</span>
+            </div>
+          </div>
+
+          <!-- Input 4: Budget Tier (Budget, Moderate, Luxury) -->
+          <div class="space-y-2">
+            <label class="block text-xs font-extrabold uppercase tracking-wider text-stone-700 dark:text-stone-300">
+              4. Budget Tier
+            </label>
+            <div class="grid grid-cols-3 gap-2">
+              <button onclick="RaahiBudgetForecaster.setTier('Budget')" data-tier="Budget" class="budget-tier-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-center transition-all">
+                <span class="material-symbols-outlined text-lg block mb-1 text-emerald-600">payments</span>
+                <span class="text-xs font-bold block">Budget</span>
+                <span class="text-[9px] text-stone-400 block mt-0.5">Homestays &amp; Street</span>
+              </button>
+              <button onclick="RaahiBudgetForecaster.setTier('Moderate')" data-tier="Moderate" class="budget-tier-btn p-3 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 text-center transition-all shadow-xs">
+                <span class="material-symbols-outlined text-lg block mb-1 text-amber-600">credit_card</span>
+                <span class="text-xs font-bold block">Moderate</span>
+                <span class="text-[9px] text-amber-700/80 dark:text-amber-400/80 block mt-0.5">3-4★ &amp; Verified</span>
+              </button>
+              <button onclick="RaahiBudgetForecaster.setTier('Luxury')" data-tier="Luxury" class="budget-tier-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-center transition-all">
+                <span class="material-symbols-outlined text-lg block mb-1 text-purple-600">diamond</span>
+                <span class="text-xs font-bold block">Luxury</span>
+                <span class="text-[9px] text-stone-400 block mt-0.5">5★ &amp; Chauffeur</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Input 5: Month of Travel -->
+          <div class="space-y-2">
+            <label class="block text-xs font-extrabold uppercase tracking-wider text-stone-700 dark:text-stone-300">
+              5. Month of Travel (Seasonal Multipliers)
+            </label>
+            <select id="budget-month-select" onchange="RaahiBudgetForecaster.setMonth(this.value)" class="w-full px-4 py-3 rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-300 dark:border-stone-700 text-stone-900 dark:text-white text-xs font-bold focus:outline-none focus:border-amber-500 transition-colors">
+              <option value="January">January (Peak Season ❄️)</option>
+              <option value="February">February (Pleasant Spring 🌸)</option>
+              <option value="March">March (Shoulder Season ☀️)</option>
+              <option value="April">April (Summer Saver 🏷️)</option>
+              <option value="May">May (Low Season 🌞)</option>
+              <option value="June">June (Monsoon Arrival 🌧️)</option>
+              <option value="July">July (Monsoon Greenery 🌿)</option>
+              <option value="August">August (Festival Monsoon 🦚)</option>
+              <option value="September">September (Early Autumn 🍁)</option>
+              <option value="October" selected>October (Festive Season 🪔)</option>
+              <option value="November">November (High Peak 🌟)</option>
+              <option value="December">December (Grand Holiday Peak 🎆)</option>
+            </select>
+          </div>
+
+        </div>
+
+        <!-- RIGHT COLUMN: ML Predictions, Live Breakdown & Donut Chart (7 Cols) -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <!-- Top Hero Total & Range Card -->
+          <div class="budget-card p-6 rounded-3xl border border-amber-300/60 dark:border-amber-700/60 space-y-4">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="text-[10px] font-extrabold uppercase tracking-widest text-amber-800 dark:text-amber-400 block">
+                  Predicted ML Total Budget
+                </span>
+                <div class="flex items-baseline gap-3 mt-1">
+                  <span id="budget-total-val" class="font-heading text-3xl sm:text-4xl font-extrabold text-stone-900 dark:text-white font-mono">
+                    ₹33,800
+                  </span>
+                  <span id="budget-per-person-val" class="font-mono text-xs sm:text-sm font-bold text-amber-800 dark:text-amber-300">
+                    ₹16,900 / person
+                  </span>
+                </div>
+              </div>
+              <div class="text-left sm:text-right">
+                <span class="text-[10px] font-extrabold uppercase tracking-wider text-stone-500 block">
+                  Confidence Range (±12%)
+                </span>
+                <span id="budget-range-val" class="font-mono text-xs font-extrabold text-emerald-700 dark:text-emerald-400 block mt-0.5">
+                  ₹29,740 – ₹38,530
+                </span>
+              </div>
+            </div>
+
+            <div class="pt-2 border-t border-amber-200/60 dark:border-amber-900/40 flex items-center justify-between text-xs text-stone-600 dark:text-stone-300">
+              <span id="budget-summary-badge" class="font-bold">4 Days • 2 People • Moderate (October)</span>
+              <span class="text-[11px] text-emerald-700 dark:text-emerald-400 font-bold flex items-center gap-1">
+                <span class="material-symbols-outlined text-sm">trending_down</span>
+                Low Volatility
+              </span>
+            </div>
+          </div>
+
+          <!-- Donut Chart & Expense Proportions -->
+          <div class="p-6 rounded-3xl bg-stone-50 dark:bg-stone-850 border border-stone-200 dark:border-stone-800 space-y-4">
+            <div class="flex items-center justify-between">
+              <h4 class="font-heading text-sm font-bold text-stone-900 dark:text-white flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-base text-amber-600">pie_chart</span>
+                <span>Expense Proportions</span>
+              </h4>
+              <span class="text-[11px] text-stone-400">Hover segments for cost</span>
+            </div>
+
+            <div id="budget-donut-chart-container" class="py-2">
+              <!-- SVG Donut Chart dynamically rendered by js/budget-forecaster.js -->
+            </div>
+
+            <!-- Horizontal Stacked Progress Proportion Bar -->
+            <div id="budget-stacked-bar" class="w-full flex h-2.5 rounded-full overflow-hidden bg-stone-200 dark:bg-stone-700">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <!-- 5 Live Breakdown Cards (Stay, Food, Transport, Sightseeing, Misc) -->
+          <div class="space-y-3">
+            <h4 class="font-heading text-xs font-extrabold uppercase tracking-wider text-stone-700 dark:text-stone-300">
+              Live Category Breakdown
+            </h4>
+            <div id="budget-breakdown-cards-container" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <!-- Rendered by js/budget-forecaster.js -->
+            </div>
+          </div>
+
+          <!-- Money Saving Tips List -->
+          <div class="p-5 rounded-2xl bg-emerald-50/70 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 space-y-3">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-emerald-600 text-lg">lightbulb</span>
+              <h4 class="font-heading text-xs font-extrabold uppercase tracking-wider text-emerald-900 dark:text-emerald-300">
+                Destination Money-Saving Tips
+              </h4>
+            </div>
+            <ul id="budget-saving-tips-container" class="space-y-2 pl-1">
+              <!-- Rendered by js/budget-forecaster.js -->
+            </ul>
+          </div>
+
+          <!-- Modal Action Bar -->
+          <div class="flex flex-wrap items-center justify-end gap-3 pt-4 border-t border-stone-200 dark:border-stone-800">
+            <button onclick="RaahiBudgetForecaster.closeModal()" class="px-5 py-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 text-xs font-bold transition-colors">
+              Close
+            </button>
+            <button onclick="RaahiBudgetForecaster.planTripWithBudget()" class="px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shadow-md transition-all flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-sm">auto_awesome</span>
+              <span>Plan Trip with This Budget</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
   <!-- Floating AI Travel Assistant FAB ("Ask Raahi" - Section 10) -->
   <div class="fixed bottom-6 right-6 z-40">
     <button id="ai-fab-toggle" class="px-4 py-3 rounded-full bg-amber-600 hover:bg-amber-700 text-white shadow-2xl flex items-center gap-2 transition-all hover:scale-105 relative group border border-amber-400/40" title="Ask Raahi">
@@ -2228,6 +2479,8 @@
   <script src="js/map.js"></script>
   <script src="js/planner.js"></script>
   <script src="js/smart-match.js"></script>
+  <script src="js/budget-forecaster.js"></script>
+  <script src="js/crowd-climate.js"></script>
   <script src="js/community.js"></script>
   <script src="js/dashboard.js"></script>
   <script src="js/admin.js"></script>

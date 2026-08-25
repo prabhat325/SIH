@@ -260,6 +260,10 @@ const RaahiDestinations = {
                 <span class="material-symbols-outlined text-sm text-amber-600">travel_explore</span>
                 <span>Explore Monuments</span>
               </button>
+              <button onclick="RaahiBudgetForecaster.openModal('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 hover:bg-amber-100 dark:hover:bg-amber-900/60 text-amber-900 dark:text-amber-300 border border-amber-300 dark:border-amber-700/60 text-xs font-bold transition-colors flex items-center gap-1">
+                <span class="material-symbols-outlined text-sm text-amber-600">calculate</span>
+                <span>Predict Budget</span>
+              </button>
             </div>
             <span class="text-xs font-bold text-stone-400">
               Verified by Raahi ASI Intelligence
@@ -327,7 +331,14 @@ const RaahiDestinations = {
           </div>
 
           <!-- =================================================================
-               COMPONENT 2: "Similar Vibes" Alternative Carousel
+               COMPONENT 2: "Crowd & Climate Forecaster"
+               ================================================================= -->
+          <div id="destination-crowd-climate-container" class="space-y-4">
+            <!-- Rendered dynamically by RaahiCrowdClimate.renderForecaster() -->
+          </div>
+
+          <!-- =================================================================
+               COMPONENT 3: "Similar Vibes" Alternative Carousel
                ================================================================= -->
           <div class="space-y-4">
             <div class="flex items-center justify-between">
@@ -365,6 +376,11 @@ const RaahiDestinations = {
 
     modal.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
+
+    // Render Crowd & Climate Forecaster
+    if (typeof RaahiCrowdClimate !== 'undefined') {
+      RaahiCrowdClimate.renderForecaster(dest.name, 'destination-crowd-climate-container', 'October');
+    }
 
     // Fetch and render the Similar Vibes from POST http://localhost:8000/api/v1/recommend/similar
     this.fetchSimilarVibes(normId, key);

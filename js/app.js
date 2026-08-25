@@ -27,6 +27,7 @@ const RaahiApp = {
     if (typeof RaahiEmergency !== 'undefined') RaahiEmergency.init();
     if (typeof RaahiPlanner !== 'undefined') RaahiPlanner.init();
     if (typeof RaahiSmartMatch !== 'undefined') RaahiSmartMatch.init();
+    if (typeof RaahiBudgetForecaster !== 'undefined') RaahiBudgetForecaster.init();
     if (typeof RaahiCommunity !== 'undefined') RaahiCommunity.init();
     if (typeof RaahiDashboard !== 'undefined') RaahiDashboard.init();
     if (typeof RaahiAdmin !== 'undefined') RaahiAdmin.init();
