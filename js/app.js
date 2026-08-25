@@ -340,76 +340,26 @@ const RaahiApp = {
     if (!container && !exploreContainer) return;
     if (!RAAHI_DATA.destinations) return;
 
-    const renderCard = (d) => `
-      <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
-        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800 cursor-pointer" onclick="RaahiCityHub.openCity('${d.id}')">
-          <img src="${d.image}" alt="${d.name}" loading="lazy" class="w-full h-full object-cover img-zoom">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent"></div>
-
-          <div class="absolute top-3.5 left-3.5 z-10 flex items-center gap-1.5">
-            <span class="px-3 py-1 rounded-full text-xs font-extrabold bg-black/60 backdrop-blur-md text-white border border-white/20">
-              ${d.state}
-            </span>
-          </div>
-
-          <div class="absolute top-3.5 right-3.5 z-10">
-            <button onclick="event.stopPropagation(); RaahiDestinations.openDetailModal('${d.id}')" title="Explainable AI Affinity Insights" class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-black/60 hover:bg-black/80 backdrop-blur-md text-white border border-white/20 shadow-sm flex items-center gap-1 transition-all">
-              <span class="material-symbols-outlined text-xs text-amber-400">psychology</span>
-              <span>Why ${d.name}?</span>
-            </button>
-          </div>
-
-          <div class="absolute bottom-4 left-4 right-4 text-white z-10">
-            <h3 class="font-heading text-2xl font-extrabold text-white mb-0.5 group-hover:text-amber-400 transition-colors">${d.name}</h3>
-            <p class="text-xs text-amber-300 font-medium line-clamp-1">${d.tagline}</p>
-          </div>
-        </div>
-
-        <div class="p-5 flex-1 flex flex-col justify-between">
-          <p class="text-xs text-stone-600 dark:text-stone-400 line-clamp-2 mb-4 leading-relaxed">
-            ${d.description}
-          </p>
-
-          <div>
-            <div class="flex items-center justify-between py-2.5 border-t border-stone-100 dark:border-stone-800 text-xs font-semibold text-stone-700 dark:text-stone-300 mb-4">
-              <span class="flex items-center gap-1.5 text-amber-600 dark:text-amber-400">
-                <span class="material-symbols-outlined text-sm">account_balance</span>
-                ${d.attractionsCount}+ Sights
-              </span>
-              <span class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400">
-                <span class="material-symbols-outlined text-sm">hotel</span>
-                ${d.hotelsCount}+ Stays
-              </span>
-              <span class="flex items-center gap-1.5 text-blue-600 dark:text-blue-400">
-                <span class="material-symbols-outlined text-sm">shield</span>
-                Safety 9.2
-              </span>
-            </div>
-
-            <div class="grid grid-cols-2 gap-2">
-              <button onclick="RaahiCityHub.openCity('${d.id}')" class="py-2.5 px-3 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-md shadow-amber-600/20">
-                <span class="material-symbols-outlined text-sm">explore</span>
-                <span>City Hub</span>
-              </button>
-              <button onclick="RaahiDestinations.openDetailModal('${d.id}')" class="py-2.5 px-3 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-700 text-xs font-bold transition-all flex items-center justify-center gap-1">
-                <span class="material-symbols-outlined text-sm text-amber-600">psychology</span>
-                <span>Why This?</span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
-
+    const renderFn = (d) => {
+      if (typeof RaahiDestinations !== 'undefined' && RaahiDestinations.createDestinationCard) {
+        return RaahiDestinations.createDestinationCard(d);
+      }
+      return '';
+    };
 
     if (container) {
-      container.innerHTML = RAAHI_DATA.destinations.map(renderCard).join('');
+      container.innerHTML = RAAHI_DATA.destinations.map(renderFn).join('');
     }
 
     if (exploreContainer) {
-      exploreContainer.innerHTML = RAAHI_DATA.destinations.map(renderCard).join('');
+      if (typeof RaahiDestinations !== 'undefined' && RaahiDestinations.renderExploreList) {
+        RaahiDestinations.renderExploreList();
+      } else {
+        exploreContainer.innerHTML = RAAHI_DATA.destinations.map(renderFn).join('');
+      }
     }
   },
+
 
   // Section 6 & 12: AI Recommendations with "Why this recommendation?" trust trigger
   renderAIRecommendations() {

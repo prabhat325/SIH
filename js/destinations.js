@@ -516,6 +516,145 @@ const RaahiDestinations = {
     if (typeof RaahiApp !== 'undefined') {
       RaahiApp.navigate('places');
     }
+  },
+
+  createDestinationCard(d) {
+    const sightsCount = d.attractionsCount || 20;
+    const staysCount = d.hotelsCount || 35;
+    const diningCount = d.restaurantsCount || 40;
+
+    return `
+      <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
+        <!-- Top Cover Image -->
+        <div class="relative h-56 sm:h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800 cursor-pointer" onclick="RaahiCityHub.openCity('${d.id}')">
+          <img src="${d.image}" alt="${d.name}" loading="lazy" class="w-full h-full object-cover img-zoom transition-transform duration-500 group-hover:scale-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/90 via-stone-950/30 to-transparent"></div>
+
+          <!-- State Tag & Rating Badge -->
+          <div class="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between z-10">
+            <span class="px-3 py-1 rounded-full text-xs font-extrabold bg-black/60 backdrop-blur-md text-white border border-white/20 shadow-xs">
+              ${d.state}
+            </span>
+            <span class="px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-amber-500 text-stone-950 shadow-xs flex items-center gap-1">
+              <span class="material-symbols-outlined text-xs">star</span>
+              <span>4.9</span>
+            </span>
+          </div>
+
+          <!-- Bottom Title & Tagline on Image -->
+          <div class="absolute bottom-3.5 left-4 right-4 text-white z-10">
+            <h3 class="font-heading text-2xl font-extrabold text-white group-hover:text-amber-300 transition-colors">${d.name}</h3>
+            <p class="text-xs text-amber-200/90 font-medium line-clamp-1 mt-0.5">${d.tagline}</p>
+          </div>
+        </div>
+
+        <!-- Clean Card Content -->
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <p class="text-xs text-stone-600 dark:text-stone-400 line-clamp-2 leading-relaxed mb-4">
+            ${d.description}
+          </p>
+
+          <div>
+            <!-- Clean Key Highlights / Stats Bar -->
+            <div class="flex items-center justify-between py-2 px-3 rounded-xl bg-stone-50 dark:bg-stone-800/60 border border-stone-100 dark:border-stone-800 text-[11px] font-semibold text-stone-600 dark:text-stone-300 mb-4">
+              <span class="flex items-center gap-1 text-amber-600 dark:text-amber-400">
+                <span class="material-symbols-outlined text-sm">account_balance</span>
+                ${sightsCount}+ Sights
+              </span>
+              <span class="text-stone-300 dark:text-stone-700">•</span>
+              <span class="flex items-center gap-1 text-emerald-600 dark:text-emerald-400">
+                <span class="material-symbols-outlined text-sm">hotel</span>
+                ${staysCount}+ Stays
+              </span>
+              <span class="text-stone-300 dark:text-stone-700">•</span>
+              <span class="flex items-center gap-1 text-orange-600 dark:text-orange-400">
+                <span class="material-symbols-outlined text-sm">restaurant</span>
+                ${diningCount}+ Dining
+              </span>
+            </div>
+
+            <!-- Single Clean Action Row -->
+            <div class="flex items-center gap-2">
+              <button onclick="RaahiCityHub.openCity('${d.id}')" class="flex-1 py-2.5 px-4 rounded-xl bg-amber-600 hover:bg-amber-700 active:scale-[0.98] text-white text-xs font-bold transition-all flex items-center justify-center gap-1.5 shadow-md shadow-amber-600/20">
+                <span>Explore City Hub</span>
+                <span class="material-symbols-outlined text-sm">arrow_forward</span>
+              </button>
+              <button onclick="RaahiDestinations.openDetailModal('${d.id}')" title="Why ${d.name}? (AI Match Insights)" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:text-amber-600 border border-stone-200 dark:border-stone-700/80 transition-colors flex items-center justify-center">
+                <span class="material-symbols-outlined text-base">psychology</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  },
+
+  setFilter(filter) {
+    this.currentFilter = filter;
+    
+    // Update filter buttons styling
+    document.querySelectorAll('.dest-filter-chip').forEach(btn => {
+      const btnFilter = btn.getAttribute('data-filter');
+      if (btnFilter === filter) {
+        btn.className = 'dest-filter-chip px-4 py-2 rounded-full text-xs font-bold bg-amber-600 text-white shadow-sm transition-all';
+      } else {
+        btn.className = 'dest-filter-chip px-4 py-2 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-700 transition-all';
+      }
+    });
+
+    this.renderExploreList();
+  },
+
+  setSearch(query) {
+    this.searchQuery = (query || '').toLowerCase().trim();
+    this.renderExploreList();
+  },
+
+  renderExploreList() {
+    const container = document.getElementById('explore-destinations-container');
+    if (!container || !RAAHI_DATA.destinations) return;
+
+    let list = [...RAAHI_DATA.destinations];
+
+    // Apply Region Filter
+    if (this.currentFilter === 'up') {
+      list = list.filter(d => d.state === 'Uttar Pradesh');
+    } else if (this.currentFilter === 'rajasthan') {
+      list = list.filter(d => d.state === 'Rajasthan');
+    } else if (this.currentFilter === 'south') {
+      list = list.filter(d => d.state === 'Kerala');
+    } else if (this.currentFilter === 'west') {
+      list = list.filter(d => d.state === 'Goa');
+    } else if (this.currentFilter === 'north') {
+      list = list.filter(d => d.state.includes('Delhi') || d.state.includes('Kashmir'));
+    }
+
+    // Apply Search Query
+    if (this.searchQuery) {
+      list = list.filter(d =>
+        d.name.toLowerCase().includes(this.searchQuery) ||
+        d.state.toLowerCase().includes(this.searchQuery) ||
+        d.tagline.toLowerCase().includes(this.searchQuery)
+      );
+    }
+
+    if (list.length === 0) {
+      container.innerHTML = `
+        <div class="col-span-full py-16 text-center">
+          <div class="w-16 h-16 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-400 flex items-center justify-center mx-auto mb-4">
+            <span class="material-symbols-outlined text-3xl">search_off</span>
+          </div>
+          <h3 class="text-lg font-bold text-stone-800 dark:text-stone-200">No destinations found</h3>
+          <p class="text-xs text-stone-500 mt-1 mb-4">Try searching for other Indian cities like Lucknow, Jaipur, Varanasi, or Goa.</p>
+          <button onclick="RaahiDestinations.setFilter('all'); const input = document.getElementById('explore-search-input'); if(input) input.value='';" class="px-4 py-2 rounded-xl bg-amber-600 text-white text-xs font-bold">
+            Clear Filters
+          </button>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = list.map(d => this.createDestinationCard(d)).join('');
   }
 };
 
@@ -523,3 +662,4 @@ const RaahiDestinations = {
 if (typeof window !== 'undefined') {
   window.RaahiDestinations = RaahiDestinations;
 }
+

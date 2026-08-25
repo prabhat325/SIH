@@ -949,17 +949,57 @@
     <!-- =======================================================================
          VIEW 2: EXPLORE DESTINATIONS (#view-explore)
          ======================================================================= -->
-    <div id="view-explore" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <div class="text-center max-w-3xl mx-auto mb-10">
+    <div id="view-explore" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
+      
+      <!-- Top Header -->
+      <div class="text-center max-w-3xl mx-auto mb-8">
         <span class="text-xs font-extrabold uppercase tracking-wider text-amber-600">Pan-India Discovery</span>
-        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white mt-1">Explore India
-          with Raahi</h1>
-        <p class="text-xs sm:text-sm text-stone-500 mt-2">Discover curated regional hubs across Uttar Pradesh,
-          Rajasthan, Kerala, Delhi, Goa, and Kashmir.</p>
+        <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-stone-900 dark:text-white mt-1">Explore India with Raahi</h1>
+        <p class="text-xs sm:text-sm text-stone-500 dark:text-stone-400 mt-2">Discover curated cultural hubs across incredible Indian heritage destinations.</p>
+      </div>
+
+      <!-- Clean Search & Filter Bar -->
+      <div class="max-w-4xl mx-auto mb-10 space-y-4">
+        <!-- Search Input -->
+        <div class="relative">
+          <span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-stone-400 text-xl">search</span>
+          <input 
+            type="text" 
+            id="explore-search-input" 
+            oninput="RaahiDestinations.setSearch(this.value)" 
+            placeholder="Search destination, state or culture (e.g. Lucknow, Rajasthan, Forts)..." 
+            class="w-full pl-12 pr-10 py-3.5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 text-sm text-stone-900 dark:text-white placeholder-stone-400 focus:outline-hidden focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20 shadow-xs transition-all"
+          >
+          <button onclick="const input = document.getElementById('explore-search-input'); if(input) { input.value = ''; RaahiDestinations.setSearch(''); }" class="absolute right-3.5 top-1/2 -translate-y-1/2 text-stone-400 hover:text-stone-600 dark:hover:text-stone-200">
+            <span class="material-symbols-outlined text-lg">close</span>
+          </button>
+        </div>
+
+        <!-- Filter Chips -->
+        <div class="flex flex-wrap items-center justify-center gap-2">
+          <button data-filter="all" onclick="RaahiDestinations.setFilter('all')" class="dest-filter-chip px-4 py-2 rounded-full text-xs font-bold bg-amber-600 text-white shadow-xs transition-all">
+            All India
+          </button>
+          <button data-filter="up" onclick="RaahiDestinations.setFilter('up')" class="dest-filter-chip px-4 py-2 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-700 transition-all">
+            Uttar Pradesh
+          </button>
+          <button data-filter="rajasthan" onclick="RaahiDestinations.setFilter('rajasthan')" class="dest-filter-chip px-4 py-2 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-700 transition-all">
+            Rajasthan
+          </button>
+          <button data-filter="south" onclick="RaahiDestinations.setFilter('south')" class="dest-filter-chip px-4 py-2 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-700 transition-all">
+            Kerala & South
+          </button>
+          <button data-filter="west" onclick="RaahiDestinations.setFilter('west')" class="dest-filter-chip px-4 py-2 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-700 transition-all">
+            Goa & West
+          </button>
+          <button data-filter="north" onclick="RaahiDestinations.setFilter('north')" class="dest-filter-chip px-4 py-2 rounded-full text-xs font-bold bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400 hover:bg-stone-200 dark:hover:bg-stone-700 transition-all">
+            Kashmir & Delhi
+          </button>
+        </div>
       </div>
 
       <div id="explore-destinations-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Populated by js/app.js -->
+        <!-- Populated by js/app.js & js/destinations.js -->
       </div>
     </div>
 
