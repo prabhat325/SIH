@@ -2,8 +2,7 @@
  * RAAHI — Comprehensive Data Layer
  * "Safar Aapka, Planning Hamari"
  * Complete verified dataset for Indian destinations, places, hotels, restaurants,
- * vehicles & transport, local guides, events & experiences, emergency services,
- * and community change requests across all 8 premier Indian destinations.
+ * events, local guides, emergency services, sample reviews, and community change requests.
  */
 
 const RAAHI_DATA = {
@@ -105,7 +104,7 @@ const RAAHI_DATA = {
       name: "Kashmir",
       state: "Jammu & Kashmir",
       tagline: "Paradise on Earth & Alpine Meadows",
-      description: "Breathtaking valley featuring Dal Lake Shikara rides, snow-capped Himalayan peaks of Gulmarg, saffron fields, and Mughal terraced gardens.",
+      description: "Breathtaking valley featuring Dal Lake Shikara rides, snow-capped Himalayan peaks of Gulmarg, saffron fields, and Mughal gardens.",
       image: "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
       attractionsCount: 20,
       hotelsCount: 38,
@@ -115,9 +114,8 @@ const RAAHI_DATA = {
     }
   ],
 
-  // 2. TOURIST PLACES (Categorized across all 8 Destinations)
+  // 2. TOURIST PLACES (Monuments, Forts, Temples, Heritage Sites)
   places: [
-    // LUCKNOW
     {
       id: "bara-imambara",
       name: "Bara Imambara & Bhool Bhulaiya",
@@ -125,18 +123,24 @@ const RAAHI_DATA = {
       city: "Lucknow",
       state: "Uttar Pradesh",
       category: "Heritage",
-      subCategory: "Historical places",
       rating: 4.8,
       reviewsCount: 342,
       image: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80"],
+      gallery: [
+        "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=800&q=80"
+      ],
       description: "Iconic 18th-century architectural masterpiece built by Nawab Asaf-ud-Daula with its unsupported arched central hall and mystical labyrinth.",
       history: "Commissioned in 1784 during a devastating famine as a major food-for-work relief project to provide employment to thousands of citizens.",
       openingHours: "06:00 AM – 05:00 PM (Closed on Mondays)",
       entryFee: "₹50 (Indian Nationals), ₹500 (Foreign Nationals), Free for children under 15",
       bestTimeToVisit: "October to March (Morning hours)",
       facilities: ["Drinking Water", "Shoe Storage", "Licensed Guides", "Restrooms", "Photography Allowed"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
+      accessibility: {
+        wheelchair: true,
+        audioGuide: true,
+        seniorFriendly: true
+      },
       nearbyAttractions: ["Chhota Imambara", "Rumi Darwaza", "Clock Tower"],
       lat: 26.8692,
       lng: 80.9129,
@@ -144,130 +148,36 @@ const RAAHI_DATA = {
       aiReason: "Acoustic wonder with zero iron/beam ceiling support and the fascinating 1000-passageway Bhool Bhulaiya."
     },
     {
-      id: "chhota-imambara",
-      name: "Chhota Imambara & Shahi Hammam",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      category: "Heritage",
-      subCategory: "Historical places",
-      rating: 4.7,
-      reviewsCount: 280,
-      image: "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=800&q=80"],
-      description: "Known as the Palace of Lights, embellished with Belgian glass chandeliers, gilded dome, and exquisite calligraphy.",
-      history: "Built by Muhammad Ali Shah in 1838 to serve as his mausoleum.",
-      openingHours: "06:00 AM – 05:00 PM",
-      entryFee: "Included in composite ticket",
-      bestTimeToVisit: "Morning or illuminated evening view",
-      facilities: ["Shoe Counter", "Garden Walkways", "Local Guides"],
-      accessibility: { wheelchair: true, audioGuide: false, seniorFriendly: true },
-      nearbyAttractions: ["Bara Imambara", "Satkhanda"],
-      lat: 26.8741,
-      lng: 80.9048,
-      aiPick: false
-    },
-    {
-      id: "residency-lucknow",
-      name: "The British Residency & Memorial Museum",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      category: "Museums",
-      subCategory: "Museums",
-      rating: 4.6,
-      reviewsCount: 215,
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80"],
-      description: "Historic complex of ruined buildings serving as the central stage of the 1857 Siege of Lucknow with cannonball marks and museum galleries.",
-      history: "Constructed between 1780 and 1800 for the British Resident General.",
-      openingHours: "07:00 AM – 06:00 PM",
-      entryFee: "₹25 (Indian Nationals), ₹300 (Foreign Nationals)",
-      bestTimeToVisit: "November to February",
-      facilities: ["Museum Gallery", "Lush Gardens", "Benches", "Restrooms"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
-      nearbyAttractions: ["Hazratganj", "Kaiserbagh"],
-      lat: 26.8606,
-      lng: 80.9272,
-      aiPick: false
-    },
-
-    // AGRA
-    {
       id: "taj-mahal",
       name: "Taj Mahal",
       destinationId: "agra",
       city: "Agra",
       state: "Uttar Pradesh",
       category: "Heritage",
-      subCategory: "Popular tourist attractions",
       rating: 4.9,
       reviewsCount: 1250,
       image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80"],
-      description: "UNESCO World Heritage ivory-white marble mausoleum built by Mughal Emperor Shah Jahan in memory of Mumtaz Mahal.",
-      history: "Constructed between 1631 and 1648 employing over 20,000 artisans across India and Persia.",
+      gallery: [
+        "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"
+      ],
+      description: "UNESCO World Heritage ivory-white marble mausoleum built by Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal.",
+      history: "Constructed between 1631 and 1648 employing over 20,000 artisans and masons from across India, Persia, and Central Asia.",
       openingHours: "Sunrise to Sunset (Closed on Fridays for prayers)",
-      entryFee: "₹50 (Indian Nationals) + ₹200 for mausoleum, ₹1100 (Foreign Nationals)",
-      bestTimeToVisit: "October to March (Sunrise recommended)",
+      entryFee: "₹50 (Indian Nationals) + ₹200 for main mausoleum, ₹1100 (Foreign Nationals)",
+      bestTimeToVisit: "October to March (Sunrise recommended to avoid crowds)",
       facilities: ["Battery-operated Eco Carts", "Shoe Covers", "Audio Guides", "Luggage Cloakroom", "First Aid"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
+      accessibility: {
+        wheelchair: true,
+        audioGuide: true,
+        seniorFriendly: true
+      },
       nearbyAttractions: ["Agra Fort", "Mehtab Bagh", "Itmad-ud-Daulah"],
       lat: 27.1751,
       lng: 78.0421,
       aiPick: true,
-      aiReason: "World Wonder with symmetrical marble inlay geometry and ethereal sunrise reflections."
+      aiReason: "World Wonder with symmetrical marble inlay geometry and ethereal morning light reflections over Yamuna."
     },
-    {
-      id: "agra-fort",
-      name: "Agra Fort & Jahangiri Mahal",
-      destinationId: "agra",
-      city: "Agra",
-      state: "Uttar Pradesh",
-      category: "Forts",
-      subCategory: "Forts",
-      rating: 4.8,
-      reviewsCount: 680,
-      image: "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?auto=format&fit=crop&w=800&q=80"],
-      description: "Monumental red sandstone fortress that served as the main residence of Mughal emperors until 1638, overlooking the Taj Mahal.",
-      history: "Extensively rebuilt by Emperor Akbar in red sandstone starting 1565.",
-      openingHours: "06:00 AM – 06:00 PM (Daily)",
-      entryFee: "₹50 (Indian Nationals), ₹650 (Foreign Nationals)",
-      bestTimeToVisit: "October to March",
-      facilities: ["Audio Guides", "Restrooms", "Wheelchair Ramps"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
-      nearbyAttractions: ["Taj Mahal", "Jama Masjid Agra"],
-      lat: 27.1795,
-      lng: 78.0211,
-      aiPick: false
-    },
-    {
-      id: "fatehpur-sikri",
-      name: "Fatehpur Sikri & Buland Darwaza",
-      destinationId: "agra",
-      city: "Fatehpur Sikri",
-      state: "Uttar Pradesh",
-      category: "Heritage",
-      subCategory: "Hidden gems",
-      rating: 4.7,
-      reviewsCount: 410,
-      image: "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"],
-      description: "Pristine 16th-century ghost capital city built by Akbar featuring the massive 54-meter Buland Darwaza and Salim Chishti Dargah.",
-      history: "Founded in 1571 and served as Mughal capital for 14 years before abandonment due to water scarcity.",
-      openingHours: "Sunrise to Sunset",
-      entryFee: "₹50 (Indian Nationals), ₹610 (Foreign Nationals)",
-      bestTimeToVisit: "November to February",
-      facilities: ["Electric Shuttles", "Guides", "Shoe Storage"],
-      accessibility: { wheelchair: false, audioGuide: true, seniorFriendly: false },
-      nearbyAttractions: ["Bharatpur Bird Sanctuary"],
-      lat: 27.0945,
-      lng: 77.6679,
-      aiPick: false
-    },
-
-    // VARANASI
     {
       id: "dashashwamedh-ghat",
       name: "Dashashwamedh Ghat",
@@ -275,94 +185,55 @@ const RAAHI_DATA = {
       city: "Varanasi",
       state: "Uttar Pradesh",
       category: "Ghats",
-      subCategory: "Ghats",
       rating: 4.9,
       reviewsCount: 890,
       image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80"],
-      description: "The most prominent and sacred ghat along the holy Ganges, world-famous for the grand evening Ganga Maha Aarti ceremony.",
-      history: "According to mythology, Lord Brahma created this sacred ghat to welcome Lord Shiva and performed the Dasa-Ashwamedha Yajna.",
-      openingHours: "Open 24 Hours (Ganga Aarti begins ~06:30 PM daily)",
-      entryFee: "Free Public Access (Boat rides ₹200 - ₹500)",
-      bestTimeToVisit: "Sunrise for boat ride & 06:00 PM for Evening Aarti",
-      facilities: ["Boat Services", "Bathing Ghats", "Priests", "Diya Stalls"],
-      accessibility: { wheelchair: false, audioGuide: true, seniorFriendly: true },
-      nearbyAttractions: ["Kashi Vishwanath Temple", "Manikarnika Ghat"],
+      gallery: [
+        "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=800&q=80"
+      ],
+      description: "The most prominent and vibrant ghat along the holy Ganges, world-famous for the grand evening Ganga Maha Aarti ceremony.",
+      history: "According to Hindu mythology, Lord Brahma created this sacred ghat to welcome Lord Shiva and performed the Dasa-Ashwamedha Yajna here.",
+      openingHours: "Open 24 Hours (Ganga Aarti begins around 06:30 PM daily)",
+      entryFee: "Free Public Access (Boat rides available separately from ₹200 - ₹500)",
+      bestTimeToVisit: "Sunrise for morning boat ride & 06:00 PM for Evening Aarti",
+      facilities: ["Boat Services", "Sacred Bathing Ghats", "Temple Priests", "Flower/Diya Stalls"],
+      accessibility: {
+        wheelchair: false,
+        audioGuide: true,
+        seniorFriendly: true
+      },
+      nearbyAttractions: ["Kashi Vishwanath Temple", "Manikarnika Ghat", "Assi Ghat"],
       lat: 25.3076,
       lng: 83.0107,
       aiPick: true,
-      aiReason: "Mesmerizing multi-tiered brass lamp ritual, sacred conch chants, and spiritual atmosphere."
+      aiReason: "Mesmerizing multi-tiered brass lamp ritual, sacred conch chants, and unforgettable river atmosphere."
     },
-    {
-      id: "kashi-vishwanath",
-      name: "Kashi Vishwanath Jyotirlinga Temple & Corridor",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      state: "Uttar Pradesh",
-      category: "Temples",
-      subCategory: "Temples",
-      rating: 4.9,
-      reviewsCount: 960,
-      image: "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=800&q=80"],
-      description: "One of the 12 holiest Jyotirlinga shrines of Lord Shiva, connected directly to the sacred Ganga through the state-of-the-art heritage corridor.",
-      history: "Reconstructed by Queen Ahilyabai Holkar in 1780; gold plating donated by Maharaja Ranjit Singh in 1835.",
-      openingHours: "03:00 AM – 11:00 PM",
-      entryFee: "Free general darshan (Sugam VIP Darshan ₹300)",
-      bestTimeToVisit: "Early morning 4 AM Mangala Aarti or late evening",
-      facilities: ["Luggage Cloakroom", "Mobile Locker", "VIP Queue", "Shoe Stands"],
-      accessibility: { wheelchair: true, audioGuide: false, seniorFriendly: true },
-      nearbyAttractions: ["Annapurna Temple", "Dashashwamedh Ghat"],
-      lat: 25.3109,
-      lng: 83.0107,
-      aiPick: true,
-      aiReason: "Spiritual apex of Hinduism with golden spire and seamless Ganga riverfront access."
-    },
-    {
-      id: "sarnath-deer-park",
-      name: "Sarnath Dhamek Stupa & Archaeological Museum",
-      destinationId: "varanasi",
-      city: "Varanasi (Sarnath)",
-      state: "Uttar Pradesh",
-      category: "Heritage",
-      subCategory: "Historical places",
-      rating: 4.8,
-      reviewsCount: 520,
-      image: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?auto=format&fit=crop&w=800&q=80"],
-      description: "Sacred Buddhist pilgrimage site where Gautama Buddha delivered his first sermon (Dhammacakkappavattana Sutta).",
-      history: "Dhamek Stupa built by Ashoka in 249 BCE; Museum houses the original Ashoka Lion Capital (India's national emblem).",
-      openingHours: "09:00 AM – 05:00 PM (Museum closed on Fridays)",
-      entryFee: "₹25 (Indian Nationals), ₹300 (Foreign Nationals)",
-      bestTimeToVisit: "October to March",
-      facilities: ["Museum", "Manicured Gardens", "Monastery Ruins", "Drinking Water"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
-      nearbyAttractions: ["Chaukhandi Stupa", "Thai Monastery"],
-      lat: 25.3811,
-      lng: 83.0214,
-      aiPick: false
-    },
-
-    // JAIPUR
     {
       id: "amber-fort",
-      name: "Amber Fort & Sheesh Mahal",
+      name: "Amber Fort & Palace",
       destinationId: "jaipur",
       city: "Jaipur",
       state: "Rajasthan",
       category: "Forts",
-      subCategory: "Forts",
       rating: 4.8,
       reviewsCount: 620,
       image: "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80"],
-      description: "Majestic hilltop fortress featuring Sheesh Mahal (Mirror Palace), Diwan-e-Khas, and panoramic views over Maota Lake.",
-      history: "Constructed in 1592 by Raja Man Singh I using red sandstone and marble, blending Rajput and Mughal aesthetics.",
+      gallery: [
+        "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80"
+      ],
+      description: "Majestic hilltop fortress featuring Sheesh Mahal (Mirror Palace), Diwan-e-Khas, and breathtaking views over Maota Lake.",
+      history: "Constructed in 1592 by Raja Man Singh I using red sandstone and marble, blending Rajput and Mughal architectural aesthetics.",
       openingHours: "08:00 AM – 05:30 PM & 06:30 PM – 09:15 PM (Night Tourism)",
-      entryFee: "₹100 (Indian Nationals), ₹500 (Foreign Nationals)",
-      bestTimeToVisit: "November to February (Early morning or night illumination)",
+      entryFee: "₹100 (Indian Nationals), ₹500 (Foreign Nationals), ₹50 for audio guide",
+      bestTimeToVisit: "November to February (Early morning or illuminated evening view)",
       facilities: ["Jeep Shuttles", "Audio Guides", "Multi-lingual Guides", "Museum", "Light & Sound Show"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
+      accessibility: {
+        wheelchair: true,
+        audioGuide: true,
+        seniorFriendly: true
+      },
       nearbyAttractions: ["Jaigarh Fort", "Nahargarh Fort", "Jal Mahal"],
       lat: 26.9855,
       lng: 75.8513,
@@ -370,157 +241,32 @@ const RAAHI_DATA = {
       aiReason: "Intricate Sheesh Mahal mirror geometry where a single candle illuminates the entire royal hall."
     },
     {
-      id: "hawa-mahal",
-      name: "Hawa Mahal (Palace of Winds)",
-      destinationId: "jaipur",
-      city: "Jaipur",
-      state: "Rajasthan",
-      category: "Heritage",
-      subCategory: "Popular tourist attractions",
-      rating: 4.7,
-      reviewsCount: 780,
-      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80"],
-      description: "Five-story pink sandstone palace with 953 intricately carved jharokhas (small casements) engineered for natural cooling.",
-      history: "Built in 1799 by Maharaja Sawai Pratap Singh so royal women could observe street festivals unseen.",
-      openingHours: "09:00 AM – 05:00 PM",
-      entryFee: "₹50 (Indian Nationals), ₹200 (Foreign Nationals)",
-      bestTimeToVisit: "Sunrise for front facade golden light",
-      facilities: ["Rooftop View Cafes Across Street", "Heritage Museum"],
-      accessibility: { wheelchair: false, audioGuide: true, seniorFriendly: false },
-      nearbyAttractions: ["City Palace", "Jantar Mantar"],
-      lat: 26.9239,
-      lng: 75.8267,
-      aiPick: false
-    },
-    {
-      id: "jantar-mantar-jaipur",
-      name: "Jantar Mantar Royal Astronomical Observatory",
-      destinationId: "jaipur",
-      city: "Jaipur",
-      state: "Rajasthan",
-      category: "Museums",
-      subCategory: "Museums",
-      rating: 4.7,
-      reviewsCount: 490,
-      image: "https://images.unsplash.com/photo-1598890777032-bde835ba27c2?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1598890777032-bde835ba27c2?auto=format&fit=crop&w=800&q=80"],
-      description: "UNESCO World Heritage collection of 19 monumental stone architectural astronomical instruments, including the world's largest stone sundial.",
-      history: "Completed in 1734 by Rajput king Sawai Jai Singh II.",
-      openingHours: "09:00 AM – 05:00 PM",
-      entryFee: "₹50 (Indian Nationals), ₹200 (Foreign Nationals)",
-      bestTimeToVisit: "Midday when the sun casts precise shadows",
-      facilities: ["Certified Astronomy Guides", "Audio Guides"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
-      nearbyAttractions: ["City Palace", "Hawa Mahal"],
-      lat: 26.9248,
-      lng: 75.8246,
-      aiPick: false
-    },
-
-    // DELHI
-    {
       id: "qutub-minar",
-      name: "Qutub Minar & Mehrauli Archaeological Complex",
+      name: "Qutub Minar & Complex",
       destinationId: "delhi",
       city: "Delhi",
       state: "National Capital Territory",
       category: "Heritage",
-      subCategory: "Popular tourist attractions",
       rating: 4.7,
       reviewsCount: 540,
       image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
       gallery: ["https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80"],
       description: "A 72.5-meter tapering victory minaret of fluted red sandstone and marble, alongside the rust-resistant 4th-century Iron Pillar.",
-      history: "Commenced in 1192 by Qutb-ud-din Aibak as a symbol of the Delhi Sultanate.",
+      history: "Commenced in 1192 by Qutb-ud-din Aibak and completed by his successor Iltutmish as a symbol of the Delhi Sultanate.",
       openingHours: "07:00 AM – 07:00 PM (Daily)",
       entryFee: "₹40 (Indian Nationals), ₹600 (Foreign Nationals)",
       bestTimeToVisit: "October to March",
       facilities: ["Lush Gardens", "Wheelchair Access", "Information Center", "Restrooms"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
-      nearbyAttractions: ["Mehrauli Archaeological Park", "Lotus Temple"],
+      accessibility: {
+        wheelchair: true,
+        audioGuide: true,
+        seniorFriendly: true
+      },
+      nearbyAttractions: ["Mehrauli Archaeological Park", "Lotus Temple", "Hauz Khas Village"],
       lat: 28.5244,
       lng: 77.1855,
       aiPick: false
     },
-    {
-      id: "humayun-tomb",
-      name: "Humayun's Tomb & Sunder Nursery",
-      destinationId: "delhi",
-      city: "Delhi",
-      state: "National Capital Territory",
-      category: "Heritage",
-      subCategory: "Historical places",
-      rating: 4.8,
-      reviewsCount: 610,
-      image: "https://images.unsplash.com/photo-1597042034825-781f33f97230?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1597042034825-781f33f97230?auto=format&fit=crop&w=800&q=80"],
-      description: "The grand precursor to the Taj Mahal, showcasing the earliest garden-tomb (Charbagh) architecture in the Indian subcontinent.",
-      history: "Commissioned in 1558 by Humayun's chief consort Bega Begum.",
-      openingHours: "06:00 AM – 06:00 PM",
-      entryFee: "₹40 (Indian Nationals), ₹600 (Foreign Nationals)",
-      bestTimeToVisit: "Golden hour sunset",
-      facilities: ["Heritage Interpretation Center", "Sunder Nursery Organic Market"],
-      accessibility: { wheelchair: true, audioGuide: true, seniorFriendly: true },
-      nearbyAttractions: ["Hazrat Nizamuddin Dargah", "National Crafts Museum"],
-      lat: 28.5933,
-      lng: 77.2507,
-      aiPick: true,
-      aiReason: "Perfect Persian Charbagh geometric water channels and peaceful restoration."
-    },
-
-    // GOA
-    {
-      id: "basilica-bom-jesus",
-      name: "Basilica of Bom Jesus & Old Goa",
-      destinationId: "goa",
-      city: "Old Goa",
-      state: "Goa",
-      category: "Heritage",
-      subCategory: "Historical places",
-      rating: 4.8,
-      reviewsCount: 730,
-      image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80"],
-      description: "UNESCO World Heritage 16th-century baroque cathedral housing the sacred mortal remains of St. Francis Xavier.",
-      history: "Consecrated in 1605, marking the beginning of Christianity in India.",
-      openingHours: "09:00 AM – 06:30 PM (Sundays: 10:30 AM – 06:30 PM)",
-      entryFee: "Free Public Entry",
-      bestTimeToVisit: "November to February",
-      facilities: ["Art Gallery", "Souvenir Stalls", "Wheelchair Access"],
-      accessibility: { wheelchair: true, audioGuide: false, seniorFriendly: true },
-      nearbyAttractions: ["Se Cathedral", "Church of St. Francis of Assisi"],
-      lat: 15.5009,
-      lng: 73.9116,
-      aiPick: true,
-      aiReason: "Unplastered laterite facade and silver casket with baroque carvings."
-    },
-    {
-      id: "fort-aguada-lighthouse",
-      name: "Fort Aguada & Seafront Bastion",
-      destinationId: "goa",
-      city: "Candolim / Sinquerim",
-      state: "Goa",
-      category: "Forts",
-      subCategory: "Forts",
-      rating: 4.7,
-      reviewsCount: 640,
-      image: "https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1587974928442-77dc3e0dba72?auto=format&fit=crop&w=800&q=80"],
-      description: "17th-century Portuguese fortress and 4-tier lighthouse guarding the mouth of Mandovi River with panoramic Arabian Sea views.",
-      history: "Built in 1612 to protect against Dutch and Maratha ships.",
-      openingHours: "09:30 AM – 06:00 PM",
-      entryFee: "₹25 per adult",
-      bestTimeToVisit: "Late afternoon for coastal sunset",
-      facilities: ["Lighthouse Observation Deck", "Jail Heritage Museum", "Parking"],
-      accessibility: { wheelchair: false, audioGuide: false, seniorFriendly: true },
-      nearbyAttractions: ["Sinquerim Beach", "Candolim Beach"],
-      lat: 15.4925,
-      lng: 73.7736,
-      aiPick: false
-    },
-
-    // KERALA
     {
       id: "alleppey-backwaters",
       name: "Alleppey Backwaters & Canals",
@@ -528,111 +274,37 @@ const RAAHI_DATA = {
       city: "Alleppey (Alappuzha)",
       state: "Kerala",
       category: "Nature",
-      subCategory: "Popular tourist attractions",
       rating: 4.9,
       reviewsCount: 710,
       image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80",
       gallery: ["https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80"],
       description: "Interconnected network of palm-fringed canals, tranquil lagoons, and paddy fields navigated on traditional thatch-roofed boats.",
-      history: "Ancient trade waterways transformed into sustainable eco-tourism marvels.",
+      history: "Ancient trade waterways originally used for transporting grain and spices, transformed into sustainable eco-tourism marvels.",
       openingHours: "Day cruises: 09:00 AM – 05:00 PM",
-      entryFee: "Public Ferry: ₹15 - ₹50; Private Shikara rates vary",
+      entryFee: "Public Ferry: ₹15 - ₹50; Private Shikara/Kettuvallam: Discovery rates vary",
       bestTimeToVisit: "September to March",
       facilities: ["Local Village Stops", "Traditional Keralan Onam Meals", "Life Jackets", "Eco-Guides"],
-      accessibility: { wheelchair: false, audioGuide: false, seniorFriendly: true },
-      nearbyAttractions: ["Marari Beach", "Alappuzha Lighthouse"],
+      accessibility: {
+        wheelchair: false,
+        audioGuide: false,
+        seniorFriendly: true
+      },
+      nearbyAttractions: ["Marari Beach", "Alappuzha Lighthouse", "Kumarakom Bird Sanctuary"],
       lat: 9.4981,
       lng: 76.3388,
       aiPick: true,
-      aiReason: "Serene aquatic sanctuary with fresh coconut groves and floating village bazaars."
-    },
-    {
-      id: "fort-kochi-chinese-nets",
-      name: "Fort Kochi & Chinese Fishing Nets",
-      destinationId: "kerala",
-      city: "Kochi (Cochin)",
-      state: "Kerala",
-      category: "Heritage",
-      subCategory: "Hidden gems",
-      rating: 4.7,
-      reviewsCount: 580,
-      image: "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=800&q=80"],
-      description: "Historic colonial seaside quarter famous for cantilvered Cheena Vala (Chinese fishing nets), Mattancherry Jew Town, and spice trade alleys.",
-      history: "Established by the Portuguese in 1503 as India's first European township.",
-      openingHours: "Open 24 Hours",
-      entryFee: "Free Public Access",
-      bestTimeToVisit: "Sunset",
-      facilities: ["Seafood Stalls", "Heritage Cafes", "Spice Bazaars"],
-      accessibility: { wheelchair: true, audioGuide: false, seniorFriendly: true },
-      nearbyAttractions: ["Mattancherry Palace", "Paradesi Synagogue"],
-      lat: 9.9656,
-      lng: 76.2421,
-      aiPick: false
-    },
-
-    // KASHMIR
-    {
-      id: "dal-lake-shikara",
-      name: "Dal Lake Floating Bazaars & Shikara Rides",
-      destinationId: "kashmir",
-      city: "Srinagar",
-      state: "Jammu & Kashmir",
-      category: "Nature",
-      subCategory: "Popular tourist attractions",
-      rating: 4.9,
-      reviewsCount: 890,
-      image: "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80"],
-      description: "The jewel of Srinagar featuring ornate cedar wood houseboats, floating vegetable markets at dawn, and snow-mirrored waters.",
-      history: "Mentioned as Mahasarit in ancient Sanskrit texts and embellished by Mughal Emperors with terraced pleasure gardens.",
-      openingHours: "06:00 AM – 08:00 PM (Sunrise shikara recommended for floating bazaar)",
-      entryFee: "Government fixed Shikara rate: ₹700 - ₹1200 / hr",
-      bestTimeToVisit: "April to October (Tulip blossom & Autumn Chinar) / Jan (Snow)",
-      facilities: ["Life Jackets", "Heated Kangri in winter", "Floating Kahwa Stalls"],
-      accessibility: { wheelchair: false, audioGuide: false, seniorFriendly: true },
-      nearbyAttractions: ["Nigeen Lake", "Shalimar Bagh", "Nishat Bagh"],
-      lat: 34.0837,
-      lng: 74.8370,
-      aiPick: true,
-      aiReason: "Ethereal morning floating flower market and snow-peaked Pir Panjal reflections."
-    },
-    {
-      id: "shalimar-bagh-kashmir",
-      name: "Shalimar Bagh Mughal Garden",
-      destinationId: "kashmir",
-      city: "Srinagar",
-      state: "Jammu & Kashmir",
-      category: "Heritage",
-      subCategory: "Historical places",
-      rating: 4.8,
-      reviewsCount: 510,
-      image: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=800&q=80",
-      gallery: ["https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=800&q=80"],
-      description: "The Royal Crown of Mughal Garden architecture laid out in four terraced quadrants with water cascades and ancient Chinar trees.",
-      history: "Built in 1619 by Mughal Emperor Jahangir for his wife Nur Jahan.",
-      openingHours: "09:30 AM – 06:30 PM",
-      entryFee: "₹24 (Indian Nationals), ₹100 (Foreign Nationals)",
-      bestTimeToVisit: "May to October",
-      facilities: ["Fountains", "Walking Terraces", "Restrooms"],
-      accessibility: { wheelchair: true, audioGuide: false, seniorFriendly: true },
-      nearbyAttractions: ["Nishat Bagh", "Cheshmashahi"],
-      lat: 34.1500,
-      lng: 74.8728,
-      aiPick: false
+      aiReason: "Serene aquatic sanctuary with fresh coconut groves, floating village bazaars, and migratory kingfishers."
     }
   ],
 
-  // 3. HOTELS & STAYS (Strictly Discovery & Information)
+  // 3. HOTELS & HERITAGE STAYS (Strictly Discovery & Stay Info - NO BOOKING)
   hotels: [
-    // LUCKNOW
     {
       id: "clarks-avadh-lucknow",
       name: "Hotel Clarks Avadh",
       destinationId: "lucknow",
       city: "Lucknow",
       state: "Uttar Pradesh",
-      type: "Luxury",
       rating: 4.6,
       reviewsCount: 280,
       priceTier: "₹₹₹ (Heritage Premium)",
@@ -644,48 +316,11 @@ const RAAHI_DATA = {
       nearbyPlaces: ["Hazratganj Market (1 km)", "Bara Imambara (3.5 km)", "Residency (2 km)"]
     },
     {
-      id: "lebua-lucknow",
-      name: "Lebua Lucknow Heritage Art Deco Stays",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      type: "Luxury",
-      rating: 4.8,
-      reviewsCount: 310,
-      priceTier: "₹₹₹₹ (Luxury Heritage)",
-      image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
-      amenities: ["1936 Art Deco Bungalow", "Azrak Awadhi Fine Dining", "Courtyards", "Spa", "Lush Lawns"],
-      location: "19 Mall Avenue, Lucknow, UP",
-      contact: "+91 522 2238333 / reservations@lebualucknow.com",
-      description: "Restored 1936 heritage estate capturing the aristocratic living of old Lucknow with arched verandas and culinary degustations.",
-      nearbyPlaces: ["Hazratganj (1.5 km)", "Zoo (1 km)"]
-    },
-    {
-      id: "la-place-sarovar-lucknow",
-      name: "La Place Sarovar Portico",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      type: "Mid-Range",
-      rating: 4.5,
-      reviewsCount: 195,
-      priceTier: "₹₹ (Mid-Range Executive)",
-      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
-      amenities: ["City Center Access", "Pavilion Restaurant", "Fitness Center", "High-speed Wi-Fi"],
-      location: "6 Shahnajaf Road, Hazratganj, Lucknow, UP",
-      contact: "+91 522 4004000",
-      description: "Modern contemporary hotel positioned right in the central commercial and culinary heart of Hazratganj.",
-      nearbyPlaces: ["Hazratganj (300 m)", "Rumi Darwaza (4 km)"]
-    },
-
-    // AGRA
-    {
       id: "itc-mughal-agra",
       name: "ITC Mughal Resort & Spa",
       destinationId: "agra",
       city: "Agra",
       state: "Uttar Pradesh",
-      type: "Luxury",
       rating: 4.8,
       reviewsCount: 450,
       priceTier: "₹₹₹₹ (Luxury Resort)",
@@ -697,67 +332,27 @@ const RAAHI_DATA = {
       nearbyPlaces: ["Taj Mahal (2.5 km)", "Agra Fort (4 km)", "Sadar Bazaar (3 km)"]
     },
     {
-      id: "radisson-hotel-agra",
-      name: "Radisson Hotel Agra",
-      destinationId: "agra",
-      city: "Agra",
-      state: "Uttar Pradesh",
-      type: "Mid-Range",
-      rating: 4.6,
-      reviewsCount: 380,
-      priceTier: "₹₹₹ (Taj View Mid-Range)",
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
-      amenities: ["Rooftop Taj View Pool", "Oasis Multi-Cuisine", "Spa", "Free Wi-Fi"],
-      location: "C-1, C-2, Fatehabad Road, Tajganj, Agra, UP",
-      contact: "+91 562 2333333",
-      description: "Sophisticated modern stay with direct rooftop views of the Taj Mahal dome.",
-      nearbyPlaces: ["Taj Mahal East Gate (1.8 km)"]
-    },
-
-    // VARANASI
-    {
       id: "brijrama-palace-varanasi",
-      name: "BrijRama Palace Heritage on Darbhanga Ghat",
+      name: "BrijRama Palace Heritage",
       destinationId: "varanasi",
       city: "Varanasi",
       state: "Uttar Pradesh",
-      type: "Luxury",
       rating: 4.9,
       reviewsCount: 310,
       priceTier: "₹₹₹₹ (Royal Haveli)",
       image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
-      amenities: ["Darbhanga Ghat Riverfront", "Private Boat Transfer", "Classical Sitar Recitals", "Pure Vegetarian Fine Dining", "Heritage Elevator"],
+      amenities: ["Darbhanga Ghat Riverfront", "Private Boat Transfer", "Classical Sitar Recitals", "Pure Vegetarian Fine Dining", "Elevator"],
       location: "Darbhanga Ghat, Dashashwamedh, Varanasi, UP",
       contact: "+91 542 2452200 / stay@brijhotels.com",
-      description: "210-year-old historic palace right on Darbhanga Ghat, one of South Asia's oldest riverfront structures with original stone carvings.",
+      description: "210-year-old historic palace on Darbhanga Ghat, one of the oldest heritage structures standing over the holy Ganges with one of South Asia's first cable lifts.",
       nearbyPlaces: ["Dashashwamedh Ghat (300 m)", "Kashi Vishwanath (600 m)", "Manikarnika Ghat (800 m)"]
     },
-    {
-      id: "scindhia-guest-house",
-      name: "Scindhia Heritage Homestay",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      state: "Uttar Pradesh",
-      type: "Homestays",
-      rating: 4.6,
-      reviewsCount: 180,
-      priceTier: "₹ (Budget Heritage)",
-      image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
-      amenities: ["Ghat View Balcony", "Home-cooked Satvik Food", "Rooftop Yoga", "Free Wi-Fi"],
-      location: "Scindhia Ghat, Manikarnika Lane, Varanasi, UP",
-      contact: "+91 542 2420319",
-      description: "Authentic Kashi riverfront homestay situated right above the historic tilted Shiva temple.",
-      nearbyPlaces: ["Manikarnika Ghat (200 m)", "Kashi Vishwanath (400 m)"]
-    },
-
-    // JAIPUR
     {
       id: "samode-haveli-jaipur",
       name: "Samode Haveli Royal Heritage",
       destinationId: "jaipur",
       city: "Jaipur",
       state: "Rajasthan",
-      type: "Luxury",
       rating: 4.7,
       reviewsCount: 290,
       priceTier: "₹₹₹ (Heritage Haveli)",
@@ -767,105 +362,11 @@ const RAAHI_DATA = {
       contact: "+91 141 2632407 / haveli@samode.com",
       description: "175-year-old royal residence nestled inside the old walled city of Jaipur with exquisite hand-painted frescoes and tranquil courtyard gardens.",
       nearbyPlaces: ["City Palace (1.5 km)", "Hawa Mahal (1.2 km)", "Amber Fort (8 km)"]
-    },
-    {
-      id: "alisis-haveli-jaipur",
-      name: "Alsisar Haveli Heritage Stays",
-      destinationId: "jaipur",
-      city: "Jaipur",
-      state: "Rajasthan",
-      type: "Mid-Range",
-      rating: 4.6,
-      reviewsCount: 230,
-      priceTier: "₹₹ (Traditional Haveli)",
-      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
-      amenities: ["Rajput Archways", "Swimming Pool", "Puppet Shows", "Ayurvedic Massages"],
-      location: "Sansar Chandra Road, Jaipur, Rajasthan",
-      contact: "+91 141 2368290",
-      description: "Grand Rajputana haveli built in 1892 featuring restored courtyards and antique brass lamps.",
-      nearbyPlaces: ["MI Road (800 m)", "Old Walled City (1.5 km)"]
-    },
-
-    // DELHI
-    {
-      id: "the-imperial-delhi",
-      name: "The Imperial New Delhi",
-      destinationId: "delhi",
-      city: "Delhi",
-      state: "National Capital Territory",
-      type: "Luxury",
-      rating: 4.8,
-      reviewsCount: 420,
-      priceTier: "₹₹₹₹ (Colonial Grandeur)",
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
-      amenities: ["1930s Victorian Art Museum", "Spice Route Dining", "Outdoor Pool", "Spa & Wellness"],
-      location: "Janpath, Connaught Place, New Delhi",
-      contact: "+91 11 23341234 / luxury@theimperialindia.com",
-      description: "Iconic Art Deco and Victorian landmark hotel exhibiting over 5,000 original colonial artworks.",
-      nearbyPlaces: ["Connaught Place (500 m)", "India Gate (2 km)"]
-    },
-
-    // GOA
-    {
-      id: "taj-fort-aguada-goa",
-      name: "Taj Fort Aguada Resort & Spa",
-      destinationId: "goa",
-      city: "Sinquerim / Candolim",
-      state: "Goa",
-      type: "Luxury",
-      rating: 4.8,
-      reviewsCount: 510,
-      priceTier: "₹₹₹₹ (Beachfront Resort)",
-      image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80",
-      amenities: ["Direct Beachfront", "Historic Portuguese Bastion View", "Infinity Pool", "Jiva Spa", "Water Sports"],
-      location: "Sinquerim, Candolim, Bardez, Goa",
-      contact: "+91 832 6645858",
-      description: "India's first luxury beach resort built on the ramparts of a 16th-century coastal fortress.",
-      nearbyPlaces: ["Fort Aguada (500 m)", "Candolim Beach (1 km)"]
-    },
-
-    // KERALA
-    {
-      id: "kumarakom-lake-resort",
-      name: "Kumarakom Lake Resort & Heritage Villas",
-      destinationId: "kerala",
-      city: "Kumarakom / Alleppey",
-      state: "Kerala",
-      type: "Luxury",
-      rating: 4.9,
-      reviewsCount: 380,
-      priceTier: "₹₹₹₹ (Luxury Backwaters)",
-      image: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=80",
-      amenities: ["Vembanad Lakefront", "Heritage Manas (Restored 200-yr Cottages)", "Meandering Pool", "Ayurmana Spa"],
-      location: "Kumarakom, Kottayam, Kerala",
-      contact: "+91 481 2524900",
-      description: "Acclaimed backwaters sanctuary preserving authentic 16th-century ancestral Kerala illams.",
-      nearbyPlaces: ["Bird Sanctuary (2 km)", "Alleppey Canals (18 km)"]
-    },
-
-    // KASHMIR
-    {
-      id: "the-lalit-grand-palace-srinagar",
-      name: "The Lalit Grand Palace Srinagar",
-      destinationId: "kashmir",
-      city: "Srinagar",
-      state: "Jammu & Kashmir",
-      type: "Luxury",
-      rating: 4.8,
-      reviewsCount: 320,
-      priceTier: "₹₹₹₹ (Royal Palace)",
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
-      amenities: ["Dal Lake Overlook", "Maharaja Heritage Suite", "Chinar Tree Gardens", "Indoor Heated Pool"],
-      location: "Gupkar Road, Srinagar, Jammu & Kashmir",
-      contact: "+91 194 2501001",
-      description: "Former palace of Maharaja Pratap Singh built in 1910 overlooking Dal Lake and Shankaracharya Hill.",
-      nearbyPlaces: ["Dal Lake (1 km)", "Royal Springs Golf Course (2 km)"]
     }
   ],
 
-  // 4. RESTAURANTS & FOOD (Strictly Food & Cuisine Discovery)
+  // 4. RESTAURANTS & CULINARY GUIDE (Strictly Food & Cuisine Discovery - NO BOOKING)
   restaurants: [
-    // LUCKNOW
     {
       id: "tunday-kababi-lucknow",
       name: "Tunday Kababi (Since 1905)",
@@ -873,7 +374,6 @@ const RAAHI_DATA = {
       city: "Lucknow",
       state: "Uttar Pradesh",
       cuisine: "Awadhi & Mughlai",
-      category: "Iconic dining",
       rating: 4.9,
       reviewsCount: 1400,
       priceRange: "₹₹ (Moderate)",
@@ -882,30 +382,9 @@ const RAAHI_DATA = {
       openingHours: "12:00 PM – 11:30 PM (Daily)",
       location: "Phool Wali Gali, Aminabad & Chowk, Lucknow, UP",
       contact: "+91 522 2616238",
-      description: "World-legendary culinary institution famed for its melt-in-mouth Galouti kebabs infused with 160 secret herbs and spices.",
+      description: "World-legendary culinary institution famed for its melt-in-mouth Galouti kebabs infused with 160 secret herbs and spices invented for the Nawab.",
       dietaryOptions: ["Halal Certified", "Non-Veg Specialty", "Takeaway Available"]
     },
-    {
-      id: "shukla-chaat-lucknow",
-      name: "Shukla Chaat House",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      cuisine: "Street Food",
-      category: "Street food",
-      rating: 4.8,
-      reviewsCount: 820,
-      priceRange: "₹ (Budget / Street Food)",
-      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
-      specialties: ["Matar Ki Chaat with Desi Ghee", "Aloo Tikki", "Dahi Batasha"],
-      openingHours: "04:30 PM – 10:30 PM (Daily)",
-      location: "Shahnajaf Road, Hazratganj, Lucknow, UP",
-      contact: "+91 98391 12345",
-      description: "Hazratganj's most revered evening chaat hub serving crispy aloo tikki sizzling in pure desi ghee.",
-      dietaryOptions: ["100% Pure Vegetarian"]
-    },
-
-    // AGRA
     {
       id: "peshawri-agra",
       name: "Peshawri at ITC Mughal",
@@ -913,7 +392,6 @@ const RAAHI_DATA = {
       city: "Agra",
       state: "Uttar Pradesh",
       cuisine: "North-West Frontier",
-      category: "Iconic dining",
       rating: 4.8,
       reviewsCount: 380,
       priceRange: "₹₹₹₹ (Fine Dining)",
@@ -922,30 +400,9 @@ const RAAHI_DATA = {
       openingHours: "12:30 PM – 02:45 PM & 07:00 PM – 11:30 PM",
       location: "ITC Mughal, Fatehabad Road, Agra, UP",
       contact: "+91 562 4021700",
-      description: "Authentic tandoor cuisine crafted over clay ovens with rustic wooden ambiance, famous for the legendary Dal Bukhara.",
+      description: "Authentic tandoor cuisine crafted over clay ovens with rustic wooden ambiance, famous for the legendary Dal Bukhara simmered overnight.",
       dietaryOptions: ["Vegetarian Friendly", "Gluten-Free Options Available"]
     },
-    {
-      id: "panchhi-petha-agra",
-      name: "Panchhi Petha Flagship",
-      destinationId: "agra",
-      city: "Agra",
-      state: "Uttar Pradesh",
-      cuisine: "Mughal Sweets & Petha",
-      category: "Popular food spots",
-      rating: 4.7,
-      reviewsCount: 950,
-      priceRange: "₹ (Budget Confectionery)",
-      image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80",
-      specialties: ["Angoori Petha", "Kesar Petha", "Paan Petha", "Dalmoth Namkeen"],
-      openingHours: "08:00 AM – 10:30 PM",
-      location: "Hari Parwat & Sadar Bazaar, Agra, UP",
-      contact: "+91 562 2521234",
-      description: "Original master sweetmakers since 1950 pioneering candied ash gourd Petha in over 30 authentic varieties.",
-      dietaryOptions: ["100% Pure Vegetarian"]
-    },
-
-    // VARANASI
     {
       id: "kashi-chaat-bhandar-varanasi",
       name: "Kashi Chaat Bhandar",
@@ -953,7 +410,6 @@ const RAAHI_DATA = {
       city: "Varanasi",
       state: "Uttar Pradesh",
       cuisine: "Banarasi Street Food",
-      category: "Street food",
       rating: 4.8,
       reviewsCount: 950,
       priceRange: "₹ (Budget / Street Food)",
@@ -966,34 +422,12 @@ const RAAHI_DATA = {
       dietaryOptions: ["100% Pure Vegetarian", "No Onion/Garlic Options on request"]
     },
     {
-      id: "blue-lassi-shop-varanasi",
-      name: "Blue Lassi Shop (Since 1925)",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      state: "Uttar Pradesh",
-      cuisine: "Hand-Churned Lassi & Yogurt",
-      category: "Cafés",
-      rating: 4.7,
-      reviewsCount: 1120,
-      priceRange: "₹ (Street Beverage)",
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
-      specialties: ["Pomegranate Pistachio Lassi", "Banana Chocolate Lassi", "Rabdi Malai Lassi"],
-      openingHours: "08:00 AM – 11:00 PM",
-      location: "Near Manikarnika Ghat, CK 12/1 Kunj Gali, Varanasi, UP",
-      contact: "+91 98394 56789",
-      description: "Historic painted-wall alleyway café where creamy artisanal yogurt is hand-churned in wooden pots and topped with fresh fruits and thick malai.",
-      dietaryOptions: ["100% Pure Vegetarian"]
-    },
-
-    // JAIPUR
-    {
       id: "chokhi-dhani-jaipur",
-      name: "Chokhi Dhani Ethnic Village Restaurant",
+      name: "Chokhi Dhani Ethnic Restaurant",
       destinationId: "jaipur",
       city: "Jaipur",
       state: "Rajasthan",
       cuisine: "Royal Rajasthani Thali",
-      category: "Local cuisine",
       rating: 4.7,
       reviewsCount: 1100,
       priceRange: "₹₹₹ (Cultural Dining Experience)",
@@ -1002,355 +436,96 @@ const RAAHI_DATA = {
       openingHours: "05:00 PM – 11:00 PM (Daily)",
       location: "12 Miles, Tonk Road, Jaipur, Rajasthan",
       contact: "+91 141 5165000",
-      description: "Immersive Rajasthani village dining experience where guests sit on traditional chowkis and relish grand royal thalis accompanied by folk music.",
+      description: "Immersive Rajasthani village dining experience where guests sit on traditional chowkis and relish grand royal thalis accompanied by folk music and puppet shows.",
       dietaryOptions: ["100% Pure Vegetarian", "Traditional Rajasthani Thali"]
+    }
+  ],
+
+  // 5. CULTURAL EVENTS & FESTIVALS (Cultural Happenings - NO TICKET BOOKING)
+  events: [
+    {
+      id: "varanasi-dev-deepawali",
+      name: "Dev Deepawali (Festival of Gods)",
+      destinationId: "varanasi",
+      city: "Varanasi",
+      state: "Uttar Pradesh",
+      date: "November 2026 (Kartik Purnima)",
+      time: "05:00 PM – 10:00 PM",
+      category: "Spiritual Festival",
+      image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80",
+      organizer: "Varanasi Tourism Board & Ganga Seva Nidhi",
+      location: "All 84 Ghats of Varanasi (Assi to Rajghat)",
+      description: "Spectacular night when millions of clay earthen lamps (diyas) illuminate all 84 ghats of the Ganges, believed to be the day gods descend to bathe.",
+      highlights: ["1 Million+ Diyas Lit", "Grand Maha Aarti", "Green Fireworks Show", "Classical Music Recitals"]
     },
     {
-      id: "laxmi-mishthan-bhandar-jaipur",
-      name: "LMB (Laxmi Mishthan Bhandar, Since 1727)",
+      id: "pushkar-camel-fair",
+      name: "Pushkar International Camel & Cultural Fair",
       destinationId: "jaipur",
-      city: "Jaipur",
+      city: "Pushkar / Ajmer",
       state: "Rajasthan",
-      cuisine: "Heritage Sweets & Royal Chaat",
-      category: "Popular food spots",
-      rating: 4.6,
-      reviewsCount: 890,
-      priceRange: "₹₹ (Traditional Sweets)",
-      image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
-      specialties: ["Paneer Ghewar", "Pyaaz Kachori", "Rajasthani Royal Thali", "Dahi Vada"],
-      openingHours: "08:00 AM – 11:00 PM",
-      location: "Johari Bazaar, Old Walled City, Jaipur, Rajasthan",
-      contact: "+91 141 2565844",
-      description: "Historic 290-year-old culinary institution in Johari Bazaar celebrated for introducing honeycomb Paneer Ghewar to the world.",
-      dietaryOptions: ["100% Pure Vegetarian"]
-    },
-
-    // DELHI
-    {
-      id: "karims-jama-masjid-delhi",
-      name: "Karim's Historic (Since 1913)",
-      destinationId: "delhi",
-      city: "Delhi",
-      state: "National Capital Territory",
-      cuisine: "Royal Mughlai & Tandoor",
-      category: "Iconic dining",
-      rating: 4.8,
-      reviewsCount: 1650,
-      priceRange: "₹₹ (Heritage Mughlai)",
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
-      specialties: ["Mutton Korma", "Mutton Burra Kebab", "Seekh Kebab", "Sheermal"],
-      openingHours: "11:00 AM – 11:30 PM",
-      location: "Gali Kababian, Jama Masjid Gate 1, Old Delhi",
-      contact: "+91 11 23269880",
-      description: "Founded by Haji Karimuddin, royal chef to the Mughal Emperor Bahadur Shah Zafar, serving 110-year-old recipe mutton delicacies.",
-      dietaryOptions: ["Halal Certified", "Non-Veg Specialty"]
-    },
-
-    // GOA
-    {
-      id: "gunpowder-goa",
-      name: "Gunpowder Heritage Coastal Kitchen",
-      destinationId: "goa",
-      city: "Assagao",
-      state: "Goa",
-      cuisine: "Coastal Peninsular & Goan",
-      category: "Cafés",
-      rating: 4.8,
-      reviewsCount: 620,
-      priceRange: "₹₹₹ (Artisanal Dining)",
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
-      specialties: ["Kerala Beef Fry / Mushroom Pepper Fry", "Appams & Stew", "Goan Fish Curry", "Kokum Gin Coolers"],
-      openingHours: "12:00 PM – 11:00 PM",
-      location: "Anjuna-Mapusa Road, Assagao, Goa",
-      contact: "+91 832 2268083",
-      description: "Bohemian courtyard dining set in a restored 150-year-old Portuguese mansion celebrated for spice-infused coastal South Indian dishes.",
-      dietaryOptions: ["Seafood & Meat", "Vegetarian Friendly"]
-    },
-
-    // KERALA
-    {
-      id: "paragon-kerala",
-      name: "Paragon Coastal Kitchen (Since 1939)",
-      destinationId: "kerala",
-      city: "Kochi / Calicut",
-      state: "Kerala",
-      cuisine: "Malabar & Keralan Seafood",
-      category: "Local cuisine",
-      rating: 4.9,
-      reviewsCount: 1450,
-      priceRange: "₹₹ (Authentic Malabar)",
-      image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
-      specialties: ["Malabar Dum Biryani", "Karimeen Pollichathu", "Appam with Fish Moilee", "Prawn Roast"],
-      openingHours: "11:30 AM – 11:00 PM",
-      location: "Lulu Mall & Calicut Flagship, Kerala",
-      contact: "+91 484 2728000",
-      description: "Internationally ranked among the world's most legendary heritage restaurants for authentic banana-leaf-wrapped Pearl Spot fish.",
-      dietaryOptions: ["Halal Certified", "Seafood Masterclass"]
-    },
-
-    // KASHMIR
-    {
-      id: "ahdoos-srinagar",
-      name: "Ahdoos Traditional Wazwan (Since 1918)",
-      destinationId: "kashmir",
-      city: "Srinagar",
-      state: "Jammu & Kashmir",
-      cuisine: "Traditional Kashmiri Wazwan",
-      category: "Local cuisine",
-      rating: 4.8,
-      reviewsCount: 780,
-      priceRange: "₹₹₹ (Royal Wazwan)",
-      image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80",
-      specialties: ["Rista (Spiced Meatballs in Red Gravy)", "Gushtaba (Meatballs in Yogurt)", "Tabak Maaz", "Kashmiri Kahwa"],
-      openingHours: "12:00 PM – 10:30 PM",
-      location: "Residency Road, Srinagar, Jammu & Kashmir",
-      contact: "+91 194 2471984",
-      description: "First bakery and Wazwan restaurant in Kashmir established over a century ago along the Jhelum River.",
-      dietaryOptions: ["Authentic Wazwan", "Halal Certified"]
-    }
-  ],
-
-  // 5. VEHICLES & TRANSPORTATION (Verified City Transit Guide)
-  vehicles: [
-    // LUCKNOW
-    {
-      id: "trans-lucknow-metro",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      type: "Public transport information",
-      icon: "subway",
-      name: "Lucknow Metro (Red Line Airport Corridor)",
-      fare: "₹10 – ₹60 per ride",
-      provider: "UP Metro Rail Corporation (UPMRC)",
-      helpline: "+91 522 2888888",
-      keyRoutes: "CCS Airport ↔ Charbagh Railway Station ↔ Hazratganj ↔ Munshipulia",
-      timings: "06:00 AM – 10:00 PM daily (Frequency every 5–7 mins)",
-      bookingInfo: "GoSmart Metro Card or contactless QR token from token vending machines.",
-      tips: "Fastest non-traffic connection from Lucknow Airport to Hazratganj heritage hub in just 22 minutes."
+      date: "November 18–26, 2026",
+      time: "08:00 AM – 09:00 PM Daily",
+      category: "Cultural & Heritage Fair",
+      image: "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?auto=format&fit=crop&w=800&q=80",
+      organizer: "Rajasthan Tourism Development Corporation (RTDC)",
+      location: "Pushkar Mela Ground, Pushkar, Rajasthan",
+      description: "One of the world's largest livestock and camel fairs featuring turban tying contests, desert folk dance, hot air ballooning, and sacred lake dips.",
+      highlights: ["Decorated Camel Races", "Rajasthani Folk Dance & Music", "Handicrafts Bazaar", "Hot Air Ballooning"]
     },
     {
-      id: "trans-lucknow-cab",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      type: "Cabs",
-      icon: "local_taxi",
-      name: "Prepaid Airport / Railway Cabs & Sightseeing Taxis",
-      fare: "₹400 – ₹700 (Airport transfer) | ₹1,800 / 8 hrs (Full Day)",
-      provider: "Chaudhary Charan Singh Airport Prepaid Taxi Counter & Ola/Uber",
-      helpline: "0522 2435404 / 112",
-      keyRoutes: "Airport ↔ Hazratganj / Gomti Nagar / Chowk Heritage Zone",
-      timings: "24x7 Available",
-      bookingInfo: "Prepaid booth outside Terminal 2 exit or standard app rides.",
-      tips: "For Chowk and Aminabad heritage lanes, take a cab to Clock Tower then proceed via E-Rickshaw."
-    },
-    {
-      id: "trans-lucknow-erickshaw",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      type: "Auto/e-rickshaws",
-      icon: "electric_rickshaw",
-      name: "Heritage Electric Rickshaws & Auto",
-      fare: "₹10 – ₹30 per shared ride | ₹100 – ₹200 private charter",
-      provider: "Lucknow Green Mobility Fleet",
-      helpline: "Local Traffic Desk 1095",
-      keyRoutes: "Hazratganj ↔ Rumi Darwaza ↔ Bara Imambara ↔ Aminabad Market",
-      timings: "06:00 AM – 11:00 PM",
-      bookingInfo: "Hail directly at Rumi Darwaza or Hazratganj crossings.",
-      tips: "Zero emission, silent, and easily maneuvers inside the narrow medieval alleys of Old Lucknow."
-    },
-
-    // AGRA
-    {
-      id: "trans-agra-ev-golfcarts",
-      destinationId: "agra",
-      city: "Agra",
-      type: "Public transport information",
-      icon: "electric_car",
-      name: "ASI Taj Protected Zone Eco-Battery Carts",
-      fare: "₹10 – ₹20 per passenger (Free for senior citizens/infants)",
-      provider: "Agra Development Authority (ADA) Eco-Fleet",
-      helpline: "0562 2226449",
-      keyRoutes: "Shilpgram Parking ↔ Taj Mahal Eastern Gate / Western Gate Parking ↔ West Gate",
-      timings: "Sunrise to Sunset (Closed Fridays)",
-      bookingInfo: "Board directly from Shilpgram parking lot ticket counter.",
-      tips: "Gasoline vehicles are strictly prohibited within 500m of the Taj Mahal. Take these quiet EV carts directly to the gate."
-    },
-    {
-      id: "trans-agra-taxi",
-      destinationId: "agra",
-      city: "Agra",
-      type: "Cabs",
-      icon: "local_taxi",
-      name: "Agra Cantt Prepaid Taxis & Day Excursions",
-      fare: "₹2,200 (Agra + Fatehpur Sikri Full Day AC Sedan)",
-      provider: "UP Tourism Prepaid Taxi Association",
-      helpline: "+91 562 2421204",
-      keyRoutes: "Agra Cantt ↔ Taj Mahal ↔ Agra Fort ↔ Mehtab Bagh ↔ Fatehpur Sikri (40km)",
-      timings: "24x7 Available",
-      bookingInfo: "Book at the official UP Tourism kiosk on Platform 1, Agra Cantt.",
-      tips: "Fixed government rate card prevents bargaining; covers driver toll and monument parking."
-    },
-
-    // VARANASI
-    {
-      id: "trans-varanasi-boats",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      type: "Public transport information",
-      icon: "directions_boat",
-      name: "Ganga River Heritage Boats & Ro-Pax Ferry",
-      fare: "₹200 – ₹500 (Morning row boat) | ₹100 (Govt Ro-Pax Electric Catamaran)",
-      provider: "Varanasi Smart City Catamaran Services & Ghat Boatmen Union",
-      helpline: "0542 2508555",
-      keyRoutes: "Assi Ghat ↔ Dashashwamedh Ghat ↔ Manikarnika Ghat ↔ Namo Ghat (84 Ghats)",
-      timings: "05:00 AM – 12:00 PM & 04:30 PM – 08:30 PM",
-      bookingInfo: "Licensed boatmen at Assi, Dashashwamedh, or Namo Ghat jetties.",
-      tips: "Sunrise boat ride (05:30 AM) reveals ancient rituals; avoid unlicensed touts on connecting alleys."
-    },
-    {
-      id: "trans-varanasi-erickshaw",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      type: "Auto/e-rickshaws",
-      icon: "electric_rickshaw",
-      name: "Kashi Corridor E-Rickshaws & City Autos",
-      fare: "₹20 – ₹50 shared / ₹150 private point-to-point",
-      provider: "Varanasi Electric Mobility Cooperative",
-      helpline: "Varanasi Traffic Helpline 0542 2221709",
-      keyRoutes: "Varanasi Cantt Station ↔ Godowlia Chowk ↔ Kashi Vishwanath Gate 4",
-      timings: "05:00 AM – 11:30 PM",
-      bookingInfo: "Available at Cantt Station exit and Godowlia crossing.",
-      tips: "Four-wheelers are prohibited from Godowlia to Dashashwamedh from 9 AM to 9 PM; E-rickshaws are permitted."
-    },
-    {
-      id: "trans-varanasi-cabs",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      type: "Airport/railway transfers",
-      icon: "local_taxi",
-      name: "Babatpur Airport Taxis & Sarnath Transfers",
-      fare: "₹800 – ₹1,100 (Airport to Godowlia / Ghats)",
-      provider: "Lal Bahadur Shastri Airport Prepaid Counter",
-      helpline: "+91 542 2622155",
-      keyRoutes: "VNS Airport ↔ City Center ↔ Sarnath Buddhist Ruins",
-      timings: "24x7 Available",
-      bookingInfo: "Prepaid counter inside arrivals hall before exit.",
-      tips: "Pre-book for night arrivals as the airport is 26 km north of the city."
-    },
-
-    // JAIPUR
-    {
-      id: "trans-jaipur-car-rentals",
-      destinationId: "jaipur",
-      city: "Jaipur",
-      type: "Car rentals",
-      icon: "directions_car",
-      name: "Rajasthan Forts Chauffeur Sedan & Self-Drive",
-      fare: "₹2,400 / day (Sedan with driver) | ₹1,500 / day (Self-Drive)",
-      provider: "Royal Rajasthan Wheels & Zoomcar Jaipur",
-      helpline: "+91 141 2228800",
-      keyRoutes: "Jaipur City ↔ Amber Fort ↔ Nahargarh ↔ Jaigarh ↔ Samode",
-      timings: "24x7 Operations",
-      bookingInfo: "Airport / Railway station delivery with driving license & ID proof.",
-      tips: "Steep hill roads to Nahargarh and Jaigarh require experienced hill braking; chauffeur driven is recommended."
-    },
-    {
-      id: "trans-jaipur-bike",
-      destinationId: "jaipur",
-      city: "Jaipur",
-      type: "Bike/scooter rentals",
-      icon: "two_wheeler",
-      name: "Pink City Scooter & Royal Enfield Rentals",
-      fare: "₹450 / day (Honda Activa) | ₹1,100 / day (Royal Enfield Classic 350)",
-      provider: "Jaipur Bike Hub & Onn Bikes",
-      helpline: "+91 98290 11223",
-      keyRoutes: "Walled City Bazaars ↔ Jal Mahal ↔ Albert Hall Museum",
-      timings: "08:00 AM – 09:00 PM",
-      bookingInfo: "Pick up near Sindhi Camp Bus Stand or MI Road.",
-      tips: "Helmets mandatory for both rider and pillion; ideal for navigating vibrant textile bazaars."
-    },
-
-    // DELHI
-    {
-      id: "trans-delhi-metro",
-      destinationId: "delhi",
-      city: "Delhi",
-      type: "Public transport information",
-      icon: "subway",
-      name: "Delhi Metro (DMRC Air-Conditioned Network)",
-      fare: "₹10 – ₹60 (Tourist Day Pass: ₹200 unlimited)",
-      provider: "Delhi Metro Rail Corporation (DMRC)",
-      helpline: "155370 / 011-23417910",
-      keyRoutes: "Airport Express Line ↔ Yellow Line (Heritage Corridor) ↔ Violet Line",
-      timings: "05:30 AM – 11:30 PM daily (Trains every 2–4 mins)",
-      bookingInfo: "1-Day / 3-Day Tourist Smart Card or DMRC Momentum 2.0 App QR tickets.",
-      tips: "Yellow Line connects Qutub Minar, India Gate (Central Secretariat), and Old Delhi (Chandni Chowk) seamlessly."
-    },
-
-    // GOA
-    {
-      id: "trans-goa-bike-rental",
-      destinationId: "goa",
-      city: "Goa",
-      type: "Bike/scooter rentals",
-      icon: "two_wheeler",
-      name: "Goa Yellow-Plate Self-Drive Scooters & Thar Jeeps",
-      fare: "₹350 – ₹600 / day (Activa/Vespa) | ₹3,000 / day (Mahindra Thar)",
-      provider: "Goa Tourism Authorized Two-Wheeler Association",
-      helpline: "+91 832 2438750",
-      keyRoutes: "North Goa Beaches ↔ Old Goa Churches ↔ South Goa Heritage Coves",
-      timings: "08:00 AM – 10:00 PM pickup",
-      bookingInfo: "Available outside Dabolim/Mopa Airport, Thivim/Madgaon Railway stations.",
-      tips: "Always ensure vehicle has commercial yellow-on-black number plates. International / Indian DL required."
-    },
-
-    // KERALA
-    {
-      id: "trans-kerala-houseboats",
-      destinationId: "kerala",
-      city: "Alleppey / Kochi",
-      state: "Kerala",
-      type: "Public transport information",
-      icon: "houseboat",
-      name: "SWTD Water Taxis & DTPC Certified Houseboats",
-      fare: "₹15 (Govt Water Bus) | ₹8,000 – ₹15,000 / night (Luxury Private Kettuvallam)",
-      provider: "State Water Transport Department (SWTD) & DTPC Alleppey",
-      helpline: "+91 477 2251796",
-      keyRoutes: "Alleppey Jetty ↔ Kumarakom ↔ Kuttanad Village Waterways",
-      timings: "06:00 AM – 09:30 PM (Water Taxis) | Houseboats check-in 12 PM",
-      bookingInfo: "Book DTPC certified green-leaf houseboats from official tourism counters.",
-      tips: "Government water buses offer the identical scenic route as luxury cruises at a fraction of the cost."
-    },
-
-    // KASHMIR
-    {
-      id: "trans-kashmir-taxis",
-      destinationId: "kashmir",
-      city: "Srinagar / Gulmarg",
-      state: "Jammu & Kashmir",
-      type: "Cabs",
-      icon: "local_taxi",
-      name: "Kashmir Tourist Taxi Union (4x4 Snow Chains Fleet)",
-      fare: "₹2,500 / day (Srinagar local) | ₹3,500 (Srinagar ↔ Gulmarg / Pahalgam)",
-      provider: "Srinagar Tourist Taxi Stand No. 1 (TRC)",
-      helpline: "+91 194 2452690 / 112",
-      keyRoutes: "Srinagar ↔ Gulmarg Gondola Base ↔ Pahalgam Betaab Valley ↔ Sonamarg",
-      timings: "24x7 Operations",
-      bookingInfo: "TRC Tourist Reception Centre, Residency Road, Srinagar.",
-      tips: "In winter (Dec–March), 4x4 vehicles with tire chains are mandatory from Tangmarg to Gulmarg."
-    }
-  ],
-
-  // 6. LOCAL GUIDES DIRECTORY (Certified by Ministry of Tourism)
-  guides: [
-    // LUCKNOW
-    {
-      id: "mirza-asif",
-      name: "Nawabzada Asif Ali Mirza",
+      id: "lucknow-mahotsav",
+      name: "Lucknow Mahotsav Heritage Festival",
       destinationId: "lucknow",
       city: "Lucknow",
       state: "Uttar Pradesh",
-      type: "Historical/cultural guides",
+      date: "December 2026",
+      time: "11:00 AM – 10:00 PM Daily",
+      category: "Arts & Food Festival",
+      image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80",
+      organizer: "Uttar Pradesh Department of Tourism",
+      location: "Smriti Upvan, Aashiana, Lucknow, UP",
+      description: "Annual cultural festival showcasing the living heritage of Awadh: classical Kathak dance, ghazal recitals, Chikankari artisan crafts, and royal cuisine stalls.",
+      highlights: ["Ghazal & Sufi Nights", "Live Chikankari Weaving Demonstrations", "Awadhi Kebab Competitions"]
+    },
+    {
+      id: "taj-mahotsav",
+      name: "Taj Mahotsav Cultural Carnival",
+      destinationId: "agra",
+      city: "Agra",
+      state: "Uttar Pradesh",
+      date: "February 18–27, 2027",
+      time: "10:00 AM – 10:00 PM Daily",
+      category: "Crafts & Performing Arts",
+      image: "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
+      organizer: "Taj Mahotsav Committee & UP Tourism",
+      location: "Shilpgram, Near Taj Mahal Eastern Gate, Agra, UP",
+      description: "10-day celebration of Indian arts, crafts, classical dance, and cuisine against the majestic backdrop of the Taj Mahal.",
+      highlights: ["400+ National Master Craftsmen", "Folk Traditions of India", "Mughal Gastronomy Trail"]
+    }
+  ],
+
+  // 6. LOCAL GUIDES DIRECTORY (Certified Guides & Scholars)
+  guides: [
+    {
+      id: "sharma-ramesh",
+      name: "Pandit Ramesh Chandra Sharma",
+      city: "Varanasi",
+      state: "Uttar Pradesh",
+      rating: 4.9,
+      reviewsCount: 184,
+      experience: "22 Years Experience",
+      languages: ["Hindi", "English", "Sanskrit", "German"],
+      specialization: "Vedic Philosophy, Ghat History, Temple Architecture",
+      photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      contact: "+91 94152 78912 / ramesh.kashiguide@gmail.com",
+      about: "Certified senior guide by the Ministry of Tourism, Government of India. Born and raised on Dashashwamedh Ghat, specializing in esoteric temple symbolism and early morning acoustic walking tours."
+    },
+    {
+      id: "mirza-asif",
+      name: "Nawabzada Asif Ali Mirza",
+      city: "Lucknow",
+      state: "Uttar Pradesh",
       rating: 4.9,
       reviewsCount: 142,
       experience: "16 Years Experience",
@@ -1361,66 +536,10 @@ const RAAHI_DATA = {
       about: "Direct descendant of court chroniclers of Awadh. Author and heritage researcher who leads exclusive architectural walkthroughs of the Imambaras and hidden Chowk alleys."
     },
     {
-      id: "farha-naaz-lucknow",
-      name: "Dr. Farha Naaz",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      type: "Verified tourist guides",
-      rating: 4.8,
-      reviewsCount: 98,
-      experience: "11 Years Experience",
-      languages: ["Hindi", "English", "German"],
-      specialization: "Chikankari Handloom Artisans, 1857 Mutiny Memorials, Women History",
-      photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
-      contact: "+91 94150 33412 / farha.lucknow@gmail.com",
-      about: "Ministry of Tourism certified guide specializing in living craft heritage and British Residency historical tours."
-    },
-
-    // AGRA
-    {
-      id: "sharma-vipul-agra",
-      name: "Vipul Sharma (Mughal Historian)",
-      destinationId: "agra",
-      city: "Agra",
-      state: "Uttar Pradesh",
-      type: "Historical/cultural guides",
-      rating: 4.9,
-      reviewsCount: 260,
-      experience: "18 Years Experience",
-      languages: ["Hindi", "English", "Japanese", "Spanish"],
-      specialization: "Taj Mahal Architecture, Marble Inlay Arts, Akbar's Dynasty",
-      photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
-      contact: "+91 98370 21980 / vipul.agraguide@gmail.com",
-      about: "ASI approved Gold-badge guide specializing in sunrise photography tours and secret optical illusions of the Taj Mahal."
-    },
-
-    // VARANASI
-    {
-      id: "sharma-ramesh",
-      name: "Pandit Ramesh Chandra Sharma",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      state: "Uttar Pradesh",
-      type: "Local experts",
-      rating: 4.9,
-      reviewsCount: 184,
-      experience: "22 Years Experience",
-      languages: ["Hindi", "English", "Sanskrit", "German"],
-      specialization: "Vedic Philosophy, Ghat History, Temple Architecture",
-      photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
-      contact: "+91 94152 78912 / ramesh.kashiguide@gmail.com",
-      about: "Certified senior guide by the Ministry of Tourism. Born on Dashashwamedh Ghat, specializing in temple symbolism and early morning boat walkthroughs."
-    },
-
-    // JAIPUR
-    {
       id: "rathore-digvijay",
       name: "Digvijay Singh Rathore",
-      destinationId: "jaipur",
       city: "Jaipur",
       state: "Rajasthan",
-      type: "Verified tourist guides",
       rating: 4.8,
       reviewsCount: 210,
       experience: "14 Years Experience",
@@ -1428,464 +547,63 @@ const RAAHI_DATA = {
       specialization: "Rajput Fort Military Architecture, Royal Astronomy, Block Printing",
       photo: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
       contact: "+91 98290 63411 / digvijay.jaipurguide@gmail.com",
-      about: "National Tourism Award nominee with deep expertise in Jantar Mantar sundials and subterranean water systems of Amber Fort."
-    },
-
-    // DELHI
-    {
-      id: "khan-sohail-delhi",
-      name: "Sohail Hashmi Khan",
-      destinationId: "delhi",
-      city: "Delhi",
-      state: "National Capital Territory",
-      type: "Historical/cultural guides",
-      rating: 4.9,
-      reviewsCount: 315,
-      experience: "20 Years Experience",
-      languages: ["Hindi", "Urdu", "English"],
-      specialization: "Shahjahanabad Heritage Walks, Sufi Shrines, Mehrauli Ruins",
-      photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
-      contact: "+91 98110 45678 / sohail.delhiheritage@gmail.com",
-      about: "Heritage activist and documentarian leading weekend historical trails across Old Delhi lanes."
-    },
-
-    // GOA
-    {
-      id: "fernandes-mariano-goa",
-      name: "Mariano Fernandes (Historian)",
-      destinationId: "goa",
-      city: "Goa",
-      state: "Goa",
-      type: "Language-based guides",
-      rating: 4.8,
-      reviewsCount: 165,
-      experience: "15 Years Experience",
-      languages: ["English", "Portuguese", "Konkani", "Hindi"],
-      specialization: "Indo-Portuguese Baroque Architecture, Latin Quarter Walks, Spice Lore",
-      photo: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=400&q=80",
-      contact: "+91 98221 34567 / mariano.goaheritagetrails@gmail.com",
-      about: "Fontainhas heritage conservator conducting walking trails through 18th-century colorful Portuguese villas."
-    },
-
-    // KERALA
-    {
-      id: "menon-unnikrishnan-kerala",
-      name: "Capt. Unnikrishnan Menon",
-      destinationId: "kerala",
-      city: "Kochi / Alleppey",
-      state: "Kerala",
-      type: "Local experts",
-      rating: 4.9,
-      reviewsCount: 190,
-      experience: "19 Years Experience",
-      languages: ["Malayalam", "English", "French", "Hindi"],
-      specialization: "Backwaters Ecology, Spice Routes, Kathakali Classical Art",
-      photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
-      contact: "+91 94471 23456 / unni.keralawalks@gmail.com",
-      about: "Certified naturalist and maritime heritage scholar leading spice bazaar trails and backwater bird-watching."
-    },
-
-    // KASHMIR
-    {
-      id: "bhat-altaf-kashmir",
-      name: "Altaf Hussain Bhat",
-      destinationId: "kashmir",
-      city: "Srinagar",
-      state: "Jammu & Kashmir",
-      type: "Verified tourist guides",
-      rating: 4.9,
-      reviewsCount: 175,
-      experience: "17 Years Experience",
-      languages: ["Kashmiri", "Urdu", "Hindi", "English", "German"],
-      specialization: "Pashmina & Saffron Verification, Himalayan Flora, Mughal Gardens",
-      photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
-      contact: "+91 94190 76543 / altaf.kashmirheritage@gmail.com",
-      about: "Department of Tourism accredited senior scholar and mountaineer guide across Dal Lake and Gulmarg."
+      about: "National Tourism Award nominee with deep expertise in the astronomical sundials of Jantar Mantar and subterranean water systems of Amber Fort."
     }
   ],
 
-  // 7. EVENTS & EXPERIENCES (Festivals, Cultural Gatherings, Seasonal Happenings)
-  events: [
-    // LUCKNOW
-    {
-      id: "lucknow-mahotsav",
-      name: "Lucknow Mahotsav Heritage Festival",
-      destinationId: "lucknow",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      date: "December 2026",
-      time: "11:00 AM – 10:00 PM Daily",
-      category: "Cultural events",
-      image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80",
-      organizer: "Uttar Pradesh Department of Tourism",
-      location: "Smriti Upvan, Aashiana, Lucknow, UP",
-      description: "Annual cultural festival showcasing the living heritage of Awadh: classical Kathak dance, ghazal recitals, Chikankari artisan crafts, and royal cuisine stalls.",
-      highlights: ["Ghazal & Sufi Nights", "Live Chikankari Weaving Demonstrations", "Awadhi Kebab Competitions"]
-    },
-
-    // AGRA
-    {
-      id: "taj-mahotsav",
-      name: "Taj Mahotsav Cultural Carnival",
-      destinationId: "agra",
-      city: "Agra",
-      state: "Uttar Pradesh",
-      date: "February 18–27, 2027",
-      time: "10:00 AM – 10:00 PM Daily",
-      category: "Festivals",
-      image: "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80",
-      organizer: "Taj Mahotsav Committee & UP Tourism",
-      location: "Shilpgram, Near Taj Mahal Eastern Gate, Agra, UP",
-      description: "10-day celebration of Indian arts, crafts, classical dance, and cuisine against the majestic backdrop of the Taj Mahal.",
-      highlights: ["400+ National Master Craftsmen", "Folk Traditions of India", "Mughal Gastronomy Trail"]
-    },
-
-    // VARANASI
-    {
-      id: "varanasi-dev-deepawali",
-      name: "Dev Deepawali (Festival of the Gods)",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      state: "Uttar Pradesh",
-      date: "November 2026 (Kartik Purnima)",
-      time: "05:00 PM – 10:00 PM",
-      category: "Religious events",
-      image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80",
-      organizer: "Varanasi Tourism Board & Ganga Seva Nidhi",
-      location: "All 84 Ghats of Varanasi (Assi to Rajghat)",
-      description: "Spectacular night when millions of clay earthen lamps (diyas) illuminate all 84 ghats of the Ganges, believed to be the day gods descend to bathe.",
-      highlights: ["1 Million+ Diyas Lit", "Grand Maha Aarti", "Green Laser Light Show", "Classical Sitar Recitals"]
-    },
-    {
-      id: "subah-e-banaras",
-      name: "Subah-e-Banaras Cultural Morning Ritual",
-      destinationId: "varanasi",
-      city: "Varanasi",
-      state: "Uttar Pradesh",
-      date: "Every Morning (Year-Round)",
-      time: "05:00 AM – 07:30 AM Daily",
-      category: "Local activities",
-      image: "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=800&q=80",
-      organizer: "Subah-e-Banaras Committee & UP Culture Dept",
-      location: "Assi Ghat, Varanasi, UP",
-      description: "Daily dawn celebration of spiritual traditions: Vedic chanting, sunrise Ganga Aarti, classical morning Ragas on Sitar, and open Yogic meditation.",
-      highlights: ["Vedic Chanting by Gurukul Students", "Morning Ragas by Eminent Ustads", "Sunrise Yoga Session"]
-    },
-
-    // JAIPUR
-    {
-      id: "jaipur-lit-fest",
-      name: "Jaipur Literature Festival (JLF)",
-      destinationId: "jaipur",
-      city: "Jaipur",
-      state: "Rajasthan",
-      date: "January 2027",
-      time: "09:00 AM – 07:00 PM Daily",
-      category: "Cultural events",
-      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80",
-      organizer: "Teamwork Arts",
-      location: "Hotel Clarks Amer, Jaipur, Rajasthan",
-      description: "The 'Greatest Literary Show on Earth' hosting Nobel laureates, Man Booker winners, poets, and thinkers from across 50+ countries.",
-      highlights: ["Keynote Debates", "Heritage Music Stage", "Authors Book Signings", "Artisanal Book Bazaars"]
-    },
-
-    // DELHI
-    {
-      id: "delhi-qutub-festival",
-      name: "Qutub Festival of Classical Music & Dance",
-      destinationId: "delhi",
-      city: "Delhi",
-      state: "National Capital Territory",
-      date: "November 2026",
-      time: "06:30 PM – 10:00 PM",
-      category: "Live events",
-      image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
-      organizer: "Delhi Tourism & Sahitya Kala Parishad",
-      location: "Qutub Minar Complex Grounds, New Delhi",
-      description: "Stunning 3-day classical extravaganza with illuminated Qutub Minar backdrop featuring Hindustani vocalists and Kathak / Odissi dancers.",
-      highlights: ["Illuminated Qutub Minar Backdrop", "Padma Awardee Performances", "Free Public Passes"]
-    },
-
-    // GOA
-    {
-      id: "goa-carnival",
-      name: "Goa Carnival & King Momo Parade",
-      destinationId: "goa",
-      city: "Panaji / Margao",
-      state: "Goa",
-      date: "February 2027",
-      time: "03:00 PM – 10:00 PM",
-      category: "Festivals",
-      image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80",
-      organizer: "Goa Tourism Development Corporation (GTDC)",
-      location: "D.B. Marg, Panaji & Margao Municipal Grounds, Goa",
-      description: "500-year-old traditional carnival featuring colorful street floats, masked dancers, brass bands, and King Momo's decree of celebration.",
-      highlights: ["Giant Float Parade", "Goan Brass Bands", "Red & Black Dance Extravaganza"]
-    },
-
-    // KERALA
-    {
-      id: "nehru-trophy-boat-race",
-      name: "Nehru Trophy Snake Boat Race (Vallam Kali)",
-      destinationId: "kerala",
-      city: "Alleppey",
-      state: "Kerala",
-      date: "August / September (Second Saturday)",
-      time: "01:00 PM – 06:00 PM",
-      category: "Seasonal experiences",
-      image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80",
-      organizer: "Nehru Trophy Boat Race Society",
-      location: "Punnamada Lake, Alappuzha, Kerala",
-      description: "High-octane water regatta featuring 100-foot-long Chundan Vallams (Snake Boats) powered by 100+ oarsmen chanting rhythmic Vanchipattu songs.",
-      highlights: ["100-Oarsmen Chundan Boats", "Rhythmic Vanchipattu Chants", "Massive Lakeside Stadium"]
-    },
-
-    // KASHMIR
-    {
-      id: "kashmir-tulip-festival",
-      name: "Indira Gandhi Memorial Tulip Blossom Festival",
-      destinationId: "kashmir",
-      city: "Srinagar",
-      state: "Jammu & Kashmir",
-      date: "April 2027 (Spring Bloom)",
-      time: "09:00 AM – 06:00 PM Daily",
-      category: "Seasonal experiences",
-      image: "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
-      organizer: "J&K Department of Floriculture & Tourism",
-      location: "Siraj Bagh, Cheshmashahi Foothills, Srinagar",
-      description: "Asia's largest tulip garden boasting 1.5 million tulips across 68 varieties blossoming against the snow-capped Zabarwan mountain range.",
-      highlights: ["1.5 Million Blooming Tulips", "Kashmiri Folk Sitar Stalls", "Saffron Kehwa Cafes"]
-    }
-  ],
-
-  // 8. EMERGENCY & TOURIST ASSISTANCE (Dedicated Verified Local Stations for Every City)
+  // 7. EMERGENCY SERVICES & 24x7 SAFETY HUB
   emergencyServices: [
-    // LUCKNOW
-    {
-      id: "police-lucknow-hazratganj",
-      destinationId: "lucknow",
-      name: "Hazratganj Tourist & Women Police Station",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      type: "Police",
-      phone: "+91 522 2623333 / 112",
-      address: "MG Marg, Near GPO, Hazratganj, Lucknow, UP",
-      hours: "24x7 Active Emergency Response",
-      lat: 26.8500,
-      lng: 80.9400
-    },
-    {
-      id: "hospital-kgmu-lucknow",
-      destinationId: "lucknow",
-      name: "King George's Medical University (KGMU Trauma Center)",
-      city: "Lucknow",
-      state: "Uttar Pradesh",
-      type: "Hospital",
-      phone: "+91 522 2257450 / 108",
-      address: "Shah Mina Road, Chowk, Lucknow, UP",
-      hours: "24x7 Level-1 Trauma & Emergency Unit",
-      lat: 26.8680,
-      lng: 80.9160
-    },
-
-    // AGRA
-    {
-      id: "police-agra-tajganj",
-      destinationId: "agra",
-      name: "Tajganj Tourist Police Booth & Assistance Counter",
-      city: "Agra",
-      state: "Uttar Pradesh",
-      type: "Police",
-      phone: "+91 562 2421204 / 112",
-      address: "Taj Mahal Eastern Gate Parking, Tajganj, Agra, UP",
-      hours: "24x7 Tourist Assistance & Patrol",
-      lat: 27.1730,
-      lng: 78.0450
-    },
-    {
-      id: "hospital-sn-medical-agra",
-      destinationId: "agra",
-      name: "S.N. Medical College & Emergency Hospital",
-      city: "Agra",
-      state: "Uttar Pradesh",
-      type: "Hospital",
-      phone: "+91 562 2260353 / 108",
-      address: "Moti Katra, Mantola, Agra, UP",
-      hours: "24x7 Emergency Casualty & Trauma",
-      lat: 27.1850,
-      lng: 78.0050
-    },
-
-    // VARANASI
     {
       id: "police-varanasi-tourist",
-      destinationId: "varanasi",
-      name: "Dashashwamedh Tourist Police Station",
+      name: "Dashashwamedh Tourist Police Booth",
       city: "Varanasi",
       state: "Uttar Pradesh",
       type: "Police",
       phone: "+91 542 2451233 / 112",
-      address: "Dashashwamedh Ghat Entrance, Godowlia Crossing, Varanasi",
-      hours: "24x7 Active Ghat Patrol & Helpdesk",
+      address: "Dashashwamedh Ghat Entrance, Godowlia, Varanasi",
+      hours: "24x7 Active",
       lat: 25.3080,
       lng: 83.0090
     },
     {
       id: "hospital-bhu-trauma",
-      destinationId: "varanasi",
       name: "Sir Sunderlal Hospital & Trauma Centre (BHU)",
       city: "Varanasi",
       state: "Uttar Pradesh",
       type: "Hospital",
       phone: "+91 542 2307500 / 108",
-      address: "Banaras Hindu University Campus, Lanka, Varanasi, UP",
-      hours: "24x7 Super-Specialty Emergency Trauma",
+      address: "Banaras Hindu University Campus, Varanasi, UP",
+      hours: "24x7 Emergency Trauma Unit",
       lat: 25.2758,
       lng: 82.9984
     },
-
-    // JAIPUR
     {
-      id: "police-jaipur-tourist",
-      destinationId: "jaipur",
-      name: "Amber Fort & City Palace Tourist Police Station",
-      city: "Jaipur",
-      state: "Rajasthan",
+      id: "police-lucknow-hazratganj",
+      name: "Hazratganj Police Station & Women Helpline",
+      city: "Lucknow",
+      state: "Uttar Pradesh",
       type: "Police",
-      phone: "+91 141 2603333 / 112",
-      address: "Jaleb Chowk, Near City Palace, Old Walled City, Jaipur",
-      hours: "24x7 Tourist Assistance & Lost Property",
-      lat: 26.9255,
-      lng: 75.8235
+      phone: "+91 522 2623333 / 112",
+      address: "MG Marg, Hazratganj, Lucknow, UP",
+      hours: "24x7 Active",
+      lat: 26.8500,
+      lng: 80.9400
     },
     {
-      id: "hospital-sms-jaipur",
-      destinationId: "jaipur",
-      name: "Sawai Man Singh (SMS) Hospital & Trauma Unit",
-      city: "Jaipur",
-      state: "Rajasthan",
+      id: "hospital-kgmu-lucknow",
+      name: "King George's Medical University (KGMU)",
+      city: "Lucknow",
+      state: "Uttar Pradesh",
       type: "Hospital",
-      phone: "+91 141 2518224 / 108",
-      address: "JLN Marg, Ashok Nagar, Jaipur, Rajasthan",
-      hours: "24x7 State Apex Emergency Hospital",
-      lat: 26.8988,
-      lng: 75.8150
-    },
-
-    // DELHI
-    {
-      id: "police-delhi-tourist",
-      destinationId: "delhi",
-      name: "Delhi Police Special Tourist Assistance Unit",
-      city: "Delhi",
-      state: "National Capital Territory",
-      type: "Police",
-      phone: "011 23361234 / 112",
-      address: "Paharganj Police Station, Near New Delhi Railway Station",
-      hours: "24x7 Multi-lingual Tourist Support",
-      lat: 28.6430,
-      lng: 77.2150
-    },
-    {
-      id: "hospital-aiims-delhi",
-      destinationId: "delhi",
-      name: "AIIMS Apex Trauma Center New Delhi",
-      city: "Delhi",
-      state: "National Capital Territory",
-      type: "Hospital",
-      phone: "011 26588500 / 108",
-      address: "Ring Road, Ansari Nagar, New Delhi",
-      hours: "24x7 National Apex Emergency Care",
-      lat: 28.5672,
-      lng: 77.2100
-    },
-
-    // GOA
-    {
-      id: "police-goa-tourist",
-      destinationId: "goa",
-      name: "Goa Tourist Police Assistance Cell (Calangute)",
-      city: "Goa",
-      state: "Goa",
-      type: "Police",
-      phone: "0832 2277211 / 112",
-      address: "Calangute Beach Road, Calangute, North Goa",
-      hours: "24x7 Coastal Beach Patrol & Helpdesk",
-      lat: 15.5430,
-      lng: 73.7550
-    },
-    {
-      id: "hospital-gmc-goa",
-      destinationId: "goa",
-      name: "Goa Medical College & Hospital (GMC Bambolim)",
-      city: "Goa",
-      state: "Goa",
-      type: "Hospital",
-      phone: "0832 2458700 / 108",
-      address: "Bambolim, Tiswadi, Goa",
-      hours: "24x7 State Emergency Trauma Center",
-      lat: 15.4600,
-      lng: 73.8500
-    },
-
-    // KERALA
-    {
-      id: "police-kerala-tourist",
-      destinationId: "kerala",
-      name: "Fort Kochi Tourist Police Station",
-      city: "Kochi / Alleppey",
-      state: "Kerala",
-      type: "Police",
-      phone: "0484 2215055 / 112",
-      address: "Tower Road, Fort Kochi, Kochi, Kerala",
-      hours: "24x7 Tourist Support & Beach Patrol",
-      lat: 9.9650,
-      lng: 76.2410
-    },
-    {
-      id: "hospital-kerala-general",
-      destinationId: "kerala",
-      name: "Ernakulam General Hospital & Trauma Care",
-      city: "Kochi / Alleppey",
-      state: "Kerala",
-      type: "Hospital",
-      phone: "0484 2361251 / 108",
-      address: "Hospital Road, Marine Drive, Kochi, Kerala",
-      hours: "24x7 Emergency Services",
-      lat: 9.9750,
-      lng: 76.2800
-    },
-
-    // KASHMIR
-    {
-      id: "police-kashmir-tourist",
-      destinationId: "kashmir",
-      name: "Tourist Police Station Srinagar (TRC)",
-      city: "Srinagar",
-      state: "Jammu & Kashmir",
-      type: "Police",
-      phone: "0194 2450045 / 112",
-      address: "Tourist Reception Centre (TRC), Residency Road, Srinagar",
-      hours: "24x7 Dal Lake & Valley Assistance",
-      lat: 34.0720,
-      lng: 74.8200
-    },
-    {
-      id: "hospital-smhs-kashmir",
-      destinationId: "kashmir",
-      name: "SMHS Hospital & Super Specialty Emergency Care",
-      city: "Srinagar",
-      state: "Jammu & Kashmir",
-      type: "Hospital",
-      phone: "0194 2504114 / 108",
-      address: "Karan Nagar, Srinagar, Jammu & Kashmir",
-      hours: "24x7 Emergency Trauma Unit",
-      lat: 34.0900,
-      lng: 74.8050
+      phone: "+91 522 2257450 / 108",
+      address: "Shah Mina Road, Chowk, Lucknow, UP",
+      hours: "24x7 Tertiary Emergency Care",
+      lat: 26.8680,
+      lng: 80.9160
     }
   ],
 
-  // 9. NATIONAL TOLL-FREE HELPLINES
+  // 8. NATIONAL TOLL-FREE HELPLINES
   nationalHelplines: [
     {
       number: "112",
@@ -1913,7 +631,7 @@ const RAAHI_DATA = {
     }
   ],
 
-  // 10. COMMUNITY CHANGE REQUESTS
+  // 9. COMMUNITY CHANGE REQUESTS (Sample Crowdsourced Submissions)
   communityChanges: [
     {
       id: "cr-101",
@@ -1928,7 +646,7 @@ const RAAHI_DATA = {
       evidence: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=400&q=80",
       submittedBy: "Aakash Verma (Traveler)",
       date: "2026-08-22",
-      status: "Pending"
+      status: "Pending" // Pending | Approved | Rejected
     },
     {
       id: "cr-102",

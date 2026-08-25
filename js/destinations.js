@@ -180,8 +180,8 @@ const RaahiDestinations = {
   // Open Destination Details with Explainable AI Card & Similar Vibes Carousel
   async openDetailModal(destIdentifier, customXai = null) {
     const normId = destIdentifier.toLowerCase().replace(/[^a-z]/g, '');
-    let dest = (RAAHI_DATA.destinations || []).find(d => 
-      d.id.toLowerCase() === normId || 
+    let dest = (RAAHI_DATA.destinations || []).find(d =>
+      d.id.toLowerCase() === normId ||
       d.name.toLowerCase().includes(normId) ||
       normId.includes(d.id.toLowerCase())
     );
@@ -205,12 +205,12 @@ const RaahiDestinations = {
     if (!modal || !content) return;
 
     // Resolve or generate Explainable AI (xAI) Payload
-    const key = normId.includes('varanasi') ? 'varanasi' : 
-                normId.includes('jaipur') ? 'jaipur' :
-                normId.includes('kerala') ? 'kerala' :
-                normId.includes('goa') ? 'goa' :
-                normId.includes('agra') ? 'agra' :
-                normId.includes('delhi') ? 'delhi' :
+    const key = normId.includes('varanasi') ? 'varanasi' :
+      normId.includes('jaipur') ? 'jaipur' :
+        normId.includes('kerala') ? 'kerala' :
+          normId.includes('goa') ? 'goa' :
+            normId.includes('agra') ? 'agra' :
+              normId.includes('delhi') ? 'delhi' :
                 normId.includes('kashmir') ? 'kashmir' : 'lucknow';
 
     const xai = customXai || this.xaiKnowledgeBase[key] || this.xaiKnowledgeBase.lucknow;
@@ -251,18 +251,22 @@ const RaahiDestinations = {
           
           <!-- Action Buttons Bar -->
           <div class="flex flex-wrap items-center justify-between gap-3 pb-6 border-b border-stone-200 dark:border-stone-800">
-            <div class="flex items-center gap-3">
-              <button onclick="RaahiDestinations.openCityHub('${dest.id}')" class="px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shadow-md transition-all flex items-center gap-1.5">
-                <span class="material-symbols-outlined text-sm">hub</span>
-                <span>Open ${dest.name} Travel Hub</span>
+            <div class="flex flex-wrap items-center gap-2 sm:gap-3">
+              <button onclick="RaahiDestinations.closeDetailModal(); RaahiCityHub.openCity('${dest.id}');" class="px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shadow-md transition-all flex items-center gap-1.5 shadow-amber-600/20">
+                <span class="material-symbols-outlined text-sm">explore</span>
+                <span>Explore City Hub</span>
               </button>
-              <button onclick="RaahiDestinations.planWithAI('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-colors flex items-center gap-1">
-                <span class="material-symbols-outlined text-sm text-amber-600">auto_awesome</span>
+              <button onclick="RaahiDestinations.planWithAI('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 hover:bg-stone-800 dark:hover:bg-white text-white dark:text-stone-900 font-bold text-xs shadow-sm transition-all flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-sm text-amber-400 dark:text-amber-600">auto_awesome</span>
                 <span>Plan with AI</span>
               </button>
-              <button onclick="RaahiBudgetForecaster.openModal('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 hover:bg-amber-100 dark:hover:bg-amber-900/60 text-amber-900 dark:text-amber-300 border border-amber-300 dark:border-amber-700/60 text-xs font-bold transition-colors flex items-center gap-1">
+              <button onclick="RaahiDestinations.exploreCityPlaces('${dest.name}')" class="px-3.5 py-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-colors flex items-center gap-1">
+                <span class="material-symbols-outlined text-sm text-amber-600">travel_explore</span>
+                <span>Monuments</span>
+              </button>
+              <button onclick="RaahiBudgetForecaster.openModal('${dest.name}')" class="px-3.5 py-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 hover:bg-amber-100 dark:hover:bg-amber-900/60 text-amber-900 dark:text-amber-300 border border-amber-300 dark:border-amber-700/60 text-xs font-bold transition-colors flex items-center gap-1">
                 <span class="material-symbols-outlined text-sm text-amber-600">calculate</span>
-                <span>Predict Budget</span>
+                <span>Budget</span>
               </button>
             </div>
             <div class="flex items-center gap-3">
@@ -511,15 +515,6 @@ const RaahiDestinations = {
     }
     if (typeof RaahiApp !== 'undefined') {
       RaahiApp.navigate('places');
-    }
-  },
-
-  openCityHub(destinationId) {
-    this.closeDetailModal();
-    if (typeof RaahiCityHub !== 'undefined') {
-      RaahiCityHub.selectCity(destinationId);
-    } else if (typeof RaahiApp !== 'undefined') {
-      RaahiApp.navigate('city');
     }
   }
 };

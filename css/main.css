@@ -728,3 +728,53 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   transition: all 0.2s ease;
 }
 
+/* ==========================================================================
+   City Details Travel Hub Styles
+   ========================================================================== */
+.city-cat-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.125rem;
+  border-radius: 1rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.city-cat-tab-btn.active-cat-btn {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  color: #ffffff !important;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.city-cat-tab-btn.inactive-cat-btn {
+  background-color: #ffffff;
+  color: #57534e;
+  border: 1px solid #e7e5e4;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.dark .city-cat-tab-btn.inactive-cat-btn {
+  background-color: #1c1917;
+  color: #d6d3d1;
+  border-color: #292524;
+}
+
+.city-cat-tab-btn.inactive-cat-btn:hover {
+  border-color: #d97706;
+  color: #d97706;
+  background-color: #fffbeb;
+}
+
+.dark .city-cat-tab-btn.inactive-cat-btn:hover {
+  background-color: rgba(69, 26, 3, 0.3);
+  color: #fbbf24;
+  border-color: #b45309;
+}
+
+

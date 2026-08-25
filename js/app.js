@@ -17,9 +17,10 @@ const RaahiApp = {
     this.initHomeSearch();
 
     // Initialize all domain submodules
+    if (typeof RaahiAPI !== 'undefined') RaahiAPI.init();
+    if (typeof RaahiCityHub !== 'undefined') RaahiCityHub.init();
     if (typeof RaahiAuth !== 'undefined') RaahiAuth.init();
     if (typeof RaahiDestinations !== 'undefined') RaahiDestinations.init();
-    if (typeof RaahiCityHub !== 'undefined') RaahiCityHub.init();
     if (typeof RaahiPlaces !== 'undefined') RaahiPlaces.init();
     if (typeof RaahiHotels !== 'undefined') RaahiHotels.init();
     if (typeof RaahiRestaurants !== 'undefined') RaahiRestaurants.init();
@@ -76,23 +77,29 @@ const RaahiApp = {
   },
 
   handleHashChange() {
-    let hash = window.location.hash.replace('#', '').toLowerCase().trim();
-    if (hash === 'destinations') hash = 'explore';
+    const fullHash = window.location.hash.replace('#', '').trim();
+    let hash = fullHash.toLowerCase();
 
+    // Check for city details route with params: #city?id=lucknow&cat=hotels
     if (hash.startsWith('city')) {
-      const parts = hash.split('/');
-      const cityId = parts[1] || 'lucknow';
+      const queryPart = fullHash.includes('?') ? fullHash.split('?')[1] : '';
+      const params = new URLSearchParams(queryPart);
+      const cityId = params.get('id') || 'lucknow';
+      const cat = params.get('cat') || 'hotels';
+      
       this.navigate('city', false);
       if (typeof RaahiCityHub !== 'undefined') {
-        RaahiCityHub.selectCity(cityId, false);
+        RaahiCityHub.openCity(cityId, cat);
       }
       return;
     }
 
+    if (hash === 'destinations') hash = 'explore';
+
     const validRoutes = [
-      'home', 'explore', 'places', 'hotels', 'restaurants', 
-      'events', 'guides', 'map', 'emergency', 'planner', 
-      'dashboard', 'admin', 'city'
+      'home', 'explore', 'city', 'places', 'hotels', 'restaurants',
+      'events', 'guides', 'map', 'emergency', 'planner',
+      'dashboard', 'admin'
     ];
 
     const targetRoute = validRoutes.includes(hash) ? hash : 'home';
@@ -218,7 +225,7 @@ const RaahiApp = {
   runSmartQuery(queryText) {
     if (!queryText) return;
     const cleanQuery = queryText.trim();
-    
+
     const homeInput = document.getElementById('home-search-input');
     if (homeInput) homeInput.value = cleanQuery;
 
@@ -334,8 +341,8 @@ const RaahiApp = {
     if (!RAAHI_DATA.destinations) return;
 
     const renderCard = (d) => `
-      <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
-        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800 cursor-pointer" onclick="RaahiDestinations.openDetailModal('${d.id}')">
+      <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
+        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800 cursor-pointer" onclick="RaahiCityHub.openCity('${d.id}')">
           <img src="${d.image}" alt="${d.name}" loading="lazy" class="w-full h-full object-cover img-zoom">
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent"></div>
 
@@ -346,14 +353,14 @@ const RaahiApp = {
           </div>
 
           <div class="absolute top-3.5 right-3.5 z-10">
-            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-600/90 text-white shadow-sm flex items-center gap-1">
-              <span class="material-symbols-outlined text-xs">psychology</span>
-              <span>Why This?</span>
-            </span>
+            <button onclick="event.stopPropagation(); RaahiDestinations.openDetailModal('${d.id}')" title="Explainable AI Affinity Insights" class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-black/60 hover:bg-black/80 backdrop-blur-md text-white border border-white/20 shadow-sm flex items-center gap-1 transition-all">
+              <span class="material-symbols-outlined text-xs text-amber-400">psychology</span>
+              <span>Why ${d.name}?</span>
+            </button>
           </div>
 
           <div class="absolute bottom-4 left-4 right-4 text-white z-10">
-            <h3 class="font-heading text-2xl font-extrabold text-white mb-0.5">${d.name}</h3>
+            <h3 class="font-heading text-2xl font-extrabold text-white mb-0.5 group-hover:text-amber-400 transition-colors">${d.name}</h3>
             <p class="text-xs text-amber-300 font-medium line-clamp-1">${d.tagline}</p>
           </div>
         </div>
@@ -366,29 +373,34 @@ const RaahiApp = {
           <div>
             <div class="flex items-center justify-between py-2.5 border-t border-stone-100 dark:border-stone-800 text-xs font-semibold text-stone-700 dark:text-stone-300 mb-4">
               <span class="flex items-center gap-1.5 text-amber-600 dark:text-amber-400">
-                <span class="material-symbols-outlined text-sm">attractions</span>
-                ${d.attractionsCount}+ Attractions
+                <span class="material-symbols-outlined text-sm">account_balance</span>
+                ${d.attractionsCount}+ Sights
               </span>
               <span class="flex items-center gap-1.5 text-emerald-600 dark:text-emerald-400">
                 <span class="material-symbols-outlined text-sm">hotel</span>
                 ${d.hotelsCount}+ Stays
               </span>
+              <span class="flex items-center gap-1.5 text-blue-600 dark:text-blue-400">
+                <span class="material-symbols-outlined text-sm">shield</span>
+                Safety 9.2
+              </span>
             </div>
 
             <div class="grid grid-cols-2 gap-2">
-              <button onclick="RaahiDestinations.openDetailModal('${d.id}')" class="py-2.5 px-3 rounded-xl bg-amber-50 dark:bg-amber-950/40 hover:bg-amber-100 dark:hover:bg-amber-900/60 text-amber-800 dark:text-amber-300 text-xs font-bold transition-all flex items-center justify-center gap-1 border border-amber-200 dark:border-amber-800">
-                <span class="material-symbols-outlined text-xs">psychology</span>
-                <span>Why ${d.name}?</span>
+              <button onclick="RaahiCityHub.openCity('${d.id}')" class="py-2.5 px-3 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-md shadow-amber-600/20">
+                <span class="material-symbols-outlined text-sm">explore</span>
+                <span>City Hub</span>
               </button>
-              <button onclick="RaahiApp.openCityHub('${d.id}')" class="py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1">
-                <span>Explore Hub</span>
-                <span class="material-symbols-outlined text-xs">arrow_forward</span>
+              <button onclick="RaahiDestinations.openDetailModal('${d.id}')" class="py-2.5 px-3 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-700 text-xs font-bold transition-all flex items-center justify-center gap-1">
+                <span class="material-symbols-outlined text-sm text-amber-600">psychology</span>
+                <span>Why This?</span>
               </button>
             </div>
           </div>
         </div>
       </div>
     `;
+
 
     if (container) {
       container.innerHTML = RAAHI_DATA.destinations.map(renderCard).join('');
@@ -529,14 +541,6 @@ const RaahiApp = {
       toast.classList.add('translate-y-12', 'opacity-0');
       setTimeout(() => toast.remove(), 300);
     }, 3000);
-  },
-
-  openCityHub(cityId) {
-    if (typeof RaahiCityHub !== 'undefined') {
-      RaahiCityHub.selectCity(cityId);
-    } else {
-      this.navigate('city');
-    }
   }
 };
 
