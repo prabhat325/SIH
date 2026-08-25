@@ -19,6 +19,7 @@ const RaahiApp = {
     // Initialize all domain submodules
     if (typeof RaahiAuth !== 'undefined') RaahiAuth.init();
     if (typeof RaahiDestinations !== 'undefined') RaahiDestinations.init();
+    if (typeof RaahiCityHub !== 'undefined') RaahiCityHub.init();
     if (typeof RaahiPlaces !== 'undefined') RaahiPlaces.init();
     if (typeof RaahiHotels !== 'undefined') RaahiHotels.init();
     if (typeof RaahiRestaurants !== 'undefined') RaahiRestaurants.init();
@@ -78,10 +79,20 @@ const RaahiApp = {
     let hash = window.location.hash.replace('#', '').toLowerCase().trim();
     if (hash === 'destinations') hash = 'explore';
 
+    if (hash.startsWith('city')) {
+      const parts = hash.split('/');
+      const cityId = parts[1] || 'lucknow';
+      this.navigate('city', false);
+      if (typeof RaahiCityHub !== 'undefined') {
+        RaahiCityHub.selectCity(cityId, false);
+      }
+      return;
+    }
+
     const validRoutes = [
       'home', 'explore', 'places', 'hotels', 'restaurants', 
       'events', 'guides', 'map', 'emergency', 'planner', 
-      'dashboard', 'admin'
+      'dashboard', 'admin', 'city'
     ];
 
     const targetRoute = validRoutes.includes(hash) ? hash : 'home';
@@ -369,8 +380,8 @@ const RaahiApp = {
                 <span class="material-symbols-outlined text-xs">psychology</span>
                 <span>Why ${d.name}?</span>
               </button>
-              <button onclick="RaahiPlaces.stateFilter='${d.name}'; RaahiApp.navigate('places'); RaahiPlaces.renderPlaces();" class="py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1">
-                <span>Explore</span>
+              <button onclick="RaahiApp.openCityHub('${d.id}')" class="py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1">
+                <span>Explore Hub</span>
                 <span class="material-symbols-outlined text-xs">arrow_forward</span>
               </button>
             </div>
@@ -518,6 +529,14 @@ const RaahiApp = {
       toast.classList.add('translate-y-12', 'opacity-0');
       setTimeout(() => toast.remove(), 300);
     }, 3000);
+  },
+
+  openCityHub(cityId) {
+    if (typeof RaahiCityHub !== 'undefined') {
+      RaahiCityHub.selectCity(cityId);
+    } else {
+      this.navigate('city');
+    }
   }
 };
 

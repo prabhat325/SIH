@@ -252,13 +252,13 @@ const RaahiDestinations = {
           <!-- Action Buttons Bar -->
           <div class="flex flex-wrap items-center justify-between gap-3 pb-6 border-b border-stone-200 dark:border-stone-800">
             <div class="flex items-center gap-3">
-              <button onclick="RaahiDestinations.planWithAI('${dest.name}')" class="px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shadow-md transition-all flex items-center gap-1.5">
-                <span class="material-symbols-outlined text-sm">auto_awesome</span>
-                <span>Plan Journey with AI</span>
+              <button onclick="RaahiDestinations.openCityHub('${dest.id}')" class="px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs shadow-md transition-all flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">hub</span>
+                <span>Open ${dest.name} Travel Hub</span>
               </button>
-              <button onclick="RaahiDestinations.exploreCityPlaces('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-colors flex items-center gap-1">
-                <span class="material-symbols-outlined text-sm text-amber-600">travel_explore</span>
-                <span>Explore Monuments</span>
+              <button onclick="RaahiDestinations.planWithAI('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-colors flex items-center gap-1">
+                <span class="material-symbols-outlined text-sm text-amber-600">auto_awesome</span>
+                <span>Plan with AI</span>
               </button>
               <button onclick="RaahiBudgetForecaster.openModal('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/60 hover:bg-amber-100 dark:hover:bg-amber-900/60 text-amber-900 dark:text-amber-300 border border-amber-300 dark:border-amber-700/60 text-xs font-bold transition-colors flex items-center gap-1">
                 <span class="material-symbols-outlined text-sm text-amber-600">calculate</span>
@@ -511,6 +511,15 @@ const RaahiDestinations = {
     }
     if (typeof RaahiApp !== 'undefined') {
       RaahiApp.navigate('places');
+    }
+  },
+
+  openCityHub(destinationId) {
+    this.closeDetailModal();
+    if (typeof RaahiCityHub !== 'undefined') {
+      RaahiCityHub.selectCity(destinationId);
+    } else if (typeof RaahiApp !== 'undefined') {
+      RaahiApp.navigate('city');
     }
   }
 };

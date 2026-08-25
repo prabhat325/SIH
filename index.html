@@ -819,6 +819,206 @@
     </div>
 
     <!-- =======================================================================
+         VIEW: DESTINATION TRAVEL HUB (#view-city) — 7 ORDERED CATEGORIES
+         ======================================================================= -->
+    <div id="view-city" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      
+      <!-- Top Destination Hero & Sticky Category Jump Navigation -->
+      <div id="city-hub-hero-container">
+        <!-- Rendered dynamically by RaahiCityHub.renderHero(dest) -->
+      </div>
+
+      <!-- Quick Search Bar Within Selected City -->
+      <div class="mb-10 p-4 bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 shadow-sm flex items-center gap-3">
+        <div class="relative flex-1">
+          <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-amber-500 text-lg">search</span>
+          <input id="city-hub-search-input" type="text" placeholder="Search places, stays, food, vehicles, or guides within this destination..." class="w-full pl-10 pr-4 py-2.5 bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs sm:text-sm font-semibold text-stone-900 dark:text-white outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500">
+        </div>
+      </div>
+
+      <!-- 1. PLACES TO EXPLORE SECTION -->
+      <section id="city-sec-places" class="mb-16 scroll-mt-28">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-amber-600 mb-1">
+              <span class="material-symbols-outlined text-sm">account_balance</span>
+              Category 1: Attractions &amp; Heritage
+            </div>
+            <h2 id="city-places-title" class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              Places to Explore
+            </h2>
+            <p class="text-xs text-stone-500 mt-0.5">Popular tourist attractions, historical monuments, temples, sacred ghats, royal forts, museums, and hidden gems.</p>
+          </div>
+        </div>
+
+        <!-- Places Subcategory Filter Chips -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-3 mb-6 hide-scrollbar">
+          <button onclick="RaahiCityHub.setPlacesFilter('all')" data-filter="all" class="city-places-filter-btn px-3.5 py-1.5 rounded-full text-xs font-bold bg-amber-600 text-white shadow-sm transition-colors">All Places</button>
+          <button onclick="RaahiCityHub.setPlacesFilter('Historical')" data-filter="Historical" class="city-places-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 dark:hover:bg-stone-700 transition-colors">Historical Places</button>
+          <button onclick="RaahiCityHub.setPlacesFilter('Temples')" data-filter="Temples" class="city-places-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 dark:hover:bg-stone-700 transition-colors">Temples &amp; Sacred Sites</button>
+          <button onclick="RaahiCityHub.setPlacesFilter('Ghats')" data-filter="Ghats" class="city-places-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 dark:hover:bg-stone-700 transition-colors">Ghats</button>
+          <button onclick="RaahiCityHub.setPlacesFilter('Forts')" data-filter="Forts" class="city-places-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 dark:hover:bg-stone-700 transition-colors">Forts &amp; Palaces</button>
+          <button onclick="RaahiCityHub.setPlacesFilter('Museums')" data-filter="Museums" class="city-places-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 dark:hover:bg-stone-700 transition-colors">Museums</button>
+          <button onclick="RaahiCityHub.setPlacesFilter('Hidden')" data-filter="Hidden" class="city-places-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-amber-100 dark:hover:bg-stone-700 transition-colors">Hidden Gems</button>
+        </div>
+
+        <div id="city-places-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Rendered dynamically by RaahiCityHub.renderPlacesSection() -->
+        </div>
+      </section>
+
+      <!-- 2. HOTELS & STAYS SECTION -->
+      <section id="city-sec-hotels" class="mb-16 scroll-mt-28">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-emerald-600 mb-1">
+              <span class="material-symbols-outlined text-sm">hotel</span>
+              Category 2: Accommodations &amp; Stays
+            </div>
+            <h2 id="city-hotels-title" class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              Hotels &amp; Stays
+            </h2>
+            <p class="text-xs text-stone-500 mt-0.5">Budget hotels, mid-range stays, heritage luxury retreats, homestays, and stays near major attractions.</p>
+          </div>
+        </div>
+
+        <!-- Hotels Subcategory Filter Chips -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-3 mb-6 hide-scrollbar">
+          <button onclick="RaahiCityHub.setHotelsFilter('all')" data-filter="all" class="city-hotels-filter-btn px-3.5 py-1.5 rounded-full text-xs font-bold bg-emerald-600 text-white shadow-sm transition-colors">All Stays</button>
+          <button onclick="RaahiCityHub.setHotelsFilter('Luxury')" data-filter="Luxury" class="city-hotels-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-emerald-100 dark:hover:bg-stone-700 transition-colors">Luxury Hotels</button>
+          <button onclick="RaahiCityHub.setHotelsFilter('Mid-Range')" data-filter="Mid-Range" class="city-hotels-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-emerald-100 dark:hover:bg-stone-700 transition-colors">Mid-Range Hotels</button>
+          <button onclick="RaahiCityHub.setHotelsFilter('Budget')" data-filter="Budget" class="city-hotels-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-emerald-100 dark:hover:bg-stone-700 transition-colors">Budget Hotels</button>
+          <button onclick="RaahiCityHub.setHotelsFilter('Homestay')" data-filter="Homestay" class="city-hotels-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-emerald-100 dark:hover:bg-stone-700 transition-colors">Homestays</button>
+        </div>
+
+        <div id="city-hotels-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Rendered dynamically by RaahiCityHub.renderHotelsSection() -->
+        </div>
+      </section>
+
+      <!-- 3. RESTAURANTS & FOOD SECTION -->
+      <section id="city-sec-restaurants" class="mb-16 scroll-mt-28">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-rose-600 mb-1">
+              <span class="material-symbols-outlined text-sm">restaurant</span>
+              Category 3: Culinary &amp; Dining
+            </div>
+            <h2 id="city-restaurants-title" class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              Restaurants &amp; Food
+            </h2>
+            <p class="text-xs text-stone-500 mt-0.5">Iconic dining establishments, authentic regional cuisine, heritage cafés, street food lanes, and popular foodie hotspots.</p>
+          </div>
+        </div>
+
+        <!-- Restaurants Subcategory Filter Chips -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-3 mb-6 hide-scrollbar">
+          <button onclick="RaahiCityHub.setRestaurantsFilter('all')" data-filter="all" class="city-restaurants-filter-btn px-3.5 py-1.5 rounded-full text-xs font-bold bg-rose-600 text-white shadow-sm transition-colors">All Dining</button>
+          <button onclick="RaahiCityHub.setRestaurantsFilter('Iconic')" data-filter="Iconic" class="city-restaurants-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-rose-100 dark:hover:bg-stone-700 transition-colors">Iconic Heritage Dining</button>
+          <button onclick="RaahiCityHub.setRestaurantsFilter('Street')" data-filter="Street" class="city-restaurants-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-rose-100 dark:hover:bg-stone-700 transition-colors">Street Food Lanes</button>
+          <button onclick="RaahiCityHub.setRestaurantsFilter('Café')" data-filter="Café" class="city-restaurants-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-rose-100 dark:hover:bg-stone-700 transition-colors">Cafés &amp; Riverside Lounges</button>
+          <button onclick="RaahiCityHub.setRestaurantsFilter('Local')" data-filter="Local" class="city-restaurants-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-rose-100 dark:hover:bg-stone-700 transition-colors">Authentic Local Cuisine</button>
+        </div>
+
+        <div id="city-restaurants-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Rendered dynamically by RaahiCityHub.renderRestaurantsSection() -->
+        </div>
+      </section>
+
+      <!-- 4. VEHICLES & TRANSPORT SECTION -->
+      <section id="city-sec-vehicles" class="mb-16 scroll-mt-28">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-blue-600 mb-1">
+              <span class="material-symbols-outlined text-sm">directions_car</span>
+              Category 4: Local Mobility &amp; Transit
+            </div>
+            <h2 id="city-vehicles-title" class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              Vehicles &amp; Transport
+            </h2>
+            <p class="text-xs text-stone-500 mt-0.5">Car rentals, bike/scooter rentals, cabs, auto/e-rickshaws, airport &amp; railway transfers, and public transport guides.</p>
+          </div>
+        </div>
+
+        <!-- Vehicles Subcategory Filter Chips -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-3 mb-6 hide-scrollbar">
+          <button onclick="RaahiCityHub.setVehiclesFilter('all')" data-filter="all" class="city-vehicles-filter-btn px-3.5 py-1.5 rounded-full text-xs font-bold bg-blue-600 text-white shadow-sm transition-colors">All Transport Modes</button>
+          <button onclick="RaahiCityHub.setVehiclesFilter('Cab')" data-filter="Cab" class="city-vehicles-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-blue-100 dark:hover:bg-stone-700 transition-colors">Cabs &amp; Taxis</button>
+          <button onclick="RaahiCityHub.setVehiclesFilter('Car')" data-filter="Car" class="city-vehicles-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-blue-100 dark:hover:bg-stone-700 transition-colors">Car Rentals</button>
+          <button onclick="RaahiCityHub.setVehiclesFilter('Bike')" data-filter="Bike" class="city-vehicles-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-blue-100 dark:hover:bg-stone-700 transition-colors">Bike &amp; Scooter Rentals</button>
+          <button onclick="RaahiCityHub.setVehiclesFilter('Auto')" data-filter="Auto" class="city-vehicles-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-blue-100 dark:hover:bg-stone-700 transition-colors">Auto &amp; E-Rickshaws</button>
+          <button onclick="RaahiCityHub.setVehiclesFilter('Airport')" data-filter="Airport" class="city-vehicles-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-blue-100 dark:hover:bg-stone-700 transition-colors">Airport Transfers</button>
+          <button onclick="RaahiCityHub.setVehiclesFilter('Metro')" data-filter="Metro" class="city-vehicles-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-blue-100 dark:hover:bg-stone-700 transition-colors">Metro / Public Transit</button>
+        </div>
+
+        <div id="city-vehicles-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Rendered dynamically by RaahiCityHub.renderVehiclesSection() -->
+        </div>
+      </section>
+
+      <!-- 5. LOCAL GUIDES SECTION -->
+      <section id="city-sec-guides" class="mb-16 scroll-mt-28">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-purple-600 mb-1">
+              <span class="material-symbols-outlined text-sm">school</span>
+              Category 5: Scholars &amp; Storytellers
+            </div>
+            <h2 id="city-guides-title" class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              Local Guides
+            </h2>
+            <p class="text-xs text-stone-500 mt-0.5">Ministry of Tourism verified tourist guides, local scholars, language experts, and certified cultural historians.</p>
+          </div>
+        </div>
+
+        <div id="city-guides-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Rendered dynamically by RaahiCityHub.renderGuidesSection() -->
+        </div>
+      </section>
+
+      <!-- 6. EVENTS & EXPERIENCES SECTION -->
+      <section id="city-sec-events" class="mb-16 scroll-mt-28">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-teal-600 mb-1">
+              <span class="material-symbols-outlined text-sm">celebration</span>
+              Category 6: Cultural Happenings &amp; Rituals
+            </div>
+            <h2 id="city-events-title" class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              Events &amp; Experiences
+            </h2>
+            <p class="text-xs text-stone-500 mt-0.5">Festivals, cultural events, sacred aartis, seasonal celebrations, and authentic local experiences.</p>
+          </div>
+        </div>
+
+        <div id="city-events-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Rendered dynamically by RaahiCityHub.renderEventsSection() -->
+        </div>
+      </section>
+
+      <!-- 7. EMERGENCY & TOURIST SAFETY SECTION (Distinct Safety Design) -->
+      <section id="city-sec-emergency" class="mb-16 scroll-mt-28 pt-8 border-t-2 border-red-200 dark:border-red-900/60">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+          <div>
+            <div class="inline-flex items-center gap-1 text-xs font-extrabold uppercase tracking-wider text-red-600 mb-1">
+              <span class="material-symbols-outlined text-sm">shield</span>
+              Category 7: 24x7 Safety &amp; Medical Assistance
+            </div>
+            <h2 id="city-emergency-title" class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
+              Emergency &amp; Tourist Help
+            </h2>
+            <p class="text-xs text-stone-500 mt-0.5">Dedicated emergency response hub, 112 SOS dispatch, tourist police stations, and 24x7 hospital trauma care.</p>
+          </div>
+        </div>
+
+        <div id="city-emergency-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Rendered dynamically by RaahiCityHub.renderEmergencySection() -->
+        </div>
+      </section>
+
+    </div>
+
+    <!-- =======================================================================
          VIEW 3: TOURIST PLACES DIRECTORY (#view-places)
          ======================================================================= -->
     <div id="view-places" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -2489,6 +2689,7 @@
   <script src="js/data.js"></script>
   <script src="js/auth.js"></script>
   <script src="js/destinations.js"></script>
+  <script src="js/city-hub.js"></script>
   <script src="js/places.js"></script>
   <script src="js/hotels.js"></script>
   <script src="js/restaurants.js"></script>
