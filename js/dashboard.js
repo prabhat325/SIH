@@ -15,20 +15,29 @@ const RaahiDashboard = {
   bindEvents() {
     document.querySelectorAll('.dash-tab-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
-        document.querySelectorAll('.dash-tab-btn').forEach(b => {
-          b.classList.remove('bg-amber-600', 'text-white');
-          b.classList.add('bg-stone-100', 'dark:bg-stone-800', 'text-stone-700', 'dark:text-stone-300');
-        });
-        btn.classList.remove('bg-stone-100', 'dark:bg-stone-800', 'text-stone-700', 'dark:text-stone-300');
-        btn.classList.add('bg-amber-600', 'text-white');
-        this.activeTab = btn.getAttribute('data-tab') || 'personalized';
-
-        document.querySelectorAll('.dash-tab-pane').forEach(p => p.classList.add('hidden'));
-        const pane = document.getElementById(`dash-pane-${this.activeTab}`);
-        if (pane) pane.classList.remove('hidden');
+        const tab = btn.getAttribute('data-tab') || 'personalized';
+        this.switchTab(tab);
       });
     });
   },
+
+  switchTab(tabId) {
+    this.activeTab = tabId || 'personalized';
+    document.querySelectorAll('.dash-tab-btn').forEach(b => {
+      if (b.getAttribute('data-tab') === this.activeTab) {
+        b.classList.remove('bg-stone-100', 'dark:bg-stone-800', 'text-stone-700', 'dark:text-stone-300');
+        b.classList.add('bg-amber-600', 'text-white');
+      } else {
+        b.classList.remove('bg-amber-600', 'text-white');
+        b.classList.add('bg-stone-100', 'dark:bg-stone-800', 'text-stone-700', 'dark:text-stone-300');
+      }
+    });
+
+    document.querySelectorAll('.dash-tab-pane').forEach(p => p.classList.add('hidden'));
+    const pane = document.getElementById(`dash-pane-${this.activeTab}`);
+    if (pane) pane.classList.remove('hidden');
+  },
+
 
   renderAll() {
     this.renderProfileHeader();

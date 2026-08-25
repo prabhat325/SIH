@@ -127,26 +127,63 @@ const RaahiAuth = {
       const roleBadgeClass = isCurator
         ? 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-300 border-purple-300'
         : isGuest
-        ? 'bg-stone-100 text-stone-700 dark:bg-stone-800 dark:text-stone-300 border-stone-300'
-        : 'bg-amber-100/80 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border-amber-300/80';
+          ? 'bg-stone-100 text-stone-700 dark:bg-stone-800 dark:text-stone-300 border-stone-300'
+          : 'bg-amber-100/80 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border-amber-300/80';
 
-      const roleIcon = isCurator ? 'verified_user' : isGuest ? 'person_outline' : 'person';
+      // Build the dropdown navigation items matching exact user requirements:
+      // Profile, My Trips, Saved Places, Settings, [Admin Portal if isCurator], Logout
+      let dropdownItemsHtml = `
+        <button onclick="RaahiAuth.navigateToDashboardTab('personalized')" class="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:text-amber-700 dark:hover:text-amber-400 transition-colors text-left cursor-pointer">
+          <span class="material-symbols-outlined text-sm text-amber-600">account_circle</span>
+          <span>Profile</span>
+        </button>
+        <button onclick="RaahiAuth.navigateTo('planner')" class="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:text-amber-700 dark:hover:text-amber-400 transition-colors text-left cursor-pointer">
+          <span class="material-symbols-outlined text-sm text-amber-600">route</span>
+          <span>My Trips</span>
+        </button>
+        <button onclick="RaahiAuth.navigateToDashboardTab('saved')" class="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:text-amber-700 dark:hover:text-amber-400 transition-colors text-left cursor-pointer">
+          <span class="material-symbols-outlined text-sm text-amber-600">bookmark</span>
+          <span>Saved Places</span>
+        </button>
+        <button onclick="RaahiAuth.navigateToDashboardTab('personalized')" class="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:text-amber-700 dark:hover:text-amber-400 transition-colors text-left cursor-pointer">
+          <span class="material-symbols-outlined text-sm text-amber-600">settings</span>
+          <span>Settings</span>
+        </button>
+      `;
+
+      // If authorized admin/curator, dynamically add Admin Portal
+      if (isCurator) {
+        dropdownItemsHtml += `
+          <button onclick="RaahiAuth.navigateTo('admin')" class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold text-purple-700 dark:text-purple-300 bg-purple-50/80 hover:bg-purple-100 dark:bg-purple-950/50 dark:hover:bg-purple-900/60 border border-purple-200/80 dark:border-purple-800/60 transition-colors text-left cursor-pointer my-1 shadow-2xs">
+            <div class="flex items-center gap-2.5">
+              <span class="material-symbols-outlined text-sm text-purple-600 dark:text-purple-400">shield_person</span>
+              <span>Admin Portal</span>
+            </div>
+            <span class="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-purple-200 dark:bg-purple-900 text-purple-900 dark:text-purple-200 font-extrabold">Chief Curator</span>
+          </button>
+        `;
+      }
+
+      // Optional subtle admin button in navbar for curators only:
+      const adminNavButtonHtml = isCurator ? `
+        <a href="#admin" data-route="admin" onclick="RaahiApp.navigate('admin')" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold text-purple-700 dark:text-purple-300 hover:text-purple-900 dark:hover:text-purple-100 bg-purple-50/70 hover:bg-purple-100 dark:bg-purple-950/40 dark:hover:bg-purple-900/60 border border-purple-300 dark:border-purple-700 transition-all duration-200 shadow-2xs cursor-pointer" title="Chief Curator Admin &amp; Verification Hub">
+          <span class="material-symbols-outlined text-sm text-purple-600 dark:text-purple-400">shield_person</span>
+          <span>Admin</span>
+        </a>
+      ` : '';
 
       container.innerHTML = `
-        <div class="relative flex items-center gap-1.5 sm:gap-2">
-          <!-- Role Switcher Quick Pill -->
-          <button onclick="RaahiAuth.toggleRole()" title="Switch Role (Traveler / Curator Admin)" class="hidden md:inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-xl ${roleBadgeClass} border transition-all hover:opacity-90">
-            <span class="material-symbols-outlined text-xs">${roleIcon}</span>
-            <span>${roleLabel}</span>
+        <div class="relative flex items-center gap-2">
+          ${adminNavButtonHtml}
+
+          <!-- Interactive Traveler Profile Trigger Button -->
+          <button id="auth-profile-btn" onclick="RaahiAuth.toggleProfileDropdown(event)" class="flex items-center gap-2 pl-1.5 pr-2.5 py-1 rounded-full border border-stone-200/90 dark:border-stone-700 bg-white/90 dark:bg-stone-800/90 hover:shadow-md hover:border-amber-400 dark:hover:border-amber-600 transition-all shrink-0 focus:outline-none cursor-pointer" title="Traveler Profile &amp; Options" aria-haspopup="true">
+            <img src="${this.currentUser.avatar}" alt="${this.currentUser.name}" class="w-7 h-7 rounded-full object-cover border-2 ${isCurator ? 'border-purple-500' : 'border-amber-500'} shadow-2xs">
+            <span class="text-xs font-bold text-stone-800 dark:text-stone-200 hidden sm:inline-block max-w-[90px] truncate">${this.currentUser.name.split(' ')[0]}</span>
+            <span class="material-symbols-outlined text-sm text-stone-400">expand_more</span>
           </button>
 
-          <!-- Interactive Profile Trigger -->
-          <button id="auth-profile-btn" onclick="RaahiAuth.toggleProfileDropdown(event)" class="flex items-center gap-1.5 p-0.5 rounded-full hover:ring-2 hover:ring-amber-500 transition-all shrink-0 focus:outline-none" title="User Menu & Options">
-            <img src="${this.currentUser.avatar}" alt="${this.currentUser.name}" class="w-8 h-8 rounded-full object-cover border-2 ${isCurator ? 'border-purple-500' : 'border-amber-500'} shadow-xs">
-            <span class="material-symbols-outlined text-sm text-stone-500 hidden sm:inline-block">expand_more</span>
-          </button>
-
-          <!-- Glassmorphic Profile Dropdown Menu -->
+          <!-- Glassmorphic Traveler Profile Dropdown Menu -->
           <div id="auth-profile-dropdown" class="hidden absolute right-0 top-full mt-2 w-72 bg-white/95 dark:bg-stone-900/95 backdrop-blur-xl border border-stone-200 dark:border-stone-800 rounded-2xl shadow-2xl p-4 z-50 text-left animate-in fade-in zoom-in-95 duration-150">
             
             <!-- User Info Header -->
@@ -163,30 +200,19 @@ const RaahiAuth = {
               </div>
             </div>
 
-            <!-- Navigation Links -->
-            <div class="py-2 space-y-1 border-b border-stone-100 dark:border-stone-800">
-              <button onclick="RaahiAuth.navigateTo('dashboard')" class="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:text-amber-700 transition-colors">
-                <span class="material-symbols-outlined text-sm text-amber-600">account_circle</span>
-                <span>My Profile & Saved Gems</span>
-              </button>
-              <button onclick="RaahiAuth.navigateTo('planner')" class="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold text-stone-700 dark:text-stone-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:text-amber-700 transition-colors">
-                <span class="material-symbols-outlined text-sm text-amber-600">auto_awesome</span>
-                <span>AI Trip Planner</span>
-              </button>
-              <button onclick="RaahiAuth.navigateTo('admin')" class="w-full flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold ${isCurator ? 'text-purple-700 dark:text-purple-300 bg-purple-50 dark:bg-purple-950/30' : 'text-stone-700 dark:text-stone-300'} hover:bg-purple-50 dark:hover:bg-purple-950/40 hover:text-purple-700 transition-colors">
-                <span class="material-symbols-outlined text-sm text-purple-600">shield_person</span>
-                <span>Admin & Verification Hub</span>
-              </button>
+            <!-- Main Navigation Links (Profile, My Trips, Saved Places, Settings, [Admin Portal]) -->
+            <div class="py-2 space-y-0.5 border-b border-stone-100 dark:border-stone-800">
+              ${dropdownItemsHtml}
             </div>
 
-            <!-- Role Switcher Section -->
+            <!-- Demo Persona Switcher (For SIH Jury & Testing) -->
             <div class="py-2 border-b border-stone-100 dark:border-stone-800">
-              <span class="text-[10px] font-extrabold uppercase tracking-wider text-stone-400 block px-3 mb-1.5">Switch Persona</span>
+              <span class="text-[10px] font-extrabold uppercase tracking-wider text-stone-400 block px-3 mb-1.5">Switch Persona (Demo)</span>
               <div class="grid grid-cols-2 gap-1.5 px-1">
-                <button onclick="RaahiAuth.loginAs('traveler')" class="px-2 py-1.5 rounded-lg text-[11px] font-bold text-center transition-all ${this.currentUser.role === 'traveler' ? 'bg-amber-600 text-white shadow-xs' : 'bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-200'}">
+                <button onclick="RaahiAuth.loginAs('traveler')" class="px-2 py-1.5 rounded-lg text-[11px] font-bold text-center transition-all cursor-pointer ${this.currentUser.role === 'traveler' ? 'bg-amber-600 text-white shadow-xs' : 'bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-200'}">
                   🎒 Traveler
                 </button>
-                <button onclick="RaahiAuth.loginAs('admin')" class="px-2 py-1.5 rounded-lg text-[11px] font-bold text-center transition-all ${this.currentUser.role === 'admin' ? 'bg-purple-600 text-white shadow-xs' : 'bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-200'}">
+                <button onclick="RaahiAuth.loginAs('admin')" class="px-2 py-1.5 rounded-lg text-[11px] font-bold text-center transition-all cursor-pointer ${this.currentUser.role === 'admin' ? 'bg-purple-600 text-white shadow-xs' : 'bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-200'}">
                   🛡️ Curator Admin
                 </button>
               </div>
@@ -194,12 +220,12 @@ const RaahiAuth = {
 
             <!-- Log Out Action -->
             <div class="pt-2">
-              <button onclick="RaahiAuth.logout()" class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 transition-colors">
+              <button onclick="RaahiAuth.logout()" class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950/30 transition-colors cursor-pointer">
                 <div class="flex items-center gap-2">
                   <span class="material-symbols-outlined text-base">logout</span>
-                  <span>Log Out</span>
+                  <span>Logout</span>
                 </div>
-                <span class="text-[10px] font-mono opacity-60">Session</span>
+                <span class="text-[10px] font-mono opacity-60">End Session</span>
               </button>
             </div>
 
@@ -208,16 +234,30 @@ const RaahiAuth = {
       `;
     } else {
       container.innerHTML = `
-        <div class="flex items-center gap-1.5 sm:gap-2">
-          <button onclick="RaahiAuth.openAuthModal('signin')" class="flex items-center gap-1.5 text-xs font-bold text-amber-700 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/60 hover:bg-amber-100 dark:hover:bg-amber-900/60 px-3 py-1.5 rounded-xl border border-amber-300 dark:border-amber-700 transition-all shadow-2xs">
-            <span class="material-symbols-outlined text-sm text-amber-600">login</span>
+        <div class="flex items-center gap-2">
+          <!-- Sign In Primary Button -->
+          <button onclick="RaahiAuth.openAuthModal('signin')" class="flex items-center gap-1.5 text-xs font-bold text-white bg-amber-600 hover:bg-amber-700 active:scale-95 px-3.5 py-1.5 rounded-xl shadow-xs hover:shadow-md transition-all duration-200 cursor-pointer">
+            <span class="material-symbols-outlined text-sm">login</span>
             <span>Sign In</span>
           </button>
-          <button onclick="RaahiAuth.loginAsGuest()" class="hidden sm:inline-flex items-center gap-1 text-xs font-semibold text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-white px-2.5 py-1.5 rounded-xl border border-stone-200 dark:border-stone-800 transition-colors">
+          <!-- Guest Mode Quick Button -->
+          <button onclick="RaahiAuth.loginAsGuest()" class="hidden sm:inline-flex items-center gap-1 text-xs font-semibold text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white px-2.5 py-1.5 rounded-xl border border-stone-200 dark:border-stone-700 bg-white/60 dark:bg-stone-800/60 hover:bg-stone-100 dark:hover:bg-stone-800 transition-all duration-200 cursor-pointer">
             <span>Guest</span>
           </button>
         </div>
       `;
+    }
+  },
+
+  navigateToDashboardTab(tabId) {
+    this.closeProfileDropdown();
+    if (typeof RaahiApp !== 'undefined') {
+      RaahiApp.navigate('dashboard');
+    }
+    if (typeof RaahiDashboard !== 'undefined' && tabId) {
+      setTimeout(() => {
+        RaahiDashboard.switchTab(tabId);
+      }, 50);
     }
   },
 
@@ -242,6 +282,7 @@ const RaahiAuth = {
       RaahiApp.navigate(route);
     }
   },
+
 
   // =========================================================================
   // ROLE SWITCHING & DEMO PERSONAS

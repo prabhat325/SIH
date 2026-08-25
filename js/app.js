@@ -86,7 +86,7 @@ const RaahiApp = {
       const params = new URLSearchParams(queryPart);
       const cityId = params.get('id') || 'lucknow';
       const cat = params.get('cat') || 'hotels';
-      
+
       this.navigate('city', false);
       if (typeof RaahiCityHub !== 'undefined') {
         RaahiCityHub.openCity(cityId, cat);
