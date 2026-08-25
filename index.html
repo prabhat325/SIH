@@ -1112,34 +1112,69 @@
             </div>
           </div>
 
-          <!-- STEP 2: DURATION -->
+          <!-- STEP 2: DURATION (1-10 DAYS) -->
           <div id="wizard-step-2" class="wizard-step hidden space-y-6">
-            <div>
-              <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">How much time do you have?</h3>
-              <p class="text-xs text-stone-500">Select the total duration for your customized travel schedule.</p>
+            <div class="flex items-center justify-between">
+              <div>
+                <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">How many days is your journey?</h3>
+                <p class="text-xs text-stone-500">Select total duration (1 to 10 days) for your customized travel schedule.</p>
+              </div>
+              <span id="wizard-duration-val" class="px-3.5 py-1.5 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 font-extrabold text-xs font-mono">
+                3 Days
+              </span>
             </div>
 
-            <div class="grid grid-cols-2 sm:grid-cols-5 gap-3">
-              <button type="button" onclick="RaahiPlanner.selectDuration(1)" class="duration-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
-                <span class="font-heading text-2xl font-extrabold block text-stone-900 dark:text-white">1</span>
-                <span class="text-xs font-bold text-stone-500 uppercase">Day</span>
+            <!-- Quick Day Selector Buttons (1 to 10) -->
+            <div class="grid grid-cols-5 sm:grid-cols-10 gap-2">
+              <button type="button" data-days="1" onclick="RaahiPlanner.selectDuration(1)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">1</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Day</span>
               </button>
-              <button type="button" onclick="RaahiPlanner.selectDuration(2)" class="duration-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
-                <span class="font-heading text-2xl font-extrabold block text-stone-900 dark:text-white">2</span>
-                <span class="text-xs font-bold text-stone-500 uppercase">Days</span>
+              <button type="button" data-days="2" onclick="RaahiPlanner.selectDuration(2)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">2</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Days</span>
               </button>
-              <button type="button" onclick="RaahiPlanner.selectDuration(3)" class="duration-opt-btn p-4 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-center transition-all shadow-sm">
-                <span class="font-heading text-2xl font-extrabold block text-amber-600 dark:text-amber-400">3</span>
-                <span class="text-xs font-bold text-amber-800 dark:text-amber-300 uppercase">Days</span>
+              <button type="button" data-days="3" onclick="RaahiPlanner.selectDuration(3)" class="duration-opt-btn p-3 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-center transition-all shadow-sm">
+                <span class="font-heading text-lg font-extrabold block text-amber-600 dark:text-amber-400">3</span>
+                <span class="text-[9px] font-bold text-amber-800 dark:text-amber-300 uppercase">Days</span>
               </button>
-              <button type="button" onclick="RaahiPlanner.selectDuration(5)" class="duration-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
-                <span class="font-heading text-2xl font-extrabold block text-stone-900 dark:text-white">5</span>
-                <span class="text-xs font-bold text-stone-500 uppercase">Days</span>
+              <button type="button" data-days="4" onclick="RaahiPlanner.selectDuration(4)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">4</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Days</span>
               </button>
-              <button type="button" onclick="RaahiPlanner.selectDuration(7)" class="duration-opt-btn col-span-2 sm:col-span-1 p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
-                <span class="font-heading text-2xl font-extrabold block text-stone-900 dark:text-white">7+</span>
-                <span class="text-xs font-bold text-stone-500 uppercase">Grand Tour</span>
+              <button type="button" data-days="5" onclick="RaahiPlanner.selectDuration(5)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">5</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Days</span>
               </button>
+              <button type="button" data-days="6" onclick="RaahiPlanner.selectDuration(6)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">6</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Days</span>
+              </button>
+              <button type="button" data-days="7" onclick="RaahiPlanner.selectDuration(7)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">7</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Days</span>
+              </button>
+              <button type="button" data-days="8" onclick="RaahiPlanner.selectDuration(8)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">8</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Days</span>
+              </button>
+              <button type="button" data-days="9" onclick="RaahiPlanner.selectDuration(9)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">9</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Days</span>
+              </button>
+              <button type="button" data-days="10" onclick="RaahiPlanner.selectDuration(10)" class="duration-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                <span class="font-heading text-lg font-extrabold block text-stone-900 dark:text-white">10</span>
+                <span class="text-[9px] font-bold text-stone-500 uppercase">Days</span>
+              </button>
+            </div>
+
+            <!-- Granular Slider -->
+            <div class="p-4 bg-stone-50 dark:bg-stone-800 rounded-2xl border border-stone-200 dark:border-stone-700 space-y-2">
+              <div class="flex items-center justify-between text-xs text-stone-500 font-semibold">
+                <span>1 Day (Express Tour)</span>
+                <span>10 Days (Grand Expedition)</span>
+              </div>
+              <input id="wizard-duration-slider" type="range" min="1" max="10" value="3" oninput="RaahiPlanner.selectDuration(this.value)" class="smart-match-slider">
             </div>
           </div>
 
@@ -1151,7 +1186,6 @@
             </div>
 
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3" id="wizard-interests-grid">
-              <!-- Dynamically managed or static chips -->
               <div onclick="RaahiPlanner.toggleInterestChip(this, 'Heritage')" class="ai-chip selected p-3.5 rounded-2xl border border-amber-600 bg-amber-600 text-white font-bold text-xs flex items-center gap-2">
                 <span class="material-symbols-outlined text-base">account_balance</span>
                 <span>Heritage</span>
@@ -1199,55 +1233,62 @@
             </div>
           </div>
 
-          <!-- STEP 4: TRAVEL STYLE -->
+          <!-- STEP 4: TRAVEL PACE & COMPANION -->
           <div id="wizard-step-4" class="wizard-step hidden space-y-6">
+            
+            <!-- Travel Pace -->
             <div>
-              <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">What is your travel style?</h3>
-              <p class="text-xs text-stone-500">How would you like your trip paced and styled?</p>
+              <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white mb-1">Select Travel Pace</h3>
+              <p class="text-xs text-stone-500 mb-3">How intensive should your daily sightseeing schedule be?</p>
+              
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <button type="button" data-pace="Relaxed" onclick="RaahiPlanner.selectPace('Relaxed')" class="pace-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                  <span class="material-symbols-outlined text-amber-500 mb-1">spa</span>
+                  <span class="font-bold text-xs text-stone-900 dark:text-white block">Relaxed</span>
+                  <span class="text-[10px] text-stone-500">Slow immersive pace, generous pauses</span>
+                </button>
+                <button type="button" data-pace="Moderate" onclick="RaahiPlanner.selectPace('Moderate')" class="pace-opt-btn p-4 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-left transition-all shadow-sm">
+                  <span class="material-symbols-outlined text-amber-600 mb-1">balance</span>
+                  <span class="font-bold text-xs text-amber-900 dark:text-amber-300 block">Moderate</span>
+                  <span class="text-[10px] text-amber-700 dark:text-amber-400">Ideal mix of monuments &amp; rest</span>
+                </button>
+                <button type="button" data-pace="Packed" onclick="RaahiPlanner.selectPace('Packed')" class="pace-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
+                  <span class="material-symbols-outlined text-amber-500 mb-1">speed</span>
+                  <span class="font-bold text-xs text-stone-900 dark:text-white block">Packed</span>
+                  <span class="text-[10px] text-stone-500">High energy, maximum sights &amp; walks</span>
+                </button>
+              </div>
             </div>
 
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-              <button type="button" onclick="RaahiPlanner.selectStyle('Relaxed')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
-                <span class="material-symbols-outlined text-amber-500 mb-1">spa</span>
-                <span class="font-bold text-xs text-stone-900 dark:text-white block">Relaxed</span>
-                <span class="text-[10px] text-stone-500">Slow immersive pace</span>
-              </button>
-              <button type="button" onclick="RaahiPlanner.selectStyle('Balanced')" class="style-opt-btn p-4 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-left transition-all shadow-sm">
-                <span class="material-symbols-outlined text-amber-600 mb-1">balance</span>
-                <span class="font-bold text-xs text-amber-900 dark:text-amber-300 block">Balanced</span>
-                <span class="text-[10px] text-amber-700 dark:text-amber-400">Ideal mix of sights</span>
-              </button>
-              <button type="button" onclick="RaahiPlanner.selectStyle('Packed')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
-                <span class="material-symbols-outlined text-amber-500 mb-1">speed</span>
-                <span class="font-bold text-xs text-stone-900 dark:text-white block">Packed</span>
-                <span class="text-[10px] text-stone-500">Max monuments &amp; sights</span>
-              </button>
-              <button type="button" onclick="RaahiPlanner.selectStyle('Budget-friendly')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
-                <span class="material-symbols-outlined text-emerald-500 mb-1">savings</span>
-                <span class="font-bold text-xs text-stone-900 dark:text-white block">Budget-friendly</span>
-                <span class="text-[10px] text-stone-500">Cost conscious picks</span>
-              </button>
-              <button type="button" onclick="RaahiPlanner.selectStyle('Premium')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
-                <span class="material-symbols-outlined text-amber-500 mb-1">diamond</span>
-                <span class="font-bold text-xs text-stone-900 dark:text-white block">Premium</span>
-                <span class="text-[10px] text-stone-500">Luxury havelis &amp; guides</span>
-              </button>
-              <button type="button" onclick="RaahiPlanner.selectStyle('Family-friendly')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
-                <span class="material-symbols-outlined text-blue-500 mb-1">family_restroom</span>
-                <span class="font-bold text-xs text-stone-900 dark:text-white block">Family-friendly</span>
-                <span class="text-[10px] text-stone-500">Kid &amp; senior accessible</span>
-              </button>
-              <button type="button" onclick="RaahiPlanner.selectStyle('Solo')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
-                <span class="material-symbols-outlined text-purple-500 mb-1">person</span>
-                <span class="font-bold text-xs text-stone-900 dark:text-white block">Solo</span>
-                <span class="text-[10px] text-stone-500">Autonomous discovery</span>
-              </button>
-              <button type="button" onclick="RaahiPlanner.selectStyle('Couple')" class="style-opt-btn p-4 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-left hover:border-amber-500 transition-all">
-                <span class="material-symbols-outlined text-pink-500 mb-1">favorite</span>
-                <span class="font-bold text-xs text-stone-900 dark:text-white block">Couple</span>
-                <span class="text-[10px] text-stone-500">Romantic sunsets &amp; dining</span>
-              </button>
+            <!-- Companion Type -->
+            <div class="pt-2">
+              <h4 class="font-heading text-sm font-bold text-stone-900 dark:text-white mb-1">Who is traveling with you?</h4>
+              <p class="text-xs text-stone-500 mb-3">Customizes food spots, transit recommendations, and comfort tier.</p>
+              
+              <div class="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
+                <button type="button" data-companion="Solo" onclick="RaahiPlanner.selectCompanion('Solo')" class="companion-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                  <span class="text-lg block mb-0.5">🎒</span>
+                  <span class="font-bold text-xs text-stone-900 dark:text-white block">Solo</span>
+                </button>
+                <button type="button" data-companion="Couple" onclick="RaahiPlanner.selectCompanion('Couple')" class="companion-opt-btn p-3 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-center transition-all shadow-sm">
+                  <span class="text-lg block mb-0.5">💑</span>
+                  <span class="font-bold text-xs text-amber-900 dark:text-amber-300 block">Couple</span>
+                </button>
+                <button type="button" data-companion="Family" onclick="RaahiPlanner.selectCompanion('Family')" class="companion-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                  <span class="text-lg block mb-0.5">👨‍👩‍👧‍👦</span>
+                  <span class="font-bold text-xs text-stone-900 dark:text-white block">Family</span>
+                </button>
+                <button type="button" data-companion="Friends" onclick="RaahiPlanner.selectCompanion('Friends')" class="companion-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                  <span class="text-lg block mb-0.5">👥</span>
+                  <span class="font-bold text-xs text-stone-900 dark:text-white block">Friends</span>
+                </button>
+                <button type="button" data-companion="Backpacker" onclick="RaahiPlanner.selectCompanion('Backpacker')" class="companion-opt-btn col-span-2 sm:col-span-1 p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-stone-50 dark:bg-stone-800 text-center hover:border-amber-500 transition-all">
+                  <span class="text-lg block mb-0.5">⛺</span>
+                  <span class="font-bold text-xs text-stone-900 dark:text-white block">Backpacker</span>
+                </button>
+              </div>
             </div>
+
           </div>
 
           <!-- STEP 5: PREFERENCES (OPTIONAL) -->
@@ -1331,7 +1372,7 @@
           <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-stone-900 dark:text-white">
             Raahi is planning your journey...
           </h2>
-          <p class="text-xs sm:text-sm text-stone-500 mt-1">Synthesizing travel preferences, monument timings and optimal routes.</p>
+          <p class="text-xs sm:text-sm text-stone-500 mt-1">Synthesizing travel preferences, monument timings, transit paths and regional flavors.</p>
         </div>
 
         <!-- Progress Steps Checklist -->
@@ -1342,19 +1383,19 @@
           </div>
           <div id="proc-step-2" class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-50 dark:bg-stone-800 transition-all">
             <span class="proc-icon material-symbols-outlined text-base text-emerald-500">check_circle</span>
-            <span>Finding suitable destinations</span>
+            <span>Connecting to AI Itinerary Engine</span>
           </div>
           <div id="proc-step-3" class="flex items-center gap-3 p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 transition-all">
             <span class="proc-icon material-symbols-outlined text-base text-amber-600 step-active-pulse">pending</span>
-            <span class="text-amber-900 dark:text-amber-300 font-bold">Building your itinerary</span>
+            <span class="text-amber-900 dark:text-amber-300 font-bold">Synthesizing Morning, Afternoon &amp; Evening slots</span>
           </div>
           <div id="proc-step-4" class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-50 dark:bg-stone-800 text-stone-400 dark:text-stone-500 transition-all">
             <span class="proc-icon material-symbols-outlined text-base">radio_button_unchecked</span>
-            <span>Optimizing your route</span>
+            <span>Curating Must-Try Regional Cuisine &amp; pro-tips</span>
           </div>
           <div id="proc-step-5" class="flex items-center gap-3 p-2.5 rounded-xl bg-stone-50 dark:bg-stone-800 text-stone-400 dark:text-stone-500 transition-all">
             <span class="proc-icon material-symbols-outlined text-base">radio_button_unchecked</span>
-            <span>Finding nearby experiences</span>
+            <span>Optimizing geographic waypoints &amp; transit</span>
           </div>
         </div>
 
@@ -1378,9 +1419,9 @@
             </p>
           </div>
 
-          <div class="flex flex-wrap items-center gap-3">
+          <div class="flex flex-wrap items-center gap-2.5">
             <!-- Currency selector -->
-            <select id="planner-currency-select" class="py-2.5 px-3.5 bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-800 dark:text-stone-200">
+            <select id="planner-currency-select" class="py-2.5 px-3 bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 rounded-xl text-xs font-bold text-stone-800 dark:text-stone-200 no-print">
               <option value="INR">₹ INR</option>
               <option value="USD">$ USD</option>
               <option value="EUR">€ EUR</option>
@@ -1388,14 +1429,22 @@
               <option value="AED">د.إ AED</option>
             </select>
 
-            <button onclick="RaahiPlanner.openRoyalBoardingPass()" class="px-5 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 transition-colors flex items-center gap-1.5 shadow-sm">
+            <!-- Print / Export PDF Button -->
+            <button onclick="RaahiPlanner.exportPDF()" class="px-4 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center gap-1.5 shadow-sm no-print" title="Print / Export PDF Itinerary">
+              <span class="material-symbols-outlined text-sm">print</span>
+              <span>Print / Export PDF</span>
+            </button>
+
+            <!-- Royal Boarding Pass -->
+            <button onclick="RaahiPlanner.openRoyalBoardingPass()" class="px-4 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 transition-colors flex items-center gap-1.5 shadow-sm no-print">
               <span class="material-symbols-outlined text-sm text-amber-400">confirmation_number</span>
               <span>Royal Pass</span>
             </button>
 
-            <button onclick="RaahiPlanner.resetToWizard()" class="px-4 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-colors flex items-center gap-1">
+            <!-- Adjust Plan Button -->
+            <button onclick="RaahiPlanner.resetToWizard()" class="px-3.5 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-colors flex items-center gap-1 no-print">
               <span class="material-symbols-outlined text-sm">tune</span>
-              <span>Adjust Plan</span>
+              <span>Adjust</span>
             </button>
           </div>
         </div>
