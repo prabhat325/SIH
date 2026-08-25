@@ -39,8 +39,12 @@ const RaahiDashboard = {
   },
 
   renderProfileHeader() {
-    const user = RaahiAuth.currentUser;
-    if (!user) return;
+    const user = RaahiAuth.currentUser || {
+      name: "Guest Explorer",
+      email: "Not signed in — Click to Sign In",
+      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80",
+      bio: "Exploring Raahi in guest mode. Sign in to save your journey collection across devices."
+    };
 
     const nameEl = document.getElementById('dash-user-name');
     const emailEl = document.getElementById('dash-user-email');
@@ -65,6 +69,7 @@ const RaahiDashboard = {
     if (statReviews) statReviews.textContent = reviewCount;
     if (statContribs) statContribs.textContent = contribCount;
   },
+
 
   // Section 11: Personalized for You Feed
   renderPersonalizedFeed() {

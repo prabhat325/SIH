@@ -1936,11 +1936,28 @@
                 class="px-3 py-1 rounded-full bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800 text-xs font-bold text-amber-900 dark:text-amber-300">Photography</span>
             </div>
           </div>
-          <button onclick="RaahiApp.navigate('planner')"
-            class="px-4 py-2 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-colors flex items-center gap-1.5 self-start sm:self-auto shadow-sm shrink-0">
-            <span class="material-symbols-outlined text-sm">auto_awesome</span>
-            <span>Update Travel Preferences</span>
-          </button>
+          <div class="flex flex-wrap items-center gap-2 self-start sm:self-auto shrink-0">
+            <button onclick="RaahiApp.navigate('planner')"
+              class="px-3.5 py-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-colors flex items-center gap-1.5 shadow-xs">
+              <span class="material-symbols-outlined text-sm">auto_awesome</span>
+              <span>Trip Planner</span>
+            </button>
+            <button onclick="RaahiAuth.toggleRole()"
+              class="px-3.5 py-2 rounded-xl bg-purple-100 hover:bg-purple-200 dark:bg-purple-950/60 dark:hover:bg-purple-900 text-purple-900 dark:text-purple-300 border border-purple-300 dark:border-purple-800 text-xs font-bold transition-colors flex items-center gap-1.5 shadow-2xs">
+              <span class="material-symbols-outlined text-sm">swap_horiz</span>
+              <span>Switch Role</span>
+            </button>
+            <button onclick="RaahiAuth.openAuthModal('signin')"
+              class="px-3.5 py-2 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-stone-800 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 border border-stone-200 dark:border-stone-700 text-xs font-bold transition-colors flex items-center gap-1.5 shadow-2xs">
+              <span class="material-symbols-outlined text-sm">account_circle</span>
+              <span>Accounts</span>
+            </button>
+            <button onclick="RaahiAuth.logout()"
+              class="px-3.5 py-2 rounded-xl bg-red-50 hover:bg-red-100 dark:bg-red-950/40 dark:hover:bg-red-900/60 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800 text-xs font-bold transition-colors flex items-center gap-1.5 shadow-2xs" title="Log Out from Raahi">
+              <span class="material-symbols-outlined text-sm">logout</span>
+              <span>Log Out</span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -2032,10 +2049,24 @@
           <h1 class="font-heading text-3xl font-extrabold text-stone-900 dark:text-white">Admin &amp; Verification Hub
           </h1>
         </div>
-        <button onclick="RaahiAuth.toggleRole()"
-          class="px-4 py-2 rounded-xl bg-stone-100 dark:bg-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:bg-amber-100 transition-colors">
-          Switch to Traveler Mode
-        </button>
+        <div class="flex items-center gap-2">
+          <button onclick="RaahiAuth.loginAs('traveler')"
+            class="px-3.5 py-2 rounded-xl bg-amber-50 hover:bg-amber-100 dark:bg-amber-950/40 dark:hover:bg-amber-900 text-xs font-bold text-amber-800 dark:text-amber-300 border border-amber-300 dark:border-amber-800 transition-colors flex items-center gap-1.5 shadow-2xs">
+            <span class="material-symbols-outlined text-sm">person</span>
+            <span>Switch to Traveler</span>
+          </button>
+          <button onclick="RaahiAuth.openAuthModal('signin')"
+            class="px-3.5 py-2 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-stone-800 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 border border-stone-200 dark:border-stone-700 text-xs font-bold transition-colors flex items-center gap-1.5 shadow-2xs">
+            <span class="material-symbols-outlined text-sm">account_circle</span>
+            <span>Accounts</span>
+          </button>
+          <button onclick="RaahiAuth.logout()"
+            class="px-3.5 py-2 rounded-xl bg-red-50 hover:bg-red-100 dark:bg-red-950/40 dark:hover:bg-red-900 text-red-700 dark:text-red-300 border border-red-200 dark:border-red-800 text-xs font-bold transition-colors flex items-center gap-1.5 shadow-2xs">
+            <span class="material-symbols-outlined text-sm">logout</span>
+            <span>Log Out</span>
+          </button>
+        </div>
+
       </div>
 
       <!-- Statistics KPI Cards -->
@@ -2303,46 +2334,208 @@
     </div>
   </div>
 
-  <!-- Modal 9: Auth Sign-In / Register Modal -->
-  <div id="auth-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
-    <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiAuth.closeAuthModal()"></div>
-    <div class="relative w-full max-w-md bg-white dark:bg-stone-900 rounded-3xl shadow-2xl p-6 sm:p-8 z-10">
-      <div class="flex items-center justify-between pb-4 border-b border-stone-200 dark:border-stone-800 mb-6">
-        <div>
-          <span class="text-[10px] font-bold uppercase tracking-wider text-amber-600">Raahi Access</span>
-          <h3 class="font-heading text-xl font-bold text-stone-900 dark:text-white">Account Authentication</h3>
+  <!-- Modal 9: Comprehensive Auth Sign-In / Register / Google / Guest Modal -->
+  <div id="auth-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 overflow-y-auto">
+    <div class="fixed inset-0 bg-black/75 backdrop-blur-sm" onclick="RaahiAuth.closeAuthModal()"></div>
+    <div class="relative w-full max-w-md bg-white dark:bg-stone-900 rounded-3xl shadow-2xl p-6 sm:p-7 z-10 border border-stone-200 dark:border-stone-800 my-8">
+      
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-stone-800 mb-4">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-xl bg-amber-600 text-white flex items-center justify-center font-heading font-extrabold text-sm shadow-xs">
+            R
+          </div>
+          <div>
+            <h3 class="font-heading text-lg font-extrabold text-stone-900 dark:text-white">Raahi India</h3>
+            <p class="text-[10px] text-stone-500">Sign in to your Travel Journey</p>
+          </div>
         </div>
         <button onclick="RaahiAuth.closeAuthModal()"
-          class="w-8 h-8 rounded-full bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-stone-500">
+          class="w-8 h-8 rounded-full bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 flex items-center justify-center text-stone-500 transition-colors">
           <span class="material-symbols-outlined text-base">close</span>
         </button>
       </div>
 
-      <div class="space-y-3">
-        <p class="text-xs text-stone-500 mb-4">Choose an account profile to test the Raahi platform:</p>
-
-        <button onclick="RaahiAuth.loginAs('traveler')"
-          class="w-full p-4 rounded-2xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 text-left hover:bg-amber-100 transition-colors flex items-center gap-3">
-          <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80"
-            alt="Traveler" class="w-12 h-12 rounded-full object-cover border-2 border-amber-600">
-          <div>
-            <h5 class="text-xs font-bold text-stone-900 dark:text-white">Aakash Verma (Traveler)</h5>
-            <p class="text-[11px] text-stone-500">Access saved places, custom reviews &amp; contributions.</p>
-          </div>
+      <!-- Auth Tabs: Sign In / Create Account -->
+      <div class="flex border-b border-stone-200 dark:border-stone-800 mb-5">
+        <button id="auth-tab-btn-signin" onclick="RaahiAuth.switchAuthTab('signin')"
+          class="flex-1 py-2.5 text-xs font-bold text-amber-600 border-b-2 border-amber-600 transition-all">
+          Sign In
         </button>
-
-        <button onclick="RaahiAuth.loginAs('admin')"
-          class="w-full p-4 rounded-2xl bg-purple-50 dark:bg-purple-950/40 border border-purple-300 dark:border-purple-800 text-left hover:bg-purple-100 transition-colors flex items-center gap-3">
-          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80"
-            alt="Admin" class="w-12 h-12 rounded-full object-cover border-2 border-purple-600">
-          <div>
-            <h5 class="text-xs font-bold text-purple-900 dark:text-purple-300">Vikramaditya (Chief Curator)</h5>
-            <p class="text-[11px] text-stone-500">Access Admin Dashboard, KPI stats &amp; Diff verification.</p>
-          </div>
+        <button id="auth-tab-btn-signup" onclick="RaahiAuth.switchAuthTab('signup')"
+          class="flex-1 py-2.5 text-xs font-bold text-stone-400 hover:text-stone-600 border-b-2 border-transparent transition-all">
+          Create Account
         </button>
       </div>
+
+      <!-- PANE 1: SIGN IN -->
+      <div id="auth-pane-signin" class="space-y-4">
+        <!-- Quick Social & Instant Options -->
+        <div class="space-y-2">
+          <!-- Sign in with Google Button -->
+          <button id="btn-google-signin" onclick="RaahiAuth.loginWithGoogle()"
+            class="w-full py-2.5 px-4 rounded-2xl border border-stone-300 dark:border-stone-700 hover:bg-stone-50 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 text-xs font-bold flex items-center justify-center gap-2.5 transition-all shadow-2xs">
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+              <path fill="#4285F4" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/>
+              <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z"/>
+              <path fill="#FBBC05" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.98 0 12s.45 3.82 1.25 5.42l4.03-3.15z"/>
+              <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/>
+            </svg>
+            <span>Continue with Google</span>
+          </button>
+
+          <!-- Continue as Guest Button -->
+          <button onclick="RaahiAuth.loginAsGuest()"
+            class="w-full py-2.5 px-4 rounded-2xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-750 text-stone-700 dark:text-stone-300 text-xs font-bold flex items-center justify-center gap-2 transition-all">
+            <span class="material-symbols-outlined text-base text-stone-500">person_outline</span>
+            <span>Continue as Guest Explorer</span>
+          </button>
+        </div>
+
+        <div class="flex items-center my-3">
+          <div class="flex-grow border-t border-stone-200 dark:border-stone-800"></div>
+          <span class="px-3 text-[10px] font-bold uppercase tracking-wider text-stone-400">or with email</span>
+          <div class="flex-grow border-t border-stone-200 dark:border-stone-800"></div>
+        </div>
+
+        <!-- Email & Password Form -->
+        <form onsubmit="RaahiAuth.handleEmailSignIn(event)" class="space-y-3">
+          <div>
+            <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Email Address</label>
+            <div class="relative">
+              <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">mail</span>
+              <input id="auth-signin-email" type="email" placeholder="aakash.traveler@raahi.in" value="aakash.traveler@raahi.in"
+                class="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Password</label>
+            <div class="relative">
+              <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">lock</span>
+              <input id="auth-signin-password" type="password" placeholder="••••••••" value="demo1234"
+                class="w-full pl-9 pr-10 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500">
+              <button type="button" onclick="RaahiAuth.togglePasswordVisibility('auth-signin-password', 'signin-pass-toggle-icon')"
+                class="absolute right-3 top-2.5 text-stone-400 hover:text-stone-600">
+                <span id="signin-pass-toggle-icon" class="material-symbols-outlined text-base">visibility</span>
+              </button>
+            </div>
+          </div>
+
+          <button type="submit"
+            class="w-full py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold shadow-md transition-all flex items-center justify-center gap-1.5">
+            <span>Sign In to Account</span>
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </button>
+        </form>
+
+        <!-- Quick One-Click Demo Personas -->
+        <div class="pt-3 border-t border-stone-100 dark:border-stone-800">
+          <span class="text-[10px] font-extrabold uppercase tracking-wider text-stone-400 block mb-2 text-center">Instant Demo Personas</span>
+          <div class="grid grid-cols-2 gap-2">
+            <button onclick="RaahiAuth.loginAs('traveler')"
+              class="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 text-left hover:bg-amber-100 transition-colors flex items-center gap-2">
+              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80"
+                alt="Traveler" class="w-8 h-8 rounded-full object-cover border border-amber-600 shrink-0">
+              <div class="min-w-0">
+                <h5 class="text-[11px] font-bold text-amber-950 dark:text-amber-200 truncate">Traveler</h5>
+                <p class="text-[9px] text-stone-500 truncate">Aakash Verma</p>
+              </div>
+            </button>
+
+            <button onclick="RaahiAuth.loginAs('admin')"
+              class="p-2.5 rounded-xl bg-purple-50 dark:bg-purple-950/40 border border-purple-300 dark:border-purple-800 text-left hover:bg-purple-100 transition-colors flex items-center gap-2">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80"
+                alt="Admin" class="w-8 h-8 rounded-full object-cover border border-purple-600 shrink-0">
+              <div class="min-w-0">
+                <h5 class="text-[11px] font-bold text-purple-950 dark:text-purple-200 truncate">Curator Admin</h5>
+                <p class="text-[9px] text-stone-500 truncate">Vikramaditya</p>
+              </div>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PANE 2: CREATE ACCOUNT (SIGN UP) -->
+      <div id="auth-pane-signup" class="hidden space-y-3.5">
+        <form onsubmit="RaahiAuth.handleSignUp(event)" class="space-y-3">
+          <div>
+            <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Full Name</label>
+            <div class="relative">
+              <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">person</span>
+              <input id="auth-signup-name" type="text" placeholder="e.g. Priya Sharma"
+                class="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500" required>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Email Address</label>
+            <div class="relative">
+              <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">mail</span>
+              <input id="auth-signup-email" type="email" placeholder="priya.sharma@example.com"
+                class="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500" required>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Create Password</label>
+            <div class="relative">
+              <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">lock</span>
+              <input id="auth-signup-password" type="password" placeholder="Minimum 6 characters"
+                class="w-full pl-9 pr-10 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500" required>
+              <button type="button" onclick="RaahiAuth.togglePasswordVisibility('auth-signup-password', 'signup-pass-toggle-icon')"
+                class="absolute right-3 top-2.5 text-stone-400 hover:text-stone-600">
+                <span id="signup-pass-toggle-icon" class="material-symbols-outlined text-base">visibility</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Account Role Selection -->
+          <div>
+            <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Select Profile Type</label>
+            <div class="flex gap-2">
+              <button type="button" id="signup-role-traveler" onclick="RaahiAuth.selectSignupRole('traveler')"
+                class="flex-1 p-2.5 rounded-xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-200 text-xs font-bold flex items-center justify-center gap-1.5 transition-all shadow-xs">
+                <span>🎒 Traveler</span>
+              </button>
+              <button type="button" id="signup-role-admin" onclick="RaahiAuth.selectSignupRole('admin')"
+                class="flex-1 p-2.5 rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-stone-600 dark:text-stone-400 text-xs font-semibold flex items-center justify-center gap-1.5 transition-all">
+                <span>🛡️ Local Curator</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Avatar Picker -->
+          <div>
+            <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Choose Profile Avatar</label>
+            <div class="flex items-center gap-2.5">
+              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80"
+                alt="Avatar 1" onclick="RaahiAuth.selectSignupAvatar(this.src, this)"
+                class="signup-avatar-option w-10 h-10 rounded-full object-cover cursor-pointer ring-4 ring-amber-600 scale-105 transition-all">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80"
+                alt="Avatar 2" onclick="RaahiAuth.selectSignupAvatar(this.src, this)"
+                class="signup-avatar-option w-10 h-10 rounded-full object-cover cursor-pointer hover:ring-2 hover:ring-amber-400 transition-all">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80"
+                alt="Avatar 3" onclick="RaahiAuth.selectSignupAvatar(this.src, this)"
+                class="signup-avatar-option w-10 h-10 rounded-full object-cover cursor-pointer hover:ring-2 hover:ring-amber-400 transition-all">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80"
+                alt="Avatar 4" onclick="RaahiAuth.selectSignupAvatar(this.src, this)"
+                class="signup-avatar-option w-10 h-10 rounded-full object-cover cursor-pointer hover:ring-2 hover:ring-amber-400 transition-all">
+            </div>
+          </div>
+
+          <button type="submit"
+            class="w-full py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold shadow-md transition-all flex items-center justify-center gap-1.5 mt-2">
+            <span>Create Account &amp; Start Exploring</span>
+            <span class="material-symbols-outlined text-sm">sparkles</span>
+          </button>
+        </form>
+      </div>
+
     </div>
   </div>
+
 
   <!-- Modal 10: Global Quick Search (Ctrl+K) -->
   <div id="global-search-modal" class="fixed inset-0 z-50 hidden flex items-start justify-center pt-20 p-4">
