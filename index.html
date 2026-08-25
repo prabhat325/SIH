@@ -265,10 +265,16 @@
                 Tell Raahi your destination, interests, available time and travel preferences. We'll help you create a personalized travel plan.
               </p>
             </div>
-            <button onclick="RaahiApp.navigate('planner')" class="px-6 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-amber-600/30 transition-all flex items-center justify-center gap-2 shrink-0 z-10 group">
-              <span>Start Planning</span>
-              <span class="material-symbols-outlined text-base group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
-            </button>
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 shrink-0 z-10 w-full sm:w-auto">
+              <button onclick="RaahiSmartMatch.openModal()" class="px-5 py-3.5 rounded-2xl bg-white dark:bg-stone-850 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-900 dark:text-white font-extrabold text-xs sm:text-sm border border-amber-300 dark:border-amber-700/60 shadow-sm transition-all flex items-center justify-center gap-2 group">
+                <span class="material-symbols-outlined text-base text-amber-600">tune</span>
+                <span>AI Smart Match</span>
+              </button>
+              <button onclick="RaahiApp.navigate('planner')" class="px-6 py-3.5 rounded-2xl bg-amber-600 hover:bg-amber-700 text-white font-extrabold text-xs sm:text-sm shadow-md shadow-amber-600/30 transition-all flex items-center justify-center gap-2 group">
+                <span>Start Planning</span>
+                <span class="material-symbols-outlined text-base group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+              </button>
+            </div>
           </div>
 
           <!-- Quick Action Buttons -->
@@ -617,10 +623,16 @@
               Places selected for your interests, travel preferences and historical discovery.
             </p>
           </div>
-          <button onclick="RaahiApp.navigate('planner')" class="px-5 py-2.5 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-colors flex items-center gap-1.5 self-start md:self-auto shadow-sm">
-            <span class="material-symbols-outlined text-sm">auto_awesome</span>
-            <span>Plan with AI</span>
-          </button>
+          <div class="flex flex-wrap items-center gap-2 self-start md:self-auto">
+            <button onclick="RaahiSmartMatch.openModal()" class="px-4 py-2.5 rounded-xl bg-white dark:bg-stone-850 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-900 dark:text-white text-xs font-bold border border-amber-300 dark:border-amber-700/60 shadow-sm transition-colors flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-sm text-amber-600">tune</span>
+              <span>AI Smart Match</span>
+            </button>
+            <button onclick="RaahiApp.navigate('planner')" class="px-5 py-2.5 rounded-xl bg-amber-600 text-white text-xs font-bold hover:bg-amber-700 transition-colors flex items-center gap-1.5 shadow-sm">
+              <span class="material-symbols-outlined text-sm">auto_awesome</span>
+              <span>Plan with AI</span>
+            </button>
+          </div>
         </div>
 
         <div id="home-ai-recommendations-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -1899,6 +1911,179 @@
     </div>
   </div>
 
+  <!-- =========================================================================
+       Modal 12: AI Smart Match Preference Modal (POST http://localhost:8000/api/v1/recommend)
+       ========================================================================= -->
+  <div id="ai-smart-match-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-3 sm:p-4 md:p-6">
+    <div class="absolute inset-0 bg-black/75 backdrop-blur-md" onclick="RaahiSmartMatch.closeModal()"></div>
+    <div class="relative w-full max-w-4xl bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10 max-h-[92vh] overflow-y-auto border border-amber-300 dark:border-amber-800 flex flex-col">
+      
+      <!-- Modal Header -->
+      <div class="sticky top-0 z-20 p-5 sm:p-6 bg-white/95 dark:bg-stone-900/95 backdrop-blur-md border-b border-stone-200 dark:border-stone-800 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-700 text-white flex items-center justify-center shadow-md">
+            <span class="material-symbols-outlined text-xl">auto_awesome</span>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="text-[10px] font-extrabold uppercase tracking-wider text-amber-600 bg-amber-100 dark:bg-amber-950/60 px-2 py-0.5 rounded-full">AI Travel Engine</span>
+              <span class="text-[10px] text-stone-400 font-mono">v1/recommend</span>
+            </div>
+            <h3 class="font-heading text-lg sm:text-2xl font-extrabold text-stone-900 dark:text-white mt-0.5">
+              AI Smart Match
+            </h3>
+          </div>
+        </div>
+        <button onclick="RaahiSmartMatch.closeModal()" class="w-8 h-8 rounded-full bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-600 dark:text-stone-300 flex items-center justify-center transition-colors">
+          <span class="material-symbols-outlined text-base">close</span>
+        </button>
+      </div>
+
+      <!-- Modal Content Body -->
+      <div class="p-5 sm:p-7 flex-1">
+        
+        <!-- VIEW A: Input Sliders & Selectors -->
+        <div id="smart-match-input-view" class="space-y-7">
+          <div class="space-y-1">
+            <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed">
+              Tune your travel preferences across <strong>10 multidimensional parameters</strong>. Our AI engine computes live destination affinity, safety scores, and curated attractions.
+            </p>
+          </div>
+
+          <!-- 1. 10 Custom Range Sliders Grid -->
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-extrabold text-amber-700 dark:text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-sm">tune</span>
+                Travel Dimensions (0 to 5)
+              </span>
+              <span class="text-[11px] text-stone-400 font-semibold">Adjust intensity per passion</span>
+            </div>
+            
+            <div id="smart-match-sliders-container" class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+              <!-- Populated by js/smart-match.js with 10 sliders -->
+            </div>
+          </div>
+
+          <!-- 2. Companion Quick Selector -->
+          <div class="pt-4 border-t border-stone-200 dark:border-stone-800">
+            <span class="text-xs font-extrabold text-stone-900 dark:text-white uppercase tracking-wider block mb-2.5">
+              Who are you traveling with?
+            </span>
+            <div class="grid grid-cols-2 sm:grid-cols-5 gap-2">
+              <button type="button" onclick="RaahiSmartMatch.selectCompanion('Solo')" data-comp="Solo" class="companion-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-all flex flex-col items-center gap-1">
+                <span class="text-lg">🎒</span>
+                <span>Solo</span>
+              </button>
+              <button type="button" onclick="RaahiSmartMatch.selectCompanion('Couple')" data-comp="Couple" class="companion-opt-btn p-3 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/50 text-xs font-bold text-amber-900 dark:text-amber-300 transition-all flex flex-col items-center gap-1 shadow-sm">
+                <span class="text-lg">💑</span>
+                <span>Couple</span>
+              </button>
+              <button type="button" onclick="RaahiSmartMatch.selectCompanion('Family')" data-comp="Family" class="companion-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-all flex flex-col items-center gap-1">
+                <span class="text-lg">👨‍👩‍👧‍👦</span>
+                <span>Family</span>
+              </button>
+              <button type="button" onclick="RaahiSmartMatch.selectCompanion('Friends')" data-comp="Friends" class="companion-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-all flex flex-col items-center gap-1">
+                <span class="text-lg">👥</span>
+                <span>Friends</span>
+              </button>
+              <button type="button" onclick="RaahiSmartMatch.selectCompanion('Backpacker')" data-comp="Backpacker" class="companion-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-all flex flex-col items-center gap-1">
+                <span class="text-lg">⛺</span>
+                <span>Backpacker</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 3. Budget Tier Quick Selector -->
+          <div class="pt-4 border-t border-stone-200 dark:border-stone-800">
+            <span class="text-xs font-extrabold text-stone-900 dark:text-white uppercase tracking-wider block mb-2.5">
+              Budget Preference
+            </span>
+            <div class="grid grid-cols-3 gap-2.5">
+              <button type="button" onclick="RaahiSmartMatch.selectBudget('Budget')" data-budget="Budget" class="budget-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-all flex items-center justify-center gap-2">
+                <span>🏷️</span>
+                <span>Budget (₹)</span>
+              </button>
+              <button type="button" onclick="RaahiSmartMatch.selectBudget('Moderate')" data-budget="Moderate" class="budget-opt-btn p-3 rounded-2xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/50 text-xs font-bold text-amber-900 dark:text-amber-300 transition-all flex items-center justify-center gap-2 shadow-sm">
+                <span>💳</span>
+                <span>Moderate (₹₹)</span>
+              </button>
+              <button type="button" onclick="RaahiSmartMatch.selectBudget('Luxury')" data-budget="Luxury" class="budget-opt-btn p-3 rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-xs font-bold text-stone-700 dark:text-stone-300 hover:border-amber-500 transition-all flex items-center justify-center gap-2">
+                <span>✨</span>
+                <span>Luxury (₹₹₹)</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 4. Animated "Generate AI Matches" Button -->
+          <div class="pt-4 border-t border-stone-200 dark:border-stone-800 flex items-center justify-between">
+            <span class="text-[11px] text-stone-500 font-mono flex items-center gap-1">
+              <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+              POST /api/v1/recommend
+            </span>
+            <button id="smart-match-submit-btn" onclick="RaahiSmartMatch.generateAIMatches()" class="px-8 py-3.5 rounded-2xl bg-gradient-to-r from-amber-600 via-amber-500 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-extrabold text-xs sm:text-sm shadow-lg shadow-amber-600/30 transition-all flex items-center gap-2 transform hover:scale-102">
+              <span class="material-symbols-outlined text-base">auto_awesome</span>
+              <span>Generate AI Matches</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- VIEW B: Loading View with Radar Pulse Animation -->
+        <div id="smart-match-loading-view" class="hidden py-16 text-center space-y-5">
+          <div class="relative w-24 h-24 mx-auto flex items-center justify-center">
+            <div class="absolute inset-0 rounded-full bg-amber-500/20 radar-anim"></div>
+            <div class="w-16 h-16 rounded-full bg-amber-600 text-white flex items-center justify-center shadow-xl">
+              <span class="material-symbols-outlined text-3xl animate-spin">sync</span>
+            </div>
+          </div>
+          <div class="space-y-1">
+            <h4 class="font-heading text-lg font-bold text-stone-900 dark:text-white">
+              Computing AI Destination Affinities...
+            </h4>
+            <p class="text-xs text-stone-500 max-w-sm mx-auto">
+              Evaluating multidimensional similarity vectors across Indian destinations and verified heritage corridors.
+            </p>
+          </div>
+        </div>
+
+        <!-- VIEW C: Results List View -->
+        <div id="smart-match-results-view" class="hidden space-y-6">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-stone-200 dark:border-stone-800">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-extrabold text-emerald-600 dark:text-emerald-400 uppercase tracking-wider">Top AI Recommendations</span>
+                <span id="smart-match-summary-badge" class="px-2.5 py-0.5 rounded-full bg-stone-100 dark:bg-stone-800 text-[10px] font-bold text-stone-700 dark:text-stone-300"></span>
+              </div>
+              <h4 class="font-heading text-xl font-bold text-stone-900 dark:text-white mt-0.5">
+                Your Personalized Indian Destination Matches
+              </h4>
+            </div>
+            <button onclick="RaahiSmartMatch.showInputView()" class="px-4 py-2 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-colors flex items-center gap-1.5 self-start sm:self-auto">
+              <span class="material-symbols-outlined text-sm">tune</span>
+              <span>Tune Preferences</span>
+            </button>
+          </div>
+
+          <!-- Destination Cards Container -->
+          <div id="smart-match-results-list" class="space-y-4">
+            <!-- Populated dynamically by js/smart-match.js -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       Modal 13: Destination Details & Explainable AI Modal (xAI + Similar Vibes)
+       ========================================================================= -->
+  <div id="destination-detail-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-3 sm:p-4 md:p-6">
+    <div class="absolute inset-0 bg-black/75 backdrop-blur-md" onclick="RaahiDestinations.closeDetailModal()"></div>
+    <div class="relative w-full max-w-4xl max-h-[92vh] overflow-y-auto z-10">
+      <div id="destination-modal-content"></div>
+    </div>
+  </div>
+
   <!-- Floating AI Travel Assistant FAB ("Ask Raahi" - Section 10) -->
   <div class="fixed bottom-6 right-6 z-40">
     <button id="ai-fab-toggle" class="px-4 py-3 rounded-full bg-amber-600 hover:bg-amber-700 text-white shadow-2xl flex items-center gap-2 transition-all hover:scale-105 relative group border border-amber-400/40" title="Ask Raahi">
@@ -1984,6 +2169,7 @@
   <!-- Raahi Submodules -->
   <script src="js/data.js"></script>
   <script src="js/auth.js"></script>
+  <script src="js/destinations.js"></script>
   <script src="js/places.js"></script>
   <script src="js/hotels.js"></script>
   <script src="js/restaurants.js"></script>
@@ -1992,6 +2178,7 @@
   <script src="js/emergency.js"></script>
   <script src="js/map.js"></script>
   <script src="js/planner.js"></script>
+  <script src="js/smart-match.js"></script>
   <script src="js/community.js"></script>
   <script src="js/dashboard.js"></script>
   <script src="js/admin.js"></script>

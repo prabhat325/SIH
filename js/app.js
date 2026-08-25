@@ -18,6 +18,7 @@ const RaahiApp = {
 
     // Initialize all domain submodules
     if (typeof RaahiAuth !== 'undefined') RaahiAuth.init();
+    if (typeof RaahiDestinations !== 'undefined') RaahiDestinations.init();
     if (typeof RaahiPlaces !== 'undefined') RaahiPlaces.init();
     if (typeof RaahiHotels !== 'undefined') RaahiHotels.init();
     if (typeof RaahiRestaurants !== 'undefined') RaahiRestaurants.init();
@@ -25,6 +26,7 @@ const RaahiApp = {
     if (typeof RaahiGuides !== 'undefined') RaahiGuides.init();
     if (typeof RaahiEmergency !== 'undefined') RaahiEmergency.init();
     if (typeof RaahiPlanner !== 'undefined') RaahiPlanner.init();
+    if (typeof RaahiSmartMatch !== 'undefined') RaahiSmartMatch.init();
     if (typeof RaahiCommunity !== 'undefined') RaahiCommunity.init();
     if (typeof RaahiDashboard !== 'undefined') RaahiDashboard.init();
     if (typeof RaahiAdmin !== 'undefined') RaahiAdmin.init();
@@ -307,13 +309,20 @@ const RaahiApp = {
 
     const renderCard = (d) => `
       <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
-        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
+        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800 cursor-pointer" onclick="RaahiDestinations.openDetailModal('${d.id}')">
           <img src="${d.image}" alt="${d.name}" loading="lazy" class="w-full h-full object-cover img-zoom">
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent"></div>
 
-          <div class="absolute top-3.5 left-3.5 z-10">
+          <div class="absolute top-3.5 left-3.5 z-10 flex items-center gap-1.5">
             <span class="px-3 py-1 rounded-full text-xs font-extrabold bg-black/60 backdrop-blur-md text-white border border-white/20">
               ${d.state}
+            </span>
+          </div>
+
+          <div class="absolute top-3.5 right-3.5 z-10">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-600/90 text-white shadow-sm flex items-center gap-1">
+              <span class="material-symbols-outlined text-xs">psychology</span>
+              <span>Why This?</span>
             </span>
           </div>
 
@@ -340,10 +349,16 @@ const RaahiApp = {
               </span>
             </div>
 
-            <button onclick="RaahiPlaces.stateFilter='${d.name}'; RaahiApp.navigate('places'); RaahiPlaces.renderPlaces();" class="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all shadow-sm">
-              <span>Explore ${d.name}</span>
-              <span class="material-symbols-outlined text-sm">arrow_forward</span>
-            </button>
+            <div class="grid grid-cols-2 gap-2">
+              <button onclick="RaahiDestinations.openDetailModal('${d.id}')" class="py-2.5 px-3 rounded-xl bg-amber-50 dark:bg-amber-950/40 hover:bg-amber-100 dark:hover:bg-amber-900/60 text-amber-800 dark:text-amber-300 text-xs font-bold transition-all flex items-center justify-center gap-1 border border-amber-200 dark:border-amber-800">
+                <span class="material-symbols-outlined text-xs">psychology</span>
+                <span>Why ${d.name}?</span>
+              </button>
+              <button onclick="RaahiPlaces.stateFilter='${d.name}'; RaahiApp.navigate('places'); RaahiPlaces.renderPlaces();" class="py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1">
+                <span>Explore</span>
+                <span class="material-symbols-outlined text-xs">arrow_forward</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
