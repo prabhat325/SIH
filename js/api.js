@@ -283,10 +283,19 @@ const RaahiAPI = {
   // 5. PAGINATED CULTURAL EVENTS
   // =========================================================================
   async getEvents({ city = 'all', page = 1, limit = 6, query = '' } = {}) {
+    const eventImageOverrides = {
+      'varanasi-dev-deepawali': 'https://images.unsplash.com/photo-1605335198099-317730e69888?auto=format&fit=crop&w=1200&q=80',
+      'pushkar-camel-fair': 'https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?auto=format&fit=crop&w=1200&q=80'
+    };
+
     const remote = await this.get('/api/v1/events', { city, page, limit, query });
     if (remote && remote.data) {
+      const data = remote.data.map(e => ({
+        ...e,
+        image: eventImageOverrides[e.id] || e.image
+      }));
       return {
-        data: remote.data,
+        data,
         pagination: {
           page: remote.page || page,
           limit: remote.limit || limit,
@@ -297,6 +306,7 @@ const RaahiAPI = {
         }
       };
     }
+
 
     let list = RAAHI_DATA.events || [];
     if (city && city.toLowerCase() !== 'all') {

@@ -165,6 +165,19 @@ const RaahiEvents = {
           </div>
         </div>
 
+        ${ev.gallery && ev.gallery.length ? `
+        <div>
+          <h4 class="font-heading text-base font-bold text-stone-900 dark:text-white mb-2">Festival Photo Gallery</h4>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+            ${ev.gallery.map((img, idx) => `
+              <div class="h-24 rounded-xl overflow-hidden bg-stone-100 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 shadow-sm">
+                <img src="${img}" alt="${ev.name} ${idx + 1}" class="w-full h-full object-cover hover:scale-110 transition-transform duration-300">
+              </div>
+            `).join('')}
+          </div>
+        </div>
+        ` : ''}
+
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 border-t border-stone-200 dark:border-stone-800 pt-5">
           <div>
             <span class="text-[11px] font-bold text-stone-400 uppercase block mb-1">Dates & Timings</span>

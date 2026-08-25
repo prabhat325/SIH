@@ -485,6 +485,12 @@ const RAAHI_DATA = {
       time: "05:00 PM – 10:00 PM",
       category: "Spiritual Festival",
       image: "https://images.unsplash.com/photo-1605335198099-317730e69888?auto=format&fit=crop&w=1200&q=80",
+      gallery: [
+        "https://images.unsplash.com/photo-1605335198099-317730e69888?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1514897575457-c4db467cf78e?auto=format&fit=crop&w=1200&q=80"
+      ],
       organizer: "Varanasi Tourism Board & Ganga Seva Nidhi",
       location: "All 84 Ghats of Varanasi (Assi to Rajghat)",
       description: "Spectacular night when millions of clay earthen lamps (diyas) illuminate all 84 ghats of the Ganges, believed to be the day gods descend to bathe.",
