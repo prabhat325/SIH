@@ -78,19 +78,17 @@ const RaahiAuth = {
 
     if (this.currentUser) {
       container.innerHTML = `
-        <div class="flex items-center gap-2">
+        <div class="flex items-center gap-1.5 sm:gap-2">
           <!-- Quick Role Switcher for SIH Jury Demo (Curator Admin / Traveler) -->
-          <button onclick="RaahiAuth.toggleRole()" title="Switch Role (Traveler / Curator Admin)" class="hidden sm:inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-full ${this.currentUser.role === 'admin' ? 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-300 border border-purple-400 shadow-2xs' : 'bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300'} transition-all">
+          <button onclick="RaahiAuth.toggleRole()" title="Switch Role (Traveler / Curator Admin)" class="hidden md:inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-xl ${this.currentUser.role === 'admin' ? 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-300 border border-purple-300 shadow-2xs' : 'bg-amber-100/80 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300/80'} transition-all">
             <span class="material-symbols-outlined text-xs">${this.currentUser.role === 'admin' ? 'verified_user' : 'person'}</span>
             <span>${this.currentUser.role === 'admin' ? 'Curator Admin' : 'Traveler'}</span>
           </button>
 
-          <!-- User Profile Dropdown Button -->
-          <div class="relative group">
-            <button onclick="RaahiApp.navigate('dashboard')" class="flex items-center gap-2 p-1 rounded-full hover:ring-2 hover:ring-amber-500 transition-all" title="User Profile &amp; Dashboard">
-              <img src="${this.currentUser.avatar}" alt="${this.currentUser.name}" class="w-8 h-8 rounded-full object-cover border-2 border-amber-500 shadow-sm">
-            </button>
-          </div>
+          <!-- User Profile Avatar Button -->
+          <button onclick="RaahiApp.navigate('dashboard')" class="flex items-center p-0.5 rounded-full hover:ring-2 hover:ring-amber-500 transition-all shrink-0" title="User Profile &amp; Dashboard">
+            <img src="${this.currentUser.avatar}" alt="${this.currentUser.name}" class="w-8 h-8 rounded-full object-cover border border-amber-500 shadow-xs">
+          </button>
         </div>
       `;
     } else {
