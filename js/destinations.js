@@ -129,39 +129,40 @@ const RaahiDestinations = {
   similarityMatrix: {
     lucknow: [
       { id: 'jaipur', name: 'Jaipur', state: 'Rajasthan', similarity: 94, tags: ['Royal Architecture', 'Culinary Feasts', 'Historic Bazaars'], image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=600&q=80' },
-      { id: 'varanasi', name: 'Varanasi', state: 'Uttar Pradesh', similarity: 91, tags: ['Sacred Culture', 'Silk Weaving', 'Ancient Heritage'], image: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=600&q=80' },
+      { id: 'varanasi', name: 'Varanasi', state: 'Uttar Pradesh', similarity: 91, tags: ['Sacred Culture', 'Silk Weaving', 'Ancient Heritage'], image: 'https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=600&q=80' },
       { id: 'agra', name: 'Agra', state: 'Uttar Pradesh', similarity: 89, tags: ['Mughal Marvels', 'Marble Inlay', 'River Yamuna'], image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80' },
       { id: 'delhi', name: 'Delhi', state: 'National Capital Territory', similarity: 88, tags: ['Old Bazaars', 'Mughlai Cuisine', 'Historic Forts'], image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80' },
       { id: 'kashmir', name: 'Kashmir Valley', state: 'Jammu & Kashmir', similarity: 82, tags: ['Mughal Gardens', 'Handicrafts', 'Serene Pacing'], image: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=600&q=80' }
     ],
     varanasi: [
-      { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh', similarity: 91, tags: ['Awadhi Heritage', 'Cultural Courtesy', 'Historic Alleys'], image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=600&q=80' },
+      { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh', similarity: 91, tags: ['Awadhi Heritage', 'Cultural Courtesy', 'Historic Alleys'], image: 'https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=600&q=80' },
       { id: 'jaipur', name: 'Jaipur', state: 'Rajasthan', similarity: 88, tags: ['Heritage Temples', 'Handlooms', 'Royal Grandeur'], image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=600&q=80' },
       { id: 'kerala', name: 'Kerala Backwaters', state: 'Kerala', similarity: 86, tags: ['Sacred Rituals', 'Serene Waters', 'Ayurveda'], image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80' },
       { id: 'agra', name: 'Agra', state: 'Uttar Pradesh', similarity: 85, tags: ['Holy Rivers', 'Ancient Monuments', 'Artisans'], image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80' },
       { id: 'delhi', name: 'Delhi', state: 'National Capital Territory', similarity: 84, tags: ['Spiritual Shrines', 'Street Food', 'Ancient Ruins'], image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80' }
     ],
     jaipur: [
-      { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh', similarity: 94, tags: ['Royal Palaces', 'Gastronomy', 'Handmade Crafts'], image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=600&q=80' },
+      { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh', similarity: 94, tags: ['Royal Palaces', 'Gastronomy', 'Handmade Crafts'], image: 'https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=600&q=80' },
       { id: 'agra', name: 'Agra', state: 'Uttar Pradesh', similarity: 92, tags: ['Golden Triangle', 'Mughal Architecture', 'Royal Forts'], image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80' },
       { id: 'delhi', name: 'Delhi', state: 'National Capital Territory', similarity: 90, tags: ['Fortresses', 'Bazaars', 'Heritage Food'], image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80' },
-      { id: 'varanasi', name: 'Varanasi', state: 'Uttar Pradesh', similarity: 88, tags: ['Cultural Richness', 'Textiles', 'Sacred Shrines'], image: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=600&q=80' },
+      { id: 'varanasi', name: 'Varanasi', state: 'Uttar Pradesh', similarity: 88, tags: ['Cultural Richness', 'Textiles', 'Sacred Shrines'], image: 'https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=600&q=80' },
       { id: 'goa', name: 'Goa', state: 'Goa', similarity: 82, tags: ['Fort Aguada', 'Portuguese Heritage', 'Music'], image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80' }
     ],
     kerala: [
       { id: 'goa', name: 'Goa', state: 'Goa', similarity: 93, tags: ['Coastal Breezes', 'Tropical Palms', 'Seafood Gastronomy'], image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=600&q=80' },
       { id: 'kashmir', name: 'Kashmir Valley', state: 'Jammu & Kashmir', similarity: 90, tags: ['Serene Waterways', 'Lush Landscapes', 'Houseboat Stays'], image: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=600&q=80' },
-      { id: 'varanasi', name: 'Varanasi', state: 'Uttar Pradesh', similarity: 86, tags: ['Water Spirituality', 'Slow Travel', 'Ayurveda'], image: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=600&q=80' },
+      { id: 'varanasi', name: 'Varanasi', state: 'Uttar Pradesh', similarity: 86, tags: ['Water Spirituality', 'Slow Travel', 'Ayurveda'], image: 'https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=600&q=80' },
       { id: 'jaipur', name: 'Jaipur', state: 'Rajasthan', similarity: 78, tags: ['Rich Traditions', 'Handicrafts', 'Warm Hospitality'], image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=600&q=80' },
-      { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh', similarity: 76, tags: ['Cultural Courtesy', 'Artisanal Heritage', 'Food'], image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=600&q=80' }
+      { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh', similarity: 76, tags: ['Cultural Courtesy', 'Artisanal Heritage', 'Food'], image: 'https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=600&q=80' }
     ],
     goa: [
       { id: 'kerala', name: 'Kerala', state: 'Kerala', similarity: 93, tags: ['Coastal Tropics', 'Tranquil Waters', 'Ayurvedic Spas'], image: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=80' },
       { id: 'kashmir', name: 'Kashmir Valley', state: 'Jammu & Kashmir', similarity: 84, tags: ['Scenic Escapes', 'Relaxed Pacing', 'Photogenic Vistas'], image: 'https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=600&q=80' },
       { id: 'jaipur', name: 'Jaipur', state: 'Rajasthan', similarity: 82, tags: ['Portuguese/Rajput Forts', 'Bazaars', 'Nightlife'], image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=600&q=80' },
       { id: 'delhi', name: 'Delhi', state: 'National Capital Territory', similarity: 80, tags: ['Eclectic Dining', 'Historic Quarters', 'Evening Life'], image: 'https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=600&q=80' },
-      { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh', similarity: 77, tags: ['Culinary Exploration', 'Architecture', 'Culture'], image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=600&q=80' }
+      { id: 'lucknow', name: 'Lucknow', state: 'Uttar Pradesh', similarity: 77, tags: ['Culinary Exploration', 'Architecture', 'Culture'], image: 'https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=600&q=80' }
     ]
+
   },
 
   init() {

@@ -14,7 +14,7 @@ const RAAHI_DATA = {
       state: "Uttar Pradesh",
       tagline: "The City of Nawabs, Tehzeeb & Awadhi Flavors",
       description: "Famed for its architectural marvels like the Bara Imambara, delicate Chikankari embroidery, and legendary Awadhi culinary heritage.",
-      image: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=1200&q=80",
       attractionsCount: 24,
       hotelsCount: 42,
       restaurantsCount: 68,
@@ -27,7 +27,7 @@ const RAAHI_DATA = {
       state: "Uttar Pradesh",
       tagline: "Home of the Monument of Eternal Love",
       description: "World-renowned city on the banks of the Yamuna River housing the Taj Mahal, Agra Fort, and the abandoned Mughal capital of Fatehpur Sikri.",
-      image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
       attractionsCount: 18,
       hotelsCount: 35,
       restaurantsCount: 52,
@@ -40,7 +40,7 @@ const RAAHI_DATA = {
       state: "Uttar Pradesh",
       tagline: "The Spiritual Heart & Eternal Ghats of India",
       description: "One of the world's oldest continually inhabited cities, sacred for Ganga Aarti at Dashashwamedh Ghat, Kashi Vishwanath, and ancient silk weaving.",
-      image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1200&q=80",
       attractionsCount: 32,
       hotelsCount: 48,
       restaurantsCount: 75,
@@ -53,7 +53,7 @@ const RAAHI_DATA = {
       state: "Rajasthan",
       tagline: "The Royal Pink City of Forts & Havelis",
       description: "Capital of Rajasthan famous for Amber Fort, Hawa Mahal, Jantar Mantar, and timeless royal Rajputana grandeur and block printing.",
-      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80",
       attractionsCount: 28,
       hotelsCount: 56,
       restaurantsCount: 84,
@@ -66,7 +66,7 @@ const RAAHI_DATA = {
       state: "National Capital Territory",
       tagline: "Where Centuries of History Meet Modern Energy",
       description: "India's capital combining the labyrinthine lanes of Old Delhi with Mughal monuments like the Red Fort, Qutub Minar, and vibrant food streets.",
-      image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=80",
       attractionsCount: 45,
       hotelsCount: 90,
       restaurantsCount: 150,
@@ -79,7 +79,7 @@ const RAAHI_DATA = {
       state: "Goa",
       tagline: "Sun-Kissed Beaches & Portuguese Heritage",
       description: "Tropical coastal paradise known for UNESCO World Heritage churches in Old Goa, spice plantations, tranquil backwaters, and pristine beaches.",
-      image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80",
       attractionsCount: 22,
       hotelsCount: 70,
       restaurantsCount: 95,
@@ -92,7 +92,7 @@ const RAAHI_DATA = {
       state: "Kerala",
       tagline: "God's Own Country & Serene Backwaters",
       description: "Lush tropical haven renowned for tranquil Alleppey houseboats, Munnar tea estates, Kathakali classical dance, and ancient Ayurvedic wellness.",
-      image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80",
       attractionsCount: 30,
       hotelsCount: 65,
       restaurantsCount: 80,
@@ -105,7 +105,7 @@ const RAAHI_DATA = {
       state: "Jammu & Kashmir",
       tagline: "Paradise on Earth & Alpine Meadows",
       description: "Breathtaking valley featuring Dal Lake Shikara rides, snow-capped Himalayan peaks of Gulmarg, saffron fields, and Mughal gardens.",
-      image: "https://images.unsplash.com/photo-1566837945700-30057527ade0?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1200&q=80",
       attractionsCount: 20,
       hotelsCount: 38,
       restaurantsCount: 45,
@@ -117,6 +117,37 @@ const RAAHI_DATA = {
   // 2. TOURIST PLACES (Monuments, Forts, Temples, Heritage Sites)
   places: [
     {
+      id: "kashi-vishwanath",
+      name: "Kashi Vishwanath Temple & Corridor",
+      destinationId: "varanasi",
+      city: "Varanasi",
+      state: "Uttar Pradesh",
+      category: "Temples",
+      rating: 4.9,
+      reviewsCount: 1480,
+      image: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1200&q=80",
+      gallery: [
+        "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1627894483216-2138af692e32?auto=format&fit=crop&w=1200&q=80"
+      ],
+      description: "One of the 12 sacred Jyotirlingas of Lord Shiva, featuring 800kg gold-plated spires and the majestic Kashi Vishwanath Dham corridor connected to the holy Ganges.",
+      history: "Revered in ancient Vedic literature and rebuilt by Queen Ahilyabai Holkar of Indore in 1780. The temple complex was expanded with the Kashi Vishwanath Corridor.",
+      openingHours: "03:00 AM – 11:00 PM (Mangala Aarti 03:00 AM)",
+      entryFee: "Free Public Darshan (Special Sugam Darshan passes available via temple trust)",
+      bestTimeToVisit: "October to March (Early morning 04:00 AM - 07:00 AM)",
+      facilities: ["Locker Cloakrooms", "Wheelchair Access", "Prasadam Counters", "VIP Queue", "Shoe Stands"],
+      accessibility: {
+        wheelchair: true,
+        audioGuide: true,
+        seniorFriendly: true
+      },
+      nearbyAttractions: ["Dashashwamedh Ghat", "Manikarnika Ghat", "Annapurna Temple"],
+      lat: 25.3109,
+      lng: 83.0107,
+      aiPick: true,
+      aiReason: "Spiritual epicenter of India with the newly constructed grand corridor opening directly to the river Ganga."
+    },
+    {
       id: "bara-imambara",
       name: "Bara Imambara & Bhool Bhulaiya",
       destinationId: "lucknow",
@@ -125,10 +156,10 @@ const RAAHI_DATA = {
       category: "Heritage",
       rating: 4.8,
       reviewsCount: 342,
-      image: "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=1200&q=80",
       gallery: [
-        "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=1200&q=80"
       ],
       description: "Iconic 18th-century architectural masterpiece built by Nawab Asaf-ud-Daula with its unsupported arched central hall and mystical labyrinth.",
       history: "Commissioned in 1784 during a devastating famine as a major food-for-work relief project to provide employment to thousands of citizens.",
@@ -156,10 +187,10 @@ const RAAHI_DATA = {
       category: "Heritage",
       rating: 4.9,
       reviewsCount: 1250,
-      image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
       gallery: [
-        "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80"
       ],
       description: "UNESCO World Heritage ivory-white marble mausoleum built by Mughal Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal.",
       history: "Constructed between 1631 and 1648 employing over 20,000 artisans and masons from across India, Persia, and Central Asia.",
@@ -187,10 +218,10 @@ const RAAHI_DATA = {
       category: "Ghats",
       rating: 4.9,
       reviewsCount: 890,
-      image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80",
       gallery: [
-        "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1571536802807-30451e3955d8?auto=format&fit=crop&w=1200&q=80"
       ],
       description: "The most prominent and vibrant ghat along the holy Ganges, world-famous for the grand evening Ganga Maha Aarti ceremony.",
       history: "According to Hindu mythology, Lord Brahma created this sacred ghat to welcome Lord Shiva and performed the Dasa-Ashwamedha Yajna here.",
@@ -218,10 +249,10 @@ const RAAHI_DATA = {
       category: "Forts",
       rating: 4.8,
       reviewsCount: 620,
-      image: "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=80",
       gallery: [
-        "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=800&q=80",
-        "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=80"
+        "https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80"
       ],
       description: "Majestic hilltop fortress featuring Sheesh Mahal (Mirror Palace), Diwan-e-Khas, and breathtaking views over Maota Lake.",
       history: "Constructed in 1592 by Raja Man Singh I using red sandstone and marble, blending Rajput and Mughal architectural aesthetics.",
@@ -240,6 +271,7 @@ const RAAHI_DATA = {
       aiPick: true,
       aiReason: "Intricate Sheesh Mahal mirror geometry where a single candle illuminates the entire royal hall."
     },
+
     {
       id: "qutub-minar",
       name: "Qutub Minar & Complex",
@@ -452,7 +484,7 @@ const RAAHI_DATA = {
       date: "November 2026 (Kartik Purnima)",
       time: "05:00 PM – 10:00 PM",
       category: "Spiritual Festival",
-      image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1605335198099-317730e69888?auto=format&fit=crop&w=1200&q=80",
       organizer: "Varanasi Tourism Board & Ganga Seva Nidhi",
       location: "All 84 Ghats of Varanasi (Assi to Rajghat)",
       description: "Spectacular night when millions of clay earthen lamps (diyas) illuminate all 84 ghats of the Ganges, believed to be the day gods descend to bathe.",
@@ -467,7 +499,7 @@ const RAAHI_DATA = {
       date: "November 18–26, 2026",
       time: "08:00 AM – 09:00 PM Daily",
       category: "Cultural & Heritage Fair",
-      image: "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?auto=format&fit=crop&w=1200&q=80",
       organizer: "Rajasthan Tourism Development Corporation (RTDC)",
       location: "Pushkar Mela Ground, Pushkar, Rajasthan",
       description: "One of the world's largest livestock and camel fairs featuring turban tying contests, desert folk dance, hot air ballooning, and sacred lake dips.",

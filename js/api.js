@@ -98,8 +98,21 @@ const RaahiAPI = {
   // =========================================================================
   // 1. CITY OVERVIEW & DESTINATIONS
   // =========================================================================
+  // 1. DESTINATION OVERVIEW
+  // =========================================================================
   async getCity(cityId) {
     const normId = (cityId || '').toLowerCase().replace(/[^a-z]/g, '');
+    const cityImages = {
+      lucknow: "https://images.unsplash.com/photo-1588416936097-41850ab3d86d?auto=format&fit=crop&w=1200&q=80",
+      varanasi: "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1200&q=80",
+      agra: "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1200&q=80",
+      jaipur: "https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=1200&q=80",
+      delhi: "https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=80",
+      goa: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=1200&q=80",
+      kerala: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1200&q=80",
+      kashmir: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?auto=format&fit=crop&w=1200&q=80"
+    };
+
     const remote = await this.get(`/api/v1/destinations/${normId}`);
     if (remote && remote.destination) {
       return {
@@ -108,7 +121,7 @@ const RaahiAPI = {
         state: remote.state,
         tagline: `${remote.category} Paradise in ${remote.region} India`,
         description: remote.description,
-        image: `https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=1200&q=80`,
+        image: cityImages[normId] || `https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=1200&q=80`,
         attractionsCount: (remote.attractions_list || []).length || 20,
         hotelsCount: 35,
         restaurantsCount: 50,
@@ -133,13 +146,14 @@ const RaahiAPI = {
       state: 'India',
       tagline: 'Rich Cultural & Historic Travel Destination',
       description: 'Explore verified monuments, authentic culinary lanes, certified local guides, and regional heritage.',
-      image: 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=1200&q=80',
+      image: cityImages[normId] || 'https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=1200&q=80',
       attractionsCount: 15,
       hotelsCount: 25,
       restaurantsCount: 40,
       safetyScore: 9.0
     };
   },
+
 
   // =========================================================================
   // 2. LIVE WEATHER & CLIMATE SUITABILITY
