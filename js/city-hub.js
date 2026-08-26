@@ -656,26 +656,43 @@ const RaahiCityHub = {
   },
 
   renderVehicleCard(v) {
+    const phone = v.phone || '+91 522 2894100';
     return `
-      <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
-        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
-          <img src="${v.image}" alt="${v.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-          <div class="absolute top-3.5 left-3.5 flex items-center gap-1.5 z-10">
-            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-black/70 backdrop-blur-md text-amber-400 border border-amber-400/40">${v.categoryLabel}</span>
+      <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+        <div>
+          <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
+            <img src="${v.image}" alt="${v.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+            <div class="absolute top-3.5 left-3.5 flex items-center gap-1.5 z-10">
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-black/70 backdrop-blur-md text-amber-400 border border-amber-400/40">${v.categoryLabel}</span>
+            </div>
+            <div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-xl bg-black/80 text-white text-xs font-extrabold flex items-center gap-1">
+              <span class="text-amber-400">★</span><span>${v.rating}</span>
+            </div>
           </div>
-          <div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-xl bg-black/80 text-white text-xs font-extrabold flex items-center gap-1">
-            <span class="text-amber-400">★</span><span>${v.rating}</span>
+          <div class="p-6 space-y-2">
+            <div class="flex items-center justify-between text-[11px] text-stone-500">
+              <span class="truncate font-semibold flex items-center gap-1"><span class="material-symbols-outlined text-xs text-amber-500">storefront</span>${v.operator || 'Verified Fleet'}</span>
+              <span class="text-[10px] text-emerald-600 font-bold">RTO Verified</span>
+            </div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white group-hover:text-amber-600 transition-colors">${v.name}</h3>
+            <p class="text-xs text-stone-500">${v.capacity} • ${v.fuelType}</p>
           </div>
         </div>
-        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
-          <div>
-            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white group-hover:text-amber-600 transition-colors">${v.name}</h3>
-            <p class="text-xs text-stone-500 mt-1">${v.capacity} • ${v.fuelType}</p>
-          </div>
+        <div class="p-6 pt-0 space-y-3">
           <div class="pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between">
             <span class="text-xs font-mono font-bold text-amber-600">${v.pricePerDay}</span>
-            <button onclick="RaahiVehicles.openBookModal('${v.id}')" class="px-3.5 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-colors">Inquire</button>
+            <span class="text-[10px] text-stone-400 font-semibold">${v.ratePerKm || 'Govt Tariff'}</span>
+          </div>
+          <div class="grid grid-cols-2 gap-2">
+            <a href="tel:${phone.replace(/\s+/g, '')}" class="py-2 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1">
+              <span class="material-symbols-outlined text-sm">call</span>
+              <span>Call Desk</span>
+            </a>
+            <button onclick="RaahiVehicles.openInfoModal('${v.id}')" class="py-2 px-3 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer">
+              <span class="material-symbols-outlined text-sm text-amber-500">info</span>
+              <span>Tariff</span>
+            </button>
           </div>
         </div>
       </div>

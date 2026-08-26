@@ -658,8 +658,17 @@ const RAAHI_DATA = {
       ratePerKm: "₹14/km (Includes Toll & Tax)",
       features: ["Clean sanitized cabin", "GPS Live Tracked", "English/Hindi Speaking Driver", "Luggage Carrier"],
       image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80",
-      operator: "Awadh Heritage Cabs",
-      phone: "+91 522 2894100"
+      operator: "Awadh Heritage Chauffeurs",
+      phone: "+91 522 2894100",
+      whatsapp: "+91 94150 12345",
+      rtoLicense: "UP-32-COMM-TOUR-8941",
+      pickupLocations: "Chaudhary Charan Singh Airport, Charbagh Junction, Hazratganj Hotels",
+      fareRules: {
+        basePackage: "8 Hours / 80 Kms package @ ₹3,200",
+        extraKm: "₹14/km after 80 kms",
+        driverAllowance: "₹300 night charge (post 10 PM)",
+        tollTax: "FastTag tolls included in outstation package"
+      }
     },
     {
       id: "veh-2",
@@ -676,8 +685,17 @@ const RAAHI_DATA = {
       ratePerKm: "₹11/km (City Sightseeing)",
       features: ["Silent Electric Ride", "Free In-Car Fast Charging", "Panoramic Sunroof", "Automated Climate Control"],
       image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80",
-      operator: "EcoRaahi Green Fleet",
-      phone: "+91 522 2981200"
+      operator: "EcoRaahi Green Fleet Desk",
+      phone: "+91 522 2981200",
+      whatsapp: "+91 98390 55443",
+      rtoLicense: "UP-32-EV-GREEN-2981",
+      pickupLocations: "Airport Terminal 3, Gomti Nagar, Alambagh Metro",
+      fareRules: {
+        basePackage: "Full Day City Sightseeing (8 hrs / 70 kms) @ ₹2,400",
+        extraKm: "₹11/km for additional intra-city travel",
+        driverAllowance: "Nil for day rides",
+        tollTax: "Green vehicle toll discounts applied"
+      }
     },
     {
       id: "veh-3",
@@ -695,7 +713,16 @@ const RAAHI_DATA = {
       features: ["Convertible Soft-top", "All-Terrain 4WD", "Comprehensive Insurance Included", "Roadside SOS Assist"],
       image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80",
       operator: "Royal Rajputana Drive Hub",
-      phone: "+91 141 2789123"
+      phone: "+91 141 2789123",
+      whatsapp: "+91 98290 14123",
+      rtoLicense: "RJ-14-SELFDRIVE-7781",
+      pickupLocations: "Jaipur International Airport, MI Road, Sindhi Camp",
+      fareRules: {
+        basePackage: "24-Hour Rental @ ₹4,500 (Zero security deposit with Aadhaar)",
+        extraKm: "Unlimited kilometres across Rajasthan",
+        driverAllowance: "Self-drive (Valid driving licence mandatory)",
+        tollTax: "FastTag on-board with digital recharge"
+      }
     },
     {
       id: "veh-4",
@@ -712,8 +739,17 @@ const RAAHI_DATA = {
       ratePerKm: "₹22/km (Intercity Pilgrim Tour)",
       features: ["Reclining Push-back Seats", "PA Audio System for Guide", "Individual USB Chargers", "Spacious Luggage Trunk"],
       image: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=800&q=80",
-      operator: "Kashi Yatra Heritage Fleet",
-      phone: "+91 542 2459900"
+      operator: "Kashi Yatra Heritage Fleet Desk",
+      phone: "+91 542 2459900",
+      whatsapp: "+91 94500 88990",
+      rtoLicense: "UP-65-TOURIST-BUS-4599",
+      pickupLocations: "Varanasi Cantt Station, Babatpur Airport, Godowlia Hub",
+      fareRules: {
+        basePackage: "Varanasi-Sarnath Temple Circuit (10 hrs) @ ₹6,800",
+        extraKm: "₹22/km for Ayodhya / Prayagraj extension",
+        driverAllowance: "₹500 helper & driver allowance",
+        tollTax: "State pilgrim tourist tax covered"
+      }
     },
     {
       id: "veh-5",
@@ -730,8 +766,17 @@ const RAAHI_DATA = {
       ratePerKm: "Fixed Route Old Chowk Heritage",
       features: ["Navigates historic narrow food alleys", "Local street food stops included", "Traditional Awadhi decor", "Photo stops at Rumi Darwaza"],
       image: "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=800&q=80",
-      operator: "Chowk Heritage Rickshaw Guild",
-      phone: "+91 522 2618822"
+      operator: "Chowk Heritage Rickshaw Guild Desk",
+      phone: "+91 522 2618822",
+      whatsapp: "+91 94155 61882",
+      rtoLicense: "UP-32-ECO-E-RICK-2618",
+      pickupLocations: "Bara Imambara Gate, Clock Tower, Aminabad Old Gate",
+      fareRules: {
+        basePackage: "4-Hour Food & Heritage Circuit @ ₹900 fixed",
+        extraKm: "₹150 per extra hour beyond scheduled tour",
+        driverAllowance: "Tips customary for local storytelling",
+        tollTax: "Zero toll entry into Old City heritage zones"
+      }
     },
     {
       id: "veh-6",
@@ -748,8 +793,17 @@ const RAAHI_DATA = {
       ratePerKm: "₹12/km (Agra & Fatehpur Sikri)",
       features: ["Instant Pick-up at Agra Cantt", "Cool Mineral Water & Mints", "Trained Tourism Chauffeur", "Digital Receipt"],
       image: "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=800&q=80",
-      operator: "Taj City Chauffeurs",
-      phone: "+91 562 2334455"
+      operator: "Taj City Chauffeur Helpdesk",
+      phone: "+91 562 2334455",
+      whatsapp: "+91 97600 33445",
+      rtoLicense: "UP-80-TAJ-CAB-2334",
+      pickupLocations: "Agra Cantt Railway Station, Taj East Gate, Fatehabad Road Hotels",
+      fareRules: {
+        basePackage: "Agra Fort & Taj Mahal Same Day Tour (8 hrs) @ ₹2,100",
+        extraKm: "₹12/km for Fatehpur Sikri excursion",
+        driverAllowance: "₹250 post 9 PM",
+        tollTax: "Taj Expressway toll paid at toll gate"
+      }
     }
   ],
 
