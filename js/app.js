@@ -20,6 +20,8 @@ const RaahiApp = {
     if (typeof RaahiAPI !== 'undefined') RaahiAPI.init();
     if (typeof RaahiCityHub !== 'undefined') RaahiCityHub.init();
     if (typeof RaahiAuth !== 'undefined') RaahiAuth.init();
+    if (typeof RaahiSidebar !== 'undefined') RaahiSidebar.init();
+    if (typeof RaahiVehicles !== 'undefined') RaahiVehicles.init();
     if (typeof RaahiDestinations !== 'undefined') RaahiDestinations.init();
     if (typeof RaahiPlaces !== 'undefined') RaahiPlaces.init();
     if (typeof RaahiHotels !== 'undefined') RaahiHotels.init();
@@ -94,11 +96,27 @@ const RaahiApp = {
       return;
     }
 
-    if (hash === 'destinations') hash = 'explore';
+    if (hash === 'destinations' || hash === 'cities') hash = 'explore';
+
+    // Map Traveler Sub-routes to Dashboard
+    if (['saved', 'reviews', 'contributions', 'profile', 'settings'].includes(hash)) {
+      this.navigate('dashboard', false);
+      if (typeof RaahiDashboard !== 'undefined') {
+        const tabMap = {
+          'saved': 'saved',
+          'reviews': 'reviews',
+          'contributions': 'contributions',
+          'profile': 'personalized',
+          'settings': 'personalized'
+        };
+        RaahiDashboard.switchTab(tabMap[hash] || 'personalized');
+      }
+      return;
+    }
 
     const validRoutes = [
       'home', 'explore', 'city', 'places', 'hotels', 'restaurants',
-      'events', 'guides', 'map', 'emergency', 'planner',
+      'events', 'guides', 'vehicles', 'map', 'weather', 'emergency', 'planner',
       'dashboard', 'admin'
     ];
 
@@ -123,30 +141,10 @@ const RaahiApp = {
       }
     });
 
-    // Update active navbar links
-    document.querySelectorAll('.nav-route-link').forEach(link => {
-      const linkRoute = link.getAttribute('data-route');
-      const isAdmin = linkRoute === 'admin';
-      const isEmergency = linkRoute === 'emergency';
-
-      if (linkRoute === routeId) {
-        if (isAdmin) {
-          link.classList.add('bg-purple-100', 'dark:bg-purple-900/60', 'text-purple-900', 'dark:text-purple-100', 'border-purple-300', 'dark:border-purple-700', 'font-bold', 'shadow-2xs');
-          link.classList.remove('text-purple-700', 'dark:text-purple-300', 'bg-purple-50/80', 'dark:bg-purple-950/40');
-        } else if (!isEmergency) {
-          link.classList.add('text-amber-600', 'dark:text-amber-400', 'font-bold', 'bg-amber-50/90', 'dark:bg-amber-950/50', 'shadow-2xs');
-          link.classList.remove('text-stone-600', 'dark:text-stone-300');
-        }
-      } else {
-        if (isAdmin) {
-          link.classList.remove('bg-purple-100', 'dark:bg-purple-900/60', 'text-purple-900', 'dark:text-purple-100', 'border-purple-300', 'dark:border-purple-700', 'shadow-2xs');
-          link.classList.add('text-purple-700', 'dark:text-purple-300', 'bg-purple-50/80', 'dark:bg-purple-950/40');
-        } else if (!isEmergency) {
-          link.classList.remove('text-amber-600', 'dark:text-amber-400', 'font-bold', 'bg-amber-50/90', 'dark:bg-amber-950/50', 'shadow-2xs');
-          link.classList.add('text-stone-600', 'dark:text-stone-300');
-        }
-      }
-    });
+    // Update active navbar & sidebar links
+    if (typeof RaahiSidebar !== 'undefined') {
+      RaahiSidebar.updateActiveState(routeId);
+    }
 
     // Invalidate map size if navigating to map view
     if (routeId === 'map' && typeof RaahiMap !== 'undefined') {
@@ -166,6 +164,11 @@ const RaahiApp = {
       if (RaahiPlanner.currentPlan) {
         RaahiPlanner.renderItinerary();
       }
+    }
+
+    // Refresh Vehicles if navigating to vehicles
+    if (routeId === 'vehicles' && typeof RaahiVehicles !== 'undefined') {
+      RaahiVehicles.renderVehicles();
     }
 
     window.scrollTo({ top: 0, behavior: 'smooth' });

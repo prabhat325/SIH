@@ -429,6 +429,42 @@ const RaahiAPI = {
   },
 
   // =========================================================================
+  // 7.6 PAGINATED TOURIST VEHICLES
+  // =========================================================================
+  async getVehicles({ city = 'all', page = 1, limit = 6, category = '' } = {}) {
+    const remote = await this.get('/api/v1/vehicles', { city, page, limit, category });
+    if (remote && remote.data) {
+      return remote;
+    }
+
+    let list = RAAHI_DATA.vehicles || [];
+    if (city && city.toLowerCase() !== 'all') {
+      const cNorm = city.toLowerCase().replace(/[^a-z]/g, '');
+      list = list.filter(v => (v.city || '').toLowerCase().replace(/[^a-z]/g, '').includes(cNorm));
+    }
+    if (category && category !== 'all') {
+      list = list.filter(v => v.category === category);
+    }
+
+    const total = list.length;
+    const totalPages = Math.max(1, Math.ceil(total / limit));
+    const offset = (page - 1) * limit;
+    const paginated = list.slice(offset, offset + limit);
+
+    return {
+      data: paginated,
+      pagination: {
+        page,
+        limit,
+        total,
+        totalPages,
+        hasNext: page < totalPages,
+        hasPrev: page > 1
+      }
+    };
+  },
+
+  // =========================================================================
   // 8. AI ENGINE EXTENSIONS
   // =========================================================================
   async generateItinerary(payload) {

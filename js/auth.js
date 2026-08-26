@@ -108,6 +108,10 @@ const RaahiAuth = {
       }
       localStorage.setItem('raahi_saved', JSON.stringify(this.savedItems));
       localStorage.setItem('raahi_reviews', JSON.stringify(this.myReviews));
+
+      if (typeof RaahiSidebar !== 'undefined') {
+        RaahiSidebar.render();
+      }
     } catch (e) {
       console.error("Auth save error", e);
     }

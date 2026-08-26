@@ -114,6 +114,10 @@ const RaahiCityHub = {
       <div class="mb-8 sticky top-20 z-30 bg-[#faf8f5]/95 dark:bg-stone-950/95 backdrop-blur-md py-3 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 border-y border-stone-200/60 dark:border-stone-800/60">
         <div class="flex items-center justify-between gap-2 overflow-x-auto hide-scrollbar">
           <div class="flex items-center gap-2">
+            <button data-category="places" class="city-cat-tab-btn ${this.activeCategory === 'places' ? 'active-cat-btn' : 'inactive-cat-btn'}">
+              <span class="material-symbols-outlined text-base">museum</span>
+              <span>Places &amp; Sights</span>
+            </button>
             <button data-category="hotels" class="city-cat-tab-btn ${this.activeCategory === 'hotels' ? 'active-cat-btn' : 'inactive-cat-btn'}">
               <span class="material-symbols-outlined text-base">hotel</span>
               <span>Hotels &amp; Stays</span>
@@ -129,6 +133,10 @@ const RaahiCityHub = {
             <button data-category="guides" class="city-cat-tab-btn ${this.activeCategory === 'guides' ? 'active-cat-btn' : 'inactive-cat-btn'}">
               <span class="material-symbols-outlined text-base">badge</span>
               <span>Local Guides</span>
+            </button>
+            <button data-category="vehicles" class="city-cat-tab-btn ${this.activeCategory === 'vehicles' ? 'active-cat-btn' : 'inactive-cat-btn'}">
+              <span class="material-symbols-outlined text-base">directions_car</span>
+              <span>Tourist Vehicles</span>
             </button>
             <button data-category="emergency" class="city-cat-tab-btn ${this.activeCategory === 'emergency' ? 'active-cat-btn' : 'inactive-cat-btn'}">
               <span class="material-symbols-outlined text-base text-red-500">emergency</span>
@@ -467,7 +475,30 @@ const RaahiCityHub = {
     let res = null;
 
     try {
-      if (cat === 'hotels') {
+      if (cat === 'places') {
+        let list = (typeof RAAHI_DATA !== 'undefined' && RAAHI_DATA.places) ? RAAHI_DATA.places : [];
+        if (city && city.toLowerCase() !== 'all') {
+          const cNorm = city.toLowerCase().replace(/[^a-z]/g, '');
+          list = list.filter(p => (p.city || '').toLowerCase().replace(/[^a-z]/g, '').includes(cNorm));
+        }
+        if (query) {
+          const q = query.toLowerCase().trim();
+          list = list.filter(p => p.name.toLowerCase().includes(q) || p.description.toLowerCase().includes(q));
+        }
+        res = {
+          data: list.slice((page - 1) * limit, page * limit),
+          pagination: {
+            page,
+            limit,
+            total: list.length,
+            totalPages: Math.max(1, Math.ceil(list.length / limit)),
+            hasNext: page * limit < list.length,
+            hasPrev: page > 1
+          }
+        };
+      } else if (cat === 'vehicles') {
+        res = await RaahiAPI.getVehicles({ city, page, limit, category: 'all' });
+      } else if (cat === 'hotels') {
         res = await RaahiAPI.getHotels({ city, page, limit, query });
       } else if (cat === 'restaurants') {
         res = await RaahiAPI.getRestaurants({ city, page, limit, query });
@@ -508,6 +539,11 @@ const RaahiCityHub = {
     const cityName = this.cityData ? this.cityData.name : this.currentCityId;
 
     const headers = {
+      places: {
+        icon: 'museum',
+        title: `Tourist Places & Sights in ${cityName}`,
+        subtitle: `Explore UNESCO monuments, heritage architecture, and iconic landmarks across ${cityName}.`
+      },
       hotels: {
         icon: 'hotel',
         title: `Hotels & Heritage Stays in ${cityName}`,
@@ -527,6 +563,11 @@ const RaahiCityHub = {
         icon: 'badge',
         title: `Certified Local Guides in ${cityName}`,
         subtitle: `Connect directly with government-certified historians, language experts, and heritage scholars.`
+      },
+      vehicles: {
+        icon: 'directions_car',
+        title: `Tourist Vehicles & Cabs in ${cityName}`,
+        subtitle: `Verified tourist transport, outstation cabs, EV rentals, and heritage tours in ${cityName}.`
       },
       emergency: {
         icon: 'emergency',
@@ -570,7 +611,11 @@ const RaahiCityHub = {
       return;
     }
 
-    if (this.activeCategory === 'hotels') {
+    if (this.activeCategory === 'places') {
+      grid.innerHTML = this.items.map(p => this.renderPlaceCard(p)).join('');
+    } else if (this.activeCategory === 'vehicles') {
+      grid.innerHTML = this.items.map(v => this.renderVehicleCard(v)).join('');
+    } else if (this.activeCategory === 'hotels') {
       grid.innerHTML = this.items.map(hotel => this.renderHotelCard(hotel)).join('');
     } else if (this.activeCategory === 'restaurants') {
       grid.innerHTML = this.items.map(rest => this.renderRestaurantCard(rest)).join('');
@@ -581,6 +626,60 @@ const RaahiCityHub = {
     } else if (this.activeCategory === 'emergency') {
       grid.innerHTML = this.items.map(srv => this.renderEmergencyCard(srv)).join('');
     }
+  },
+
+  renderPlaceCard(p) {
+    return `
+      <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
+        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
+          <img src="${p.image}" alt="${p.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+          <div class="absolute top-3.5 left-3.5 flex items-center gap-1.5 z-10">
+            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-amber-600 text-white">${p.category || 'Heritage'}</span>
+          </div>
+          <div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-xl bg-black/80 text-white text-xs font-extrabold flex items-center gap-1">
+            <span class="text-amber-400">★</span><span>${p.rating || 4.8}</span>
+          </div>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+          <div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white group-hover:text-amber-600 transition-colors">${p.name}</h3>
+            <p class="text-xs text-stone-500 mt-1 line-clamp-2">${p.description}</p>
+          </div>
+          <div class="pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between">
+            <span class="text-xs font-mono font-bold text-amber-600">${p.entryFee || '₹50 Entry'}</span>
+            <button onclick="RaahiPlaces.openDetailModal('${p.id}')" class="px-3.5 py-1.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 transition-colors">Details →</button>
+          </div>
+        </div>
+      </div>
+    `;
+  },
+
+  renderVehicleCard(v) {
+    return `
+      <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
+        <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
+          <img src="${v.image}" alt="${v.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+          <div class="absolute top-3.5 left-3.5 flex items-center gap-1.5 z-10">
+            <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-black/70 backdrop-blur-md text-amber-400 border border-amber-400/40">${v.categoryLabel}</span>
+          </div>
+          <div class="absolute bottom-3 right-3 px-2.5 py-1 rounded-xl bg-black/80 text-white text-xs font-extrabold flex items-center gap-1">
+            <span class="text-amber-400">★</span><span>${v.rating}</span>
+          </div>
+        </div>
+        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+          <div>
+            <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white group-hover:text-amber-600 transition-colors">${v.name}</h3>
+            <p class="text-xs text-stone-500 mt-1">${v.capacity} • ${v.fuelType}</p>
+          </div>
+          <div class="pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between">
+            <span class="text-xs font-mono font-bold text-amber-600">${v.pricePerDay}</span>
+            <button onclick="RaahiVehicles.openBookModal('${v.id}')" class="px-3.5 py-1.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-colors">Inquire</button>
+          </div>
+        </div>
+      </div>
+    `;
   },
 
   // 1. Hotel Card
