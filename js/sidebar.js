@@ -288,7 +288,7 @@ const RaahiSidebar = {
       items: [
         { id: 'home', label: 'Home', icon: 'explore', route: 'home', href: '#home' },
         { id: 'explore', label: 'Explore India', icon: 'travel_explore', route: 'explore', href: '#explore' },
-        { id: 'cities', label: 'Cities & Regions', icon: 'location_city', route: 'explore', href: '#explore' },
+        { id: 'cities', label: 'Cities & Regions', icon: 'location_city', route: 'cities', href: '#cities' },
         { id: 'map', label: 'Interactive Map', icon: 'map', route: 'map', href: '#map' },
         { id: 'weather', label: 'Crowd & Climate', icon: 'thermostat', route: 'weather', href: '#weather' }
       ]
@@ -670,26 +670,32 @@ const RaahiSidebar = {
   // =========================================================================
   updateActiveState(targetRoute) {
     const fullHash = window.location.hash.replace('#', '').trim() || 'home';
-    const mainRoute = targetRoute || (typeof RaahiApp !== 'undefined' ? RaahiApp.currentRoute : 'home') || 'home';
+    const cleanHash = fullHash.split('?')[0];
+    const mainRoute = targetRoute || cleanHash || (typeof RaahiApp !== 'undefined' ? RaahiApp.currentRoute : 'home') || 'home';
 
     document.querySelectorAll('.raahi-sidebar-nav-item').forEach(item => {
       const itemRoute = item.getAttribute('data-route');
       const itemCityId = item.getAttribute('data-city-id');
       const itemCityCat = item.getAttribute('data-city-cat');
       const itemHref = item.getAttribute('href');
+      const itemId = item.getAttribute('data-item-id');
 
       let isActive = false;
 
-      // City context match
+      // 1. City context match (when viewing city details)
       if (itemCityId && itemCityCat && this.cityContext) {
         isActive = (this.cityContext.id === itemCityId && this.cityContext.cat === itemCityCat);
       }
-      // Exact hash match or route match
-      else if (itemHref && itemHref === `#${fullHash}`) {
+      // 2. Exact item ID matching current route
+      else if (itemId && (itemId === cleanHash || itemId === fullHash || itemId === mainRoute)) {
         isActive = true;
       }
-      // General route match
-      else if (itemRoute && (itemRoute === mainRoute || (itemRoute === 'explore' && mainRoute === 'destinations'))) {
+      // 3. Exact href matching current hash
+      else if (itemHref && (itemHref === `#${fullHash}` || itemHref === `#${cleanHash}`)) {
+        isActive = true;
+      }
+      // 4. Exact route match
+      else if (itemRoute && itemRoute === mainRoute) {
         isActive = true;
       }
 

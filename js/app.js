@@ -96,7 +96,7 @@ const RaahiApp = {
       return;
     }
 
-    if (hash === 'destinations' || hash === 'cities') hash = 'explore';
+    if (hash === 'destinations') hash = 'explore';
 
     // Map Traveler Sub-routes to Dashboard
     if (['saved', 'reviews', 'contributions', 'profile', 'settings'].includes(hash)) {
@@ -115,7 +115,7 @@ const RaahiApp = {
     }
 
     const validRoutes = [
-      'home', 'explore', 'city', 'places', 'hotels', 'restaurants',
+      'home', 'explore', 'cities', 'city', 'places', 'hotels', 'restaurants',
       'events', 'guides', 'vehicles', 'map', 'weather', 'emergency', 'planner',
       'dashboard', 'admin'
     ];
@@ -130,9 +130,11 @@ const RaahiApp = {
       window.location.hash = routeId;
     }
 
+    const actualViewId = (routeId === 'cities') ? 'explore' : routeId;
+
     // Toggle view sections
     document.querySelectorAll('.view-section').forEach(view => {
-      if (view.id === `view-${routeId}`) {
+      if (view.id === `view-${actualViewId}`) {
         view.classList.remove('hidden-view');
         view.classList.add('active-view');
       } else {
@@ -140,6 +142,11 @@ const RaahiApp = {
         view.classList.add('hidden-view');
       }
     });
+
+    // If navigating to cities specifically, initialize destinations
+    if (routeId === 'cities' && typeof RaahiDestinations !== 'undefined') {
+      RaahiDestinations.init();
+    }
 
     // Update active navbar & sidebar links
     if (typeof RaahiSidebar !== 'undefined') {
