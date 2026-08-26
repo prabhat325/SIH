@@ -501,6 +501,53 @@ const RaahiApp = {
       toast.classList.add('translate-y-12', 'opacity-0');
       setTimeout(() => toast.remove(), 300);
     }, 3000);
+  },
+
+  getDirectionsUrl(item, fallbackCity = '') {
+    if (!item) return 'https://maps.google.com';
+    if (typeof item === 'string') {
+      return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(item)}`;
+    }
+    if (item.lat && item.lng) {
+      return `https://www.google.com/maps/dir/?api=1&destination=${item.lat},${item.lng}`;
+    }
+    const parts = [
+      item.name || item.title || '',
+      item.location || item.address || '',
+      item.cityName || item.city || fallbackCity || '',
+      item.state || ''
+    ].filter(Boolean);
+    const query = parts.join(', ');
+    return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(query || 'India')}`;
+  },
+
+  copyToClipboard(text, label = 'Address') {
+    if (!text) return;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(() => {
+        this.showToast(`${label} copied to clipboard!`, 'success');
+      }).catch(() => {
+        this.fallbackCopy(text, label);
+      });
+    } else {
+      this.fallbackCopy(text, label);
+    }
+  },
+
+  fallbackCopy(text, label) {
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    try {
+      document.execCommand('copy');
+      this.showToast(`${label} copied to clipboard!`, 'success');
+    } catch (e) {
+      this.showToast(`Failed to copy ${label}`, 'error');
+    }
+    document.body.removeChild(textarea);
   }
 };
 

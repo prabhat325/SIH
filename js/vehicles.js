@@ -500,12 +500,24 @@ const RaahiVehicles = {
           </div>
         </div>
 
-        <!-- Key Pickup Hubs -->
+        <!-- Key Pickup Hubs & Directions -->
         <div class="space-y-2 text-xs">
-          <span class="text-[11px] font-bold uppercase text-stone-500 tracking-wider block">Verified Transit Hubs &amp; Pick-up Points</span>
-          <div class="p-3 bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-300 font-medium flex items-center gap-2">
-            <span class="material-symbols-outlined text-base text-amber-500">pin_drop</span>
-            <span>${item.pickupLocations || 'Airport Terminal, Main Railway Station, Central Tourist Corridor'}</span>
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold uppercase text-stone-500 tracking-wider block">Verified Transit Hubs &amp; Pick-up Points</span>
+            <a href="${typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(item, item.cityName || item.city) : `https://maps.google.com/?q=${encodeURIComponent(item.pickupLocations || (item.cityName + ' Airport'))}`}" target="_blank" class="text-[11px] font-bold text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-1">
+              <span class="material-symbols-outlined text-xs">directions</span>
+              <span>Directions to Stand</span>
+            </a>
+          </div>
+          <div class="p-3 bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-300 font-medium flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2 truncate">
+              <span class="material-symbols-outlined text-base text-amber-500 shrink-0">pin_drop</span>
+              <span class="truncate">${item.pickupLocations || 'Airport Terminal, Main Railway Station, Central Tourist Corridor'}</span>
+            </div>
+            <button onclick="RaahiApp.copyToClipboard('${(item.pickupLocations || (item.cityName + ' Taxi Stand')).replace(/'/g, "\\'")}', 'Pickup Hubs')" class="text-[11px] font-bold text-stone-500 hover:text-amber-600 flex items-center gap-0.5 shrink-0 px-2 py-1 bg-white dark:bg-stone-800 rounded-lg border border-stone-200 dark:border-stone-700">
+              <span class="material-symbols-outlined text-xs">content_copy</span>
+              <span>Copy</span>
+            </button>
           </div>
         </div>
 
@@ -524,13 +536,16 @@ const RaahiVehicles = {
 
         <!-- Actions -->
         <div class="pt-2 flex items-center justify-between gap-3">
+          <a href="${typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(item, item.cityName || item.city) : `https://maps.google.com/?q=${encodeURIComponent(item.pickupLocations || (item.cityName + ' Airport'))}`}" target="_blank" class="px-4 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold shadow-md transition-colors flex items-center gap-1.5 cursor-pointer">
+            <span class="material-symbols-outlined text-sm">directions</span>
+            <span>Get Directions</span>
+          </a>
           <button onclick="RaahiVehicles.copyContact('${item.phone}')" class="px-4 py-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold flex items-center gap-1.5 transition-colors cursor-pointer">
             <span class="material-symbols-outlined text-sm">content_copy</span>
-            <span>Copy Phone Number</span>
+            <span>Copy Number</span>
           </button>
-          
-          <button onclick="RaahiVehicles.closeModal()" class="px-6 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold shadow-md transition-colors cursor-pointer">
-            Close Guidelines
+          <button onclick="RaahiVehicles.closeModal()" class="px-5 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold shadow-md transition-colors cursor-pointer hover:bg-amber-600">
+            Close
           </button>
         </div>
       </div>

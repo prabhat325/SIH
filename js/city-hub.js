@@ -629,6 +629,7 @@ const RaahiCityHub = {
   },
 
   renderPlaceCard(p) {
+    const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(p, this.currentCityId) : `https://maps.google.com/?q=${encodeURIComponent(p.name + ', ' + p.city)}`;
     return `
       <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
         <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
@@ -648,7 +649,12 @@ const RaahiCityHub = {
           </div>
           <div class="pt-3 border-t border-stone-100 dark:border-stone-800 flex items-center justify-between">
             <span class="text-xs font-mono font-bold text-amber-600">${p.entryFee || '₹50 Entry'}</span>
-            <button onclick="RaahiPlaces.openDetailModal('${p.id}')" class="px-3.5 py-1.5 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 transition-colors">Details →</button>
+            <div class="flex items-center gap-2">
+              <a href="${directionsUrl}" target="_blank" class="p-2 rounded-xl bg-amber-50 dark:bg-amber-950/50 text-amber-700 dark:text-amber-400 hover:bg-amber-600 hover:text-white transition-colors border border-amber-200 dark:border-amber-800 flex items-center justify-center" title="Get Directions on Google Maps">
+                <span class="material-symbols-outlined text-base">directions</span>
+              </a>
+              <button onclick="RaahiPlaces.openDetailModal('${p.id}')" class="px-3.5 py-2 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 transition-colors">Details →</button>
+            </div>
           </div>
         </div>
       </div>
@@ -657,6 +663,8 @@ const RaahiCityHub = {
 
   renderVehicleCard(v) {
     const phone = v.phone || '+91 522 2894100';
+    const pickupLoc = v.pickupLocations ? v.pickupLocations.split(',')[0] : (v.cityName || 'City Center');
+    const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(`${pickupLoc}, ${v.cityName || this.currentCityId}`) : `https://maps.google.com/?q=${encodeURIComponent(pickupLoc)}`;
     return `
       <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
         <div>
@@ -684,12 +692,16 @@ const RaahiCityHub = {
             <span class="text-xs font-mono font-bold text-amber-600">${v.pricePerDay}</span>
             <span class="text-[10px] text-stone-400 font-semibold">${v.ratePerKm || 'Govt Tariff'}</span>
           </div>
-          <div class="grid grid-cols-2 gap-2">
-            <a href="tel:${phone.replace(/\s+/g, '')}" class="py-2 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1">
+          <div class="grid grid-cols-12 gap-2">
+            <a href="tel:${phone.replace(/\s+/g, '')}" class="col-span-5 py-2 px-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1">
               <span class="material-symbols-outlined text-sm">call</span>
               <span>Call Desk</span>
             </a>
-            <button onclick="RaahiVehicles.openInfoModal('${v.id}')" class="py-2 px-3 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer">
+            <a href="${directionsUrl}" target="_blank" class="col-span-3 py-2 px-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-sm" title="Get Directions to Pickup Point">
+              <span class="material-symbols-outlined text-sm">directions</span>
+              <span class="hidden sm:inline text-[11px]">Map</span>
+            </a>
+            <button onclick="RaahiVehicles.openInfoModal('${v.id}')" class="col-span-4 py-2 px-2 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-all flex items-center justify-center gap-1 cursor-pointer">
               <span class="material-symbols-outlined text-sm text-amber-500">info</span>
               <span>Tariff</span>
             </button>
@@ -702,6 +714,7 @@ const RaahiCityHub = {
   // 1. Hotel Card
   renderHotelCard(h) {
     const isSaved = typeof RaahiAuth !== 'undefined' && RaahiAuth.isSaved(h.id);
+    const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(h, this.currentCityId) : `https://maps.google.com/?q=${encodeURIComponent(h.name + ', ' + (h.location || h.city))}`;
     return `
       <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
         <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
@@ -753,19 +766,28 @@ const RaahiCityHub = {
           </div>
 
           <div>
-            <div class="py-2.5 border-t border-stone-100 dark:border-stone-800 text-[11px] text-stone-500 mb-3 truncate flex items-center">
-              <span class="material-symbols-outlined text-sm text-amber-600 mr-1 shrink-0">location_on</span>
-              <span class="truncate">${h.location}</span>
+            <div class="py-2.5 border-t border-stone-100 dark:border-stone-800 text-[11px] text-stone-500 mb-3 flex items-center justify-between">
+              <span class="truncate flex items-center mr-2">
+                <span class="material-symbols-outlined text-sm text-amber-600 mr-1 shrink-0">location_on</span>
+                <span class="truncate">${h.location}</span>
+              </span>
+              <a href="${directionsUrl}" target="_blank" class="text-[10px] font-bold text-amber-600 dark:text-amber-400 hover:underline shrink-0 flex items-center gap-0.5" title="Get Directions on Google Maps">
+                <span class="material-symbols-outlined text-xs">directions</span>
+                <span>Directions</span>
+              </a>
             </div>
 
-            <div class="grid grid-cols-2 gap-2">
-              <button onclick="RaahiHotels.openHotelModal('${h.id}')" class="w-full py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1 shadow-sm">
+            <div class="grid grid-cols-12 gap-2">
+              <button onclick="RaahiHotels.openHotelModal('${h.id}')" class="col-span-7 py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1 shadow-sm">
                 <span>Stay Info</span>
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
               </button>
-              <button onclick="RaahiCommunity.openSuggestModal('${h.id}', 'hotel', '${h.name}')" class="w-full py-2.5 px-3 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-amber-950/30 hover:text-amber-700 transition-all flex items-center justify-center gap-1 border border-stone-200 dark:border-stone-700">
+              <a href="${directionsUrl}" target="_blank" class="col-span-3 py-2.5 px-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-sm" title="Get Directions">
+                <span class="material-symbols-outlined text-sm">directions</span>
+                <span class="hidden sm:inline text-[11px]">Map</span>
+              </a>
+              <button onclick="RaahiCommunity.openSuggestModal('${h.id}', 'hotel', '${h.name}')" class="col-span-2 py-2.5 px-2 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-amber-950/30 hover:text-amber-700 transition-all flex items-center justify-center border border-stone-200 dark:border-stone-700" title="Suggest a Change">
                 <span class="material-symbols-outlined text-sm text-amber-600">edit_note</span>
-                <span>Suggest</span>
               </button>
             </div>
           </div>
@@ -777,6 +799,7 @@ const RaahiCityHub = {
   // 2. Restaurant Card
   renderRestaurantCard(r) {
     const isSaved = typeof RaahiAuth !== 'undefined' && RaahiAuth.isSaved(r.id);
+    const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(r, this.currentCityId) : `https://maps.google.com/?q=${encodeURIComponent(r.name + ', ' + (r.location || r.city))}`;
     return `
       <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
         <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
@@ -831,21 +854,30 @@ const RaahiCityHub = {
 
           <div>
             <div class="py-2.5 border-t border-stone-100 dark:border-stone-800 text-[11px] text-stone-500 mb-3 flex items-center justify-between">
-              <span class="truncate flex items-center">
+              <span class="truncate flex items-center mr-2">
                 <span class="material-symbols-outlined text-sm text-amber-600 mr-1 shrink-0">location_on</span>
-                ${r.location}
+                <span class="truncate">${r.location}</span>
               </span>
-              <span class="shrink-0 text-stone-400 font-mono ml-2">${r.openingHours ? r.openingHours.split('(')[0] : ''}</span>
+              <div class="flex items-center gap-2 shrink-0">
+                <span class="text-stone-400 font-mono hidden sm:inline">${r.openingHours ? r.openingHours.split('(')[0] : ''}</span>
+                <a href="${directionsUrl}" target="_blank" class="text-[10px] font-bold text-amber-600 dark:text-amber-400 hover:underline flex items-center gap-0.5" title="Get Directions on Google Maps">
+                  <span class="material-symbols-outlined text-xs">directions</span>
+                  <span>Directions</span>
+                </a>
+              </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-2">
-              <button onclick="RaahiRestaurants.openRestModal('${r.id}')" class="w-full py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1 shadow-sm">
+            <div class="grid grid-cols-12 gap-2">
+              <button onclick="RaahiRestaurants.openRestModal('${r.id}')" class="col-span-7 py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1 shadow-sm">
                 <span>View Menu &amp; Info</span>
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
               </button>
-              <button onclick="RaahiCommunity.openSuggestModal('${r.id}', 'restaurant', '${r.name}')" class="w-full py-2.5 px-3 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-amber-950/30 hover:text-amber-700 transition-all flex items-center justify-center gap-1 border border-stone-200 dark:border-stone-700">
+              <a href="${directionsUrl}" target="_blank" class="col-span-3 py-2.5 px-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-sm" title="Get Directions">
+                <span class="material-symbols-outlined text-sm">directions</span>
+                <span class="hidden sm:inline text-[11px]">Map</span>
+              </a>
+              <button onclick="RaahiCommunity.openSuggestModal('${r.id}', 'restaurant', '${r.name}')" class="col-span-2 py-2.5 px-2 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-amber-950/30 hover:text-amber-700 transition-all flex items-center justify-center border border-stone-200 dark:border-stone-700" title="Suggest a Change">
                 <span class="material-symbols-outlined text-sm text-amber-600">edit_note</span>
-                <span>Suggest</span>
               </button>
             </div>
           </div>
@@ -856,6 +888,7 @@ const RaahiCityHub = {
 
   // 3. Cultural Event Card
   renderEventCard(ev) {
+    const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(ev, this.currentCityId) : `https://maps.google.com/?q=${encodeURIComponent(ev.name + ', ' + (ev.location || ev.city))}`;
     return `
       <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
         <div class="relative h-60 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
@@ -901,19 +934,28 @@ const RaahiCityHub = {
           </div>
 
           <div>
-            <div class="py-2.5 border-t border-stone-100 dark:border-stone-800 text-[11px] text-stone-500 mb-3 truncate flex items-center">
-              <span class="material-symbols-outlined text-sm text-amber-600 mr-1 shrink-0">location_on</span>
-              <span class="truncate">${ev.location}</span>
+            <div class="py-2.5 border-t border-stone-100 dark:border-stone-800 text-[11px] text-stone-500 mb-3 flex items-center justify-between">
+              <span class="truncate flex items-center mr-2">
+                <span class="material-symbols-outlined text-sm text-amber-600 mr-1 shrink-0">location_on</span>
+                <span class="truncate">${ev.location}</span>
+              </span>
+              <a href="${directionsUrl}" target="_blank" class="text-[10px] font-bold text-amber-600 dark:text-amber-400 hover:underline shrink-0 flex items-center gap-0.5" title="Get Directions to Event Venue">
+                <span class="material-symbols-outlined text-xs">directions</span>
+                <span>Directions</span>
+              </a>
             </div>
 
-            <div class="grid grid-cols-2 gap-2">
-              <button onclick="RaahiEvents.openEventModal('${ev.id}')" class="w-full py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1 shadow-sm">
+            <div class="grid grid-cols-12 gap-2">
+              <button onclick="RaahiEvents.openEventModal('${ev.id}')" class="col-span-7 py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1 shadow-sm">
                 <span>View Event</span>
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
               </button>
-              <button onclick="RaahiCommunity.openSuggestModal('${ev.id}', 'event', '${ev.name}')" class="w-full py-2.5 px-3 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-amber-950/30 hover:text-amber-700 transition-all flex items-center justify-center gap-1 border border-stone-200 dark:border-stone-700">
+              <a href="${directionsUrl}" target="_blank" class="col-span-3 py-2.5 px-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-sm" title="Get Directions">
+                <span class="material-symbols-outlined text-sm">directions</span>
+                <span class="hidden sm:inline text-[11px]">Map</span>
+              </a>
+              <button onclick="RaahiCommunity.openSuggestModal('${ev.id}', 'event', '${ev.name}')" class="col-span-2 py-2.5 px-2 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-xs font-bold hover:bg-amber-50 dark:hover:bg-amber-950/30 hover:text-amber-700 transition-all flex items-center justify-center border border-stone-200 dark:border-stone-700" title="Suggest a Change">
                 <span class="material-symbols-outlined text-sm text-amber-600">edit_note</span>
-                <span>Suggest</span>
               </button>
             </div>
           </div>
@@ -924,6 +966,7 @@ const RaahiCityHub = {
 
   // 4. Local Guide Card
   renderGuideCard(g) {
+    const cityDirectionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(`${g.name}, ${g.cityName || g.city}, ${g.state}`) : `https://maps.google.com/?q=${encodeURIComponent(g.city)}`;
     return `
       <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover p-6">
         <div class="flex items-start gap-4 mb-4">
@@ -960,11 +1003,15 @@ const RaahiCityHub = {
           </div>
         </div>
 
-        <div class="mt-auto">
-          <button onclick="RaahiGuides.openGuideModal('${g.id}')" class="w-full py-2.5 px-4 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1.5 shadow-sm">
-            <span>View Verified Profile</span>
+        <div class="mt-auto grid grid-cols-12 gap-2">
+          <button onclick="RaahiGuides.openGuideModal('${g.id}')" class="col-span-9 py-2.5 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1.5 shadow-sm">
+            <span>Verified Profile</span>
             <span class="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
+          <a href="${cityDirectionsUrl}" target="_blank" class="col-span-3 py-2.5 px-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-sm" title="Get Directions to Meeting City">
+            <span class="material-symbols-outlined text-sm">directions</span>
+            <span class="hidden sm:inline text-[11px]">Map</span>
+          </a>
         </div>
       </div>
     `;
@@ -973,6 +1020,7 @@ const RaahiCityHub = {
   // 5. Emergency Service Card
   renderEmergencyCard(srv) {
     const isPolice = srv.type === 'Police';
+    const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(srv, this.currentCityId) : `https://maps.google.com/?q=${encodeURIComponent(srv.name + ', ' + srv.address)}`;
     return `
       <div class="p-6 rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between gap-4">
         <div class="flex items-start gap-4">
@@ -998,11 +1046,10 @@ const RaahiCityHub = {
             <span class="material-symbols-outlined text-sm">phone_in_talk</span>
             <span>Call ${srv.phone.split('/')[0].trim()}</span>
           </a>
-          ${srv.lat ? `
-            <a href="https://maps.google.com/?q=${srv.lat},${srv.lng}" target="_blank" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 transition-colors" title="Locate on Map">
-              <span class="material-symbols-outlined text-base">directions</span>
-            </a>
-          ` : ''}
+          <a href="${directionsUrl}" target="_blank" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-amber-600 hover:text-white text-stone-700 dark:text-stone-300 transition-colors flex items-center gap-1 text-xs font-bold" title="Get Directions on Map">
+            <span class="material-symbols-outlined text-base">directions</span>
+            <span class="hidden sm:inline">Directions</span>
+          </a>
         </div>
       </div>
     `;

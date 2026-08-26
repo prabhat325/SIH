@@ -257,8 +257,12 @@ const RaahiDestinations = {
                 <span class="material-symbols-outlined text-sm">explore</span>
                 <span>Explore City Hub</span>
               </button>
-              <button onclick="RaahiDestinations.planWithAI('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 hover:bg-stone-800 dark:hover:bg-white text-white dark:text-stone-900 font-bold text-xs shadow-sm transition-all flex items-center gap-1.5">
-                <span class="material-symbols-outlined text-sm text-amber-400 dark:text-amber-600">auto_awesome</span>
+              <a href="${typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(dest, dest.name) : `https://maps.google.com/?q=${encodeURIComponent(dest.name + ', ' + dest.state)}`}" target="_blank" class="px-3.5 py-2.5 rounded-xl bg-stone-900 dark:bg-stone-100 hover:bg-amber-600 dark:hover:bg-amber-500 text-white dark:text-stone-900 hover:text-white dark:hover:text-white font-bold text-xs shadow-sm transition-all flex items-center gap-1.5" title="Get Directions to ${dest.name}">
+                <span class="material-symbols-outlined text-sm">directions</span>
+                <span>Get Directions</span>
+              </a>
+              <button onclick="RaahiDestinations.planWithAI('${dest.name}')" class="px-4 py-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 font-bold text-xs shadow-sm transition-all flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-sm text-amber-600">auto_awesome</span>
                 <span>Plan with AI</span>
               </button>
               <button onclick="RaahiDestinations.exploreCityPlaces('${dest.name}')" class="px-3.5 py-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 text-xs font-bold transition-colors flex items-center gap-1">
@@ -580,6 +584,9 @@ const RaahiDestinations = {
                 <span>Explore City Hub</span>
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
               </button>
+              <a href="${typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(d, d.name) : `https://maps.google.com/?q=${encodeURIComponent(d.name + ', ' + d.state)}`}" target="_blank" title="Get Directions to ${d.name}" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-amber-600 hover:text-white border border-stone-200 dark:border-stone-700/80 transition-colors flex items-center justify-center">
+                <span class="material-symbols-outlined text-base">directions</span>
+              </a>
               <button onclick="RaahiDestinations.openDetailModal('${d.id}')" title="Why ${d.name}? (AI Match Insights)" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 hover:text-amber-600 border border-stone-200 dark:border-stone-700/80 transition-colors flex items-center justify-center">
                 <span class="material-symbols-outlined text-base">psychology</span>
               </button>

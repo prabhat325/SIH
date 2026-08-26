@@ -77,6 +77,7 @@ const RaahiMap = {
       RAAHI_DATA.places.forEach(p => {
         if (!p.lat || !p.lng) return;
         const icon = this.createCustomIcon('temple_hindu', '#d97706');
+        const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(p, p.city) : `https://maps.google.com/?q=${p.lat},${p.lng}`;
         const marker = L.marker([p.lat, p.lng], { icon });
         marker.bindPopup(`
           <div style="font-family: inherit; width: 220px; padding: 4px;">
@@ -87,9 +88,14 @@ const RaahiMap = {
               <span style="color: #f59e0b; font-weight: bold;">★ ${p.rating}</span>
               <span style="color: #059669; font-weight: bold;">${p.entryFee.split(',')[0]}</span>
             </div>
-            <button onclick="RaahiPlaces.openDetailModal('${p.id}')" style="width: 100%; padding: 6px; background: #1c1917; color: white; border: none; border-radius: 6px; font-size: 11px; font-weight: bold; cursor: pointer;">
-              View Place Details
-            </button>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+              <button onclick="RaahiPlaces.openDetailModal('${p.id}')" style="padding: 6px 4px; background: #1c1917; color: white; border: none; border-radius: 6px; font-size: 11px; font-weight: bold; cursor: pointer;">
+                Details
+              </button>
+              <a href="${directionsUrl}" target="_blank" style="display: flex; align-items: center; justify-content: center; padding: 6px 4px; background: #d97706; color: white; border-radius: 6px; font-size: 11px; font-weight: bold; text-decoration: none; text-align: center;">
+                Directions ↗
+              </a>
+            </div>
           </div>
         `);
         this.markersLayer.addLayer(marker);
@@ -99,10 +105,10 @@ const RaahiMap = {
     // 2. Hotels (Emerald Pins)
     if (['all', 'hotels'].includes(this.activeFilter) && RAAHI_DATA.hotels) {
       RAAHI_DATA.hotels.forEach(h => {
-        // Find city lat/lng
         const dest = RAAHI_DATA.destinations.find(d => d.id === h.destinationId);
         const lat = dest ? dest.lat + 0.02 : 26.85;
         const lng = dest ? dest.lng + 0.02 : 80.95;
+        const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(h, h.city) : `https://maps.google.com/?q=${lat},${lng}`;
         const icon = this.createCustomIcon('hotel', '#059669');
         const marker = L.marker([lat, lng], { icon });
         marker.bindPopup(`
@@ -111,9 +117,14 @@ const RaahiMap = {
             <span style="font-size: 10px; font-weight: bold; text-transform: uppercase; color: #059669;">Stay Info • ${h.city}</span>
             <h4 style="font-size: 13px; font-weight: bold; margin: 2px 0 4px; color: #1c1917;">${h.name}</h4>
             <div style="margin-bottom: 8px; font-size: 11px; color: #059669; font-weight: bold;">${h.priceTier}</div>
-            <button onclick="RaahiHotels.openHotelModal('${h.id}')" style="width: 100%; padding: 6px; background: #059669; color: white; border: none; border-radius: 6px; font-size: 11px; font-weight: bold; cursor: pointer;">
-              Stay Details
-            </button>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+              <button onclick="RaahiHotels.openHotelModal('${h.id}')" style="padding: 6px 4px; background: #059669; color: white; border: none; border-radius: 6px; font-size: 11px; font-weight: bold; cursor: pointer;">
+                Stay Details
+              </button>
+              <a href="${directionsUrl}" target="_blank" style="display: flex; align-items: center; justify-content: center; padding: 6px 4px; background: #d97706; color: white; border-radius: 6px; font-size: 11px; font-weight: bold; text-decoration: none; text-align: center;">
+                Directions ↗
+              </a>
+            </div>
           </div>
         `);
         this.markersLayer.addLayer(marker);
@@ -126,16 +137,22 @@ const RaahiMap = {
         const dest = RAAHI_DATA.destinations.find(d => d.id === r.destinationId);
         const lat = dest ? dest.lat - 0.02 : 26.83;
         const lng = dest ? dest.lng - 0.02 : 80.93;
+        const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(r, r.city) : `https://maps.google.com/?q=${lat},${lng}`;
         const icon = this.createCustomIcon('restaurant', '#ea580c');
         const marker = L.marker([lat, lng], { icon });
         marker.bindPopup(`
           <div style="font-family: inherit; width: 220px; padding: 4px;">
             <img src="${r.image}" style="width: 100%; height: 110px; object-fit: cover; border-radius: 8px; margin-bottom: 6px;">
-            <span style="font-size: 10px; font-weight: bold; text-transform: uppercase; color: #ea580c;">${r.cuisine}</span>
+            <span style="font-size: 10px; font-weight: bold; text-transform: uppercase; color: #ea580c;">${r.cuisine} • ${r.city}</span>
             <h4 style="font-size: 13px; font-weight: bold; margin: 2px 0 4px; color: #1c1917;">${r.name}</h4>
-            <button onclick="RaahiRestaurants.openRestModal('${r.id}')" style="width: 100%; padding: 6px; background: #ea580c; color: white; border: none; border-radius: 6px; font-size: 11px; font-weight: bold; cursor: pointer;">
-              Culinary Info
-            </button>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 6px;">
+              <button onclick="RaahiRestaurants.openRestModal('${r.id}')" style="padding: 6px 4px; background: #ea580c; color: white; border: none; border-radius: 6px; font-size: 11px; font-weight: bold; cursor: pointer;">
+                Culinary Info
+              </button>
+              <a href="${directionsUrl}" target="_blank" style="display: flex; align-items: center; justify-content: center; padding: 6px 4px; background: #d97706; color: white; border-radius: 6px; font-size: 11px; font-weight: bold; text-decoration: none; text-align: center;">
+                Directions ↗
+              </a>
+            </div>
           </div>
         `);
         this.markersLayer.addLayer(marker);
@@ -146,16 +163,22 @@ const RaahiMap = {
     if (['all', 'emergency'].includes(this.activeFilter) && RAAHI_DATA.emergencyServices) {
       RAAHI_DATA.emergencyServices.forEach(e => {
         if (!e.lat || !e.lng) return;
+        const directionsUrl = `https://maps.google.com/?q=${e.lat},${e.lng}`;
         const icon = this.createCustomIcon('local_hospital', '#dc2626');
         const marker = L.marker([e.lat, e.lng], { icon });
         marker.bindPopup(`
-          <div style="font-family: inherit; width: 200px; padding: 4px;">
+          <div style="font-family: inherit; width: 210px; padding: 4px;">
             <span style="font-size: 10px; font-weight: bold; text-transform: uppercase; color: #dc2626;">24x7 Emergency Hub</span>
             <h4 style="font-size: 12px; font-weight: bold; margin: 2px 0 4px; color: #1c1917;">${e.name}</h4>
             <p style="font-size: 11px; color: #57534e; margin-bottom: 6px;">${e.address}</p>
-            <a href="tel:${e.phone.split('/')[0].trim()}" style="display: block; text-align: center; width: 100%; padding: 6px; background: #dc2626; color: white; border-radius: 6px; font-size: 11px; font-weight: bold; text-decoration: none;">
-              Call ${e.phone.split('/')[0].trim()}
-            </a>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+              <a href="tel:${e.phone.split('/')[0].trim()}" style="display: flex; align-items: center; justify-content: center; padding: 6px 2px; background: #dc2626; color: white; border-radius: 6px; font-size: 11px; font-weight: bold; text-decoration: none; text-align: center;">
+                Call Desk
+              </a>
+              <a href="${directionsUrl}" target="_blank" style="display: flex; align-items: center; justify-content: center; padding: 6px 2px; background: #d97706; color: white; border-radius: 6px; font-size: 11px; font-weight: bold; text-decoration: none; text-align: center;">
+                Directions ↗
+              </a>
+            </div>
           </div>
         `);
         this.markersLayer.addLayer(marker);

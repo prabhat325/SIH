@@ -142,41 +142,49 @@ const RaahiPlaces = {
 
     container.innerHTML = list.map(place => {
       const isSaved = typeof RaahiAuth !== 'undefined' && RaahiAuth.isSaved(place.id);
+      const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(place, place.city) : `https://maps.google.com/?q=${place.lat},${place.lng}`;
       return `
-        <div class="bg-white dark:bg-stone-900 border border-stone-200/80 dark:border-stone-800 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
+        <div class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group card-hover">
+          <!-- Card Image & Badges -->
           <div class="relative h-56 w-full overflow-hidden bg-stone-100 dark:bg-stone-800">
             <img src="${place.image}" alt="${place.name}" loading="lazy" class="w-full h-full object-cover img-zoom">
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
             <div class="absolute top-3.5 left-3.5 flex items-center gap-1.5 z-10">
-              <span class="px-2.5 py-1 rounded-full text-xs font-extrabold bg-black/60 backdrop-blur-md text-white border border-white/20">
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-amber-600 text-white">
                 ${place.category}
               </span>
+              <span class="px-2.5 py-1 rounded-full text-[11px] font-bold bg-black/60 backdrop-blur-md text-white border border-white/20">
+                ${place.city}
+              </span>
               ${place.aiPick ? `
-                <span class="px-2.5 py-1 rounded-full text-[11px] font-extrabold bg-amber-600 text-white flex items-center gap-1 shadow-sm">
+                <span class="px-2.5 py-1 rounded-full text-[10px] font-extrabold bg-amber-500 text-white flex items-center gap-1 shadow-sm">
                   <span class="material-symbols-outlined text-xs">auto_awesome</span>
-                  Raahi AI Pick
+                  AI Pick
                 </span>
               ` : ''}
             </div>
 
-            <button onclick="RaahiAuth.toggleSave('${place.id}')" title="Save Place" class="absolute top-3.5 right-3.5 w-8 h-8 rounded-full bg-white/80 dark:bg-stone-900/80 backdrop-blur-md flex items-center justify-center text-stone-700 dark:text-stone-200 hover:text-amber-600 transition-all z-10 shadow-sm">
+            <!-- Save to Bucket List Button -->
+            <button onclick="RaahiAuth.toggleSave('${place.id}')" title="Save to Travel Bag" class="absolute top-3.5 right-3.5 w-8 h-8 rounded-full bg-white/80 dark:bg-stone-900/80 backdrop-blur-md flex items-center justify-center text-stone-700 dark:text-stone-200 hover:text-amber-600 transition-all z-10 shadow-sm">
               <span class="material-symbols-outlined text-base ${isSaved ? 'text-amber-600 fill-current' : ''}">
                 ${isSaved ? 'bookmark_added' : 'bookmark_add'}
               </span>
             </button>
 
+            <!-- Card Bottom Bar: Rating -->
             <div class="absolute bottom-3.5 left-3.5 right-3.5 text-white z-10">
               <div class="flex items-center justify-between">
                 <span class="flex items-center gap-1 text-amber-400 text-xs font-extrabold">
                   <span class="material-symbols-outlined text-sm">star</span>
-                  ${place.rating} (${place.reviewsCount})
+                  ${place.rating} (${place.reviewsCount} reviews)
                 </span>
-                <span class="text-[11px] text-stone-300 font-medium">${place.city}, ${place.state}</span>
+                <span class="text-[11px] text-stone-300 font-medium">${place.state}</span>
               </div>
             </div>
           </div>
 
+          <!-- Card Content -->
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
               <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white mb-1.5 line-clamp-1 group-hover:text-amber-600 transition-colors">
@@ -189,18 +197,25 @@ const RaahiPlaces = {
               <!-- Entry Fee & Timings Badges -->
               <div class="flex items-center justify-between py-2 border-t border-stone-100 dark:border-stone-800 text-[11px] font-semibold text-stone-600 dark:text-stone-400 mb-3">
                 <span class="text-emerald-600 dark:text-emerald-400 font-bold">${place.entryFee}</span>
-                <span class="truncate max-w-[140px]">${place.openingHours}</span>
+                <a href="${directionsUrl}" target="_blank" class="text-[10px] font-bold text-amber-600 dark:text-amber-400 hover:underline shrink-0 flex items-center gap-0.5" title="Get Directions on Google Maps">
+                  <span class="material-symbols-outlined text-xs">directions</span>
+                  <span>Directions</span>
+                </a>
               </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-2">
-              <button onclick="RaahiPlaces.openDetailModal('${place.id}')" class="w-full py-2 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1">
-                <span>View Details</span>
+            <div class="grid grid-cols-12 gap-2">
+              <button onclick="RaahiPlaces.openDetailModal('${place.id}')" class="col-span-6 py-2 px-3 rounded-xl bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 text-xs font-bold hover:bg-amber-600 dark:hover:bg-amber-400 hover:text-white transition-all flex items-center justify-center gap-1 shadow-sm">
+                <span>Details</span>
                 <span class="material-symbols-outlined text-sm">arrow_forward</span>
               </button>
-              <button onclick="RaahiPlaces.quickAddToPlan('${place.id}')" class="w-full py-2 px-3 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-300 text-xs font-bold hover:bg-amber-600 hover:text-white transition-all flex items-center justify-center gap-1">
+              <a href="${directionsUrl}" target="_blank" class="col-span-3 py-2 px-2 rounded-xl bg-amber-600 hover:bg-amber-700 text-white text-xs font-bold transition-all flex items-center justify-center gap-1 shadow-sm" title="Get Directions">
+                <span class="material-symbols-outlined text-sm">directions</span>
+                <span class="hidden sm:inline text-[11px]">Map</span>
+              </a>
+              <button onclick="RaahiPlaces.quickAddToPlan('${place.id}')" class="col-span-3 py-2 px-2 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-300 text-xs font-bold hover:bg-amber-600 hover:text-white transition-all flex items-center justify-center gap-0.5 shadow-sm" title="Add to AI Plan">
                 <span class="material-symbols-outlined text-sm">auto_awesome</span>
-                <span>Add to Plan</span>
+                <span class="hidden sm:inline text-[10px]">Plan</span>
               </button>
             </div>
           </div>
@@ -241,6 +256,7 @@ const RaahiPlaces = {
     if (!modal || !content) return;
 
     const isSaved = typeof RaahiAuth !== 'undefined' && RaahiAuth.isSaved(place.id);
+    const directionsUrl = typeof RaahiApp !== 'undefined' ? RaahiApp.getDirectionsUrl(place, place.city) : `https://maps.google.com/?q=${place.lat},${place.lng}`;
 
     // Find nearby places & dining in the same city for Section 9
     const nearbyPlaces = (RAAHI_DATA.places || []).filter(p => p.id !== place.id && p.city === place.city).slice(0, 2);
@@ -259,7 +275,7 @@ const RaahiPlaces = {
 
         <!-- Place Title & Badges in Hero -->
         <div class="absolute bottom-6 left-6 right-6 text-white z-10">
-          <div class="flex items-center gap-2 mb-2">
+          <div class="flex items-center gap-2 mb-2 flex-wrap">
             <span class="px-3 py-1 rounded-full text-xs font-extrabold bg-amber-600 text-white">
               ${place.category}
             </span>
@@ -281,12 +297,12 @@ const RaahiPlaces = {
       <div class="p-6 sm:p-8 space-y-8 bg-white dark:bg-stone-900">
         <!-- Action Buttons Bar -->
         <div class="flex flex-wrap items-center justify-between gap-3 pb-6 border-b border-stone-200 dark:border-stone-800">
-          <div class="flex items-center gap-3">
+          <div class="flex flex-wrap items-center gap-3">
             <button onclick="RaahiAuth.toggleSave('${place.id}')" class="px-4 py-2.5 rounded-xl border border-stone-300 dark:border-stone-700 text-xs font-bold flex items-center gap-2 text-stone-800 dark:text-stone-200 hover:bg-amber-50 dark:hover:bg-stone-800 transition-colors">
-              <span class="material-symbols-outlined text-sm ${isSaved ? 'text-amber-600' : ''}">${isSaved ? 'bookmark_added' : 'bookmark_add'}</span>
+              <span class="material-symbols-outlined text-sm ${isSaved ? 'text-amber-600 fill-current' : ''}">${isSaved ? 'bookmark_added' : 'bookmark_add'}</span>
               <span>${isSaved ? 'Saved in Collection' : 'Save Place'}</span>
             </button>
-            <a href="https://maps.google.com/?q=${place.lat},${place.lng}" target="_blank" class="px-4 py-2.5 rounded-xl bg-amber-600 text-white text-xs font-bold flex items-center gap-2 hover:bg-amber-700 transition-colors">
+            <a href="${directionsUrl}" target="_blank" class="px-4 py-2.5 rounded-xl bg-amber-600 text-white text-xs font-bold flex items-center gap-2 hover:bg-amber-700 transition-colors shadow-md shadow-amber-600/20">
               <span class="material-symbols-outlined text-sm">directions</span>
               <span>Get Directions</span>
             </a>
@@ -341,6 +357,57 @@ const RaahiPlaces = {
                   <li>• Audio Guides: ${place.accessibility.audioGuide ? '✅ Available at Entrance' : '❌ Not Available'}</li>
                   <li>• Senior Citizen Friendly: ${place.accessibility.seniorFriendly ? '✅ Yes' : '⚠️ Moderate Walking'}</li>
                 </ul>
+              </div>
+            </div>
+
+            <!-- Dedicated Section: How to Reach & Directions -->
+            <div class="p-5 rounded-2xl bg-stone-50 dark:bg-stone-800/70 border border-stone-200 dark:border-stone-700 space-y-4">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-stone-200 dark:border-stone-700">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-amber-600 text-xl">location_on</span>
+                  <h4 class="font-heading text-base font-bold text-stone-900 dark:text-white">How to Reach &amp; Directions</h4>
+                </div>
+                <a href="${directionsUrl}" target="_blank" class="px-3.5 py-1.5 rounded-xl bg-amber-600 text-white text-xs font-bold flex items-center gap-1.5 hover:bg-amber-700 transition-colors w-fit shadow-xs">
+                  <span class="material-symbols-outlined text-sm">navigation</span>
+                  <span>Navigate in Google Maps</span>
+                </a>
+              </div>
+
+              <div class="space-y-3 text-xs">
+                <div class="flex items-start justify-between gap-4 p-3 bg-white dark:bg-stone-900 rounded-xl border border-stone-200/80 dark:border-stone-800">
+                  <div>
+                    <span class="text-[10px] font-bold text-stone-400 uppercase tracking-wider block mb-0.5">Location &amp; Coordinates</span>
+                    <p class="font-semibold text-stone-800 dark:text-stone-200">${place.name}, ${place.city}, ${place.state} (${place.lat.toFixed(4)}, ${place.lng.toFixed(4)})</p>
+                  </div>
+                  <button onclick="RaahiApp.copyToClipboard('${place.lat}, ${place.lng}', 'Coordinates')" class="px-2.5 py-1.5 rounded-lg bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300 font-bold text-[11px] flex items-center gap-1 shrink-0" title="Copy GPS Coordinates">
+                    <span class="material-symbols-outlined text-sm">content_copy</span>
+                    <span>Copy GPS</span>
+                  </button>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  <div class="p-3 bg-white dark:bg-stone-900 rounded-xl border border-stone-200/80 dark:border-stone-800 flex items-center gap-2.5">
+                    <span class="material-symbols-outlined text-amber-600 text-lg">local_taxi</span>
+                    <div>
+                      <span class="text-[10px] text-stone-400 block font-semibold">City Cabs / E-Rickshaw</span>
+                      <span class="text-xs font-bold text-stone-800 dark:text-stone-200">Direct Gate Drop</span>
+                    </div>
+                  </div>
+                  <div class="p-3 bg-white dark:bg-stone-900 rounded-xl border border-stone-200/80 dark:border-stone-800 flex items-center gap-2.5">
+                    <span class="material-symbols-outlined text-amber-600 text-lg">train</span>
+                    <div>
+                      <span class="text-[10px] text-stone-400 block font-semibold">Nearest Railway Hub</span>
+                      <span class="text-xs font-bold text-stone-800 dark:text-stone-200">~15-20 mins</span>
+                    </div>
+                  </div>
+                  <div class="p-3 bg-white dark:bg-stone-900 rounded-xl border border-stone-200/80 dark:border-stone-800 flex items-center gap-2.5">
+                    <span class="material-symbols-outlined text-emerald-600 text-lg">local_parking</span>
+                    <div>
+                      <span class="text-[10px] text-stone-400 block font-semibold">Visitor Parking</span>
+                      <span class="text-xs font-bold text-emerald-600">Available at Entry</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
