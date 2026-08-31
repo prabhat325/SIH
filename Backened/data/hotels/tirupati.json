@@ -1,0 +1,249 @@
+[
+  {
+    "hotelId": "tir-marasa-sarovar-premiere",
+    "name": "Marasa Sarovar Premiere, Tirupati",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Upadhyayanagar, Karakambadi Road, Tirupati, Andhra Pradesh 517507",
+    "latitude": 13.6485,
+    "longitude": 79.4485,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Waterbody Swimming Pool",
+      "Svam Spa & Foot Reflexology",
+      "Lotus Pure Vegetarian Fine Dining",
+      "Thava Andhra Coastal Grill",
+      "Helipad & Tirumala Darshan Desk"
+    ],
+    "specialFeatures": [
+      "World's first theme hotel inspired by the 10 avatars (Dashavatara) of Lord Vishnu, surrounded by waterbodies at the foothills of holy Tirumala Hills"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 666 0000",
+    "website": "https://www.sarovarhotels.com/marasa-sarovar-premiere-tirupati/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.167Z",
+    "updatedAt": "2026-08-22T21:20:27.167Z"
+  },
+  {
+    "hotelId": "tir-taj-tirupati",
+    "name": "Taj Tirupati",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Near Alipiri Tollgate, Tata Nagar, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6354,
+    "longitude": 79.4125,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool overlooking Tirumala Hills",
+      "Jiva Spa",
+      "Varuna Coastal Dining",
+      "The Gourmet Couch",
+      "Neer Bar",
+      "Tirumala VIP Darshan Help"
+    ],
+    "specialFeatures": [
+      "Located right at Alipiri - the gateway to Tirumala Hills, with rooftop pool facing sacred seven hills"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 666 3333",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-tirupati/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.167Z",
+    "updatedAt": "2026-08-22T21:20:27.167Z"
+  },
+  {
+    "hotelId": "tir-fortune-select-grand-ridge",
+    "name": "Fortune Select Grand Ridge, Tirupati",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Shilparamam, Tiruchanoor Road, Tirupati, Andhra Pradesh 517503",
+    "latitude": 13.6212,
+    "longitude": 79.4385,
+    "pricePerNight": 5800,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Rainbow Pure Vegetarian Restaurant",
+      "Zodiac All-Day Dining",
+      "Neptune Bar",
+      "Spa",
+      "Tiruchanoor Temple Proximity"
+    ],
+    "specialFeatures": [
+      "Rainbow pure vegetarian fine dining restaurant and close proximity to Goddess Padmavathi Temple in Tiruchanoor"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 222 1111",
+    "website": "https://www.fortunehotels.in/tirupati-fortune-select-grand-ridge.dh.37",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.168Z",
+    "updatedAt": "2026-08-22T21:20:27.168Z"
+  },
+  {
+    "hotelId": "tir-minerva-grand-tirupati",
+    "name": "Minerva Grand Tirupati",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Renigunta Road, Near APSRTC Central Bus Stand, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6285,
+    "longitude": 79.4285,
+    "pricePerNight": 4200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Blue Fox Multi-cuisine Restaurant",
+      "Minerva Coffee Shop (Legendary South Indian Tiffins)",
+      "Banquet Halls",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Famous Minerva Coffee Shop serving iconic crispy dosas, idlis, and South Indian filter coffee in Tirupati"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 667 7777",
+    "website": "https://minervagrand.com/tirupati/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.168Z",
+    "updatedAt": "2026-08-22T21:20:27.168Z"
+  },
+  {
+    "hotelId": "tir-hotel-bliss",
+    "name": "Hotel Bliss Tirupati",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Near Ramanuja Circle, Renigunta Road, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6265,
+    "longitude": 79.4312,
+    "pricePerNight": 3400,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Navrattan Pure Veg Restaurant",
+      "Khana Khazana Multi-cuisine",
+      "Fitness Center",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Longstanding premier hospitality landmark in Tirupati with pure vegetarian dining and swimming pool"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 223 7773",
+    "website": "https://hotelbliss.org/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.168Z",
+    "updatedAt": "2026-08-22T21:20:27.168Z"
+  },
+  {
+    "hotelId": "tir-ginger-tirupati",
+    "name": "Ginger Tirupati",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Opposite APSRTC Central Bus Stand, Tata Nagar, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6278,
+    "longitude": 79.4245,
+    "pricePerNight": 2400,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Rooms",
+      "24/7 Front Desk"
+    ],
+    "specialFeatures": [
+      "Directly opposite the main APSRTC Central Bus Station for direct electric buses up to Tirumala Hill"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 666 3333",
+    "website": "https://www.gingerhotels.com/ginger-tirupati",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.169Z",
+    "updatedAt": "2026-08-22T21:20:27.169Z"
+  },
+  {
+    "hotelId": "tir-hotel-sindhuri-park",
+    "name": "Hotel Sindhuri Park",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "TP Area, Near Tirupati Railway Station, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6312,
+    "longitude": 79.4185,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Brindavan Pure Veg Restaurant",
+      "Air Conditioning",
+      "Elevator",
+      "24-hour Helpdesk"
+    ],
+    "specialFeatures": [
+      "Located 300m from Tirupati Main Railway Station, famous Brindavan pure vegetarian thalis"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 225 6430",
+    "website": "https://hotelsindhuripark.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.169Z",
+    "updatedAt": "2026-08-22T21:20:27.169Z"
+  },
+  {
+    "hotelId": "tir-sri-govindaraja-residency",
+    "name": "Sri Govindaraja Residency",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Near Sri Govindaraja Swami Temple, Car Street, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6295,
+    "longitude": 79.4158,
+    "pricePerNight": 1300,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Satvik Canteen",
+      "Hot Water",
+      "Room Service",
+      "Pilgrim Guide Help"
+    ],
+    "specialFeatures": [
+      "Steps away from ancient Sri Govindaraja Swami Temple and central bazaar"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 222 5588",
+    "website": "https://srigovindarajaresidency.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.169Z",
+    "updatedAt": "2026-08-22T21:20:27.169Z"
+  }
+]

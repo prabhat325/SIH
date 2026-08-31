@@ -1,0 +1,529 @@
+[
+  {
+    "restaurantId": "rst-psk-la-pizzeria",
+    "name": "La Pizzeria Pushkar",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Near Old Rangji Temple, Main Market Road, Pushkar, Rajasthan 305022",
+    "latitude": 26.4912,
+    "longitude": 74.5534,
+    "cuisine": [
+      "Italian",
+      "Wood-fired Pizza",
+      "Pasta",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Wood Fired Thin Crust Pizza",
+      "Homemade Gnocchi in Gorgonzola",
+      "Penne Arrabbiata",
+      "Tiramisu",
+      "Espresso"
+    ],
+    "menu": [
+      {
+        "food": "Classic Quattro Stagioni Pizza",
+        "price": 380
+      },
+      {
+        "food": "Handmade Gnocchi in Pesto Cream",
+        "price": 340
+      },
+      {
+        "food": "Homemade Italian Tiramisu",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Garden Courtyard Seating",
+      "Wood-fired Brick Oven",
+      "Pure Vegetarian",
+      "Cozy Ambience"
+    ],
+    "specialFeatures": [
+      "Pushkar's most famous culinary sensation, tucked inside a tranquil open-air leafy courtyard with a massive clay oven baking authentic thin-crust Italian pizzas",
+      "A legendary traveler favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 277 2484",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-sunset-cafe",
+    "name": "Sunset Cafe",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Pushkar Lake Sunset Point, Pushkar, Rajasthan 305022",
+    "latitude": 26.4889,
+    "longitude": 74.5512,
+    "cuisine": [
+      "Israeli",
+      "Continental",
+      "Indian",
+      "Café",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Falafel Plate with Hummus & Tahini",
+      "Nutella Banana Pancake",
+      "Shakshuka",
+      "Masala Chai in Kulhad",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Middle Eastern Falafel Hummus Platter",
+        "price": 260
+      },
+      {
+        "food": "Hot Shakshuka with Fresh Pita",
+        "price": 220
+      },
+      {
+        "food": "Fluffy Banana Nutella Pancake",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Direct Lakefront Ghat Seating",
+      "Sunset Views",
+      "Live Drum Circles",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Prime vantage point directly on Pushkar Lake steps to watch the golden desert sun dip below the sacred waters while temple bells ring and spontaneous drum circles play",
+      "Quintessential Pushkar energy"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94143 56789",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-ganga-laffa-falafel",
+    "name": "Ganga Laffa & Falafel Restaurant",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Main Market, Sadar Bazaar, Near Varah Ghat, Pushkar, Rajasthan 305022",
+    "latitude": 26.4902,
+    "longitude": 74.5528,
+    "cuisine": [
+      "Israeli",
+      "Middle Eastern Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Crispy Falafel Laffa Roll",
+      "Hummus Tahini Salad",
+      "Schnitzel Roll (Veg)",
+      "Fresh Pomegranate Juice"
+    ],
+    "menu": [
+      {
+        "food": "Special Jumbo Falafel Laffa Roll",
+        "price": 160
+      },
+      {
+        "food": "Cheese Avocado Laffa Roll",
+        "price": 210
+      },
+      {
+        "food": "Hummus Plate with 2 Pita Breads",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Quick Service",
+      "Street-side Counter",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Pioneered the famous giant freshly-baked Laffa bread wraps packed with crispy fried chickpea falafels, tahini, pickled veggies, and fiery zhoug",
+      "World-renowned among global backpackers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98288 77665",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-sarveshwar-malpua",
+    "name": "Sarveshwar Sweets / Halwai Gali",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Halwai Gali, Near Gau Ghat, Pushkar, Rajasthan 305022",
+    "latitude": 26.4895,
+    "longitude": 74.5539,
+    "cuisine": [
+      "Traditional Sweets",
+      "Desserts",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Pushkar Special Desi Ghee Malpua with Rabri",
+      "Gulab Jamun",
+      "Samosa",
+      "Kachori"
+    ],
+    "menu": [
+      {
+        "food": "Desi Ghee Hot Malpua with Rabri (per pair)",
+        "price": 80
+      },
+      {
+        "food": "Special Desi Ghee Gulab Jamun (2 pcs)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Halwai Counter",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Pushkar's most famous indigenous culinary creation, deep-frying pancake-like Malpuas of mawa and flour in giant kadhais of pure desi ghee and soaking them in fragrant saffron syrup",
+      "Legendary sacred prasad"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94140 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-honey-spice",
+    "name": "Honey & Spice Garden Cafe",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Laxmi Market, Near Old Rangji Temple, Pushkar, Rajasthan 305022",
+    "latitude": 26.4916,
+    "longitude": 74.5541,
+    "cuisine": [
+      "Organic Health Food",
+      "Vegan",
+      "Café",
+      "Bakery"
+    ],
+    "famousDishes": [
+      "Organic Tofu Salad",
+      "Homemade Kombucha",
+      "Gluten-free Brownies",
+      "Avocado Toast",
+      "Herbal Ayurvedic Teas"
+    ],
+    "menu": [
+      {
+        "food": "Avocado Sourdough Toast with Seeds",
+        "price": 240
+      },
+      {
+        "food": "Organic Buddha Salad Bowl",
+        "price": 260
+      },
+      {
+        "food": "Cold-Pressed Homemade Kombucha",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Peaceful Garden Patio",
+      "Vegan & Gluten-Free Options",
+      "Free Wi-Fi",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Tranquil eco-conscious garden oasis offering chemical-free organic produce, whole grains, cold-pressed smoothies, and nourishing Ayurvedic health meals",
+      "A haven for wellness seekers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98291 33445",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-laughing-buddha-cafe",
+    "name": "The Laughing Buddha Cafe",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Main Market, Near Brahma Temple, Pushkar, Rajasthan 305022",
+    "latitude": 26.4881,
+    "longitude": 74.5498,
+    "cuisine": [
+      "Continental",
+      "Indian Fusion",
+      "Vegan",
+      "Café"
+    ],
+    "famousDishes": [
+      "Vegan Pumpkin Coconut Curry",
+      "Smoothie Bowls",
+      "Masala Chai",
+      "Falafel Wrap",
+      "Apple Crumble"
+    ],
+    "menu": [
+      {
+        "food": "Vegan Pumpkin Coconut Curry with Brown Rice",
+        "price": 240
+      },
+      {
+        "food": "Acai Berry Smoothie Bowl",
+        "price": 220
+      },
+      {
+        "food": "Warm Apple Crumble with Coconut Cream",
+        "price": 150
+      }
+    ],
+    "averageCostForOne": 260,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Balcony Street View",
+      "Pure Vegetarian",
+      "Free Wi-Fi",
+      "Chillout Music"
+    ],
+    "specialFeatures": [
+      "Colorful second-floor wooden balcony perched right above the bustling Brahma temple shopping street, perfect for people watching while sipping freshly blended smoothie bowls",
+      "Friendly atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 99288 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-sixth-sense-rooftop",
+    "name": "Sixth Sense Rooftop Restaurant",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Hotel Sixth Sense, Choti Basti, Near Varah Temple, Pushkar, Rajasthan 305022",
+    "latitude": 26.4908,
+    "longitude": 74.5519,
+    "cuisine": [
+      "Rajasthani",
+      "North Indian",
+      "Continental",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Royal Pushkar Thali",
+      "Dal Baati Churma",
+      "Paneer Butter Masala",
+      "Banana Crepes",
+      "Herbal Tea"
+    ],
+    "menu": [
+      {
+        "food": "Sixth Sense Royal Veg Thali",
+        "price": 340
+      },
+      {
+        "food": "Rajasthani Dal Baati Special",
+        "price": 290
+      },
+      {
+        "food": "Banana Nutella French Crepe",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Restored 300-year-old Haveli",
+      "Rooftop Aravalli Hills View",
+      "Pure Vegetarian",
+      "Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Set in a gorgeously restored 300-year-old aristocratic haveli with bougainvillea draped rooftop terraces looking out towards the surrounding sacred Aravalli hill shrines",
+      "Peaceful fine dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 277 2701",
+    "website": "http://www.hotelsixthsense.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-shree-radhe-baati",
+    "name": "Shree Radhe Baati Restaurant",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Brahma Temple Road, Badi Basti, Pushkar, Rajasthan 305022",
+    "latitude": 26.4879,
+    "longitude": 74.5504,
+    "cuisine": [
+      "Traditional Rajasthani",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Dal Baati Churma with Pure Desi Ghee",
+      "Gatte Ki Sabzi",
+      "Garlic Chutney",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Dal Baati Churma Unlimited",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 240,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian",
+      "Traditional Seating",
+      "Unlimited Refills"
+    ],
+    "specialFeatures": [
+      "Simple, soulful family eatery near Brahma Temple dedicated entirely to freshly baked crispy baatis cracked open and bathed in steaming desi ghee and spicy lentil dal",
+      "Homestyle Marwari purity"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94142 67890",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-pushkar-breakfast-corner",
+    "name": "Pushkar Breakfast Corner",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Varah Ghat Chauraha, Pushkar, Rajasthan 305022",
+    "latitude": 26.4898,
+    "longitude": 74.5522,
+    "cuisine": [
+      "Breakfast",
+      "Street Food",
+      "Snacks"
+    ],
+    "famousDishes": [
+      "Indori Poha with Sev & Pomegranate",
+      "Aloo Paratha with Curd",
+      "Masala Chai in Kulhad",
+      "Fresh Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Special Masala Poha Plate",
+        "price": 50
+      },
+      {
+        "food": "Desi Ghee Aloo Paratha (2 pcs)",
+        "price": 100
+      },
+      {
+        "food": "Kulhad Masala Chai",
+        "price": 25
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Morning Breakfast Spot",
+      "Pure Vegetarian",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Vibrant morning street corner at Varah Ghat where travelers gather for steaming yellow Indori poha topped with crunchy ratlami sev, lemon, and hot masala chai",
+      "Fast-paced morning vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-psk-nirvana-cafe",
+    "name": "Nirvana Cafe & Pizzeria",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Varah Ghat, Pushkar Lake East, Pushkar, Rajasthan 305022",
+    "latitude": 26.4892,
+    "longitude": 74.5525,
+    "cuisine": [
+      "Italian",
+      "Middle Eastern",
+      "Continental",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Wood-fired Veg Pizza",
+      "Hummus Plate",
+      "Muesli Fruit Curd Bowl",
+      "Fresh Apple Juice",
+      "Espresso"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Funghi Mushroom Pizza",
+        "price": 360
+      },
+      {
+        "food": "Nutritious Muesli Fruit Honey Bowl",
+        "price": 180
+      },
+      {
+        "food": "Falafel Hummus Roll",
+        "price": 150
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Lake Ghat Views",
+      "Rooftop Hammocks",
+      "Free Wi-Fi",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Relaxed multi-cuisine lakefront hangout adorned with colorful wall murals and comfortable floor mats, serving wholesome vegetarian breakfasts and oven-baked pizzas",
+      "Peaceful vibes"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94146 54321",
+    "website": null,
+    "available": true
+  }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "guideId": "BEN-001",
+        "name": "Regional Guide",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "languages": [
+            "English",
+            "Hindi",
+            "Kannada"
+        ],
+        "specialization": [
+            "City Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 12,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

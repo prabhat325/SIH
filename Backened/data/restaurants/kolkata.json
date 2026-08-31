@@ -1,0 +1,550 @@
+[
+  {
+    "restaurantId": "rst-ccu-peter-cat-park-street",
+    "name": "Peter Cat (Since 1975)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "18A, Park Street, Park Street Area, Kolkata, West Bengal 700016",
+    "latitude": 22.5534,
+    "longitude": 88.3521,
+    "cuisine": [
+      "Iranian-Anglo-Indian Heritage",
+      "Chelo Kebab Specialist",
+      "Continental Sizzlers"
+    ],
+    "famousDishes": [
+      "World-Famous Chelo Kebab (Butter-Rice crowned with Poached Egg, Grilled Mutton Seekh & Chicken Kebabs with a Melting Cube of Amul Butter)",
+      "Chicken Marakkesh",
+      "Sizzling Steak",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Peter Cat Chelo Kebab Platter",
+        "price": 490
+      },
+      {
+        "food": "Sizzling Chicken Tetrazzini",
+        "price": 440
+      },
+      {
+        "food": "Peter Cat House Red Wine (Glass)",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "Historic 1975 Dimly-Lit Wicker Lamp Interior",
+      "Turbaned Waiters",
+      "Full Bar",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Kolkata's most legendary single-dish temple founded in 1975 on Park Street by Nitin Kothari, world-renowned for inventing its signature Iranian-style Chelo Kebab served on sizzling cast-iron platters with melting butter and a golden poached egg",
+      "Kolkata's ultimate emotional culinary icon"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2229 8841",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-flurys-park-street",
+    "name": "Flurys (Since 1927)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "18, Park Street, Near Stephen Court, Kolkata, West Bengal 700071",
+    "latitude": 22.5538,
+    "longitude": 88.3525,
+    "cuisine": [
+      "European Tearoom",
+      "Heritage British Breakfast",
+      "Patisserie & Confectionery"
+    ],
+    "famousDishes": [
+      "Legendary Full English Breakfast (Eggs, Hash Brown, Baked Beans, Bacon, Pork Sausages & Toast)",
+      "Flurys Rum Ball",
+      "Chicken Mustard Patty",
+      "Baba Cake",
+      "Darjeeling First Flush Tea in Silver Pot",
+      "Strawberry Tart"
+    ],
+    "menu": [
+      {
+        "food": "Flurys Famous Full English Breakfast Set",
+        "price": 480
+      },
+      {
+        "food": "Iconic Flurys Chocolate Rum Ball",
+        "price": 110
+      },
+      {
+        "food": "Heritage Chicken Patty",
+        "price": 95
+      },
+      {
+        "food": "Finest Darjeeling Single-Estate Tea Pot",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Historic 1927 Art Deco Tearoom",
+      "Glass Window Park Street Views",
+      "Air Conditioning",
+      "Vintage Pastry Display"
+    ],
+    "specialFeatures": [
+      "Founded in 1927 by Swiss couple Joseph and Frieda Flury on Park Street, the undisputed queen of colonial tearooms in India, celebrated for grand English breakfasts and rich chocolate rum balls across five generations",
+      "Park Street's crown jewel"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 4000 7453",
+    "website": "http://flurys.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-6-ballygunge-place",
+    "name": "6 Ballygunge Place (Since 2003)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "6, Ballygunge Place, Ballygunge, Kolkata, West Bengal 700019",
+    "latitude": 22.5245,
+    "longitude": 88.3689,
+    "cuisine": [
+      "Authentic Bengali Heritage",
+      "Zamindari Gastronomy",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Daab Chingri (Jumbo Prawns baked inside a Green Tender Coconut in mustard cream)",
+      "Kosha Mangsho (Slow-braised rich mutton curry)",
+      "Bhetki Paturi (Barramundi wrapped in banana leaf with mustard)",
+      "Luchi with Cholar Dal",
+      "Bhapa Ilish",
+      "Nolen Gurer Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Signature Daab Chingri (Baked in whole tender coconut)",
+        "price": 680
+      },
+      {
+        "food": "Authentic Kosha Mangsho (4 tender mutton pieces in dark rich gravy)",
+        "price": 540
+      },
+      {
+        "food": "Bhetki Paturi (2 pcs in banana leaf)",
+        "price": 460
+      },
+      {
+        "food": "Artisanal Nolen Gurer (Date Palm Jaggery) Ice Cream",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "100-Year-Old Restored Zamindari Bungalow",
+      "Black & White Calcutta Photographs",
+      "Air Conditioning",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Set in an authentic century-old white-columned aristocratic Bengali mansion in Ballygunge, credited with reviving the lost zamindari recipes of 19th-century Calcutta including Daab Chingri and slow-cooked Kosha Mangsho",
+      "The premier ambassador of Bengali fine dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2460 3922",
+    "website": "http://6ballygungeplace.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-arsalan-park-circus",
+    "name": "Arsalan (Original Park Circus - Since 2002)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "191, Marina Building, 7-Point Crossing, Park Circus, Kolkata, West Bengal 700017",
+    "latitude": 22.5412,
+    "longitude": 88.3654,
+    "cuisine": [
+      "Kolkata Biryani Royalty",
+      "Awadhi Mughlai",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Kolkata Mutton Dum Biryani (Long-Grain Basmati with Golden Melted Potato & Juicy Mutton)",
+      "Arsalan Special Mutton Biryani",
+      "Mutton Chaap (Slow-simmered in poppy-seed ghee gravy)",
+      "Chicken Reshmi Butter Masala",
+      "Firni in Clay Pot"
+    ],
+    "menu": [
+      {
+        "food": "World-Famous Kolkata Mutton Dum Biryani (with Aloo)",
+        "price": 340
+      },
+      {
+        "food": "Signature Mutton Chaap",
+        "price": 280
+      },
+      {
+        "food": "Arsalan Special Chicken Biryani (2 pieces + Aloo + Egg)",
+        "price": 380
+      },
+      {
+        "food": "Matka Kesar Firni",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "Air Conditioning",
+      "Multi-Floor Dining Palace",
+      "Massive Takeaway Operation",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "The undisputed emperor of Kolkata's royal biryani culture at the 7-Point Park Circus crossing, world-famous for its fragrant long-grain rice infused with meetha ittar, saffron, and that iconic soft melt-in-mouth spiced potato",
+      "The standard by which all Kolkata biryani is judged"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2284 4456",
+    "website": "http://arsalanrestaurants.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-nizams-new-market",
+    "name": "Nizam's (Birthplace of Kathi Roll - Since 1932)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "21 & 22, Hogg Street, New Market, Kolkata, West Bengal 700087",
+    "latitude": 22.5601,
+    "longitude": 88.3512,
+    "cuisine": [
+      "Birthplace of Kathi Roll",
+      "Mughlai Street Grills",
+      "Biryani"
+    ],
+    "famousDishes": [
+      "The Original Double Egg Double Chicken Kathi Roll",
+      "Mutton Boti Kebab Roll",
+      "Kathi Kebab on Iron Skewer",
+      "Mutton Biryani",
+      "Chicken Chaap"
+    ],
+    "menu": [
+      {
+        "food": "The Original Double Chicken Double Egg Kathi Roll",
+        "price": 160
+      },
+      {
+        "food": "Special Mutton Boti Kathi Roll",
+        "price": 140
+      },
+      {
+        "food": "Mutton Chaap with Roomali Roti",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic 1932 Eatery",
+      "Air Conditioned Floor",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Founded in 1932 in New Market, celebrated worldwide in culinary history as the undisputed birthplace of the 'Kathi Roll'—created when British babus requested dry kebabs wrapped inside crispy parathas so they wouldn't grease their fingers",
+      "A global fast-food monument"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2252 3444",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-indian-coffee-house-college-street",
+    "name": "Indian Coffee House (College Street - Since 1876)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "15, Bankim Chatterjee Street, College Square, Kolkata, West Bengal 700073",
+    "latitude": 22.5745,
+    "longitude": 88.3634,
+    "cuisine": [
+      "Colonial Heritage Cafe",
+      "Bengali Adda Culture",
+      "Continental Snacks"
+    ],
+    "famousDishes": [
+      "Mutton Kabiraji Cutlet (Lacy Egg-Net Coated Mutton Cutlet)",
+      "Chicken Afghani",
+      "Mutton Cutlet with Mustard Kasundi",
+      "Infusion (Black Coffee)",
+      "Cold Coffee with Cream",
+      "Chicken Omelette"
+    ],
+    "menu": [
+      {
+        "food": "Signature Mutton Kabiraji Cutlet with Salad & Kasundi",
+        "price": 140
+      },
+      {
+        "food": "Classic Mutton Cutlet (2 pcs)",
+        "price": 110
+      },
+      {
+        "food": "Hot Coffee Infusion",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Monumental Double-Height 19th-Century Hall",
+      "Turbaned Feather-Cap Uniform Waiters",
+      "The Intellectual Epicenter of Bengal"
+    ],
+    "specialFeatures": [
+      "Historic 150-year-old double-height cavern on College Street immortalized in Manna Dey's song 'Coffee Houser Sei Addata', where Nobel laureates Rabindranath Tagore and Amartya Sen, filmmaker Satyajit Ray, and revolutionaries shaped modern India over endless cigarette smoke and mutton cutlets",
+      "The soul of Kolkata's intellectual adda"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2241 4869",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-mocambo-park-street",
+    "name": "Mocambo (Since 1953)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "25B, Park Street, Park Street Area, Kolkata, West Bengal 700016",
+    "latitude": 22.5528,
+    "longitude": 88.3531,
+    "cuisine": [
+      "Vintage Continental",
+      "Calcutta Heritage European Fine Dining"
+    ],
+    "famousDishes": [
+      "Devilled Crab (Baked Crab Meat in Shell with Mustard & Cheese)",
+      "Chicken Tetrazzini",
+      "Fish Florentine",
+      "Chateaubriand Beef Steak",
+      "Baked Alaska (Flambéed Meringue Dessert)"
+    ],
+    "menu": [
+      {
+        "food": "Signature Devilled Crab in Crab Shell",
+        "price": 460
+      },
+      {
+        "food": "Classic Chicken Tetrazzini Baked in Cream Sauce",
+        "price": 420
+      },
+      {
+        "food": "Famous Flambéed Baked Alaska Dessert",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 800,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "1950s Art Deco Red Plush Velvet Seating",
+      "Vintage Crystal Lamps",
+      "Full Bar",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Opened in 1953 as India's first nightclub-restaurant on Park Street, world-famous for its nostalgic European dining featuring creamy Devilled Crab baked in real crab carapaces and table-side flambéed Baked Alaska",
+      "Pure mid-century elegance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2229 0023",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-nakur-sandesh",
+    "name": "Girish Chandra Dey & Nakur Chandra Nandy (Since 1844)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "56, Ramdulal Sarkar Street, Near Hedua Park, Sovabazar, Kolkata, West Bengal 700006",
+    "latitude": 22.5878,
+    "longitude": 88.3689,
+    "cuisine": [
+      "Heritage Bengali Sandesh",
+      "Confectionery Master"
+    ],
+    "famousDishes": [
+      "Jolbhora Talsash Sandesh (Filled with liquid Date Palm Nolen Gur)",
+      "Parijat Sandesh",
+      "Kacha Golla",
+      "Monohora",
+      "Chocolate Sandesh",
+      "Shorbhaja"
+    ],
+    "menu": [
+      {
+        "food": "Original Nolen Gur Jolbhora Sandesh (Piece)",
+        "price": 45
+      },
+      {
+        "food": "Parijat Sandesh (Box of 6)",
+        "price": 220
+      },
+      {
+        "food": "Fresh Kacha Golla (250g)",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.9,
+    "amenities": [
+      "Historic 1844 Heritage Sweetshop",
+      "Centuries-Old Wooden Display",
+      "Takeaway Specialist"
+    ],
+    "specialFeatures": [
+      "Operating continuously since 1844 in North Kolkata, universally revered as the greatest artisan of 'Sandesh' on earth, creator of the legendary 'Jolbhora' where liquid date-palm jaggery bursts from the sweet center upon the first bite",
+      "180 years of sweet perfection"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2555 9920",
+    "website": "http://nakursweets.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-mitra-cafe-sovabazar",
+    "name": "Mitra Cafe (Since 1910)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "47, Jatindra Mohan Avenue, Shobhabazar, Kolkata, West Bengal 700005",
+    "latitude": 22.5989,
+    "longitude": 88.3681,
+    "cuisine": [
+      "Heritage Bengali Street Frys",
+      "Colonial Cutlets"
+    ],
+    "famousDishes": [
+      "Diamond Fish Fry (Pure Bhetki Fish Fillet with Kasundi)",
+      "Brain Chop (Spiced Goat Brain Cutlet)",
+      "Mutton Kabiraji",
+      "Mutton Mughlai Paratha",
+      "Prawn Cutlet"
+    ],
+    "menu": [
+      {
+        "food": "Famous Diamond Bhetki Fish Fry with Kasundi Mustard",
+        "price": 180
+      },
+      {
+        "food": "Crispy Mutton Brain Chop",
+        "price": 120
+      },
+      {
+        "food": "Special Mutton Kabiraji Cutlet",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic 1910 Heritage Shop",
+      "Shobhabazar Metro Proximity",
+      "Quick Counter Service"
+    ],
+    "specialFeatures": [
+      "Century-old fried snack institution in North Kolkata founded in 1910 by Roychand Mitra, celebrated for crispy panko-coated diamond-cut pure Bhetki fish fillets and spiced goat brain chops with pungent Bengali Kasundi",
+      "Unmatched Calcutta fry culture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98303 45678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ccu-bhojohori-manna",
+    "name": "Bhojohori Manna (Since 2003)",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "18/1A, Ekdalia Road, Gariahat, Kolkata, West Bengal 700019",
+    "latitude": 22.5189,
+    "longitude": 88.3654,
+    "cuisine": [
+      "Homestyle Bengali",
+      "Fish & Seafood Specialists"
+    ],
+    "famousDishes": [
+      "Chingri Malai Curry (Prawns in creamy spiced coconut milk)",
+      "Ilish Bhapa (Steamed Hilsa in Mustard)",
+      "Kolkata Bhetki Fry",
+      "Chitol Machher Muitha",
+      "Mishti Doi"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Golda Chingri Malai Curry",
+        "price": 540
+      },
+      {
+        "food": "Padmar Ilish Bhapa (Steamed Hilsa)",
+        "price": 580
+      },
+      {
+        "food": "Chitol Muitha (Featherback fish dumplings in rich gravy)",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 550,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Chalkboard Daily Fish Catch Menu",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Named after the famous song rendered by Manna Dey celebrating a globetrotting Bengali cook, famous for offering homestyle Bengali fish rarities like Chitol Muitha and seasonal monsoon Ilish",
+      "A beloved family dining staple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2440 1933",
+    "website": "http://bhojohorimanna.com",
+    "available": true
+  }
+]

@@ -1,0 +1,538 @@
+[
+  {
+    "restaurantId": "rst-nnt-sakleys-restaurant",
+    "name": "Sakley's Restaurant & Pastry Shop (Since 1944)",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "Off The Mall, Poplar Court, Mallital, Nainital, Uttarakhand 263001",
+    "latitude": 29.3945,
+    "longitude": 79.4534,
+    "cuisine": [
+      "Continental",
+      "Bakery & Patisserie",
+      "European Comfort Food",
+      "Sizzlers"
+    ],
+    "famousDishes": [
+      "Roast Chicken with Rosemary Gravy",
+      "Pepper Steak Sizzler",
+      "Chocolate Lava Cake",
+      "Apple Pie with Cinnamon Custard",
+      "Fish Florentine"
+    ],
+    "menu": [
+      {
+        "food": "Signature Roast Herb Chicken with Mashed Potatoes",
+        "price": 490
+      },
+      {
+        "food": "Classic Pepper Mushroom Sizzler",
+        "price": 420
+      },
+      {
+        "food": "Legendary Warm Apple Pie with Custard",
+        "price": 190
+      },
+      {
+        "food": "Hot Chocolate Fudge Sundae",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 550,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Colonial Cottage Fireplace Decor",
+      "In-House Bakery",
+      "Cozy Wooden Interior",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Founded in 1944 by Swiss Chef Salome Sakley, Nainital's most iconic heritage restaurant famous for vintage European roasts, sizzling platters, and handmade artisanal pastries",
+      "Beloved mountain institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5942 235 086",
+    "website": "http://sakleys.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-embassy-restaurant",
+    "name": "Embassy Restaurant",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "The Mall Road, Mallital, Nainital, Uttarakhand 263001",
+    "latitude": 29.3912,
+    "longitude": 79.4589,
+    "cuisine": [
+      "North Indian",
+      "Kumaoni",
+      "Continental",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Kumaoni Bhatt Ki Churkani",
+      "Butter Chicken",
+      "Chicken Sizzler",
+      "Dal Makhani",
+      "Tandoori Trout"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Kumaoni Thali",
+        "price": 360
+      },
+      {
+        "food": "Embassy Butter Chicken",
+        "price": 440
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 290
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Mall Road Location",
+      "Air Conditioning",
+      "Naini Lake View",
+      "Family Dining"
+    ],
+    "specialFeatures": [
+      "Prime Mall Road dining institution operating since decades, serving rich North Indian curries and authentic local Kumaoni black soybean curries to visiting holidaymakers",
+      "Bustling central venue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5942 235 597",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-sonam-fast-food",
+    "name": "Sonam Fast Food",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "Tibetan Market, The Flats, Mallital, Nainital, Uttarakhand 263001",
+    "latitude": 29.3958,
+    "longitude": 79.4521,
+    "cuisine": [
+      "Tibetan",
+      "Chinese Street Food"
+    ],
+    "famousDishes": [
+      "Steamed Mutton Momos",
+      "Thukpa Noodle Soup",
+      "Fried Veg Momos with Fiery Red Chutney",
+      "Chowmein"
+    ],
+    "menu": [
+      {
+        "food": "Famous Steamed Mutton Momos (8 pcs)",
+        "price": 140
+      },
+      {
+        "food": "Steamed Vegetable Momos (8 pcs)",
+        "price": 100
+      },
+      {
+        "food": "Special Mutton Thukpa",
+        "price": 150
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Tibetan Market Atmosphere",
+      "Quick Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "The undisputed momo king of Nainital hidden in the Tibetan market near Naina Devi temple, renowned for juicy hand-folded mutton momos served with scorching chili-garlic dipping sauce",
+      "Massive daily queues"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-machan-restaurant",
+    "name": "Machan Restaurant",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "The Mall, Opposite Boat Stand, Mallital, Nainital, Uttarakhand 263001",
+    "latitude": 29.3924,
+    "longitude": 79.4575,
+    "cuisine": [
+      "North Indian",
+      "Chinese",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Fish Amritsari",
+      "Chicken Tikka Lababdar",
+      "Machan Special Dal",
+      "Crispy Chilly Babycorn",
+      "Hakka Noodles"
+    ],
+    "menu": [
+      {
+        "food": "Paneer Lababdar",
+        "price": 340
+      },
+      {
+        "food": "Butter Chicken with Naan",
+        "price": 420
+      },
+      {
+        "food": "Machan Special Dal Makhani",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Direct Naini Lake Front View",
+      "Air Conditioning",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Prime window tables gazing directly across the picturesque emerald-green waters and colorful wooden yachts of Naini Lake",
+      "Popular family dinner spot on the promenade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5942 237 672",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-cafe-chica",
+    "name": "Cafe Chica - Abbotsford Estate",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "Abbotsford Heritage Estate, Prasada Bhawan, Oak Park, Mallital, Nainital, Uttarakhand 263001",
+    "latitude": 29.4012,
+    "longitude": 79.4478,
+    "cuisine": [
+      "European",
+      "Continental",
+      "Bakery & Desserts",
+      "Café"
+    ],
+    "famousDishes": [
+      "Roast Chicken with Garden Herbs",
+      "Fresh Handmade Pasta",
+      "Chocolate Croissant",
+      "Apple Berry Crumble",
+      "Specialty Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Abbotsford Roast Chicken",
+        "price": 580
+      },
+      {
+        "food": "Fresh Basil Pesto Fettuccine",
+        "price": 440
+      },
+      {
+        "food": "Warm Apple Berry Crumble with Ice Cream",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "1870s British Heritage Lawn",
+      "Mountain Pine Forest View",
+      "Outdoor Alfresco Seating",
+      "Artisan Coffee"
+    ],
+    "specialFeatures": [
+      "Set in the secluded mountain lawns of the 1876 Abbotsford estate surrounded by towering deodar pines, serving gourmet European meals in a serene fairytale setting",
+      "Nainital's hidden gourmet haven"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98109 00800",
+    "website": "https://www.abbotsford.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-shiva-durgapur-bal-mithai",
+    "name": "Shiva Restaurant & Durgapur Bal Mithai",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "Bara Bazaar, Mallital, Nainital, Uttarakhand 263001",
+    "latitude": 29.3968,
+    "longitude": 79.4512,
+    "cuisine": [
+      "Kumaoni Sweets",
+      "Desserts",
+      "Snacks"
+    ],
+    "famousDishes": [
+      "Kumaoni Bal Mithai (Roasted Khoya coated with White Sugar Balls)",
+      "Singori (Mawa in Malu Leaf Cone)",
+      "Chocolate Barfi",
+      "Samosa"
+    ],
+    "menu": [
+      {
+        "food": "Original Kumaoni Bal Mithai (500g)",
+        "price": 260
+      },
+      {
+        "food": "Traditional Singori (500g)",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Traditional Heritage Confectioner",
+      "Gift Packaging"
+    ],
+    "specialFeatures": [
+      "The definitive authority on Uttarakhand's iconic brown roasted mawa fudge 'Bal Mithai' coated in tiny white sugar globules and cone-shaped 'Singori' wrapped in fragrant forest malu leaves",
+      "Essential regional sweet souvenir"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5942 235 780",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-zoobys-kitchen",
+    "name": "Zooby's Kitchen",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "Near Rickshaw Stand, Tallital, Nainital, Uttarakhand 263002",
+    "latitude": 29.3812,
+    "longitude": 79.4678,
+    "cuisine": [
+      "Mughlai",
+      "Kumaoni",
+      "North Indian Non-Veg"
+    ],
+    "famousDishes": [
+      "Murg Rara",
+      "Zooby's Special Dal",
+      "Kumaoni Mutton Curry",
+      "Galawati Kebab",
+      "Butter Naan"
+    ],
+    "menu": [
+      {
+        "food": "Zooby's Special Murgh Rara",
+        "price": 420
+      },
+      {
+        "food": "Kumaoni Homestyle Mutton Curry",
+        "price": 460
+      },
+      {
+        "food": "Zooby's Special Dal",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Lake View Windows",
+      "Family Seating",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Popular multi-cuisine eatery in Tallital renowned for rich slow-cooked meat gravies, comforting Kumaoni village curries, and warm hospitality",
+      "Great lake views"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5942 236 001",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-pots-and-stones",
+    "name": "Pots & Stones Cafe",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "The Mall Road, Near Supreme Hotel, Nainital, Uttarakhand 263001",
+    "latitude": 29.3889,
+    "longitude": 79.4612,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Café",
+      "Artisan Coffee"
+    ],
+    "famousDishes": [
+      "Stone-Baked Thin Crust Pizza",
+      "Pasta Alfredo",
+      "Hot Waffles",
+      "Irish Coffee",
+      "Peri Peri Fries"
+    ],
+    "menu": [
+      {
+        "food": "Stone-baked Chicken Tikka Pizza",
+        "price": 380
+      },
+      {
+        "food": "Penne Alfredo with Garlic Bread",
+        "price": 320
+      },
+      {
+        "food": "Belgian Chocolate Waffle",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Outdoor Patio on Mall Road",
+      "Free Wi-Fi",
+      "Espresso Bar"
+    ],
+    "specialFeatures": [
+      "Modern stone-and-glass cafe on the Mall Road promenade featuring cozy outdoor benches to watch evening strollers while enjoying freshly baked stone pizzas and espresso",
+      "Vibrant youth vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5942 238 999",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-sher-e-punjab",
+    "name": "Sher-e-Punjab Mall Road",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "The Mall Road, Mallital, Nainital, Uttarakhand 263001",
+    "latitude": 29.3908,
+    "longitude": 79.4592,
+    "cuisine": [
+      "Punjabi",
+      "North Indian Non-Veg",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Butter Chicken",
+      "Dal Makhani",
+      "Tandoori Chicken",
+      "Tandoori Roti",
+      "Kadhai Paneer"
+    ],
+    "menu": [
+      {
+        "food": "Butter Chicken (Half)",
+        "price": 360
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 240
+      },
+      {
+        "food": "Tandoori Chicken (Half)",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Lakefront Proximity",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Classic Mall Road Punjabi restaurant known for rich gravies and sizzling tandoori meats that hit the spot in chilly mountain weather",
+      "Fast service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5942 235 678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nnt-nanak-restaurant",
+    "name": "Nanak Restaurant",
+    "city": "Nainital",
+    "state": "Uttarakhand",
+    "address": "The Mall Road, Near SBI Bank, Nainital, Uttarakhand 263001",
+    "latitude": 29.3895,
+    "longitude": 79.4604,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Special Vegetarian Thali",
+      "Masala Dosa",
+      "Paneer Butter Masala",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Executive Veg Thali",
+        "price": 240
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 150
+      },
+      {
+        "food": "Shahi Paneer",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Mall Road Location"
+    ],
+    "specialFeatures": [
+      "Trusted pure-vegetarian family diner on the Mall Road providing quick, clean, and delicious vegetarian meals for visiting families",
+      "Consistent quality"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5942 235 444",
+    "website": null,
+    "available": true
+  }
+]

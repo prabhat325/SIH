@@ -1,0 +1,253 @@
+[
+  {
+    "hotelId": "trv-the-leela-kovalam",
+    "name": "The Leela Kovalam, a Raviz Hotel",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Kovalam Beach Road, Thiruvananthapuram, Kerala 695527",
+    "latitude": 8.3885,
+    "longitude": 76.9785,
+    "pricePerNight": 22000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Clifftop Infinity Pool overlooking Arabian Sea",
+      "Ayurvedic Healing Village Spa",
+      "The Tides Seafood Beachfront Grill",
+      "The Terrace 24/7",
+      "The Sky Bar Clifftop Lounge",
+      "Private Beach"
+    ],
+    "specialFeatures": [
+      "India's only clifftop luxury beach resort designed by master architect Charles Correa",
+      "Two dramatic infinity pools perched high above the crashing ocean waves"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 305 1234",
+    "website": "https://www.theleela.com/the-leela-kovalam-a-raviz-hotel",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.102Z",
+    "updatedAt": "2026-08-22T21:20:27.102Z"
+  },
+  {
+    "hotelId": "trv-vivanta-thiruvananthapuram",
+    "name": "Vivanta Thiruvananthapuram (Taj)",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Extra Police Line Road, Nandavanam, Palayam, Thiruvananthapuram, Kerala 695033",
+    "latitude": 8.5085,
+    "longitude": 76.9545,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool",
+      "Jiva Spa",
+      "Mynt All-Day Dining",
+      "Wink Bar",
+      "Fitness Centre",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Rooftop swimming pool overlooking the capital city skyline and green hills",
+      "Close to Napier Museum and Secretariat"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 661 2345",
+    "website": "https://www.tajhotels.com/en-in/taj/vivanta-thiruvananthapuram/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.102Z",
+    "updatedAt": "2026-08-22T21:20:27.102Z"
+  },
+  {
+    "hotelId": "trv-hyatt-regency-trivandrum",
+    "name": "Hyatt Regency Trivandrum",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "CV Raman Pillai Road, Thycaud, Thiruvananthapuram, Kerala 695014",
+    "latitude": 8.4985,
+    "longitude": 76.9585,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Santata Spa",
+      "Malabar Cafe Authentic Kerala Kitchen",
+      "The Oriental Kitchen",
+      "Allam Bar",
+      "Regency Club"
+    ],
+    "specialFeatures": [
+      "Malabar Cafe serving live Karimeen Pollichathu, Appam and traditional Sadya feasts"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 256 1234",
+    "website": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-trivandrum/trvhr",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.102Z",
+    "updatedAt": "2026-08-22T21:20:27.102Z"
+  },
+  {
+    "hotelId": "trv-hilton-garden-inn",
+    "name": "Hilton Garden Inn Trivandrum",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Punnen Road, Near Secretariat, Statue, Thiruvananthapuram, Kerala 695039",
+    "latitude": 8.4954,
+    "longitude": 76.9512,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool",
+      "Garden Grille & Bar",
+      "V大全 Bar",
+      "24/7 Fitness Center",
+      "Meeting Rooms"
+    ],
+    "specialFeatures": [
+      "Prime city center business location near Padmanabhaswamy Temple and Government Secretariat"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 660 0000",
+    "website": "https://www.hilton.com/en/hotels/trvgigi-hilton-garden-inn-trivandrum/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.103Z",
+    "updatedAt": "2026-08-22T21:20:27.103Z"
+  },
+  {
+    "hotelId": "trv-uday-samudra-beach-hotel",
+    "name": "Uday Samudra Leisure Beach Hotel & Spa",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "GV Raja Road, Samudra Beach, Kovalam, Thiruvananthapuram, Kerala 695527",
+    "latitude": 8.4012,
+    "longitude": 76.9745,
+    "pricePerNight": 4900,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Three Large Swimming Pools",
+      "Ayurvedic Health Centre",
+      "Grasshopper Seafood Dining",
+      "Aquamarine Ocean Cafe",
+      "Beach Access"
+    ],
+    "specialFeatures": [
+      "Set on the quiet golden sands of Samudra Beach Kovalam with 3 outdoor pools and oceanfront dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 248 5766",
+    "website": "https://uds.co.in/uday-samudra-kovalam/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.103Z",
+    "updatedAt": "2026-08-22T21:20:27.103Z"
+  },
+  {
+    "hotelId": "trv-ginger-trivandrum",
+    "name": "Ginger Trivandrum (Technopark)",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Kazhakkoottam, Near Technopark Phase 1, Thiruvananthapuram, Kerala 695582",
+    "latitude": 8.5585,
+    "longitude": 76.8812,
+    "pricePerNight": 2400,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Rooms",
+      "24/7 Helpdesk"
+    ],
+    "specialFeatures": [
+      "Located right at the entrance of Technopark IT corridor and NH-66 bypass"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 666 3333",
+    "website": "https://www.gingerhotels.com/ginger-trivandrum",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.103Z",
+    "updatedAt": "2026-08-22T21:20:27.103Z"
+  },
+  {
+    "hotelId": "trv-the-hosteller-trivandrum",
+    "name": "The Hosteller Trivandrum",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Manaveeyam Veedhi, Vellayambalam, Thiruvananthapuram, Kerala 695010",
+    "latitude": 8.5112,
+    "longitude": 76.9621,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe",
+      "Co-working Desks",
+      "Dorm & Private Rooms",
+      "Cultural Walk Desk"
+    ],
+    "specialFeatures": [
+      "Located next to famous Manaveeyam Veedhi cultural corridor with live street theater, music, and art"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-trivandrum/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.104Z",
+    "updatedAt": "2026-08-22T21:20:27.104Z"
+  },
+  {
+    "hotelId": "trv-hotel-horizon",
+    "name": "Hotel Horizon Thiruvananthapuram",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Aristo Junction, Thampanoor, Thiruvananthapuram, Kerala 695014",
+    "latitude": 8.4895,
+    "longitude": 76.9535,
+    "pricePerNight": 1800,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Roof Garden Restaurant",
+      "Air Conditioning",
+      "Elevator",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "5-minute walk from Trivandrum Central Railway Station and KSRTC Central Bus Station"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 232 6888",
+    "website": "https://hotelhorizon.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.105Z",
+    "updatedAt": "2026-08-22T21:20:27.105Z"
+  }
+]

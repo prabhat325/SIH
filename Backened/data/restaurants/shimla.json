@@ -1,0 +1,548 @@
+[
+  {
+    "restaurantId": "rst-sml-cafe-shimla-times",
+    "name": "Cafe Shimla Times",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Hotel Willow Banks, Near Tourism Lift, The Mall Road, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1034,
+    "longitude": 77.1728,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Artisan Bakery",
+      "Cocktails",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood Fired Thin Crust Pizza",
+      "Tiramisu",
+      "Shimla Times Special Burger",
+      "Cinnamon Hot Chocolate",
+      "Craft Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Four Cheese Pizza",
+        "price": 440
+      },
+      {
+        "food": "Signature Lamb Burger with Fries",
+        "price": 380
+      },
+      {
+        "food": "Classic Italian Tiramisu",
+        "price": 240
+      },
+      {
+        "food": "Hot Spiced Apple Cider",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 550,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Rooftop Valley Sunset View",
+      "Hand-Painted Mural Ceiling",
+      "Full Bar",
+      "Live Acoustic Music Evenings",
+      "Heaters in Winter"
+    ],
+    "specialFeatures": [
+      "Shimla's most picturesque and photographed rooftop cafe featuring a stunning hand-painted ceiling depicting historic Shimla landmarks, a vintage Fiat car installation, and 180-degree sunset valley views",
+      "A top dining destination"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 8125",
+    "website": "http://willowbanks.com/dining",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-indian-coffee-house",
+    "name": "Indian Coffee House (Since 1957)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "1, The Mall Road, Middle Bazaar, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1045,
+    "longitude": 77.1741,
+    "cuisine": [
+      "South Indian",
+      "Snacks",
+      "Traditional Coffee"
+    ],
+    "famousDishes": [
+      "Special Filter Coffee",
+      "Mutton Cutlet with Toast",
+      "Butter Masala Dosa",
+      "Scrambled Eggs with Toast",
+      "Cheese Omelette"
+    ],
+    "menu": [
+      {
+        "food": "Special Filter Coffee (Cup)",
+        "price": 40
+      },
+      {
+        "food": "Legendary Mutton Cutlet (2 pcs)",
+        "price": 110
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 90
+      },
+      {
+        "food": "Cheese Omelette Toast",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Historic 1957 Institution",
+      "Turbanned Waiters in Nehruvian Uniforms",
+      "Vintage Wooden Seating"
+    ],
+    "specialFeatures": [
+      "Historic coffee house operating since 1957, frequented by Prime Minister Narendra Modi during his Himachal years and generations of journalists and intellectuals",
+      "Unrivaled vintage charm and pocket-friendly filter coffee"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 2407",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-cecil-oberoi",
+    "name": "The Restaurant - The Oberoi Cecil",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "The Oberoi Cecil, Chaura Maidan, Shimla, Himachal Pradesh 171004",
+    "latitude": 31.1021,
+    "longitude": 77.1512,
+    "cuisine": [
+      "Himachali Heritage",
+      "Pan Asian",
+      "Continental",
+      "Royal Indian"
+    ],
+    "famousDishes": [
+      "Traditional Himachali Kangri Dham",
+      "Khatta Meat",
+      "Madra",
+      "Seared Himalayan Trout",
+      "Oberoi Chocolate Dome"
+    ],
+    "menu": [
+      {
+        "food": "Royal Himachali Tasting Menu",
+        "price": 3800
+      },
+      {
+        "food": "Pan-Seared Fresh Himalayan Rainbow Trout",
+        "price": 1450
+      },
+      {
+        "food": "Himachali Khatta Meat",
+        "price": 1250
+      }
+    ],
+    "averageCostForOne": 3500,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Grand 1883 Colonial Ballroom",
+      "Polished Teak Floors & Crystal Chandeliers",
+      "Full Bar",
+      "Valet Parking",
+      "Classical Pianist",
+      "Dress Code"
+    ],
+    "specialFeatures": [
+      "Grand Victorian dining room in a heritage 1883 British retreat where Lord Kitchener once danced, serving exquisite Himachali Dham and European fine dining with impeccable silver service",
+      "The pinnacle of Shimla luxury"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 280 4848",
+    "website": "https://www.oberoihotels.com/hotels-in-shimla-cecil/dining/the-restaurant/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-himachali-rasoi",
+    "name": "Himachali Rasoi",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "53, Middle Bazaar, Near Mall Road, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1041,
+    "longitude": 77.1748,
+    "cuisine": [
+      "Authentic Himachali",
+      "Kangri Dham",
+      "Mandi Dham",
+      "Pure Vegetarian Traditional"
+    ],
+    "famousDishes": [
+      "Kangri Dham on Leaf Plate (Pattal)",
+      "Sepu Vadi in Spinach Gravy",
+      "Madra (Chickpeas in Curd)",
+      "Khatta (Sweet & Sour Lentil)",
+      "Meetha Bhaat (Sweet Rice with Dry Fruits)"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Kangri Dham Thali (Complete Banquet on Leaf Plate)",
+        "price": 280
+      },
+      {
+        "food": "Mandi Dham Special",
+        "price": 290
+      },
+      {
+        "food": "Siddu with Pure Desi Ghee & Mint Chutney",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Traditional Brass & Leaf Plate Service",
+      "Pure Vegetarian",
+      "Cozy Heritage Eatery"
+    ],
+    "specialFeatures": [
+      "Shimla's first dedicated traditional culinary rasoi preserving the ancient festive 'Dham' traditions of Kangra and Mandi, including steamed walnut-stuffed 'Siddu' dipped in hot desi ghee",
+      "An authentic cultural treasure"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98160 55667",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-wake-and-bake",
+    "name": "Wake & Bake Cafe",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "34/1, The Mall Road, Opposite Town Hall, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1051,
+    "longitude": 77.1756,
+    "cuisine": [
+      "French Crepes",
+      "Italian",
+      "Organic Café",
+      "Bakery"
+    ],
+    "famousDishes": [
+      "Nutella Banana French Crepe",
+      "Handmade Thin Crust Pizza",
+      "Hummus Falafel Plate",
+      "Apple Cinnamon Pie",
+      "South Indian Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Nutella Banana Homemade Crepe",
+        "price": 210
+      },
+      {
+        "food": "Wake & Bake Farmhouse Pizza",
+        "price": 360
+      },
+      {
+        "food": "Fresh Organic Apple Pie with Vanilla Custard",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Bay Window Seating Overlooking Mall Road",
+      "Free Wi-Fi",
+      "Art Displays",
+      "Bookshelf"
+    ],
+    "specialFeatures": [
+      "Charming yellow-walled 2nd-floor cafe with big open wooden bay windows directly overlooking the bustling Mall Road promenade and historic Town Hall",
+      "Famous for fresh French crepes and homemade pies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 281 3133",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-baljees-fascination",
+    "name": "Baljees & Fascination (Since 1954)",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "26, The Mall Road, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1048,
+    "longitude": 77.1751,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Continental",
+      "Mithai"
+    ],
+    "famousDishes": [
+      "World Famous Hot Gulab Jamun (in Steaming Syrup)",
+      "Chicken Stroganoff",
+      "Butter Chicken",
+      "Chole Bhature",
+      "Paneer Lababdar"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Baljees Hot Gulab Jamun (2 pcs)",
+        "price": 80
+      },
+      {
+        "food": "Special Amritsari Chana Bhatura",
+        "price": 160
+      },
+      {
+        "food": "Baljees Butter Chicken",
+        "price": 440
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Heritage 1954 Restaurant & Sweet Counter",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Operating on Mall Road for over 70 years, world-renowned for its gigantic, melt-in-mouth dark brown Gulab Jamuns served in piping hot fragrant syrup",
+      "A cherished childhood memory for generations of visitors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 2313",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-ashiana-goofa",
+    "name": "Ashiana & Goofa - The Ridge",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "The Ridge, Near Christ Church, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1061,
+    "longitude": 77.1772,
+    "cuisine": [
+      "Himachali",
+      "North Indian",
+      "Chinese",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Tawa Trout Fish",
+      "Himachali Khatta Meat",
+      "Chicken Curry",
+      "Chana Madra",
+      "Cold Beer & Sizzlers"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Himalayan Tawa Trout",
+        "price": 580
+      },
+      {
+        "food": "Himachali Khatta Mutton",
+        "price": 480
+      },
+      {
+        "food": "Butter Chicken with Roti",
+        "price": 390
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Historic Circular Bandstand on The Ridge",
+      "Christ Church View",
+      "Full Bar",
+      "HPTDC Operated"
+    ],
+    "specialFeatures": [
+      "Set in a unique circular gazebo pavilion right in the middle of The Ridge opposite Christ Church, offering panoramic views of the open square and snow-capped Himalayan ranges",
+      "Historic government-run landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 262 1572",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-eighteen71-cookhouse",
+    "name": "Eighteen71 Cookhouse & Bar",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Hotel Willow Banks, Near Tourism Lift, The Mall Road, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1036,
+    "longitude": 77.1729,
+    "cuisine": [
+      "Pan Asian",
+      "North Indian",
+      "Continental",
+      "Craft Cocktails"
+    ],
+    "famousDishes": [
+      "Eighteen71 Dal Makhani",
+      "Crispy Lotus Stem",
+      "Dim Sum Basket",
+      "Mutton Rogan Josh",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Eighteen71 Signature Dal Makhani",
+        "price": 340
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 490
+      },
+      {
+        "food": "Steamed Dim Sum Basket",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 700,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Contemporary Chic Lounge Decor",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Sophisticated contemporary multi-cuisine restaurant named after the year Shimla became the official summer capital of British India, offering live grill stations and creative craft cocktails",
+      "Chic evening venue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 8125",
+    "website": "http://willowbanks.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-sita-ram-lakkar-bazaar",
+    "name": "Sita Ram & Sons",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Lakkar Bazaar, Below Ridge Stairs, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1068,
+    "longitude": 77.1782,
+    "cuisine": [
+      "Street Food",
+      "Snacks",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Famous Tikki Chhole (Spiced Chickpeas with Crispy Potato Patties)",
+      "Lassi",
+      "Sweet Chutney"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Tikki Chana Plate (2 Tikkis with spicy chana & chutney)",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 70,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Old Heritage Wooden Bazaar",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Legendary 70-year-old shop in the wooden craft market Lakkar Bazaar famous for crisp golden potato tikkis buried in slow-cooked spiced chickpea gravy and sweet tamarind-mint chutney",
+      "A Shimla street food legend"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-sml-hide-out-cafe",
+    "name": "Hide Out Cafe",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Shop No. 30, 1st Floor, The Mall, Near Fire Station, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1054,
+    "longitude": 77.1761,
+    "cuisine": [
+      "Café",
+      "Breakfast",
+      "Italian",
+      "American Diner"
+    ],
+    "famousDishes": [
+      "English Breakfast Skillet",
+      "Garlic Butter Pasta",
+      "Stuffed Omelette",
+      "Chilli Cheese Toast",
+      "Hot Chocolate"
+    ],
+    "menu": [
+      {
+        "food": "All-Day Full English Breakfast",
+        "price": 280
+      },
+      {
+        "food": "Creamy Penne Arrabbiata",
+        "price": 290
+      },
+      {
+        "food": "Hot Chocolate with Marshmallows",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Cozy Wooden Cafe",
+      "Mall Road Window Seats",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Cozy wood-paneled second-floor hideaway on Mall Road celebrated for hearty all-day breakfasts, steaming skillet omelettes, and rich mugs of hot chocolate",
+      "Warm escape from the mountain chill"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 2899",
+    "website": null,
+    "available": true
+  }
+]

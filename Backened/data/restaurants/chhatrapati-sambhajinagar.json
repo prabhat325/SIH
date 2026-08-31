@@ -1,0 +1,416 @@
+[
+  {
+    "restaurantId": "rst-csn-yalla-yalla",
+    "name": "Yalla Yalla",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "address": "Plot No. 11, Town Centre, Sector E, CIDCO, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra 431003",
+    "latitude": 19.8821,
+    "longitude": 75.3612,
+    "cuisine": [
+      "Mughlai",
+      "Dawat-e-Naan Qalia (Heritage)",
+      "North Indian Non-Veg"
+    ],
+    "famousDishes": [
+      "Traditional Naan Qalia (Aurangabadi Mutton Stew with Clay Naan)",
+      "Mutton Biryani",
+      "Murg Malai Tikka",
+      "Seekh Kebab",
+      "Shahi Tukda"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Aurangabadi Naan Qalia (with 2 Naans)",
+        "price": 340
+      },
+      {
+        "food": "Special Mutton Dum Biryani",
+        "price": 280
+      },
+      {
+        "food": "Murgh Malai Kebab",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Family Seating",
+      "Takeaway",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "The city's finest restaurant for 'Naan Qalia', an iconic 700-year-old culinary creation invented when Sultan Muhammad bin Tughlaq moved his capital here, comprising spiced slow-simmered mutton gravy eaten with soft leavened clay-baked naans",
+      "The definitive local delicacy"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 240 248 1122",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-csn-bhoj-thali",
+    "name": "Bhoj Thali Restaurant",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "address": "Near Central Bus Stand, Nirala Bazaar Road, Chhatrapati Sambhajinagar, Maharashtra 431001",
+    "latitude": 19.8789,
+    "longitude": 75.3245,
+    "cuisine": [
+      "Gujarati",
+      "Rajasthani",
+      "Pure Vegetarian Unlimited Thali"
+    ],
+    "famousDishes": [
+      "Grand Unlimited Veg Thali",
+      "Dal Baati Churma",
+      "Kadhi Pakoda",
+      "Paneer Butter Masala",
+      "Gulab Jamun",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Bhoj Grand Unlimited Royal Thali",
+        "price": 290
+      }
+    ],
+    "averageCostForOne": 290,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Central Bus Stand Proximity",
+      "Rapid Service"
+    ],
+    "specialFeatures": [
+      "The city's most popular vegetarian institution for travelers visiting the Ellora & Ajanta caves, serving authentic unlimited Gujarati and Rajasthani thalis with warm ghee phulkas",
+      "High hygiene and great value"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 240 233 2233",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-csn-great-sagar",
+    "name": "Great Sagar Restaurant",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "address": "Near Jubilee Park, Bhadkal Gate, Chhatrapati Sambhajinagar, Maharashtra 431001",
+    "latitude": 19.8891,
+    "longitude": 75.3289,
+    "cuisine": [
+      "Mughlai",
+      "Biryani",
+      "Tandoori Non-Veg"
+    ],
+    "famousDishes": [
+      "Aurangabadi Mutton Biryani",
+      "Naan Qalia",
+      "Tandoori Chicken",
+      "Mutton Rogan Josh",
+      "Roomali Roti"
+    ],
+    "menu": [
+      {
+        "food": "Great Sagar Special Mutton Biryani",
+        "price": 260
+      },
+      {
+        "food": "Authentic Naan Qalia Platter",
+        "price": 310
+      },
+      {
+        "food": "Tandoori Chicken (Half)",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Historic Bhadkal Gate Area",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic Mughlai diner near the 17th-century Bhadkal Gate, famous for rich slow-cooked dum biryanis and royal Deccan curries for over four decades",
+      "Perpetual local crowd favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 240 234 1500",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-csn-gayatri-chaat",
+    "name": "Gayatri Chaat Bhandar",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "address": "Gulmandi Chowk, Old City, Chhatrapati Sambhajinagar, Maharashtra 431001",
+    "latitude": 19.8845,
+    "longitude": 75.3271,
+    "cuisine": [
+      "Street Food",
+      "Chaat",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Moong Dal Bhajiya with Green Chutney",
+      "Dahi Puri",
+      "Pani Puri",
+      "Samosa Chaat"
+    ],
+    "menu": [
+      {
+        "food": "Famous Moong Bhajiya Plate (Crisp Yellow Lentil Fritters)",
+        "price": 50
+      },
+      {
+        "food": "Special Dahi Puri",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Street Counter",
+      "Pure Vegetarian",
+      "Old City Gulmandi Hub"
+    ],
+    "specialFeatures": [
+      "Gulmandi's legendary 60-year-old evening snack stall famous for piping hot, ultra-crisp yellow moong dal fritters (bhajiyas) served with spicy green chillies and mint chutney",
+      "Unmatched street fame"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-csn-madhuban-rama",
+    "name": "Madhuban - WelcomHotel Rama International",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "address": "Welcomhotel Rama International, R-3, Chikalthana, Chhatrapati Sambhajinagar, Maharashtra 431210",
+    "latitude": 19.8712,
+    "longitude": 75.3789,
+    "cuisine": [
+      "Mughlai",
+      "North Indian",
+      "Continental",
+      "Fine Dining Buffet"
+    ],
+    "famousDishes": [
+      "Grand Buffet Spread",
+      "Nawabi Naan Qalia",
+      "Dal Bukhara Style",
+      "Murgh Tikka Lababdar",
+      "Dessert Island"
+    ],
+    "menu": [
+      {
+        "food": "Grand Multi-Cuisine Dinner Buffet",
+        "price": 1250
+      },
+      {
+        "food": "Royal Naan Qalia",
+        "price": 680
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 420
+      }
+    ],
+    "averageCostForOne": 1250,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "5-Star Luxury Dining Hall",
+      "Manicured Palace Gardens",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Premier 5-star hotel dining room offering luxurious multi-cuisine buffets and elevated Mughlai specialties for international heritage tourists exploring Ellora and Ajanta",
+      "Top-tier hospitality"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 240 663 4141",
+    "website": "https://www.itchotels.com/in/en/welcomhotelramainternational-aurangabad/dining",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-csn-tandoor-restaurant",
+    "name": "Tandoor Restaurant",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "address": "Station Road, Near Railway Station, Chhatrapati Sambhajinagar, Maharashtra 431005",
+    "latitude": 19.8654,
+    "longitude": 75.3198,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Tandoori Chicken",
+      "Butter Chicken",
+      "Mutton Rogan Josh",
+      "Kadhai Paneer",
+      "Butter Naan"
+    ],
+    "menu": [
+      {
+        "food": "Tandoori Chicken (Half)",
+        "price": 260
+      },
+      {
+        "food": "Butter Chicken Special",
+        "price": 340
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Railway Station Vicinity",
+      "Full Bar"
+    ],
+    "specialFeatures": [
+      "Reliable non-vegetarian family restaurant opposite the railway station, serving clay-oven tandoori grills and creamy curries for arriving tourists",
+      "Fast service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 240 235 6789",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-csn-uttam-mithai-bhandar",
+    "name": "Uttam Mithai Bhandar",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "address": "Gulmandi, City Chowk Road, Chhatrapati Sambhajinagar, Maharashtra 431001",
+    "latitude": 19.8852,
+    "longitude": 75.3265,
+    "cuisine": [
+      "Mithai",
+      "Desserts",
+      "Traditional Sweets"
+    ],
+    "famousDishes": [
+      "Desi Ghee Imarti with Malai Rabri",
+      "Kaju Katli",
+      "Gulab Jamun",
+      "Basundi",
+      "Khaman Dhokla"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Desi Ghee Imarti with Thick Rabri",
+        "price": 80
+      },
+      {
+        "food": "Kesar Basundi Cup",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Heritage Sweetshop",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Famous old-city confectionery in Gulmandi renowned for giant hot crisp Imartis soaked in saffron syrup and served alongside creamy chilled Rabri",
+      "Beloved celebration sweet shop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 240 232 4455",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-csn-green-leaf-cidco",
+    "name": "Green Leaf Pure Veg",
+    "city": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "address": "Near Prozone Mall, CIDCO, Chhatrapati Sambhajinagar, Maharashtra 431003",
+    "latitude": 19.8765,
+    "longitude": 75.3721,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Special Vegetarian Thali",
+      "Paneer Tikka Masala",
+      "Crispy Masala Dosa",
+      "Veg Sizzler",
+      "Kulfi"
+    ],
+    "menu": [
+      {
+        "food": "Executive Veg Thali",
+        "price": 260
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 240
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 130
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Prozone Mall Proximity",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Spacious and spotless pure-vegetarian multi-cuisine family diner in the CIDCO commercial corridor, perfect for quick lunches and family dinners",
+      "High hygiene standards"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 240 247 0088",
+    "website": null,
+    "available": true
+  }
+]

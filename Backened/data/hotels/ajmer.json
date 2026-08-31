@@ -1,0 +1,248 @@
+[
+  {
+    "hotelId": "ajm-pratap-mahal-ihcl",
+    "name": "Pratap Mahal, Ajmer - IHCL SeleQtions",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Bhonabay, Jaipur-Jodhpur Highway, Ajmer, Rajasthan 305005",
+    "latitude": 26.4982,
+    "longitude": 74.6715,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Jiva Spa",
+      "Aravalli All-Day Dining",
+      "Fitness Centre",
+      "Badminton Court"
+    ],
+    "specialFeatures": [
+      "Sanctuary set against the Aravalli hills with palace-style arches and courtyards",
+      "Signature Taj hospitality near Ajmer"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 662 0000",
+    "website": "https://www.seleqtionshotels.com/en-in/pratap-mahal-ajmer/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.901Z",
+    "updatedAt": "2026-08-22T21:20:26.901Z"
+  },
+  {
+    "hotelId": "ajm-mansingh-palace",
+    "name": "Mansingh Palace Ajmer",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Ana Sagar Circular Road, Vaishali Nagar, Ajmer, Rajasthan 305001",
+    "latitude": 26.4781,
+    "longitude": 74.6312,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Sheesh Mahal Restaurant",
+      "Sipah Salar Bar",
+      "Conference Rooms",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "18th-century royal palace style facade overlooking Ana Sagar Lake",
+      "Sheesh Mahal specialty restaurant"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 242 5702",
+    "website": "https://www.mansinghhotels.com/mansingh-palace-ajmer/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.902Z",
+    "updatedAt": "2026-08-22T21:20:26.902Z"
+  },
+  {
+    "hotelId": "ajm-regenta-inn-embassy",
+    "name": "Regenta Inn Embassy Ajmer",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Jaipur Road, Near City Power House, Ajmer, Rajasthan 305001",
+    "latitude": 26.4621,
+    "longitude": 74.6445,
+    "pricePerNight": 3800,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Limelight Multi-cuisine Restaurant",
+      "Business Center",
+      "Banquet Hall",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Contemporary brand comfort in central Ajmer",
+      "Close to Ajmer Sharif Dargah and Railway Station"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 242 5555",
+    "website": "https://www.royalorchidhotels.com/regenta-inn-embassy-ajmer/overview",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.902Z",
+    "updatedAt": "2026-08-22T21:20:26.902Z"
+  },
+  {
+    "hotelId": "ajm-hotel-merwara-estate",
+    "name": "Hotel Merwara Estate",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Kutchery Road, Near Daulat Bagh, Ajmer, Rajasthan 305001",
+    "latitude": 26.4695,
+    "longitude": 74.6361,
+    "pricePerNight": 3500,
+    "category": "Mid-Range",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Heritage Ballroom",
+      "Lake View Dining",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "150-year-old royal colonial estate overlooking the tranquil Daulat Bagh and Ana Sagar"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 262 4872",
+    "website": "https://merwaraestate.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.903Z",
+    "updatedAt": "2026-08-22T21:20:26.903Z"
+  },
+  {
+    "hotelId": "ajm-hotel-ambassador",
+    "name": "Hotel Ambassador Ajmer",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Nagpal Building, Ashok Marg, Civil Lines, Ajmer, Rajasthan 305001",
+    "latitude": 26.4674,
+    "longitude": 74.6398,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Ambassador Pure Veg Restaurant",
+      "Air Conditioning",
+      "Elevator",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Centrally located in Civil Lines",
+      "Delicious Rajasthani and North Indian thali dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 242 5095",
+    "website": "https://hotelambassadorajmer.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.903Z",
+    "updatedAt": "2026-08-22T21:20:26.903Z"
+  },
+  {
+    "hotelId": "ajm-khadim-rtdc",
+    "name": "Hotel Khadim (RTDC)",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Civil Lines, Near Savitri Girls College, Ajmer, Rajasthan 305001",
+    "latitude": 26.4712,
+    "longitude": 74.6385,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Parking",
+      "Restaurant & Bar",
+      "Spacious Lawns",
+      "Room Service",
+      "Dargah Tour Assistance"
+    ],
+    "specialFeatures": [
+      "Official Rajasthan Tourism Development Corporation heritage property in lush green compound"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 262 7490",
+    "website": "https://www.rtdc.tourism.rajasthan.gov.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.904Z",
+    "updatedAt": "2026-08-22T21:20:26.904Z"
+  },
+  {
+    "hotelId": "ajm-hotel-chitvan",
+    "name": "Hotel Chitvan Ajmer",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Jaipur-Ajmer Bypass, Adarsh Nagar, Ajmer, Rajasthan 305002",
+    "latitude": 26.4421,
+    "longitude": 74.6612,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Restaurant",
+      "Kids Play Area",
+      "Ample Parking",
+      "24-hour Desk"
+    ],
+    "specialFeatures": [
+      "Lush highway garden retreat with clean budget accommodations"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 269 5011",
+    "website": "https://hotelchitvan.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.904Z",
+    "updatedAt": "2026-08-22T21:20:26.904Z"
+  },
+  {
+    "hotelId": "ajm-hotel-metro-palace",
+    "name": "Hotel Metro Palace",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Near Dargah Gate No. 1, Dargah Bazar, Ajmer, Rajasthan 305001",
+    "latitude": 26.4552,
+    "longitude": 74.6288,
+    "pricePerNight": 1300,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "24/7 Room Service",
+      "Hot Water",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "2-minute walking distance to holy Ajmer Sharif Dargah entrance",
+      "Pilgrimage convenience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 262 0555",
+    "website": "https://hotelmetropalaceajmer.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.905Z",
+    "updatedAt": "2026-08-22T21:20:26.905Z"
+  }
+]

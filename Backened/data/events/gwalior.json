@@ -1,0 +1,57 @@
+{
+    "events": [
+        {
+            "eventId": "GWALIOR-EVENT-001",
+            "name": "Tansen Samaroh",
+            "city": "Gwalior",
+            "state": "Madhya Pradesh",
+            "description": "One of India's most prestigious classical music festivals dedicated to Mian Tansen.",
+            "type": "Concert",
+            "venue": "Tansen Samadhi Sthal, Behat",
+            "usualMonth": "December",
+            "usualTime": "Evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tansensamaroh.com/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/fc26757f-274a-5db6-a667-6e62f62dbecb/67a48ac7-7794-5f04-a330-3852e03cb7be.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "GWALIOR-EVENT-002",
+            "name": "Gwalior Trade Fair",
+            "city": "Gwalior",
+            "state": "Madhya Pradesh",
+            "description": "An annual exhibition showcasing trade and commerce.",
+            "type": "Exhibition",
+            "venue": "Gwalior Exhibition Ground",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://gwalior.nic.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "GWALIOR-EVENT-003",
+            "name": "Mahotsav",
+            "city": "Gwalior",
+            "state": "Madhya Pradesh",
+            "description": "A cultural festival celebrating Gwalior's musical heritage.",
+            "type": "Cultural",
+            "venue": "Various venues in Gwalior",
+            "usualMonth": "November/December",
+            "usualTime": "Evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://gwalior.nic.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

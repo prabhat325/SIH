@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "JODHPUR-EVENT-001",
+            "name": "Rajasthan International Folk Festival",
+            "city": "Jodhpur",
+            "state": "Rajasthan",
+            "description": "A five-day international folk music festival at Mehrangarh Fort.",
+            "type": "Concert",
+            "venue": "Mehrangarh Fort",
+            "usualMonth": "October",
+            "usualTime": "Evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.jodhpurfolkfest.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "JODHPUR-EVENT-002",
+            "name": "Teej Festival",
+            "city": "Jodhpur",
+            "state": "Rajasthan",
+            "description": "A traditional festival celebrating the arrival of monsoon.",
+            "type": "Festival",
+            "venue": "Various venues in Jodhpur",
+            "usualMonth": "July/August",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "JODHPUR-EVENT-003",
+            "name": "Gangaur Festival",
+            "city": "Jodhpur",
+            "state": "Rajasthan",
+            "description": "An 18-day festival honoring Goddess Gauri.",
+            "type": "Religious",
+            "venue": "Various venues in Jodhpur",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "18 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

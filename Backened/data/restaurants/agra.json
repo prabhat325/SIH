@@ -1,0 +1,861 @@
+[
+  {
+    "restaurantId": "rst-agr-dasaprakash",
+    "name": "Dasaprakash",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "1 Meher Cinema Complex, Gwalior Road, Baluganj, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1612,
+    "longitude": 78.0125,
+    "cuisine": [
+      "South Indian",
+      "North Indian",
+      "Vegetarian",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Special South Indian Thali",
+      "Butter Masala Dosa",
+      "Filter Coffee",
+      "Ice Cream Sundaes"
+    ],
+    "menu": [
+      {
+        "food": "Special South Indian Thali",
+        "price": 320
+      },
+      {
+        "food": "Butter Masala Dosa",
+        "price": 180
+      },
+      {
+        "food": "Mysore Masala Dosa",
+        "price": 195
+      },
+      {
+        "food": "Filter Coffee",
+        "price": 75
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Family Seating",
+      "Vegetarian Only",
+      "Dessert Bar",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Historic South Indian dining institution serving Agra since decades",
+      "Famous for authentic dosas and artisan ice cream"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 246 3535",
+    "website": "http://www.dasaprakash.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-pinch-of-spice",
+    "name": "Pinch of Spice",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "1076/2, Fatehabad Road, Tajganj, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1593,
+    "longitude": 78.0428,
+    "cuisine": [
+      "Mughlai",
+      "North Indian",
+      "Tandoori",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Murg Boti Masala",
+      "Paneer Lababdar",
+      "Dal Makhani",
+      "Galouti Kebab"
+    ],
+    "menu": [
+      {
+        "food": "Murg Boti Masala",
+        "price": 495
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 425
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 365
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 545
+      }
+    ],
+    "averageCostForOne": 700,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Full Bar",
+      "Fine Dining",
+      "Wi-Fi"
+    ],
+    "specialFeatures": [
+      "One of Agra's most popular multi-cuisine fine-dining destinations",
+      "Renowned for rich Mughlai curries and tandoori grills"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 404 0404",
+    "website": "http://www.pinchofspice.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-peshawri-itc",
+    "name": "Peshawri - ITC Mughal",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "ITC Mughal, Fatehabad Road, Tajganj, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1597,
+    "longitude": 78.0436,
+    "cuisine": [
+      "North West Frontier",
+      "Mughlai",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Dal Bukhara",
+      "Sikandari Raan",
+      "Murgh Malai Kabab",
+      "Tandoori Jhinga",
+      "Naan Bukhara"
+    ],
+    "menu": [
+      {
+        "food": "Dal Bukhara",
+        "price": 850
+      },
+      {
+        "food": "Sikandari Raan",
+        "price": 2800
+      },
+      {
+        "food": "Murgh Malai Kabab",
+        "price": 1250
+      },
+      {
+        "food": "Paneer Tikka",
+        "price": 950
+      }
+    ],
+    "averageCostForOne": 2500,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Full Bar",
+      "Fine Dining",
+      "Luxury Ambience",
+      "Wheelchair Accessible"
+    ],
+    "specialFeatures": [
+      "Award-winning North-West Frontier cuisine cooked in clay tandoors",
+      "Signature slow-cooked Dal Bukhara simmered overnight for 18 hours"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 223 1777",
+    "website": "https://www.itchotels.com/in/en/itcmughal-agra/dining/peshawri",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-shankara-veggis",
+    "name": "Shankara Vegis Restaurant",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "Tajganj Chowk, Near Taj Mahal South Gate, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1685,
+    "longitude": 78.0425,
+    "cuisine": [
+      "North Indian",
+      "Pure Vegetarian",
+      "Thali",
+      "Street Food"
+    ],
+    "famousDishes": [
+      "Special Vegetarian Thali",
+      "Aloo Paratha",
+      "Masala Chai",
+      "Paneer Butter Masala"
+    ],
+    "menu": [
+      {
+        "food": "Special Veg Thali",
+        "price": 180
+      },
+      {
+        "food": "Aloo Paratha with Curd",
+        "price": 80
+      },
+      {
+        "food": "Shahi Paneer",
+        "price": 160
+      },
+      {
+        "food": "Masala Chai",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Rooftop Seating",
+      "Pure Vegetarian",
+      "Taj View Rooftop",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Backpackers favourite rooftop café overlooking the Taj Mahal minarets",
+      "Fresh home-style Indian vegetarian cooking at pocket-friendly rates"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 233 0456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-bhagat-halwai",
+    "name": "Bhagat Halwai",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "Near Nehru Nagar, Bye Pass Road, Civil Lines, Agra, Uttar Pradesh 282002",
+    "latitude": 27.2014,
+    "longitude": 77.9946,
+    "cuisine": [
+      "Mithai",
+      "North Indian",
+      "Street Food",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Bedmi Puri with Aloo Sabzi",
+      "Kachori",
+      "Gulab Jamun",
+      "Jalebi Rabri",
+      "Rasgulla"
+    ],
+    "menu": [
+      {
+        "food": "Bedmi Puri Aloo Thali (2 pcs)",
+        "price": 90
+      },
+      {
+        "food": "Khasta Kachori with Chhole",
+        "price": 50
+      },
+      {
+        "food": "Desi Ghee Jalebi (100g)",
+        "price": 60
+      },
+      {
+        "food": "Rabri Cup",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Takeaway",
+      "Quick Service",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Over 225 years of heritage serving authentic Agra breakfast and desi ghee sweets since 1795",
+      "Famous for morning Bedmi Puri and fresh hot Jalebis"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 252 1444",
+    "website": "https://bhagathalwai.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-panchi-petha-sadar",
+    "name": "Panchi Petha Store",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "18/163, Sadar Bazaar, Agra Cantt, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1582,
+    "longitude": 78.0094,
+    "cuisine": [
+      "Desserts",
+      "Traditional Sweets"
+    ],
+    "famousDishes": [
+      "Angoori Petha",
+      "Kesar Petha",
+      "Paan Petha",
+      "Dalmoth",
+      "Chocolate Petha"
+    ],
+    "menu": [
+      {
+        "food": "Angoori Petha (500g)",
+        "price": 160
+      },
+      {
+        "food": "Kesar Petha (500g)",
+        "price": 190
+      },
+      {
+        "food": "Special Agra Dalmoth (500g)",
+        "price": 220
+      },
+      {
+        "food": "Paan Petha (500g)",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Takeaway",
+      "Air Conditioning",
+      "Sample Tasting",
+      "Gift Packaging"
+    ],
+    "specialFeatures": [
+      "The original iconic brand synonymous with Agra Petha worldwide",
+      "Famous for melt-in-mouth ash gourd sweets and spicy Dalmoth namkeen"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 222 5556",
+    "website": "https://panchipetha.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-taj-bano-itc",
+    "name": "Taj Bano - ITC Mughal",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "ITC Mughal, Fatehabad Road, Tajganj, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1597,
+    "longitude": 78.0436,
+    "cuisine": [
+      "Awadhi",
+      "Mughlai",
+      "North Indian",
+      "Buffet"
+    ],
+    "famousDishes": [
+      "Dum Biryani",
+      "Galouti Kebab",
+      "Nalli Nihari",
+      "Shahi Tukda"
+    ],
+    "menu": [
+      {
+        "food": "Grand Dinner Buffet",
+        "price": 2400
+      },
+      {
+        "food": "Awadhi Gosht Dum Biryani",
+        "price": 950
+      },
+      {
+        "food": "Shahi Tukda",
+        "price": 450
+      }
+    ],
+    "averageCostForOne": 2200,
+    "priceCategory": "Premium",
+    "rating": 4.6,
+    "amenities": [
+      "Fine Dining",
+      "Air Conditioning",
+      "Valet Parking",
+      "Full Bar",
+      "Live Cooking Counters"
+    ],
+    "specialFeatures": [
+      "Lavish royal buffet inspired by the grand banquet traditions of Mughal courts",
+      "Specializes in slow-cooked Awadhi dum preparations and kebabs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 223 1777",
+    "website": "https://www.itchotels.com/in/en/itcmughal-agra/dining/taj-bano",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-mama-frankie",
+    "name": "Mama Chicken Mama Frankie House",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "A-36, Gopi Chand Shivhare Road, Sadar Bazaar, Agra Cantt, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1578,
+    "longitude": 78.0089,
+    "cuisine": [
+      "Street Food",
+      "Mughlai",
+      "Rolls & Wraps",
+      "North Indian Non-Veg"
+    ],
+    "famousDishes": [
+      "Chicken Frankie Roll",
+      "Mutton Seekh Roll",
+      "Butter Chicken",
+      "Keema Naan"
+    ],
+    "menu": [
+      {
+        "food": "Mama Special Chicken Frankie",
+        "price": 160
+      },
+      {
+        "food": "Mutton Seekh Kebab Frankie",
+        "price": 180
+      },
+      {
+        "food": "Butter Chicken (Half)",
+        "price": 320
+      },
+      {
+        "food": "Rumali Roti",
+        "price": 20
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Takeaway",
+      "Quick Service",
+      "Outdoor Seating"
+    ],
+    "specialFeatures": [
+      "Sadar Bazaar's legendary non-vegetarian joint known across the region for crispy stuffed frankies",
+      "Famous late-night food hotspot for tourists and locals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 222 5373",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-joney-roti",
+    "name": "Joney's Roti Restaurant",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "Miyan Bazar, Near Taj South Gate, Tajganj, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1691,
+    "longitude": 78.0418,
+    "cuisine": [
+      "North Indian",
+      "Breakfast",
+      "Café"
+    ],
+    "famousDishes": [
+      "Banana Lassi",
+      "Stuffed Cheese Naan",
+      "Shahi Paneer",
+      "Special Thali"
+    ],
+    "menu": [
+      {
+        "food": "Special Banana Lassi",
+        "price": 70
+      },
+      {
+        "food": "Garlic Butter Cheese Naan",
+        "price": 90
+      },
+      {
+        "food": "Mix Veg Curry",
+        "price": 130
+      },
+      {
+        "food": "Palak Paneer",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Takeaway",
+      "Cozy Ambience",
+      "Vegetarian Friendly"
+    ],
+    "specialFeatures": [
+      "Historic traveler eatery established in 1978 near South Gate",
+      "Famous for fresh curd lassis and homestyle freshly rolled rotis"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94123 01478",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-bikanervala",
+    "name": "Bikanervala Agra",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "Near Tulsi Cinema, Bye Pass Road, Sanjay Place, Civil Lines, Agra, Uttar Pradesh 282002",
+    "latitude": 27.2023,
+    "longitude": 78.0041,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Chaat & Sweets"
+    ],
+    "famousDishes": [
+      "Raj Kachori",
+      "Chole Bhature",
+      "Paneer Tikka Platter",
+      "Rasmalai",
+      "Kaju Katli"
+    ],
+    "menu": [
+      {
+        "food": "Special Raj Kachori",
+        "price": 130
+      },
+      {
+        "food": "Special Amritsari Chole Bhature",
+        "price": 170
+      },
+      {
+        "food": "Executive Veg Thali",
+        "price": 290
+      },
+      {
+        "food": "Rasmalai (2 pcs)",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Spacious Seating",
+      "Parking",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Reliable high-hygiene family vegetarian food court and traditional confectionery",
+      "Signature crispy chaats and comprehensive North/South Indian combos"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 400 3500",
+    "website": "https://bikanervala.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-deviram-sweets",
+    "name": "Deviram Sweets & Restaurant",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "1/45, Pratap Pura, Mahatma Gandhi Road, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1648,
+    "longitude": 78.0083,
+    "cuisine": [
+      "Street Food",
+      "North Indian",
+      "Mithai"
+    ],
+    "famousDishes": [
+      "Bedmi Puri with Spicy Aloo Sabzi",
+      "Jalebi",
+      "Moong Dal Halwa",
+      "Khaman Dhokla"
+    ],
+    "menu": [
+      {
+        "food": "Bedmi Poori & Aloo Sabzi (per plate)",
+        "price": 70
+      },
+      {
+        "food": "Crispy Desi Ghee Jalebi (100g)",
+        "price": 50
+      },
+      {
+        "food": "Moong Dal Halwa (100g)",
+        "price": 75
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Takeaway",
+      "Quick Service",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Agra's quintessential morning pilgrimage spot for piping hot spicy Bedmi Poori and Jalebis",
+      "Generations-old recipe retaining authentic Braj flavor"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 246 1500",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-the-salt-cafe",
+    "name": "The Salt Cafe Kitchen & Bar",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "Plot No. 1B, 3rd Floor, Fatehabad Road, Tajganj, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1601,
+    "longitude": 78.0491,
+    "cuisine": [
+      "Continental",
+      "North Indian",
+      "Pan Asian",
+      "Cocktails"
+    ],
+    "famousDishes": [
+      "Wood Fired Pizza",
+      "Greek Mezze Platter",
+      "Dahi Ke Kebab",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Classic Margherita Pizza",
+        "price": 420
+      },
+      {
+        "food": "Dahi Ke Kebab",
+        "price": 360
+      },
+      {
+        "food": "Butter Chicken with Garlic Naan",
+        "price": 480
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Rooftop Seating",
+      "Live Music",
+      "Full Bar",
+      "Air Conditioning",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Greek-themed whitewashed rooftop café and terrace lounge overlooking the Taj skyline",
+      "Vibrant nightlife ambience with artisan wood-fired pizzas"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 99109 00806",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-esphahan-oberoi",
+    "name": "Esphahan - The Oberoi Amarvilas",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "The Oberoi Amarvilas, Taj East Gate Road, Tajganj, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1682,
+    "longitude": 78.0519,
+    "cuisine": [
+      "Mughlai",
+      "Royal Indian",
+      "Awadhi"
+    ],
+    "famousDishes": [
+      "Dum Gosht Biryani",
+      "Murg Tikka Mirza",
+      "Subz Panchmel",
+      "Kulfi Falooda"
+    ],
+    "menu": [
+      {
+        "food": "Royal Set Menu (Veg)",
+        "price": 4500
+      },
+      {
+        "food": "Royal Set Menu (Non-Veg)",
+        "price": 5200
+      },
+      {
+        "food": "Murg Tikka Mirza",
+        "price": 1650
+      }
+    ],
+    "averageCostForOne": 4500,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Fine Dining",
+      "Live Sitar Music",
+      "Valet Parking",
+      "Full Bar",
+      "Dress Code",
+      "Romantic Ambience"
+    ],
+    "specialFeatures": [
+      "Ultra-luxury royal Mughal dining experience inside The Oberoi Amarvilas with live traditional sitar recitals",
+      "Authentic recipes from imperial Mughal imperial kitchens"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 223 1515",
+    "website": "https://www.oberoihotels.com/hotels-in-agra-amarvilas-resort/dining/esphahan/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-pind-balluchi",
+    "name": "Pind Balluchi",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "Opposite Saga Emporium, Fatehabad Road, Tajganj, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1588,
+    "longitude": 78.0412,
+    "cuisine": [
+      "Punjabi",
+      "North Indian",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Dhabey Da Kukkad",
+      "Dal Balluchi",
+      "Paneer Tikka Shaslik",
+      "Amritsari Kulcha"
+    ],
+    "menu": [
+      {
+        "food": "Dal Balluchi",
+        "price": 340
+      },
+      {
+        "food": "Dhabey Da Kukkad",
+        "price": 460
+      },
+      {
+        "food": "Paneer Tikka Shaslik",
+        "price": 380
+      },
+      {
+        "food": "Amritsari Kulcha with Chole",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 550,
+    "priceCategory": "Moderate",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Theme Decor",
+      "Family Seating",
+      "Full Bar",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Rustic Punjabi village village theme interior with traditional cots and brass tableware",
+      "Hearty clay-oven tandoori grills and slow-cooked dal"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 400 3123",
+    "website": "https://pindballuchi.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-agr-tebra-taj",
+    "name": "Taj Terrace",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "address": "Hotel Taj Resorts, 538 Near Shilpgram, Eastern Gate Taj Mahal, Agra, Uttar Pradesh 282001",
+    "latitude": 27.1673,
+    "longitude": 78.0512,
+    "cuisine": [
+      "North Indian",
+      "Continental",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Mughlai Handi Chicken",
+      "Paneer Butter Masala",
+      "Grilled Sandwiches",
+      "Tandoori Platter"
+    ],
+    "menu": [
+      {
+        "food": "Mughlai Handi Chicken",
+        "price": 420
+      },
+      {
+        "food": "Paneer Butter Masala",
+        "price": 340
+      },
+      {
+        "food": "Tandoori Veg Platter",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Rooftop Taj View",
+      "Air Conditioning",
+      "Swimming Pool Deck",
+      "Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Direct line of sight to the dome of Taj Mahal from open rooftop terrace",
+      "Perfect sunset dinner venue for heritage photography enthusiasts"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 562 223 0161",
+    "website": "http://www.hoteltajresorts.com",
+    "available": true
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "restaurantId": "rst-trv-villa-maya",
+    "name": "Villa Maya (Heritage Fine Dining)",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "120, Airport Road, Enchakkal, Vallakkadavu, Thiruvananthapuram, Kerala 695008",
+    "latitude": 8.4845,
+    "longitude": 76.9389,
+    "cuisine": [
+      "Kerala Gourmet",
+      "Chettinad",
+      "Italian",
+      "Pan Asian",
+      "Seafood Fine Dining"
+    ],
+    "famousDishes": [
+      "Lobster Moilee in Spiced Coconut Milk",
+      "Alleppey Fish Curry",
+      "Stuffed Squid Rings",
+      "Kerala Mutton Roast",
+      "Elaneer Soufflé",
+      "Duck Roast with Appams"
+    ],
+    "menu": [
+      {
+        "food": "Signature Jumbo Lobster Moilee with Appams",
+        "price": 1650
+      },
+      {
+        "food": "Alleppey Kingfish Curry with Red Rice",
+        "price": 780
+      },
+      {
+        "food": "Kerala Spiced Roast Duck with Flaky Parotta",
+        "price": 740
+      },
+      {
+        "food": "Elaneer (Tender Coconut) Soufflé",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 1800,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "18th-Century Dutch Manor Architecture",
+      "Illuminated Courtyard Lily Ponds",
+      "Private Dining Pavilions",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Housed inside an exquisitely restored 18th-century Dutch colonial manor that once belonged to the Travancore Royal Family, voted among India's finest heritage dining destinations",
+      "Unmatched royal elegance and culinary mastery"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 257 8920",
+    "website": "http://villamaya.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-trv-mothers-veg-plaza",
+    "name": "Mothers Veg Plaza (Grand Sadya 365 Days)",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Near Russian Cultural Centre, Bakery Junction, Vazhuthacaud, Thiruvananthapuram, Kerala 695014",
+    "latitude": 8.4989,
+    "longitude": 76.9545,
+    "cuisine": [
+      "Traditional Kerala Sadya",
+      "Pure Vegetarian Banana Leaf Feast"
+    ],
+    "famousDishes": [
+      "Grand Kerala Sadya (28+ Dishes served on Banana Leaf: Avial, Thoran, Olan, Kalan, Erissery, 4 Payasams: Ada Pradhaman, Paal Payasam, Parippu, Gothambu)"
+    ],
+    "menu": [
+      {
+        "food": "Grand Unlimited Kerala Festive Sadya (with 4 Hot Payasams)",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Unlimited Traditional Service",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "World-famous for serving an authentic, elaborate 28-dish traditional Onam festival banquet ('Kerala Sadya') on banana leaves every single day of the year, culminating in four distinct warm payasams",
+      "The ultimate Kerala vegetarian feast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 401 2255",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-trv-indian-coffee-house-maveli",
+    "name": "Indian Coffee House (Maveli Cafe - Spiral Tower)",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Opposite Central Railway Station, Thampanoor, Thiruvananthapuram, Kerala 695001",
+    "latitude": 8.4889,
+    "longitude": 76.9489,
+    "cuisine": [
+      "South Indian",
+      "Heritage Snacks & Coffee",
+      "Kerala Non-Veg Snacks"
+    ],
+    "famousDishes": [
+      "Special Beetroot Mutton Cutlet",
+      "Masala Dosa",
+      "South Indian Filter Coffee",
+      "Chicken Omelette",
+      "Egg Roast"
+    ],
+    "menu": [
+      {
+        "food": "Signature Beetroot Mutton Cutlet (2 pcs with Sauce)",
+        "price": 70
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 65
+      },
+      {
+        "food": "Authentic Filter Coffee",
+        "price": 25
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Masterpiece Spiral Brick Architecture by Laurie Baker",
+      "Continuous Continuous Spiral Ramp Seating",
+      "Station Proximity"
+    ],
+    "specialFeatures": [
+      "World-renowned architectural marvel designed by legendary architect Laurie Baker, shaped like a continuous red-brick spiral tower with spiraling ramps where waiters in turbans serve iconic mutton cutlets and filter coffee",
+      "A cultural and architectural icon"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 232 8875",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-trv-paragon-restaurant",
+    "name": "Paragon Restaurant (Since 1939)",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "address": "Near Kesavadasapuram Junction, MC Road, Thiruvananthapuram, Kerala 695004",
+    "latitude": 8.5289,
+    "longitude": 76.9389,
+    "cuisine": [
+      "Malabar Heritage",
+      "Kozhikode Biryani",
+      "Seafood Specialty"
+    ],
+    "famousDishes": [
+      "World-Famous Kozhikode Mutton Dum Biryani (Khaima Rice)",
+      "Paragon Fish Mango Curry",
+      "Squid Ghee Roast",
+      "Flaky Malabar Parotta with Beef Roast",
+      "Elaneer Payasam"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Malabar Mutton Dum Biryani",
+        "price": 340
+      },
+      {
+        "food": "Signature Malabar Fish Mango Coconut Curry",
+        "price": 420
+      },
+      {
+        "food": "Flaky Malabar Parotta with Spicy Beef Fry",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Family Friendly",
+      "Award-Winning Heritage"
+    ],
+    "specialFeatures": [
+      "Voted by TasteAtlas as one of the Most Legendary Restaurants in the World, celebrated for its sublime Malabar biryani made with fragrant tiny Khaima rice and sweet-sour green mango fish curries",
+      "World-class Malabar gastronomy"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 471 244 4433",
+    "website": "http://paragonrestaurant.net",
+    "available": true
+  }
+]

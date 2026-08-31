@@ -1,0 +1,74 @@
+{
+    "events": [
+        {
+            "eventId": "MYSURU-EVENT-001",
+            "name": "Mysuru Dasara",
+            "city": "Mysuru",
+            "state": "Karnataka",
+            "description": "Karnataka's state festival with the famous Jumbo Savari and illumination of Mysuru Palace.",
+            "type": "Festival",
+            "venue": "Mysuru Palace and city streets",
+            "usualMonth": "September/October",
+            "usualTime": "Morning to night",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/9cc5be21-4390-5672-b530-16e4a9d131f8/30a33c1c-655c-58f2-a983-d4fcd217ebb2.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "MYSURU-EVENT-002",
+            "name": "Vairamudi Festival",
+            "city": "Mysuru",
+            "state": "Karnataka",
+            "description": "A unique festival where the deity is adorned with a diamond crown.",
+            "type": "Religious",
+            "venue": "Cheluvanarayana Temple",
+            "usualMonth": "March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MYSURU-EVENT-003",
+            "name": "Mysuru Literature Festival",
+            "city": "Mysuru",
+            "state": "Karnataka",
+            "description": "An annual gathering celebrating Kannada and English literature.",
+            "type": "Cultural",
+            "venue": "Various venues in Mysuru",
+            "usualMonth": "December",
+            "usualTime": "Morning to evening",
+            "usualDuration": "3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MYSURU-EVENT-004",
+            "name": "Uyale Festival",
+            "city": "Mysuru",
+            "state": "Karnataka",
+            "description": "A traditional festival with the deity in a golden cradle.",
+            "type": "Religious",
+            "venue": "Nanjangud (near Mysuru)",
+            "usualMonth": "February/March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

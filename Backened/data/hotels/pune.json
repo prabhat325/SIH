@@ -1,0 +1,319 @@
+[
+  {
+    "hotelId": "pnq-the-ritz-carlton-pune",
+    "name": "The Ritz-Carlton, Pune",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Golf Course Square, Airport Road, Yerawada, Pune, Maharashtra 411006",
+    "latitude": 18.5535,
+    "longitude": 73.8872,
+    "pricePerNight": 21000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Temperature-controlled Pool",
+      "The Ritz-Carlton Spa",
+      "Ukiyo Japanese Restaurant",
+      "The Market Global Dining",
+      "Aasmana Rooftop Bar",
+      "Poona Club Golf View"
+    ],
+    "specialFeatures": [
+      "Unrivalled 5-star ultra-luxury overlooking the 100-acre lush Poona Club Golf Course",
+      "Aasmana 18th floor lounge and Michelin-caliber Japanese dining at Ukiyo"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 6767 5000",
+    "website": "https://www.ritzcarlton.com/en/hotels/pnqrz-the-ritz-carlton-pune/overview/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.024Z",
+    "updatedAt": "2026-08-22T21:20:27.024Z"
+  },
+  {
+    "hotelId": "pnq-conrad-pune",
+    "name": "Conrad Pune - Luxury by Hilton",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "7 Mangaldas Road, Sangamvadi, Koregaon Park, Pune, Maharashtra 411001",
+    "latitude": 18.5361,
+    "longitude": 73.8825,
+    "pricePerNight": 14000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Temperature-controlled Pool",
+      "Conrad Spa",
+      "Koji Pan-Asian Dining",
+      "Coriander Kitchen",
+      "Kabana Pool Bar",
+      "Masu Bar"
+    ],
+    "specialFeatures": [
+      "Hilton's premier luxury brand flagship in India located in posh Koregaon Park area",
+      "Dramatic Art Deco architecture and glass rain design"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 6745 6745",
+    "website": "https://www.hilton.com/en/hotels/pnqcici-conrad-pune/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.025Z",
+    "updatedAt": "2026-08-22T21:20:27.025Z"
+  },
+  {
+    "hotelId": "pnq-jw-marriott-pune",
+    "name": "JW Marriott Hotel Pune",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Senapati Bapat Road, Shivajinagar, Pune, Maharashtra 411053",
+    "latitude": 18.5328,
+    "longitude": 73.8325,
+    "pricePerNight": 12500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Quan Spa",
+      "Spice Kitchen 24/7",
+      "Paasha Rooftop Lounge",
+      "Alto Vino Italian",
+      "Miami Nightclub"
+    ],
+    "specialFeatures": [
+      "Home to Paasha, Pune's most celebrated rooftop lounge on 24th floor with city skyline panoramas",
+      "Direct access to Pavilion Mall"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 6683 3333",
+    "website": "https://www.marriott.com/en-us/hotels/pnqmc-jw-marriott-hotel-pune/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.025Z",
+    "updatedAt": "2026-08-22T21:20:27.025Z"
+  },
+  {
+    "hotelId": "pnq-sheraton-grand-pune",
+    "name": "Sheraton Grand Pune Bund Garden Hotel",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Raja Bahadur Mill Road, Sangamvadi, Pune, Maharashtra 411001",
+    "latitude": 18.5289,
+    "longitude": 73.8695,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool",
+      "Shine Spa",
+      "Feast Global Dining",
+      "Chingari Rooftop Indian",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Old-world Rajasthani palatial architecture with majestic stone archways",
+      "Chingari rooftop poolside barbecue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 6641 1111",
+    "website": "https://www.marriott.com/en-us/hotels/pnqsi-sheraton-grand-pune-bund-garden-hotel/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.026Z",
+    "updatedAt": "2026-08-22T21:20:27.026Z"
+  },
+  {
+    "hotelId": "pnq-blue-diamond-ihcl",
+    "name": "Blue Diamond, Pune - IHCL SeleQtions",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "11 Koregaon Park Road, Pune, Maharashtra 411001",
+    "latitude": 18.5395,
+    "longitude": 73.8892,
+    "pricePerNight": 7200,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Jiva Spa",
+      "Whispering Bamboo Chinese",
+      "Carrot & Celery 24/7",
+      "The Grill Room"
+    ],
+    "specialFeatures": [
+      "Pune's first 5-star hotel in the heart of lush, tree-lined Koregaon Park",
+      "Renowned Whispering Bamboo Chinese fine dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 6602 5555",
+    "website": "https://www.seleqtionshotels.com/en-in/blue-diamond-pune/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.026Z",
+    "updatedAt": "2026-08-22T21:20:27.026Z"
+  },
+  {
+    "hotelId": "pnq-the-corinthians-resort",
+    "name": "The Corinthians Resort & Club",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Nyati County, NIBM Annex, Undri, Pune, Maharashtra 411060",
+    "latitude": 18.4612,
+    "longitude": 73.9145,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Egyptian Theme Swimming Pool",
+      "The 1st Brewhouse (Microbrewery)",
+      "Senses Spa",
+      "Tennis & Badminton Courts",
+      "Salsa Restaurant"
+    ],
+    "specialFeatures": [
+      "25-acre Egyptian-themed resort with Pune's premier craft brewery (The 1st Brewhouse) on site"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2695 2222",
+    "website": "https://thecorinthianspune.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.026Z",
+    "updatedAt": "2026-08-22T21:20:27.026Z"
+  },
+  {
+    "hotelId": "pnq-zostel-pune",
+    "name": "Zostel Pune (Koregaon Park)",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Lane 1, North Main Road, Koregaon Park, Pune, Maharashtra 411001",
+    "latitude": 18.5385,
+    "longitude": 73.8941,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Cafe",
+      "Air Conditioning",
+      "Common Chill Lounge",
+      "Workstation Pods",
+      "Lockers"
+    ],
+    "specialFeatures": [
+      "Located in green Koregaon Park, walking distance to Osho International Ashram and top cafes",
+      "Co-working friendly"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/pune/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.027Z",
+    "updatedAt": "2026-08-22T21:20:27.027Z"
+  },
+  {
+    "hotelId": "pnq-ginger-pune-wakad",
+    "name": "Ginger Pune, Wakad",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Hinjewadi-Wakad Road, Opposite Indira College, Wakad, Pune, Maharashtra 411057",
+    "latitude": 18.5995,
+    "longitude": 73.7548,
+    "pricePerNight": 2500,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Rooms",
+      "24/7 Desk"
+    ],
+    "specialFeatures": [
+      "Strategic location on Mumbai-Pune Expressway exit near Hinjewadi IT Park Phase 1"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 6677 3333",
+    "website": "https://www.gingerhotels.com/ginger-pune-wakad",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.027Z",
+    "updatedAt": "2026-08-22T21:20:27.027Z"
+  },
+  {
+    "hotelId": "pnq-gostops-pune",
+    "name": "goSTOPS Pune",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Model Colony, Shivaji Nagar, Pune, Maharashtra 411016",
+    "latitude": 18.5312,
+    "longitude": 73.8378,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Gaming Room",
+      "Rooftop Hangout",
+      "Air Conditioned Dorms",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "Prime Shivaji Nagar location near Pune University and FC Road street food & shopping"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-pune/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.027Z",
+    "updatedAt": "2026-08-22T21:20:27.027Z"
+  },
+  {
+    "hotelId": "pnq-fabhotel-shivajinagar",
+    "name": "FabHotel Prime FC Road Shivaji Nagar",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Fergusson College Road, Shivajinagar, Pune, Maharashtra 411004",
+    "latitude": 18.5245,
+    "longitude": 73.8421,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "24/7 Helpdesk",
+      "Elevator",
+      "Complimentary Breakfast"
+    ],
+    "specialFeatures": [
+      "Heart of FC Road student quarter, steps from iconic Vaishali & Cafe Goodluck"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 70424 24242",
+    "website": "https://www.fabhotels.com/hotels-in-pune/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.028Z",
+    "updatedAt": "2026-08-22T21:20:27.028Z"
+  }
+]

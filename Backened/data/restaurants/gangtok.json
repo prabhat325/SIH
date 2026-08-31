@@ -1,0 +1,220 @@
+[
+  {
+    "restaurantId": "rst-gtk-taste-of-tibet",
+    "name": "Taste of Tibet (MG Marg)",
+    "city": "Gangtok",
+    "state": "Sikkim",
+    "address": "MG Marg, Near Titanic Park, Gangtok, Sikkim 737101",
+    "latitude": 27.3289,
+    "longitude": 88.6145,
+    "cuisine": [
+      "Tibetan",
+      "Sikkimese",
+      "Himalayan Soul Food"
+    ],
+    "famousDishes": [
+      "Steamed Juicy Pork & Beef Momos with Fiery Chilli Dip",
+      "Tibetan Gyathuk Noodle Soup",
+      "Crispy Fried Shaphaley",
+      "Chilli Pork with Tingmo Steamed Buns",
+      "Hot Thukpa"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Tibetan Pork Momos (Plate of 8 with Broth & Chilli Sauce)",
+        "price": 160
+      },
+      {
+        "food": "Mixed Meat Gyathuk Noodle Bowl",
+        "price": 180
+      },
+      {
+        "food": "Crispy Shaphaley (2 pcs)",
+        "price": 140
+      },
+      {
+        "food": "Tingmo (Fluffy Steamed Flower Bread)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "First Floor MG Marg Promenade View",
+      "Tibetan Prayer Flags Decor",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Gangtok's most iconic Tibetan dining institution overlooking the vehicle-free pedestrian boulevard of MG Marg, universally praised for its gigantic hand-pinched momos and steaming bowls of broth",
+      "An essential Sikkim culinary pilgrimage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3592 201 020",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gtk-nimtho-mg-marg",
+    "name": "Nimtho (Authentic Sikkimese & Nepali Cuisine)",
+    "city": "Gangtok",
+    "state": "Sikkim",
+    "address": "MG Marg, Above Westside, Gangtok, Sikkim 737101",
+    "latitude": 27.3298,
+    "longitude": 88.6138,
+    "cuisine": [
+      "Traditional Sikkimese",
+      "Nepali Organic Thali",
+      "Fermented Himalayan Specialties"
+    ],
+    "famousDishes": [
+      "Traditional Sikkimese Organic Thali on Brass Plates",
+      "Crisp Sel Roti with Spiced Aloo Dum",
+      "Gundruk Ko Jhol (Fermented Leaf Soup)",
+      "Kinema (Fermented Soybean Curry)",
+      "Tongba (Millet Beer in Traditional Wooden Flagon)"
+    ],
+    "menu": [
+      {
+        "food": "Grand Royal Sikkimese Non-Veg Feast Thali",
+        "price": 480
+      },
+      {
+        "food": "Authentic Sel Roti with Spiced Nepali Aloo Dum",
+        "price": 160
+      },
+      {
+        "food": "Traditional Warm Tongba (Millet Beer Flagon with Bamboo Straw)",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Traditional Wooden Sikkimese Decor",
+      "MG Marg Promenade Balcony",
+      "Air Conditioning",
+      "Warm Mountain Hospitality"
+    ],
+    "specialFeatures": [
+      "Celebrates Sikkim's 100% organic agricultural heritage with authentic home-cooked Nepali and Bhutia dishes served in gleaming traditional brass tableware, accompanied by warm pots of bubbling fermented millet Tongba beer",
+      "Authentic Himalayan cultural dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 81458 52200",
+    "website": "http://nimtho.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gtk-bakers-cafe",
+    "name": "Baker's Cafe",
+    "city": "Gangtok",
+    "state": "Sikkim",
+    "address": "MG Marg, Near Tourism Information Centre, Gangtok, Sikkim 737101",
+    "latitude": 27.3312,
+    "longitude": 88.6131,
+    "cuisine": [
+      "European Bakery",
+      "Italian",
+      "Artisan Coffee & Desserts"
+    ],
+    "famousDishes": [
+      "Warm Cinnamon Rolls with Cream Frosting",
+      "Fresh Baked Bagels with Cream Cheese",
+      "Wood-fired Thin Crust Pizza",
+      "Espresso Macchiato",
+      "Hot Chocolate with Marshmallows",
+      "Lemon Tart"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Baked Giant Cinnamon Roll",
+        "price": 110
+      },
+      {
+        "food": "Wood-fired Margherita Pizza",
+        "price": 340
+      },
+      {
+        "food": "Signature Hot Chocolate with Whipped Cream",
+        "price": 130
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Panoramic Mountain & Valley View Windows",
+      "Cozy Pine Wood Interior",
+      "Artisan Espresso Bar",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Perched above MG Marg with sweeping floor-to-ceiling glass windows offering panoramic views of misty green Himalayan valleys, serving freshly baked cinnamon rolls, bagels, and hot espresso",
+      "Gangtok's favorite coffee house"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3592 220 195",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gtk-chopstick-mg-marg",
+    "name": "Chopstick Restaurant",
+    "city": "Gangtok",
+    "state": "Sikkim",
+    "address": "MG Marg, Gangtok, Sikkim 737101",
+    "latitude": 27.3305,
+    "longitude": 88.6141,
+    "cuisine": [
+      "Bhutanese",
+      "Tibetan",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Bhutanese Ema Datshi (Spicy Chillies in Yak Cheese Gravy)",
+      "Kewa Datshi (Potato Cheese)",
+      "Chicken in Oyster Sauce",
+      "Tingmo with Shakam Paa (Dried Beef)"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Bhutanese Ema Datshi with Red Rice",
+        "price": 280
+      },
+      {
+        "food": "Kewa Datshi (Potato Cheese Stew)",
+        "price": 240
+      },
+      {
+        "food": "Steamed Momos with Bhutanese Chilli Sauce",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "MG Marg Promenade Location",
+      "Air Conditioning",
+      "Warm Mountain Ambience"
+    ],
+    "specialFeatures": [
+      "One of the rare places in India to experience authentic national cuisine of neighboring Bhutan, famous for its fiery 'Ema Datshi' (local chillies simmered in molten mountain cheese) eaten with red rice",
+      "Exceptional Himalayan specialties"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3592 208 000",
+    "website": null,
+    "available": true
+  }
+]

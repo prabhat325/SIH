@@ -1,0 +1,555 @@
+[
+  {
+    "restaurantId": "rst-jdh-janta-sweet-home",
+    "name": "Janta Sweet Home",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "3, Nai Sarak, Clock Tower Road, Jodhpur, Rajasthan 342001",
+    "latitude": 26.2941,
+    "longitude": 73.0234,
+    "cuisine": [
+      "Rajasthani Snacks",
+      "Mithai",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Pyaaz Ki Kachori",
+      "Mawa Kachori with Chashni",
+      "Jodhpur Mirchi Bada",
+      "Kaju Katli",
+      "Makhania Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Signature Pyaaz Ki Kachori",
+        "price": 45
+      },
+      {
+        "food": "Authentic Jodhpur Mirchi Bada",
+        "price": 40
+      },
+      {
+        "food": "Mawa Kachori Dipped in Sugar Syrup",
+        "price": 65
+      },
+      {
+        "food": "Makhania Lassi in Kulhad",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Packed Gift Boxes",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "The sweet heartbeat of the Blue City since decades, credited with perfecting the fiery green chilli stuffed Mirchi Bada and sweet Mawa Kachori",
+      "Perpetually crowded by food connoisseurs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 263 6663",
+    "website": "https://jantasweethome.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-gypsy-dining-hall",
+    "name": "Gypsy Dining Hall",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "P & T Colony, 689, 9th C Road, Sardarpura, Jodhpur, Rajasthan 342003",
+    "latitude": 26.2758,
+    "longitude": 73.0089,
+    "cuisine": [
+      "Marwari",
+      "Rajasthani Pure Vegetarian Unlimited Thali"
+    ],
+    "famousDishes": [
+      "31-Item Royal Marwari Thali",
+      "Dal Baati Churma (3 Types of Churma)",
+      "Ker Sangri",
+      "Gatte Ki Sabzi",
+      "Malpua",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Grand 31-Item Unlimited Marwari Thali",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 380,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Royal Bronze Tableware",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Regarded as one of the finest authentic Rajasthani thali experiences in the entire country, serving a grand 31-course traditional banquet served by turbanned stewards pouring pure desi ghee",
+      "An unforgettable feast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 263 8885",
+    "website": "http://gypsyrestaurant.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-shandar-sweet-home",
+    "name": "Shandar Sweet Home",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "Jalori Gate Chauraha, Opposite MG Hospital, Jodhpur, Rajasthan 342001",
+    "latitude": 26.2891,
+    "longitude": 73.0165,
+    "cuisine": [
+      "Traditional Marwari",
+      "Sweets",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Gulab Jamun Ki Sabzi",
+      "Kabuli Pulao",
+      "Govind Gatta Curry",
+      "Moong Dal Halwa",
+      "Lahsun Ki Chutney"
+    ],
+    "menu": [
+      {
+        "food": "World Famous Gulab Jamun Ki Sabzi",
+        "price": 180
+      },
+      {
+        "food": "Jodhpuri Kabuli Pulao",
+        "price": 190
+      },
+      {
+        "food": "Govind Gatta Curry",
+        "price": 160
+      },
+      {
+        "food": "Desi Ghee Moong Dal Halwa",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian",
+      "Heritage Eatery",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Historic culinary institution that invented 'Gulab Jamun ki Sabzi' (unsweetened mawa dumplings simmered in rich spicy tomato-cashew gravy) and authentic royal Jodhpuri Kabuli rice",
+      "True local food heritage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 262 4848",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-on-the-rocks",
+    "name": "On The Rocks (OTR)",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "Near Circuit House, National Highway 65, Cantt Area, Jodhpur, Rajasthan 342006",
+    "latitude": 26.2731,
+    "longitude": 73.0382,
+    "cuisine": [
+      "Rajasthani",
+      "Mughlai",
+      "North Indian",
+      "Continental",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Junglee Maas",
+      "Laal Maas",
+      "Murgh Tikka Mirza",
+      "Kadhai Paneer",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Junglee Maas",
+        "price": 620
+      },
+      {
+        "food": "Rajasthani Laal Maas",
+        "price": 590
+      },
+      {
+        "food": "Murgh Tikka Mirza",
+        "price": 460
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Open Air Jungle Garden",
+      "Cave Bar Lounge",
+      "Full Bar",
+      "Live Folk Music",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Iconic open-air jungle garden restaurant and rock-themed cave bar nestled among ancient trees, renowned for charcoal-fired game meat curries and vibrant nightlife",
+      "Beloved local evening hangout"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 510 2701",
+    "website": "http://ontherocksjodhpur.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-indique-pal-haveli",
+    "name": "Indique - Pal Haveli",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "Pal Haveli, Near Clock Tower, Gulab Sagar, Jodhpur, Rajasthan 342001",
+    "latitude": 26.2965,
+    "longitude": 73.0248,
+    "cuisine": [
+      "Royal Rajasthani",
+      "North Indian",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Laal Maas",
+      "Dal Baati Churma",
+      "Tandoori Mutton Chops",
+      "Ker Sangri",
+      "Jodhpuri Biryani"
+    ],
+    "menu": [
+      {
+        "food": "Pal Haveli Royal Laal Maas",
+        "price": 640
+      },
+      {
+        "food": "Dal Baati Churma Royal Platter",
+        "price": 460
+      },
+      {
+        "food": "Tandoori Mutton Chops",
+        "price": 680
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Spectacular Mehrangarh Fort View",
+      "Rooftop Dining",
+      "Full Bar",
+      "Candlelight Tables",
+      "Heritage Setting"
+    ],
+    "specialFeatures": [
+      "Perched atop the 18th-century Pal Haveli right next to the Clock Tower, boasting the most dramatic panoramic night view of the illuminated Mehrangarh Fort towering above the Blue City skyline",
+      "Unbeatable backdrop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 263 8344",
+    "website": "http://palhaveli.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-mishrilal-hotel",
+    "name": "Shri Mishrilal Hotel",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "Sardar Market, Near Southern Gate Clock Tower, Jodhpur, Rajasthan 342001",
+    "latitude": 26.2952,
+    "longitude": 73.0229,
+    "cuisine": [
+      "Beverages",
+      "Desserts",
+      "Traditional Dairy"
+    ],
+    "famousDishes": [
+      "World Famous Makhania Lassi",
+      "Rabri",
+      "Kaju Shake",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Makhania Lassi (Kulhad)",
+        "price": 50
+      },
+      {
+        "food": "Shahi Kesar Rabri Cup",
+        "price": 60
+      },
+      {
+        "food": "Special Kaju Milk Shake",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 70,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic Gate Location",
+      "Quick Service",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Established in 1927 at the Clock Tower gate, world-renowned for its golden Makhania Lassi so thick and dense it is served with a plastic spoon and topped with yellow clotted cream and cardamom",
+      "Legendary institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 262 4545",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-risala-umaid-bhawan",
+    "name": "Risala - Umaid Bhawan Palace",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "Taj Umaid Bhawan Palace, Circuit House Road, Jodhpur, Rajasthan 342006",
+    "latitude": 26.2809,
+    "longitude": 73.0478,
+    "cuisine": [
+      "Royal Marwar",
+      "Continental",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Umaid Bhawan Royal Thali",
+      "Mathania Laal Maas",
+      "Mewari Korma",
+      "Smoked Wild Boar (Subject to availability)",
+      "Kulfi"
+    ],
+    "menu": [
+      {
+        "food": "Royal Marwar Tasting Menu",
+        "price": 6500
+      },
+      {
+        "food": "Mathania Laal Maas",
+        "price": 2100
+      },
+      {
+        "food": "Royal Gatte Ka Pulao",
+        "price": 1250
+      }
+    ],
+    "averageCostForOne": 5500,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Grand Royal Palace Salon",
+      "Museum Ambience",
+      "Valet Parking",
+      "Full Bar",
+      "Pianist / Classical Music",
+      "Sommelier"
+    ],
+    "specialFeatures": [
+      "Ultra-luxury dining room overlooking lush palace gardens inside the majestic Art Deco palace of the Maharaja of Jodhpur, decorated with royal martial portraits and cavalry regalia",
+      "World-class epicurean journey"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 251 0101",
+    "website": "https://www.tajhotels.com/en-in/taj/umaid-bhawan-palace-jodhpur/restaurants/risala/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-priya-restaurant",
+    "name": "Priya Restaurant",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "Nai Sarak, Near Clock Tower, Jodhpur, Rajasthan 342001",
+    "latitude": 26.2938,
+    "longitude": 73.0221,
+    "cuisine": [
+      "North Indian",
+      "South Indian",
+      "Pure Vegetarian Thali"
+    ],
+    "famousDishes": [
+      "Special Vegetarian Thali",
+      "Masala Dosa",
+      "Paneer Butter Masala",
+      "Chana Masala",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Priya Special Veg Thali",
+        "price": 220
+      },
+      {
+        "food": "Special Butter Masala Dosa",
+        "price": 140
+      },
+      {
+        "food": "Shahi Paneer with Naan",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Family Friendly",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Trusted multi-cuisine vegetarian restaurant near Sardar Market serving crisp South Indian dosas and comforting North Indian thalis for decades",
+      "Clean and dependable"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 261 4333",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-stepwell-cafe",
+    "name": "The Stepwell Cafe",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "Toorji Ka Jhalra Stepwell, Makrana Mohalla, Jodhpur, Rajasthan 342001",
+    "latitude": 26.2979,
+    "longitude": 73.0238,
+    "cuisine": [
+      "European",
+      "Café",
+      "Indian Fusion",
+      "Cocktails"
+    ],
+    "famousDishes": [
+      "Wood-fired Pizza",
+      "Cold Brew Coffee",
+      "Falafel Mezze Platter",
+      "Pasta Arrabiata",
+      "Carrot Cake"
+    ],
+    "menu": [
+      {
+        "food": "Artisanal Thin Crust Pizza",
+        "price": 420
+      },
+      {
+        "food": "Stepwell Cold Brew Tonic",
+        "price": 190
+      },
+      {
+        "food": "Mezze Platter with Pita & Hummus",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Stepwell View Balcony",
+      "Air Conditioning",
+      "Free Wi-Fi",
+      "Full Bar",
+      "Artistic Decor"
+    ],
+    "specialFeatures": [
+      "Chic multi-level boutique cafe with balcony tables projecting directly over the geometric stone steps and turquoise waters of the 18th-century Toorji Stepwell",
+      "Iconic photography spot"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 262 8888",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jdh-mehran-terrace",
+    "name": "Mehran Terrace - Mehrangarh Fort",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "address": "Mehrangarh Fort, The Fort Ramparts, Jodhpur, Rajasthan 342006",
+    "latitude": 26.2981,
+    "longitude": 73.0189,
+    "cuisine": [
+      "Royal Marwari",
+      "Rajasthani Non-Veg",
+      "Candlelit Thali"
+    ],
+    "famousDishes": [
+      "Rampart Royal Thali",
+      "Mathania Lal Maas",
+      "Ker Sangri",
+      "Smoked Kebab Platter",
+      "Malpua with Rabri"
+    ],
+    "menu": [
+      {
+        "food": "Mehran Fort Royal Dinner Thali",
+        "price": 1800
+      },
+      {
+        "food": "Laal Maas Special",
+        "price": 750
+      },
+      {
+        "food": "Ker Sangri Marwari",
+        "price": 520
+      }
+    ],
+    "averageCostForOne": 1800,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Fort Ramparts Dining",
+      "Panoramic Blue City View",
+      "Live Rajasthani Langa Musicians",
+      "Valet Parking",
+      "Prior Booking Required"
+    ],
+    "specialFeatures": [
+      "Dine directly on the high battlements of Mehrangarh Fort with the endless blue houses of Jodhpur twinkling below, serenaded by desert folk musicians playing the Sarangi and Khartal",
+      "Magical evening experience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 291 254 8790",
+    "website": "https://www.mehrangarh.org",
+    "available": true
+  }
+]

@@ -1,0 +1,91 @@
+{
+    "events": [
+        {
+            "eventId": "HARIDWAR-EVENT-001",
+            "name": "Kumbh Mela",
+            "city": "Haridwar",
+            "state": "Uttarakhand",
+            "description": "One of the world's largest religious gatherings held every 12 years.",
+            "type": "Religious",
+            "venue": "Har Ki Pauri and various ghats",
+            "usualMonth": "Varies (every 12 years)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/9c61df42-2cf0-50c3-a3a0-4c6a1c397089/3e8f28f9-e75b-5d9b-8038-3639f04581d3.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "HARIDWAR-EVENT-002",
+            "name": "Ardh Kumbh Mela",
+            "city": "Haridwar",
+            "state": "Uttarakhand",
+            "description": "The half Kumbh held every 6 years.",
+            "type": "Religious",
+            "venue": "Har Ki Pauri and various ghats",
+            "usualMonth": "Varies (every 6 years)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "HARIDWAR-EVENT-003",
+            "name": "Kanwar Mela",
+            "city": "Haridwar",
+            "state": "Uttarakhand",
+            "description": "An annual pilgrimage during Shravan month.",
+            "type": "Religious",
+            "venue": "Har Ki Pauri and various ghats",
+            "usualMonth": "July/August",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 month",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "HARIDWAR-EVENT-004",
+            "name": "Ganga Dussehra",
+            "city": "Haridwar",
+            "state": "Uttarakhand",
+            "description": "Celebrates the descent of the Ganges to Earth.",
+            "type": "Religious",
+            "venue": "Har Ki Pauri",
+            "usualMonth": "May/June",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "HARIDWAR-EVENT-005",
+            "name": "Ganga Mahotsav",
+            "city": "Haridwar",
+            "state": "Uttarakhand",
+            "description": "A cultural festival celebrating the holy Ganges.",
+            "type": "Cultural",
+            "venue": "Various venues in Haridwar",
+            "usualMonth": "November",
+            "usualTime": "Evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

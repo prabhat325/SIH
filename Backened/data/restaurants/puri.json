@@ -1,0 +1,216 @@
+[
+  {
+    "restaurantId": "rst-pri-ananda-bazar-mahaprasad",
+    "name": "Ananda Bazar - Sacred Jagannath Temple Mahaprasad",
+    "city": "Puri",
+    "state": "Odisha",
+    "address": "Inside Jagannath Temple Complex, North-East Corner, Puri, Odisha 752001",
+    "latitude": 19.8048,
+    "longitude": 85.8178,
+    "cuisine": [
+      "Sacred 56 Bhog Mahaprasad",
+      "Ancient Earthen-Pot Cookery",
+      "Pure Vegetarian Sattvic (No Onion/Garlic/Potato/Chilli)"
+    ],
+    "famousDishes": [
+      "Kanika (Sweetened Saffron Ghee Rice)",
+      "Jagannath Temple Dalma",
+      "Kheberi / Khechudi",
+      "Besara (Vegetables in Mustard)",
+      "Puri Khaja (Flaky Layered Sweet in Desi Ghee)",
+      "Chhena Gaja",
+      "Mohan Bhog"
+    ],
+    "menu": [
+      {
+        "food": "Complete Sacred Mahaprasad Earthen Kudua Set (Serves 2-3 with 6 holy dishes)",
+        "price": 250
+      },
+      {
+        "food": "Original Desi Ghee Jagannath Temple Khaja (500g Box)",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.9,
+    "amenities": [
+      "World's Largest Open-Air Food Market",
+      "Sacred Temple Sanctum",
+      "Pure Earthen Pot (Kudua) Cooking"
+    ],
+    "specialFeatures": [
+      "The world's largest open-air religious food market inside the 12th-century Jagannath Temple, where thousands of earthen pots stacked 7-high over wood fires cook holy '56 Bhog Mahaprasad' feeding tens of thousands of pilgrims daily",
+      "The most sacred and ancient culinary tradition in India"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pri-wildgrass-restaurant",
+    "name": "Wildgrass Restaurant",
+    "city": "Puri",
+    "state": "Odisha",
+    "address": "VIP Road, Near Police Line, Puri, Odisha 752001",
+    "latitude": 19.8089,
+    "longitude": 85.8289,
+    "cuisine": [
+      "Authentic Odia Coastal Seafood",
+      "Tribal Odisha Cooking",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Chingudi Kassa (Bay of Bengal Prawn Roast)",
+      "Kankada Jholo (Crab Curry in Clay Pot)",
+      "Machha Patrapoda (Fish wrapped in banana leaf & charcoal-roasted)",
+      "Mutton Kassa with Chakuli Pitha",
+      "Chhena Poda"
+    ],
+    "menu": [
+      {
+        "food": "Wildgrass Special Coastal Seafood Platter",
+        "price": 850
+      },
+      {
+        "food": "Machha Patrapoda (Banana Leaf Smoked Fish)",
+        "price": 440
+      },
+      {
+        "food": "Chingudi Malai Curry with Steamed Rice",
+        "price": 520
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Lush Tropical Garden Dining",
+      "Bamboo Thatched Gazebos",
+      "Air Conditioning",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Puri's finest standalone garden restaurant set amidst bamboo groves and tribal artwork, celebrated for authentic wood-fired banana leaf fish ('Patrapoda') and fresh Bay of Bengal mud crabs",
+      "Outstanding food and ambiance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6752 224 877",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pri-chung-wah-restaurant",
+    "name": "Chung Wah Restaurant (Since 1970s)",
+    "city": "Puri",
+    "state": "Odisha",
+    "address": "VIP Road, Near Sea Beach Road, Puri, Odisha 752001",
+    "latitude": 19.8012,
+    "longitude": 85.8267,
+    "cuisine": [
+      "Chinese",
+      "Indo-Chinese Seafood",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Chilli Garlic Jumbo Prawns",
+      "Crispy Fried Pomfret",
+      "Chicken Hakka Noodles",
+      "Sweet & Sour Fish",
+      "Chung Wah Special Fried Rice"
+    ],
+    "menu": [
+      {
+        "food": "Chilli Garlic Bay of Bengal Jumbo Prawns",
+        "price": 580
+      },
+      {
+        "food": "Crispy Whole Pomfret in Hot Garlic Sauce",
+        "price": 620
+      },
+      {
+        "food": "Special Mixed Hakka Noodles",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Historic 1970s Diner",
+      "Family Seating",
+      "Full Bar"
+    ],
+    "specialFeatures": [
+      "Puri's oldest and most beloved Chinese restaurant, famous among generations of Bengali vacationers for giant fresh-catch tiger prawns and whole pomfrets tossed in sizzling wok sauces",
+      "A Puri holiday classic"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6752 222 977",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pri-pink-house",
+    "name": "Pink House Beach Restaurant",
+    "city": "Puri",
+    "state": "Odisha",
+    "address": "Chakratirtha Road (CT Road), On Puri Beach Sands, Puri, Odisha 752002",
+    "latitude": 19.8065,
+    "longitude": 85.8456,
+    "cuisine": [
+      "Beach Shack Seafood",
+      "Continental",
+      "Indian"
+    ],
+    "famousDishes": [
+      "Fresh Grilled Red Snapper",
+      "Butter Garlic Calamari",
+      "Prawn Masala with Naan",
+      "Banana Nutella Pancake",
+      "Cold Draft Beer"
+    ],
+    "menu": [
+      {
+        "food": "Catch of the Day Grilled Fish with Fries & Salad",
+        "price": 480
+      },
+      {
+        "food": "Butter Garlic Tiger Prawns",
+        "price": 560
+      },
+      {
+        "food": "Fresh Banana Pancake with Honey",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Direct Golden Beach Sands Seating",
+      "Waves Crashing at Tables",
+      "Full Bar",
+      "Sunset Ocean View"
+    ],
+    "specialFeatures": [
+      "Atmospheric beachfront wooden shack on the quiet Chakratirtha stretch of Puri beach where international travelers eat fresh seafood under starlit skies to the sound of breaking waves",
+      "Classic beach holiday vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6752 222 253",
+    "website": null,
+    "available": true
+  }
+]

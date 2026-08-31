@@ -1,0 +1,254 @@
+[
+  {
+    "hotelId": "nsk-the-source-at-sula",
+    "name": "The Source at Sula - Vineyard Resort",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Gat 36/2, Govardhan Village, Off Gangapur-Savargaon Road, Nashik, Maharashtra 422222",
+    "latitude": 19.9985,
+    "longitude": 73.6895,
+    "pricePerNight": 12500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool amidst Vineyards",
+      "Vinothérapie Spa",
+      "Rāsa Indian Fine Dining",
+      "Little Italy",
+      "Complimentary Wine Tasting",
+      "Tennis Court"
+    ],
+    "specialFeatures": [
+      "India's premier Tuscan-style vineyard resort at Sula Vineyards",
+      "Tree houses, wine barrel rooms, and exclusive cellar tours with private tastings"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 302 7777",
+    "website": "https://sulavineyards.com/stay-with-us/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.029Z",
+    "updatedAt": "2026-08-22T21:20:27.029Z"
+  },
+  {
+    "hotelId": "nsk-radisson-blu-hotel-spa",
+    "name": "Radisson Blu Hotel & Spa, Nashik",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Caves Ridge, Ward No. 1, Pathardi Phata, Nashik, Maharashtra 422010",
+    "latitude": 19.9485,
+    "longitude": 73.7654,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Infinity Pool with Hill Views",
+      "Atman Spa & Wellness",
+      "The Smoked Vine All-Day Dining",
+      "Tuscan Sun Italian",
+      "The G resentment Bar",
+      "Squash Court"
+    ],
+    "specialFeatures": [
+      "Luxury 5-star urban resort nestled at the foothills of ancient Pandavleni Caves",
+      "Atman holistic wellness spa"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 664 4500",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-resort-nashik",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.029Z",
+    "updatedAt": "2026-08-22T21:20:27.029Z"
+  },
+  {
+    "hotelId": "nsk-the-gateway-hotel-ambad",
+    "name": "The Gateway Hotel Ambad Nashik (Taj)",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "P-17, MIDC Ambad, Mumbai-Agra National Highway, Nashik, Maharashtra 422010",
+    "latitude": 19.9542,
+    "longitude": 73.7425,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool in 20-acre Gardens",
+      "Jiva Spa",
+      "Panchratna Maharashtrian & North Indian",
+      "Solarium Bar",
+      "Tennis Courts"
+    ],
+    "specialFeatures": [
+      "20 acres of lush landscaped lawns",
+      "Authentic Khandeshi and Maharashtrian cuisine at Panchratna"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 669 2300",
+    "website": "https://www.tajhotels.com/en-in/gateway/ambad-nashik/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.030Z",
+    "updatedAt": "2026-08-22T21:20:27.030Z"
+  },
+  {
+    "hotelId": "nsk-courtyard-by-marriott",
+    "name": "Courtyard by Marriott Nashik",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Mumbai Naka, Near Mumbai-Agra Highway, Nashik, Maharashtra 422001",
+    "latitude": 19.9821,
+    "longitude": 73.7845,
+    "pricePerNight": 6200,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Sohum Spa",
+      "House of Gourmet",
+      "Strata Bar",
+      "Fitness Center"
+    ],
+    "specialFeatures": [
+      "Central Mumbai Naka landmark with sleek modern Marriott design and city views"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 665 7777",
+    "website": "https://www.marriott.com/en-us/hotels/iskcy-courtyard-nashik/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.030Z",
+    "updatedAt": "2026-08-22T21:20:27.030Z"
+  },
+  {
+    "hotelId": "nsk-express-inn-nashik",
+    "name": "Express Inn - The Luxury Boutique Hotel",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Pathardi Phata, Mumbai-Agra National Highway, Nashik, Maharashtra 422010",
+    "latitude": 19.9472,
+    "longitude": 73.7621,
+    "pricePerNight": 4900,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Aster Multi-cuisine Dining",
+      "Le Bar-Salon",
+      "O2 Spa",
+      "Freeda Salon"
+    ],
+    "specialFeatures": [
+      "Overlooking Pandavleni Hills, popular wedding and corporate luxury landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 664 1111",
+    "website": "https://expressinnhotels.com/nashik/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.031Z",
+    "updatedAt": "2026-08-22T21:20:27.031Z"
+  },
+  {
+    "hotelId": "nsk-ginger-nashik",
+    "name": "Ginger Nashik",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Near Satpur MIDC, Trimbak Road, Nashik, Maharashtra 422007",
+    "latitude": 19.9812,
+    "longitude": 73.7312,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Rooms",
+      "24/7 Front Desk"
+    ],
+    "specialFeatures": [
+      "Located on Trimbak Road, ideal for pilgrims proceeding to Trimbakeshwar Jyotirlinga"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 661 6333",
+    "website": "https://www.gingerhotels.com/ginger-nashik",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.031Z",
+    "updatedAt": "2026-08-22T21:20:27.031Z"
+  },
+  {
+    "hotelId": "nsk-hotel-panchavati-yatri",
+    "name": "Hotel Panchavati Yatri",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "430 Vakilwadi, Chandak Circle, Near Old CBS, Nashik, Maharashtra 422001",
+    "latitude": 19.9945,
+    "longitude": 73.7865,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Famous Panchavati Gaurav Thali",
+      "Air Conditioning",
+      "Elevator",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Home to the legendary unlimited authentic Maharashtrian & Gujarati Panchavati Gaurav Thali",
+      "Close to Ramkund on Godavari"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 257 2291",
+    "website": "https://panchavatiyatri.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.031Z",
+    "updatedAt": "2026-08-22T21:20:27.031Z"
+  },
+  {
+    "hotelId": "nsk-hotel-green-view",
+    "name": "Hotel Green View Nashik",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Old Agra Road, Trimbak Naka, Nashik, Maharashtra 422002",
+    "latitude": 19.9912,
+    "longitude": 73.7789,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Restaurant",
+      "Hot Water",
+      "Doctor on Call",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Peaceful garden setting in central Nashik near bus terminals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 257 2231",
+    "website": "https://hotelgreenviewnashik.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.031Z",
+    "updatedAt": "2026-08-22T21:20:27.031Z"
+  }
+]

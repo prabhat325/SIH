@@ -1,0 +1,92 @@
+[
+  {
+    "serviceId": "JODHPUR-HOSPITAL-001",
+    "name": "Dr. S.N. Medical College and Mahatma Gandhi Hospital",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Residency Road, Jodhpur, Rajasthan 342003",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://education.rajasthan.gov.in/snmcjodhpur/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JODHPUR-HOSPITAL-002",
+    "name": "Mathura Das Mathur Hospital",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Residency Road, Jodhpur, Rajasthan 342003",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JODHPUR-HOSPITAL-003",
+    "name": "Medipulse Hospital",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "E-4, MIA, Basni II Phase, Jodhpur, Rajasthan 342005",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.medipulse.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JODHPUR-POLICE-004",
+    "name": "Sardarpura Police Station",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "type": "Police Station",
+    "address": "Sardarpura, Jodhpur, Rajasthan 342003",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://jodhpurpolice.rajasthan.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JODHPUR-FIRE-005",
+    "name": "Jodhpur Central Fire Station",
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "type": "Fire Station",
+    "address": "Paota, Jodhpur, Rajasthan 342006",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "serviceId": "AJMER-HOSPITAL-001",
+    "name": "Jawaharlal Nehru Hospital Ajmer",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Beawar Road, Ajmer, Rajasthan 305001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://education.rajasthan.gov.in/jlnmedicalcollege/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AJMER-HOSPITAL-002",
+    "name": "Government Satellite Hospital Adarsh Nagar",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Adarsh Nagar, Ajmer, Rajasthan 305001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AJMER-POLICE-003",
+    "name": "Ajmer Kotwali Police Station",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "type": "Police Station",
+    "address": "Dargah Bazar, Ajmer, Rajasthan 305001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://ajmerpolice.rajasthan.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AJMER-FIRE-004",
+    "name": "Ajmer Central Fire Station",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "type": "Fire Station",
+    "address": "Kaiser Ganj, Ajmer, Rajasthan 305001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

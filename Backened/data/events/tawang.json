@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "TAWANG-EVENT-001",
+            "name": "Torgya Festival",
+            "city": "Tawang",
+            "state": "Arunachal Pradesh",
+            "description": "A major Buddhist festival at Tawang Monastery with masked dances.",
+            "type": "Religious",
+            "venue": "Tawang Monastery",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://arunachaltourism.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "TAWANG-EVENT-002",
+            "name": "Losar Festival",
+            "city": "Tawang",
+            "state": "Arunachal Pradesh",
+            "description": "The Tibetan New Year at Tawang Monastery.",
+            "type": "Religious",
+            "venue": "Tawang Monastery",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://arunachaltourism.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "TAWANG-EVENT-003",
+            "name": "Choksar Festival",
+            "city": "Tawang",
+            "state": "Arunachal Pradesh",
+            "description": "A traditional Monpa festival celebrating the harvest.",
+            "type": "Cultural",
+            "venue": "Various villages in Tawang",
+            "usualMonth": "September/October",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://arunachaltourism.com/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

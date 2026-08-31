@@ -1,0 +1,243 @@
+[
+  {
+    "hotelId": "twg-hotel-dondrub",
+    "name": "Hotel Dondrub Tawang (Luxury Boutique)",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Cona Road, Old Market, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5854,
+    "longitude": 91.8595,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Central Radiator Heating",
+      "Monastery View Panoramic Restaurant",
+      "Tibetan Traditional Dining (Thukpa & Momos)",
+      "Hot Water 24/7",
+      "Oxygen First Aid Assistance"
+    ],
+    "specialFeatures": [
+      "Tawang's premier boutique luxury hotel situated at 10,000 ft with direct views of the 400-year-old Tawang Monastery (Gaden Namgyal Lhatse)",
+      "Heated wooden suites"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3794 224 455",
+    "website": "https://hoteldondrubtawang.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.160Z",
+    "updatedAt": "2026-08-22T21:20:27.160Z"
+  },
+  {
+    "hotelId": "twg-hotel-tawang-heights",
+    "name": "Hotel Tawang Heights",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Near DC Office, Cona Highway, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5885,
+    "longitude": 91.8621,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Multi-cuisine Restaurant",
+      "Central Room Heating",
+      "Balcony Mountain Views",
+      "Bumla Pass / Madhuri Lake Tour Assistance"
+    ],
+    "specialFeatures": [
+      "Panoramic snow valley views and bespoke permit desk for Bum La Pass (Indo-China Border) & Sangetsar (Madhuri) Lake"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3794 222 233",
+    "website": "https://tawangheights.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.160Z",
+    "updatedAt": "2026-08-22T21:20:27.160Z"
+  },
+  {
+    "hotelId": "twg-hotel-mandala",
+    "name": "Hotel Mandala Tawang",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Near Tawang Monastery Gate, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5862,
+    "longitude": 91.8545,
+    "pricePerNight": 4200,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Traditional Monpa & Indian Restaurant",
+      "Room Heating (Bukhari)",
+      "Direct Monastery View",
+      "Hot Water 24/7"
+    ],
+    "specialFeatures": [
+      "Located right next to the grand entrance of Tawang Monastery with traditional wooden architecture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3794 224 111",
+    "website": "https://hotelmandalatawang.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.160Z",
+    "updatedAt": "2026-08-22T21:20:27.160Z"
+  },
+  {
+    "hotelId": "twg-hotel-alpine",
+    "name": "Hotel Alpine Tawang",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Nehru Market, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5841,
+    "longitude": 91.8605,
+    "pricePerNight": 2500,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Alpine Restaurant",
+      "Electric Blankets & Heaters",
+      "Hot Water",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Prime Nehru Market location, comfortable heated budget stay for high-altitude travelers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3794 222 555",
+    "website": "https://hotelalpinetawang.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.161Z",
+    "updatedAt": "2026-08-22T21:20:27.161Z"
+  },
+  {
+    "hotelId": "twg-hotel-mountain-view",
+    "name": "Hotel Mountain View Tawang",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Old Bazaar, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5835,
+    "longitude": 91.8589,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Dining Room",
+      "Room Heaters",
+      "Hot Showers",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Clear views of snow-covered Sela Peak range from bedroom windows"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3794 222 888",
+    "website": "https://hotelmountainviewtawang.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.161Z",
+    "updatedAt": "2026-08-22T21:20:27.161Z"
+  },
+  {
+    "hotelId": "twg-dolma-khangsar-guest-house",
+    "name": "Dolma Khangsar Guest House",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Near Tawang War Memorial, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5812,
+    "longitude": 91.8654,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Authentic Monpa Homestyle Cooking",
+      "Room Heaters",
+      "Hot Water",
+      "Homestay Hospitality"
+    ],
+    "specialFeatures": [
+      "Warm local Monpa family homestay right by the historic Tawang War Memorial"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3794 223 344",
+    "website": "https://dolmakhangsartawang.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.162Z",
+    "updatedAt": "2026-08-22T21:20:27.162Z"
+  },
+  {
+    "hotelId": "twg-hotel-yangzom",
+    "name": "Hotel Yangzom",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Cona Highway, Near Circuit House, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5871,
+    "longitude": 91.8635,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Restaurant",
+      "Electric Blankets",
+      "24-hour Hot Water",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Economical base for road trippers driving across Sela Pass (13,700 ft)"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3794 222 999",
+    "website": "https://hotelyangzomtawang.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.162Z",
+    "updatedAt": "2026-08-22T21:20:27.162Z"
+  },
+  {
+    "hotelId": "twg-tawang-holiday-inn",
+    "name": "Tawang Holiday Guest House",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Hospital Road, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5828,
+    "longitude": 91.8612,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 3.8,
+    "amenities": [
+      "Clean Rooms",
+      "Hot Water Bucket Assistance",
+      "Home Food",
+      "Local Guide Help"
+    ],
+    "specialFeatures": [
+      "Affordable shelter for backpackers, trekkers and motorcycle expeditions"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3794 222 111",
+    "website": "https://tawangholidayinn.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.162Z",
+    "updatedAt": "2026-08-22T21:20:27.162Z"
+  }
+]

@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "eventId": "PAWAPURI-EVENT-001",
+            "name": "Mahavir Nirvana Diwas",
+            "city": "Pawapuri",
+            "state": "Bihar",
+            "description": "The death anniversary of Lord Mahavira at Jal Mandir.",
+            "type": "Religious",
+            "venue": "Jal Mandir, Pawapuri",
+            "usualMonth": "October/November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PAWAPURI-EVENT-002",
+            "name": "Mahavir Janma Kalyanak",
+            "city": "Pawapuri",
+            "state": "Bihar",
+            "description": "The birth anniversary of Lord Mahavira.",
+            "type": "Religious",
+            "venue": "Jal Mandir and Jain temples",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

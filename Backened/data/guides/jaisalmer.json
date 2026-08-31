@@ -1,0 +1,48 @@
+[
+    {
+        "guideId": "JAI-003",
+        "name": "Padam",
+        "city": "Jaisalmer",
+        "state": "Rajasthan",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Desert Tours",
+            "Camel Safaris"
+        ],
+        "experienceYears": 10,
+        "rating": null,
+        "contact": "+91-9461157753",
+        "email": null,
+        "pricePerHour": 9,
+        "description": "Trusted Jaisalmer guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "JAI-004",
+        "name": "Bhawani",
+        "city": "Jaisalmer",
+        "state": "Rajasthan",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Desert Tours",
+            "Fort Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": "+91-9414763000",
+        "email": null,
+        "pricePerHour": 9,
+        "description": "Trusted Jaisalmer guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

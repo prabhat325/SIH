@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "LUCKNOW-EVENT-001",
+            "name": "Lucknow Mahotsav",
+            "city": "Lucknow",
+            "state": "Uttar Pradesh",
+            "description": "A 10-day cultural festival showcasing Lucknow's rich heritage (Tehzeeb).",
+            "type": "Cultural",
+            "venue": "Various venues across Lucknow",
+            "usualMonth": "November/December",
+            "usualTime": "Morning to evening",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uptourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "LUCKNOW-EVENT-002",
+            "name": "Lucknow Literature Festival",
+            "city": "Lucknow",
+            "state": "Uttar Pradesh",
+            "description": "An annual gathering celebrating Urdu and Hindi literature.",
+            "type": "Cultural",
+            "venue": "Various venues in Lucknow",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://lucknowliteraturefestival.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "LUCKNOW-EVENT-003",
+            "name": "Eid Celebrations",
+            "city": "Lucknow",
+            "state": "Uttar Pradesh",
+            "description": "Lucknow's grand Eid celebrations at historic mosques.",
+            "type": "Religious",
+            "venue": "Various mosques and Aminabad",
+            "usualMonth": "Varies (Islamic calendar)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uptourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "LUCKNOW-EVENT-004",
+            "name": "Muharram Processions",
+            "city": "Lucknow",
+            "state": "Uttar Pradesh",
+            "description": "Traditional Muharram processions reflecting Lucknow's Shia Muslim heritage.",
+            "type": "Religious",
+            "venue": "Various routes in old Lucknow",
+            "usualMonth": "Varies (Islamic calendar)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uptourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

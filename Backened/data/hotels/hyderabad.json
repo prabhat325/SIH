@@ -1,0 +1,354 @@
+[
+  {
+    "hotelId": "hyd-taj-falaknuma-palace",
+    "name": "Taj Falaknuma Palace, Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Engine Bowli, Fatima Nagar, Falaknuma, Hyderabad, Telangana 500053",
+    "latitude": 17.3312,
+    "longitude": 78.4675,
+    "pricePerNight": 60000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Horse-drawn Royal Carriage Arrival",
+      "Jiva Grande Spa",
+      "Adaa Royal Hyderabadi Fine Dining (101 Dining Table)",
+      "Celeste Italian",
+      "The Jade Room & Palace Library",
+      "Hookah Lounge",
+      "Private Palace Historian Tour"
+    ],
+    "specialFeatures": [
+      "Built in 1894, former palace of the Nizam of Hyderabad (the 'Mirror of the Sky') set 2,000 ft above the city",
+      "Home to the world's longest 101-seat dining table, Venetian chandeliers, and carriage entry"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 6629 8585",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-falaknuma-palace-hyderabad/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.176Z",
+    "updatedAt": "2026-08-22T21:20:27.176Z"
+  },
+  {
+    "hotelId": "hyd-itc-kohenur",
+    "name": "ITC Kohenur, a Luxury Collection Hotel",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Plot No. 5, Survey No. 83/1, HITEC City, Madhapur, Hyderabad, Telangana 500081",
+    "latitude": 17.4345,
+    "longitude": 78.3785,
+    "pricePerNight": 18000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool overlooking Durgam Cheruvu Lake",
+      "Kaya Kalp Royal Spa",
+      "Dum Pukht Begum's Royal Hyderabadi Dining",
+      "Yi Jing Chinese",
+      "Ottimo Italian",
+      "Skypoint Rooftop Bar",
+      "LEED Platinum"
+    ],
+    "specialFeatures": [
+      "Architectural gem inspired by the legendary Koh-i-Noor diamond overlooking Durgam Cheruvu Lake and Cable Bridge",
+      "Dum Pukht Begum's authentic royal nizami kachche gosht ki biryani"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 6766 0101",
+    "website": "https://www.itchotels.com/in/en/itckohenur-hyderabad",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.176Z",
+    "updatedAt": "2026-08-22T21:20:27.176Z"
+  },
+  {
+    "hotelId": "hyd-taj-krishna",
+    "name": "Taj Krishna, Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Road No. 1, Banjara Hills, Hyderabad, Telangana 500034",
+    "latitude": 17.4185,
+    "longitude": 78.4485,
+    "pricePerNight": 13500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool in Tropical Gardens",
+      "Jiva Spa",
+      "Firdaus Royal Hyderabadi & Frontier Dining",
+      "Golden Dragon Chinese",
+      "Encounters 24/7 Buffet",
+      "The Seasons Bar",
+      "9 Acres of Lawns"
+    ],
+    "specialFeatures": [
+      "Flagship luxury palace hotel in posh Banjara Hills set in 9 acres of waterfalls and gardens",
+      "Firdaus restaurant with live ghazals and royal Hyderabadi feasts"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 6629 2323",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-krishna-hyderabad/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.176Z",
+    "updatedAt": "2026-08-22T21:20:27.176Z"
+  },
+  {
+    "hotelId": "hyd-the-park-hyderabad",
+    "name": "The Park Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "22 Raj Bhavan Road, Somajiguda, Hyderabad, Telangana 500082",
+    "latitude": 17.4245,
+    "longitude": 78.4612,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "3D Faceted Infinity Pool overlooking Hussain Sagar Lake",
+      "Aura Spa",
+      "Aish Nizam's Fine Dining (Designed by Tarun Tahiliani)",
+      "Verandah Italian",
+      "Kismet Nightclub",
+      "Aqua Pool Bar"
+    ],
+    "specialFeatures": [
+      "Futuristic jewel-box architecture designed around the Nizam's jewels",
+      "Aish restaurant designed by Tarun Tahiliani overlooking Hussain Sagar Lake"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 4499 0000",
+    "website": "https://www.theparkhotels.com/hyderabad.html",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.177Z",
+    "updatedAt": "2026-08-22T21:20:27.177Z"
+  },
+  {
+    "hotelId": "hyd-trident-hyderabad",
+    "name": "Trident, Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Survey No. 64, Hitec City, Near Cyber Towers, Madhapur, Hyderabad, Telangana 500081",
+    "latitude": 17.4485,
+    "longitude": 78.3745,
+    "pricePerNight": 11000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Infinity Swimming Pool",
+      "The Trident Spa",
+      "Amara All-Day Dining",
+      "Kanak Fine Indian",
+      "Tuscany Italian",
+      "Ninety Six Bar"
+    ],
+    "specialFeatures": [
+      "Prime HITEC City location next to Cyber Towers with Kanak Indian fine dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 6623 2323",
+    "website": "https://www.tridenthotels.com/hotels-in-hyderabad/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.178Z",
+    "updatedAt": "2026-08-22T21:20:27.178Z"
+  },
+  {
+    "hotelId": "hyd-the-golkonda-hotel",
+    "name": "The Golkonda Hotel Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "10-1-124 Banjara Hills Road, Masab Tank, Hyderabad, Telangana 500028",
+    "latitude": 17.4045,
+    "longitude": 78.4512,
+    "pricePerNight": 4900,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Melange All-Day Dining",
+      "Jewel of Nizam - The Minar (Revolving/Tower Dining)",
+      "Fitness Centre",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Home to 'Jewel of Nizam - The Minar' high-tower restaurant serving authentic Haleem and Anokhi Kheer"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 6611 0101",
+    "website": "https://golkondahotels.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.179Z",
+    "updatedAt": "2026-08-22T21:20:27.179Z"
+  },
+  {
+    "hotelId": "hyd-bloomrooms-gachibowli",
+    "name": "Bloomrooms @ Gachibowli",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Financial District, Near WaveRock, Gachibowli, Hyderabad, Telangana 500032",
+    "latitude": 17.4212,
+    "longitude": 78.3458,
+    "pricePerNight": 3400,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "CloudBeds",
+      "Cafe",
+      "Work Desks",
+      "Rain Showers",
+      "24/7 Helpdesk"
+    ],
+    "specialFeatures": [
+      "Minimalist bright yellow-white Scandinavian brand hotel in Hyderabad Financial District"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 4821 5555",
+    "website": "https://bloomrooms.com/hotels/hyderabad/gachibowli",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.180Z",
+    "updatedAt": "2026-08-22T21:20:27.180Z"
+  },
+  {
+    "hotelId": "hyd-zostel-hyderabad",
+    "name": "Zostel Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Road No. 10, Ghafoor Nagar, Madhapur, HITEC City, Hyderabad, Telangana 500081",
+    "latitude": 17.4412,
+    "longitude": 78.3845,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Rooftop Cafe",
+      "Co-working Space",
+      "AC Dorms & Privates",
+      "Lockers",
+      "Charminar & Biryani Trail Desk"
+    ],
+    "specialFeatures": [
+      "Prime Madhapur IT corridor location with vibrant youth community, weekend Golconda Fort and authentic Hyderabadi Biryani trails"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/hyderabad/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.180Z",
+    "updatedAt": "2026-08-22T21:20:27.180Z"
+  },
+  {
+    "hotelId": "hyd-the-hosteller-hyderabad",
+    "name": "The Hosteller Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Jubilee Hills Road No. 36, Near Metro Station, Hyderabad, Telangana 500033",
+    "latitude": 17.4312,
+    "longitude": 78.4045,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe",
+      "Workation Stations",
+      "Dorm & Private Rooms",
+      "24/7 Security",
+      "Indoor Games"
+    ],
+    "specialFeatures": [
+      "Located on upscale Jubilee Hills Road 36 amidst city's finest microbreweries, clubs, and cafes"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-hyderabad/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.180Z",
+    "updatedAt": "2026-08-22T21:20:27.180Z"
+  },
+  {
+    "hotelId": "hyd-gostops-hyderabad",
+    "name": "goSTOPS Hyderabad (Gachibowli)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Telecom Nagar, Gachibowli, Hyderabad, Telangana 500032",
+    "latitude": 17.4385,
+    "longitude": 78.3612,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Gaming Area",
+      "Home Cinema",
+      "AC Dorms",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "Ideal budget co-living and hostel hub for IT professionals and backpackers in Gachibowli"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-hyderabad/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.181Z",
+    "updatedAt": "2026-08-22T21:20:27.181Z"
+  },
+  {
+    "hotelId": "hyd-dwellings-hostel",
+    "name": "Dwellings Hostel Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Banjara Hills Road No. 12, Hyderabad, Telangana 500034",
+    "latitude": 17.4125,
+    "longitude": 78.4389,
+    "pricePerNight": 850,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Courtyard",
+      "Self-service Kitchen",
+      "AC Dorms",
+      "Work Desks"
+    ],
+    "specialFeatures": [
+      "Quiet residential green avenue in Banjara Hills near KBR National Park"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 2330 1234",
+    "website": "https://dwellingshostel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.181Z",
+    "updatedAt": "2026-08-22T21:20:27.181Z"
+  }
+]

@@ -1,0 +1,5 @@
+[
+  {"serviceId":"TAWANG-HOSPITAL-001","name":"General Hospital Tawang","city":"Tawang","state":"Arunachal Pradesh","type":"Hospital","address":"Tawang Township, Tawang district, Arunachal Pradesh 790104","latitude":null,"longitude":null,"phone":null,"website":"https://health.arunachal.gov.in","available24x7":false,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"TAWANG-POLICE-001","name":"Tawang Police Station","city":"Tawang","state":"Arunachal Pradesh","type":"Police Station","address":"Tawang Township, Tawang district, Arunachal Pradesh 790104","latitude":null,"longitude":null,"phone":null,"website":"https://arunpol.nic.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"TAWANG-FIRE-001","name":"Tawang Fire and Emergency Services Station","city":"Tawang","state":"Arunachal Pradesh","type":"Fire Station","address":"Tawang Township, Tawang district, Arunachal Pradesh 790104","latitude":null,"longitude":null,"phone":null,"website":"https://arunachalpradesh.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

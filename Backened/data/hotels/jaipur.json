@@ -1,0 +1,387 @@
+[
+  {
+    "hotelId": "jai-rambagh-palace",
+    "name": "Rambagh Palace Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Bhawani Singh Road, Rambagh, Jaipur, Rajasthan 302005",
+    "latitude": 26.8978,
+    "longitude": 75.8077,
+    "pricePerNight": 55000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Indoor & Outdoor Pools",
+      "Jiva Grande Spa",
+      "Suvarna Mahal Fine Dining",
+      "Peacock Garden",
+      "Polo Bar",
+      "Butler Service"
+    ],
+    "specialFeatures": [
+      "Former residence of the Maharaja of Jaipur, ranked among world's top hotels",
+      "Suvarna Mahal palace ballroom dining with gold cutlery",
+      "47 acres of tranquil royal gardens"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 221 1919",
+    "website": "https://www.tajhotels.com/en-in/taj/rambagh-palace-jaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.872Z",
+    "updatedAt": "2026-08-22T21:20:26.872Z"
+  },
+  {
+    "hotelId": "jai-the-oberoi-rajvilas",
+    "name": "The Oberoi Rajvilas",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Goner Road, Jagatpura, Jaipur, Rajasthan 302031",
+    "latitude": 26.8839,
+    "longitude": 75.8856,
+    "pricePerNight": 48000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Private Villas with Pool",
+      "Luxury Tents",
+      "Oberoi Spa",
+      "Surya Mahal Dining",
+      "Tennis Court",
+      "Helipad"
+    ],
+    "specialFeatures": [
+      "Built around an authentic 280-year-old Shiva temple",
+      "Traditional Rajasthani architecture with flaming torches and lotus ponds"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 268 0101",
+    "website": "https://www.oberoihotels.com/hotels-in-jaipur-rajvilas-resort/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.873Z",
+    "updatedAt": "2026-08-22T21:20:26.873Z"
+  },
+  {
+    "hotelId": "jai-jai-mahal-palace",
+    "name": "Jai Mahal Palace",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Jacob Road, Civil Lines, Jaipur, Rajasthan 302006",
+    "latitude": 26.9069,
+    "longitude": 75.7871,
+    "pricePerNight": 22000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Jiva Spa",
+      "Cinnamon Pan-Indian Restaurant",
+      "Life-size Chessboard",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "1745 AD Indo-Saracenic masterpiece set in 18 acres of Mughal gardens",
+      "Home to vintage buggy rides and peacocks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 660 1111",
+    "website": "https://www.tajhotels.com/en-in/taj/jai-mahal-palace-jaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.873Z",
+    "updatedAt": "2026-08-22T21:20:26.873Z"
+  },
+  {
+    "hotelId": "jai-itc-rajputana",
+    "name": "ITC Rajputana, a Luxury Collection Hotel",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Palace Road, Gopalbari, Jaipur, Rajasthan 302006",
+    "latitude": 26.9189,
+    "longitude": 75.7925,
+    "pricePerNight": 11500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Kaya Kalp Spa",
+      "Outdoor Swimming Pool",
+      "Peshawri Restaurant",
+      "Jaipur Pavilion",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Architectural tribute to Rajasthan's royal havelis",
+      "World-renowned Dal Bukhara and kebabs at Peshawri"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 405 1600",
+    "website": "https://www.itchotels.com/in/en/itcrajputana-jaipur",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.874Z",
+    "updatedAt": "2026-08-22T21:20:26.874Z"
+  },
+  {
+    "hotelId": "jai-fairmont-jaipur",
+    "name": "Fairmont Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "2 Riico Kukas, Amber, Jaipur, Rajasthan 302028",
+    "latitude": 27.0543,
+    "longitude": 75.8987,
+    "pricePerNight": 16000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Ruhab Spa",
+      "Zarin Indo-Persian Restaurant",
+      "Aza Bar",
+      "Hot Air Balloon Desk"
+    ],
+    "specialFeatures": [
+      "Grand fort-style palatial hotel nestled in the Aravalli hills",
+      "Royal custom greetings with drums and rose petals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1426 420 000",
+    "website": "https://www.fairmont.com/jaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.874Z",
+    "updatedAt": "2026-08-22T21:20:26.874Z"
+  },
+  {
+    "hotelId": "jai-alsisar-haveli",
+    "name": "Alsisar Haveli - A Heritage Hotel",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Sansar Chandra Road, Pink City, Jaipur, Rajasthan 302001",
+    "latitude": 26.9238,
+    "longitude": 75.8012,
+    "pricePerNight": 7500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Heritage Courtyard Dining",
+      "Ayurvedic Massages",
+      "Bar",
+      "Reading Room"
+    ],
+    "specialFeatures": [
+      "1892 heritage mansion with carved pillars and frescoed walls",
+      "Tranquil poolside dining in central Pink City"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 236 8290",
+    "website": "https://www.alsisar.com/alsisar-haveli-jaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.874Z",
+    "updatedAt": "2026-08-22T21:20:26.874Z"
+  },
+  {
+    "hotelId": "jai-shahpura-haveli",
+    "name": "Shahpura House Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "D-257 Devi Marg, Bani Park, Jaipur, Rajasthan 302016",
+    "latitude": 26.9295,
+    "longitude": 75.7908,
+    "pricePerNight": 6200,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Rooftop Restaurant",
+      "Spa",
+      "Traditional Puppet Shows",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Stunning Shekhawati style fresco paintings and dome ceilings",
+      "Rooftop dinner overlooking Bani Park"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 408 9100",
+    "website": "https://www.shahpura.com/shahpura-house-jaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.875Z",
+    "updatedAt": "2026-08-22T21:20:26.875Z"
+  },
+  {
+    "hotelId": "jai-umaid-bhawan-heritage-hotel",
+    "name": "Umaid Bhawan - A Heritage Style Boutique Hotel",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "D1-2A Behari Marg, Bani Park, Jaipur, Rajasthan 302016",
+    "latitude": 26.9281,
+    "longitude": 75.7922,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Rooftop Restaurant with Live Music",
+      "Carved Jharokhas",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Intricately carved balconies and colorful Rajasthani murals",
+      "Famous evening folk dance performances"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 231 6184",
+    "website": "https://www.umaidbhawan.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.875Z",
+    "updatedAt": "2026-08-22T21:20:26.875Z"
+  },
+  {
+    "hotelId": "jai-hotel-pearl-palace",
+    "name": "Hotel Pearl Palace",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "51 Hari Kishan Somani Marg, Hathroi Fort, Ajmer Road, Jaipur, Rajasthan 302001",
+    "latitude": 26.9142,
+    "longitude": 75.7963,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Peacock Rooftop Restaurant",
+      "Air Conditioning",
+      "Travel Desk",
+      "Art Gallery"
+    ],
+    "specialFeatures": [
+      "TripAdvisor Hall of Fame budget boutique hotel",
+      "Home to the legendary Peacock Rooftop Restaurant"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 237 3700",
+    "website": "https://hotelpearlpalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.876Z",
+    "updatedAt": "2026-08-22T21:20:26.876Z"
+  },
+  {
+    "hotelId": "jai-zostel-jaipur",
+    "name": "Zostel Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "First Floor, 85 Hathroi Fort, Hari Kishan Somani Marg, Jaipur, Rajasthan 302001",
+    "latitude": 26.9158,
+    "longitude": 75.7951,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Chillout Zone",
+      "Common Kitchen",
+      "Game Room",
+      "Lockers",
+      "AC Dorms"
+    ],
+    "specialFeatures": [
+      "Centrally located backpacker hub with colorful Rajasthani graffiti",
+      "Daily walking tours of Hawa Mahal and Johari Bazaar"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/jaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.876Z",
+    "updatedAt": "2026-08-22T21:20:26.876Z"
+  },
+  {
+    "hotelId": "jai-the-hosteller-jaipur",
+    "name": "The Hosteller Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Opposite Ganpati Plaza, MI Road, Jaipur, Rajasthan 302001",
+    "latitude": 26.9205,
+    "longitude": 75.8005,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe",
+      "Co-working Desks",
+      "Foosball & Board Games",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Prime MI Road location for food & shopping",
+      "Modern community space for creators & nomads"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-jaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.876Z",
+    "updatedAt": "2026-08-22T21:20:26.876Z"
+  },
+  {
+    "hotelId": "jai-moustache-jaipur",
+    "name": "Moustache Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "7 Park House, M.I. Road, Near Ganpati Plaza, Jaipur, Rajasthan 302001",
+    "latitude": 26.9192,
+    "longitude": 75.7989,
+    "pricePerNight": 750,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Pool",
+      "Cafe",
+      "Movie Screenings",
+      "Luggage Storage",
+      "24/7 Front Desk"
+    ],
+    "specialFeatures": [
+      "Boutique designer hostel with rooftop plunge pool",
+      "Signature stepwell architecture inspired common lounge"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 89291 00700",
+    "website": "https://moustacheescapes.com/hostels/moustache-jaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.877Z",
+    "updatedAt": "2026-08-22T21:20:26.877Z"
+  }
+]

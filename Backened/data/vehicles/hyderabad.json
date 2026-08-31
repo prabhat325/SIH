@@ -1,0 +1,100 @@
+[
+    {
+        "vehicleId": "HYDERABAD-AUTO-001",
+        "vehicleType": "Auto Rickshaw",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "baseFare": 30,
+        "farePerKm": 14,
+        "averageSpeed": 25,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Auto_rickshaw_in_India.jpg/960px-Auto_rickshaw_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "HYDERABAD-ERICKSHAW-002",
+        "vehicleType": "E-Rickshaw",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "baseFare": 20,
+        "farePerKm": 10,
+        "averageSpeed": 22,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/e/eb/Share_of_E-Rickshaw_Production_in_India_till_FY_2018.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "HYDERABAD-TAXI-003",
+        "vehicleType": "Taxi",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "baseFare": 70,
+        "farePerKm": 18,
+        "averageSpeed": 30,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "HYDERABAD-BUS-004",
+        "vehicleType": "Local Bus",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "baseFare": 15,
+        "farePerKm": 3,
+        "averageSpeed": 25,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "HYDERABAD-METRO-005",
+        "vehicleType": "Metro",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "baseFare": 15,
+        "farePerKm": 3,
+        "averageSpeed": 25,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Inside_Delhi_Delhi_Airport_Metro_Express.jpg/960px-Inside_Delhi_Delhi_Airport_Metro_Express.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "HYDERABAD-BIKETAXI-006",
+        "vehicleType": "Bike Taxi",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "baseFare": 25,
+        "farePerKm": 8,
+        "averageSpeed": 30,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Motorcycle-pilot-goa-india.jpg/960px-Motorcycle-pilot-goa-india.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "HYDERABAD-TOURISTBUS-007",
+        "vehicleType": "Tourist Bus",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "baseFare": 550,
+        "farePerKm": 20,
+        "averageSpeed": 28,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

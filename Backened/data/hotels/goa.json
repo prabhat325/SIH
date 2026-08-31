@@ -1,0 +1,452 @@
+[
+  {
+    "hotelId": "goa-the-leela-goa",
+    "name": "The Leela Goa",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Mobor Beach, Cavelossim, Salcete, South Goa, Goa 403731",
+    "latitude": 15.1585,
+    "longitude": 73.9452,
+    "pricePerNight": 28000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "12-hole Golf Course",
+      "Private Mobor Beach",
+      "Lagoon Lagoons with Lotus",
+      "The Spa by The Leela",
+      "Jamavar Fine Dining",
+      "Riverside Italian",
+      "Susegado Seafood Beach Grill"
+    ],
+    "specialFeatures": [
+      "75 acres of lush tropical gardens and lagoons where the Sal River meets the Arabian Sea",
+      "Vijayanagara empire palace architecture and 12-hole executive golf course"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 662 1234",
+    "website": "https://www.theleela.com/the-leela-goa",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.046Z",
+    "updatedAt": "2026-08-22T21:20:27.046Z"
+  },
+  {
+    "hotelId": "goa-taj-exotica-resort",
+    "name": "Taj Exotica Resort & Spa, Goa",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Calwaddo, Benaulim, Salcete, South Goa, Goa 403716",
+    "latitude": 15.2472,
+    "longitude": 73.9215,
+    "pricePerNight": 26000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Large Outdoor Pool",
+      "Jiva Spa",
+      "Miguel Arcanjo Goan-Portuguese Dining",
+      "Lobster Village Beach Shack",
+      "Putting Green & Tennis",
+      "Direct Benaulim Beach Access"
+    ],
+    "specialFeatures": [
+      "56 acres of Mediterranean-style landscaped gardens along pristine Benaulim Beach",
+      "Royal Goan-Portuguese gastronomy"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 668 3333",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-exotica-goa/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.046Z",
+    "updatedAt": "2026-08-22T21:20:27.046Z"
+  },
+  {
+    "hotelId": "goa-w-goa",
+    "name": "W Goa (Vagator)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Vagator Beach, Bardez, North Goa, Goa 403509",
+    "latitude": 15.5985,
+    "longitude": 73.7385,
+    "pricePerNight": 24000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "WET Outdoor Pool overlooking Vagator",
+      "AWAY Spa",
+      "Spice Traders Pan-Asian",
+      "The Kitchen Table",
+      "Rockpool Sunset Lounge at Chapora Cliff",
+      "24/7 FIT Gym"
+    ],
+    "specialFeatures": [
+      "Ultra-chic luxury on the red cliffs of Vagator beneath historic Chapora Fort",
+      "Legendary Rockpool sunset DJ parties"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 671 8888",
+    "website": "https://www.marriott.com/en-us/hotels/goiwh-w-goa/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.047Z",
+    "updatedAt": "2026-08-22T21:20:27.047Z"
+  },
+  {
+    "hotelId": "goa-the-st-regis-goa",
+    "name": "The St. Regis Goa Resort",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Mobor Beach, Cavelossim, South Goa, Goa 403731",
+    "latitude": 15.1625,
+    "longitude": 73.9421,
+    "pricePerNight": 29000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "12-hole Golf Course",
+      "St. Regis Butler Service",
+      "Iridium Spa",
+      "Mementos Dining",
+      "The St. Regis Bar",
+      "Mobor Beachfront"
+    ],
+    "specialFeatures": [
+      "Bespoke St. Regis butler service and champagne sabering ritual at sunset",
+      "Serene 49-acre estate flanked by river and sea"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 662 1234",
+    "website": "https://www.marriott.com/en-us/hotels/goixr-the-st-regis-goa-resort/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.047Z",
+    "updatedAt": "2026-08-22T21:20:27.047Z"
+  },
+  {
+    "hotelId": "goa-itc-grand-goa",
+    "name": "ITC Grand Goa Resort & Spa",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Arossim Beach, Cansaulim, South Goa, Goa 403712",
+    "latitude": 15.3285,
+    "longitude": 73.8995,
+    "pricePerNight": 19000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Multi-level Lagoon Swimming Pool",
+      "Kaya Kalp Spa",
+      "Kebabs & Kurries",
+      "Tempero Traditional Goan",
+      "Ottimo Italian",
+      "Direct Arossim Beach Access"
+    ],
+    "specialFeatures": [
+      "India's largest multi-level outdoor lagoon swimming pool with waterslides",
+      "Indo-Portuguese village architecture nestled on 45 acres of coconut groves"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 272 1234",
+    "website": "https://www.itchotels.com/in/en/itcgrandgoa-arossim-goa",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.047Z",
+    "updatedAt": "2026-08-22T21:20:27.047Z"
+  },
+  {
+    "hotelId": "goa-alila-diwa-goa",
+    "name": "Alila Diwa Goa - A Hyatt Brand",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "48/10 Adao Waddo, Majorda, South Goa, Goa 403713",
+    "latitude": 15.3089,
+    "longitude": 73.9145,
+    "pricePerNight": 14500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Infinity Pool Overlooking Paddy Fields",
+      "Spa Alila",
+      "Vivo All-Day Dining",
+      "Spice Studio Coastal Cuisine",
+      "The Edge Bar",
+      "Shuttle to Majorda Beach"
+    ],
+    "specialFeatures": [
+      "Spectacular infinity pool seamlessly blending with verdant emerald green paddy fields",
+      "Traditional Goan Spice Studio kitchen"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 274 1234",
+    "website": "https://www.hyatt.com/en-US/hotel/india/alila-diwa-goa/goadi",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.048Z",
+    "updatedAt": "2026-08-22T21:20:27.048Z"
+  },
+  {
+    "hotelId": "goa-ahilya-by-the-sea",
+    "name": "Ahilya by the Sea",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Coco Beach, Nerul, Dolphin Bay, North Goa, Goa 403109",
+    "latitude": 15.5095,
+    "longitude": 73.7845,
+    "pricePerNight": 22000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Two Infinity Pools (Sunrise & Sunset)",
+      "Treehouse Massage Pavilion",
+      "Gourmet Fresh Seafood Dining",
+      "Dolphin Watching from Garden"
+    ],
+    "specialFeatures": [
+      "Relais & Châteaux boutique sanctuary tucked into quiet Dolphin Bay with Balinese & Goan antiques",
+      "Watch dolphins playing in the ocean right from your breakfast table"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 4155 1028",
+    "website": "https://ahilyabythesea.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.048Z",
+    "updatedAt": "2026-08-22T21:20:27.048Z"
+  },
+  {
+    "hotelId": "goa-santana-beach-resort",
+    "name": "Santana Beach Resort Candolim",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Shop No 1, Murrod Vaddo, Candolim Beach, North Goa, Goa 403515",
+    "latitude": 15.5145,
+    "longitude": 73.7654,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Two Outdoor Pools",
+      "Olegario's Restaurant",
+      "Calangute & Candolim Beach Access",
+      "Lush Tropical Gardens",
+      "Poolside Bar"
+    ],
+    "specialFeatures": [
+      "Charming Portuguese-style beach cottages directly leading out to Candolim golden sand beach"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 248 9341",
+    "website": "https://santanagoa.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.048Z",
+    "updatedAt": "2026-08-22T21:20:27.048Z"
+  },
+  {
+    "hotelId": "goa-heritage-village-resort",
+    "name": "Heritage Village Resort & Spa Goa",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Arossim Beach Road, Cansaulim, South Goa, Goa 403712",
+    "latitude": 15.3312,
+    "longitude": 73.9015,
+    "pricePerNight": 6800,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool with Sunken Bar",
+      "Ayura Wellness Spa",
+      "Chutney Goan Restaurant",
+      "Mango Terrace Seafood",
+      "Pet Friendly",
+      "Live Music Evenings"
+    ],
+    "specialFeatures": [
+      "India's premier all-inclusive boutique beach resort style in South Goa near Arossim Beach"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 669 4444",
+    "website": "https://heritagevillageresorts.com/heritage-village-resort-spa-goa/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.049Z",
+    "updatedAt": "2026-08-22T21:20:27.049Z"
+  },
+  {
+    "hotelId": "goa-zostel-goa",
+    "name": "Zostel Goa (Morjim / Calangute)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Main Road, Near Turtle Nesting Beach, Morjim, North Goa, Goa 403512",
+    "latitude": 15.6195,
+    "longitude": 73.7385,
+    "pricePerNight": 1199,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Swimming Pool",
+      "Garden Shack Cafe",
+      "Common Hangout Lounge",
+      "Air Conditioned Dorms & Private Shacks",
+      "Scooter Rental Desk"
+    ],
+    "specialFeatures": [
+      "Boho resort vibe with swimming pool minutes from Morjim Beach & Chapora River sunsets",
+      "Famous pub crawls and beach parties"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/goa-morjim/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.049Z",
+    "updatedAt": "2026-08-22T21:20:27.049Z"
+  },
+  {
+    "hotelId": "goa-the-hosteller-goa",
+    "name": "The Hosteller Goa (Anjuna)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Deul Vaddo, Near Flea Market Road, Anjuna, North Goa, Goa 403509",
+    "latitude": 15.5812,
+    "longitude": 73.7465,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Open-Air Cafe",
+      "Co-working Cabanas",
+      "Dorm & Private Rooms",
+      "Bicycle & Scooter Rentals"
+    ],
+    "specialFeatures": [
+      "Swimming pool and open garden cabanas designed for digital nomads in the heart of Anjuna"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-goa-anjuna/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.049Z",
+    "updatedAt": "2026-08-22T21:20:27.049Z"
+  },
+  {
+    "hotelId": "goa-gostops-goa",
+    "name": "goSTOPS Goa (Vagator / Baga)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Near Vagator Hilltop, Small Vagator, North Goa, Goa 403509",
+    "latitude": 15.5945,
+    "longitude": 73.7421,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Social Common Area",
+      "AC Bunk Beds",
+      "Home Theatre",
+      "Lockers"
+    ],
+    "specialFeatures": [
+      "Swimming pool inside hostel, close to Hilltop party venue and Curlies / Shiva Valley"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-goa-vagator/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.050Z",
+    "updatedAt": "2026-08-22T21:20:27.050Z"
+  },
+  {
+    "hotelId": "goa-pappi-chulo-vagator",
+    "name": "Pappi Chulo Hostel Vagator",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Ozran Beach Road, Little Vagator, North Goa, Goa 403509",
+    "latitude": 15.5925,
+    "longitude": 73.7374,
+    "pricePerNight": 849,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Jungle Bar",
+      "Graffiti Chill Garden",
+      "BBQ Nights",
+      "AC Dorms",
+      "Pet Friendly"
+    ],
+    "specialFeatures": [
+      "One of Goa's wildest and friendliest party hostels perched right above Little Vagator (Ozran) Beach"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 77750 49197",
+    "website": "https://pappichulo.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.050Z",
+    "updatedAt": "2026-08-22T21:20:27.050Z"
+  },
+  {
+    "hotelId": "goa-red-door-hostel",
+    "name": "Red Door Hostel Anjuna",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "651/2 Dmello Vaddo, Starco Junction, Anjuna, North Goa, Goa 403509",
+    "latitude": 15.5789,
+    "longitude": 73.7435,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Lush Garden Lounge",
+      "Communal Kitchen",
+      "AC Dorms",
+      "Board Games",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Legendary red-walled garden hostel near Starco Junction, 5-minute walk to Anjuna Beach"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 227 4410",
+    "website": "https://reddoorhostel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.050Z",
+    "updatedAt": "2026-08-22T21:20:27.050Z"
+  }
+]

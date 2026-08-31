@@ -1,0 +1,246 @@
+[
+  {
+    "hotelId": "bg-the-bodhi-palace-resort",
+    "name": "The Bodhi Palace Resort",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Hariharpur, Bodhgaya Road, Bodh Gaya, Bihar 824231",
+    "latitude": 24.7125,
+    "longitude": 84.9954,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Ananda Ayurvedic Spa",
+      "Siddhartha Multi-cuisine Dining",
+      "Meditation Lawns",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Expansive 5-star spiritual resort nestled in lush green acreage near the sacred Bodhi Tree"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 0200",
+    "website": "https://thebodhipalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.973Z",
+    "updatedAt": "2026-08-22T21:20:26.973Z"
+  },
+  {
+    "hotelId": "bg-hyatt-place-bodhgaya",
+    "name": "Hyatt Place Bodh Gaya",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Gaya-Bodhgaya Road, Near Mahabodhi Temple, Bodh Gaya, Bihar 824231",
+    "latitude": 24.7088,
+    "longitude": 84.9912,
+    "pricePerNight": 7200,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Gallery Market & Kitchen",
+      "The Bar",
+      "24/7 Fitness Center",
+      "Meeting Rooms"
+    ],
+    "specialFeatures": [
+      "International brand luxury situated 10 minutes from Mahabodhi Temple UNESCO site"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 1234",
+    "website": "https://www.hyatt.com/en-US/hotel/india/hyatt-place-bodh-gaya/gayog",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.975Z",
+    "updatedAt": "2026-08-22T21:20:26.975Z"
+  },
+  {
+    "hotelId": "bg-maha-bodhi-hotel-resort",
+    "name": "Maha Bodhi Hotel Resort & Convention Centre",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Hariharpur, Bodh Gaya, Bihar 824231",
+    "latitude": 24.7145,
+    "longitude": 84.9978,
+    "pricePerNight": 5500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Swagat Restaurant",
+      "Ayurvedic Spa",
+      "Grand Convention Hall",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Buddhist stupa architectural theme with international pilgrim convention facilities"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 0777",
+    "website": "https://mahabodhihotel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.976Z",
+    "updatedAt": "2026-08-22T21:20:26.976Z"
+  },
+  {
+    "hotelId": "bg-oaks-bodhgaya",
+    "name": "Oaks Bodhgaya",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Dumuhan, Bodh Gaya Road, Bodh Gaya, Bihar 824231",
+    "latitude": 24.7212,
+    "longitude": 85.0045,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Oakleaf Multi-cuisine Dining",
+      "Fitness Centre",
+      "Spacious Suites",
+      "Concierge"
+    ],
+    "specialFeatures": [
+      "Sleek contemporary Australian hospitality group design with peaceful courtyard gardens"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 0900",
+    "website": "https://www.oakshotels.com/en/oaks-bodhgaya",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.976Z",
+    "updatedAt": "2026-08-22T21:20:26.976Z"
+  },
+  {
+    "hotelId": "bg-hotel-delta-international",
+    "name": "Hotel Delta International",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Bodhgaya-Domuhan Road, Bodh Gaya, Bihar 824231",
+    "latitude": 24.7045,
+    "longitude": 84.9928,
+    "pricePerNight": 3400,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Nirvana Restaurant",
+      "Conference Rooms",
+      "Doctor on Call",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Popular with international Buddhist pilgrim groups from Japan, Thailand & Vietnam"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 0115",
+    "website": "https://hoteldelta.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.977Z",
+    "updatedAt": "2026-08-22T21:20:26.977Z"
+  },
+  {
+    "hotelId": "bg-maya-heritage",
+    "name": "Maya Heritage Bodh Gaya",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Near Thai Temple, Main Road, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6985,
+    "longitude": 84.9892,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Sujata Vegetarian Cafe",
+      "AC Rooms",
+      "Garden Courtyard",
+      "Airport Transfer"
+    ],
+    "specialFeatures": [
+      "Walking distance from Mahabodhi Temple and Thai Buddhist Monastery"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 0411",
+    "website": "https://mayaheritage.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.977Z",
+    "updatedAt": "2026-08-22T21:20:26.977Z"
+  },
+  {
+    "hotelId": "bg-kundan-bazaar-guesthouse",
+    "name": "Kundan Bazaar Guest House",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Bhagwanpur, Near Japanese Temple, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6954,
+    "longitude": 84.9854,
+    "pricePerNight": 1100,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe",
+      "Book Exchange",
+      "Laundry",
+      "Bicycle Rental"
+    ],
+    "specialFeatures": [
+      "Legendary backpacker institution in Bodh Gaya with organic food and tranquil meditation terrace"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 0549",
+    "website": "https://kundanbazaar.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.977Z",
+    "updatedAt": "2026-08-22T21:20:26.977Z"
+  },
+  {
+    "hotelId": "bg-root-institute-guesthouse",
+    "name": "Root Institute for Wisdom Culture",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Saxena Road, Near Giant Buddha Statue, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6912,
+    "longitude": 84.9815,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian Organic Dining",
+      "Meditation Halls",
+      "Lush Lotus Gardens",
+      "Tibetan Buddhist Library",
+      "Quiet Zones"
+    ],
+    "specialFeatures": [
+      "Renowned international Tibetan Buddhist meditation center offering peaceful residential retreats"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 0714",
+    "website": "https://rootinstitute.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.978Z",
+    "updatedAt": "2026-08-22T21:20:26.978Z"
+  }
+]

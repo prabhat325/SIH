@@ -1,0 +1,253 @@
+[
+  {
+    "hotelId": "gau-radisson-blu-guwahati",
+    "name": "Radisson Blu Hotel Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "NH-37, Gotanagar, Tetelia, Guwahati, Assam 781033",
+    "latitude": 26.1412,
+    "longitude": 91.6825,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Infinity Swimming Pool",
+      "Spa & Wellness Centre",
+      "Cafe B-You Global Dining",
+      "The Great Kabab Factory",
+      "Nest Pan-Asian",
+      "Reign Bar",
+      "Lush Hills View"
+    ],
+    "specialFeatures": [
+      "Northeast India's flagship 5-star international luxury hotel set against the backdrop of rolling green hills",
+      "The Great Kabab Factory and lavish Sunday Brunches"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 710 0100",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-guwahati",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.147Z",
+    "updatedAt": "2026-08-22T21:20:27.147Z"
+  },
+  {
+    "hotelId": "gau-vivanta-guwahati",
+    "name": "Vivanta Guwahati (Taj)",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "Nikita Complex, GS Road, Khanapara, Guwahati, Assam 781022",
+    "latitude": 26.1154,
+    "longitude": 91.8212,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool amidst Betel Palms",
+      "Jiva Spa",
+      "Seven Authentic Assamese & Northeastern Dining",
+      "The Square 24/7",
+      "Tease Bar",
+      "5 Acres of Lawns"
+    ],
+    "specialFeatures": [
+      "Architectural tribute to Assam's iconic Rang Ghar amphitheater with five acres of manicured gardens",
+      "Seven restaurant showcasing traditional Assamese Kaji Nemu and duck delicacies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 710 6710",
+    "website": "https://www.tajhotels.com/en-in/taj/vivanta-guwahati/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.148Z",
+    "updatedAt": "2026-08-22T21:20:27.148Z"
+  },
+  {
+    "hotelId": "gau-kiranshree-grand",
+    "name": "Kiranshree Grand Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "New Airport Road, Mirzapur, Azara, Guwahati, Assam 781017",
+    "latitude": 26.1125,
+    "longitude": 91.6025,
+    "pricePerNight": 7200,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Large Swimming Pool with Waterfalls",
+      "Mayur Royal Dining",
+      "White Mist Spa",
+      "Airport Shuttle",
+      "Banqueting"
+    ],
+    "specialFeatures": [
+      "Expansive palace-style 5-star resort located 5 minutes from Lokpriya Gopinath Bordoloi International Airport"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 284 3333",
+    "website": "https://kiranshreegrand.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.148Z",
+    "updatedAt": "2026-08-22T21:20:27.148Z"
+  },
+  {
+    "hotelId": "gau-novotel-guwahati-gs-road",
+    "name": "Novotel Guwahati GS Road",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "GS Road, Dispur, Guwahati, Assam 781005",
+    "latitude": 26.1485,
+    "longitude": 91.7912,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Infinity Pool",
+      "The Square Global Dining",
+      "The Malt Bar",
+      "In Balance Spa & Fitness",
+      "Dispur Secretariat View"
+    ],
+    "specialFeatures": [
+      "Rooftop infinity swimming pool with sweeping views of the lush green capital city in Dispur"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 710 4444",
+    "website": "https://all.accor.com/hotel/9042/index.en.shtml",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.148Z",
+    "updatedAt": "2026-08-22T21:20:27.148Z"
+  },
+  {
+    "hotelId": "gau-hotel-dynasty",
+    "name": "Hotel Dynasty Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "SS Road, Lakhtokia, Fancy Bazaar, Guwahati, Assam 781001",
+    "latitude": 26.1845,
+    "longitude": 91.7425,
+    "pricePerNight": 4200,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Chopsticks Chinese Restaurant",
+      "Tandoor North Indian",
+      "The Copper Chimney Bar",
+      "Health Club",
+      "Brahmaputra River View"
+    ],
+    "specialFeatures": [
+      "Prime Fancy Bazaar riverside location overlooking the mighty Brahmaputra river and Umananda Island"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 251 6021",
+    "website": "https://hoteldynasty.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.149Z",
+    "updatedAt": "2026-08-22T21:20:27.149Z"
+  },
+  {
+    "hotelId": "gau-ginger-guwahati",
+    "name": "Ginger Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "VIP Road, Six Mile, Khanapara, Guwahati, Assam 781022",
+    "latitude": 26.1285,
+    "longitude": 91.8085,
+    "pricePerNight": 2400,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Rooms",
+      "24/7 Desk"
+    ],
+    "specialFeatures": [
+      "Dependable IHCL quality on VIP Road near Six Mile commercial crossing"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 666 3333",
+    "website": "https://www.gingerhotels.com/ginger-guwahati",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.149Z",
+    "updatedAt": "2026-08-22T21:20:27.149Z"
+  },
+  {
+    "hotelId": "gau-nomad-hostel-guwahati",
+    "name": "Nomad Hostel Guwahati",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "Uzan Bazaar, Near Brahmaputra Riverfront, Guwahati, Assam 781001",
+    "latitude": 26.1885,
+    "longitude": 91.7545,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop River View Cafe",
+      "AC Dorms & Privates",
+      "Co-working Desks",
+      "Kamakhya Temple Tour Desk"
+    ],
+    "specialFeatures": [
+      "Charming heritage quarter Uzan Bazaar, organizing sunset Brahmaputra ferry rides and Kamakhya Temple dawn walks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98540 12345",
+    "website": "https://nomadhostelguwahati.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.149Z",
+    "updatedAt": "2026-08-22T21:20:27.149Z"
+  },
+  {
+    "hotelId": "gau-fabhotel-guwahati-paltan-bazar",
+    "name": "FabHotel Prime Paltan Bazaar",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "MD Road, Paltan Bazaar, Near Guwahati Railway Station, Guwahati, Assam 781008",
+    "latitude": 26.1785,
+    "longitude": 91.7512,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "AC Rooms",
+      "24/7 Front Desk",
+      "Complimentary Breakfast",
+      "Elevator"
+    ],
+    "specialFeatures": [
+      "2-minute walking distance from Guwahati Railway Station and ASTC bus station connecting to Shillong"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 70424 24242",
+    "website": "https://www.fabhotels.com/hotels-in-guwahati/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.150Z",
+    "updatedAt": "2026-08-22T21:20:27.150Z"
+  }
+]

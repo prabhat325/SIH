@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "NASHIK-EVENT-001",
+            "name": "Kumbh Mela",
+            "city": "Nashik",
+            "state": "Maharashtra",
+            "description": "One of the world's largest religious gatherings held every 12 years.",
+            "type": "Religious",
+            "venue": "Ramkund and various ghats",
+            "usualMonth": "Varies (every 12 years)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://maharashtratourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "NASHIK-EVENT-002",
+            "name": "Simhastha Kumbh",
+            "city": "Nashik",
+            "state": "Maharashtra",
+            "description": "The Nashik-Trimbakeshwar Kumbh Mela held every 12 years.",
+            "type": "Religious",
+            "venue": "Ramkund, Trimbakeshwar",
+            "usualMonth": "Varies",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://maharashtratourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "NASHIK-EVENT-003",
+            "name": "Grape Festival",
+            "city": "Nashik",
+            "state": "Maharashtra",
+            "description": "A festival celebrating Nashik's wine country heritage.",
+            "type": "Festival",
+            "venue": "Various vineyards in Nashik",
+            "usualMonth": "February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://maharashtratourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

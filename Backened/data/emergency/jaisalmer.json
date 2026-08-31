@@ -1,0 +1,71 @@
+[
+  {
+    "serviceId": "JAISALMER-HOSPITAL-001",
+    "name": "Jawahir Hospital",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Indira Colony, Jaisalmer, Rajasthan 345001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAISALMER-HOSPITAL-002",
+    "name": "Government Jawaharlal Nehru Hospital",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Air Force Circle, Jaisalmer, Rajasthan 345001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAISALMER-POLICE-003",
+    "name": "Jaisalmer Police Station",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "type": "Police Station",
+    "address": "Police Line Road, Jaisalmer, Rajasthan 345001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://jaisalmerpolice.rajasthan.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAISALMER-FIRE-004",
+    "name": "Jaisalmer Fire Station",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "type": "Fire Station",
+    "address": "Police Line Road, Jaisalmer, Rajasthan 345001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

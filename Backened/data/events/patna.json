@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "PATNA-EVENT-001",
+            "name": "Chhath Puja",
+            "city": "Patna",
+            "state": "Bihar",
+            "description": "Bihar's most important festival dedicated to the Sun God.",
+            "type": "Religious",
+            "venue": "Ganges ghats and various venues",
+            "usualMonth": "October/November",
+            "usualTime": "Morning and evening",
+            "usualDuration": "4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PATNA-EVENT-002",
+            "name": "Bihar Diwas",
+            "city": "Patna",
+            "state": "Bihar",
+            "description": "Bihar Day on March 22nd with cultural programs.",
+            "type": "Cultural",
+            "venue": "Various venues in Patna",
+            "usualMonth": "March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PATNA-EVENT-003",
+            "name": "Sonepur Mela",
+            "city": "Patna",
+            "state": "Bihar",
+            "description": "One of Asia's largest cattle fairs at Sonepur.",
+            "type": "Fair",
+            "venue": "Sonepur (near Patna)",
+            "usualMonth": "November/December",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

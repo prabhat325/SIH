@@ -1,0 +1,48 @@
+[
+    {
+        "guideId": "VAR-001",
+        "name": "Vimal Pathak",
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Temple Tours",
+            "Ghats"
+        ],
+        "experienceYears": 10,
+        "rating": null,
+        "contact": "+91-9335357962",
+        "email": null,
+        "pricePerHour": 10,
+        "description": "Runs My Tour Guide Varanasi.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "VAR-002",
+        "name": "JP Mishra",
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Heritage Tours",
+            "Temple Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": "+91-8318930640",
+        "email": null,
+        "pricePerHour": 10,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

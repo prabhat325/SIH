@@ -1,0 +1,57 @@
+{
+    "events": [
+        {
+            "eventId": "BHOPAL-EVENT-001",
+            "name": "Lokrang Festival",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "description": "A five-day extravaganza celebrating India's tribal and folk traditions.",
+            "type": "Cultural",
+            "venue": "Ravindra Bhawan",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.mptourism.com/Lokrang-Festival.htm",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/f6c95b33-ff9e-5354-833b-13506c9f24e2/9ad652c4-dcf2-51d7-a293-563964156c07.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "BHOPAL-EVENT-002",
+            "name": "Madhya Pradesh Utsav",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "description": "A vibrant celebration of Madhya Pradesh's rich culture and heritage.",
+            "type": "Festival",
+            "venue": "Lal Pared Ground",
+            "usualMonth": "November",
+            "usualTime": "Evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/madhya-pradesh-utsav",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "BHOPAL-EVENT-003",
+            "name": "Jashn-e-Bhopal",
+            "city": "Bhopal",
+            "state": "Madhya Pradesh",
+            "description": "A grand cultural carnival by the lake celebrating New Year.",
+            "type": "Cultural",
+            "venue": "Boat Club, Bhopal",
+            "usualMonth": "December/January",
+            "usualTime": "Evening to night",
+            "usualDuration": "2-3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.mptourism.com/jashn-e-Bhopal.htm",
+            "images": [],
+            "available": true
+        }
+    ]
+}

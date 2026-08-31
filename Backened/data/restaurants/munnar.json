@@ -1,0 +1,165 @@
+[
+  {
+    "restaurantId": "rst-mnr-rapsy-restaurant",
+    "name": "Rapsy Restaurant (Since 1980s)",
+    "city": "Munnar",
+    "state": "Kerala",
+    "address": "Main Bazaar, Near Post Office, Munnar Town, Idukki District, Kerala 685612",
+    "latitude": 10.0889,
+    "longitude": 77.0598,
+    "cuisine": [
+      "Kerala Traveler Diner",
+      "Spanish Omelettes",
+      "Parotta & Beef Fry"
+    ],
+    "famousDishes": [
+      "Famous Spanish Omelette with Potatoes & Cheese",
+      "Flaky Kerala Parotta with Spiced Beef Fry",
+      "Chicken Biryani",
+      "Fresh Banana Pancake with Honey",
+      "Elaichi (Cardamom) Tea"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Rapsy Spanish Cheese Omelette",
+        "price": 130
+      },
+      {
+        "food": "Spicy Kerala Beef Fry with 2 Parottas",
+        "price": 160
+      },
+      {
+        "food": "Nutella Banana Pancake",
+        "price": 110
+      },
+      {
+        "food": "Fresh High-Grown Cardamom Tea",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic Mountain Town Bazaar Location",
+      "Quick Service",
+      "High Energy Backpacker Hub"
+    ],
+    "specialFeatures": [
+      "Munnar's most legendary backpacker dining landmark in the main bazaar, famous for hearty fluffy Spanish omelettes, flaky parottas, and steaming cups of fresh cardamom tea after cold mountain hikes",
+      "The heart of Munnar street dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 4865 230 456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnr-saravana-bhavan",
+    "name": "Hotel Saravana Bhavan Munnar",
+    "city": "Munnar",
+    "state": "Kerala",
+    "address": "Munnar Main Town, Near KSRTC Bus Stand, Munnar, Kerala 685612",
+    "latitude": 10.0875,
+    "longitude": 77.0612,
+    "cuisine": [
+      "Pure Vegetarian",
+      "South Indian Tiffin",
+      "Tamil-Kerala Meals"
+    ],
+    "famousDishes": [
+      "Crispy Ghee Roast Masala Dosa",
+      "South Indian Banana Leaf Meal",
+      "Idli Vada with Hot Sambar",
+      "Munnar Tea"
+    ],
+    "menu": [
+      {
+        "food": "Ghee Roast Masala Dosa",
+        "price": 110
+      },
+      {
+        "food": "South Indian Vegetarian Meal",
+        "price": 140
+      },
+      {
+        "food": "Hot Steaming Filter Coffee",
+        "price": 35
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "Fast Service",
+      "Central Bus Stand Proximity"
+    ],
+    "specialFeatures": [
+      "Busy pure-vegetarian restaurant in central Munnar serving piping hot crispy dosas and comforting south Indian lunches to tea estate tourists",
+      "Fast and dependable"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 4865 230 133",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnr-hornbill-fragrant-nature",
+    "name": "The Hornbill - Fragrant Nature Munnar",
+    "city": "Munnar",
+    "state": "Kerala",
+    "address": "Fragrant Nature Resort, Pothemmedu, Munnar, Kerala 685612",
+    "latitude": 10.0612,
+    "longitude": 77.0421,
+    "cuisine": [
+      "Kerala Gourmet",
+      "Pan Asian",
+      "Continental Fine Dining"
+    ],
+    "famousDishes": [
+      "Travancore Spiced Fish Curry",
+      "Kuttanad Duck Roast",
+      "Grilled Lamb Chops",
+      "Elaneer Pudding",
+      "High-Altitude Tea Tastings"
+    ],
+    "menu": [
+      {
+        "food": "Travancore Fish Curry with Steamed Rice",
+        "price": 680
+      },
+      {
+        "food": "Kuttanad Duck Roast with Appams",
+        "price": 740
+      },
+      {
+        "food": "Signature Tender Coconut Pudding",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 1200,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Panoramic Mountain & Tea Valley Mist Views",
+      "Fireplace Lounge",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "High-altitude luxury resort dining perched amidst the rolling green tea plantations and mist-covered cliffs of Pothamedu, offering elevated Kerala cuisine with breathtaking mountain views",
+      "Luxury hill dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 4865 230 000",
+    "website": "https://www.fragrantnature.com",
+    "available": true
+  }
+]

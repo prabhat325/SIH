@@ -1,0 +1,5 @@
+[
+{"serviceId":"OOTY-HOSPITAL-001","name":"Government Headquarters Hospital Ooty","city":"Ooty","state":"Tamil Nadu","type":"Hospital","address":"Commissioner's Road, Ooty, The Nilgiris 643001","latitude":null,"longitude":null,"phone":"+91-423-2442190","website":"https://nilgiris.nic.in","available24x7":true,"emergencyFacilities":["24x7 Emergency","ICU","Ambulance"],"verified":true,"available":true},
+{"serviceId":"OOTY-POLICE-001","name":"Ooty Town Police Station","city":"Ooty","state":"Tamil Nadu","type":"Police Station","address":"Commercial Road, Ooty, The Nilgiris 643001","latitude":null,"longitude":null,"phone":null,"website":"https://eservices.tnpolice.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+{"serviceId":"OOTY-FIRE-001","name":"Ooty Fire and Rescue Station","city":"Ooty","state":"Tamil Nadu","type":"Fire Station","address":"Fingerpost, Ooty, The Nilgiris 643006","latitude":null,"longitude":null,"phone":null,"website":"https://www.tnfrs.tn.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

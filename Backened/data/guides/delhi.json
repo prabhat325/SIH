@@ -1,0 +1,120 @@
+[
+    {
+        "guideId": "DEL-001",
+        "name": "Arun Dixit",
+        "city": "Delhi",
+        "state": "Delhi",
+        "languages": [
+            "English",
+            "German",
+            "Hindi"
+        ],
+        "specialization": [
+            "Heritage Tours",
+            "Monuments"
+        ],
+        "experienceYears": 15,
+        "rating": null,
+        "contact": "+91-9810577617",
+        "email": "arunkumardixit9@gmail.com",
+        "pricePerHour": 15,
+        "description": "GATGA certified guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "DEL-002",
+        "name": "Vipin Bhardwaj",
+        "city": "Delhi",
+        "state": "Delhi",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "City Tours",
+            "Heritage"
+        ],
+        "experienceYears": 12,
+        "rating": null,
+        "contact": "+91-9811008295",
+        "email": null,
+        "pricePerHour": 15,
+        "description": "GATGA certified guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "DEL-003",
+        "name": "Sushil Tiwari",
+        "city": "Delhi",
+        "state": "Delhi",
+        "languages": [
+            "English",
+            "German",
+            "Hindi"
+        ],
+        "specialization": [
+            "Heritage Tours",
+            "Monuments"
+        ],
+        "experienceYears": 14,
+        "rating": null,
+        "contact": "+91-9899967309",
+        "email": "guidesushiltiwari@gmail.com",
+        "pricePerHour": 15,
+        "description": "GATGA certified guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "DEL-004",
+        "name": "Gaurang Goyal",
+        "city": "Delhi",
+        "state": "Delhi",
+        "languages": [
+            "English",
+            "Japanese",
+            "Hindi"
+        ],
+        "specialization": [
+            "Heritage Tours",
+            "Cultural Tours"
+        ],
+        "experienceYears": 10,
+        "rating": null,
+        "contact": "+91-9250793326",
+        "email": null,
+        "pricePerHour": 18,
+        "description": "GATGA certified guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "DEL-005",
+        "name": "Sunny",
+        "city": "Delhi",
+        "state": "Delhi",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "City Tours",
+            "Golden Triangle"
+        ],
+        "experienceYears": 10,
+        "rating": null,
+        "contact": "+91-9599759259",
+        "email": null,
+        "pricePerHour": 15,
+        "description": "Trusted Delhi guide from AwayToIndia.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

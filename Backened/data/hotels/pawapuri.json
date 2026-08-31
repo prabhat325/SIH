@@ -1,0 +1,241 @@
+[
+  {
+    "hotelId": "paw-mahavira-international-resort",
+    "name": "Mahavira International Resort Pawapuri",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "NH-31, Near Jal Mandir Road, Pawapuri, Nalanda District, Bihar 803115",
+    "latitude": 25.0945,
+    "longitude": 85.5218,
+    "pricePerNight": 3800,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pure Jain Satvik Restaurant",
+      "Air Conditioning",
+      "Lush Lawns",
+      "Ample Parking",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Top quality resort near the world-famous white marble Jal Mandir in the center of the lotus tank",
+      "Specialized pure Jain meals with no onion/garlic"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 001",
+    "website": "https://mahavirapawapuri.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.991Z",
+    "updatedAt": "2026-08-22T21:20:26.992Z"
+  },
+  {
+    "hotelId": "paw-hotel-jal-mandir-view",
+    "name": "Hotel Jal Mandir View",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Opposite Jal Mandir Gate, Pawapuri, Bihar 803115",
+    "latitude": 25.0921,
+    "longitude": 85.5245,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Jain Bhojnalaya",
+      "Jal Mandir Lake View Balcony",
+      "Air Conditioning",
+      "Hot Water"
+    ],
+    "specialFeatures": [
+      "Direct view of the glowing white marble Jal Mandir on the lotus pond from private room balconies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 112",
+    "website": "https://hoteljalmandirview.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.992Z",
+    "updatedAt": "2026-08-22T21:20:26.992Z"
+  },
+  {
+    "hotelId": "paw-jain-swetambar-dharamshala",
+    "name": "Jain Swetambar Kothi & Dharamshala",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Gaon Mandir Road, Pawapuri, Bihar 803115",
+    "latitude": 25.0958,
+    "longitude": 85.5262,
+    "pricePerNight": 900,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "AC & Non-AC Rooms",
+      "Satvik Jain Bhojanshala",
+      "Filtered Drinking Water",
+      "Prayer Halls",
+      "24/7 Security"
+    ],
+    "specialFeatures": [
+      "Immaculate historic pilgrimage trust guest house maintained by Shri Jain Swetambar Bhandar Tirth"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 234",
+    "website": "https://pawapuritirth.org/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.992Z",
+    "updatedAt": "2026-08-22T21:20:26.992Z"
+  },
+  {
+    "hotelId": "paw-digambar-jain-dharamshala",
+    "name": "Digambar Jain Naya Mandir Dharamshala",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Near Samosharan Mandir, Pawapuri, Bihar 803115",
+    "latitude": 25.0974,
+    "longitude": 85.5235,
+    "pricePerNight": 850,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Clean Guest Rooms",
+      "Bhojanshala",
+      "Hot Water",
+      "Luggage Cloakroom",
+      "Peaceful Courtyard"
+    ],
+    "specialFeatures": [
+      "Located right next to Samosharan Mandir where Lord Mahavira delivered his final divine sermon"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 345",
+    "website": "https://digambarjainpawapuri.org/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.993Z",
+    "updatedAt": "2026-08-22T21:20:26.993Z"
+  },
+  {
+    "hotelId": "paw-bstdc-tourist-bungalow",
+    "name": "Pawapuri Tourist Bungalow (BSTDC)",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "NH-31 Crossing, Pawapuri, Bihar 803115",
+    "latitude": 25.0912,
+    "longitude": 85.5195,
+    "pricePerNight": 1500,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Parking",
+      "Restaurant",
+      "Lush Lawns",
+      "AC Rooms",
+      "24-hour Security"
+    ],
+    "specialFeatures": [
+      "Official Bihar State Tourism government rest house with good highway connectivity"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 456",
+    "website": "https://www.bstdc.bih.nic.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.993Z",
+    "updatedAt": "2026-08-22T21:20:26.993Z"
+  },
+  {
+    "hotelId": "paw-pawapuri-tirthankar-guesthouse",
+    "name": "Pawapuri Tirthankar Guest House",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Main Bazaar Road, Pawapuri, Bihar 803115",
+    "latitude": 25.0935,
+    "longitude": 85.5229,
+    "pricePerNight": 1100,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Satvik Canteen",
+      "Hot Water",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Centrally located in Pawapuri bazaar for shopping local sacred mementos"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 567",
+    "website": "https://tirthankarpawapuri.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.993Z",
+    "updatedAt": "2026-08-22T21:20:26.993Z"
+  },
+  {
+    "hotelId": "paw-vardhman-guesthouse",
+    "name": "Vardhman Guest House",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Jal Mandir Bypass Road, Pawapuri, Bihar 803115",
+    "latitude": 25.0965,
+    "longitude": 85.5211,
+    "pricePerNight": 1000,
+    "category": "Budget",
+    "rating": 3.8,
+    "amenities": [
+      "Vegetarian Food",
+      "Hot Showers",
+      "Parking",
+      "24-hour Helpdesk"
+    ],
+    "specialFeatures": [
+      "Economical stay for pilgrimage buses and family groups"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 678",
+    "website": "https://vardhmanguesthousepawapuri.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.994Z",
+    "updatedAt": "2026-08-22T21:20:26.994Z"
+  },
+  {
+    "hotelId": "paw-pawapuri-heritage-inn",
+    "name": "Pawapuri Heritage Inn",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Near Kundalpur Turn, NH-31, Pawapuri, Bihar 803115",
+    "latitude": 25.0905,
+    "longitude": 85.5182,
+    "pricePerNight": 1350,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Bhojnalaya",
+      "Ample Car Parking"
+    ],
+    "specialFeatures": [
+      "Ideal stopover connecting Pawapuri Nirvana Tirth and Rajgir hills"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 789",
+    "website": "https://pawapuriheritageinn.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.994Z",
+    "updatedAt": "2026-08-22T21:20:26.994Z"
+  }
+]

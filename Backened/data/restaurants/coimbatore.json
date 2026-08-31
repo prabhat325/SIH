@@ -1,0 +1,226 @@
+[
+  {
+    "restaurantId": "rst-cbe-annapoorna-rs-puram",
+    "name": "Sree Annapoorna Sree Gowrishankar (Since 1968)",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "75, East Arokiasamy Road, R.S. Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0089,
+    "longitude": 76.9489,
+    "cuisine": [
+      "Heritage South Indian",
+      "Kongu Vegetarian",
+      "Proprietary Sambar Specialist"
+    ],
+    "famousDishes": [
+      "World-Famous Sambar Vadai (Crispy Medu Vadas Drowned in Secret Proprietary Annapoorna Sambar)",
+      "Ghee Roast Masala Dosa",
+      "Rava Roast",
+      "Sambar Idli",
+      "Special Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Sambar Vadai (2 vadas soaked in piping hot signature sambar)",
+        "price": 80
+      },
+      {
+        "food": "Ghee Roast Masala Dosa",
+        "price": 130
+      },
+      {
+        "food": "South Indian Executive Meal",
+        "price": 190
+      },
+      {
+        "food": "Special Filter Coffee (Brass Davara Tumbler)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Proprietary Sambar Spice Formulation",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Founded in 1968 by K. Dhamodarasamy Naidu in RS Puram, legendary across India for its distinct proprietary Sambar blend (incorporating roasted coriander, fenugreek, and shallots) and unmatched Sambar Vadais",
+      "The undisputed soul of Coimbatore"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 422 452 7777",
+    "website": "http://annapoorna.co.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-cbe-junior-kuppanna",
+    "name": "Junior Kuppanna (Since 1960)",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "148, Diwan Bahadur Road (DB Road), R.S. Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0112,
+    "longitude": 76.9512,
+    "cuisine": [
+      "Kongu Nadu Heritage",
+      "Non-Vegetarian Parotta & Curries"
+    ],
+    "famousDishes": [
+      "Kongu Mutton Pallipalayam (Dry Chilli & Coconut Flakes Mutton)",
+      "Nattu Kozhi (Country Chicken) Roast",
+      "Flaky Parotta with Salna",
+      "Mutton Dum Biryani (Seeraga Samba)",
+      "Mutton Brain Fry"
+    ],
+    "menu": [
+      {
+        "food": "Signature Mutton Pallipalayam",
+        "price": 340
+      },
+      {
+        "food": "Nattu Kozhi Chukka",
+        "price": 290
+      },
+      {
+        "food": "Flaky Coin Parotta (Pair with Gravy)",
+        "price": 70
+      },
+      {
+        "food": "Kongu Seeraga Samba Mutton Biryani",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Plantain Leaf Dining",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Founded in 1960 by Thiru Kuppanna in the Kongu heartland, celebrated for traditional Kongu Nadu recipes utilizing shallots, dry red chillies, fresh coconut slivers, and zero artificial coloring",
+      "The king of Kongu non-veg dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 422 254 0001",
+    "website": "http://kuppanna.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-cbe-haribhavanam",
+    "name": "Haribhavanam (Since 1971)",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "Near Fun Republic Mall, Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "latitude": 11.0289,
+    "longitude": 77.0012,
+    "cuisine": [
+      "Kongu Non-Veg Meals",
+      "Chettinad",
+      "Seafood"
+    ],
+    "famousDishes": [
+      "Haribhavanam Special Non-Veg Meal on Banana Leaf",
+      "Kozhi Chinthamani (Shredded Chicken with Crushed Chillies)",
+      "Fish Fry",
+      "Mutton Sukka",
+      "Brain Fry"
+    ],
+    "menu": [
+      {
+        "food": "Special Non-Veg Banana Leaf Meal",
+        "price": 210
+      },
+      {
+        "food": "Kozhi Chinthamani Roast",
+        "price": 280
+      },
+      {
+        "food": "Vanjaram Fish Fry Slice",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 320,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Banana Leaf Service",
+      "Spacious Family Hall",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Coimbatore's beloved non-vegetarian culinary landmark since 1971, famous for authentic 'Kozhi Chinthamani' and unlimited plantain-leaf meals paired with freshly ground pepper roasts",
+      "Top family lunch spot"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 422 433 3333",
+    "website": "http://haribhavanam.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-cbe-the-french-door",
+    "name": "The French Door Cafe & Restaurant",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "address": "102, West Bashyakaralu Road, R.S. Puram, Coimbatore, Tamil Nadu 641002",
+    "latitude": 11.0098,
+    "longitude": 76.9465,
+    "cuisine": [
+      "French",
+      "European",
+      "Artisan Desserts",
+      "Café"
+    ],
+    "famousDishes": [
+      "Ratatouille Crepes",
+      "Grilled Atlantic Salmon",
+      "Mushroom Risotto",
+      "Classic French Onion Soup",
+      "Belgian Chocolate Mousse"
+    ],
+    "menu": [
+      {
+        "food": "French Grilled Salmon with Lemon Butter Sauce",
+        "price": 780
+      },
+      {
+        "food": "Wild Mushroom & Truffle Risotto",
+        "price": 480
+      },
+      {
+        "food": "Signature French Opera Pastry",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Restored French-Colonial Villa",
+      "Cobblestone Courtyard",
+      "Air Conditioning",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Set in a restored French-colonial style villa with turquoise shuttered doors and courtyards, serving authentic French culinary techniques and artisan pastries in Coimbatore",
+      "Chic gourmet sanctuary"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 422 254 4455",
+    "website": null,
+    "available": true
+  }
+]

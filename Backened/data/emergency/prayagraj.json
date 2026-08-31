@@ -1,0 +1,92 @@
+[
+  {
+    "serviceId": "PRAYAGRAJ-HOSPITAL-001",
+    "name": "Motilal Nehru Medical College and Associated Hospitals",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "George Town, Prayagraj, Uttar Pradesh 211002",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://mlnmc.edu.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "PRAYAGRAJ-HOSPITAL-002",
+    "name": "Swaroop Rani Nehru Hospital",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "M.L.N. Medical College Campus, George Town, Prayagraj, Uttar Pradesh 211002",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "PRAYAGRAJ-HOSPITAL-003",
+    "name": "District Hospital Prayagraj",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Mayo Hall, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "PRAYAGRAJ-POLICE-004",
+    "name": "Civil Lines Police Station",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "type": "Police Station",
+    "address": "Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://prayagrajpolice.com/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "PRAYAGRAJ-FIRE-005",
+    "name": "Civil Lines Fire Station",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "type": "Fire Station",
+    "address": "Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

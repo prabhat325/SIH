@@ -1,0 +1,553 @@
+[
+  {
+    "restaurantId": "rst-ddn-elloras-melting-moments",
+    "name": "Ellora's Melting Moments (Since 1953)",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "29, Rajpur Road, Chukkuwala, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3258,
+    "longitude": 78.0461,
+    "cuisine": [
+      "Bakery & Patisserie",
+      "Confectionery",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Dehradun Plum Cake",
+      "Stick Jalebi",
+      "Butter Rusk",
+      "Pista Biscuits",
+      "Cream Rolls",
+      "Almond Fudge"
+    ],
+    "menu": [
+      {
+        "food": "World Famous Dehradun Plum Cake (500g)",
+        "price": 380
+      },
+      {
+        "food": "Crisp Butter Rusks Box (400g)",
+        "price": 180
+      },
+      {
+        "food": "Signature Stick Jalebi (100g)",
+        "price": 60
+      },
+      {
+        "food": "Pista Cookies (Box)",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic 1953 Bakery",
+      "Gift Packaging",
+      "Takeaway",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Dehradun's most celebrated confectionery institution founded in 1953 by Mr. V.M. Gulati, famous across India for rich dense plum cakes, butter rusks, and crispy stick jalebis",
+      "The ultimate Doon culinary identity"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 265 7443",
+    "website": "http://elloras.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-kumar-sweets",
+    "name": "Kumar Sweets & Restaurant",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Clock Tower, Rajpur Road, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3245,
+    "longitude": 78.0445,
+    "cuisine": [
+      "Mithai",
+      "North Indian",
+      "Chaat & Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Rasmalai",
+      "Chenna Murki",
+      "Kaju Katli",
+      "Pani Puri",
+      "Chole Bhature",
+      "Raj Kachori"
+    ],
+    "menu": [
+      {
+        "food": "Signature Creamy Rasmalai (2 pcs)",
+        "price": 80
+      },
+      {
+        "food": "Special Chole Bhature Platter",
+        "price": 140
+      },
+      {
+        "food": "Raj Kachori Chaat",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Clock Tower Landmark Location",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Dehradun's premier sweet and chaat destination situated right by the iconic Clock Tower, celebrated for delicate milk sweets and high-hygiene street delicacies",
+      "Loved by generations of Doon residents"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 265 5288",
+    "website": "http://kumarsweets.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-chetan-puri-wala",
+    "name": "Chetan Puri Wala (Since 1936)",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Hanuman Chowk, Jhanda Mohalla, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3212,
+    "longitude": 78.0389,
+    "cuisine": [
+      "Traditional Breakfast",
+      "Pure Vegetarian",
+      "Street Food"
+    ],
+    "famousDishes": [
+      "Poori with Spicy Chole & Methi Chutney",
+      "Gulab Jamun",
+      "Kadhi Chawal",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Special Poori Chana Thali (4 Puris with Chole, Aloo & Methi Chutney)",
+        "price": 80
+      },
+      {
+        "food": "Hot Desi Ghee Gulab Jamun (2 pcs)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Historic 1936 Shop",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Historic breakfast joint in Hanuman Chowk operating since 1936, famous for piping hot puris accompanied by spicy chickpeas, pumpkin subzi, and sweet-sour fenugreek chutney",
+      "Legendary morning hotspot"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-town-table",
+    "name": "Town Table Restaurant",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "101/2, 2nd Floor, Rajpur Road, Hathibarkala, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3412,
+    "longitude": 78.0582,
+    "cuisine": [
+      "Continental",
+      "North Indian",
+      "Pan Asian",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Mutton Rogan Josh",
+      "Wood Fired Pizza",
+      "Chicken Stroganoff",
+      "Dim Sums",
+      "Brownie Sizzler"
+    ],
+    "menu": [
+      {
+        "food": "Mutton Rogan Josh Kashmiri",
+        "price": 540
+      },
+      {
+        "food": "Quattro Formaggi Thin Crust Pizza",
+        "price": 460
+      },
+      {
+        "food": "Chicken Stroganoff with Herb Rice",
+        "price": 490
+      }
+    ],
+    "averageCostForOne": 700,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Rooftop Terrace Seating",
+      "Air Conditioning",
+      "Full Bar",
+      "Valet Parking",
+      "Live Music"
+    ],
+    "specialFeatures": [
+      "Dehradun's favorite upscale rooftop dining venue on Rajpur Road, offering sweeping views of the Mussoorie hill lights at night and eclectic multi-cuisine menus",
+      "Chic social dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 274 0123",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-kalsang-rajpur-road",
+    "name": "Kalsang Cafe & Restaurant",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "88-A, Rajpur Road, Chander Nagar, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3389,
+    "longitude": 78.0545,
+    "cuisine": [
+      "Tibetan",
+      "Chinese",
+      "Korean",
+      "Thai"
+    ],
+    "famousDishes": [
+      "Devil's Momos",
+      "Mutton Thukpa",
+      "Tingmo with Chilli Gravy",
+      "Kimchi Fried Rice",
+      "Fruit Beer"
+    ],
+    "menu": [
+      {
+        "food": "Spicy Devil's Momos (8 pcs)",
+        "price": 220
+      },
+      {
+        "food": "Traditional Mutton Thukpa",
+        "price": 230
+      },
+      {
+        "food": "Steamed Tingmo (2 pcs)",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Tibetan Decor",
+      "Spacious Seating",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Dehradun flagship of the beloved Kalsang brand, bringing fiery Tibetan street flavors, momos, and hearty mountain soups to Rajpur Road",
+      "Always packed with college students"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 274 4455",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-orchard-rajpur",
+    "name": "Orchard",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "3-B, Dakpatti, Near MDDA Park, Rajpur, Dehradun, Uttarakhand 248009",
+    "latitude": 30.3845,
+    "longitude": 78.0891,
+    "cuisine": [
+      "Tibetan",
+      "Thai",
+      "Asian Fusion",
+      "Café"
+    ],
+    "famousDishes": [
+      "Steamed Kothey Momos",
+      "Thai Green Curry with Jasmine Rice",
+      "Tom Yum Soup",
+      "Khapse",
+      "Butter Tea"
+    ],
+    "menu": [
+      {
+        "food": "Pan-fried Kothey Momos (8 pcs)",
+        "price": 240
+      },
+      {
+        "food": "Authentic Thai Green Curry with Rice",
+        "price": 380
+      },
+      {
+        "food": "Tom Yum Prawn Soup",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Cliffside Mountain Stream View",
+      "Open Garden Deck",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Picturesque cliffside open deck in upper Rajpur overhanging a babbling mountain river stream with Mussoorie hills rising in the backdrop",
+      "Celebrated for fresh pan-Asian food"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 81910 07777",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-black-pearl-madhuban",
+    "name": "Angithi & Black Pearl - Hotel Madhuban",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Hotel Madhuban, 97 Rajpur Road, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3402,
+    "longitude": 78.0568,
+    "cuisine": [
+      "Mughlai",
+      "North Indian",
+      "Tandoori",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Mutton Rogan Josh",
+      "Kadhai Murgh",
+      "Paneer Tikka Angithi",
+      "Dal Madhuban",
+      "Garlic Butter Naan"
+    ],
+    "menu": [
+      {
+        "food": "Signature Dal Madhuban",
+        "price": 340
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 540
+      },
+      {
+        "food": "Paneer Tikka Angithi",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Premium",
+    "rating": 4.4,
+    "amenities": [
+      "Lush Manicured Garden Lawns",
+      "Air Conditioning",
+      "Full Bar",
+      "Valet Parking",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Dehradun's oldest 4-star luxury dining institution set in verdant landscaped gardens on Rajpur Road, famous for charcoal tandoori marinades and aristocratic service",
+      "Favored by visiting VIPs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 274 0066",
+    "website": "http://hotelmadhuban.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-bikanervala-rajpur",
+    "name": "Bikanervala Rajpur Road",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Near Pacific Mall, Rajpur Road, Jakhan, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3645,
+    "longitude": 78.0723,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Chaat & Sweets"
+    ],
+    "famousDishes": [
+      "Special Raj Kachori",
+      "Chole Bhature",
+      "Paneer Tikka Platter",
+      "Rasmalai",
+      "Kaju Katli"
+    ],
+    "menu": [
+      {
+        "food": "Special Raj Kachori",
+        "price": 130
+      },
+      {
+        "food": "Amritsari Chole Bhature Platter",
+        "price": 160
+      },
+      {
+        "food": "Executive Veg Thali",
+        "price": 290
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Parking",
+      "Family Seating",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Vast multi-cuisine family food court near Pacific Mall serving fresh chaats, South Indian dosas, and traditional sweets in a spotless modern environment",
+      "Family favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 273 6666",
+    "website": "https://bikanervala.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-anandam-rajpur",
+    "name": "Anandam Sweets & Restaurant",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Opposite Secretariate, Subhash Road, Chukkuwala, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3289,
+    "longitude": 78.0478,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "Mithai",
+      "South Indian"
+    ],
+    "famousDishes": [
+      "Anandam Royal Thali",
+      "Kaju Barfi",
+      "Pav Bhaji",
+      "Paneer Lababdar",
+      "Badam Milk"
+    ],
+    "menu": [
+      {
+        "food": "Anandam Special Royal Veg Thali",
+        "price": 320
+      },
+      {
+        "food": "Butter Pav Bhaji",
+        "price": 140
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Sweet Counter",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Premier vegetarian dining venue near the Secretariat serving rich Rajasthani and North Indian vegetarian specialties and royal mithai",
+      "High hygiene standards"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 271 2233",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ddn-muse-sarovar",
+    "name": "The Flavours - Hotel Seyfert Sarovar Premiere",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Khasra No. 270, Haridwar Bypass Road, Near ISBT, Dehradun, Uttarakhand 248001",
+    "latitude": 30.2875,
+    "longitude": 78.0123,
+    "cuisine": [
+      "Multi-Cuisine",
+      "North Indian",
+      "Continental",
+      "Pan Asian Buffet"
+    ],
+    "famousDishes": [
+      "Grand Dinner Buffet",
+      "Mutton Rogan Josh",
+      "Paneer Tikka Masala",
+      "Grilled Fish",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Grand Multi-Cuisine Buffet",
+        "price": 1150
+      },
+      {
+        "food": "Murg Tikka Butter Masala",
+        "price": 460
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 390
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Premium",
+    "rating": 4.4,
+    "amenities": [
+      "5-Star Ambience",
+      "Air Conditioning",
+      "Valet Parking",
+      "Full Bar"
+    ],
+    "specialFeatures": [
+      "Contemporary 5-star hotel dining room offering lavish multi-cuisine buffet spreads, interactive live cooking stations, and gourmet desserts",
+      "Ideal for business & family gatherings"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 264 6666",
+    "website": "https://www.sarovarhotels.com",
+    "available": true
+  }
+]

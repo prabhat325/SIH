@@ -1,0 +1,265 @@
+[
+  {
+    "restaurantId": "rst-rjg-indo-hokke-lotus",
+    "name": "Lotus Restaurant - Indo Hokke Hotel",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Indo Hokke Hotel, Vishwa Shanti Stupa Road, Rajgir, Bihar 803116",
+    "latitude": 25.0112,
+    "longitude": 85.4189,
+    "cuisine": [
+      "Authentic Japanese",
+      "Buddhist Vegetarian",
+      "North Indian",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Traditional Japanese Bento Box",
+      "Vegetable Tempura",
+      "Miso Soup",
+      "Steamed Rice with Japanese Pickles",
+      "Royal Indian Thali"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Japanese Vegetarian Set Meal",
+        "price": 650
+      },
+      {
+        "food": "Vegetable Tempura Platter",
+        "price": 340
+      },
+      {
+        "food": "Indo Hokke Special Royal Thali",
+        "price": 420
+      }
+    ],
+    "averageCostForOne": 600,
+    "priceCategory": "Premium",
+    "rating": 4.6,
+    "amenities": [
+      "Traditional Japanese Architecture",
+      "Air Conditioning",
+      "Valet Parking",
+      "Fine Dining",
+      "Peaceful Mountain Setting"
+    ],
+    "specialFeatures": [
+      "Historic Japanese hotel constructed on the pilgrimage trail to Gridhakuta (Vulture Peak) where Lord Buddha delivered key Mahayana sutras, serving authentic Japanese bento feasts to visiting monks",
+      "Rare Japanese fine dining in Bihar"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 245",
+    "website": "http://indohokke.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rjg-silao-khaja-original",
+    "name": "Maha Kali Silao Khaja Bhandar",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Silao Main Bazaar, Silao (Between Rajgir & Nalanda), Bihar 803117",
+    "latitude": 25.0789,
+    "longitude": 85.4245,
+    "cuisine": [
+      "Heritage Bihari Sweets",
+      "GI-Tagged Khaja"
+    ],
+    "famousDishes": [
+      "Original GI-Tagged Silao Ka Khaja (52 Flaky Layers in Pure Desi Ghee)",
+      "Meetha Khaja",
+      "Namkeen Khaja"
+    ],
+    "menu": [
+      {
+        "food": "Original Sweet Silao Khaja (500g)",
+        "price": 180
+      },
+      {
+        "food": "Special Desi Ghee Silao Khaja (500g)",
+        "price": 240
+      },
+      {
+        "food": "Crispy Salted Namkeen Khaja (500g)",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "GI Tag Certified Shop",
+      "Fresh Batch Packaging",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "The legendary home of Bihar's Geographical Indication (GI) tagged 'Silao Khaja', a rectangular multi-layered pastry comprising 52 delicate crispy wafer layers said to have been offered to Lord Buddha over 2,500 years ago",
+      "Unmatched crispy sweet heritage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94310 98765",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rjg-green-restaurant",
+    "name": "Green Restaurant",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Near Venu Vana & Ropeway Road, Rajgir, Bihar 803116",
+    "latitude": 25.0212,
+    "longitude": 85.4221,
+    "cuisine": [
+      "Bihari",
+      "North Indian",
+      "Chinese",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Desi Ghee Litti Chokha",
+      "Bihari Veg Thali",
+      "Paneer Butter Masala",
+      "Dal Makhani",
+      "Fried Rice"
+    ],
+    "menu": [
+      {
+        "food": "Special Litti Chokha Plate (2 pcs)",
+        "price": 120
+      },
+      {
+        "food": "Green Special Thali",
+        "price": 220
+      },
+      {
+        "food": "Paneer Butter Masala with 2 Naan",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Venu Vana Bamboo Grove Proximity",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Conveniently located near the historic bamboo grove of Venu Vana and the Rajgir aerial ropeway, providing quick, comforting meals to mountain travelers",
+      "Tasty local specialties"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94314 22334",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rjg-the-rajgir-residency",
+    "name": "The Rajgir Residency Dining Hall",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "The Rajgir Residency, Near Kund Market, Rajgir, Bihar 803116",
+    "latitude": 25.0189,
+    "longitude": 85.4198,
+    "cuisine": [
+      "Pan Asian",
+      "Continental",
+      "North Indian",
+      "Buffet"
+    ],
+    "famousDishes": [
+      "Grand Tourist Buffet Dinner",
+      "Mutton Rogan Josh",
+      "Kadhai Paneer",
+      "Stir Fry Noodles",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Grand Multi-Cuisine Buffet Spread",
+        "price": 650
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 280
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Full Bar",
+      "Swimming Pool View"
+    ],
+    "specialFeatures": [
+      "Premier multi-cuisine hotel dining room catering to international tour groups, offering extensive hygienic buffet spreads and peaceful mountain scenery",
+      "Top hospitality in Rajgir"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 404",
+    "website": "http://therajgirresidency.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rjg-annapurna-bhojnalaya",
+    "name": "Annapurna Bhojnalaya",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Near Hot Springs (Brahmakund), Kund Market, Rajgir, Bihar 803116",
+    "latitude": 25.0145,
+    "longitude": 85.4267,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Sattvic Thali",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Sattvic Pure Ghee Thali",
+      "Poori Sabzi with Kheer",
+      "Dal Baati",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Pure Vegetarian Pilgrim Thali",
+        "price": 130
+      },
+      {
+        "food": "Special Poori Sabzi Plate (4 pcs)",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Hot Water Springs Proximity",
+      "Pure Vegetarian",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Dedicated pilgrimage diner near the sacred geothermal sulphur hot springs (Brahmakund), serving pure satvik meals without garlic/onion to bathing devotees",
+      "Simple and fresh"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

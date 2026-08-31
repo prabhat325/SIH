@@ -1,0 +1,317 @@
+[
+  {
+    "hotelId": "mnl-the-himalayan",
+    "name": "The Himalayan - Luxury Victorian Castle Resort",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Hadimba Road, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2475,
+    "longitude": 77.1812,
+    "pricePerNight": 16500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool Overlooking Snow Peaks",
+      "Refuge Spa",
+      "The Dining Room",
+      "The Dungeon Bar",
+      "Castle Suites with Fireplaces"
+    ],
+    "specialFeatures": [
+      "Built in Victorian Gothic style with medieval battlements and stone turrets",
+      "Surrounded by apple and cherry orchards at 2,003m"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1902 250 999",
+    "website": "https://www.thehimalayan.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.962Z",
+    "updatedAt": "2026-08-22T21:20:26.962Z"
+  },
+  {
+    "hotelId": "mnl-span-resort-spa",
+    "name": "Span Resort & Spa",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Baragran Nagger Highway, Katrain, Kullu-Manali Highway, Manali, Himachal Pradesh 175129",
+    "latitude": 32.1245,
+    "longitude": 77.1489,
+    "pricePerNight": 18000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Heated Pool",
+      "La Riviere Spa by L'Occitane",
+      "Riverside Dining",
+      "Helipad",
+      "Trout Angling"
+    ],
+    "specialFeatures": [
+      "Pioneer luxury resort on the banks of pristine Beas River set in 12 acres of pine woods",
+      "Private trout fishing and riverside barbecues"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1902 240 538",
+    "website": "https://spanresorts.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.962Z",
+    "updatedAt": "2026-08-22T21:20:26.962Z"
+  },
+  {
+    "hotelId": "mnl-solang-valley-resort",
+    "name": "Solang Valley Resort",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Solang Valley, VPO Palchan, Manali, Himachal Pradesh 175131",
+    "latitude": 32.3125,
+    "longitude": 77.1584,
+    "pricePerNight": 11000,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Dhaula Dhar Multi-cuisine Dining",
+      "The Gazebo Open-Air Barbecue",
+      "Spa & Sauna",
+      "Adventure Sports Counter",
+      "Open Lawns"
+    ],
+    "specialFeatures": [
+      "Prime location inside Solang Valley right by Beas river rapids",
+      "Skiing, paragliding and Atal Tunnel access desk"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1902 256 001",
+    "website": "https://solangvalleyresorts.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.963Z",
+    "updatedAt": "2026-08-22T21:20:26.963Z"
+  },
+  {
+    "hotelId": "mnl-manuallaya-resort",
+    "name": "Manuallaya - The Resort Spa in the Himalayas",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Sunny Side, Chadiyari, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2542,
+    "longitude": 77.1895,
+    "pricePerNight": 7500,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Indoor Heated Swimming Pool",
+      "TVA Spa",
+      "Cafe Jardin",
+      "Kibber North-West Frontier Cuisine",
+      "Skating Rink"
+    ],
+    "specialFeatures": [
+      "Indoor all-weather heated pool with Himalayan mountain view",
+      "Kibber specialty cuisine"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1902 252 238",
+    "website": "https://manuallaya.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.964Z",
+    "updatedAt": "2026-08-22T21:20:26.964Z"
+  },
+  {
+    "hotelId": "mnl-apple-country-resorts",
+    "name": "Apple Country Resorts Manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Log Huts Area, Old Manali, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2512,
+    "longitude": 77.1764,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pure Vegetarian Restaurant",
+      "Discotheque",
+      "Ayurvedic Spa & Sauna",
+      "Apple Orchard Walks"
+    ],
+    "specialFeatures": [
+      "Highest point in Log Huts area with panoramic snow peak view",
+      "Pure vegetarian and Jain food specialization"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1902 254 187",
+    "website": "https://applecountryresorts.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.964Z",
+    "updatedAt": "2026-08-22T21:20:26.964Z"
+  },
+  {
+    "hotelId": "mnl-larisa-resort",
+    "name": "Larisa Resort Manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Haripur, Kullu-Manali Highway, Manali, Himachal Pradesh 175136",
+    "latitude": 32.1645,
+    "longitude": 77.1612,
+    "pricePerNight": 8500,
+    "category": "Mid-Range",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool with Orchard View",
+      "Farm-to-Fork Organic Dining",
+      "Spa",
+      "Private Jacuzzi Cottages"
+    ],
+    "specialFeatures": [
+      "Set in organic apple orchards where guests can pluck apples directly from private cottage balconies",
+      "Outdoor pool overlooking Rohtang peaks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 88947 24000",
+    "website": "https://larisaresort.com/manali/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.965Z",
+    "updatedAt": "2026-08-22T21:20:26.965Z"
+  },
+  {
+    "hotelId": "mnl-zostel-manali",
+    "name": "Zostel Manali (Old Manali)",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Manu Temple Road, Old Manali, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2568,
+    "longitude": 77.1728,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Cafe",
+      "Common Hangout Area",
+      "Bonfire Nights",
+      "Dorm & Private Rooms",
+      "Workation Desks"
+    ],
+    "specialFeatures": [
+      "Iconic Old Manali backpacker vibe near Manu Temple",
+      "Orchard garden with live music and open mic nights"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/manali/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.965Z",
+    "updatedAt": "2026-08-22T21:20:26.965Z"
+  },
+  {
+    "hotelId": "mnl-the-hosteller-manali",
+    "name": "The Hosteller Manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Near Clubhouse, Old Manali, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2539,
+    "longitude": 77.1751,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Riverside Cafe",
+      "Games Lounge",
+      "Co-working Space",
+      "Dorms & Privates",
+      "Heaters"
+    ],
+    "specialFeatures": [
+      "Situated by Manalsu river stream with picturesque wooden mountain interiors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-manali/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.965Z",
+    "updatedAt": "2026-08-22T21:20:26.965Z"
+  },
+  {
+    "hotelId": "mnl-gostops-manali",
+    "name": "goSTOPS Manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Log Huts Road, Old Manali, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2525,
+    "longitude": 77.1782,
+    "pricePerNight": 749,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Home Theatre Room",
+      "Foosball & Pool Table",
+      "Mountain View Rooftop",
+      "Dorms & Privates"
+    ],
+    "specialFeatures": [
+      "Lively games room and movie screenings for solo travelers and groups"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-manali/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.965Z",
+    "updatedAt": "2026-08-22T21:20:26.965Z"
+  },
+  {
+    "hotelId": "mnl-drifters-inn",
+    "name": "Drifters' Inn & Cafe Old Manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Manu Temple Road, Old Manali, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2575,
+    "longitude": 77.1719,
+    "pricePerNight": 1800,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Famous Drifters Cafe",
+      "Sun Deck Balconies",
+      "Board Games Library",
+      "Acoustic Nights"
+    ],
+    "specialFeatures": [
+      "Legendary Drifters' Cafe serving artisanal breakfast and hot spiced cider",
+      "Unmatched mountain sunrise views"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98050 33127",
+    "website": "https://driftersmanali.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.966Z",
+    "updatedAt": "2026-08-22T21:20:26.966Z"
+  }
+]

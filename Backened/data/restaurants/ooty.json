@@ -1,0 +1,210 @@
+[
+  {
+    "restaurantId": "rst-oty-earls-secret-kings-cliff",
+    "name": "Earl's Secret - King's Cliff",
+    "city": "Ooty",
+    "state": "Tamil Nadu",
+    "address": "King's Cliff Hotel, Havelock Road, Near Government Botanical Garden, Ooty, Tamil Nadu 643001",
+    "latitude": 11.4189,
+    "longitude": 76.7089,
+    "cuisine": [
+      "Anglo-Indian",
+      "Continental",
+      "British Colonial Heritage",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Roast Lamb with Mint Sauce",
+      "Chicken Stroganoff",
+      "Shepherd's Pie",
+      "Brown Onion Soup",
+      "Apple Pie with Custard",
+      "Nilgiri Herbal Tea"
+    ],
+    "menu": [
+      {
+        "food": "Classic Roast Leg of Lamb with Rosemary Gravy & Roasted Potatoes",
+        "price": 680
+      },
+      {
+        "food": "Traditional British Shepherd's Pie",
+        "price": 480
+      },
+      {
+        "food": "Warm Apple Crumble with Vanilla Custard",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "150-Year-Old British Colonial Mansion",
+      "Glass Conservatory Sunroom Dining",
+      "Crackling Fireplaces",
+      "Manicured Mountain Lawns"
+    ],
+    "specialFeatures": [
+      "Dine in the sunlit glass conservatory of a 150-year-old British Raj ancestral mansion set amidst misty Nilgiri pine trees, with roaring log fireplaces and classic Anglo-Indian roast meats",
+      "Timeless Nilgiri colonial romance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 423 245 2888",
+    "website": "http://kingscliffhotel.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-oty-king-star-bakery",
+    "name": "King Star Bakery (Since 1942)",
+    "city": "Ooty",
+    "state": "Tamil Nadu",
+    "address": "135, Commercial Road, Ooty, Nilgiris, Tamil Nadu 643001",
+    "latitude": 11.4112,
+    "longitude": 76.7025,
+    "cuisine": [
+      "Nilgiri Handmade Chocolates",
+      "Heritage Bakery & Fudge"
+    ],
+    "famousDishes": [
+      "Handmade Nilgiri Dark & Milk Chocolates",
+      "Rum & Raisin Fudge",
+      "Roasted Almond Chocolates",
+      "Fresh Plum Cake",
+      "Nilgiri Varkey"
+    ],
+    "menu": [
+      {
+        "food": "Assorted Handmade Nilgiri Chocolates Box (500g)",
+        "price": 340
+      },
+      {
+        "food": "Original Butter Chocolate Fudge (250g)",
+        "price": 180
+      },
+      {
+        "food": "Traditional Nilgiri Crispy Varkey (500g)",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic 1942 Bakery",
+      "Original Chocolate Recipes",
+      "Takeaway Gift Boxes"
+    ],
+    "specialFeatures": [
+      "Operating on Commercial Road since 1942, King Star is the legendary pioneer that introduced handmade artisan chocolates to Ooty using pure cocoa butter and local Nilgiri dairy",
+      "The original home of Ooty chocolates"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 423 244 2271",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-oty-shinkows-chinese",
+    "name": "Shinkow's Chinese Restaurant (Since 1954)",
+    "city": "Ooty",
+    "state": "Tamil Nadu",
+    "address": "38/C, Commissioner's Road, Near Collectorate, Ooty, Tamil Nadu 643001",
+    "latitude": 11.4089,
+    "longitude": 76.6989,
+    "cuisine": [
+      "Authentic Cantonese",
+      "Heritage Chinese"
+    ],
+    "famousDishes": [
+      "Cantonese Fried Noodles",
+      "Sweet & Sour Pork / Chicken",
+      "Steamed Wontons in Broth",
+      "Beef Chilli",
+      "Spring Rolls"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Cantonese Chicken Noodles",
+        "price": 260
+      },
+      {
+        "food": "Sweet & Sour Pork with Pineapple",
+        "price": 320
+      },
+      {
+        "food": "Steamed Pork Wonton Soup Bowl",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Historic 1954 Chinese Family Run Diner",
+      "Vintage Wooden Decor",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Established in 1954 by Chinese immigrant Mr. Shinkow and still lovingly run by his descendants in a quaint wooden cottage on Commissioner's Road, serving unadulterated Cantonese comfort broths and noodles",
+      "Historic hill station favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 423 244 2811",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-oty-nahar-chandan-veg",
+    "name": "Nahar's Chandan Pure Veg",
+    "city": "Ooty",
+    "state": "Tamil Nadu",
+    "address": "Hotel Nahar Nilgiris, Charing Cross, Commercial Road, Ooty, Tamil Nadu 643001",
+    "latitude": 11.4125,
+    "longitude": 76.7041,
+    "cuisine": [
+      "Pure Vegetarian",
+      "South Indian",
+      "North Indian Thali"
+    ],
+    "famousDishes": [
+      "South Indian Vegetarian Thali",
+      "Special Butter Masala Dosa",
+      "Paneer Butter Masala with Butter Naan",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Executive Vegetarian Thali",
+        "price": 220
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Cooled Dining Room",
+      "Pure Vegetarian",
+      "Charing Cross Center Location"
+    ],
+    "specialFeatures": [
+      "Ooty's most dependable pure-vegetarian dining destination at Charing Cross, serving comforting South and North Indian meals to shivering mountain travelers",
+      "High cleanliness and fast service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 423 244 2173",
+    "website": "http://naharhotels.com",
+    "available": true
+  }
+]

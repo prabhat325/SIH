@@ -1,0 +1,160 @@
+[
+  {
+    "restaurantId": "rst-twn-dragon-restaurant",
+    "name": "Dragon Restaurant (Old Market)",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Old Market, Near Nehru Market Chowk, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5854,
+    "longitude": 91.8589,
+    "cuisine": [
+      "Authentic Monpa",
+      "Tibetan High-Altitude Soul Food"
+    ],
+    "famousDishes": [
+      "Monpa Zan (Millet Porridge with Smoked Meat & Veggies)",
+      "Steamed Pork Momos with Chilli Garlic Chutney",
+      "Hot Gyathuk Soup",
+      "Tsampa Butter Tea (Po Cha)",
+      "Tibetan Shaphaley"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Yak Meat / Pork Momos (8 pcs with Broth)",
+        "price": 140
+      },
+      {
+        "food": "Hot Monpa Thukpa Bowl",
+        "price": 130
+      },
+      {
+        "food": "Traditional Po Cha (Himalayan Salted Butter Tea in Cup)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic High-Altitude Market Location (10,000 ft)",
+      "Traditional Wooden Interior",
+      "Cozy Mountain Heaters"
+    ],
+    "specialFeatures": [
+      "Tawang's most famous culinary institution in the Old Market at 10,000 feet altitude, serving authentic Monpa tribal and Tibetan winter dishes including hot butter tea and nourishing dumpling broths",
+      "The warmest hearth in Tawang"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94360 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-twn-woodland-restaurant",
+    "name": "Woodland Restaurant",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Old Market Main Road, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5861,
+    "longitude": 91.8595,
+    "cuisine": [
+      "North Indian",
+      "Tibetan",
+      "Chinese Comfort Food"
+    ],
+    "famousDishes": [
+      "Paneer Butter Masala with Tandoori Roti",
+      "Hot Chicken Thukpa",
+      "Fried Rice with Chilli Chicken",
+      "Egg Fried Noodles",
+      "Masala Chai"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Vegetable Momos (8 pcs)",
+        "price": 110
+      },
+      {
+        "food": "Paneer Butter Masala with 2 Rotis",
+        "price": 210
+      },
+      {
+        "food": "Hot Chicken Thukpa Soup",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Cozy Wooden Dining Room",
+      "Room Heaters",
+      "Quick Mountain Service"
+    ],
+    "specialFeatures": [
+      "Clean and popular high-altitude family diner in Tawang market providing hot Indian curries, Chinese stir-fries, and Tibetan noodles to weary mountain travelers arriving over Sela Pass",
+      "Comforting and dependable"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94362 23344",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-twn-dharma-coffee-house",
+    "name": "Dharma Coffee House & Bakery",
+    "city": "Tawang",
+    "state": "Arunachal Pradesh",
+    "address": "Near 17th-Century Tawang Monastery (Gompa) Road, Tawang, Arunachal Pradesh 790104",
+    "latitude": 27.5889,
+    "longitude": 91.8621,
+    "cuisine": [
+      "Artisan Bakery & Coffee",
+      "Breakfast",
+      "Tibetan Pastries"
+    ],
+    "famousDishes": [
+      "Fresh Baked Cinnamon Rolls",
+      "French Press Espresso Coffee",
+      "Apple Tart",
+      "Khapse (Traditional Tibetan Festive Pastry)",
+      "Hot Lemon Honey Ginger Tea"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Baked Apple Pastry",
+        "price": 90
+      },
+      {
+        "food": "Hot French Press Mountain Roast Coffee",
+        "price": 80
+      },
+      {
+        "food": "Plate of Crisp Tibetan Khapse",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Grand 17th-Century Tawang Monastery Views",
+      "Artisan Wooden Decor",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Cozy artisanal coffee sanctuary on the road to the magnificent 400-year-old Tawang Monastery (the second-largest monastery in the world), brewing fresh roast coffee while prayer flags flutter outside",
+      "Serene mountain cafe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

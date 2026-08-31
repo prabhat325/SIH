@@ -1,0 +1,545 @@
+[
+  {
+    "restaurantId": "rst-mth-brijwasi-mithai-wala",
+    "name": "Brijwasi Mithai Wala",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Near Holi Gate, Tilak Dwar, Mathura, Uttar Pradesh 281001",
+    "latitude": 27.4965,
+    "longitude": 77.6834,
+    "cuisine": [
+      "Braj Sweets",
+      "North Indian Snacks",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Mathura Ke Pede",
+      "Ghewar",
+      "Kachori with Dubki Wale Aloo",
+      "Desi Ghee Jalebi",
+      "Rabri"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Mathura Peda (500g)",
+        "price": 240
+      },
+      {
+        "food": "Dubki Wale Aloo Kachori Plate",
+        "price": 60
+      },
+      {
+        "food": "Desi Ghee Malai Ghewar (1 pc)",
+        "price": 180
+      },
+      {
+        "food": "Thick Kulhad Rabri",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Gift Packaging",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "The definitive culinary symbol of Braj Bhoomi since 1950, renowned globally for caramelised dark brown Mathura Pede prepared from slow-roasted mawa and boora",
+      "Historic Holi Gate flagship store"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 240 1222",
+    "website": "https://brijwasisweets.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-govindas-vrindavan",
+    "name": "Govinda's Restaurant (ISKCON Vrindavan)",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "ISKCON Krishna Balaram Temple Complex, Bhaktivedanta Swami Marg, Raman Reti, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5714,
+    "longitude": 77.6852,
+    "cuisine": [
+      "Pure Vegetarian Sattvic",
+      "North Indian",
+      "South Indian",
+      "Continental",
+      "Bakery"
+    ],
+    "famousDishes": [
+      "Govinda's Royal Prasadam Thali",
+      "Paneer Makhani",
+      "Crispy Dosa",
+      "Eggless Pastries",
+      "Fresh Fruit Juices"
+    ],
+    "menu": [
+      {
+        "food": "Royal Mahaprasadam Thali",
+        "price": 320
+      },
+      {
+        "food": "Paneer Butter Masala (No Onion/Garlic)",
+        "price": 260
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 180
+      },
+      {
+        "food": "Fresh Baked Eggless Pineapple Cake Slice",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Sattvic (No Onion/Garlic)",
+      "In-House Bakery",
+      "Spacious Hall",
+      "Spiritual Atmosphere"
+    ],
+    "specialFeatures": [
+      "Premier spiritual dining restaurant situated inside ISKCON Krishna Balaram Temple preparing international and Indian vegetarian dishes offered first to Lord Krishna",
+      "Uncompromised purity and hygiene"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 254 0021",
+    "website": "https://iskconvrindavan.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-shankarn-bhojnalaya",
+    "name": "Shankar Mithai Bhandar",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Chowk Bazaar, Near Dwarkadhish Temple, Mathura, Uttar Pradesh 281001",
+    "latitude": 27.5029,
+    "longitude": 77.6891,
+    "cuisine": [
+      "Braj Street Food",
+      "Sweets",
+      "Pure Vegetarian Breakfast"
+    ],
+    "famousDishes": [
+      "Kachori with Hing Aloo Sabzi",
+      "Bedmi Poori",
+      "Jalebi Rabri",
+      "Peda"
+    ],
+    "menu": [
+      {
+        "food": "Kachori Hing Sabzi (2 pcs)",
+        "price": 50
+      },
+      {
+        "food": "Kullhad Jalebi Rabri",
+        "price": 70
+      },
+      {
+        "food": "Special Mawa Peda (250g)",
+        "price": 130
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian",
+      "Heritage Street Vibe",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic dawn gathering point for pilgrims heading to Dwarkadhish temple, famous for pungent asafetida (hing) spiced watery potato curry served with flaky kachoris",
+      "Authentic 19th-century taste"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94122 78901",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-11-flowers-rooftop",
+    "name": "11 Flowers Rooftop AC Restaurant",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "MVT Guesthouse, Bhaktivedanta Swami Marg, Near ISKCON, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5721,
+    "longitude": 77.6845,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Indian Sattvic",
+      "Café"
+    ],
+    "famousDishes": [
+      "Handmade Wood Fired Pizza",
+      "Fresh Pesto Pasta",
+      "Herbal Teas",
+      "Sattvic Thali",
+      "Smoothie Bowls"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Margherita Pizza (No Garlic/Onion)",
+        "price": 380
+      },
+      {
+        "food": "Handmade Penne Arrabbiata",
+        "price": 320
+      },
+      {
+        "food": "Sattvic Indian Lunch Platter",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Rooftop Garden Seating",
+      "Air Conditioning",
+      "Free Wi-Fi",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Tranquil rooftop garden restaurant inside the lush MVT compound, popular with international spiritual seekers and yoga practitioners",
+      "Fresh organic herbs and Italian sourdough pizzas"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 254 0077",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-dosa-plaza-mathura",
+    "name": "Brijwasi Royal Restaurant",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Hotel Brijwasi Royal, Station Road, Mayur Vihar, Mathura, Uttar Pradesh 281001",
+    "latitude": 27.4923,
+    "longitude": 77.6738,
+    "cuisine": [
+      "North Indian",
+      "South Indian",
+      "Chinese",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Brijwasi Special Veg Thali",
+      "Paneer Butter Masala",
+      "Dal Makhani",
+      "Crispy Butter Dosa",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Brijwasi Deluxe Thali",
+        "price": 360
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 290
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Pure Vegetarian",
+      "Spacious Family Seating",
+      "Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Leading fine dining vegetarian restaurant in Mathura city run by the esteemed Brijwasi hospitality group",
+      "Sophisticated air-conditioned banquet dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 240 1224",
+    "website": "http://www.brijwasiroyal.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-dasaprakash-vrindavan",
+    "name": "Dasaprakash Vrindavan",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Prem Mandir Road, Near Omaxe Eternity, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5684,
+    "longitude": 77.6698,
+    "cuisine": [
+      "South Indian",
+      "North Indian",
+      "Pure Vegetarian",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Ghee Roast Masala Dosa",
+      "Idli Vada Platter",
+      "South Indian Thali",
+      "Filter Coffee",
+      "Hot Fudge Sundae"
+    ],
+    "menu": [
+      {
+        "food": "Special Ghee Podi Masala Dosa",
+        "price": 210
+      },
+      {
+        "food": "Royal South Indian Thali",
+        "price": 340
+      },
+      {
+        "food": "Madras Filter Coffee",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Parking",
+      "Modern Ambience"
+    ],
+    "specialFeatures": [
+      "Famous South Indian chain restaurant located right near Prem Mandir, offering crispy dosas and rich artisanal ice creams",
+      "Extremely popular during temple evening illuminations"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 297 0044",
+    "website": "http://www.dasaprakash.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-brij-bhog-restaurant",
+    "name": "Brij Bhog Restaurant",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Near Krishna Janmasthan Temple Gate 1, Deeg Gate, Mathura, Uttar Pradesh 281001",
+    "latitude": 27.5054,
+    "longitude": 77.6702,
+    "cuisine": [
+      "North Indian",
+      "Pure Vegetarian Thali",
+      "Sattvic"
+    ],
+    "famousDishes": [
+      "Brij Special Deluxe Thali",
+      "Shahi Paneer",
+      "Missi Roti with White Makhan",
+      "Matka Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Shri Krishna Special Thali",
+        "price": 220
+      },
+      {
+        "food": "Shahi Paneer with 2 Missi Roti",
+        "price": 180
+      },
+      {
+        "food": "Kesaria Matka Kheer",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Close to Janmabhoomi"
+    ],
+    "specialFeatures": [
+      "Convenient traditional dining spot located immediately outside Shri Krishna Janmasthan Temple complex",
+      "Quick wholesome vegetarian meals for pilgrimage groups"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94123 45678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-amigos-kitchen",
+    "name": "Amigos Kitchen",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Near Prem Mandir, Chhatikara Road, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5641,
+    "longitude": 77.6625,
+    "cuisine": [
+      "Continental",
+      "Italian",
+      "Mexican",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood-fired Pizza",
+      "Loaded Nachos",
+      "Nutella Waffles",
+      "Iced Frappes"
+    ],
+    "menu": [
+      {
+        "food": "Farmhouse Veg Pizza",
+        "price": 360
+      },
+      {
+        "food": "Mexican Loaded Nachos",
+        "price": 240
+      },
+      {
+        "food": "Belgian Chocolate Waffle",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Free Wi-Fi",
+      "Cozy Youth Vibe",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Vibrant modern café catering to younger tourists and visiting families near Prem Mandir",
+      "100% vegetarian world cuisine"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98970 11223",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-om-pahalwan-kachori",
+    "name": "Om Pahalwan Kachori Bhandar",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Dampier Nagar, Near BSA College Road, Mathura, Uttar Pradesh 281001",
+    "latitude": 27.4938,
+    "longitude": 77.6775,
+    "cuisine": [
+      "Street Food",
+      "Breakfast",
+      "Braj Sweets"
+    ],
+    "famousDishes": [
+      "Pahalwan Special Khasta Kachori",
+      "Garam Jalebi",
+      "Lassi in Clay Kulhad"
+    ],
+    "menu": [
+      {
+        "food": "Khasta Kachori (2 pcs) with Aloo & Chutney",
+        "price": 40
+      },
+      {
+        "food": "Desi Ghee Jalebi (100g)",
+        "price": 45
+      },
+      {
+        "food": "Malai Lassi Kulhad",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Street Counter",
+      "Pure Vegetarian",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Famous breakfast institution where local wrestlers ('pahalwans') and morning devotees gather for crisp spicy kachoris",
+      "Heated in massive iron cauldrons"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mth-priyakant-rasoi",
+    "name": "Priya Kant Ju Rasoi",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Priya Kant Ju Mandir Marg, Chhatikara, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5589,
+    "longitude": 77.6498,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Sattvic",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Braj Thali",
+      "Kadha Prasad",
+      "Dal Baati",
+      "Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Braj Sampurna Thali",
+        "price": 160
+      },
+      {
+        "food": "Dal Baati Churma Special",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 160,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "Spiritual Temple Campus",
+      "Ample Parking"
+    ],
+    "specialFeatures": [
+      "Community dining and restaurant on the grounds of the majestic Priya Kant Ju temple offering pure sattvic meals cooked with devotion",
+      "Hygienic open kitchen"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 296 0001",
+    "website": null,
+    "available": true
+  }
+]

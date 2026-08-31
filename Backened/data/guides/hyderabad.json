@@ -1,0 +1,25 @@
+[
+    {
+        "guideId": "HYD-001",
+        "name": "Regional Guide",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "specialization": [
+            "Old Town"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 12,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

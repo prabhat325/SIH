@@ -1,0 +1,518 @@
+[
+  {
+    "restaurantId": "rst-hwr-mohan-ji-puri-wale",
+    "name": "Mohan Ji Puri Wale (Since 1920)",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Bada Bazar, Near Har Ki Pauri, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9578,
+    "longitude": 78.1689,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Traditional Breakfast",
+      "Street Food"
+    ],
+    "famousDishes": [
+      "Crispy Aloo Puri with Pumpkin Kaddu Sabzi & Sweet Chutney",
+      "Sooji Halwa in Desi Ghee",
+      "Lassi",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Mohan Ji Special Puri Sabzi (4 Puris with 2 Sabzis & Halwa)",
+        "price": 90
+      },
+      {
+        "food": "Desi Ghee Sooji Halwa Cup",
+        "price": 40
+      },
+      {
+        "food": "Kulhad Malai Lassi",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Har Ki Pauri Vicinity",
+      "Standing & Seating",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Century-old pilgrimage dining legend at Har Ki Pauri where millions of devotees break their morning fast with piping hot crisp puris fried in bubbling cauldrons and spiced hill potato curry",
+      "The defining taste of Haridwar"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98370 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-mathura-walo-ki-pracheen",
+    "name": "Mathura Walo Ki Pracheen Dukan",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Bada Bazar, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9565,
+    "longitude": 78.1678,
+    "cuisine": [
+      "Traditional Sweets",
+      "Mithai",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Desi Ghee Jalebi",
+      "Rabri",
+      "Imarti",
+      "Malpua",
+      "Doodh Peda"
+    ],
+    "menu": [
+      {
+        "food": "Hot Desi Ghee Saffron Jalebi (100g)",
+        "price": 50
+      },
+      {
+        "food": "Clay Pot Thick Rabri (100g)",
+        "price": 60
+      },
+      {
+        "food": "Desi Ghee Malpua (per pc)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Historic Heritage Sweetshop",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Haridwar's oldest sweet shop established in 1880, renowned across Northern India for crisp saffron-infused jalebis dipped straight from the kadhai into fragrant cardamom sugar syrup",
+      "A sacred temple tradition"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 227 123",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-hoshiyarpuri",
+    "name": "Hoshiyarpuri (Since 1937)",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Upper Road, Near Har Ki Pauri, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9552,
+    "longitude": 78.1664,
+    "cuisine": [
+      "Punjabi Pure Vegetarian",
+      "North Indian Thali"
+    ],
+    "famousDishes": [
+      "Hoshiyarpuri Special Deluxe Thali",
+      "Dal Makhani",
+      "Shahi Paneer",
+      "Sarson Ka Saag & Makki Di Roti",
+      "Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Hoshiyarpuri Grand Veg Thali",
+        "price": 260
+      },
+      {
+        "food": "Paneer Butter Masala",
+        "price": 220
+      },
+      {
+        "food": "Dal Makhani Desi Ghee",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 260,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Spacious Multi-Floor Seating",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Established in 1937 by Lala Hans Raj ji from Hoshiarpur, serving wholesome pure-ghee vegetarian Punjabi meals and festive thalis to generations of Char Dham pilgrims",
+      "Beloved pilgrimage dining hall"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 226 000",
+    "website": "http://hoshiyarpuri.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-chotiwala-haridwar",
+    "name": "Chotiwala Restaurant Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Station Road, Near Railway Station & Bus Stand, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9489,
+    "longitude": 78.1567,
+    "cuisine": [
+      "North Indian",
+      "South Indian",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Chotiwala Special Thali",
+      "Paneer Lababdar",
+      "Crispy Masala Dosa",
+      "Chole Bhature",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Chotiwala Special Thali",
+        "price": 240
+      },
+      {
+        "food": "Butter Masala Dosa",
+        "price": 140
+      },
+      {
+        "food": "Chole Bhature Platter",
+        "price": 130
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Railway Station Proximity",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Popular pure-vegetarian family restaurant opposite Haridwar Junction station, featuring the trademark Chotiwala effigy and serving wholesome thalis for transit passengers",
+      "Reliable and clean"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 227 456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-prakash-lok-kheer",
+    "name": "Prakash Lok Sweets & Kheer",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Bada Bazar, Near Moti Bazar, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9568,
+    "longitude": 78.1672,
+    "cuisine": [
+      "Desserts",
+      "Traditional Dairy"
+    ],
+    "famousDishes": [
+      "Chilled Matka Kheer",
+      "Malai Rabri",
+      "Rasgulla",
+      "Kesar Milk"
+    ],
+    "menu": [
+      {
+        "food": "Signature Saffron Matka Kheer",
+        "price": 50
+      },
+      {
+        "food": "Special Rabri Cup",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 60,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Earthen Pot Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic old-bazaar dessert stall famous for slow-simmered basmati rice kheer cooked with thickened buffalo milk and saffron, chilled in porous clay cups that impart an earthy fragrance",
+      "Legendary post-dinner treat"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-pandit-sevaram",
+    "name": "Pandit Sevaram Sharma Sweets",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Moti Bazar, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9545,
+    "longitude": 78.1652,
+    "cuisine": [
+      "Street Food",
+      "Breakfast",
+      "Mithai"
+    ],
+    "famousDishes": [
+      "Urad Dal Khasta Kachori with Spicy Aloo Jhol",
+      "Desi Ghee Jalebi",
+      "Balushahi",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Khasta Kachori with Hing Aloo Sabzi (2 pcs)",
+        "price": 50
+      },
+      {
+        "food": "Hot Desi Ghee Jalebi (100g)",
+        "price": 45
+      }
+    ],
+    "averageCostForOne": 70,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian",
+      "Moti Bazar Heritage Shop",
+      "Morning Only"
+    ],
+    "specialFeatures": [
+      "Moti Bazar's quintessential morning breakfast stall, renowned for giant crisp kachoris infused with aromatic asafetida and served with spicy thin potato curry",
+      "Old-school Haridwar flavor"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94120 76543",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-bhagwati-chole-bhandar",
+    "name": "Bhagwati Chole Bhandar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Devpura Chowk, Railway Road, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9458,
+    "longitude": 78.1521,
+    "cuisine": [
+      "Street Food",
+      "Punjabi Breakfast",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Special Chole Bhature with Stuffed Paneer",
+      "Amritsari Kulcha",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Special Paneer Chole Bhature (2 pcs)",
+        "price": 110
+      },
+      {
+        "food": "Sweet Malai Lassi",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Famous for fluffy golden bhaturas stuffed with paneer and cilantro served with spicy dark pindi chole and tangy amla pickle",
+      "Perennial student and traveler favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 224 500",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-captain-cavalry",
+    "name": "Captain's Cavalry - The Haveli",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Haveli Hari Ganga, 21 Pilibhit House, Ramghat, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9534,
+    "longitude": 78.1639,
+    "cuisine": [
+      "Royal Vegetarian",
+      "North Indian",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Royal Haveli Thali",
+      "Kadhai Paneer",
+      "Garhwali Dal",
+      "Wood-fired Flatbreads",
+      "Apple Crumble"
+    ],
+    "menu": [
+      {
+        "food": "Royal Haveli Set Dinner",
+        "price": 1200
+      },
+      {
+        "food": "Paneer Kadhai Special",
+        "price": 420
+      },
+      {
+        "food": "Dal Haveli",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 1200,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Private Ghat Dining",
+      "Centuries-Old Royal Heritage Haveli",
+      "Pure Vegetarian",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Dine in a 110-year-old royal aristocratic haveli situated right on the banks of the sacred Ganges with its own private bathing ghat",
+      "Refined satvik gourmet dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 226 443",
+    "website": "https://www.prasadheritage.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-dosa-plaza",
+    "name": "Dosa Plaza Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Ranipur More, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9389,
+    "longitude": 78.1398,
+    "cuisine": [
+      "South Indian Fusion",
+      "Pure Vegetarian",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Schezwan Spring Dosa",
+      "Mexican Delight Dosa",
+      "Paper Masala Dosa",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Schezwan Cheese Spring Dosa",
+        "price": 190
+      },
+      {
+        "food": "Traditional Masala Dosa",
+        "price": 140
+      },
+      {
+        "food": "South Indian Filter Coffee",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Modern Family Dining"
+    ],
+    "specialFeatures": [
+      "Popular destination offering over 100 innovative fusion dosa varieties ranging from classic butter masala to spicy Mexican and Schezwan styles",
+      "Loved by young families"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 265 500",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hwr-riverdale-restaurant",
+    "name": "Aroma Multi-Cuisine Restaurant",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Hotel Radisson Blu, Plot No. C-1, Sector 12, SIDCUL, Haridwar, Uttarakhand 249403",
+    "latitude": 29.9212,
+    "longitude": 78.0891,
+    "cuisine": [
+      "North Indian",
+      "Continental",
+      "Pan Asian",
+      "Pure Vegetarian Buffet"
+    ],
+    "famousDishes": [
+      "Grand Sunday Brunch Buffet",
+      "Paneer Lababdar",
+      "Dal Makhani",
+      "Stir-fry Asian Noodles",
+      "Tiramisu"
+    ],
+    "menu": [
+      {
+        "food": "Lavish Buffet Dinner",
+        "price": 1100
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 420
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 360
+      }
+    ],
+    "averageCostForOne": 1100,
+    "priceCategory": "Premium",
+    "rating": 4.5,
+    "amenities": [
+      "5-Star Hotel Ambience",
+      "Air Conditioning",
+      "Valet Parking",
+      "Live Cooking Stations"
+    ],
+    "specialFeatures": [
+      "Upscale multi-cuisine dining salon in Radisson Blu catering to international corporate delegates and luxury pilgrims seeking high-standard hygiene and global menus",
+      "Lavish buffet spreads"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 305 400",
+    "website": "https://www.radissonhotels.com",
+    "available": true
+  }
+]

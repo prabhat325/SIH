@@ -1,0 +1,92 @@
+[
+  {
+    "serviceId": "AMRITSAR-HOSPITAL-001",
+    "name": "Government Medical College and Hospital Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "type": "Hospital",
+    "address": "Majitha Road, Amritsar, Punjab 143001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AMRITSAR-HOSPITAL-002",
+    "name": "Sri Guru Ram Das Institute of Medical Sciences and Research",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "type": "Hospital",
+    "address": "Meharban Pura, Amritsar, Punjab 143001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.sgrdimsr.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AMRITSAR-HOSPITAL-003",
+    "name": "Fortis Hospital Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "type": "Hospital",
+    "address": "Majitha-Verka Bypass Road, Amritsar, Punjab 143004",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.fortishealthcare.com/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AMRITSAR-POLICE-004",
+    "name": "Kotwali Police Station Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "type": "Police Station",
+    "address": "Hall Bazaar, Amritsar, Punjab 143001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://amritsarcity.punjabpolice.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AMRITSAR-FIRE-005",
+    "name": "Amritsar Central Fire Station",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "type": "Fire Station",
+    "address": "Near Hall Gate, Amritsar, Punjab 143001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

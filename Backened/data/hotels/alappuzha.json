@@ -1,0 +1,280 @@
+[
+  {
+    "hotelId": "alp-marari-beach-resort",
+    "name": "Marari Beach Resort - CGH Earth",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Mararikulam North, S.L. Puram, Alappuzha, Kerala 688549",
+    "latitude": 9.5985,
+    "longitude": 76.2985,
+    "pricePerNight": 24000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Large Eco Swimming Pool",
+      "Ayurveda Wellness Centre",
+      "Chakara Traditional Malabar Dining",
+      "Beach Shack Grill",
+      "Organic Farm Walks",
+      "Private Beach Access"
+    ],
+    "specialFeatures": [
+      "55-acre eco-luxury coastal village with palm-thatched cottages modeled after traditional Kerala fishermen dwellings",
+      "Butterfly garden and organic farm-to-table cuisine"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 478 286 3801",
+    "website": "https://www.cghearth.com/marari-beach",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.111Z",
+    "updatedAt": "2026-08-22T21:20:27.111Z"
+  },
+  {
+    "hotelId": "alp-lake-palace-resort",
+    "name": "Lake Palace Resort Alleppey",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Thirumala Ward, Chungam, Alappuzha, Kerala 688011",
+    "latitude": 9.5185,
+    "longitude": 76.3512,
+    "pricePerNight": 14500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Private Lake Swimming Pool",
+      "Grand Ayur Island Spa",
+      "Kettuvalam Backwater Restaurant",
+      "Water Sports",
+      "Speedboat Arrival"
+    ],
+    "specialFeatures": [
+      "Set on a private secluded island on the banks of Vembanad Lake, reached exclusively by private wooden boats"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 477 223 9701",
+    "website": "https://lakepalaceresort.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.112Z",
+    "updatedAt": "2026-08-22T21:20:27.112Z"
+  },
+  {
+    "hotelId": "alp-ramada-by-wyndham-alleppey",
+    "name": "Ramada by Wyndham Alleppey",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Nehru Trophy Finishing Point Road, Punnamada, Alappuzha, Kerala 688013",
+    "latitude": 9.5012,
+    "longitude": 76.3485,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool overlooking Punnamada Lake",
+      "Essence Spa",
+      "World Cuisine Restaurant",
+      "Channar Lounge Bar",
+      "Private Houseboat Pier"
+    ],
+    "specialFeatures": [
+      "Located right at the Nehru Trophy Boat Race Finishing Point with private direct houseboat embarkation jetty"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 477 224 0001",
+    "website": "https://www.wyndhamhotels.com/ramada/alappuzha-india/ramada-alleppey/overview",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.112Z",
+    "updatedAt": "2026-08-22T21:20:27.112Z"
+  },
+  {
+    "hotelId": "alp-punnamada-resort",
+    "name": "Punnamada Resort Alleppey",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Punnamada, Kottankulangara, Alappuzha, Kerala 688006",
+    "latitude": 9.5145,
+    "longitude": 76.3621,
+    "pricePerNight": 7200,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool on Lake Bank",
+      "Ayurvedic Hospital & Spa",
+      "Choola Traditional Kerala Restaurant",
+      "Houseboat Cruises",
+      "Rowing & Fishing"
+    ],
+    "specialFeatures": [
+      "Traditional heritage Tharavadu villas with open-roof garden bathrooms set along the serene Punnamada Lake"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 477 223 6188",
+    "website": "https://punnamada.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.113Z",
+    "updatedAt": "2026-08-22T21:20:27.113Z"
+  },
+  {
+    "hotelId": "alp-uday-backwater-resort",
+    "name": "Uday Backwater Resort",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Vennimattom, Punnamada, Alappuzha, Kerala 688006",
+    "latitude": 9.5089,
+    "longitude": 76.3578,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Large Swimming Pool",
+      "Ayur Spa",
+      "Gourmet Backwater Dining",
+      "Kayaking & Shikara Rides"
+    ],
+    "specialFeatures": [
+      "Sprawling waterfront resort with pool cabanas facing the calm backwaters"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 477 223 1111",
+    "website": "https://uds.co.in/uday-backwater-resort/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.113Z",
+    "updatedAt": "2026-08-22T21:20:27.113Z"
+  },
+  {
+    "hotelId": "alp-zostel-alleppey",
+    "name": "Zostel Alleppey",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Beach Road, Near Alappuzha Beach Lighthouse, Alappuzha, Kerala 688012",
+    "latitude": 9.4985,
+    "longitude": 76.3195,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Beachside Cafe",
+      "AC Dorms & Privates",
+      "Hammocks in Coconut Garden",
+      "Canoeing & Village Kayak Tours"
+    ],
+    "specialFeatures": [
+      "Located 200m from Alappuzha Beach & 150-year-old Lighthouse, offering world-famous sunrise canoe tours of narrow village canals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/alleppey/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.113Z",
+    "updatedAt": "2026-08-22T21:20:27.113Z"
+  },
+  {
+    "hotelId": "alp-the-hosteller-alleppey",
+    "name": "The Hosteller Alleppey",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Near Finishing Point, Punnamada Road, Alappuzha, Kerala 688013",
+    "latitude": 9.5035,
+    "longitude": 76.3452,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Waterfront Cafe",
+      "Workstation Desks",
+      "Dorm & Private Rooms",
+      "Houseboat Shared Day Trips"
+    ],
+    "specialFeatures": [
+      "Prime backwater hub location with shared budget houseboat day-cruises for solo travelers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-alleppey/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.114Z",
+    "updatedAt": "2026-08-22T21:20:27.114Z"
+  },
+  {
+    "hotelId": "alp-gostops-alleppey",
+    "name": "goSTOPS Alleppey",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Cullen Road, Near Alleppey Beach, Sea View Ward, Alappuzha, Kerala 688012",
+    "latitude": 9.4954,
+    "longitude": 76.3221,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Garden Lounge",
+      "Air Conditioned Dorms",
+      "Board Games",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "Walking distance from sea bridge pier and beach cafes"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-alleppey/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.114Z",
+    "updatedAt": "2026-08-22T21:20:27.114Z"
+  },
+  {
+    "hotelId": "alp-artpackers-life-hostel",
+    "name": "Artpackers.life Heritage Hostel",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Near Head Post Office, Cullen Road, Alappuzha, Kerala 688001",
+    "latitude": 9.4925,
+    "longitude": 76.3285,
+    "pricePerNight": 850,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Courtyard",
+      "Artists in Residence Studio",
+      "AC Dorms",
+      "Communal Kitchen",
+      "Kayaking Desk"
+    ],
+    "specialFeatures": [
+      "100-year-old former British schoolhouse converted into an artistic community hostel with open sky courtyards"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 477 225 1234",
+    "website": "https://artpackers.life/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.114Z",
+    "updatedAt": "2026-08-22T21:20:27.114Z"
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "hotelId": "leh-the-grand-dragon-ladakh",
+    "name": "The Grand Dragon Ladakh",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Old Road, Sheynam, Leh Ladakh, Ladakh 194101",
+    "latitude": 34.1592,
+    "longitude": 77.5765,
+    "pricePerNight": 18500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Zasgyath Multi-cuisine Restaurant",
+      "Tusrabs Tibetan Dining",
+      "Oxygen Fitted Rooms & Health Club",
+      "Central Heating",
+      "Solar Heated Water",
+      "Helipad Desk"
+    ],
+    "specialFeatures": [
+      "Ladakh's premier 5-star luxury hotel, fully operational year-round with central heating",
+      "Unmatched views of Stok Kangri mountain range from bedroom balconies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 257 786",
+    "website": "https://thegranddragonladakh.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.930Z",
+    "updatedAt": "2026-08-22T21:20:26.930Z"
+  },
+  {
+    "hotelId": "leh-stok-palace-heritage",
+    "name": "The Stok Palace Heritage Hotel",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Stok Village, Leh, Ladakh 194201",
+    "latitude": 34.0578,
+    "longitude": 77.5672,
+    "pricePerNight": 28000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Royal Palace Suites",
+      "Traditional Ladakhi Kitchen Dining",
+      "Private Museum Tour",
+      "Buddhist Shrine Access"
+    ],
+    "specialFeatures": [
+      "Built in 1820, current official home of the Namgyal Royal Family of Ladakh",
+      "Authentic mud and timber royal palace living with private museum"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 242 048",
+    "website": "https://stokpalaceheritage.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.931Z",
+    "updatedAt": "2026-08-22T21:20:26.931Z"
+  },
+  {
+    "hotelId": "leh-the-indus-valley",
+    "name": "The Indus Valley Leh",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Fort Road, Sheynam, Leh, Ladakh 194101",
+    "latitude": 34.1568,
+    "longitude": 77.5812,
+    "pricePerNight": 11500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "The Indus Cafe",
+      "Oxygen Concierge",
+      "Traditional Art Collection",
+      "Central Heating",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Boutique luxury situated on Fort Road with Tibetan wooden craftsmanship and floor-to-ceiling mountain view windows"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 258 555",
+    "website": "https://theindusvalley.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.931Z",
+    "updatedAt": "2026-08-22T21:20:26.931Z"
+  },
+  {
+    "hotelId": "leh-gomang-boutique-hotel",
+    "name": "Gomang Boutique Hotel",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Upper Changspa Road, Leh, Ladakh 194101",
+    "latitude": 34.1712,
+    "longitude": 77.5735,
+    "pricePerNight": 7500,
+    "category": "Mid-Range",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pure Vegetarian Satvik Restaurant",
+      "Library with 3,000 Books",
+      "Mountain Garden",
+      "Solar Heating"
+    ],
+    "specialFeatures": [
+      "Eco-luxury boutique hotel nestled in Changspa willow groves",
+      "Huge library with curated Himalayan literature"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 252 071",
+    "website": "https://gomangleh.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.932Z",
+    "updatedAt": "2026-08-22T21:20:26.932Z"
+  },
+  {
+    "hotelId": "leh-singge-palace",
+    "name": "Hotel Singge Palace",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Old Road, Leh, Ladakh 194101",
+    "latitude": 34.1611,
+    "longitude": 77.5804,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Multi-cuisine Restaurant",
+      "Garden Dining",
+      "Doctor on Call (Oxygen)",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Centrally located 5 minutes from Leh Main Market",
+      "Traditional Ladakhi carved wooden accents"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 252 052",
+    "website": "https://singgepalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.933Z",
+    "updatedAt": "2026-08-22T21:20:26.933Z"
+  },
+  {
+    "hotelId": "leh-zostel-leh",
+    "name": "Zostel Leh",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Karzoo Road, Near Circuit House, Leh, Ladakh 194101",
+    "latitude": 34.1685,
+    "longitude": 77.5841,
+    "pricePerNight": 1199,
+    "category": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Mountain View Cafe",
+      "Oxygen Cylinder Assistance",
+      "Common Chill Lounge",
+      "Bonfire Nights",
+      "Dorms & Privates"
+    ],
+    "specialFeatures": [
+      "Vibrant traveler community hub in Leh for biker groups and Pangong / Nubra shared travel buddies",
+      "Stunning Shanti Stupa view"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/leh/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.933Z",
+    "updatedAt": "2026-08-22T21:20:26.933Z"
+  },
+  {
+    "hotelId": "leh-the-hosteller-leh",
+    "name": "The Hosteller Leh",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Upper Tukcha Road, Leh, Ladakh 194101",
+    "latitude": 34.1581,
+    "longitude": 77.5721,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe",
+      "Workstation Desks",
+      "Indoor Games",
+      "Oxygen First Aid",
+      "Bike Parking"
+    ],
+    "specialFeatures": [
+      "Panoramic rooftop terrace facing Khardung La pass",
+      "High-speed internet for digital nomads working remotely from the Himalayas"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-leh/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.933Z",
+    "updatedAt": "2026-08-22T21:20:26.933Z"
+  },
+  {
+    "hotelId": "leh-raybo-hostel",
+    "name": "Raybo Hostel Leh",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Changspa Road, Near Moravian Church, Leh, Ladakh 194101",
+    "latitude": 34.1704,
+    "longitude": 77.5752,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Apple Orchard",
+      "Common Kitchen",
+      "Mountain View Terrace",
+      "Solar Hot Water"
+    ],
+    "specialFeatures": [
+      "Peaceful apple orchard backpacker haven in vibrant Changspa Lane"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 96229 55577",
+    "website": "https://raybohostelleh.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.934Z",
+    "updatedAt": "2026-08-22T21:20:26.934Z"
+  },
+  {
+    "hotelId": "leh-mentokling-guest-house",
+    "name": "Mentokling Guest House",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Changspa Lane, Leh, Ladakh 194101",
+    "latitude": 34.1691,
+    "longitude": 77.5768,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Mentokling Garden Cafe & Bakery",
+      "Warm Traditional Rooms",
+      "Hot Water",
+      "Bike Rental Help"
+    ],
+    "specialFeatures": [
+      "Home to popular Mentokling pizza and wood-fire bakery in the garden"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 252 822",
+    "website": "https://mentoklingleh.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.934Z",
+    "updatedAt": "2026-08-22T21:20:26.934Z"
+  }
+]

@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "THIRUVANANTHAPURAM-EVENT-001",
+            "name": "Attukal Pongala",
+            "city": "Thiruvananthapuram",
+            "state": "Kerala",
+            "description": "The world's largest annual gathering of women devotees.",
+            "type": "Religious",
+            "venue": "Attukal Temple",
+            "usualMonth": "February/March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://keralatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "THIRUVANANTHAPURAM-EVENT-002",
+            "name": "Onam Festival",
+            "city": "Thiruvananthapuram",
+            "state": "Kerala",
+            "description": "Kerala's biggest harvest festival celebrating King Mahabali's visit.",
+            "type": "Festival",
+            "venue": "Various venues across Thiruvananthapuram",
+            "usualMonth": "August/September",
+            "usualTime": "Morning to evening",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://keralatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "THIRUVANANTHAPURAM-EVENT-003",
+            "name": "Aarthu Festival",
+            "city": "Thiruvananthapuram",
+            "state": "Kerala",
+            "description": "A traditional temple festival at Padmanabhaswamy Temple.",
+            "type": "Religious",
+            "venue": "Padmanabhaswamy Temple",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://keralatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "THIRUVANANTHAPURAM-EVENT-004",
+            "name": "Beach Festival",
+            "city": "Thiruvananthapuram",
+            "state": "Kerala",
+            "description": "A cultural festival at Kovalam Beach.",
+            "type": "Festival",
+            "venue": "Kovalam Beach",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://keralatourism.org/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

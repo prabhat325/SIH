@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "PUNE-EVENT-001",
+            "name": "Ganesh Chaturthi",
+            "city": "Pune",
+            "state": "Maharashtra",
+            "description": "Pune's grand celebration of Lord Ganesha.",
+            "type": "Religious",
+            "venue": "Various pandals across Pune",
+            "usualMonth": "August/September",
+            "usualTime": "Morning to night",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://maharashtratourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PUNE-EVENT-002",
+            "name": "Pune International Film Festival",
+            "city": "Pune",
+            "state": "Maharashtra",
+            "description": "An annual international film festival.",
+            "type": "Cultural",
+            "venue": "Various theaters across Pune",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "7 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://piff.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PUNE-EVENT-003",
+            "name": "Sawai Gandharva Bhimsen Festival",
+            "city": "Pune",
+            "state": "Maharashtra",
+            "description": "One of India's most prestigious classical music festivals.",
+            "type": "Concert",
+            "venue": "Various venues in Pune",
+            "usualMonth": "December",
+            "usualTime": "Evening",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://sawaigandharva.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PUNE-EVENT-004",
+            "name": "Pune Literature Festival",
+            "city": "Pune",
+            "state": "Maharashtra",
+            "description": "An annual gathering celebrating Marathi and English literature.",
+            "type": "Cultural",
+            "venue": "Various venues in Pune",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://pune.litfest.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

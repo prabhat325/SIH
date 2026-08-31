@@ -1,0 +1,58 @@
+[
+    {
+        "vehicleId": "NAINITAL-SHAREDTAXI-001",
+        "vehicleType": "Shared Taxi",
+        "city": "Nainital",
+        "state": "Uttarakhand",
+        "baseFare": 80,
+        "farePerKm": 16,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "NAINITAL-TAXI-002",
+        "vehicleType": "Taxi",
+        "city": "Nainital",
+        "state": "Uttarakhand",
+        "baseFare": 120,
+        "farePerKm": 28,
+        "averageSpeed": 20,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "NAINITAL-TOURISTBUS-003",
+        "vehicleType": "Tourist Bus",
+        "city": "Nainital",
+        "state": "Uttarakhand",
+        "baseFare": 700,
+        "farePerKm": 22,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "NAINITAL-HORSECART-004",
+        "vehicleType": "Horse Cart",
+        "city": "Nainital",
+        "state": "Uttarakhand",
+        "baseFare": 120,
+        "farePerKm": 28,
+        "averageSpeed": 20,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Horse_carriage%2C_Gwalior.jpg/960px-Horse_carriage%2C_Gwalior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

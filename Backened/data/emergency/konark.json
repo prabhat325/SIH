@@ -1,0 +1,5 @@
+[
+  {"serviceId":"KONARK-HOSPITAL-001","name":"Community Health Centre Konark","city":"Konark","state":"Odisha","type":"Hospital","address":"Konark NAC Road, Konark, Puri, Odisha 752111","latitude":null,"longitude":null,"phone":null,"website":"https://health.odisha.gov.in","available24x7":false,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"KONARK-POLICE-001","name":"Konark Police Station","city":"Konark","state":"Odisha","type":"Police Station","address":"Konark, Puri, Odisha 752111","latitude":null,"longitude":null,"phone":null,"website":"https://puri.odisha.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"KONARK-FIRE-001","name":"Konark Fire Station","city":"Konark","state":"Odisha","type":"Fire Station","address":"Konark, Puri, Odisha 752111","latitude":null,"longitude":null,"phone":null,"website":"https://odishafire.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

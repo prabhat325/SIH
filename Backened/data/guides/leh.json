@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "LEH-001",
+        "name": "Regional Guide",
+        "city": "Leh",
+        "state": "Ladakh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Himalayas"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 11,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

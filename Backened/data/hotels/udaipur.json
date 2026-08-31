@@ -1,0 +1,383 @@
+[
+  {
+    "hotelId": "uda-the-oberoi-udaivilas",
+    "name": "The Oberoi Udaivilas",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Haridas Ji Ki Magri, Mulla Talai, Udaipur, Rajasthan 313001",
+    "latitude": 24.5772,
+    "longitude": 73.6719,
+    "pricePerNight": 60000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Semi-Private Moat Pools",
+      "The Oberoi Spa",
+      "Suryamahal Fine Dining",
+      "Private Boat Rides",
+      "Yoga Pavilion",
+      "Helipad"
+    ],
+    "specialFeatures": [
+      "Consistently voted Best Hotel in Asia and World",
+      "50-acre grounds on Lake Pichola with wildlife sanctuary",
+      "Private boat arrival across Pichola"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 243 3300",
+    "website": "https://www.oberoihotels.com/hotels-in-udaipur-udaivilas-resort/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.878Z",
+    "updatedAt": "2026-08-22T21:20:26.878Z"
+  },
+  {
+    "hotelId": "uda-taj-lake-palace",
+    "name": "Taj Lake Palace",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Pichola, Lake Pichola, Udaipur, Rajasthan 313001",
+    "latitude": 24.5754,
+    "longitude": 73.6802,
+    "pricePerNight": 52000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Jiva Spa Boat",
+      "Outdoor Pool",
+      "Neel Kamal Dining",
+      "Bhadra Kacheri",
+      "Butler Service",
+      "Speedboat Transfers"
+    ],
+    "specialFeatures": [
+      "Iconic 1746 marble island palace floating on Lake Pichola",
+      "Filming location of James Bond Octopussy",
+      "Exclusive access strictly for hotel guests"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 246 0101",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-lake-palace-udaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.879Z",
+    "updatedAt": "2026-08-22T21:20:26.879Z"
+  },
+  {
+    "hotelId": "uda-the-leela-palace-udaipur",
+    "name": "The Leela Palace Udaipur",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Lake Pichola, PO Box No 125, Udaipur, Rajasthan 313001",
+    "latitude": 24.5802,
+    "longitude": 73.6761,
+    "pricePerNight": 46000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Lakefront Pool",
+      "ESPA Luxury Spa",
+      "Sheesh Mahal Fine Dining",
+      "Private Boat Arrival",
+      "Gym"
+    ],
+    "specialFeatures": [
+      "Sheesh Mahal open-air fine dining under star-studded Udaipur sky",
+      "Unobstructed views of the City Palace & Lake Pichola"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 670 1234",
+    "website": "https://www.theleela.com/the-leela-palace-udaipur",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.879Z",
+    "updatedAt": "2026-08-22T21:20:26.879Z"
+  },
+  {
+    "hotelId": "uda-trident-udaipur",
+    "name": "Trident Udaipur",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Haridas Ji Ki Magri, Mulla Talai, Udaipur, Rajasthan 313001",
+    "latitude": 24.5788,
+    "longitude": 73.6685,
+    "pricePerNight": 11000,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Aravalli Restaurant",
+      "Kids Club",
+      "Walking Trail",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Set in 43 acres of scenic gardens on the banks of Lake Pichola",
+      "Bondo Boma tree sanctuary inside property"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 243 5400",
+    "website": "https://www.tridenthotels.com/hotels-in-udaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.879Z",
+    "updatedAt": "2026-08-22T21:20:26.879Z"
+  },
+  {
+    "hotelId": "uda-fateh-garh",
+    "name": "Fateh Garh Heritage Resort",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Sisarma, Udaipur, Rajasthan 313001",
+    "latitude": 24.5492,
+    "longitude": 73.6548,
+    "pricePerNight": 8500,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Infinity Pools",
+      "Sanvaad Restaurant",
+      "Vintage Car Museum",
+      "Zip-line & Adventure",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Perched on a hilltop with 360-degree panoramic views of Lake Pichola & Aravallis",
+      "Pioneering eco-heritage architecture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 86969 45101",
+    "website": "https://fatehcollection.com/fateh-garh/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.880Z",
+    "updatedAt": "2026-08-22T21:20:26.880Z"
+  },
+  {
+    "hotelId": "uda-jagat-niwas-palace",
+    "name": "Jagat Niwas Palace Hotel",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "23-25 Lal Ghat, Behind Jagdish Temple, Udaipur, Rajasthan 313001",
+    "latitude": 24.5779,
+    "longitude": 73.6828,
+    "pricePerNight": 6800,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Lakefront Jharokha Dining",
+      "Ayurvedic Massage",
+      "Cultural Shows",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "17th-century haveli directly on the edge of Lake Pichola with iconic cushioned jharokha window seats"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 242 0009",
+    "website": "https://jagatniwaspalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.880Z",
+    "updatedAt": "2026-08-22T21:20:26.880Z"
+  },
+  {
+    "hotelId": "uda-amet-haveli",
+    "name": "Amet Haveli",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Outside Chandpole, Hanuman Ghat, Udaipur, Rajasthan 313001",
+    "latitude": 24.5823,
+    "longitude": 73.6804,
+    "pricePerNight": 7200,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Ambrai Waterfront Restaurant",
+      "Swimming Pool",
+      "Heritage Suites",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Home to Udaipur's most famous restaurant 'Ambrai' sitting directly opposite City Palace"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 243 1085",
+    "website": "https://amethaveliudaipur.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.880Z",
+    "updatedAt": "2026-08-22T21:20:26.880Z"
+  },
+  {
+    "hotelId": "uda-hotel-udaigarh",
+    "name": "Hotel Udaigarh - Heritage Hotel",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "21 Lal Ghat, Near Jagdish Temple, Udaipur, Rajasthan 313001",
+    "latitude": 24.5775,
+    "longitude": 73.6834,
+    "pricePerNight": 2800,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool",
+      "Rooftop Cafe",
+      "Lake Pichola View",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Rooftop pool with clear view of Taj Lake Palace & Jag Mandir",
+      "Heart of old city Lal Ghat"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 242 1238",
+    "website": "https://hoteludaigarh.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.881Z",
+    "updatedAt": "2026-08-22T21:20:26.881Z"
+  },
+  {
+    "hotelId": "uda-zostel-udaipur",
+    "name": "Zostel Udaipur",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Purohit Ji Ka Khurra, Chandpole, Lake Pichola, Udaipur, Rajasthan 313001",
+    "latitude": 24.5815,
+    "longitude": 73.6811,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Lake View Cafe",
+      "Air Conditioning",
+      "Common Lounge",
+      "Dorms & Privates",
+      "Lockers"
+    ],
+    "specialFeatures": [
+      "Unbelievable lakefront rooftop overlooking Jagdish Temple & Pichola",
+      "Backpacker favorite in Rajasthan"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/udaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.881Z",
+    "updatedAt": "2026-08-22T21:20:26.881Z"
+  },
+  {
+    "hotelId": "uda-the-hosteller-udaipur",
+    "name": "The Hosteller Udaipur",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Outside Chandpole, Near Hanuman Ghat, Udaipur, Rajasthan 313001",
+    "latitude": 24.5828,
+    "longitude": 73.6791,
+    "pricePerNight": 850,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Infinity View Cafe",
+      "Workstation Desks",
+      "Indoor Games",
+      "24/7 Security"
+    ],
+    "specialFeatures": [
+      "Prime waterfront location with sunset views of Monsoon Palace",
+      "Daily social events and boat tours"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-udaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.881Z",
+    "updatedAt": "2026-08-22T21:20:26.881Z"
+  },
+  {
+    "hotelId": "uda-gostops-udaipur",
+    "name": "goSTOPS Udaipur",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Brahmpole, Hanuman Ghat, Udaipur, Rajasthan 313001",
+    "latitude": 24.5835,
+    "longitude": 73.6778,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Hangout",
+      "Home Theatre",
+      "Board Games",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Lively youth vibes, sunset guitar jams on terrace",
+      "Walking distance to Ambrai Ghat"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-udaipur/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.882Z",
+    "updatedAt": "2026-08-22T21:20:26.882Z"
+  },
+  {
+    "hotelId": "uda-hotel-mewar-haveli",
+    "name": "Hotel Mewar Haveli",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "34-35 Lal Ghat, Near Jagdish Temple, Udaipur, Rajasthan 313001",
+    "latitude": 24.5781,
+    "longitude": 73.6838,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Two Rooftop Restaurants",
+      "Lake Views",
+      "Room Service",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Traditional Rajasthani glass-inlaid rooms",
+      "Spectacular sunset dining over Lake Pichola"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 252 1120",
+    "website": "https://mewarhaveli.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.882Z",
+    "updatedAt": "2026-08-22T21:20:26.882Z"
+  }
+]

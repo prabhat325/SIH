@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "KEV-001",
+        "name": "Regional Guide",
+        "city": "Kevadia",
+        "state": "Gujarat",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Statue of Unity"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 8,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

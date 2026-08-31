@@ -1,0 +1,320 @@
+[
+  {
+    "hotelId": "lko-taj-mahal-lucknow",
+    "name": "Taj Mahal Lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Vipin Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+    "latitude": 26.8524,
+    "longitude": 80.9741,
+    "pricePerNight": 11500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Jiva Spa",
+      "Oudhyana Awadhi Restaurant",
+      "Fitness Centre",
+      "Tennis Court",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Oudhyana restaurant serving world-famous Awadhi Nawabi delicacies",
+      "Set amidst 20 acres of landscaped gardens along Gomti River"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 671 1000",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-mahal-lucknow/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.852Z",
+    "updatedAt": "2026-08-22T21:20:26.852Z"
+  },
+  {
+    "hotelId": "lko-the-centrum",
+    "name": "The Centrum Hotel, Lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Pocket 7, Sector C, Sushant Golf City, Lucknow, Uttar Pradesh 226030",
+    "latitude": 26.7824,
+    "longitude": 80.9982,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Olympic Size Pool",
+      "Luxury Spa",
+      "Multiple Fine Dining Outlets",
+      "Squash & Tennis Courts",
+      "Lawn Tennis"
+    ],
+    "specialFeatures": [
+      "Eco-luxury 5-star resort in Sushant Golf City",
+      "State of the art international convention and wellness facilities"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 667 7777",
+    "website": "https://thecentrum.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.853Z",
+    "updatedAt": "2026-08-22T21:20:26.853Z"
+  },
+  {
+    "hotelId": "lko-hyatt-regency-lucknow",
+    "name": "Hyatt Regency Lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+    "latitude": 26.8631,
+    "longitude": 80.9995,
+    "pricePerNight": 7800,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Pool",
+      "Siddh Spa",
+      "LukJin Pan-Asian Restaurant",
+      "24/7 Fitness Center",
+      "Regency Club Lounge"
+    ],
+    "specialFeatures": [
+      "LukJin specialty Asian dining",
+      "Rooftop swimming pool overlooking Gomti Nagar skyline"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 426 1234",
+    "website": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-lucknow/lkohr",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.853Z",
+    "updatedAt": "2026-08-22T21:20:26.853Z"
+  },
+  {
+    "hotelId": "lko-renaissance-lucknow",
+    "name": "Renaissance Lucknow Hotel",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Vipin Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+    "latitude": 26.8532,
+    "longitude": 80.9765,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Sky Bar",
+      "Infinity Pool",
+      "L-14 Restaurant",
+      "Fitness Centre",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Tallest hotel in Lucknow with Sky Bar at 16th floor",
+      "Panoramic views of Gomti Riverfront"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 405 5555",
+    "website": "https://www.marriott.com/en-us/hotels/lkorh-renaissance-lucknow-hotel/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.853Z",
+    "updatedAt": "2026-08-22T21:20:26.853Z"
+  },
+  {
+    "hotelId": "lko-lebua-lucknow",
+    "name": "lebua Lucknow (Saraca Estate)",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "19 Mall Avenue, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8398,
+    "longitude": 80.9412,
+    "pricePerNight": 6200,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Azrak Awadhi Fine Dining",
+      "Heritage Courtyards",
+      "1936 Bar",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "1936 Art Deco bungalow restored into a boutique palace hotel",
+      "Authentic Lakhnawi hospitality and cuisine at Azrak"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 223 8333",
+    "website": "https://www.lebua.com/hotels/lebua-lucknow/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.854Z",
+    "updatedAt": "2026-08-22T21:20:26.854Z"
+  },
+  {
+    "hotelId": "lko-novotel-lucknow",
+    "name": "Novotel Lucknow Gomti Nagar",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Viraj Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+    "latitude": 26.8687,
+    "longitude": 81.0112,
+    "pricePerNight": 5100,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Pool",
+      "The Square Restaurant",
+      "Fitness Centre",
+      "The Bar",
+      "Pet Friendly"
+    ],
+    "specialFeatures": [
+      "Rooftop pool & bar (The Edge)",
+      "Close to IT City and Ekana Stadium"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 715 7001",
+    "website": "https://all.accor.com/hotel/9082/index.en.shtml",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.855Z",
+    "updatedAt": "2026-08-22T21:20:26.855Z"
+  },
+  {
+    "hotelId": "lko-ginger-lucknow",
+    "name": "Ginger Lucknow, Gomti Nagar",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "CP-73, Viraj Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+    "latitude": 26.8711,
+    "longitude": 81.0145,
+    "pricePerNight": 2500,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Room",
+      "24/7 Reception"
+    ],
+    "specialFeatures": [
+      "Reliable IHCL Ginger quality standards",
+      "Easy connectivity to Shaheed Path and airport"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 666 3333",
+    "website": "https://www.gingerhotels.com/ginger-lucknow-gomtinagar",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.855Z",
+    "updatedAt": "2026-08-22T21:20:26.855Z"
+  },
+  {
+    "hotelId": "lko-the-hosteller-lucknow",
+    "name": "The Hosteller Lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Hazratganj Main Market Road, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8488,
+    "longitude": 80.9452,
+    "pricePerNight": 950,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Lounge",
+      "Cafe",
+      "Air Conditioning",
+      "Luggage Storage",
+      "Work Desks"
+    ],
+    "specialFeatures": [
+      "Prime Hazratganj location for shopping and Tunday Kababi exploration",
+      "Social youth community"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-lucknow/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.856Z",
+    "updatedAt": "2026-08-22T21:20:26.856Z"
+  },
+  {
+    "hotelId": "lko-hotel-gomti-upstdc",
+    "name": "Hotel Gomti (UP Tourism)",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "6, Sapru Marg, Prem Nagar, Hazratganj, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8512,
+    "longitude": 80.9489,
+    "pricePerNight": 1800,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Parking",
+      "Restaurant",
+      "Conference Hall",
+      "Room Service",
+      "Travel Information Desk"
+    ],
+    "specialFeatures": [
+      "Official UP Tourism property in central Hazratganj",
+      "Spacious heritage compound"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 261 2659",
+    "website": "https://www.uptourism.gov.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.856Z",
+    "updatedAt": "2026-08-22T21:20:26.856Z"
+  },
+  {
+    "hotelId": "lko-fabhotel-prime-lucknow",
+    "name": "FabHotel Prime Charbagh",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Opposite Charbagh Railway Station, Lucknow, Uttar Pradesh 226004",
+    "latitude": 26.8321,
+    "longitude": 80.9214,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "24/7 Room Service",
+      "Daily Housekeeping",
+      "Power Backup"
+    ],
+    "specialFeatures": [
+      "2-minute walk from Charbagh Metro and Railway Junction",
+      "Great transit budget hotel"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 70424 24242",
+    "website": "https://www.fabhotels.com/hotels-in-lucknow/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.857Z",
+    "updatedAt": "2026-08-22T21:20:26.857Z"
+  }
+]

@@ -1,0 +1,548 @@
+[
+  {
+    "restaurantId": "rst-ajm-mango-masala",
+    "name": "Mango Masala Restaurant",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Kutchery Road, India Motor Circle, Civil Lines, Ajmer, Rajasthan 305001",
+    "latitude": 26.4678,
+    "longitude": 74.6391,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Italian",
+      "Sizzlers"
+    ],
+    "famousDishes": [
+      "Mango Masala Special Sizzler",
+      "Cheese Fondue",
+      "Paneer Lababdar",
+      "Crispy Masala Dosa",
+      "Sizzling Brownie with Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Mango Masala Signature Veg Sizzler",
+        "price": 420
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 340
+      },
+      {
+        "food": "Special Mysore Masala Dosa",
+        "price": 190
+      },
+      {
+        "food": "Sizzling Chocolate Brownie",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Thematic Modern Decor",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Ajmer's premier multi-cuisine fine-dining vegetarian destination, renowned for theatrical sizzlers, Italian bakes, and vibrant family weekend dining",
+      "City landmark on Kutchery Road"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 242 2122",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-pehli-manzil-dargah",
+    "name": "Pehli Manzil Restaurant",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Dargah Bazaar, Near Nizam Gate, Khadim Mohalla, Ajmer, Rajasthan 305001",
+    "latitude": 26.4558,
+    "longitude": 74.6282,
+    "cuisine": [
+      "Mughlai",
+      "Awadhi",
+      "Biryani",
+      "Non-Vegetarian"
+    ],
+    "famousDishes": [
+      "Ajmeri Mutton Dum Biryani",
+      "Mutton Korma",
+      "Chicken Jahangiri",
+      "Seekh Kebab",
+      "Sheermal"
+    ],
+    "menu": [
+      {
+        "food": "Special Ajmeri Mutton Biryani (Full)",
+        "price": 260
+      },
+      {
+        "food": "Rich Mutton Korma (Half)",
+        "price": 240
+      },
+      {
+        "food": "Chicken Jahangiri",
+        "price": 220
+      },
+      {
+        "food": "Saffron Sheermal",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Dargah Sharif Vicinity",
+      "Takeaway",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Located near the sacred shrine of Khwaja Moinuddin Chishti, renowned for authentic slow-cooked dum biryani and aromatic saffron-infused mutton gravies",
+      "Bustling pilgrim hotspot"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98290 88990",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-honeydew-restaurant",
+    "name": "Honeydew Restaurant",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Station Road, Opposite Railway Station, Ajmer, Rajasthan 305001",
+    "latitude": 26.4589,
+    "longitude": 74.6364,
+    "cuisine": [
+      "Continental",
+      "North Indian",
+      "Mughlai",
+      "Bakery"
+    ],
+    "famousDishes": [
+      "Chicken Cutlets",
+      "Mutton Rogan Josh",
+      "Murg Makhani",
+      "Baked Pudding",
+      "Club Sandwiches"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Chicken Cutlets with Chips",
+        "price": 260
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 380
+      },
+      {
+        "food": "Butter Chicken",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Vintage 1980s Decor",
+      "Family Dining",
+      "Bakery Counter"
+    ],
+    "specialFeatures": [
+      "Historic multi-cuisine family diner operating since decades opposite the railway station, famous for crisp European-style chicken cutlets and heritage comfort food",
+      "Beloved institution for generations of Mayo College students and families"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 242 2498",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-azad-sohan-halwa",
+    "name": "Azad Sweets / Sohan Halwa Bhandar",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Dargah Bazaar, Main Street, Ajmer, Rajasthan 305001",
+    "latitude": 26.4562,
+    "longitude": 74.6291,
+    "cuisine": [
+      "Traditional Sweets",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Ajmeri Sohan Halwa (Desi Ghee)",
+      "Karachi Halwa",
+      "Kesar Peda",
+      "Dryfruit Laddoo"
+    ],
+    "menu": [
+      {
+        "food": "Royal Desi Ghee Ajmeri Sohan Halwa (500g)",
+        "price": 280
+      },
+      {
+        "food": "Karachi Halwa (500g)",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Gift Packaging",
+      "Sample Tasting",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "The iconic sweetmaker famous for Ajmer's signature rich, dense, nutty disc sweet 'Sohan Halwa' prepared in pure desi ghee with dry fruits and saffron",
+      "Traditional souvenir taken home by millions of Dargah pilgrims"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 242 4555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-ambrosia-grand-xenia",
+    "name": "Ambrosia - The Grand Xenia",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Hotel The Grand Xenia, Gaurav Path, Vaishali Nagar, Ajmer, Rajasthan 305004",
+    "latitude": 26.4882,
+    "longitude": 74.6412,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Continental",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Laal Maas",
+      "Dal Xenia",
+      "Paneer Lababdar",
+      "Grilled Fish",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Royal Rajputana Laal Maas",
+        "price": 580
+      },
+      {
+        "food": "Dal Xenia (Overnight Simmered)",
+        "price": 360
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Premium",
+    "rating": 4.4,
+    "amenities": [
+      "Rooftop Aravalli Mountain View",
+      "Full Bar",
+      "Swimming Pool Deck",
+      "Valet Parking",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Upscale rooftop restaurant in Vaishali Nagar offering sweeping views of the surrounding rugged Aravalli mountains and refined multi-cuisine banquets",
+      "Ajmer's leading modern fine dining venue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 264 4500",
+    "website": "http://thegrandxenia.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-shankar-chaat",
+    "name": "Shankar Chaat House",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Kaiser Ganj, Near Gol Pyau, Ajmer, Rajasthan 305001",
+    "latitude": 26.4521,
+    "longitude": 74.6408,
+    "cuisine": [
+      "Chaat",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Dahi Papdi Chaat",
+      "Desi Ghee Aloo Tikki",
+      "Kachori with Kadhi",
+      "Pani Puri (Pudina Hing)"
+    ],
+    "menu": [
+      {
+        "food": "Desi Ghee Aloo Tikki Chaat",
+        "price": 50
+      },
+      {
+        "food": "Dahi Papdi Chaat",
+        "price": 50
+      },
+      {
+        "food": "Famous Kadhi Kachori",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Street Counter",
+      "Pure Vegetarian",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Legendary 50-year-old chaat institution in Kaiser Ganj famous for unique 'Kadhi Kachori' (crisp onion kachori smashed in hot spiced Rajasthani yogurt kadhi) and crisp tikkis",
+      "A local sensation"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94142 33221",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-silver-leaf-vega",
+    "name": "Silver Leaf - Vega The Hotel",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Vega The Hotel, Kutcheri Road, Civil Lines, Ajmer, Rajasthan 305001",
+    "latitude": 26.4682,
+    "longitude": 74.6385,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Special Silver Leaf Thali",
+      "Paneer Tikka Butter Masala",
+      "Dal Makhani",
+      "Crispy Dosa",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Silver Leaf Deluxe Thali",
+        "price": 290
+      },
+      {
+        "food": "Paneer Tikka Masala",
+        "price": 280
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Elegant and spotless pure-vegetarian restaurant serving North Indian, Rajasthani, and South Indian family meals in a calm air-conditioned setting",
+      "High standards of hygiene"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 262 7000",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-madina-restaurant",
+    "name": "Madina Restaurant",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Opposite Dargah Police Chowki, Dargah Bazaar, Ajmer, Rajasthan 305001",
+    "latitude": 26.4552,
+    "longitude": 74.6279,
+    "cuisine": [
+      "Mughlai",
+      "Tandoori",
+      "Non-Vegetarian"
+    ],
+    "famousDishes": [
+      "Tandoori Chicken",
+      "Mutton Boti Kebab",
+      "Nalli Nihari",
+      "Chicken Biryani",
+      "Roomali Roti"
+    ],
+    "menu": [
+      {
+        "food": "Special Tandoori Chicken (Full)",
+        "price": 340
+      },
+      {
+        "food": "Mutton Boti Kebab Plate",
+        "price": 220
+      },
+      {
+        "food": "Nalli Nihari Gosht",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 260,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Fast Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Famous for sizzling clay-tandoor grilled chickens, aromatic seekh kebabs, and tender morning nihari near Dargah Sharif",
+      "High volume authentic kitchen"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98291 55443",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-cafe-kebabs-ana-sagar",
+    "name": "Cafe Kebabs & Grills",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Ana Sagar Circular Road, Near Daulat Bagh, Ajmer, Rajasthan 305001",
+    "latitude": 26.4734,
+    "longitude": 74.6298,
+    "cuisine": [
+      "Mughlai",
+      "Kebabs & Rolls",
+      "Fast Food",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Chicken Malai Tikka Roll",
+      "Mutton Seekh Roll",
+      "Paneer Tikka Roll",
+      "Biryani"
+    ],
+    "menu": [
+      {
+        "food": "Chicken Malai Tikka Roll",
+        "price": 160
+      },
+      {
+        "food": "Mutton Seekh Kebab Roll",
+        "price": 180
+      },
+      {
+        "food": "Paneer Tikka Roll",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Lakeside Evening Spot",
+      "Takeaway",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Popular evening hangout on the circular promenade of the historic 12th-century Ana Sagar Lake, serving sizzling fresh kebab rolls as cooling lake breezes blow",
+      "Favorite youth destination"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 97850 11223",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ajm-elite-restaurant",
+    "name": "Elite Restaurant",
+    "city": "Ajmer",
+    "state": "Rajasthan",
+    "address": "Station Road, Near Railway Station, Ajmer, Rajasthan 305001",
+    "latitude": 26.4595,
+    "longitude": 74.6371,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Chinese",
+      "Budget Dining"
+    ],
+    "famousDishes": [
+      "Mutton Curry",
+      "Butter Chicken",
+      "Dal Fry",
+      "Tandoori Roti",
+      "Fried Rice"
+    ],
+    "menu": [
+      {
+        "food": "Homestyle Mutton Curry",
+        "price": 280
+      },
+      {
+        "food": "Butter Chicken",
+        "price": 260
+      },
+      {
+        "food": "Dal Fry Butter",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Air Conditioning",
+      "Quick Service",
+      "Transit Friendly"
+    ],
+    "specialFeatures": [
+      "Reliable and pocket-friendly non-vegetarian family restaurant opposite Ajmer Junction serving hearty curries and hot rotis around the clock",
+      "Popular with traveling devotees"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 242 0456",
+    "website": null,
+    "available": true
+  }
+]

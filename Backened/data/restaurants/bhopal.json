@@ -1,0 +1,560 @@
+[
+  {
+    "restaurantId": "rst-bpl-under-the-mango-tree",
+    "name": "Under The Mango Tree - Jehan Numa Palace",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Jehan Numa Palace Hotel, 157 Shamla Hills, Bhopal, Madhya Pradesh 462013",
+    "latitude": 23.2421,
+    "longitude": 77.3889,
+    "cuisine": [
+      "Royal Bhopali",
+      "Nawabi Mughlai",
+      "Barbeque & Grills"
+    ],
+    "famousDishes": [
+      "Bhopali Gosht Korma",
+      "Filfora (Coarsely Minced Spiced Meat)",
+      "Bhopali Raan",
+      "Murgh Tikka Mirza",
+      "Shahi Tukda"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Bhopali Gosht Korma",
+        "price": 780
+      },
+      {
+        "food": "Traditional Bhopali Filfora",
+        "price": 740
+      },
+      {
+        "food": "Jehan Numa Royal Raan",
+        "price": 2400
+      },
+      {
+        "food": "Shahi Tukda with Saffron Rabri",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 1800,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Heritage Palace Courtyard Dining",
+      "Century-Old Mango Tree Canopy",
+      "Full Bar",
+      "Valet Parking",
+      "Live Classical Sitar"
+    ],
+    "specialFeatures": [
+      "Dine in the illuminated central courtyard of a 19th-century royal palace under the canopy of an ancient mango tree, savoring the lost imperial culinary secrets of the Begums of Bhopal",
+      "Bhopal's most aristocratic gourmet salon"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 266 1100",
+    "website": "https://www.hoteljehan-numapalace.com/dining/under-the-mango-tree.html",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-manohar-dairy-hamidia",
+    "name": "Manohar Dairy & Restaurant (Since 1970)",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "6, Hamidia Road, Near Railway Station, Bhopal, Madhya Pradesh 462001",
+    "latitude": 23.2625,
+    "longitude": 77.4112,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Chaat & Street Food",
+      "Mithai",
+      "North Indian",
+      "South Indian"
+    ],
+    "famousDishes": [
+      "Special Chole Bhature",
+      "Dahi Vada with Pomegranate",
+      "Manohar Special Veg Thali",
+      "Raj Kachori",
+      "Rasmalai",
+      "Kaju Katli"
+    ],
+    "menu": [
+      {
+        "food": "Special Amritsari Chole Bhature",
+        "price": 170
+      },
+      {
+        "food": "Legendary Dahi Vada Plate",
+        "price": 90
+      },
+      {
+        "food": "Manohar Deluxe Veg Thali",
+        "price": 310
+      },
+      {
+        "food": "Fresh Rasmalai (2 pcs)",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "High-Tech Hygiene Kitchen",
+      "Sweets Counter",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Established in 1970 by Shri Manohar Lal Harwani, Bhopal's most revered vegetarian institution renowned across Central India for creamy dahi vadas, giant bhaturas, and premium dairy sweets",
+      "A culinary landmark with cult status"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 274 0001",
+    "website": "https://manohardairy.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-hakeem-hotel",
+    "name": "Hakeem Hotel (Original MP Nagar)",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Plot No. 2, Zone-II, Maharana Pratap Nagar (MP Nagar), Bhopal, Madhya Pradesh 462011",
+    "latitude": 23.2341,
+    "longitude": 77.4328,
+    "cuisine": [
+      "Bhopali Mughlai",
+      "Non-Vegetarian",
+      "Biryani",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Bhopali Mutton Pasanda",
+      "Chicken Mughlai",
+      "Mutton Rogan Josh",
+      "Mutton Dum Biryani",
+      "Mughlai Paratha"
+    ],
+    "menu": [
+      {
+        "food": "Signature Bhopali Mutton Pasanda",
+        "price": 420
+      },
+      {
+        "food": "Hakeem Special Chicken Mughlai",
+        "price": 380
+      },
+      {
+        "food": "Mutton Dum Biryani (Full)",
+        "price": 310
+      },
+      {
+        "food": "Crispy Mughlai Paratha",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Family Seating",
+      "Takeaway",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Over 50 years of legendary Mughlai heritage in Bhopal, famous for silky pounded meat pasandas marinated in secret green papaya and roasted nut pastes",
+      "The city's favorite meat feast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 255 1786",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-chatori-gali-street",
+    "name": "Chatori Gali (Ibrahimpura Night Street)",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Ibrahimpura, Old Bhopal, Near Moti Masjid, Bhopal, Madhya Pradesh 462001",
+    "latitude": 23.2589,
+    "longitude": 77.4012,
+    "cuisine": [
+      "Bhopali Street Food",
+      "Non-Vegetarian Heritage",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Mutton Paya Soup",
+      "Bade Ke Seekh Kebab",
+      "Nalli Nihari with Kulcha",
+      "Shahi Tukda with Malai",
+      "Bhuna Gosht"
+    ],
+    "menu": [
+      {
+        "food": "Mutton Seekh Kebab (4 skewers with Mint & Onion)",
+        "price": 160
+      },
+      {
+        "food": "Slow-Simmered Mutton Paya Soup Bowl",
+        "price": 140
+      },
+      {
+        "food": "Royal Shahi Tukda Slice in Rabri",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Nocturnal Street Food Alley",
+      "Open Charcoal Braziers",
+      "Heritage Old City Atmosphere"
+    ],
+    "specialFeatures": [
+      "Old Bhopal's legendary midnight food alley lined with smoky charcoal braziers and copper cauldrons serving centuries-old Nawabi street recipes from dawn Paya to midnight seekh kebabs",
+      "Incredible nocturnal gastronomic culture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-sharma-vishnu-fast-food",
+    "name": "Sharma & Vishnu Fast Food (10 No. Market)",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "E-4, 10 No. Market, Arera Colony, Bhopal, Madhya Pradesh 462016",
+    "latitude": 23.2189,
+    "longitude": 77.4365,
+    "cuisine": [
+      "Street Food",
+      "Breakfast",
+      "Fast Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Bhopali Poha Jalebi with Sev & Jeeravan Masala",
+      "Masala Dosa",
+      "Butter Pav Bhaji",
+      "Cold Coffee",
+      "Chana Kulcha"
+    ],
+    "menu": [
+      {
+        "food": "Special Bhopali Poha with Double Sev & Pomegranate",
+        "price": 40
+      },
+      {
+        "food": "Crispy Desi Ghee Jalebi (100g)",
+        "price": 45
+      },
+      {
+        "food": "Special Butter Pav Bhaji",
+        "price": 130
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Outdoor Market Seating",
+      "Pure Vegetarian",
+      "High Volume Morning Rush"
+    ],
+    "specialFeatures": [
+      "10 Number Market's quintessential morning pilgrimage spot where half of Bhopal gathers for steaming yellow flattened rice (Poha) spiced with tangy Jeeravan powder, topped with crunchy Ratlami sev and hot jalebis",
+      "True Bhopal morning lifestyle"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 246 5500",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-wind-n-waves-mpt",
+    "name": "Wind & Waves Restaurant - MPT",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "MPT Wind & Waves, Shamla Hills, Upper Lake View Promenade, Bhopal, Madhya Pradesh 462013",
+    "latitude": 23.2456,
+    "longitude": 77.3821,
+    "cuisine": [
+      "North Indian",
+      "Continental",
+      "Chinese",
+      "Snacks"
+    ],
+    "famousDishes": [
+      "Paneer Tikka Butter Masala",
+      "Kadhai Murgh",
+      "Fish Amritsari",
+      "Chilli Chicken",
+      "Coffee by the Lake"
+    ],
+    "menu": [
+      {
+        "food": "Paneer Butter Masala with Butter Naan",
+        "price": 340
+      },
+      {
+        "food": "Kadhai Murgh",
+        "price": 420
+      },
+      {
+        "food": "Fresh Water Fish Fry",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Panoramic Upper Lake (Bada Talaab) Terrace",
+      "Full Bar",
+      "Breezy Open Air Seating",
+      "Ample Parking"
+    ],
+    "specialFeatures": [
+      "Perched directly above the scenic expanse of Bhopal's 11th-century Upper Lake (Bhojtal), offering panoramic sunset views across the water while cool lake breezes waft through the open dining deck",
+      "Prime scenic spot"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 266 1523",
+    "website": "http://mpstdc.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-bapu-ki-kutiya",
+    "name": "Bapu Ki Kutiya",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Jyoti Cineplex Complex, Zone-I, MP Nagar, Bhopal, Madhya Pradesh 462011",
+    "latitude": 23.2325,
+    "longitude": 77.4312,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "Homestyle Comfort Food"
+    ],
+    "famousDishes": [
+      "Special Dal Bapu",
+      "Paneer Bapu Ki Kutiya",
+      "Kaju Curry",
+      "Missi Roti with Butter",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Signature Dal Bapu (Special Dal Tadka)",
+        "price": 210
+      },
+      {
+        "food": "Paneer Bapu Special",
+        "price": 280
+      },
+      {
+        "food": "Executive Veg Thali",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Rustic Cottage Decor",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Iconic pure-vegetarian restaurant serving comforting, wholesome Indian home-style cooking in a rustic cottage-themed setting, famous for its signature Dal Bapu with smoking desi ghee tadka",
+      "High family popularity"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 255 3322",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-sagar-gaire-fast-food",
+    "name": "Sagar Gaire Fast Food",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "7 No. Bus Stop, Shivaji Nagar, Bhopal, Madhya Pradesh 462016",
+    "latitude": 23.2245,
+    "longitude": 77.4289,
+    "cuisine": [
+      "Street Fast Food",
+      "Indo-Italian",
+      "Sandwiches & Shakes"
+    ],
+    "famousDishes": [
+      "Cheese Butter Paneer Kulcha",
+      "Baked White Sauce Pasta",
+      "Veg Cheese Burger",
+      "Thick Cold Coffee",
+      "Soup"
+    ],
+    "menu": [
+      {
+        "food": "World Famous Cheese Stuffed Paneer Kulcha",
+        "price": 140
+      },
+      {
+        "food": "Baked Cheese White Sauce Penne",
+        "price": 160
+      },
+      {
+        "food": "Thick Chocolate Cold Coffee",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Open Air Street Gathering",
+      "Quick Service",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Cult culinary phenomenon started from a small handcart by Sagar Gaire that transformed into Bhopal's most famous street food empire, known for buttery stuffed cheese kulchas and thick cold coffees",
+      "Youth cultural hotspot"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 422 1100",
+    "website": "http://sagargairefastfood.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-indian-coffee-house-new-market",
+    "name": "Indian Coffee House (New Market)",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "New Market, TT Nagar, Bhopal, Madhya Pradesh 462003",
+    "latitude": 23.2389,
+    "longitude": 77.3994,
+    "cuisine": [
+      "South Indian",
+      "Snacks",
+      "Coffee & Non-Veg Snacks"
+    ],
+    "famousDishes": [
+      "Mutton Cutlet with Toast",
+      "Special Masala Dosa",
+      "South Indian Filter Coffee",
+      "Chicken Omelette",
+      "Veg Pakora"
+    ],
+    "menu": [
+      {
+        "food": "Signature Mutton Cutlet (2 pcs)",
+        "price": 120
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 110
+      },
+      {
+        "food": "Hot South Indian Filter Coffee",
+        "price": 45
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Heritage Society Uniform Waiters",
+      "Central New Market Location"
+    ],
+    "specialFeatures": [
+      "Historic intellectual hub in New Market where writers, IAS officers, and students have gathered for decades over budget-friendly mutton cutlets, dosas, and filter coffee",
+      "Bhopal institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 255 4224",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bpl-shahnama-jehan-numa",
+    "name": "Shahnama - Jehan Numa Palace",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Jehan Numa Palace, 157 Shamla Hills, Bhopal, Madhya Pradesh 462013",
+    "latitude": 23.2425,
+    "longitude": 77.3892,
+    "cuisine": [
+      "Royal Mughlai",
+      "International Multi-Cuisine Buffet",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Grand Royal Buffet Dinner",
+      "Bhopali Murgh Rizala",
+      "Nalli Nihari",
+      "Paneer Pasanda",
+      "Dessert Island"
+    ],
+    "menu": [
+      {
+        "food": "Grand Royal Palace Buffet Spread",
+        "price": 1650
+      },
+      {
+        "food": "Bhopali Murgh Rizala",
+        "price": 720
+      },
+      {
+        "food": "Paneer Pasanda",
+        "price": 560
+      }
+    ],
+    "averageCostForOne": 1650,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Palatial Marble Dining Hall",
+      "Full Bar",
+      "Valet Parking",
+      "Live Interactive Cooking Counters"
+    ],
+    "specialFeatures": [
+      "Sumptuous royal banquet hall at Jehan Numa Palace offering lavish buffet spreads inspired by the culinary archives of royal Bhopali nawabs alongside gourmet international live counters",
+      "5-star luxury dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 266 1100",
+    "website": "https://www.hoteljehan-numapalace.com/dining/shahnama.html",
+    "available": true
+  }
+]

@@ -1,0 +1,217 @@
+[
+  {
+    "restaurantId": "rst-shl-cafe-shillong",
+    "name": "Cafe Shillong",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "address": "LP 45, Main Road, Laitumkhrah, Shillong, Meghalaya 793003",
+    "latitude": 25.5689,
+    "longitude": 91.8945,
+    "cuisine": [
+      "Khasi Continental",
+      "Rock & Blues Music Cafe",
+      "Pork Ribs Specialist"
+    ],
+    "famousDishes": [
+      "Famous Khasi Spiced Pork Ribs",
+      "Cafe Shillong Beef Burger with Fries",
+      "Grilled Chicken in Mushroom Sauce",
+      "Irish Coffee",
+      "Blueberry Cheesecake"
+    ],
+    "menu": [
+      {
+        "food": "Signature Roast Pork Ribs in Khasi Honey Pepper Glaze",
+        "price": 440
+      },
+      {
+        "food": "Classic Juicy Beef Bacon Burger",
+        "price": 340
+      },
+      {
+        "food": "Warm Blueberry Crumble Tart",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Live Acoustic Rock & Blues Gigs",
+      "Pine-Wood Mountain Cafe",
+      "Free Wi-Fi",
+      "Rock Memorabilia"
+    ],
+    "specialFeatures": [
+      "The cultural heartbeat of India's 'Rock Capital' in Laitumkhrah, combining legendary juicy pork ribs and beef burgers with Sunday live acoustic rock sessions by Shillong's celebrated local musicians",
+      "The iconic Shillong youth institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 364 250 2487",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-shl-dylans-cafe",
+    "name": "Dylan's Cafe",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "address": "Tripura Castle Road, Risa Colony, Sungro, Shillong, Meghalaya 793003",
+    "latitude": 25.5612,
+    "longitude": 91.8889,
+    "cuisine": [
+      "American Diner",
+      "Breakfast & Bakery",
+      "Bob Dylan Tribute Cafe"
+    ],
+    "famousDishes": [
+      "Fluffy Buttermilk Pancakes with Maple Syrup",
+      "Loaded Belgian Waffles",
+      "Dylan's Signature Roast Pork Burger",
+      "Hot Marshmallow Chocolate",
+      "Apple Pie"
+    ],
+    "menu": [
+      {
+        "food": "Dylan's Loaded Sweet Waffle with Chocolate & Ice Cream",
+        "price": 240
+      },
+      {
+        "food": "Crispy Bacon & Egg Breakfast Platter",
+        "price": 290
+      },
+      {
+        "food": "Rich Hot Chocolate with Marshmallows",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pine Tree Forest Setting",
+      "Bob Dylan Tribute Murals & Memorabilia",
+      "Floor-to-Ceiling Glass Windows",
+      "Board Games"
+    ],
+    "specialFeatures": [
+      "A tribute to Nobel laureate Bob Dylan nestled amidst the misty pine groves near Tripura Castle, adorned with Dylan vinyl records, guitar art, and board games while serving the best buttermilk waffles in the hills",
+      "Magical mountain cafe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 364 250 1481",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-shl-trattoria-police-bazar",
+    "name": "Trattoria (Authentic Khasi Heritage)",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "address": "Police Bazar Main Road, Near Centre Point, Shillong, Meghalaya 793001",
+    "latitude": 25.5789,
+    "longitude": 91.8821,
+    "cuisine": [
+      "Authentic Khasi Tribal",
+      "Jadoh Specialist"
+    ],
+    "famousDishes": [
+      "Jadoh (Rice slow-cooked in rich pork stock)",
+      "Dohneiiong (Tender Pork cooked in Black Sesame Paste)",
+      "Doh Khlieh (Minced Pork & Onion Salad with Ginger)",
+      "Tungrymbai (Fermented Soy Bean Paste)",
+      "Mylliem Chicken"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Khasi Jadoh & Dohneiiong Plate (Pork in Black Sesame)",
+        "price": 180
+      },
+      {
+        "food": "Doh Khlieh (Khasi Pork Salad)",
+        "price": 120
+      },
+      {
+        "food": "Mylliem Style Peppery Chicken Curry",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic Tiny Police Bazar Eatery",
+      "Khasi Food Institution",
+      "Quick Counter Service"
+    ],
+    "specialFeatures": [
+      "Shillong's most famous humble temple for authentic Khasi home cooking, revered for 'Jadoh' (red mountain rice cooked in meat broth) and 'Dohneiiong' (succulent pork in an aromatic dark roasted black sesame gravy)",
+      "Pure Khasi culinary heritage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-shl-city-hut-dhaba",
+    "name": "City Hut Family Dhaba",
+    "city": "Shillong",
+    "state": "Meghalaya",
+    "address": "Near Ward's Lake, Oakland Road, Police Bazar, Shillong, Meghalaya 793001",
+    "latitude": 25.5812,
+    "longitude": 91.8845,
+    "cuisine": [
+      "Multi-Cuisine",
+      "North Indian",
+      "Chinese",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Butter Chicken",
+      "Tandoori Platter",
+      "Dal Makhani",
+      "Crispy Chilly Pork",
+      "Hot Garlic Naan"
+    ],
+    "menu": [
+      {
+        "food": "Butter Chicken with 2 Butter Naans",
+        "price": 390
+      },
+      {
+        "food": "Tandoori Chicken (Half)",
+        "price": 310
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Traditional Thatched Wooden Huts",
+      "Ward's Lake Vicinity",
+      "Air Conditioning",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Shillong's most popular family dining venue surrounded by pine trees near Ward's Lake, serving comforting tandoori dishes and Chinese favorites in private thatched wooden booths",
+      "Top family destination"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 364 222 0386",
+    "website": null,
+    "available": true
+  }
+]

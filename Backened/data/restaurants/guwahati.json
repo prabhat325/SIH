@@ -1,0 +1,212 @@
+[
+  {
+    "restaurantId": "rst-gau-paradise-restaurant",
+    "name": "Paradise Restaurant (Since 1984)",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "Maniram Dewan Road, Silpukhuri, Guwahati, Assam 781003",
+    "latitude": 26.1845,
+    "longitude": 91.7689,
+    "cuisine": [
+      "Authentic Assamese Heritage",
+      "Traditional Parampara Thali"
+    ],
+    "famousDishes": [
+      "Assamese Parampara Thali (Khar - Raw Papaya Ash Stew, Masor Tenga - Tangy Fish Curry with Elephant Apple, Pitika, Duck Curry, Kheer Payash)",
+      "Bora Saul (Sticky Rice)",
+      "Pitha"
+    ],
+    "menu": [
+      {
+        "food": "Grand Assamese Parampara Non-Veg Feast Thali",
+        "price": 420
+      },
+      {
+        "food": "Traditional Masor Tenga (Tangy Fish Curry in Kaji Nemu)",
+        "price": 280
+      },
+      {
+        "food": "Aloo Pitika & Bilahi Chutney Platter",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Traditional Bell-Metal (Kanh) Tableware",
+      "Assamese Jaapi Decor",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Founded in 1984 in Silpukhuri, the pioneering institution that introduced authentic indigenous Assamese thali dining served on heavy gleaming bell-metal (Kanh) platters to travelers worldwide",
+      "The benchmark of Assamese food heritage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 266 7988",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gau-khorikaa-restaurant",
+    "name": "Khorikaa Restaurant (Since 2007)",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "1st Floor, Kamal C Plaza, South Sarania, GS Road, Ulubari, Guwahati, Assam 781007",
+    "latitude": 26.1689,
+    "longitude": 91.7589,
+    "cuisine": [
+      "Assamese Ethnic Grills",
+      "Tribal Smoke-Cooked Meats",
+      "Duck & Pork Specialists"
+    ],
+    "famousDishes": [
+      "Pork Khorika (Charcoal Bamboo Skewer Smoked Pork)",
+      "Duck Curry with Ash Gourd (Kumura)",
+      "Fish Patotdiya (Steamed in Banana Leaf with Mustard)",
+      "Chicken in Bamboo Hollow",
+      "Pithaguri Payash"
+    ],
+    "menu": [
+      {
+        "food": "Signature Pork Khorika Skewers (4 skewers with Bhut Jolokia Dip)",
+        "price": 280
+      },
+      {
+        "food": "Traditional Duck Curry with White Gourd",
+        "price": 340
+      },
+      {
+        "food": "Fish Patotdiya in Banana Leaf",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Ethnic Assamese Village Decor",
+      "Family Dining"
+    ],
+    "specialFeatures": [
+      "Created by Master Chef Pranab Kumar Manjhi, famous for authentic charcoal-grilled 'Khorika' skewers, tender local duck simmered with ash gourds, and fiery Bhut Jolokia (Ghost Pepper) chutneys",
+      "Guwahati's most popular ethnic culinary hotspot"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 246 1799",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gau-shaikh-brothers-bakery",
+    "name": "Shaikh Brothers Bakery (Since 1885)",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "194, Hem Baruah Road, Panbazar, Guwahati, Assam 781001",
+    "latitude": 26.1878,
+    "longitude": 91.7456,
+    "cuisine": [
+      "Colonial Heritage Bakery",
+      "Pastries & Patties"
+    ],
+    "famousDishes": [
+      "Legendary Rich Plum Cake",
+      "Crisp Cheese Straws",
+      "Chicken Puff Patty",
+      "Mutton Patties",
+      "Cream Rolls"
+    ],
+    "menu": [
+      {
+        "food": "Original 1885 Rich Fruit Plum Cake (500g)",
+        "price": 280
+      },
+      {
+        "food": "Traditional Cheese Straws (Box of 200g)",
+        "price": 120
+      },
+      {
+        "food": "Hot Flaky Chicken Patty",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "140-Year-Old Heritage Shop",
+      "Visited by Pandit Jawaharlal Nehru & Lord Curzon",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Established in 1885 during the British Raj in Panbazar by Shaikh Ghulam Malik, this 140-year-old bakery was the official caterer to British governors and served Pandit Jawaharlal Nehru on his historic visits to Assam",
+      "Northeast India's oldest surviving bakery"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 254 4858",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gau-gams-delicacy",
+    "name": "Gam's Delicacy",
+    "city": "Guwahati",
+    "state": "Assam",
+    "address": "GS Road, Opposite Bora Service Station, Ulubari, Guwahati, Assam 781007",
+    "latitude": 26.1645,
+    "longitude": 91.7612,
+    "cuisine": [
+      "Mishing & Tribal Assamese",
+      "Indigenous Thali",
+      "River Fish"
+    ],
+    "famousDishes": [
+      "Mishing Tribal Pork Thali with Bamboo Shoot",
+      "Chitol Fish Curry",
+      "Pork Cooked in Banana Leaf",
+      "Rice Beer (Apong / Seasonal)",
+      "Spicy Tomato Pitika"
+    ],
+    "menu": [
+      {
+        "food": "Complete Tribal Assamese Pork Thali",
+        "price": 320
+      },
+      {
+        "food": "Smoked River Fish Curry with Bamboo Shoots",
+        "price": 290
+      },
+      {
+        "food": "Steamed Sticky Rice with Aloo Pitika",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Tribal Bamboo Architecture",
+      "Family Dining"
+    ],
+    "specialFeatures": [
+      "Specializes in the indigenous recipes of Assam's riverine Mishing tribe, cooking fresh river fish and smoked pork with wild herbs, fermented bamboo shoots, and fragrant Joha rice",
+      "Authentic indigenous flavors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 361 246 5522",
+    "website": null,
+    "available": true
+  }
+]

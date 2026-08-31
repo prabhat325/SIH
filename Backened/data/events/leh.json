@@ -1,0 +1,74 @@
+{
+    "events": [
+        {
+            "eventId": "LEH-EVENT-001",
+            "name": "Hemis Festival",
+            "city": "Leh",
+            "state": "Ladakh",
+            "description": "Ladakh's largest monastic festival with sacred masked Cham dances.",
+            "type": "Religious",
+            "venue": "Hemis Monastery",
+            "usualMonth": "June/July",
+            "usualTime": "Morning to evening",
+            "usualDuration": "2 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://leh.nic.in/tourism/festivals/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/610d0c92-2491-5dc0-9f4e-8752e0d5c1d9/bd45b3d4-c906-5282-8968-2ad0e7b86012.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "LEH-EVENT-002",
+            "name": "Losar Festival",
+            "city": "Leh",
+            "state": "Ladakh",
+            "description": "The Tibetan New Year with traditional dances and music.",
+            "type": "Religious",
+            "venue": "Various monasteries in Leh",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://leh.nic.in/tourism/festivals/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "LEH-EVENT-003",
+            "name": "Ladakh Festival",
+            "city": "Leh",
+            "state": "Ladakh",
+            "description": "A cultural festival showcasing Ladakh's unique heritage.",
+            "type": "Cultural",
+            "venue": "Various venues in Leh",
+            "usualMonth": "September",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://leh.nic.in/tourism/festivals/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "LEH-EVENT-004",
+            "name": "Sindhu Darshan Festival",
+            "city": "Leh",
+            "state": "Ladakh",
+            "description": "A spiritual festival celebrating the Indus River.",
+            "type": "Religious",
+            "venue": "Nimu (near Leh)",
+            "usualMonth": "July",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://leh.nic.in/tourism/festivals/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

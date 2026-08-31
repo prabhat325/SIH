@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "UJJAIN-EVENT-001",
+            "name": "Kumbh Mela",
+            "city": "Ujjain",
+            "state": "Madhya Pradesh",
+            "description": "One of the four Kumbh Mela locations held every 12 years.",
+            "type": "Religious",
+            "venue": "Ram Ghat, Shipra River",
+            "usualMonth": "Varies (every 12 years)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://mptourism.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "UJJAIN-EVENT-002",
+            "name": "Simhastha Kumbh",
+            "city": "Ujjain",
+            "state": "Madhya Pradesh",
+            "description": "The Ujjain Kumbh Mela held every 12 years.",
+            "type": "Religious",
+            "venue": "Ram Ghat, Shipra River",
+            "usualMonth": "Varies",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://mptourism.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "UJJAIN-EVENT-003",
+            "name": "Kartik Mela",
+            "city": "Ujjain",
+            "state": "Madhya Pradesh",
+            "description": "An annual religious fair during Kartik month.",
+            "type": "Religious",
+            "venue": "Ram Ghat, Shipra River",
+            "usualMonth": "October/November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 month",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://mptourism.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "UJJAIN-EVENT-004",
+            "name": "Mahakaleshwar Festival",
+            "city": "Ujjain",
+            "state": "Madhya Pradesh",
+            "description": "A religious festival at Mahakaleshwar Jyotirlinga temple.",
+            "type": "Religious",
+            "venue": "Mahakaleshwar Temple",
+            "usualMonth": "Varies",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://mptourism.com/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

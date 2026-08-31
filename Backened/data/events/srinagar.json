@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "SRINAGAR-EVENT-001",
+            "name": "Tulip Festival",
+            "city": "Srinagar",
+            "state": "Jammu and Kashmir",
+            "description": "Asia's largest tulip festival at Indira Gandhi Memorial Tulip Garden.",
+            "type": "Festival",
+            "venue": "Indira Gandhi Memorial Tulip Garden",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://jktdc.jk.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SRINAGAR-EVENT-002",
+            "name": "Shikara Festival",
+            "city": "Srinagar",
+            "state": "Jammu and Kashmir",
+            "description": "A unique festival on Dal Lake with decorated shikaras.",
+            "type": "Festival",
+            "venue": "Dal Lake",
+            "usualMonth": "June/July",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://jktdc.jk.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SRINAGAR-EVENT-003",
+            "name": "Saffron Festival",
+            "city": "Srinagar",
+            "state": "Jammu and Kashmir",
+            "description": "A festival celebrating Kashmir's saffron heritage.",
+            "type": "Festival",
+            "venue": "Pampore (near Srinagar)",
+            "usualMonth": "October/November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://jktdc.jk.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SRINAGAR-EVENT-004",
+            "name": "Urs of Sheikh Noor-ud-din",
+            "city": "Srinagar",
+            "state": "Jammu and Kashmir",
+            "description": "The death anniversary of Kashmir's patron saint.",
+            "type": "Religious",
+            "venue": "Charar-i-Sharief",
+            "usualMonth": "February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://jktdc.jk.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

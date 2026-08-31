@@ -1,0 +1,239 @@
+[
+  {
+    "hotelId": "nal-the-nalanda-regency",
+    "name": "The Nalanda Regency",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Bargao, Near Nalanda University Archaeological Ruins, Nalanda, Bihar 803111",
+    "latitude": 25.1385,
+    "longitude": 85.4412,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Xuanzang Multi-cuisine Restaurant",
+      "Conference Hall",
+      "Travel Counter",
+      "Lawn Dinners"
+    ],
+    "specialFeatures": [
+      "Closest quality hotel to the UNESCO World Heritage Nalanda Mahavihara ruins and Xuanzang Memorial"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 900",
+    "website": "https://thenalandaregency.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.979Z",
+    "updatedAt": "2026-08-22T21:20:26.979Z"
+  },
+  {
+    "hotelId": "nal-hotel-siddharth",
+    "name": "Hotel Siddharth Nalanda",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Nalanda-Kundalpur Road, Near Museum, Nalanda, Bihar 803111",
+    "latitude": 25.1354,
+    "longitude": 85.4458,
+    "pricePerNight": 3200,
+    "category": "Mid-Range",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Vegetarian Restaurant",
+      "Room Service",
+      "Hot Water",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Walking distance to Archaeological Museum of Nalanda and ancient university excavations"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 555",
+    "website": "https://hotelsiddharthnalanda.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.979Z",
+    "updatedAt": "2026-08-22T21:20:26.979Z"
+  },
+  {
+    "hotelId": "nal-tathagat-vihar-bstdc",
+    "name": "Tathagat Vihar Tourist Complex (BSTDC)",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "State Highway 78, Nalanda, Bihar 803111",
+    "latitude": 25.1398,
+    "longitude": 85.4389,
+    "pricePerNight": 1800,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Parking",
+      "Restaurant",
+      "Large Gardens",
+      "Guide Booking",
+      "AC & Non-AC Rooms"
+    ],
+    "specialFeatures": [
+      "Official Bihar State Tourism Development Corporation bungalow with spacious gardens"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 222",
+    "website": "https://www.bstdc.bih.nic.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.980Z",
+    "updatedAt": "2026-08-22T21:20:26.980Z"
+  },
+  {
+    "hotelId": "nal-nalanda-guest-house",
+    "name": "Nalanda Guest House",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Main Road, Bada Gaon, Nalanda, Bihar 803111",
+    "latitude": 25.1412,
+    "longitude": 85.4435,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Home Cooked Meals",
+      "Hot Water",
+      "24-hour Desk"
+    ],
+    "specialFeatures": [
+      "Quiet budget family stay right by the village lake and ruins entrance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 333",
+    "website": "https://nalandaguesthouse.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.980Z",
+    "updatedAt": "2026-08-22T21:20:26.980Z"
+  },
+  {
+    "hotelId": "nal-youth-hostel-nalanda",
+    "name": "Youth Hostel Nalanda",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Near Kundalpur Digambar Jain Mandir, Nalanda, Bihar 803111",
+    "latitude": 25.1465,
+    "longitude": 85.4512,
+    "pricePerNight": 800,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Clean Dorms",
+      "Canteen",
+      "Luggage Storage",
+      "Filtered Drinking Water",
+      "Garden"
+    ],
+    "specialFeatures": [
+      "Budget stay for students and backpackers visiting Nalanda and Kundalpur Mahavira birthplace"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 111",
+    "website": "https://yhaindia.org/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.980Z",
+    "updatedAt": "2026-08-22T21:20:26.980Z"
+  },
+  {
+    "hotelId": "nal-hotel-manish-nalanda",
+    "name": "Hotel Manish Nalanda",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Bargao Chowk, Nalanda, Bihar 803111",
+    "latitude": 25.1378,
+    "longitude": 85.4421,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 3.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Veg Restaurant",
+      "Room Service",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Convenient location for visiting Sun Temple of Bargao and Nalanda University"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 456",
+    "website": "https://hotelmanishnalanda.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.981Z",
+    "updatedAt": "2026-08-22T21:20:26.981Z"
+  },
+  {
+    "hotelId": "nal-tathagat-international",
+    "name": "Hotel Tathagat International",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Nalanda-Rajgir Highway, Nalanda, Bihar 803111",
+    "latitude": 25.1321,
+    "longitude": 85.4374,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Restaurant",
+      "Hot Water",
+      "Room Service",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Connecting hub between Nalanda ruins and Rajgir hot springs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 789",
+    "website": "https://hoteltathagatinternational.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.981Z",
+    "updatedAt": "2026-08-22T21:20:26.981Z"
+  },
+  {
+    "hotelId": "nal-shree-radha-krishna-residency",
+    "name": "Shree Radha Krishna Residency",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Near Nalanda Railway Station, Silao Road, Nalanda, Bihar 803111",
+    "latitude": 25.1435,
+    "longitude": 85.4498,
+    "pricePerNight": 1500,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pure Veg Canteen",
+      "Elevator",
+      "24-hour Room Service"
+    ],
+    "specialFeatures": [
+      "Close to famous Silao Khaja sweet stalls and local handicraft shops"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 888",
+    "website": "https://shreeradhakrishnanalanda.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.981Z",
+    "updatedAt": "2026-08-22T21:20:26.981Z"
+  }
+]

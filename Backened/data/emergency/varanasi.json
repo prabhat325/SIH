@@ -1,0 +1,93 @@
+[
+  {
+    "serviceId": "VARANASI-HOSPITAL-001",
+    "name": "Institute of Medical Sciences, Banaras Hindu University",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "BHU Campus, Varanasi, Uttar Pradesh 221005",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.bhu.ac.in/ims/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "VARANASI-HOSPITAL-002",
+    "name": "Sir Sunderlal Hospital",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "BHU Campus, Varanasi, Uttar Pradesh 221005",
+    "latitude": null,
+    "longitude": null,
+    "phone": "+91-542-2368547",
+    "website": "https://sshbhu.com/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "VARANASI-HOSPITAL-003",
+    "name": "District Hospital Kabir Chaura",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Kabir Chaura, Varanasi, Uttar Pradesh 221001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "VARANASI-POLICE-004",
+    "name": "Dashashwamedh Police Station",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "type": "Police Station",
+    "address": "Dashashwamedh Ghat Road, Varanasi, Uttar Pradesh 221001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://varanasi.nic.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "VARANASI-FIRE-005",
+    "name": "Bhelupur Fire Station",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "type": "Fire Station",
+    "address": "Bhelupur, Varanasi, Uttar Pradesh 221010",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

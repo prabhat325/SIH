@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "AMRITSAR-EVENT-001",
+            "name": "Baisakhi Festival",
+            "city": "Amritsar",
+            "state": "Punjab",
+            "description": "Punjab's harvest festival celebrated at the Golden Temple.",
+            "type": "Religious",
+            "venue": "Golden Temple (Harmandir Sahib)",
+            "usualMonth": "April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1-2 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://punjabtourism.punjab.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "AMRITSAR-EVENT-002",
+            "name": "Amritsar Heritage Festival",
+            "city": "Amritsar",
+            "state": "Punjab",
+            "description": "A cultural festival showcasing Punjab's rich heritage.",
+            "type": "Cultural",
+            "venue": "Various venues across Amritsar",
+            "usualMonth": "November",
+            "usualTime": "Evening",
+            "usualDuration": "3-4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://punjabtourism.punjab.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "AMRITSAR-EVENT-003",
+            "name": "Guru Nanak Dev Ji Prakash Purab",
+            "city": "Amritsar",
+            "state": "Punjab",
+            "description": "The birth anniversary of Guru Nanak Dev Ji.",
+            "type": "Religious",
+            "venue": "Golden Temple and city gurdwaras",
+            "usualMonth": "November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://sgpc.net/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

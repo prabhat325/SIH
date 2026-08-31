@@ -1,0 +1,218 @@
+[
+  {
+    "restaurantId": "rst-bbs-dalma-restaurant",
+    "name": "Dalma (Authentic Odia Cuisine - Since 2001)",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "157, Sachivalaya Marg, Unit-4, Near MLA Colony, Bhubaneswar, Odisha 751001",
+    "latitude": 20.2812,
+    "longitude": 85.8345,
+    "cuisine": [
+      "Authentic Odia Heritage",
+      "Traditional Thali",
+      "Seafood & Vegetarian"
+    ],
+    "famousDishes": [
+      "Odia Dalma (Lentils simmered with raw papaya, pumpkin & roasted cumin-ghee tadka)",
+      "Badi Chura (Crushed sundried lentil dumplings with garlic)",
+      "Machha Besara (Fish in mustard-garlic paste)",
+      "Pakhala Bhata Thali (Fermented water rice)",
+      "Mutton Kassa",
+      "Chhena Poda"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Odia Vegetarian Thali (with Dalma, Badi Chura, Saaga & Rice)",
+        "price": 240
+      },
+      {
+        "food": "Odia Special Machha Besara (Mustard Fish Curry)",
+        "price": 310
+      },
+      {
+        "food": "Mutton Kassa (Slow-cooked spiced Odia mutton)",
+        "price": 420
+      },
+      {
+        "food": "Traditional Chhena Poda Slice (Baked cheese sweet)",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Traditional Odia Pattachitra Art Decor",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Founded in 2001 to preserve and showcase authentic home-cooked Odia culinary traditions, world-famous for its namesake 'Dalma' stew and summer fermented 'Pakhala Bhata' banquets",
+      "The definitive ambassador of Odia cuisine"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 239 5678",
+    "website": "http://dalmarestaruant.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bbs-kanika-mayfair",
+    "name": "Kanika - Mayfair Lagoon",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "Mayfair Lagoon, 8-B, Jayadev Vihar, Bhubaneswar, Odisha 751013",
+    "latitude": 20.3012,
+    "longitude": 85.8189,
+    "cuisine": [
+      "Royal Odia Gastronomy",
+      "Chilika Seafood",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Chilika Chingudi Jhola (Fresh Chilika Lake Prawn Curry)",
+      "Kankada Jhola (Crab Curry)",
+      "Dahi Machha",
+      "Chhena Tarkari",
+      "Baked Chhena Poda with Rabdi"
+    ],
+    "menu": [
+      {
+        "food": "Kanika Royal Odia Non-Veg Tasting Thali",
+        "price": 1450
+      },
+      {
+        "food": "Chilika Jumbo Prawns in Mustard Gravy",
+        "price": 890
+      },
+      {
+        "food": "Chhena Poda with Cardamom Rabdi",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 1200,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Palatial Lagoon Resort Setting",
+      "Hand-Carved Stone Courtyard",
+      "Full Bar",
+      "Valet Parking",
+      "Live Odissi Instrumental Music"
+    ],
+    "specialFeatures": [
+      "Opulent fine-dining temple set amidst the tranquil waterways and stone sculptures of Mayfair Lagoon, celebrating the royal culinary treasures of Odisha and Chilika Lake seafood",
+      "5-star cultural luxury"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 666 0101",
+    "website": "https://www.mayfairhotels.com/mayfair-lagoon-bhubaneswar/dining/kanika.html",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bbs-lingaraj-lassi",
+    "name": "Lingaraj Lassi & Chaat (Since 1980s)",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "Near Lingaraj Temple Road / Master Canteen Square, Bhubaneswar, Odisha 751001",
+    "latitude": 20.2445,
+    "longitude": 85.8345,
+    "cuisine": [
+      "Odia Street Beverages",
+      "Desserts",
+      "Chaat"
+    ],
+    "famousDishes": [
+      "Special Bhubaneswar Rabdi Lassi (Thick Churned Lassi topped with Malai Rabdi, Grated Coconut, Cashews, Kaju & Cherries)",
+      "Dahi Bara Aloodum",
+      "Gupchup (Pani Puri)"
+    ],
+    "menu": [
+      {
+        "food": "Signature Grand Rabdi Lassi in Earthen Matka",
+        "price": 80
+      },
+      {
+        "food": "Famous Cuttack-Style Dahi Bara Aloodum Plate",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic Street Stall",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Iconic street drink institution that invented Bhubaneswar's famous dessert-lassi hybrid, topping chilled churned curd with dense malai rabdi, toasted coconut shreds, dry fruits, and glace cherries",
+      "Unrivaled summer indulgence"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bbs-truptee-restaurant",
+    "name": "Truptee Restaurant",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "67, Master Canteen Square, Station Road, Bhubaneswar, Odisha 751001",
+    "latitude": 20.2689,
+    "longitude": 85.8389,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Odia & North Indian Thali",
+      "South Indian Tiffin"
+    ],
+    "famousDishes": [
+      "Truptee Special Vegetarian Thali",
+      "Paneer Butter Masala",
+      "Masala Dosa",
+      "Dal Fry",
+      "Chhena Gaja"
+    ],
+    "menu": [
+      {
+        "food": "Truptee Deluxe Vegetarian Thali",
+        "price": 210
+      },
+      {
+        "food": "Paneer Lababdar with Butter Naan",
+        "price": 220
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Master Canteen Junction Proximity",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Central Bhubaneswar's classic pure-vegetarian family diner since the 1980s, offering wholesome vegetarian thalis, dosas, and Odia sweets right near the railway station",
+      "Reliable and fast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 253 1144",
+    "website": null,
+    "available": true
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "restaurantId": "rst-ptb-new-lighthouse-restaurant",
+    "name": "New Lighthouse Restaurant (Since 1990s)",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Near Marina Park & Aberdeen Jetty, Rajiv Gandhi Water Sports Complex Road, Port Blair, Andaman 744101",
+    "latitude": 11.6689,
+    "longitude": 92.7489,
+    "cuisine": [
+      "Andaman Island Seafood",
+      "Fresh Catch Tawa Grills",
+      "Continental & Chinese"
+    ],
+    "famousDishes": [
+      "Grilled Whole Island Lobster in Lemon Garlic Butter",
+      "Bay of Bengal Red Snapper Tawa Fry",
+      "Crab Masala with Hot Butter Naan",
+      "Tiger Prawns Butter Garlic",
+      "Cold Draft Beer"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Island Whole Lobster (Caught daily / by weight)",
+        "price": 1450
+      },
+      {
+        "food": "Whole Grilled Red Snapper Fish with Chips & Salad",
+        "price": 680
+      },
+      {
+        "food": "Jumbo Island Tiger Prawns in Butter Garlic",
+        "price": 620
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Open-Air Thatched Ocean Deck",
+      "Live Fresh Seafood Ice Counter",
+      "Harbour Breeze View",
+      "Full Bar"
+    ],
+    "specialFeatures": [
+      "Port Blair's most famous seafood destination on the water's edge near Marina Park, where guests select freshly caught Andaman Sea lobsters, crabs, and snappers from ice boxes to be grilled live over charcoal",
+      "The quintessential island seafood feast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 233 456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ptb-amaya-seashell",
+    "name": "Amaya - SeaShell Port Blair",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "SeaShell Hotel, Marine Hill, Near Cellular Jail, Port Blair, Andaman 744101",
+    "latitude": 21.6645,
+    "longitude": 92.7412,
+    "cuisine": [
+      "Pan Asian",
+      "Continental",
+      "Seafood Lounge & Craft Cocktails"
+    ],
+    "famousDishes": [
+      "Andaman Seafood Sizzler",
+      "Crispy Calamari Rings",
+      "Grilled Tiger Prawns",
+      "Amaya Sunset Island Cocktail",
+      "Tandoori Pomfret"
+    ],
+    "menu": [
+      {
+        "food": "Amaya Signature Seafood Platter Sizzler",
+        "price": 890
+      },
+      {
+        "food": "Crispy Calamari Rings with Garlic Dip",
+        "price": 420
+      },
+      {
+        "food": "Island Sunset Cocktail (Rum, Pineapple & Blue Curacao)",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Clifftop Rooftop Lounge",
+      "Panoramic 180-Degree Port Blair Harbour View",
+      "Full Bar",
+      "Live Acoustic Music Evenings"
+    ],
+    "specialFeatures": [
+      "Premier rooftop clifftop lounge overlooking the glittering waters of Port Blair harbour and the silhouette of Ross Island (Netaji Subhash Chandra Bose Dweep)",
+      "Chic island nightlife"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 242 770",
+    "website": "https://www.seashellhotels.net/port-blair/dining/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ptb-annapurna-pure-veg",
+    "name": "Annapurna Cafeteria Pure Veg",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "71, MG Road, Middle Point, Aberdeen Bazaar, Port Blair, Andaman 744101",
+    "latitude": 11.6621,
+    "longitude": 92.7365,
+    "cuisine": [
+      "Pure Vegetarian",
+      "South Indian Tiffin",
+      "North Indian Thali"
+    ],
+    "famousDishes": [
+      "Special South Indian Banana Leaf Meals",
+      "Crispy Ghee Roast Masala Dosa",
+      "Paneer Butter Masala",
+      "Medu Vada with Sambar",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Executive South Indian Vegetarian Meal",
+        "price": 190
+      },
+      {
+        "food": "Ghee Roast Masala Dosa",
+        "price": 120
+      },
+      {
+        "food": "Authentic Filter Coffee",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Central Aberdeen Bazaar Location",
+      "Rapid Service"
+    ],
+    "specialFeatures": [
+      "Port Blair's most trusted and celebrated pure-vegetarian haven in Aberdeen Bazaar, providing clean South Indian tiffins, dosas, and vegetarian thalis to island travelers for decades",
+      "Fast, hygienic, and comforting"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 234 199",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ptb-bayview-sinclairs",
+    "name": "The Bayview - Sinclairs Bayview Port Blair",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Sinclairs Bayview Hotel, South Point, Port Blair, Andaman 744106",
+    "latitude": 11.6512,
+    "longitude": 92.7545,
+    "cuisine": [
+      "Coastal Seafood",
+      "Continental",
+      "Indian Fine Dining"
+    ],
+    "famousDishes": [
+      "Grilled Whole Bay Snapper",
+      "Coconut Crusted Prawns",
+      "Tandoori Crab",
+      "Lamb Rogan Josh",
+      "Cheesecake"
+    ],
+    "menu": [
+      {
+        "food": "Catch of the Day Fresh Grilled Snapper",
+        "price": 750
+      },
+      {
+        "food": "Coconut Crusted Andaman Prawns",
+        "price": 580
+      },
+      {
+        "food": "Paneer Lababdar with Butter Naan",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 1100,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Edge-of-Cliff Dining Directly Over Ocean Waves",
+      "Panoramic Bay of Bengal Sunset Horizon",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Perched dramatically on the rocky promontory of South Point directly above the crashing turquoise waves of the Bay of Bengal, offering an extraordinary seascape fine-dining experience",
+      "Romantic oceanfront luxury"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 227 824",
+    "website": "https://www.sinclairshotels.com/port-blair/dining",
+    "available": true
+  }
+]

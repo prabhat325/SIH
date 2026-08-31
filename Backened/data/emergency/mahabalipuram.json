@@ -1,0 +1,5 @@
+[
+{"serviceId":"MAHABALIPURAM-HOSPITAL-001","name":"Government Hospital Mamallapuram","city":"Mahabalipuram","state":"Tamil Nadu","type":"Hospital","address":"East Raja Street, Mamallapuram, Chengalpattu district, Tamil Nadu 603104","latitude":null,"longitude":null,"phone":null,"website":"https://chengalpattu.nic.in","available24x7":false,"emergencyFacilities":["Emergency"],"verified":true,"available":true},
+{"serviceId":"MAHABALIPURAM-POLICE-001","name":"Mamallapuram Police Station","city":"Mahabalipuram","state":"Tamil Nadu","type":"Police Station","address":"East Raja Street, Mamallapuram, Tamil Nadu 603104","latitude":null,"longitude":null,"phone":null,"website":"https://eservices.tnpolice.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+{"serviceId":"MAHABALIPURAM-FIRE-001","name":"Mamallapuram Fire and Rescue Station","city":"Mahabalipuram","state":"Tamil Nadu","type":"Fire Station","address":"East Raja Street, Mamallapuram, Tamil Nadu 603104","latitude":null,"longitude":null,"phone":null,"website":"https://www.tnfrs.tn.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

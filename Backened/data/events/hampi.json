@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "HAMPI-EVENT-001",
+            "name": "Hampi Utsava",
+            "city": "Hampi",
+            "state": "Karnataka",
+            "description": "A tribute of music and dance to the heritage of the Vijayanagara Empire.",
+            "type": "Cultural",
+            "venue": "Hampi ruins and various venues",
+            "usualMonth": "February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/en/events/hampi-utsav",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "HAMPI-EVENT-002",
+            "name": "Vijaya Utsava",
+            "city": "Hampi",
+            "state": "Karnataka",
+            "description": "A cultural festival celebrating the Vijayanagara Empire.",
+            "type": "Cultural",
+            "venue": "Hampi heritage sites",
+            "usualMonth": "February/March",
+            "usualTime": "Evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "HAMPI-EVENT-003",
+            "name": "Hampi Festival",
+            "city": "Hampi",
+            "state": "Karnataka",
+            "description": "An annual celebration showcasing Karnataka's folk arts.",
+            "type": "Festival",
+            "venue": "Various venues in Hampi",
+            "usualMonth": "November/December",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

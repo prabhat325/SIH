@@ -1,0 +1,388 @@
+[
+  {
+    "hotelId": "vns-brijrama-palace",
+    "name": "BrijRama Palace Varanasi - By the Ganges",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Darbhanga Ghat, Dashashwamedh, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3045,
+    "longitude": 83.0118,
+    "pricePerNight": 28000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Private Boat Transfer",
+      "Rooftop Heritage Dining",
+      "Spa & Wellness",
+      "Live Classical Music",
+      "Heritage Walk Desk"
+    ],
+    "specialFeatures": [
+      "Built in 1812, one of the oldest heritage palaces on the Ghats",
+      "Historical elevator installed in 1918",
+      "Direct private view of Ganga Aarti"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 245 4401",
+    "website": "https://www.brijhotels.com/brijrama-palace-varanasi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.843Z",
+    "updatedAt": "2026-08-22T21:20:26.843Z"
+  },
+  {
+    "hotelId": "vns-taj-ganges-varanasi",
+    "name": "Taj Ganges, Varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Nadesar Palace Grounds, Cantonment, Varanasi, Uttar Pradesh 221002",
+    "latitude": 25.3364,
+    "longitude": 82.9836,
+    "pricePerNight": 14000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Jiva Spa",
+      "Varuna Fine Dining",
+      "Fitness Centre",
+      "Landscaped Gardens",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Set in 40 acres of lush green cantonment gardens",
+      "Authentic Banarasi cuisine at Varuna",
+      "Peaceful oasis away from city bustle"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 666 0001",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-ganges-varanasi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.845Z",
+    "updatedAt": "2026-08-22T21:20:26.845Z"
+  },
+  {
+    "hotelId": "vns-taj-nadesar-palace",
+    "name": "Taj Nadesar Palace",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Nadesar Palace Grounds, Varanasi, Uttar Pradesh 221002",
+    "latitude": 25.3371,
+    "longitude": 82.9845,
+    "pricePerNight": 42000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Horse Carriage Ride",
+      "Butler Service",
+      "Jiva Spa",
+      "Swimming Pool",
+      "Private Dining",
+      "Golf Course"
+    ],
+    "specialFeatures": [
+      "Royal residence of Maharaja of Benaras since 1835",
+      "Only 10 ultra-luxury bespoke palace suites",
+      "Historical museum-quality artworks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 666 0002",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-nadesar-palace-varanasi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.845Z",
+    "updatedAt": "2026-08-22T21:20:26.845Z"
+  },
+  {
+    "hotelId": "vns-radisson-hotel-varanasi",
+    "name": "Radisson Hotel Varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "The Mall, Cantonment, Varanasi, Uttar Pradesh 221002",
+    "latitude": 25.3391,
+    "longitude": 82.9798,
+    "pricePerNight": 7200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "The Great Kabab Factory",
+      "Fitness Centre",
+      "Spa & Wellness",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Home to renowned The Great Kabab Factory",
+      "Prime Cantonment area location",
+      "Modern luxury comfort"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 250 1515",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-varanasi",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.846Z",
+    "updatedAt": "2026-08-22T21:20:26.846Z"
+  },
+  {
+    "hotelId": "vns-rivatas-by-ideal",
+    "name": "Rivatas by Ideal",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "The Mall, Cantonment, Varanasi, Uttar Pradesh 221002",
+    "latitude": 25.3382,
+    "longitude": 82.9812,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Multi-cuisine Restaurant",
+      "Spa",
+      "Conference Hall",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Centrally located in safe green Cantt zone",
+      "Ocean multi-cuisine restaurant",
+      "Spacious banqueting facilities"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 250 2020",
+    "website": "https://www.rivatas.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.847Z",
+    "updatedAt": "2026-08-22T21:20:26.847Z"
+  },
+  {
+    "hotelId": "vns-hotel-surya-kaiser-palace",
+    "name": "Hotel Surya, Kaiser Palace",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "S-20/51-A, The Mall, Cantonment, Varanasi, Uttar Pradesh 221002",
+    "latitude": 25.3347,
+    "longitude": 82.9862,
+    "pricePerNight": 3800,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Canton Royale Restaurant",
+      "Ayurvedic Spa",
+      "Garden Cafe"
+    ],
+    "specialFeatures": [
+      "1810 Royal Palace built by King of Nepal",
+      "Serene manicured gardens with pool and alfresco dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 250 8466",
+    "website": "https://www.hotelsuryavns.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.847Z",
+    "updatedAt": "2026-08-22T21:20:26.847Z"
+  },
+  {
+    "hotelId": "vns-hotel-alka",
+    "name": "Hotel Alka Varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "D3/23 Meer Ghat, Dashashwamedh, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3081,
+    "longitude": 83.0135,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Ganges View Terrace Restaurant",
+      "Travel Desk",
+      "Room Service",
+      "Laundry"
+    ],
+    "specialFeatures": [
+      "Directly overlooking Meer Ghat and river Ganga",
+      "Large open courtyard garden on the riverfront"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 239 8445",
+    "website": "https://www.hotelalka.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.849Z",
+    "updatedAt": "2026-08-22T21:20:26.849Z"
+  },
+  {
+    "hotelId": "vns-zostel-varanasi",
+    "name": "Zostel Varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "D-53/90-B Luxa Road, Dashashwamedh, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3115,
+    "longitude": 83.0034,
+    "pricePerNight": 1050,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Rooftop Chill Zone",
+      "Cafe",
+      "Lockers",
+      "Common Lounge",
+      "AC Dorms & Privates"
+    ],
+    "specialFeatures": [
+      "Vibrant backpacker hub near Dashashwamedh Ghat",
+      "Walking tours & boat tours at sunrise"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/varanasi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.849Z",
+    "updatedAt": "2026-08-22T21:20:26.849Z"
+  },
+  {
+    "hotelId": "vns-gostops-varanasi",
+    "name": "goSTOPS Varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "D 20/21, Nepali Khapra, Sonarpura, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3012,
+    "longitude": 83.0068,
+    "pricePerNight": 890,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Gaming Room",
+      "Rooftop Terrace",
+      "Air Conditioning",
+      "24/7 Helpdesk"
+    ],
+    "specialFeatures": [
+      "Fun social spaces, projector movie nights",
+      "Close to Harishchandra & Assi Ghats"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-varanasi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.850Z",
+    "updatedAt": "2026-08-22T21:20:26.850Z"
+  },
+  {
+    "hotelId": "vns-shiva-ganges-view",
+    "name": "Shiva Ganges View Guest House",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "B-14/22 Mansarovar Ghat, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3031,
+    "longitude": 83.0099,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "River View Balconies",
+      "Rooftop Cafe",
+      "Yoga Sessions",
+      "Laundry"
+    ],
+    "specialFeatures": [
+      "Panoramic sunrise views over Ganga from private balconies",
+      "Heritage family-run atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94152 23145",
+    "website": "https://www.shivagangesview.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.850Z",
+    "updatedAt": "2026-08-22T21:20:26.850Z"
+  },
+  {
+    "hotelId": "vns-scindhia-guest-house",
+    "name": "Scindhia Guest House",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Scindhia Ghat, Manikarnika Lane, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3129,
+    "longitude": 83.0162,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Restaurant",
+      "Boat Ride Assistance",
+      "Room Service",
+      "Hot Water"
+    ],
+    "specialFeatures": [
+      "Located right above the famous leaning Shiva Temple at Scindhia Ghat",
+      "Serene river breezes and authentic Old Kashi vibes"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 239 0319",
+    "website": "https://scindhiaguesthouse.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.851Z",
+    "updatedAt": "2026-08-22T21:20:26.851Z"
+  },
+  {
+    "hotelId": "vns-the-hosteller-varanasi",
+    "name": "The Hosteller Varanasi",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Near Kashi Vishwanath Temple, Godowlia, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3098,
+    "longitude": 83.0075,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe",
+      "Shared Lounge",
+      "Game Zone",
+      "Dedicated Workstations"
+    ],
+    "specialFeatures": [
+      "Ideal for digital nomads and solo travelers",
+      "Organized Ganga Aarti and Ghat walking trails"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-varanasi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.851Z",
+    "updatedAt": "2026-08-22T21:20:26.851Z"
+  }
+]

@@ -1,0 +1,1375 @@
+[
+  {
+    "cityId": "UP-AGR-001",
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "description": "Major heritage destination known for Mughal architecture and the Taj Mahal.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Taj Mahal",
+      "Agra Fort",
+      "Fatehpur Sikri",
+      "Mughal Heritage"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 27.1767,
+    "longitude": 78.0081,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UP-VAR-001",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "description": "Historic spiritual destination on the Ganges, known for its ghats, temples and cultural heritage.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Ganga Ghats",
+      "Ganga Aarti",
+      "Kashi Vishwanath Temple",
+      "Banarasi Silk",
+      "Spiritual Tourism"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 25.3176,
+    "longitude": 82.9739,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UP-LKO-001",
+    "name": "Lucknow",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "description": "Capital of Uttar Pradesh known for Nawabi heritage, architecture, Awadhi cuisine and chikankari.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Nawabi Culture",
+      "Bara Imambara",
+      "Rumi Darwaza",
+      "Awadhi Cuisine",
+      "Chikankari"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 26.8467,
+    "longitude": 80.9462,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UP-AYO-001",
+    "name": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "description": "Major pilgrimage destination on the Sarayu River with deep religious and cultural significance.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Ram Mandir",
+      "Sarayu River",
+      "Ram Ki Paidi",
+      "Religious Tourism"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 26.7997,
+    "longitude": 82.2043,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UP-MTV-001",
+    "name": "Mathura–Vrindavan",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "description": "Major pilgrimage destination associated with the life and traditions of Lord Krishna.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Krishna Janmabhoomi",
+      "Vrindavan Temples",
+      "Banke Bihari Temple",
+      "Holi",
+      "Krishna Heritage"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 27.4924,
+    "longitude": 77.6737,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UP-PRY-001",
+    "name": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "description": "Historic city at the confluence of the Ganga, Yamuna and mythical Saraswati rivers.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Triveni Sangam",
+      "Kumbh Mela",
+      "Allahabad Fort",
+      "Anand Bhavan"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 25.4358,
+    "longitude": 81.8463,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "RJ-JAI-001",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "description": "The Pink City, known for forts, palaces, royal heritage and traditional crafts.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Amber Fort",
+      "Hawa Mahal",
+      "City Palace",
+      "Jantar Mantar",
+      "Rajasthani Culture"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 26.9124,
+    "longitude": 75.7873,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "RJ-UDR-001",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "description": "The City of Lakes, known for palaces, lakes and romantic heritage landscapes.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Lake Pichola",
+      "City Palace",
+      "Lake Palace",
+      "Fateh Sagar Lake"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 24.5854,
+    "longitude": 73.7125,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "RJ-JDH-001",
+    "name": "Jodhpur",
+    "state": "Rajasthan",
+    "country": "India",
+    "description": "The Blue City dominated by Mehrangarh Fort and known for Marwari heritage.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Mehrangarh Fort",
+      "Blue City",
+      "Jaswant Thada",
+      "Umaid Bhawan Palace"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 26.2389,
+    "longitude": 73.0243,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "RJ-JAI-002",
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "country": "India",
+    "description": "The Golden City, famous for its living fort and Thar Desert experiences.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Jaisalmer Fort",
+      "Thar Desert",
+      "Sam Sand Dunes",
+      "Patwon Ki Haveli"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 26.9157,
+    "longitude": 70.9083,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "RJ-PUS-001",
+    "name": "Pushkar",
+    "state": "Rajasthan",
+    "country": "India",
+    "description": "Holy town known for Pushkar Lake, Brahma Temple and its annual camel fair.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Pushkar Lake",
+      "Brahma Temple",
+      "Pushkar Camel Fair",
+      "Ghats"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 26.4897,
+    "longitude": 74.5511,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "RJ-AJM-001",
+    "name": "Ajmer",
+    "state": "Rajasthan",
+    "country": "India",
+    "description": "Major pilgrimage destination known for Ajmer Sharif and its historic surroundings.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Ajmer Sharif Dargah",
+      "Ana Sagar Lake",
+      "Adhai Din Ka Jhonpra",
+      "Pilgrimage Tourism"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 26.4499,
+    "longitude": 74.6399,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "DL-DEL-001",
+    "name": "Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "description": "National capital and major tourism destination with historic monuments, museums, markets and food culture.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Red Fort",
+      "Qutub Minar",
+      "Humayun's Tomb",
+      "India Gate",
+      "Street Food"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 28.6139,
+    "longitude": 77.209,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "PB-AMR-001",
+    "name": "Amritsar",
+    "state": "Punjab",
+    "country": "India",
+    "description": "Major Sikh heritage destination known for the Golden Temple and Wagah-Attari border.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Golden Temple",
+      "Jallianwala Bagh",
+      "Wagah-Attari Border",
+      "Punjabi Cuisine"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 31.634,
+    "longitude": 74.8723,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "JK-SXR-001",
+    "name": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "description": "Major Kashmir Valley destination known for Dal Lake, houseboats, gardens and Shikara rides.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Dal Lake",
+      "Shikara Rides",
+      "Mughal Gardens",
+      "Houseboats",
+      "Kashmiri Culture"
+    ],
+    "bestTimeToVisit": "April to October",
+    "latitude": 34.0837,
+    "longitude": 74.7973,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "JK-JMU-001",
+    "name": "Jammu",
+    "state": "Jammu and Kashmir",
+    "country": "India",
+    "description": "Important pilgrimage and gateway destination for the Jammu region and nearby Himalayan attractions.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Vaishno Devi Gateway",
+      "Mata Temples",
+      "Bahufort",
+      "Dogra Heritage"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 32.7266,
+    "longitude": 74.857,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UK-RSH-001",
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "country": "India",
+    "description": "Yoga and adventure destination on the Ganges, famous for rafting, ashrams and Himalayan access.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "River Rafting",
+      "Yoga",
+      "Laxman Jhula Area",
+      "Ganga Aarti",
+      "Adventure Tourism"
+    ],
+    "bestTimeToVisit": "September to June",
+    "latitude": 30.0869,
+    "longitude": 78.2676,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UK-HAR-001",
+    "name": "Haridwar",
+    "state": "Uttarakhand",
+    "country": "India",
+    "description": "Major Hindu pilgrimage destination on the Ganges, famous for Har Ki Pauri and Ganga Aarti.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Har Ki Pauri",
+      "Ganga Aarti",
+      "Kumbh Mela",
+      "Temples"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 29.9457,
+    "longitude": 78.1642,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UK-NAI-001",
+    "name": "Nainital",
+    "state": "Uttarakhand",
+    "country": "India",
+    "description": "Popular Himalayan lake destination surrounded by hills and scenic viewpoints.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Naini Lake",
+      "Mall Road",
+      "Snow View Point",
+      "Himalayan Views"
+    ],
+    "bestTimeToVisit": "March to June; October to December",
+    "latitude": 29.3919,
+    "longitude": 79.4542,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UK-MUS-001",
+    "name": "Mussoorie",
+    "state": "Uttarakhand",
+    "country": "India",
+    "description": "Popular hill destination overlooking the Doon Valley and Himalayan ranges.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Mall Road",
+      "Kempty Falls",
+      "Gun Hill",
+      "Camel's Back Road"
+    ],
+    "bestTimeToVisit": "March to June; September to November",
+    "latitude": 30.4598,
+    "longitude": 78.0644,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "UK-DEH-001",
+    "name": "Dehradun",
+    "state": "Uttarakhand",
+    "country": "India",
+    "description": "Capital city in the Doon Valley and an important gateway to Uttarakhand's hill and pilgrimage destinations.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Robber's Cave",
+      "Forest Research Institute",
+      "Sahastradhara",
+      "Doon Valley"
+    ],
+    "bestTimeToVisit": "March to June; September to November",
+    "latitude": 30.3165,
+    "longitude": 78.0322,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "HP-SHI-001",
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "description": "Historic hill station known for colonial architecture, scenic views and the Himalayan railway.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Mall Road",
+      "Ridge",
+      "Christ Church",
+      "Toy Train",
+      "Colonial Heritage"
+    ],
+    "bestTimeToVisit": "March to June; October to February",
+    "latitude": 31.1048,
+    "longitude": 77.1734,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "HP-MAN-001",
+    "name": "Manali",
+    "state": "Himachal Pradesh",
+    "country": "India",
+    "description": "Popular Himalayan destination for mountain scenery, snow activities and adventure tourism.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Solang Valley",
+      "Rohtang Region",
+      "Atal Tunnel",
+      "Hadimba Temple",
+      "Adventure Tourism"
+    ],
+    "bestTimeToVisit": "March to June; October to February",
+    "latitude": 32.2396,
+    "longitude": 77.1887,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "LA-LEH-001",
+    "name": "Leh",
+    "state": "Ladakh",
+    "country": "India",
+    "description": "High-altitude Himalayan destination known for monasteries, mountain landscapes and adventure travel.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Leh Palace",
+      "Buddhist Monasteries",
+      "Pangong Lake Circuit",
+      "Mountain Passes"
+    ],
+    "bestTimeToVisit": "May to September",
+    "latitude": 34.1526,
+    "longitude": 77.5771,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "BR-PAT-001",
+    "name": "Patna",
+    "state": "Bihar",
+    "country": "India",
+    "description": "Capital of Bihar with important Buddhist, Jain, Sikh and historical heritage.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Golghar",
+      "Patna Sahib",
+      "Bihar Museum",
+      "Gandhi Maidan",
+      "Ganga Riverfront"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 25.5941,
+    "longitude": 85.1376,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "BR-BOD-001",
+    "name": "Bodh Gaya",
+    "state": "Bihar",
+    "country": "India",
+    "description": "International Buddhist pilgrimage destination associated with Buddha's enlightenment.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Mahabodhi Temple",
+      "Great Buddha Statue",
+      "Buddhist Monasteries",
+      "Bodhi Tree"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 24.6961,
+    "longitude": 84.9919,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "BR-NAL-001",
+    "name": "Nalanda",
+    "state": "Bihar",
+    "country": "India",
+    "description": "Ancient centre of learning and major Buddhist heritage destination.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Nalanda Mahavihara",
+      "Nalanda Archaeological Museum",
+      "Buddhist Heritage"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 25.1368,
+    "longitude": 85.443,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "BR-RAJ-001",
+    "name": "Rajgir",
+    "state": "Bihar",
+    "country": "India",
+    "description": "Historic pilgrimage and heritage destination surrounded by hills and ancient sites.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Vishwa Shanti Stupa",
+      "Rajgir Hills",
+      "Griddhakuta Hill",
+      "Hot Springs"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 25.028,
+    "longitude": 85.42,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "BR-VAI-001",
+    "name": "Vaishali",
+    "state": "Bihar",
+    "country": "India",
+    "description": "Ancient Buddhist and Jain heritage destination with major archaeological remains.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Ashokan Pillar",
+      "Buddhist Heritage",
+      "Jain Heritage",
+      "Vaishali Archaeological Sites"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 25.985,
+    "longitude": 85.13,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "BR-PAW-001",
+    "name": "Pawapuri",
+    "state": "Bihar",
+    "country": "India",
+    "description": "Important Jain pilgrimage destination associated with Lord Mahavira.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Jal Mandir",
+      "Jain Pilgrimage",
+      "Mahavira Heritage"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 25.0875,
+    "longitude": 85.74,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "MP-BHO-001",
+    "name": "Bhopal",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "description": "Capital city known for lakes, museums and access to major heritage sites in central India.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Upper Lake",
+      "Tribal Museum",
+      "Bhojpur",
+      "Nearby Sanchi and Bhimbetka"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 23.2599,
+    "longitude": 77.4126,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "MP-KHA-001",
+    "name": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "description": "World-famous heritage destination known for its medieval Hindu and Jain temple architecture.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Khajuraho Temples",
+      "Western Group of Temples",
+      "Sculptural Heritage"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 24.8318,
+    "longitude": 79.9199,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "MP-GWL-001",
+    "name": "Gwalior",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "description": "Historic city dominated by its hilltop fort and known for palaces and classical music heritage.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Gwalior Fort",
+      "Jai Vilas Palace",
+      "Sas Bahu Temples",
+      "Classical Music"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 26.2183,
+    "longitude": 78.1828,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "MP-UJJ-001",
+    "name": "Ujjain",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "description": "Major Hindu pilgrimage city and one of the four Kumbh Mela sites.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Mahakaleshwar Temple",
+      "Kumbh Mela",
+      "Ram Ghat",
+      "Kal Bhairav Temple"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 23.1765,
+    "longitude": 75.7885,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "MH-MUM-001",
+    "name": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "description": "India's major financial and cultural metropolis with colonial heritage, beaches and film culture.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Gateway of India",
+      "Marine Drive",
+      "Chhatrapati Shivaji Maharaj Terminus",
+      "Bollywood"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 19.076,
+    "longitude": 72.8777,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "MH-PUN-001",
+    "name": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "description": "Cultural and educational centre known for Maratha heritage, museums and nearby hill destinations.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Shaniwar Wada",
+      "Aga Khan Palace",
+      "Sinhagad",
+      "Maratha Heritage"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 18.5204,
+    "longitude": 73.8567,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "MH-NSK-001",
+    "name": "Nashik",
+    "state": "Maharashtra",
+    "country": "India",
+    "description": "Pilgrimage and wine tourism destination on the Godavari with major temple and vineyard attractions.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Trimbakeshwar",
+      "Godavari Ghats",
+      "Kumbh Mela",
+      "Wine Tourism"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 19.9975,
+    "longitude": 73.7898,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "MH-CSN-001",
+    "name": "Chhatrapati Sambhajinagar",
+    "state": "Maharashtra",
+    "country": "India",
+    "description": "Heritage gateway to Ajanta and Ellora and home to major Mughal-era and Deccan monuments.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Ajanta Caves",
+      "Ellora Caves",
+      "Bibi Ka Maqbara",
+      "Daulatabad Fort"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 19.8762,
+    "longitude": 75.3433,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "GJ-AHM-001",
+    "name": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India",
+    "description": "Historic Gujarat city known for its heritage precincts, architecture, cuisine and museums.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Historic City",
+      "Sabarmati Ashram",
+      "Adalaj Stepwell",
+      "Gujarati Cuisine"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 23.0225,
+    "longitude": 72.5714,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "GJ-EKN-001",
+    "name": "Kevadia / Ekta Nagar",
+    "state": "Gujarat",
+    "country": "India",
+    "description": "Major modern tourism destination centred on the Statue of Unity and surrounding attractions.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Statue of Unity",
+      "Valley of Flowers",
+      "Sardar Sarovar",
+      "Riverfront Tourism"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 21.838,
+    "longitude": 73.7191,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "GA-GOA-001",
+    "name": "Goa",
+    "state": "Goa",
+    "country": "India",
+    "description": "Compact coastal tourism destination covering beaches, heritage churches, forts, nightlife and nature across Goa.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Beaches",
+      "Basilica of Bom Jesus",
+      "Fort Aguada",
+      "Nightlife",
+      "Goan Cuisine",
+      "Waterfalls"
+    ],
+    "bestTimeToVisit": "November to February",
+    "latitude": 15.2993,
+    "longitude": 74.124,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "KA-BLR-001",
+    "name": "Bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "Major metropolitan destination known for gardens, palaces, food, nightlife and technology culture.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Lalbagh",
+      "Bengaluru Palace",
+      "Cubbon Park",
+      "Technology Culture"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 12.9716,
+    "longitude": 77.5946,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "KA-MYS-001",
+    "name": "Mysuru",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "Heritage city famous for Mysore Palace, Dasara celebrations and traditional markets.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Mysore Palace",
+      "Mysuru Dasara",
+      "Chamundi Hill",
+      "Mysore Silk"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 12.2958,
+    "longitude": 76.6394,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "KA-HAM-001",
+    "name": "Hampi",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "Major UNESCO heritage destination featuring the monumental ruins of the Vijayanagara Empire.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Virupaksha Temple",
+      "Vittala Temple",
+      "Stone Chariot",
+      "Lotus Mahal",
+      "Vijayanagara Heritage"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 15.335,
+    "longitude": 76.46,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "KA-GOK-001",
+    "name": "Gokarna",
+    "state": "Karnataka",
+    "country": "India",
+    "description": "Coastal pilgrimage and beach destination known for temples, beaches and scenic coastal trails.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Om Beach",
+      "Kudle Beach",
+      "Mahabaleshwar Temple",
+      "Coastal Tourism"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 14.5479,
+    "longitude": 74.3188,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "TN-CHE-001",
+    "name": "Chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "Major South Indian gateway known for beaches, temples, colonial heritage and classical arts.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Marina Beach",
+      "Kapaleeshwarar Temple",
+      "Fort St George",
+      "Carnatic Music"
+    ],
+    "bestTimeToVisit": "November to February",
+    "latitude": 13.0827,
+    "longitude": 80.2707,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "TN-MDU-001",
+    "name": "Madurai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "Ancient cultural city centred around the iconic Meenakshi Amman Temple.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Meenakshi Amman Temple",
+      "Thirumalai Nayakkar Palace",
+      "Tamil Culture",
+      "Temple Architecture"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 9.9252,
+    "longitude": 78.1198,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "TN-OOY-001",
+    "name": "Ooty",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "Nilgiri hill destination known for tea gardens, cool climate and the heritage mountain railway.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Nilgiri Mountain Railway",
+      "Tea Gardens",
+      "Ooty Lake",
+      "Botanical Gardens"
+    ],
+    "bestTimeToVisit": "March to June; September to November",
+    "latitude": 11.4102,
+    "longitude": 76.695,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "TN-CBE-001",
+    "name": "Coimbatore",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "Major western Tamil Nadu city and gateway to the Nilgiris and surrounding nature destinations.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Marudamalai Temple",
+      "Isha Yoga Center",
+      "Western Ghats Gateway",
+      "Local Cuisine"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 11.0168,
+    "longitude": 76.9558,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "TN-THJ-001",
+    "name": "Thanjavur",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "Major Chola heritage destination known for the Brihadisvara Temple and classical arts.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Brihadisvara Temple",
+      "Chola Heritage",
+      "Thanjavur Paintings",
+      "Classical Arts"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 10.787,
+    "longitude": 79.1378,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "TN-MHM-001",
+    "name": "Mahabalipuram",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "description": "UNESCO heritage destination on the coast known for Pallava-era rock-cut monuments and temples.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Shore Temple",
+      "Pancha Rathas",
+      "Arjuna's Penance",
+      "Pallava Heritage"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 12.6269,
+    "longitude": 80.1927,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "KL-TVM-001",
+    "name": "Thiruvananthapuram",
+    "state": "Kerala",
+    "country": "India",
+    "description": "Capital of Kerala known for temple heritage, museums and nearby beaches.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Padmanabhaswamy Temple",
+      "Kovalam",
+      "Napier Museum",
+      "Kerala Culture"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 8.5241,
+    "longitude": 76.9366,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "KL-KOC-001",
+    "name": "Kochi",
+    "state": "Kerala",
+    "country": "India",
+    "description": "Historic port city combining colonial heritage, art, cuisine and backwater tourism.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Fort Kochi",
+      "Chinese Fishing Nets",
+      "Mattancherry",
+      "Jew Town",
+      "Kerala Cuisine"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 9.9312,
+    "longitude": 76.2673,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "KL-ALP-001",
+    "name": "Alappuzha",
+    "state": "Kerala",
+    "country": "India",
+    "description": "Backwater tourism hub famous for houseboats, lagoons and scenic waterways.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Kerala Backwaters",
+      "Houseboats",
+      "Alappuzha Beach",
+      "Nehru Trophy Boat Race"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 9.4981,
+    "longitude": 76.3388,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "KL-MUN-001",
+    "name": "Munnar",
+    "state": "Kerala",
+    "country": "India",
+    "description": "Scenic hill destination known for tea plantations, misty mountains and cool climate.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Tea Plantations",
+      "Eravikulam National Park",
+      "Mattupetty Dam",
+      "Western Ghats"
+    ],
+    "bestTimeToVisit": "September to May",
+    "latitude": 10.0889,
+    "longitude": 77.0595,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "OD-BBI-001",
+    "name": "Bhubaneswar",
+    "state": "Odisha",
+    "country": "India",
+    "description": "Temple city and gateway to Odisha's major heritage and coastal tourism circuit.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Lingaraj Temple",
+      "Udayagiri and Khandagiri",
+      "Odisha Temple Architecture",
+      "Bhubaneswar-Puri-Konark Circuit"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 20.2961,
+    "longitude": 85.8245,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "OD-PUR-001",
+    "name": "Puri",
+    "state": "Odisha",
+    "country": "India",
+    "description": "Major coastal pilgrimage destination known for Jagannath Temple and Rath Yatra.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Jagannath Temple",
+      "Rath Yatra",
+      "Puri Beach",
+      "Chakra Tirtha"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 19.8135,
+    "longitude": 85.8312,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "OD-KON-001",
+    "name": "Konark",
+    "state": "Odisha",
+    "country": "India",
+    "description": "Heritage destination centred on the UNESCO-listed Sun Temple and Odisha's coastal heritage circuit.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Konark Sun Temple",
+      "Chandrabhaga Beach",
+      "Odisha Architecture",
+      "Konark Dance Festival"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 19.8876,
+    "longitude": 86.0945,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "WB-KOL-001",
+    "name": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "description": "Cultural capital known for colonial architecture, literature, festivals, museums and cuisine.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Victoria Memorial",
+      "Howrah Bridge",
+      "Durga Puja",
+      "Indian Museum",
+      "Bengali Cuisine"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 22.5726,
+    "longitude": 88.3639,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "WB-DAR-001",
+    "name": "Darjeeling",
+    "state": "West Bengal",
+    "country": "India",
+    "description": "Himalayan hill destination famous for tea, Kanchenjunga views and the heritage toy train.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Darjeeling Himalayan Railway",
+      "Tea Gardens",
+      "Tiger Hill",
+      "Kanchenjunga Views"
+    ],
+    "bestTimeToVisit": "March to May; October to December",
+    "latitude": 27.041,
+    "longitude": 88.2663,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "AS-GUW-001",
+    "name": "Guwahati",
+    "state": "Assam",
+    "country": "India",
+    "description": "Major gateway to Northeast India and home to important riverine and temple attractions.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Kamakhya Temple",
+      "Brahmaputra River",
+      "Umananda Island",
+      "Gateway to Northeast"
+    ],
+    "bestTimeToVisit": "October to April",
+    "latitude": 26.1445,
+    "longitude": 91.7362,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "ML-SHL-001",
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "country": "India",
+    "description": "Hill capital known for waterfalls, scenic landscapes, music culture and access to Meghalaya attractions.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Umiam Lake",
+      "Elephant Falls",
+      "Shillong Peak",
+      "Meghalaya Culture"
+    ],
+    "bestTimeToVisit": "October to April",
+    "latitude": 25.5788,
+    "longitude": 91.8933,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "SK-GTK-001",
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "country": "India",
+    "description": "Himalayan capital known for monasteries, mountain views and access to high-altitude attractions.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Rumtek Monastery",
+      "Tsomgo Lake",
+      "Nathu La",
+      "Kanchenjunga Views"
+    ],
+    "bestTimeToVisit": "March to May; October to December",
+    "latitude": 27.3389,
+    "longitude": 88.6065,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "AR-TAW-001",
+    "name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "country": "India",
+    "description": "High-altitude Himalayan destination known for its monastery, mountain landscapes and Buddhist heritage.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Tawang Monastery",
+      "Sela Pass",
+      "Buddhist Heritage",
+      "Himalayan Landscapes"
+    ],
+    "bestTimeToVisit": "March to June; September to October",
+    "latitude": 27.5861,
+    "longitude": 91.8594,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "AP-TPT-001",
+    "name": "Tirupati",
+    "state": "Andhra Pradesh",
+    "country": "India",
+    "description": "Major pilgrimage destination and gateway to the Tirumala temple complex.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Tirumala Venkateswara Temple",
+      "Tirupati Temple Tourism",
+      "Kapila Theertham",
+      "Religious Tourism"
+    ],
+    "bestTimeToVisit": "September to February",
+    "latitude": 13.6288,
+    "longitude": 79.4192,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "PY-PDY-001",
+    "name": "Puducherry",
+    "state": "Puducherry",
+    "country": "India",
+    "description": "Coastal heritage destination known for French colonial architecture, beaches and spiritual tourism.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "French Quarter",
+      "Promenade Beach",
+      "Sri Aurobindo Ashram",
+      "Auroville"
+    ],
+    "bestTimeToVisit": "October to March",
+    "latitude": 11.9416,
+    "longitude": 79.8083,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "AN-PBR-001",
+    "name": "Port Blair / Sri Vijaya Puram",
+    "state": "Andaman and Nicobar Islands",
+    "country": "India",
+    "description": "Primary tourism gateway to the Andaman Islands, known for colonial history, marine attractions and island beaches.",
+    "tourismPriority": "High",
+    "famousFor": [
+      "Cellular Jail",
+      "Corbyn's Cove",
+      "Island Beaches",
+      "Marine Tourism"
+    ],
+    "bestTimeToVisit": "October to May",
+    "latitude": 11.6234,
+    "longitude": 92.7265,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  },
+  {
+    "cityId": "TS-HYD-001",
+    "name": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "description": "Major heritage and culinary destination known for Deccan architecture, Charminar and Hyderabad cuisine.",
+    "tourismPriority": "Very High",
+    "famousFor": [
+      "Charminar",
+      "Golconda Fort",
+      "Ramoji Film City",
+      "Hyderabadi Biryani",
+      "Qutb Shahi Heritage"
+    ],
+    "bestTimeToVisit": "October to February",
+    "latitude": 17.385,
+    "longitude": 78.4867,
+    "images": [],
+    "officialWebsite": null,
+    "available": true
+  }
+]

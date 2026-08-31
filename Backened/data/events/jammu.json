@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "JAMMU-EVENT-001",
+            "name": "Bahu Mela",
+            "city": "Jammu",
+            "state": "Jammu and Kashmir",
+            "description": "A biannual fair at Bahu Fort temple dedicated to Goddess Kali.",
+            "type": "Religious",
+            "venue": "Bahu Fort Temple",
+            "usualMonth": "March-April and September-October",
+            "usualTime": "Morning to evening",
+            "usualDuration": "9 days",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://www.jammu.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "JAMMU-EVENT-002",
+            "name": "Shiv Khori Festival",
+            "city": "Jammu",
+            "state": "Jammu and Kashmir",
+            "description": "A major religious festival on Maha Shivratri.",
+            "type": "Religious",
+            "venue": "Shiv Khori Cave Shrine, Ransoo",
+            "usualMonth": "February/March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.jammu.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "JAMMU-EVENT-003",
+            "name": "Jhiri Mela",
+            "city": "Jammu",
+            "state": "Jammu and Kashmir",
+            "description": "An annual fair at the shrine of Baba Jitto.",
+            "type": "Fair",
+            "venue": "Jhiri (near Jammu)",
+            "usualMonth": "November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.jammu.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "JAMMU-EVENT-004",
+            "name": "Tulip Festival",
+            "city": "Jammu",
+            "state": "Jammu and Kashmir",
+            "description": "A spring festival celebrating the blooming of tulips.",
+            "type": "Festival",
+            "venue": "Various gardens in Jammu region",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://jktdc.jk.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

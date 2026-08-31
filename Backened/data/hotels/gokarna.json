@@ -1,0 +1,286 @@
+[
+  {
+    "hotelId": "gok-swaswara-cgh-earth",
+    "name": "SwaSwara - CGH Earth (Om Beach)",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Om Beach, Donibhag, Gokarna, Karnataka 581326",
+    "latitude": 14.5185,
+    "longitude": 74.3189,
+    "pricePerNight": 26000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Meditation Hilltop Yoga Deck",
+      "Ayurvedic Naturopathy Spa",
+      "Organic Gourmet Satvik & Seafood Cuisine",
+      "Swimming Pool with Ocean View",
+      "Private Beach Trail to Om Beach",
+      "Art Studio"
+    ],
+    "specialFeatures": [
+      "Pinnacle of luxury wellness sanctuary on 26 secluded acres of Om Beach clifftop",
+      "Daily yoga, pranayama, art therapy, and bespoke Ayurvedic cleanses"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 484 426 1711",
+    "website": "https://www.cghearth.com/swaswara",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.070Z",
+    "updatedAt": "2026-08-22T21:20:27.070Z"
+  },
+  {
+    "hotelId": "gok-kahani-paradise",
+    "name": "Kahani Paradise Gokarna",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Bada Village, Kumta-Gokarna Coast, Gokarna, Karnataka 581326",
+    "latitude": 14.4821,
+    "longitude": 74.3412,
+    "pricePerNight": 28000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cliff-edge Infinity Swimming Pool",
+      "Private Beach Access",
+      "Gourmet Farm-to-Table Dining",
+      "Spa Suite",
+      "Helipad Access",
+      "Coconut & Betel Nut Estate"
+    ],
+    "specialFeatures": [
+      "Ultra-exclusive private villa estate on 20 tropical hillside acres with panoramic 360-degree ocean & river views",
+      "Direct access to virgin Paradise Beach"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8386 257 000",
+    "website": "https://kahaniparadise.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.070Z",
+    "updatedAt": "2026-08-22T21:20:27.070Z"
+  },
+  {
+    "hotelId": "gok-kudle-beach-view-resort",
+    "name": "Kudle Beach View Resort & Spa",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Kudle Beach Hilltop, Gokarna, Karnataka 581326",
+    "latitude": 14.5295,
+    "longitude": 74.3145,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool Overlooking Ocean",
+      "Ayurvedic Spa",
+      "Sea View Restaurant",
+      "Yoga Pavilion",
+      "Direct Pathway to Kudle Beach"
+    ],
+    "specialFeatures": [
+      "Perched on the cliff between Gokarna Main Beach and Kudle Beach with sunset swimming pool"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8386 257 777",
+    "website": "https://kudlebeachviewresort.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.071Z",
+    "updatedAt": "2026-08-22T21:20:27.071Z"
+  },
+  {
+    "hotelId": "gok-stone-wood-nature-resort",
+    "name": "Stone Wood Nature Resort Gokarna",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Om Beach Road, Near Kudle Beach, Gokarna, Karnataka 581326",
+    "latitude": 14.5245,
+    "longitude": 74.3205,
+    "pricePerNight": 4900,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool with Forest View",
+      "Spice Multi-cuisine Restaurant",
+      "Wooden Cottages",
+      "Bar",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Nestled in dense coastal green forest between Kudle and Om beaches"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8386 256 999",
+    "website": "https://stonewoodresorts.com/gokarna/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.072Z",
+    "updatedAt": "2026-08-22T21:20:27.072Z"
+  },
+  {
+    "hotelId": "gok-namaste-cafe-resort",
+    "name": "Namaste Cafe & Beach Resort",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Om Beach, Gokarna, Karnataka 581326",
+    "latitude": 14.5178,
+    "longitude": 74.3168,
+    "pricePerNight": 3200,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "World-Famous Namaste Beach Cafe",
+      "Direct Om Beach Sands Access",
+      "Ayurvedic Massage",
+      "Sea View Cottages"
+    ],
+    "specialFeatures": [
+      "The most iconic beachside landmark in Gokarna, sitting right on the sands of Om Beach",
+      "Famous seafood sizzlers and sunrise breakfast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8386 257 141",
+    "website": "https://namastegokarna.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.072Z",
+    "updatedAt": "2026-08-22T21:20:27.072Z"
+  },
+  {
+    "hotelId": "gok-zostel-gokarna",
+    "name": "Zostel Gokarna",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Kudle Beach Road, Hilltop, Gokarna, Karnataka 581326",
+    "latitude": 14.5312,
+    "longitude": 74.3158,
+    "pricePerNight": 1099,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cliff-edge Sea View Cafe (Mantra)",
+      "AC Dorms & Private Ocean Cottages",
+      "Hammocks Deck",
+      "Common Gaming Room",
+      "Beach Trek Guide"
+    ],
+    "specialFeatures": [
+      "Breathtaking clifftop ocean panorama overlooking Gokarna Main Beach",
+      "Famous 5-beach guided trekking expeditions"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/gokarna/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.073Z",
+    "updatedAt": "2026-08-22T21:20:27.073Z"
+  },
+  {
+    "hotelId": "gok-the-hosteller-gokarna",
+    "name": "The Hosteller Gokarna",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Near Kudle Beach Entrance, Main Road, Gokarna, Karnataka 581326",
+    "latitude": 14.5281,
+    "longitude": 74.3185,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Rooftop Cafe",
+      "Workation Stations",
+      "Dorm & Private Rooms",
+      "24/7 Reception"
+    ],
+    "specialFeatures": [
+      "Swimming pool inside the hostel with chill tropical palm tree vibes and co-working spaces"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-gokarna/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.073Z",
+    "updatedAt": "2026-08-22T21:20:27.073Z"
+  },
+  {
+    "hotelId": "gok-trippr-gokarna",
+    "name": "Trippr Gokarna - Beach Hostel",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Middle Beach, Dandebagh, Gokarna, Karnataka 581326",
+    "latitude": 14.5425,
+    "longitude": 74.3121,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Direct Middle Beach Sand Access",
+      "Beach Volleyball",
+      "Hammock Garden",
+      "Cafe",
+      "AC Dorms"
+    ],
+    "specialFeatures": [
+      "Steps right into the soft sand of Middle Beach with spectacular Arabian Sea sunsets"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4710 4000",
+    "website": "https://tripprworld.com/gokarna",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.073Z",
+    "updatedAt": "2026-08-22T21:20:27.073Z"
+  },
+  {
+    "hotelId": "gok-shantidham-cafe-guesthouse",
+    "name": "Shantidham Cafe & Guesthouse",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Cliff between Om Beach and Half Moon Beach, Gokarna, Karnataka 581326",
+    "latitude": 14.5145,
+    "longitude": 74.3225,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cliff Edge Cafe",
+      "Sea Facing Eco Shacks",
+      "Ayurvedic Food",
+      "Sunset Point"
+    ],
+    "specialFeatures": [
+      "Isolated cliffside shacks overlooking secret coves accessible only by hiking trail or boat"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94485 55800",
+    "website": "https://shantidhamgokarna.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.074Z",
+    "updatedAt": "2026-08-22T21:20:27.074Z"
+  }
+]

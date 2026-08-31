@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "eventId": "GOKARNA-EVENT-001",
+            "name": "Gokarna Festival",
+            "city": "Gokarna",
+            "state": "Karnataka",
+            "description": "A traditional temple festival at Mahabaleshwar Temple.",
+            "type": "Religious",
+            "venue": "Mahabaleshwar Temple",
+            "usualMonth": "August/September",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "GOKARNA-EVENT-002",
+            "name": "Shivaratri Festival",
+            "city": "Gokarna",
+            "state": "Karnataka",
+            "description": "A major religious festival attracting thousands of devotees.",
+            "type": "Religious",
+            "venue": "Mahabaleshwar Temple",
+            "usualMonth": "February/March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://karnatakatourism.org/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

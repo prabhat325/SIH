@@ -1,0 +1,834 @@
+[
+  {
+    "restaurantId": "rst-mum-britannia-co",
+    "name": "Britannia & Co. Restaurant (Since 1923)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Wakefield House, 11 Sprott Road, 16 KR Cama Road, Ballard Estate, Fort, Mumbai, Maharashtra 400001",
+    "latitude": 18.9348,
+    "longitude": 72.8402,
+    "cuisine": [
+      "Parsi",
+      "Irani Heritage",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Berry Pulao (Mutton / Chicken / Veg with Iranian Zereshk Berries)",
+      "Sali Boti",
+      "Parsi Mutton Dhansak",
+      "Caramel Custard",
+      "Fresh Raspberry Soda"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Mutton Berry Pulao",
+        "price": 680
+      },
+      {
+        "food": "Authentic Parsi Mutton Dhansak with Brown Rice & Kebabs",
+        "price": 620
+      },
+      {
+        "food": "Sali Boti (Mutton Gravy topped with Crispy Potato Matchsticks)",
+        "price": 540
+      },
+      {
+        "food": "Famous Homemade Caramel Custard",
+        "price": 180
+      },
+      {
+        "food": "Pallonji's Raspberry Soda",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Historic 1923 High-Ceiling Colonial Salon",
+      "Bentwood Furniture",
+      "No Reservations (Daytime Only)"
+    ],
+    "specialFeatures": [
+      "Founded in 1923 during the British Raj in the stone neoclassical avenues of Ballard Estate, world-famous for Late Boman Kohinoor's hospitality and secret Iranian barberry-studded Berry Pulao",
+      "Mumbai's most cherished Parsi-Irani culinary monument"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2261 5264",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-leopold-cafe",
+    "name": "Leopold Cafe & Bar (Since 1871)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Opposite Olympia Coffee House, Shahid Bhagat Singh Road, Colaba Causeway, Mumbai, Maharashtra 400001",
+    "latitude": 18.9228,
+    "longitude": 72.8318,
+    "cuisine": [
+      "Continental",
+      "Parsi & Irani Pub",
+      "Chinese",
+      "North Indian",
+      "Draught Beer"
+    ],
+    "famousDishes": [
+      "Roast Chicken with Stuffing & Chips",
+      "Chilli Chicken",
+      "Beef Chilli",
+      "Leopold Draught Beer Pitcher",
+      "Apple Walnut Pie"
+    ],
+    "menu": [
+      {
+        "food": "Leopold Special Roast Chicken with Gravy & Fries",
+        "price": 580
+      },
+      {
+        "food": "Chilli Chicken Dry",
+        "price": 440
+      },
+      {
+        "food": "Fresh Draught Beer Tower (3 Litres)",
+        "price": 1450
+      }
+    ],
+    "averageCostForOne": 800,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Historic 1871 Pub Cafe",
+      "Full Bar",
+      "Colaba Causeway Street View",
+      "Air Conditioned Mezzanine"
+    ],
+    "specialFeatures": [
+      "Mumbai's oldest operating cafe-pub founded in 1871 on Colaba Causeway, immortalized in Gregory David Roberts' bestselling novel 'Shantaram'",
+      "Global meeting place for travelers, artists, and locals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2282 4801",
+    "website": "http://leopoldcafe.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-trishna-kala-ghoda",
+    "name": "Trishna",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "7, Sai Baba Marg, Next to Commerce House, Kala Ghoda, Fort, Mumbai, Maharashtra 400001",
+    "latitude": 18.9289,
+    "longitude": 72.8334,
+    "cuisine": [
+      "Mangalorean Seafood",
+      "Coastal Indian",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "World Famous Butter Pepper Garlic Jumbo Crab",
+      "Koliwada Jumbo Prawns",
+      "Fish Hyderabadi",
+      "Stuffed Bombil (Bombay Duck)",
+      "Neer Dosa"
+    ],
+    "menu": [
+      {
+        "food": "Signature Butter Pepper Garlic Crab (Seasonal / by Weight)",
+        "price": 1800
+      },
+      {
+        "food": "Koliwada Prawns Fry",
+        "price": 850
+      },
+      {
+        "food": "Surmai Fish Tawa Fry",
+        "price": 790
+      },
+      {
+        "food": "Soft Neer Dosa (3 pcs)",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 1800,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "Valet Parking",
+      "Fine Dining",
+      "Seafood Display"
+    ],
+    "specialFeatures": [
+      "Globally acclaimed Mangalorean coastal seafood temple hidden in Kala Ghoda alleyways, praised by international food critics for its messy, sublime butter-pepper-garlic mud crabs",
+      "A global bucket-list seafood destination"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2270 0888",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-kyani-and-co",
+    "name": "Kyani & Co. (Since 1904)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Jermahal Estate, 657, JSS Road, Opposite Metro Cinema, Marine Lines, Mumbai, Maharashtra 400002",
+    "latitude": 18.9438,
+    "longitude": 72.8278,
+    "cuisine": [
+      "Irani Bakery & Cafe",
+      "Parsi Comfort Food",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Bun Maska with Special Irani Chai",
+      "Keema Pav with Half Fry Egg",
+      "Mawa Cake",
+      "Parsi Akuri",
+      "Chicken Cheese Pattice"
+    ],
+    "menu": [
+      {
+        "food": "Bun Maska with Irani Kadak Chai",
+        "price": 60
+      },
+      {
+        "food": "Spicy Mutton Keema Ghotala with 2 Pavs",
+        "price": 160
+      },
+      {
+        "food": "Traditional Mawa Cake (per pc)",
+        "price": 30
+      },
+      {
+        "food": "Parsi Spiced Akuri Toast",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Oldest Irani Cafe in Mumbai (1904)",
+      "Vintage Wooden Mirrored Walls & Red Check Cloths",
+      "Bakery Showcase"
+    ],
+    "specialFeatures": [
+      "Mumbai's oldest surviving Irani cafe established in 1904 opposite Metro Cinema, retaining its vintage mirrored wooden walls, checkered tablecloths, and classic buttery bun maska dipped in sweet milky chai",
+      "A living slice of old Bombay"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2201 1492",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-shree-thaker-bhojanalay",
+    "name": "Shree Thaker Bhojanalay (Since 1945)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Building No. 31, Dadiseth Agyari Lane, Off Kalbadevi Road, Marine Lines, Mumbai, Maharashtra 400002",
+    "latitude": 18.9489,
+    "longitude": 72.8294,
+    "cuisine": [
+      "Royal Gujarati",
+      "Kathiawadi",
+      "Pure Vegetarian Unlimited Thali"
+    ],
+    "famousDishes": [
+      "Grand Royal Gujarati Thali",
+      "Surti Undhiyu (Seasonal)",
+      "Aamras Puri (Summer)",
+      "Dhokla & Farsan Platter",
+      "Rotla with Desi Ghee & White Butter",
+      "Moong Dal Halwa"
+    ],
+    "menu": [
+      {
+        "food": "Grand Unlimited Royal Gujarati Feast Thali",
+        "price": 650
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Bronze Tableware",
+      "Attentive Royal Service"
+    ],
+    "specialFeatures": [
+      "Widely celebrated as the greatest Gujarati vegetarian thali in India, operating in Kalbadevi since 1945 with an ever-changing seasonal menu cooked with uncompromised quality and copious pure ghee",
+      "An unmatched culinary experience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2206 9916",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-bademiya-colaba",
+    "name": "Bademiya (Since 1946)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Tulloch Road, Behind Taj Mahal Palace Hotel, Apollo Bandar, Colaba, Mumbai, Maharashtra 400001",
+    "latitude": 18.9212,
+    "longitude": 72.8329,
+    "cuisine": [
+      "Mughlai Street Grills",
+      "Tandoori Kebabs",
+      "Rolls"
+    ],
+    "famousDishes": [
+      "Mutton Seekh Kebab",
+      "Chicken Baida Roti",
+      "Chicken Tikka Roll in Roomali Roti",
+      "Mutton Boti Kebab",
+      "Bhuna Gosht"
+    ],
+    "menu": [
+      {
+        "food": "Mutton Seekh Kebab (4 pcs)",
+        "price": 280
+      },
+      {
+        "food": "Signature Chicken Baida Roti",
+        "price": 260
+      },
+      {
+        "food": "Chicken Tikka Roll",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Open Air Midnight Street Food",
+      "Car Bonnet Dining",
+      "Air Conditioned Restaurant Nearby"
+    ],
+    "specialFeatures": [
+      "Founded in 1946 behind the Taj Mahal Palace Hotel by Mohammad Yaseen ('Bademiya'), turning the street into a bustling late-night open-air grill theater where Bollywood stars and midnight revellers eat kebabs off car bonnets",
+      "Nocturnal Mumbai legend"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2284 8038",
+    "website": "http://bademiya.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-sardar-pav-bhaji",
+    "name": "Sardar Refreshments (Sardar Pav Bhaji)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "166-A, Tardeo Road, Junction, Opposite Bus Depot, Tardeo, Mumbai, Maharashtra 400034",
+    "latitude": 18.9689,
+    "longitude": 72.8165,
+    "cuisine": [
+      "Street Food",
+      "Mumbai Pav Bhaji",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Sardar Special Butter Pav Bhaji",
+      "Cheese Pav Bhaji",
+      "Extra Butter Roasted Pav",
+      "Fresh Mosambi Juice"
+    ],
+    "menu": [
+      {
+        "food": "Famous Amul Butter Pav Bhaji (Served with 2 Butter Pavs)",
+        "price": 190
+      },
+      {
+        "food": "Grated Amul Cheese Pav Bhaji",
+        "price": 240
+      },
+      {
+        "food": "Extra Butter Pav Pair",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Quick Service",
+      "Late Night Open"
+    ],
+    "specialFeatures": [
+      "World-famous for serving Pav Bhaji with an entire golden block of Amul butter melting over sizzling red mashed spiced vegetables on giant cast-iron tawas in Tardeo",
+      "The quintessential Mumbai street sensation"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2353 2414",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-wasabi-taj-mahal",
+    "name": "Wasabi by Morimoto - The Taj Mahal Palace",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "The Taj Mahal Palace, Apollo Bunder, Colaba, Mumbai, Maharashtra 400001",
+    "latitude": 18.9218,
+    "longitude": 72.8331,
+    "cuisine": [
+      "Contemporary Japanese",
+      "Sushi & Sashimi",
+      "Omakase Fine Dining"
+    ],
+    "famousDishes": [
+      "Black Cod Miso",
+      "White Fish Carpaccio",
+      "Toro Tartare with Caviar",
+      "Wasabi Crème Brûlée",
+      "Chef's Omakase"
+    ],
+    "menu": [
+      {
+        "food": "Chef Morimoto's 7-Course Omakase Menu",
+        "price": 8500
+      },
+      {
+        "food": "Signature Black Cod with Sweet Miso",
+        "price": 3400
+      },
+      {
+        "food": "Tuna Sashimi Flight",
+        "price": 2800
+      }
+    ],
+    "averageCostForOne": 7500,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Gateway of India Harbor Views",
+      "Iron Chef Morimoto Kitchen",
+      "Japanese Teppanyaki Counter",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Created in collaboration with legendary Iron Chef Masaharu Morimoto inside the iconic Taj Mahal Palace overlooking Mumbai Harbour, consistently voted among Asia's 50 Best Restaurants",
+      "Ultra-luxury Japanese dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6665 3366",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-mahal-palace-mumbai/restaurants/wasabi-by-morimoto/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-cafe-madras-matunga",
+    "name": "Cafe Madras (Since 1940)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Kamakhya Building, 391/B, Bhaudaji Road, Kings Circle, Matunga, Mumbai, Maharashtra 400019",
+    "latitude": 19.0278,
+    "longitude": 72.8561,
+    "cuisine": [
+      "South Indian",
+      "Udupi",
+      "Pure Vegetarian Breakfast"
+    ],
+    "famousDishes": [
+      "Butter Idli Podi (Podi Tossed Steamed Idlis)",
+      "Rasam Vada",
+      "Mysore Masala Dosa",
+      "Upma Podi",
+      "Madras Filter Kaapi"
+    ],
+    "menu": [
+      {
+        "food": "Signature Butter Podi Idlis",
+        "price": 95
+      },
+      {
+        "food": "Crispy Mysore Masala Dosa",
+        "price": 110
+      },
+      {
+        "food": "Authentic Madras Filter Coffee (Tumbler)",
+        "price": 45
+      },
+      {
+        "food": "Crispy Rasam Vada (2 pcs)",
+        "price": 85
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Fast-Moving Morning Queues",
+      "Traditional Service"
+    ],
+    "specialFeatures": [
+      "Matunga's crown jewel since 1940, famous across Mumbai for butter-drenched gunpowder (podi) idlis, fiery peppery rasam vadas, and frothy brass tumbler filter coffee",
+      "Beloved Sunday morning ritual"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2401 4419",
+    "website": "http://cafemadras.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-gajalee-vile-parle",
+    "name": "Gajalee Coastal Seafood",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Kadamgiri Complex, Hanuman Road, Vile Parle East, Mumbai, Maharashtra 400057",
+    "latitude": 19.0989,
+    "longitude": 72.8512,
+    "cuisine": [
+      "Malvani",
+      "Konkani Seafood",
+      "Maharashtrian Coastal"
+    ],
+    "famousDishes": [
+      "Tandoori Jumbo Crab in Butter",
+      "Bombil Fry (Crispy Bombay Duck)",
+      "Surmai Fish Thali",
+      "Clams Sukka (Tisrya Masala)",
+      "Solkadhi"
+    ],
+    "menu": [
+      {
+        "food": "Tandoori Crab in Rich Garlic Butter",
+        "price": 1650
+      },
+      {
+        "food": "Crispy Semolina Fried Bombil (Bombay Duck)",
+        "price": 380
+      },
+      {
+        "food": "Surmai Tawa Fry Fish Thali",
+        "price": 620
+      },
+      {
+        "food": "Refreshing Pink Solkadhi",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 1100,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "Valet Parking",
+      "Fresh Catch Display"
+    ],
+    "specialFeatures": [
+      "Mumbai's most revered Malvani seafood destination, renowned for melt-in-mouth golden semolina-fried Bombil, fiery clam curries, and giant tandoori mud crabs",
+      "A favorite of Bollywood legends"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2611 4093",
+    "website": "http://gajalee.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-bombay-canteen",
+    "name": "The Bombay Canteen",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Unit 1, Process House, SB Road, Kamala Mills, Lower Parel, Mumbai, Maharashtra 400013",
+    "latitude": 18.9958,
+    "longitude": 72.8291,
+    "cuisine": [
+      "Modern Indian",
+      "Regional Indian Reimagined",
+      "Craft Cocktails"
+    ],
+    "famousDishes": [
+      "Eggs Kejriwal on Toast",
+      "Chettinad Pulled Pork Tacos",
+      "Cintra Cocktail",
+      "Coffee Rasgulla Sundae",
+      "Charred Sweet Corn Bhel"
+    ],
+    "menu": [
+      {
+        "food": "Famous Bombay Canteen Eggs Kejriwal",
+        "price": 420
+      },
+      {
+        "food": "Chettinad Pulled Pork on Soft Methi Thepla",
+        "price": 540
+      },
+      {
+        "food": "Coffee Rasgulla Ice Cream Sundae",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 1200,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Art Deco Colonial Bungalow Decor",
+      "Award-Winning Cocktail Bar",
+      "Valet Parking",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Groundbreaking modern restaurant by the late Chef Floyd Cardoz celebrating India's diverse regional culinary heritage with playful, brilliant contemporary twists and indigenous seasonal produce",
+      "Ranked among Asia's best"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4966 6666",
+    "website": "https://thebombaycanteen.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-elco-pani-puri",
+    "name": "Elco Pani Puri Centre (Since 1975)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "2/A, Elco Arcade, 46 Hill Road, Bandra West, Mumbai, Maharashtra 400050",
+    "latitude": 19.0578,
+    "longitude": 72.8334,
+    "cuisine": [
+      "Mumbai Street Chaat",
+      "Sindhi Snacks",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Mineral Water Pani Puri with Ragda & Cold Mint Water",
+      "Dahi Batata Puri (SPDP)",
+      "Ragda Pattice",
+      "Sindhi Dal Pakwan",
+      "Falooda"
+    ],
+    "menu": [
+      {
+        "food": "Signature Purified Water Pani Puri Plate",
+        "price": 100
+      },
+      {
+        "food": "Dahi Batata Puri (6 pcs)",
+        "price": 130
+      },
+      {
+        "food": "Ragda Pattice (2 pcs)",
+        "price": 140
+      },
+      {
+        "food": "Royal Kulfi Falooda",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioned Multi-Floor Dining",
+      "Pure Vegetarian",
+      "100% Mineral Water Verified",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Bandra's iconic chaat palace on Hill Road that pioneered ultra-hygienic mineral water Pani Puris, attracting international food tourists and Bollywood celebrities for over five decades",
+      "Crisp, cold, and refreshing"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2645 7677",
+    "website": "http://elcopanipuri.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-bachelorrs-marine-drive",
+    "name": "Bachelorr's (Since 1930)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "45, Chowpatty Sea Face, Netaji Subhash Chandra Bose Road, Marine Drive, Mumbai, Maharashtra 400007",
+    "latitude": 18.9545,
+    "longitude": 72.8145,
+    "cuisine": [
+      "Desserts",
+      "Ice Creams",
+      "Fresh Juices & Shakes"
+    ],
+    "famousDishes": [
+      "Fresh Mahabaleshwar Strawberry with Clotted Cream",
+      "Green Chilli Ice Cream",
+      "Chocolate Cream",
+      "Spicy Grilled Sandwiches"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Fresh Strawberry with Whipped Cream",
+        "price": 280
+      },
+      {
+        "food": "Unique Spicy Green Chilli Ice Cream Scoop",
+        "price": 120
+      },
+      {
+        "food": "Roasted Garlic Cheese Grill Sandwich",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Midnight Car Service on Marine Drive",
+      "Chowpatty Beach Promenade Location",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Historic 1930s seaside dessert counter opposite Girgaon Chowpatty beach famous for serving rich clotted cream brimming with fresh red strawberries and avant-garde green chilli ice creams right to parked cars along Queen's Necklace",
+      "Mumbai night culture at its best"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2368 1408",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-gaylord-churchgate",
+    "name": "Gaylord (Since 1956)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Mayfair Building, Veer Nariman Road, Churchgate, Mumbai, Maharashtra 400020",
+    "latitude": 18.9321,
+    "longitude": 72.8256,
+    "cuisine": [
+      "Continental",
+      "Heritage Bakery",
+      "Mughlai",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Waldorf Salad",
+      "Chicken Stroganoff",
+      "Lobster Thermidor",
+      "Butter Chicken",
+      "Open Bakery Croissants & Eclairs"
+    ],
+    "menu": [
+      {
+        "food": "Gaylord Special Chicken Stroganoff",
+        "price": 620
+      },
+      {
+        "food": "Classic Lobster Thermidor",
+        "price": 1450
+      },
+      {
+        "food": "Vintage Butter Chicken with Garlic Naan",
+        "price": 540
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Outdoor Parisian Style Verandah",
+      "Full Bar",
+      "Heritage Open Bakery",
+      "Air Conditioning",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Established in 1956 near Churchgate, iconic for its Parisian-style outdoor open-air garden cafe, India's first standalone open-view bakery, and timeless Continental dinners",
+      "Old Bombay elegance personified"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2283 0533",
+    "website": "http://gaylordmumbai.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mum-mahesh-lunch-home",
+    "name": "Mahesh Lunch Home (Since 1977)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "8-B, Cawasji Patel Street, Near Horniman Circle, Fort, Mumbai, Maharashtra 400001",
+    "latitude": 18.9318,
+    "longitude": 72.8345,
+    "cuisine": [
+      "Mangalorean Seafood",
+      "Coastal Karnataka",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Mangalorean Crab Gassi with Appam",
+      "Surmai Fry",
+      "Prawns Koliwada",
+      "Fish Curry Rice",
+      "Solkadhi"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Mangalorean Crab Gassi (Coconut Curry)",
+        "price": 1450
+      },
+      {
+        "food": "Surmai Tawa Rava Fry",
+        "price": 680
+      },
+      {
+        "food": "Appam (2 pcs)",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 950,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "Valet Parking",
+      "Fort Financial District Location"
+    ],
+    "specialFeatures": [
+      "Pioneered authentic Mangalorean coastal cooking in Mumbai since 1977, famous for slow-simmered coconut gassi gravies, crisp rava-coated fried fish, and steaming lacy appams",
+      "Financial district power lunch classic"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2287 0938",
+    "website": "http://maheshlunchhome.com",
+    "available": true
+  }
+]

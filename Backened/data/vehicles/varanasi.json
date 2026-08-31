@@ -1,0 +1,72 @@
+[
+    {
+        "vehicleId": "VARANASI-AUTO-001",
+        "vehicleType": "Auto Rickshaw",
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "baseFare": 25,
+        "farePerKm": 13,
+        "averageSpeed": 25,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Auto_rickshaw_in_India.jpg/960px-Auto_rickshaw_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "VARANASI-ERICKSHAW-002",
+        "vehicleType": "E-Rickshaw",
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "baseFare": 15,
+        "farePerKm": 10,
+        "averageSpeed": 20,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/e/eb/Share_of_E-Rickshaw_Production_in_India_till_FY_2018.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "VARANASI-BOAT-003",
+        "vehicleType": "Boat",
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "baseFare": 100,
+        "farePerKm": 0,
+        "averageSpeed": 8,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mangrove_Arch_Boat_Ashtamudi_Kollam_Kerala_Mar22_A7C_01490.jpg/960px-Mangrove_Arch_Boat_Ashtamudi_Kollam_Kerala_Mar22_A7C_01490.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "VARANASI-TAXI-004",
+        "vehicleType": "Taxi",
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "baseFare": 60,
+        "farePerKm": 18,
+        "averageSpeed": 32,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "VARANASI-TOURISTBUS-005",
+        "vehicleType": "Tourist Bus",
+        "city": "Varanasi",
+        "state": "Uttar Pradesh",
+        "baseFare": 500,
+        "farePerKm": 18,
+        "averageSpeed": 30,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

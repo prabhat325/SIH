@@ -1,0 +1,252 @@
+[
+  {
+    "hotelId": "psk-the-westin-pushkar",
+    "name": "The Westin Pushkar Resort & Spa",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Khasra No. 1242, 1243, 1196/1726, Village Surajkund, Pushkar, Rajasthan 305022",
+    "latitude": 26.4789,
+    "longitude": 74.5245,
+    "pricePerNight": 14500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Private Pool Villas",
+      "Heavenly Spa",
+      "Seasonal Tastes Restaurant",
+      "Panorama Water Lounge",
+      "Helipad"
+    ],
+    "specialFeatures": [
+      "Ultra-luxury private pool villas surrounded by Aravalli mountains",
+      "Heavenly Spa wellness therapies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 277 4400",
+    "website": "https://www.marriott.com/en-us/hotels/jdhwi-the-westin-pushkar-resort-and-spa/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.898Z",
+    "updatedAt": "2026-08-22T21:20:26.898Z"
+  },
+  {
+    "hotelId": "psk-ananta-spa-resorts",
+    "name": "Ananta Spa & Resorts Pushkar",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Village Leela Sevri, 4 Bahar, Ajmer-Pushkar Road, Pushkar, Rajasthan 305022",
+    "latitude": 26.4912,
+    "longitude": 74.5714,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Sprawling Pool",
+      "Mudita Spa",
+      "Oasis Multi-cuisine Restaurant",
+      "Fitness Centre",
+      "Kids Activity Zone"
+    ],
+    "specialFeatures": [
+      "Bali-inspired cottages against the scenic Aravalli mountain backdrop",
+      "Expansive open lawns and sunken pool bar"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 305 4000",
+    "website": "https://www.anantahotels.com/ananta-spa-resort-pushkar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.898Z",
+    "updatedAt": "2026-08-22T21:20:26.898Z"
+  },
+  {
+    "hotelId": "psk-pushkar-palace",
+    "name": "Hotel Pushkar Palace",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Near Pushkar Lake, Chhoti Basti, Pushkar, Rajasthan 305022",
+    "latitude": 26.4885,
+    "longitude": 74.5512,
+    "pricePerNight": 5500,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Lake View Prince's Restaurant",
+      "Swimming Pool",
+      "Heritage Suites",
+      "Direct Lake Access"
+    ],
+    "specialFeatures": [
+      "Historic 400-year-old palace situated directly on the sacred waters of Pushkar Lake",
+      "Spectacular views of evening Maha Aarti on Ghats"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 277 2001",
+    "website": "https://hotelpushkarpalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.898Z",
+    "updatedAt": "2026-08-22T21:20:26.898Z"
+  },
+  {
+    "hotelId": "psk-brahma-horizon",
+    "name": "Brahma Horizon Pushkar",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Panchkund Road, Pushkar, Rajasthan 305022",
+    "latitude": 26.4821,
+    "longitude": 74.5619,
+    "pricePerNight": 4200,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Lotus Pure Veg Restaurant",
+      "Jacuzzi Suites",
+      "Lawn Barbecue"
+    ],
+    "specialFeatures": [
+      "Boutique luxury resort near holy Panchkund",
+      "Jacuzzi balcony suites facing the Aravallis"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 277 3444",
+    "website": "https://brahmahorizon.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.899Z",
+    "updatedAt": "2026-08-22T21:20:26.899Z"
+  },
+  {
+    "hotelId": "psk-hotel-master-paradise",
+    "name": "Hotel Master Paradise",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Master Colony, Panchkund Road, Pushkar, Rajasthan 305022",
+    "latitude": 26.4845,
+    "longitude": 74.5582,
+    "pricePerNight": 2600,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool with Jacuzzi",
+      "Pure Veg Dining",
+      "Ayurvedic Massage",
+      "Garden Courtyard"
+    ],
+    "specialFeatures": [
+      "Peaceful gardens and swimming pool at great budget pricing"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 145 277 2822",
+    "website": "https://masterparadise.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.899Z",
+    "updatedAt": "2026-08-22T21:20:26.899Z"
+  },
+  {
+    "hotelId": "psk-zostel-pushkar",
+    "name": "Zostel Pushkar",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Chawandiya Road, Near Budha Pushkar Lake, Pushkar, Rajasthan 305022",
+    "latitude": 26.5023,
+    "longitude": 74.5461,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Cafe",
+      "Desert Tents & Dorms",
+      "Bonfire Nights",
+      "Games Area"
+    ],
+    "specialFeatures": [
+      "Backpacker resort with large swimming pool and desert vibes",
+      "Famed Pushkar camel fair community host"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/pushkar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.900Z",
+    "updatedAt": "2026-08-22T21:20:26.900Z"
+  },
+  {
+    "hotelId": "psk-the-hosteller-pushkar",
+    "name": "The Hosteller Pushkar",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Panchkund Road, Near Brahma Temple, Pushkar, Rajasthan 305022",
+    "latitude": 26.4862,
+    "longitude": 74.5574,
+    "pricePerNight": 699,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Rooftop Lounge",
+      "Workstation Tables",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Swimming pool inside hostel compound",
+      "Walking distance to Brahma Temple and Pushkar Bazaar"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-pushkar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.900Z",
+    "updatedAt": "2026-08-22T21:20:26.900Z"
+  },
+  {
+    "hotelId": "psk-moustache-pushkar",
+    "name": "Moustache Pushkar",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "address": "Panchkund Road, Pushkar, Rajasthan 305022",
+    "latitude": 26.4851,
+    "longitude": 74.5598,
+    "pricePerNight": 749,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Garden Cafe",
+      "Yoga Lawn",
+      "Private Cottages & Dorms"
+    ],
+    "specialFeatures": [
+      "Boho aesthetic with palm trees and swimming pool",
+      "Daily yoga sessions and sunset hikes to Savitri Temple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 89291 00700",
+    "website": "https://moustacheescapes.com/hostels/moustache-pushkar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.900Z",
+    "updatedAt": "2026-08-22T21:20:26.900Z"
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "restaurantId": "rst-knk-otdc-panthanivas",
+    "name": "OTDC Panthanivas Restaurant",
+    "city": "Konark",
+    "state": "Odisha",
+    "address": "Panthanivas Konark, Near Sun Temple Entrance Gate, Konark, Odisha 752111",
+    "latitude": 19.8878,
+    "longitude": 86.0945,
+    "cuisine": [
+      "Odia Traditional",
+      "Bengali Thali",
+      "Coastal Seafood"
+    ],
+    "famousDishes": [
+      "Special Odia Thali (Dalma, Machha Jhola, Saaga, Khata & Rice)",
+      "Fresh Catch Pomfret Fry",
+      "Prawn Kassa",
+      "Chhena Poda"
+    ],
+    "menu": [
+      {
+        "food": "OTDC Special Odia Fish Thali",
+        "price": 240
+      },
+      {
+        "food": "Vegetarian Thali with Dalma",
+        "price": 180
+      },
+      {
+        "food": "Prawn Masala Fry",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "13th-Century Sun Temple Proximity (500m)",
+      "Air Conditioning",
+      "Spacious Government Complex",
+      "Ample Parking"
+    ],
+    "specialFeatures": [
+      "Odisha Tourism's flagship restaurant located just a short walk from the 13th-century UNESCO World Heritage Sun Temple, offering hygienic homestyle Odia thalis and fresh coastal fish curries",
+      "Convenient and clean"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6758 236 831",
+    "website": "http://panthanivas.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-knk-kamat-restaurant",
+    "name": "Kamat Restaurant Konark",
+    "city": "Konark",
+    "state": "Odisha",
+    "address": "Main Market Road, Near Sun Temple Parking, Konark, Odisha 752111",
+    "latitude": 19.8891,
+    "longitude": 86.0921,
+    "cuisine": [
+      "Pure Vegetarian",
+      "South Indian",
+      "North Indian Thali"
+    ],
+    "famousDishes": [
+      "Crispy Masala Dosa",
+      "Special Vegetarian Lunch Thali",
+      "Poori Sabzi",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Special Masala Dosa",
+        "price": 90
+      },
+      {
+        "food": "Standard Vegetarian Lunch Thali",
+        "price": 160
+      },
+      {
+        "food": "Hot South Indian Filter Coffee",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Pure Vegetarian",
+      "Quick Service",
+      "Tour Bus Friendly"
+    ],
+    "specialFeatures": [
+      "Reliable pure-vegetarian breakfast and lunch stop for pilgrims and tourists visiting the Sun Temple, serving crisp dosas and wholesome vegetarian meals",
+      "High turnover and fast service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-knk-marine-drive-dhaba",
+    "name": "Konark Marine Drive Seafood Dhaba",
+    "city": "Konark",
+    "state": "Odisha",
+    "address": "Puri-Konark Marine Drive, Near Chandrabhaga Beach, Konark, Odisha 752111",
+    "latitude": 19.8712,
+    "longitude": 86.1112,
+    "cuisine": [
+      "Coastal Seafood",
+      "Fresh Catch Tawa Fry",
+      "Dhaba"
+    ],
+    "famousDishes": [
+      "Fresh Crab Curry in Earthen Pot",
+      "Tawa Fried Sea Pomfret",
+      "Prawn Masala with Hot Roti",
+      "Fresh Coconut Water"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Catch Crab Curry with Rice",
+        "price": 380
+      },
+      {
+        "food": "Whole Tawa Pomfret Fry",
+        "price": 360
+      },
+      {
+        "food": "Prawn Curry Platter",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Chandrabhaga Beach Proximity",
+      "Open Air Sea Breeze Seating",
+      "Live Catch Display"
+    ],
+    "specialFeatures": [
+      "Popular seafood pitstop on the scenic Puri-Konark coastal highway near Chandrabhaga Beach, known for freshly caught sea fish and crabs spiced with local coastal masala",
+      "Loved by road trippers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

@@ -1,0 +1,57 @@
+{
+    "events": [
+        {
+            "eventId": "BODHGAYA-EVENT-001",
+            "name": "Buddha Mahotsav",
+            "city": "Bodh Gaya",
+            "state": "Bihar",
+            "description": "An annual cultural festival celebrating the rich heritage of Magadha and Bihar.",
+            "type": "Cultural",
+            "venue": "Mahabodhi Temple Complex",
+            "usualMonth": "January",
+            "usualTime": "Evening",
+            "usualDuration": "3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "BODHGAYA-EVENT-002",
+            "name": "Buddha Purnima",
+            "city": "Bodh Gaya",
+            "state": "Bihar",
+            "description": "The birth anniversary of Lord Buddha with special prayers at Mahabodhi Temple.",
+            "type": "Religious",
+            "venue": "Mahabodhi Temple",
+            "usualMonth": "April/May",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://mahabodhitemple.com/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/2ca9f270-0ad8-57f0-89a4-2cc8869e60d3/d8d3b805-ed99-5f61-8e9c-66113cdaae72.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "BODHGAYA-EVENT-003",
+            "name": "Kalachakra Puja",
+            "city": "Bodh Gaya",
+            "state": "Bihar",
+            "description": "A major Buddhist religious ceremony held periodically.",
+            "type": "Religious",
+            "venue": "Mahabodhi Temple Complex",
+            "usualMonth": "Varies annually",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://mahabodhitemple.com/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

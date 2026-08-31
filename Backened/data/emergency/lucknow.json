@@ -1,0 +1,93 @@
+[
+  {
+    "serviceId": "LUCKNOW-HOSPITAL-001",
+    "name": "King George Medical University",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Chowk, Lucknow, Uttar Pradesh 226003",
+    "latitude": null,
+    "longitude": null,
+    "phone": "+91-9453004209",
+    "website": "https://www.kgmu.org/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "LUCKNOW-HOSPITAL-002",
+    "name": "Dr Ram Manohar Lohia Institute of Medical Sciences",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.drrmlims.ac.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "LUCKNOW-HOSPITAL-003",
+    "name": "Civil Hospital Lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Mahatma Gandhi Marg, Hazratganj, Lucknow, Uttar Pradesh 226001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "LUCKNOW-POLICE-004",
+    "name": "Hazratganj Police Station",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "type": "Police Station",
+    "address": "Mahatma Gandhi Marg, Hazratganj, Lucknow, Uttar Pradesh 226001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://uppolice.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "LUCKNOW-FIRE-005",
+    "name": "Hazratganj Fire Station",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "type": "Fire Station",
+    "address": "Hazratganj, Lucknow, Uttar Pradesh 226001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

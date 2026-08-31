@@ -1,0 +1,251 @@
+[
+  {
+    "hotelId": "ddn-hyatt-regency-dehradun",
+    "name": "Hyatt Regency Dehradun Resort and Spa",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Dehradun-Mussoorie Road, Malsi, Dehradun, Uttarakhand 248009",
+    "latitude": 30.3854,
+    "longitude": 78.0754,
+    "pricePerNight": 13500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Heated Infinity Pool",
+      "Shanti Spa",
+      "Range All-Day Dining",
+      "Beyul Rooftop Bar",
+      "Malt Bar",
+      "Camp Hyatt for Kids"
+    ],
+    "specialFeatures": [
+      "Nestled amidst scenic Malsi forest at the foothills of Mussoorie",
+      "Rooftop heated infinity pool with Himalayan sunset panorama"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 617 1234",
+    "website": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-dehradun-resort-and-spa/delrd",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.953Z",
+    "updatedAt": "2026-08-22T21:20:26.953Z"
+  },
+  {
+    "hotelId": "ddn-lp-vilas",
+    "name": "The LP Vilas Dehradun",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Chakrata Road, Nanda Ki Chowki, Dehradun, Uttarakhand 248007",
+    "latitude": 30.3458,
+    "longitude": 77.9625,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Zaffran Multi-cuisine Restaurant",
+      "Amara Spa",
+      "Largest Convention Lawns",
+      "Bar",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Palatial Rajputana and Mughal architectural grandeur in the Doon Valley",
+      "Expansive royal chandeliers and stone arches"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 277 8888",
+    "website": "https://lpvilas.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.954Z",
+    "updatedAt": "2026-08-22T21:20:26.954Z"
+  },
+  {
+    "hotelId": "ddn-four-points-by-sheraton",
+    "name": "Four Points by Sheraton Dehradun",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "152/4 Rajpur Road, Jakhan, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3645,
+    "longitude": 78.0695,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "The Eatery Restaurant",
+      "Onyx Bar",
+      "Rooftop Terrace",
+      "Fitness Centre",
+      "Business Centre"
+    ],
+    "specialFeatures": [
+      "Prime Rajpur Road upscale dining and shopping district location",
+      "Views of the Mussoorie hills"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 660 3300",
+    "website": "https://www.marriott.com/en-us/hotels/dedfp-four-points-dehradun/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.954Z",
+    "updatedAt": "2026-08-22T21:20:26.954Z"
+  },
+  {
+    "hotelId": "ddn-lemon-tree-dehradun",
+    "name": "Lemon Tree Hotel, Dehradun",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Pacific Mall, Rajpur Road, Jakhan, Dehradun, Uttarakhand 248006",
+    "latitude": 30.3685,
+    "longitude": 78.0718,
+    "pricePerNight": 4900,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Citrus Cafe",
+      "Slounge Bar",
+      "Direct Pacific Mall Access",
+      "Fitness Center"
+    ],
+    "specialFeatures": [
+      "Directly connected to Pacific Mall with multiplex cinema, shopping and cafes"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 273 7777",
+    "website": "https://www.lemontreehotels.com/lemon-tree-hotel/dehradun/hotel-dehradun",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.955Z",
+    "updatedAt": "2026-08-22T21:20:26.955Z"
+  },
+  {
+    "hotelId": "ddn-hotel-madhuban",
+    "name": "Hotel Madhuban Dehradun",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "97 Rajpur Road, Hathibarkala, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3412,
+    "longitude": 78.0585,
+    "pricePerNight": 4100,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Vatika Multi-cuisine Restaurant",
+      "Angithi Open-Air Dining",
+      "Ayurvedic Spa",
+      "6 Acres of Botanical Gardens"
+    ],
+    "specialFeatures": [
+      "Historic hospitality pioneer with 6 acres of botanical gardens and rare Himalayan plants"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 274 9990",
+    "website": "https://hotelmadhuban.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.955Z",
+    "updatedAt": "2026-08-22T21:20:26.955Z"
+  },
+  {
+    "hotelId": "ddn-the-hosteller-dehradun",
+    "name": "The Hosteller Dehradun",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Mussoorie Diversion, Rajpur Road, Dehradun, Uttarakhand 248009",
+    "latitude": 30.3789,
+    "longitude": 78.0741,
+    "pricePerNight": 850,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cafe",
+      "Workation Stations",
+      "Dorm & Private Rooms",
+      "Mountain Views",
+      "24/7 Desk"
+    ],
+    "specialFeatures": [
+      "Located right at Mussoorie diversion with serene tree cover and co-working amenities"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-dehradun/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.956Z",
+    "updatedAt": "2026-08-22T21:20:26.956Z"
+  },
+  {
+    "hotelId": "ddn-gostops-dehradun",
+    "name": "goSTOPS Dehradun",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Near Sahastradhara Road, Kulhan, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3582,
+    "longitude": 78.0912,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Lounge",
+      "Home Theatre",
+      "Indoor Games",
+      "Air Conditioned Dorms"
+    ],
+    "specialFeatures": [
+      "Surrounded by lush greenery near Sahastradhara water springs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-dehradun/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.956Z",
+    "updatedAt": "2026-08-22T21:20:26.956Z"
+  },
+  {
+    "hotelId": "ddn-treebo-trend-elysee",
+    "name": "Treebo Trend Elysee",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "address": "Patel Nagar, Near Saharanpur Chowk, Dehradun, Uttarakhand 248001",
+    "latitude": 30.3125,
+    "longitude": 78.0289,
+    "pricePerNight": 1800,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Complimentary Breakfast",
+      "AC Rooms",
+      "Elevator",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Reliable Treebo budget comfort near Dehradun Railway Station"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 93228 00100",
+    "website": "https://www.treebo.com/hotels-in-dehradun/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.957Z",
+    "updatedAt": "2026-08-22T21:20:26.957Z"
+  }
+]

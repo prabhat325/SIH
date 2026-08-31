@@ -1,0 +1,533 @@
+[
+  {
+    "restaurantId": "rst-jmu-pehalwans-gole-market",
+    "name": "Pahalwan's (Since 1934)",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Gole Market, Gandhi Nagar, Jammu, Jammu and Kashmir 180004",
+    "latitude": 32.7091,
+    "longitude": 74.8698,
+    "cuisine": [
+      "Dogra Specialties",
+      "Mithai",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Jammu Kaladi Kulcha (Indigenous Himalayan Cheese)",
+      "Sund Panjeeri",
+      "Chocolate Barfi",
+      "Rajma Chawal with Desi Ghee & Anardana Chutney",
+      "Rasmalai"
+    ],
+    "menu": [
+      {
+        "food": "Signature Grilled Kaladi Kulcha",
+        "price": 110
+      },
+      {
+        "food": "Special Jammu Rajma Chawal Thali with Anardana Chutney",
+        "price": 160
+      },
+      {
+        "food": "Traditional Sund Panjeeri (500g)",
+        "price": 340
+      },
+      {
+        "food": "Fresh Rasmalai (2 pcs)",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Confectionery Boutique",
+      "Gift Packaging"
+    ],
+    "specialFeatures": [
+      "The ultimate culinary landmark of Jammu founded in 1934 by wrestler-confectioner Pahalwan Anant Ram ji, celebrated for indigenous pan-fried matured cheese 'Kaladi Kulcha' and traditional Dogra winter Sund",
+      "A must-visit for every traveler"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 243 0088",
+    "website": "http://pahalwans.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-paras-ram-di-hatti",
+    "name": "Paras Ram Di Hatti",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Old City, Pacca Danga, Near Chaugan Fattu, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7314,
+    "longitude": 74.8645,
+    "cuisine": [
+      "Dogra Cuisine",
+      "Pure Vegetarian",
+      "Traditional Lunch"
+    ],
+    "famousDishes": [
+      "Bhaderwah Rajma Chawal in Desi Ghee",
+      "Ambal (Dogra Sweet & Sour Pumpkin)",
+      "Anardana Chutney",
+      "Kadhi Chawal"
+    ],
+    "menu": [
+      {
+        "food": "Special Bhaderwah Desi Ghee Rajma Chawal",
+        "price": 130
+      },
+      {
+        "food": "Traditional Dogra Ambal",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 130,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Heritage Old City Eatery",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Centuries-old Pacca Danga establishment widely acknowledged as the finest purveyor of authentic Bhaderwah small red Rajma beans slow-cooked with pure ghee and served over basmati rice with wild sour pomegranate chutney",
+      "True Dogra heritage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94191 23456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-falak-kc-residency",
+    "name": "Falak Revolving Restaurant - KC Residency",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Hotel KC Residency, Residency Road, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7268,
+    "longitude": 74.8612,
+    "cuisine": [
+      "North Indian",
+      "Kashmiri Wazwan",
+      "Mughlai",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Kashmiri Rogan Josh",
+      "Murgh Malai Tikka",
+      "Dal Makhani",
+      "Paneer Lababdar",
+      "Buffet Spread"
+    ],
+    "menu": [
+      {
+        "food": "Royal Mutton Rogan Josh",
+        "price": 540
+      },
+      {
+        "food": "Dal Makhani KC Special",
+        "price": 340
+      },
+      {
+        "food": "Grand Buffet Dinner",
+        "price": 1100
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Premium",
+    "rating": 4.5,
+    "amenities": [
+      "360-Degree Revolving Dining Room",
+      "Tawi River & Trikuta Hills View",
+      "Full Bar",
+      "Valet Parking",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Jammu's premier revolving rooftop restaurant completing a full 360-degree rotation every 90 minutes, offering majestic vistas of the holy Trikuta Hills (Vaishno Devi) and the meandering Tawi river",
+      "Landmark fine dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 252 5555",
+    "website": "http://kcresidency.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-rawal-pindi-sweets",
+    "name": "Rawal Pindi Sweet Shop",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Raghunath Bazaar, Old Heritage Market, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7289,
+    "longitude": 74.8628,
+    "cuisine": [
+      "Mithai",
+      "Breakfast",
+      "Street Food"
+    ],
+    "famousDishes": [
+      "Poori Chana with Halwa",
+      "Desi Ghee Jalebi",
+      "Patisa",
+      "Dahi Bhalla"
+    ],
+    "menu": [
+      {
+        "food": "Special Poori Chole Breakfast (2 pcs)",
+        "price": 90
+      },
+      {
+        "food": "Crispy Desi Ghee Jalebi (100g)",
+        "price": 50
+      },
+      {
+        "food": "Flaky Desi Ghee Patisa (500g)",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian",
+      "Heritage Temple Bazaar",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic breakfast confectioner located right near the famous 19th-century Raghunath Temple, celebrated for flaky melt-in-mouth Patisa and piping hot morning pooris",
+      "Devotee favorite since Partition"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 254 3210",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-khana-khazana",
+    "name": "Khana Khazana",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Near General Bus Stand, BC Road, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7245,
+    "longitude": 74.8589,
+    "cuisine": [
+      "North Indian",
+      "Pure Vegetarian Thali",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Special Executive Thali",
+      "Paneer Butter Masala",
+      "Dal Fry",
+      "Butter Naan",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Special Deluxe Veg Thali",
+        "price": 220
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 210
+      },
+      {
+        "food": "Dal Tadka Butter",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Fast Service",
+      "Transit Friendly"
+    ],
+    "specialFeatures": [
+      "Clean, reliable pure-vegetarian family diner offering hearty portions and quick service for pilgrims traveling onwards to Katra Vaishno Devi",
+      "Pocket-friendly wholesome meals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 257 8900",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-sagar-ratna",
+    "name": "Sagar Ratna Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Hari Market, Near Raghunath Temple, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7275,
+    "longitude": 74.8634,
+    "cuisine": [
+      "South Indian",
+      "Pure Vegetarian",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Mysore Masala Dosa",
+      "Rava Idli",
+      "South Indian Thali",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Special Butter Masala Dosa",
+        "price": 180
+      },
+      {
+        "food": "South Indian Executive Meals",
+        "price": 260
+      },
+      {
+        "food": "Madras Filter Kaapi",
+        "price": 65
+      }
+    ],
+    "averageCostForOne": 260,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Family Friendly",
+      "Temple Proximity"
+    ],
+    "specialFeatures": [
+      "Top-quality South Indian fermented delicacies and filter coffee served in the heart of Jammu's historic temple market",
+      "Dependable quality and hygiene"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 256 0420",
+    "website": "https://sagarratna.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-moti-mahal-delux",
+    "name": "Moti Mahal Delux Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "North Block, Bahu Plaza, Rail Head Complex, Jammu, Jammu and Kashmir 180012",
+    "latitude": 32.7056,
+    "longitude": 74.8734,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Butter Chicken",
+      "Dal Makhani",
+      "Tandoori Chicken",
+      "Mutton Rogan Josh",
+      "Garlic Naan"
+    ],
+    "menu": [
+      {
+        "food": "Original Recipe Butter Chicken",
+        "price": 440
+      },
+      {
+        "food": "Overnight Dal Makhani",
+        "price": 290
+      },
+      {
+        "food": "Tandoori Chicken (Half)",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "Bahu Plaza Corporate Complex",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Popular multi-cuisine dining destination in the modern Bahu Plaza commercial district, famous for clay-oven tandoori chicken and rich butter gravies",
+      "Vibrant evening crowd"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 247 7788",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-imperial-grill",
+    "name": "The Imperial Grill Restaurant & Bar",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "TRC Complex, Residency Road, Near Jammu Club, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7231,
+    "longitude": 74.8621,
+    "cuisine": [
+      "North Indian",
+      "Continental",
+      "Tandoori Grills",
+      "Cocktails"
+    ],
+    "famousDishes": [
+      "Grilled Chicken Steak",
+      "Mutton Rara",
+      "Paneer Tikka Platter",
+      "Cocktails",
+      "Sizzlers"
+    ],
+    "menu": [
+      {
+        "food": "Mutton Rara Punjabi",
+        "price": 480
+      },
+      {
+        "food": "Grilled Herb Chicken with Mushroom Sauce",
+        "price": 460
+      },
+      {
+        "food": "Paneer Tikka Shaslik",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "Live Music Evenings",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Contemporary dining salon and bar in the diplomatic cantonment zone, offering fine steaks, kebabs, and a relaxed cocktail lounge ambiance",
+      "Popular for private celebrations"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 254 4433",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-billu-di-hatti",
+    "name": "Billu Di Hatti",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Near City Chowk, Old Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7298,
+    "longitude": 74.8615,
+    "cuisine": [
+      "Street Food",
+      "Breakfast",
+      "Snacks"
+    ],
+    "famousDishes": [
+      "Spicy Chole with Khasta Kachori",
+      "Golgappe with 3 Waters",
+      "Samosa Chaat"
+    ],
+    "menu": [
+      {
+        "food": "Khasta Kachori Chole Plate",
+        "price": 50
+      },
+      {
+        "food": "Golgappe (6 pcs)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 70,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "Street Counter",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Famous old-city snack counter beloved by generations of students for crispy flaky kachoris smothered in spicy chole and mint chutney",
+      "High local fame"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jmu-royal-dogra-rasoi",
+    "name": "Royal Dogra Rasoi",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Channi Himmat, National Highway Bypass, Jammu, Jammu and Kashmir 180015",
+    "latitude": 32.6889,
+    "longitude": 74.8912,
+    "cuisine": [
+      "Traditional Dogra",
+      "Jammu Heritage Cuisine"
+    ],
+    "famousDishes": [
+      "Khatta Meat (Sour Mutton with Anardana)",
+      "Dogra Ambal",
+      "Madra",
+      "Bhaderwah Rajma",
+      "Babru (Stuffed Bread)"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Dogra Khatta Meat",
+        "price": 460
+      },
+      {
+        "food": "Dogra Royal Thali",
+        "price": 340
+      },
+      {
+        "food": "Traditional Babru with Sabzi",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Dogra Cultural Decor",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Dedicated to reviving and showcasing authentic traditional Dogra royal recipes, including 'Khatta Meat' slow-cooked with dry pomegranate seeds and smoke-tempered mustard oil",
+      "Unique regional culinary treasure"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 246 8800",
+    "website": null,
+    "available": true
+  }
+]

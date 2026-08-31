@@ -1,0 +1,90 @@
+[
+  {
+    "serviceId": "AYODHYA-HOSPITAL-001",
+    "name": "Ayodhya District Hospital",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Darshan Nagar, Ayodhya, Uttar Pradesh 224135",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AYODHYA-HOSPITAL-002",
+    "name": "Shri Ram Hospital",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Ayodhya Dham, Ayodhya, Uttar Pradesh 224001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AYODHYA-HOSPITAL-003",
+    "name": "Government Medical College Ayodhya",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Darshan Nagar, Ayodhya, Uttar Pradesh 224135",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://gmca.ac.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AYODHYA-POLICE-004",
+    "name": "Ram Janmabhoomi Police Station",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "type": "Police Station",
+    "address": "Ram Janmabhoomi, Ayodhya, Uttar Pradesh 224001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://ayodhyapolice.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AYODHYA-FIRE-005",
+    "name": "Ayodhya Fire Station",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "type": "Fire Station",
+    "address": "Civil Lines, Ayodhya, Uttar Pradesh 224001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "hotelId": "hmp-evolve-back-kamalapura",
+    "name": "Evolve Back, Kamalapura Palace, Hampi",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Kamalapura - P.K. Halli Road, Kamalapura, Hospet, Hampi, Karnataka 583221",
+    "latitude": 15.3021,
+    "longitude": 76.4785,
+    "pricePerNight": 34000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Infinity Pool & Olympic Sized Pool",
+      "Vaidyasala Ayurvedic Spa",
+      "Tuluva Fine Dining",
+      "Bahmani Nawabi Restaurant",
+      "Palace Suites with Private Jacuzzi",
+      "Historian Guided Ruins Trails"
+    ],
+    "specialFeatures": [
+      "Fortified stone palace inspired by 14th-century Vijayanagara imperial architecture",
+      "Private palace suites with personal Jacuzzis and curated historical expeditions"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4118 5900",
+    "website": "https://www.evolveback.com/hampi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.066Z",
+    "updatedAt": "2026-08-22T21:20:27.066Z"
+  },
+  {
+    "hotelId": "hmp-heritage-resort-hampi",
+    "name": "Heritage Resort Hampi",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "48/C Hosamalapanagudi, Hampi Road, Hospet Taluk, Hampi, Karnataka 583239",
+    "latitude": 15.3085,
+    "longitude": 76.4412,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool in Mango Groves",
+      "Ayurvedic Spa & Sauna",
+      "Kishkinda Organic Restaurant",
+      "Coffee Plantations Walk",
+      "Bird Watching"
+    ],
+    "specialFeatures": [
+      "Eco-luxury resort set in 9 acres of mango and coconut plantations",
+      "Private villa plunge pools and birdwatching"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8394 245 450",
+    "website": "https://heritageresorthampi.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.066Z",
+    "updatedAt": "2026-08-22T21:20:27.066Z"
+  },
+  {
+    "hotelId": "hmp-hyatt-place-hampi",
+    "name": "Hyatt Place Hampi",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Vidyanagar Township, Toranagallu, Bellary-Hospet Highway, Hampi Region, Karnataka 583123",
+    "latitude": 15.1954,
+    "longitude": 76.6625,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Gallery Kitchen & Market",
+      "The Bar",
+      "24/7 Fitness Center",
+      "Kaladham Art Village Access"
+    ],
+    "specialFeatures": [
+      "Adjacent to Kaladham cultural art museum showcasing interactive 3D virtual tours of Vijayanagara ruins"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8395 661 234",
+    "website": "https://www.hyatt.com/en-US/hotel/india/hyatt-place-hampi/vjypy",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.066Z",
+    "updatedAt": "2026-08-22T21:20:27.066Z"
+  },
+  {
+    "hotelId": "hmp-clarks-inn-hampi",
+    "name": "Clarks INN Hampi",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "State Highway 49, Near Kamalapur Museum, Kamalapura, Hampi, Karnataka 583221",
+    "latitude": 15.3185,
+    "longitude": 76.4712,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "The Bridge Multi-cuisine Restaurant",
+      "Spa & Wellness",
+      "Banqueting Hall",
+      "Direct Archaeological Museum Access"
+    ],
+    "specialFeatures": [
+      "Located right next to the Archaeological Museum of Kamalapur and Queens Bath monument entrance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8394 241 777",
+    "website": "https://www.clarksinn.in/clarks-inn-hampi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.067Z",
+    "updatedAt": "2026-08-22T21:20:27.067Z"
+  },
+  {
+    "hotelId": "hmp-kishkinda-heritage-resort",
+    "name": "Kishkinda Heritage Resort",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Near Stone Bridge, Anegundi, Sanapur, Hampi, Karnataka 583234",
+    "latitude": 15.3485,
+    "longitude": 76.4854,
+    "pricePerNight": 3200,
+    "category": "Mid-Range",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Waterpark & Large Pool",
+      "Riverside Dining",
+      "Cottages amidst Boulders",
+      "Coracle Boat Booking"
+    ],
+    "specialFeatures": [
+      "Situated in mythological Kishkinda (Anegundi) across Tungabhadra River with waterpark and boulder views"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8533 287 031",
+    "website": "https://kishkinda.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.067Z",
+    "updatedAt": "2026-08-22T21:20:27.067Z"
+  },
+  {
+    "hotelId": "hmp-zostel-hampi",
+    "name": "Zostel Hampi (Gangavathi / Sanapur)",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Sanapur Lake Road, Anegundi, Gangavathi, Hampi, Karnataka 583234",
+    "latitude": 15.3562,
+    "longitude": 76.4685,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Open Air Paddy Field Cafe",
+      "Common Chillout Lounge",
+      "Bonfire Nights",
+      "Dorms & Private Huts",
+      "Bouldering Mats Hire"
+    ],
+    "specialFeatures": [
+      "The Hippie Island favorite near turquoise Sanapur Lake with boulder climbing, cliff jumping and sunset music circles"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/hampi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.068Z",
+    "updatedAt": "2026-08-22T21:20:27.068Z"
+  },
+  {
+    "hotelId": "hmp-padma-guest-house",
+    "name": "Padma Guest House Hampi Bazaar",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Janata Plot, Near Virupaksha Temple, Hampi Bazaar, Hampi, Karnataka 583239",
+    "latitude": 15.3354,
+    "longitude": 76.4602,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Virupaksha Temple View Restaurant",
+      "Bicycle Hire",
+      "Clean Rooms",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Rooftop dining directly facing the majestic towering Gopuram of 7th-century Virupaksha Temple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8394 241 331",
+    "website": "https://padmaguesthousehampi.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.068Z",
+    "updatedAt": "2026-08-22T21:20:27.068Z"
+  },
+  {
+    "hotelId": "hmp-rocky-guesthouse",
+    "name": "Rocky Guesthouse Hampi",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Janata Plot, Hampi Bazaar, Near Tungabhadra River, Hampi, Karnataka 583239",
+    "latitude": 15.3341,
+    "longitude": 76.4589,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Courtyard",
+      "Home Cooked South Indian Meals",
+      "Hot Water",
+      "Moped Hire Assistance"
+    ],
+    "specialFeatures": [
+      "Generations-old warm family hospitality in heart of historic Hampi Bazaar village"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8394 241 456",
+    "website": "https://rockyguesthousehampi.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.068Z",
+    "updatedAt": "2026-08-22T21:20:27.068Z"
+  },
+  {
+    "hotelId": "hmp-mowgli-guesthouse",
+    "name": "Mowgli Guest House Sanapur",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Sanapur Village, Near Monkey Temple Road, Anegundi, Hampi, Karnataka 583234",
+    "latitude": 15.3512,
+    "longitude": 76.4712,
+    "pricePerNight": 1100,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Paddy Field View Restaurant",
+      "Hammocks",
+      "Coracle Ride Booking",
+      "Scooter Rental"
+    ],
+    "specialFeatures": [
+      "Cozy bamboo huts with hammocks overlooking tranquil green rice paddies and granite boulders"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8533 287 111",
+    "website": "https://mowgliguesthousehampi.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.069Z",
+    "updatedAt": "2026-08-22T21:20:27.069Z"
+  }
+]

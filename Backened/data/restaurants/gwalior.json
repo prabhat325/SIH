@@ -1,0 +1,429 @@
+[
+  {
+    "restaurantId": "rst-gwl-ss-kachoriwala",
+    "name": "S.S. Kachoriwala & Bahadura Sweets",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Naya Bazaar, Lashkar, Gwalior, Madhya Pradesh 474009",
+    "latitude": 26.2089,
+    "longitude": 78.1645,
+    "cuisine": [
+      "Heritage Street Food",
+      "Mithai",
+      "Pure Vegetarian Breakfast"
+    ],
+    "famousDishes": [
+      "Urad Dal Bedmi Puri with Hing Aloo Sabzi",
+      "Khasta Kachori",
+      "Desi Ghee Jalebi",
+      "Mawa Gulab Jamun",
+      "Kaju Barfi"
+    ],
+    "menu": [
+      {
+        "food": "Special Bedmi Puri Sabzi (4 Puris with Hing Aloo & Pumpkin)",
+        "price": 80
+      },
+      {
+        "food": "Khasta Kachori with Spicy Chana",
+        "price": 40
+      },
+      {
+        "food": "Desi Ghee Hot Jalebi (100g)",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic 100-Year-Old Stall",
+      "Pure Vegetarian",
+      "Morning Breakfast Rush",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Over a century of legendary street breakfast heritage in Naya Bazaar, celebrated across Madhya Pradesh for crisp hing-scented Bedmi puris and syrupy giant Gulab Jamuns",
+      "Gwalior's greatest culinary treasure"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94251 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gwl-silver-saloon-taj",
+    "name": "The Silver Saloon - Taj Usha Kiran Palace",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Taj Usha Kiran Palace, Jayendraganj, Lashkar, Gwalior, Madhya Pradesh 474009",
+    "latitude": 26.2045,
+    "longitude": 78.1689,
+    "cuisine": [
+      "Maratha Royal",
+      "Gwalior Scindia Heritage",
+      "Mughlai",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Scindia Royal Thali",
+      "Maratha Pangada (Game Meat Curry)",
+      "Shahi Tukda",
+      "Bhopali Gosht",
+      "Paneer Lababdar"
+    ],
+    "menu": [
+      {
+        "food": "Royal Maratha & Scindia Heritage Tasting Menu",
+        "price": 3600
+      },
+      {
+        "food": "Maratha Pangada Meat Curry",
+        "price": 1100
+      },
+      {
+        "food": "Dal Usha Kiran (Simmered Overnight)",
+        "price": 550
+      }
+    ],
+    "averageCostForOne": 3000,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "120-Year-Old Scindia Palace Courtyard",
+      "Live Classical Gwalior Gharana Music",
+      "Full Bar",
+      "Valet Parking",
+      "Luxury Fine Dining"
+    ],
+    "specialFeatures": [
+      "Dine in the palatial silver salon of the 120-year-old palace built by the Scindia Maharajas to welcome the Prince of Wales, reviving forgotten Maratha and Nepalese royal recipes with live Gwalior Gharana classical vocalists",
+      "Imperial luxury"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 244 4000",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-usha-kiran-palace-gwalior/restaurants/the-silver-saloon/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gwl-kwality-restaurant",
+    "name": "Kwality Restaurant (Since 1968)",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Phalke Bazaar, Near Green Garden, Lashkar, Gwalior, Madhya Pradesh 474001",
+    "latitude": 26.2078,
+    "longitude": 78.1612,
+    "cuisine": [
+      "North Indian",
+      "Punjabi",
+      "Mughlai",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Special Chana Bhatura",
+      "Butter Chicken",
+      "Dal Makhani",
+      "Chicken Cutlets",
+      "Cassata Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Kwality Chana Bhatura",
+        "price": 180
+      },
+      {
+        "food": "Kwality Special Butter Chicken",
+        "price": 440
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Vintage 1960s Decor",
+      "Family Dining",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Gwalior's premier classic multi-cuisine family diner since 1968, renowned for gigantic balloon-like bhaturas with dark spiced chickpeas and rich butter chicken",
+      "Beloved local landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 232 2490",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gwl-indian-coffee-house",
+    "name": "Indian Coffee House Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Station Road, Near Gwalior Railway Station, Gwalior, Madhya Pradesh 474002",
+    "latitude": 26.2189,
+    "longitude": 78.1823,
+    "cuisine": [
+      "South Indian",
+      "Snacks",
+      "Coffee",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Special Filter Coffee",
+      "Butter Masala Dosa",
+      "Mutton Cutlet",
+      "Veg Cutlet",
+      "Upma"
+    ],
+    "menu": [
+      {
+        "food": "Madras Filter Coffee",
+        "price": 45
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 110
+      },
+      {
+        "food": "Mutton Cutlet with Toast (2 pcs)",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 130,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Station Proximity",
+      "Vintage Uniform Waiters"
+    ],
+    "specialFeatures": [
+      "Historic coffee society outlet opposite Gwalior Junction station offering budget-friendly South Indian dosas, savory cutlets, and piping hot filter kaapi",
+      "A favorite transit stop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 234 1400",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gwl-aggarwal-poha-bhandar",
+    "name": "Aggarwal Poha Bhandar",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Patankar Bazaar, Lashkar, Gwalior, Madhya Pradesh 474001",
+    "latitude": 26.2056,
+    "longitude": 78.1634,
+    "cuisine": [
+      "Breakfast",
+      "Street Food",
+      "Sweets"
+    ],
+    "famousDishes": [
+      "Gwalior Special Poha with Double Sev & Boondi",
+      "Desi Ghee Jalebi",
+      "Moong Dal Halwa"
+    ],
+    "menu": [
+      {
+        "food": "Special Poha Jalebi Combo Plate",
+        "price": 45
+      },
+      {
+        "food": "Desi Ghee Moong Dal Halwa (100g)",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 60,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Street Counter",
+      "Pure Vegetarian",
+      "Morning Rush"
+    ],
+    "specialFeatures": [
+      "Iconic breakfast counter in Patankar Bazaar serving steaming spiced poha sprinkled with crunchy ratlami sev, diced onions, and fresh coriander alongside crispy jalebis",
+      "Gwalior's morning favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gwl-alfanzo-city-centre",
+    "name": "Alfanzo Multi-Cuisine Restaurant",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Plot No. 1, City Centre, Near Balwant Nagar, Gwalior, Madhya Pradesh 474011",
+    "latitude": 26.2012,
+    "longitude": 78.1925,
+    "cuisine": [
+      "North Indian",
+      "Continental",
+      "Pan Asian",
+      "Sizzlers"
+    ],
+    "famousDishes": [
+      "Paneer Lababdar",
+      "Crispy Veg Sizzler",
+      "Butter Chicken",
+      "Dal Makhani",
+      "Brownie with Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Paneer Lababdar Special",
+        "price": 320
+      },
+      {
+        "food": "Alfanzo Special Butter Chicken",
+        "price": 420
+      },
+      {
+        "food": "Sizzling Chocolate Brownie",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Contemporary Interior",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Modern multi-cuisine family diner in the upscale City Centre district, offering theatrical sizzlers, Italian bakes, and rich Indian curries",
+      "Popular for birthday and family gatherings"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 405 5566",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gwl-shere-punjab",
+    "name": "Shere Punjab Restaurant",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Station Road, Near Railway Station, Gwalior, Madhya Pradesh 474002",
+    "latitude": 26.2178,
+    "longitude": 78.1812,
+    "cuisine": [
+      "Punjabi",
+      "North Indian Non-Veg",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Tandoori Chicken",
+      "Butter Chicken",
+      "Mutton Curry",
+      "Dal Makhani",
+      "Butter Naan"
+    ],
+    "menu": [
+      {
+        "food": "Tandoori Chicken (Full)",
+        "price": 380
+      },
+      {
+        "food": "Butter Chicken",
+        "price": 360
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Railway Station Proximity",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Classic non-vegetarian Punjabi restaurant serving sizzling tandoori grills and hearty meat curries to rail passengers and city locals for decades",
+      "Fast service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 234 0567",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gwl-dilli-paratha-house",
+    "name": "Dilli Paratha House",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Sarafa Bazaar, Lashkar, Gwalior, Madhya Pradesh 474001",
+    "latitude": 26.2062,
+    "longitude": 78.1625,
+    "cuisine": [
+      "Stuffed Paranthas",
+      "North Indian",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Cheese Paneer Paratha",
+      "Aloo Pyaaz Paratha with White Butter",
+      "Chhole Kulche",
+      "Lassi in Kulhad"
+    ],
+    "menu": [
+      {
+        "food": "Special Cheese Paneer Paratha (with Chole, Dahi & Pickle)",
+        "price": 110
+      },
+      {
+        "food": "Aloo Pyaaz Desi Ghee Paratha",
+        "price": 80
+      },
+      {
+        "food": "Sweet Malai Lassi",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "Sarafa Bazaar Hub",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Sarafa Bazaar's favorite evening destination for piping hot pan-fried paranthas stuffed with spiced potatoes, cottage cheese, and served with melting white butter and thick curd",
+      "Comfort food"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "hotelId": "hdr-amatra-by-the-ganges",
+    "name": "Amatra by the Ganges",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Near Rajaji National Park, Shyampur Noabad, Haridwar, Uttarakhand 249408",
+    "latitude": 29.8921,
+    "longitude": 78.1954,
+    "pricePerNight": 11500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Infinity Pool",
+      "Spa & Wellness",
+      "Gourmet Pure Vegetarian Dining",
+      "River Deck",
+      "Archery & Cycling"
+    ],
+    "specialFeatures": [
+      "Luxury eco-resort bordering Rajaji National Park and River Ganga",
+      "Helipad and riverfront sunset aarti"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 238 900",
+    "website": "https://amatrahotels.com/haridwar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.941Z",
+    "updatedAt": "2026-08-22T21:20:26.941Z"
+  },
+  {
+    "hotelId": "hdr-radisson-blu-haridwar",
+    "name": "Radisson Blu Hotel Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Plot No. C-1, Sector 12, SIDCUL, Haridwar, Uttarakhand 249403",
+    "latitude": 29.9612,
+    "longitude": 78.0685,
+    "pricePerNight": 6500,
+    "category": "Luxury",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Nilaya Spa",
+      "Next 2 Restaurant",
+      "Wok Cafe",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Upscale 5-star international standard hotel in Haridwar",
+      "Fine dining Asian and Indian restaurants"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 660 000",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-haridwar",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.941Z",
+    "updatedAt": "2026-08-22T21:20:26.941Z"
+  },
+  {
+    "hotelId": "hdr-haveli-hari-ganga",
+    "name": "Haveli Hari Ganga - Heritage Hotel",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "21 Pilibhit House, Ramghat, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9485,
+    "longitude": 78.1634,
+    "pricePerNight": 7800,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Private Bathing Ghat",
+      "Ayurvedic Center",
+      "Satvik Dining Room",
+      "Ganga View Balconies",
+      "Astrologer on Call"
+    ],
+    "specialFeatures": [
+      "100-year-old royal haveli of Maharaja of Pilibhit with direct private bathing ghat on the Ganges",
+      "Walking distance to Har Ki Pauri"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 226 443",
+    "website": "https://www.havelihariganga.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.941Z",
+    "updatedAt": "2026-08-22T21:20:26.941Z"
+  },
+  {
+    "hotelId": "hdr-ganga-lahari",
+    "name": "Ganga Lahari Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Gau Ghat, Har Ki Pauri, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9512,
+    "longitude": 78.1658,
+    "pricePerNight": 5900,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "River View Dining (Patiala House)",
+      "Room Service",
+      "Direct Ghat Access",
+      "Elevator"
+    ],
+    "specialFeatures": [
+      "Directly adjacent to Har Ki Pauri with unobstructed view of the holy Ganga Aarti from dining hall"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 265 111",
+    "website": "https://www.gangalahari.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.942Z",
+    "updatedAt": "2026-08-22T21:20:26.942Z"
+  },
+  {
+    "hotelId": "hdr-fortune-park-haridwar",
+    "name": "Fortune Park Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "NH-58, Near Bahadrabad, Haridwar, Uttarakhand 249402",
+    "latitude": 29.9125,
+    "longitude": 78.0412,
+    "pricePerNight": 4200,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Orchid Multi-cuisine Restaurant",
+      "Fitness Centre",
+      "Banquet Hall",
+      "Business Centre"
+    ],
+    "specialFeatures": [
+      "ITC Fortune hospitality on Delhi-Haridwar Highway with spacious rooms"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 233 444",
+    "website": "https://www.fortunehotels.in/haridwar-fortune-park.dh.25",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.942Z",
+    "updatedAt": "2026-08-22T21:20:26.942Z"
+  },
+  {
+    "hotelId": "hdr-hotel-alpana",
+    "name": "Hotel Alpana Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Ramghat, Near Har Ki Pauri, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9492,
+    "longitude": 78.1641,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pure Vegetarian Bhojnalaya",
+      "Air Conditioning",
+      "Elevator",
+      "24-hour Front Desk"
+    ],
+    "specialFeatures": [
+      "200m from Har Ki Pauri main ghats and clock tower",
+      "Spotless budget family stay"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 225 544",
+    "website": "https://hotelalpanaharidwar.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.943Z",
+    "updatedAt": "2026-08-22T21:20:26.943Z"
+  },
+  {
+    "hotelId": "hdr-gostops-haridwar",
+    "name": "goSTOPS Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Near Railway Station, Shiv Murti Chowk, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9445,
+    "longitude": 78.1561,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Lounge",
+      "Dorm & Private AC Rooms",
+      "Luggage Storage",
+      "Board Games"
+    ],
+    "specialFeatures": [
+      "Close to Haridwar Railway Station and bus terminal",
+      "Social backpacker environment"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-haridwar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.943Z",
+    "updatedAt": "2026-08-22T21:20:26.943Z"
+  },
+  {
+    "hotelId": "hdr-hotel-teerth",
+    "name": "Hotel Teerth Haridwar",
+    "city": "Haridwar",
+    "state": "Uttarakhand",
+    "address": "Subhash Ghat, Har Ki Pauri, Haridwar, Uttarakhand 249401",
+    "latitude": 29.9525,
+    "longitude": 78.1672,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Ganga View Rooms",
+      "Room Service",
+      "Hot Water",
+      "Temple Tour Assistance"
+    ],
+    "specialFeatures": [
+      "Prime riverside location on Subhash Ghat right opposite Har Ki Pauri"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1334 227 111",
+    "website": "https://hotelteerth.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.944Z",
+    "updatedAt": "2026-08-22T21:20:26.944Z"
+  }
+]

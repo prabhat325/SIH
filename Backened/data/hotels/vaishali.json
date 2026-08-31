@@ -1,0 +1,241 @@
+[
+  {
+    "hotelId": "vsh-the-royal-residency",
+    "name": "The Royal Residency Vaishali",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Near Ashokan Pillar, Kolhua, Vaishali, Bihar 844128",
+    "latitude": 25.9875,
+    "longitude": 85.1285,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Ashoka Multi-cuisine Restaurant",
+      "Japanese & Thai Pilgrim Dining",
+      "Meditation Lawns",
+      "Travel Counter"
+    ],
+    "specialFeatures": [
+      "Premier heritage style resort in Vaishali catering to international Buddhist pilgrims",
+      "5 minutes from the 3rd century BCE Ashokan Pillar at Kolhua"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 274 011",
+    "website": "https://royalresidencyvaishali.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.986Z",
+    "updatedAt": "2026-08-22T21:20:26.986Z"
+  },
+  {
+    "hotelId": "vsh-vaishali-residency",
+    "name": "Vaishali Residency Hotel",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Chakramdas, Near Buddha Relic Stupa, Vaishali, Bihar 844128",
+    "latitude": 25.9912,
+    "longitude": 85.1325,
+    "pricePerNight": 3800,
+    "category": "Mid-Range",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Vegetarian Restaurant",
+      "Conference Hall",
+      "Garden",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Close to Coronation Tank (Abhishek Pushkarini) and Lord Buddha's sacred Relic Stupa"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 274 200",
+    "website": "https://vaishaliresidency.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.986Z",
+    "updatedAt": "2026-08-22T21:20:26.986Z"
+  },
+  {
+    "hotelId": "vsh-ambapali-vihar-bstdc",
+    "name": "Ambapali Vihar Tourist Complex (BSTDC)",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "State Highway 74, Near Vaishali Museum, Vaishali, Bihar 844128",
+    "latitude": 25.9895,
+    "longitude": 85.1302,
+    "pricePerNight": 1700,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Parking",
+      "Restaurant",
+      "Large Mango Grove Compound",
+      "Guide Assistance",
+      "AC Rooms"
+    ],
+    "specialFeatures": [
+      "Official Bihar Tourism retreat named after legendary royal courtesan Ambapali",
+      "Serene mango orchard environment"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 274 210",
+    "website": "https://www.bstdc.bih.nic.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.987Z",
+    "updatedAt": "2026-08-22T21:20:26.987Z"
+  },
+  {
+    "hotelId": "vsh-buddha-international-hotel",
+    "name": "Buddha International Hotel Vaishali",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Near Vishwa Shanti Stupa, Kolhua Road, Vaishali, Bihar 844128",
+    "latitude": 25.9934,
+    "longitude": 85.1271,
+    "pricePerNight": 1500,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pure Veg Restaurant",
+      "Hot Water",
+      "Luggage Storage",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Walking distance from the magnificent Japanese Vishwa Shanti Stupa"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 274 345",
+    "website": "https://buddhainternationalvaishali.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.988Z",
+    "updatedAt": "2026-08-22T21:20:26.988Z"
+  },
+  {
+    "hotelId": "vsh-hotel-vaishali-regency",
+    "name": "Hotel Vaishali Regency",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Baniya Chowk, Lalganj Road, Vaishali, Bihar 844128",
+    "latitude": 25.9845,
+    "longitude": 85.1368,
+    "pricePerNight": 1300,
+    "category": "Budget",
+    "rating": 3.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Bhojnalaya",
+      "24-hour Room Service",
+      "Hot Water",
+      "Car Parking"
+    ],
+    "specialFeatures": [
+      "Clean economical rooms for family travelers and pilgrims"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 274 567",
+    "website": "https://hotelvaishaliregency.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.988Z",
+    "updatedAt": "2026-08-22T21:20:26.988Z"
+  },
+  {
+    "hotelId": "vsh-shanti-kunj-guesthouse",
+    "name": "Shanti Kunj Guest House",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Near Kundalpur Mahavira Birthplace, Vaishali, Bihar 844128",
+    "latitude": 25.9961,
+    "longitude": 85.1245,
+    "pricePerNight": 950,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Pure Vegetarian Satvik Food",
+      "Clean Linen",
+      "Hot Water",
+      "Spiritual Atmosphere"
+    ],
+    "specialFeatures": [
+      "Located near the sacred birthplace of 24th Jain Tirthankara Lord Mahavira"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 274 789",
+    "website": "https://shantikunjvaishali.org/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.989Z",
+    "updatedAt": "2026-08-22T21:20:26.989Z"
+  },
+  {
+    "hotelId": "vsh-green-valley-hotel",
+    "name": "Green Valley Hotel Vaishali",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Kolhua Main Gate, Vaishali, Bihar 844128",
+    "latitude": 25.9868,
+    "longitude": 85.1292,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 3.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Restaurant",
+      "Room Service",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Budget stay right at the archaeological gate of Kolhua excavations"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 274 888",
+    "website": "https://greenvalleyvaishali.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.989Z",
+    "updatedAt": "2026-08-22T21:20:26.989Z"
+  },
+  {
+    "hotelId": "vsh-amrapali-guesthouse",
+    "name": "Amrapali Heritage Guest House",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Beside Archaeological Park, Vaishali, Bihar 844128",
+    "latitude": 25.9905,
+    "longitude": 85.1315,
+    "pricePerNight": 1100,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Home Cooked Food",
+      "Terrace View",
+      "Hot Water"
+    ],
+    "specialFeatures": [
+      "Homely atmosphere with views of the ancient pond and stupa mounds"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 274 999",
+    "website": "https://amrapaliguesthousevaishali.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.990Z",
+    "updatedAt": "2026-08-22T21:20:26.990Z"
+  }
+]

@@ -1,0 +1,283 @@
+[
+  {
+    "hotelId": "mys-lalitha-mahal-palace",
+    "name": "Lalitha Mahal Palace Hotel",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Lalitha Mahal Nagar, Siddhartha Layout, Mysuru, Karnataka 570028",
+    "latitude": 12.2985,
+    "longitude": 76.6912,
+    "pricePerNight": 12000,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Heritage Sapphire Dining Hall",
+      "Royal Billiards Room",
+      "Grand Italian Marble Staircase",
+      "Palace Helipad",
+      "Chamundi Hill Views"
+    ],
+    "specialFeatures": [
+      "Built in 1921 by Maharaja of Mysore for the Viceroy of India in St. Paul's Cathedral Renaissance style",
+      "Twin sweeping Italian marble staircases and crystal chandeliers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 247 0470",
+    "website": "https://lalithamahalpalace.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.061Z",
+    "updatedAt": "2026-08-22T21:20:27.061Z"
+  },
+  {
+    "hotelId": "mys-radisson-blu-plaza",
+    "name": "Radisson Blu Plaza Hotel Mysore",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "1 MG Road, Ittigegud, Mysuru, Karnataka 570010",
+    "latitude": 12.3025,
+    "longitude": 76.6645,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool with Chamundi View",
+      "Nilaya Spa",
+      "Spring Multi-cuisine Dining",
+      "The Bar",
+      "Golf Course Access",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Stunning panoramic backdrop of Chamundi Hills and adjacent to the century-old Mysore Zoo and Palace"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 710 1234",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-mysore",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.062Z",
+    "updatedAt": "2026-08-22T21:20:27.062Z"
+  },
+  {
+    "hotelId": "mys-royal-orchid-metropole",
+    "name": "Royal Orchid Metropole, Mysore",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "5 Jhansi Rani Lakshmi Bai Road, Devaraja Mohalla, CFTRI Campus, Mysuru, Karnataka 570005",
+    "latitude": 12.3112,
+    "longitude": 76.6435,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool in Courtyard",
+      "Tiger Trail Open-Air Barbecue",
+      "Shikari Courtyard Dining",
+      "Vintage Bar",
+      "Heritage Verandas"
+    ],
+    "specialFeatures": [
+      "1920 royal guest mansion built by Maharaja of Mysore featuring lush inner courtyards and famous Tiger Trail restaurant"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 425 5566",
+    "website": "https://www.royalorchidhotels.com/royal-orchid-metropole-mysore/overview",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.062Z",
+    "updatedAt": "2026-08-22T21:20:27.062Z"
+  },
+  {
+    "hotelId": "mys-fortune-jp-palace",
+    "name": "Fortune JP Palace Mysore",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "3 Abba Road, Nazarbad, Mysuru, Karnataka 570007",
+    "latitude": 12.3185,
+    "longitude": 76.6685,
+    "pricePerNight": 4900,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Orchid Restaurant",
+      "Terrace Grill & Tandoor",
+      "Neptune Bar",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Palatial architecture inspired by royal Wodeyar dynasty palaces with Chamundi hill terrace dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 398 8444",
+    "website": "https://www.fortunehotels.in/mysore-fortune-jp-palace.dh.28",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.063Z",
+    "updatedAt": "2026-08-22T21:20:27.063Z"
+  },
+  {
+    "hotelId": "mys-the-windflower-resort-spa",
+    "name": "The Windflower Resort & Spa Mysore",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Maharanapratap Road, Nazarbad, Mysuru, Karnataka 570010",
+    "latitude": 12.2965,
+    "longitude": 76.6745,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool amidst Coconut Groves",
+      "Award-winning Emerge Spa",
+      "Olive Garden Multi-cuisine",
+      "Waterbody Cabanas"
+    ],
+    "specialFeatures": [
+      "Sanctuary set at the base of Chamundi Hills with open-air rain showers and lotus waterbodies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 252 2500",
+    "website": "https://www.thewindflower.com/mysore/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.064Z",
+    "updatedAt": "2026-08-22T21:20:27.064Z"
+  },
+  {
+    "hotelId": "mys-zostel-mysore",
+    "name": "Zostel Mysore",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Gokulam 2nd Stage, Near Ashtanga Yoga Institute, Mysuru, Karnataka 570002",
+    "latitude": 12.3285,
+    "longitude": 76.6275,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Yoga Deck",
+      "Common Hangout Cafe",
+      "AC Dorms & Privates",
+      "Bicycle Hire",
+      "Lockers"
+    ],
+    "specialFeatures": [
+      "Situated in quiet Gokulam quarter, the global capital of Ashtanga yoga practice",
+      "Mysore Palace & Chamundi trips"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/mysore/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.064Z",
+    "updatedAt": "2026-08-22T21:20:27.064Z"
+  },
+  {
+    "hotelId": "mys-the-mansion-1907",
+    "name": "The Mansion 1907 - Heritage Hostel",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "36 Indira Nagar, Ittigegud, Mysuru, Karnataka 570010",
+    "latitude": 12.3012,
+    "longitude": 76.6612,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Courtyard Garden Cafe",
+      "Shared Kitchen",
+      "Yoga Shala",
+      "Vintage Library",
+      "Dorm & Private Rooms"
+    ],
+    "specialFeatures": [
+      "1907 heritage mansion restored into a tranquil bohemian eco-hostel, walking distance to Mysore Palace and Zoo"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 485 1907",
+    "website": "https://themansion1907.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.064Z",
+    "updatedAt": "2026-08-22T21:20:27.064Z"
+  },
+  {
+    "hotelId": "mys-ginger-mysore",
+    "name": "Ginger Mysore",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Nazarbad Main Road, Opposite Vani Vilas Market, Mysuru, Karnataka 570010",
+    "latitude": 12.3085,
+    "longitude": 76.6628,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Rooms",
+      "24/7 Helpdesk"
+    ],
+    "specialFeatures": [
+      "Reliable IHCL Ginger quality 1 km from the illuminated Mysore Palace and Devaraja Market"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 663 3333",
+    "website": "https://www.gingerhotels.com/ginger-mysore",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.064Z",
+    "updatedAt": "2026-08-22T21:20:27.064Z"
+  },
+  {
+    "hotelId": "mys-hotel-roopa",
+    "name": "Hotel Roopa Mysuru",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "2724/C Banghy Business Centre, B.N. Road, Mysuru, Karnataka 570001",
+    "latitude": 12.3072,
+    "longitude": 76.6545,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Infinit Cafe",
+      "Air Conditioning",
+      "Elevator",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Rooftop Infinit restaurant with evening views of the illuminated Chamundi hill lights"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 244 3704",
+    "website": "https://hotelroopa.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.065Z",
+    "updatedAt": "2026-08-22T21:20:27.065Z"
+  }
+]

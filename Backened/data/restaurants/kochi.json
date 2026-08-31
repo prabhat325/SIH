@@ -1,0 +1,212 @@
+[
+  {
+    "restaurantId": "rst-koc-grand-pavilion",
+    "name": "Grand Pavilion - Grand Hotel (Since 1963)",
+    "city": "Kochi",
+    "state": "Kerala",
+    "address": "Grand Hotel, MG Road, Ernakulam, Kochi, Kerala 682011",
+    "latitude": 9.9712,
+    "longitude": 76.2825,
+    "cuisine": [
+      "Authentic Kerala Heritage",
+      "Karimeen Specialist",
+      "Syrian Christian Dishes"
+    ],
+    "famousDishes": [
+      "Karimeen Pollichathu (Pearl Spot Fish marinated in shallot masala & baked in banana leaf)",
+      "Grand Fish Curry Meals",
+      "Mutton Stew with Lacy Appams",
+      "Syrian Beef Fry",
+      "Prawn Theeyal"
+    ],
+    "menu": [
+      {
+        "food": "Signature Karimeen Pollichathu (Pearl Spot in Banana Leaf)",
+        "price": 680
+      },
+      {
+        "food": "Grand Kerala Fish Curry Meals on Banana Leaf",
+        "price": 320
+      },
+      {
+        "food": "Travancore Mutton Stew with 2 Appams",
+        "price": 440
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "Historic 1963 Heritage Dining Room",
+      "Air Conditioning",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Kochi's most revered culinary institution since 1963, universally acknowledged for cooking the gold standard of 'Karimeen Pollichathu' where fresh backwaters pearl spot is slow-baked in roasted banana leaves",
+      "The definitive taste of Kerala"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 484 238 2061",
+    "website": "http://grandhotelkerala.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-koc-kashi-art-cafe",
+    "name": "Kashi Art Cafe",
+    "city": "Kochi",
+    "state": "Kerala",
+    "address": "Burgher Street, Fort Kochi, Kochi, Kerala 682001",
+    "latitude": 9.9654,
+    "longitude": 76.2412,
+    "cuisine": [
+      "Continental",
+      "Artisan Bakery & Cafe",
+      "Organic Breakfast"
+    ],
+    "famousDishes": [
+      "World-Famous Kashi Chocolate Cake",
+      "French Toast with Honey",
+      "Fresh Mango French Crepes",
+      "Roast Chicken Salad with Pesto",
+      "Pour-Over Organic Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Kashi Melt-in-Mouth Chocolate Cake Slice",
+        "price": 190
+      },
+      {
+        "food": "Kashi Special European Breakfast Platter",
+        "price": 280
+      },
+      {
+        "food": "Fresh Basil Pesto Pasta",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Contemporary Art Gallery Courtyard",
+      "Sunlit Open-to-Sky Zen Garden",
+      "Free Wi-Fi",
+      "Historic Fort Kochi Bungalow"
+    ],
+    "specialFeatures": [
+      "Pioneered the modern bohemian art-cafe culture of Fort Kochi, featuring changing contemporary sculpture exhibitions in a tranquil open-to-sky courtyard alongside its world-famous warm chocolate cake",
+      "A global cultural haven"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 484 221 5769",
+    "website": "http://kashiartcafe.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-koc-kayees-rahmathulla",
+    "name": "Kayees Rahmathulla Hotel (Since 1948)",
+    "city": "Kochi",
+    "state": "Kerala",
+    "address": "Gujarati Road, Near Mattancherry Palace, Mattancherry, Kochi, Kerala 682002",
+    "latitude": 9.9578,
+    "longitude": 76.2589,
+    "cuisine": [
+      "Kochi Muslim Biryani",
+      "Heritage Dum Biryani"
+    ],
+    "famousDishes": [
+      "Kayees Special Mutton Dum Biryani (Khaima Rice with Sweet Date-Lime Pickle)",
+      "Chicken Biryani",
+      "Mutton Chops",
+      "Fish Biryani (Tues & Fri)"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Kayees Mutton Dum Biryani with Date Chutney",
+        "price": 290
+      },
+      {
+        "food": "Kayees Chicken Dum Biryani",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 290,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic 1948 Mattancherry Diner",
+      "Strict Daily Batch Timings (Sells out by 2 PM)",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Founded in 1948 in the historic spice quarter of Mattancherry by V.K. Kayee, revered across Kerala for its short-grain Khaima rice mutton biryani slow-dummed in sealed handis and eaten with sweet-sour date pickles",
+      "An emotional Kochi culinary landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 484 222 6080",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-koc-seagull-restaurant",
+    "name": "Seagull Restaurant & Bar",
+    "city": "Kochi",
+    "state": "Kerala",
+    "address": "Calvathy Road, Near Aspinwall House, Fort Kochi, Kochi, Kerala 682001",
+    "latitude": 9.9698,
+    "longitude": 76.2489,
+    "cuisine": [
+      "Kerala Coastal Seafood",
+      "Continental",
+      "Beer & Waterfront Grills"
+    ],
+    "famousDishes": [
+      "Karimeen Tawa Fry",
+      "Crispy Squid Pepper Fry",
+      "Beef Roast with Parotta",
+      "Cold Beer Pitcher",
+      "Prawns Roast"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Catch Karimeen Fry",
+        "price": 540
+      },
+      {
+        "food": "Squid Pepper Fry",
+        "price": 380
+      },
+      {
+        "food": "Kerala Beef Fry with 2 Flaky Parottas",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 600,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Direct Waterfront Harbour Deck",
+      "Watching Ships & Dolphins in Kochi Harbour",
+      "Full Bar",
+      "Breezy Sea Air"
+    ],
+    "specialFeatures": [
+      "Historic waterfront jetty bar where tables sit directly over the rippling waters of Kochi harbour as giant container ships, wooden dhows, and playful dolphins glide by against the sunset",
+      "Incomparable coastal atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 484 221 8029",
+    "website": null,
+    "available": true
+  }
+]

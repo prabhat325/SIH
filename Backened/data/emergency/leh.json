@@ -1,0 +1,6 @@
+[
+  {"serviceId":"LEH-HOSPITAL-001","name":"Sonam Norboo Memorial Hospital","city":"Leh","state":"Ladakh","type":"Hospital","address":"Skara Road, Leh, Ladakh 194101","latitude":34.1451,"longitude":77.5585,"phone":"+91-1982-252014","website":"https://ladakh.gov.in/","available24x7":true,"emergencyFacilities":["24x7 Emergency","ICU","Ambulance"],"verified":true,"available":true},
+  {"serviceId":"LEH-HOSPITAL-002","name":"Sowa-Rigpa Hospital Leh","city":"Leh","state":"Ladakh","type":"Hospital","address":"Chanspa, Leh, Ladakh 194101","latitude":34.166,"longitude":77.585,"phone":null,"website":"https://ladakh.gov.in/","available24x7":false,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"LEH-POLICE-001","name":"Leh Police Station","city":"Leh","state":"Ladakh","type":"Police Station","address":"Main Market, Leh, Ladakh 194101","latitude":null,"longitude":null,"phone":"+91-1982-252013","website":"https://police.ladakh.gov.in/","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"LEH-FIRE-001","name":"Leh Fire and Emergency Services","city":"Leh","state":"Ladakh","type":"Fire Station","address":"Skara Road, Leh, Ladakh 194101","latitude":null,"longitude":null,"phone":null,"website":"https://ladakh.gov.in/","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

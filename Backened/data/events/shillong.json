@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "SHILLONG-EVENT-001",
+            "name": "Shillong Autumn Festival",
+            "city": "Shillong",
+            "state": "Meghalaya",
+            "description": "A cultural festival celebrating Meghalaya's heritage.",
+            "type": "Cultural",
+            "venue": "Various venues in Shillong",
+            "usualMonth": "October/November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://meghalayatourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SHILLONG-EVENT-002",
+            "name": "Shillong Cherry Blossom Festival",
+            "city": "Shillong",
+            "state": "Meghalaya",
+            "description": "A unique festival celebrating cherry blossoms.",
+            "type": "Festival",
+            "venue": "Various venues in Shillong",
+            "usualMonth": "November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://meghalayatourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SHILLONG-EVENT-003",
+            "name": "Behdeinkhlam Festival",
+            "city": "Shillong",
+            "state": "Meghalaya",
+            "description": "The most important festival of the Jaintia tribe.",
+            "type": "Cultural",
+            "venue": "Jowai (near Shillong)",
+            "usualMonth": "July",
+            "usualTime": "Morning to evening",
+            "usualDuration": "3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://meghalayatourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

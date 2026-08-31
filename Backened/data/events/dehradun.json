@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "DEHRADUN-EVENT-001",
+            "name": "Tapkeshwar Mela",
+            "city": "Dehradun",
+            "state": "Uttarakhand",
+            "description": "A grand 10-day fair held during Maha Shivratri.",
+            "type": "Religious",
+            "venue": "Tapkeshwar Mahadev Temple",
+            "usualMonth": "February/March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://dehradun.nic.in/fair-festivals/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "DEHRADUN-EVENT-002",
+            "name": "Jhanda Fair",
+            "city": "Dehradun",
+            "state": "Uttarakhand",
+            "description": "An annual fair at Guru Ram Rai Darbar after Holi.",
+            "type": "Religious",
+            "venue": "Guru Ram Rai Darbar",
+            "usualMonth": "March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://dehradun.nic.in/fair-festivals/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "DEHRADUN-EVENT-003",
+            "name": "Sahastradhara Fair",
+            "city": "Dehradun",
+            "state": "Uttarakhand",
+            "description": "A local fair celebrating natural springs and therapeutic waters.",
+            "type": "Fair",
+            "venue": "Sahastradhara",
+            "usualMonth": "April/May",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://dehradun.nic.in/fair-festivals/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

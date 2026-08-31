@@ -1,0 +1,418 @@
+[
+  {
+    "restaurantId": "rst-nsk-sadhana-chulivarchi-misal",
+    "name": "Sadhana Chulivarchi Misal",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Near Someshwar Temple, Bardan Phata, Gangapur Road, Nashik, Maharashtra 422013",
+    "latitude": 20.0189,
+    "longitude": 73.7412,
+    "cuisine": [
+      "Rural Maharashtrian",
+      "Wood-Fired Misal",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Chulivarchi Clay Pot Misal (Cooked on Wood Chulha)",
+      "Crispy Jalebi",
+      "Gulab Jamun",
+      "Smoked Solkadhi",
+      "Chhachh (Matka Taak)"
+    ],
+    "menu": [
+      {
+        "food": "Special Clay-Pot Chulivarchi Misal Thali (with 2 Pav, Papad, Curd & Jalebi)",
+        "price": 160
+      },
+      {
+        "food": "Desi Ghee Hot Jalebi (100g)",
+        "price": 50
+      },
+      {
+        "food": "Matka Taak (Earthen Pot Buttermilk)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 160,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Rural Village Farm Setting",
+      "Camel & Bullock Cart Rides",
+      "Live Chulha Cooking",
+      "Spacious Parking"
+    ],
+    "specialFeatures": [
+      "Nashik's most famous misal destination set in a village farm near Someshwar, cooking spicy sprout gravies in clay handis over burning wood chulhas for a rich smoky flavor",
+      "Visited by thousands of foodies on weekends"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98220 12345",
+    "website": "http://sadhanamisal.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nsk-soma-vine-village",
+    "name": "Sufi & Rasoi - Soma Vine Village",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Soma Vine Village, Survey No. 1, Village Ganghavare, Gangapur-Ganghavare Road, Nashik, Maharashtra 422222",
+    "latitude": 20.0054,
+    "longitude": 73.6821,
+    "cuisine": [
+      "Vineyard Gourmet",
+      "North Indian",
+      "Maharashtrian Wine Country",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Wine Braised Lamb",
+      "Paneer Tikka Lababdar",
+      "Wood-fired Pizza",
+      "Wine Tasting Platters",
+      "Chocolate Fondant"
+    ],
+    "menu": [
+      {
+        "food": "Wine-Country Paneer Lababdar",
+        "price": 420
+      },
+      {
+        "food": "Mutton Rogan Josh with Naan",
+        "price": 560
+      },
+      {
+        "food": "Artisanal Thin Crust Vineyard Pizza",
+        "price": 460
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Premium",
+    "rating": 4.6,
+    "amenities": [
+      "Vineyard & Backwaters View",
+      "Wine Tasting Lounge",
+      "Full Bar",
+      "Valet Parking",
+      "Resort Poolside"
+    ],
+    "specialFeatures": [
+      "Breathtaking vineyard restaurant overlooking the lush grapevines and sparkling backwaters of Gangapur Dam in India's wine capital",
+      "Gourmet food paired with local boutique estate wines"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 70280 66016",
+    "website": "https://www.somavinevillage.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nsk-sayantara-sabudana-vada",
+    "name": "Sayantara (Since 1968)",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Bhadrakali Market, Old City, Nashik, Maharashtra 422001",
+    "latitude": 19.9945,
+    "longitude": 73.7912,
+    "cuisine": [
+      "Upvas (Fasting) Delicacies",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "World Famous Crispy Sabudana Vada with Peanut Chutney",
+      "Sabudana Khichdi",
+      "Bhagar with Amti",
+      "Potato Wafers"
+    ],
+    "menu": [
+      {
+        "food": "Signature Crispy Sabudana Vada Plate (2 pcs with Sweet-Spicy Peanut Dip)",
+        "price": 60
+      },
+      {
+        "food": "Special Sabudana Khichdi",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 70,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Historic Old City Shop",
+      "Pure Vegetarian (Upvas Specialist)",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic 1968 shop in Bhadrakali market famous across Maharashtra for ultra-crispy, oil-free tapioca pearl patties ('Sabudana Vada') served with a unique sweetish cucumber-peanut curd chutney",
+      "Legendary temple fasting institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nsk-divtya-budhlya-wada",
+    "name": "Divtya Budhlya Wada",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Gangapur Road, Near Serene Meadows, Anandvalli, Nashik, Maharashtra 422013",
+    "latitude": 20.0212,
+    "longitude": 73.7545,
+    "cuisine": [
+      "Authentic Khandeshi & Maratha Non-Veg",
+      "Maharashtrian"
+    ],
+    "famousDishes": [
+      "Nashik Kala Mutton Thali (Black Pepper-Coconut Gravy)",
+      "Kala Chicken",
+      "Tambda Rassa & Pandhra Rassa",
+      "Bhakri with Thecha"
+    ],
+    "menu": [
+      {
+        "food": "Special Kala Mutton Thali (with 2 Bajra Bhakris, Rice & Unlimited Rassa)",
+        "price": 390
+      },
+      {
+        "food": "Kala Chicken Sukka Thali",
+        "price": 310
+      },
+      {
+        "food": "Glass of Fresh Solkadhi",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Traditional Wada Courtyard Architecture",
+      "Air Conditioning",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Renowned for authentic Northern Maharashtra 'Kala Masala' meat preparations cooked using roasted dry coconut, charred onions, and stone-ground spices with unlimited bowls of piping hot spiced rassa broths",
+      "Meat lovers paradise"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98225 66778",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nsk-panchavati-gaurav",
+    "name": "Panchavati Gaurav Thali",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "City Centre Mall, Lawate Nagar, Untwadi Road, Nashik, Maharashtra 422002",
+    "latitude": 19.9821,
+    "longitude": 73.7654,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Gujarati",
+      "Rajasthani Thali"
+    ],
+    "famousDishes": [
+      "Royal Unlimited Veg Thali",
+      "Dal Baati Churma",
+      "Kadhi Khichdi",
+      "Farsan Basket",
+      "Shrikhand"
+    ],
+    "menu": [
+      {
+        "food": "Grand Panchavati Unlimited Royal Thali",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 340,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Mall Location",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Nashik's flagship traditional vegetarian thali restaurant serving wholesome Gujarati and Rajasthani banquets on bronze tableware with rotating seasonal farsans",
+      "Dependable family dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 239 0011",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nsk-shamsundar-misal",
+    "name": "Shamsundar Misal",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "P-17, MIDC Satpur, Trimbak Road, Nashik, Maharashtra 422007",
+    "latitude": 19.9765,
+    "longitude": 73.7289,
+    "cuisine": [
+      "Traditional Misal",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Special Satpur Misal (Fiery Kat Gravy)",
+      "Dahi Misal",
+      "Pav with Ghee",
+      "Gulab Jamun",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Shamsundar Special Spiced Misal Pav Plate",
+        "price": 90
+      },
+      {
+        "food": "Sweet Dahi Misal",
+        "price": 100
+      },
+      {
+        "food": "Gulab Jamun (2 pcs)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Industrial Area Heritage Eatery",
+      "Pure Vegetarian",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Award-winning misal destination in Satpur MIDC famous for its distinct dark spicy gravy, crunchy farsan, and thick curd, drawing politicians and industrial tycoons for decades",
+      "Quintessential Nashik spicy flavor"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 235 0244",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nsk-modern-cafe",
+    "name": "Modern Cafe",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Sharanpur Road, Canada Corner, Nashik, Maharashtra 422002",
+    "latitude": 19.9989,
+    "longitude": 73.7745,
+    "cuisine": [
+      "South Indian",
+      "Pure Vegetarian",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Butter Masala Dosa",
+      "Upma",
+      "Idli Vada Sambar",
+      "South Indian Meals",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Special Mysore Masala Dosa",
+        "price": 130
+      },
+      {
+        "food": "Steamed Idli Sambar",
+        "price": 70
+      },
+      {
+        "food": "Filter Coffee",
+        "price": 45
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Canada Corner Location"
+    ],
+    "specialFeatures": [
+      "Clean and beloved South Indian breakfast hub in central Nashik offering freshly fermented dosas, crispy vadas, and steaming filter coffee",
+      "Quick and dependable"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 257 5678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nsk-river-dine",
+    "name": "River Dine Restaurant & Bar",
+    "city": "Nashik",
+    "state": "Maharashtra",
+    "address": "Near Asaram Bapu Bridge, Gangapur Road, Nashik, Maharashtra 422013",
+    "latitude": 20.0165,
+    "longitude": 73.7489,
+    "cuisine": [
+      "Multi-Cuisine",
+      "North Indian",
+      "Continental",
+      "Seafood"
+    ],
+    "famousDishes": [
+      "Tandoori Surmai",
+      "Butter Chicken",
+      "Veg Sizzler",
+      "Paneer Tikka",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Tandoori Surmai Fish Fry",
+        "price": 540
+      },
+      {
+        "food": "Butter Chicken with Butter Naan",
+        "price": 410
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 550,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Godavari Riverfront Garden",
+      "Full Bar",
+      "Live Music Evenings",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Picturesque riverside garden lounge on the banks of the sacred Godavari river, offering open-air dining with cool evening breezes and multi-cuisine favorites",
+      "Popular family dinner venue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 253 234 5500",
+    "website": null,
+    "available": true
+  }
+]

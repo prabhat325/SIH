@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "THANJAVUR-EVENT-001",
+            "name": "Brihadeeshwara Temple Festival",
+            "city": "Thanjavur",
+            "state": "Tamil Nadu",
+            "description": "A grand festival at the UNESCO World Heritage Brihadeeshwara Temple.",
+            "type": "Religious",
+            "venue": "Brihadeeshwara Temple",
+            "usualMonth": "February/March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "THANJAVUR-EVENT-002",
+            "name": "Natyanjali Dance Festival",
+            "city": "Thanjavur",
+            "state": "Tamil Nadu",
+            "description": "A classical dance festival featuring Bharatanatyam performances.",
+            "type": "Cultural",
+            "venue": "Brihadeeshwara Temple",
+            "usualMonth": "February",
+            "usualTime": "Evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "THANJAVUR-EVENT-003",
+            "name": "Pongal",
+            "city": "Thanjavur",
+            "state": "Tamil Nadu",
+            "description": "The harvest festival with traditional celebrations.",
+            "type": "Festival",
+            "venue": "Various temples and venues",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

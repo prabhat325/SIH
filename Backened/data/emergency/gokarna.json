@@ -1,0 +1,4 @@
+[
+{"serviceId":"GOKARNA-HOSPITAL-001","name":"Government Hospital Gokarna","city":"Gokarna","state":"Karnataka","type":"Hospital","address":"Gokarna, Uttara Kannada district, Karnataka 581326","latitude":null,"longitude":null,"phone":null,"website":null,"available24x7":false,"emergencyFacilities":["Emergency"],"verified":true,"available":true},
+{"serviceId":"GOKARNA-POLICE-001","name":"Gokarna Police Station","city":"Gokarna","state":"Karnataka","type":"Police Station","address":"Main Road, Gokarna, Uttara Kannada district, Karnataka 581326","latitude":null,"longitude":null,"phone":null,"website":"https://uttarakannadapolice.karnataka.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "PUDUCHERRY-EVENT-001",
+            "name": "Bastille Day",
+            "city": "Puducherry",
+            "state": "Puducherry",
+            "description": "A unique celebration of French heritage with cultural programs.",
+            "type": "Cultural",
+            "venue": "Various venues in Puducherry",
+            "usualMonth": "July",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://tourism.puducherry.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PUDUCHERRY-EVENT-002",
+            "name": "Pongal",
+            "city": "Puducherry",
+            "state": "Puducherry",
+            "description": "The harvest festival with traditional celebrations.",
+            "type": "Festival",
+            "venue": "Citywide",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://tourism.puducherry.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PUDUCHERRY-EVENT-003",
+            "name": "Fete de Puducherry",
+            "city": "Puducherry",
+            "state": "Puducherry",
+            "description": "A tourism festival celebrating Puducherry's Franco-Tamil heritage.",
+            "type": "Festival",
+            "venue": "Various venues in Puducherry",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://tourism.puducherry.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PUDUCHERRY-EVENT-004",
+            "name": "Sri Aurobindo Jayanti",
+            "city": "Puducherry",
+            "state": "Puducherry",
+            "description": "The birth anniversary of Sri Aurobindo at Sri Aurobindo Ashram.",
+            "type": "Religious",
+            "venue": "Sri Aurobindo Ashram",
+            "usualMonth": "August",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://tourism.puducherry.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

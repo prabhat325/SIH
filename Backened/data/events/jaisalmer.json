@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "JAISALMER-EVENT-001",
+            "name": "Desert Festival (Maru Mahotsav)",
+            "city": "Jaisalmer",
+            "state": "Rajasthan",
+            "description": "A vibrant three-day cultural celebration amid golden sand dunes.",
+            "type": "Festival",
+            "venue": "Sam Sand Dunes and various venues",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://jaisalmerdesertfestival.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "JAISALMER-EVENT-002",
+            "name": "Gangaur Festival",
+            "city": "Jaisalmer",
+            "state": "Rajasthan",
+            "description": "A traditional festival celebrating Goddess Gauri.",
+            "type": "Religious",
+            "venue": "Various venues in Jaisalmer",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "JAISALMER-EVENT-003",
+            "name": "Baba Ramdev Mela",
+            "city": "Jaisalmer",
+            "state": "Rajasthan",
+            "description": "A religious fair dedicated to Baba Ramdev.",
+            "type": "Religious",
+            "venue": "Ramdevra (near Jaisalmer)",
+            "usualMonth": "September/October",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

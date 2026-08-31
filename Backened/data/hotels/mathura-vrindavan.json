@@ -1,0 +1,282 @@
+[
+  {
+    "hotelId": "mv-nidhivan-sarovar-portico",
+    "name": "Nidhivan Sarovar Portico, Vrindavan",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Khasra No. 797, Gopalgarh, Tehra Road, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5684,
+    "longitude": 77.6749,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Tripti Pure Veg Restaurant",
+      "Spa & Wellness",
+      "Fitness Centre",
+      "Lush Lawns",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Premier 4-star upscale hotel in Vrindavan",
+      "Pure vegetarian satvik dining menu",
+      "Close to Prem Mandir and ISKCON"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 303 7000",
+    "website": "https://www.sarovarhotels.com/nidhivan-sarovar-portico-vrindavan/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.863Z",
+    "updatedAt": "2026-08-22T21:20:26.863Z"
+  },
+  {
+    "hotelId": "mv-the-radha-ashok-mathura",
+    "name": "The Radha Ashok Mathura",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "NH-2, Masani Bypass Road, Mathura, Uttar Pradesh 281003",
+    "latitude": 27.5218,
+    "longitude": 77.6789,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Brijwasi Pure Veg Restaurant",
+      "Ayurvedic Spa",
+      "Manicured Gardens"
+    ],
+    "specialFeatures": [
+      "First modern resort hotel in Mathura",
+      "Tranquil green sanctuary with swimming pool"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 253 0395",
+    "website": "https://theradhaashok.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.863Z",
+    "updatedAt": "2026-08-22T21:20:26.863Z"
+  },
+  {
+    "hotelId": "mv-kadamb-resort-vrindavan",
+    "name": "Kadamb Spritual Stay Vrindavan",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Chhatikara-Vrindavan Road, Near Prem Mandir, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5651,
+    "longitude": 77.6698,
+    "pricePerNight": 4200,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Satvik Restaurant",
+      "Temple View Balconies",
+      "Yoga Hall",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Direct view of Prem Mandir light show from top floors",
+      "Spiritual wellness retreat ambiance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 297 0044",
+    "website": "https://kadambresorts.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.863Z",
+    "updatedAt": "2026-08-22T21:20:26.863Z"
+  },
+  {
+    "hotelId": "mv-brij-view-vrindavan",
+    "name": "Brij View Vrindavan Suites",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Bhakti Vedanta Swami Marg, Near ISKCON Temple, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5742,
+    "longitude": 77.6892,
+    "pricePerNight": 3800,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Kitchenette in Suites",
+      "Vegetarian Dining",
+      "Terrace View",
+      "Ample Parking"
+    ],
+    "specialFeatures": [
+      "Tallest residential suite tower in Vrindavan",
+      "Panoramic view of sacred Vrindavan town"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 661 2345",
+    "website": "https://brijview.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.864Z",
+    "updatedAt": "2026-08-22T21:20:26.864Z"
+  },
+  {
+    "hotelId": "mv-brijwasi-lands-inn",
+    "name": "Brijwasi Lands Inn Mathura",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "NH-2, Goverdhan Crossing, Mathura, Uttar Pradesh 281004",
+    "latitude": 27.4952,
+    "longitude": 77.6621,
+    "pricePerNight": 3100,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Signature Brijwasi Mithai & Restaurant",
+      "Bar",
+      "Banquet Lawn",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Famous Brijwasi sweets flagship branch",
+      "Convenient location on Delhi-Agra Highway"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 242 4445",
+    "website": "https://brijwasi.com/brijwasi-lands-inn/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.864Z",
+    "updatedAt": "2026-08-22T21:20:26.864Z"
+  },
+  {
+    "hotelId": "mv-mvt-guesthouse-vrindavan",
+    "name": "MVT Guesthouse & Restaurant Vrindavan",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Bhakti Vedanta Swami Marg, Raman Reti, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5718,
+    "longitude": 77.6845,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Lush Courtyard Garden",
+      "Wood-fired Pizza & Satvik Cafe",
+      "AC Rooms",
+      "24/7 Security"
+    ],
+    "specialFeatures": [
+      "Beloved international spiritual haven behind ISKCON",
+      "Famous garden cafe with satvik Italian pizzas"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 254 0077",
+    "website": "https://mvtindia.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.865Z",
+    "updatedAt": "2026-08-22T21:20:26.865Z"
+  },
+  {
+    "hotelId": "mv-hotel-goverdhan-palace",
+    "name": "Hotel Goverdhan Palace Mathura",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Station Road, Mathura Cantt, Mathura, Uttar Pradesh 281001",
+    "latitude": 27.4988,
+    "longitude": 77.6811,
+    "pricePerNight": 1700,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Restaurant",
+      "Room Service",
+      "Doctor on Call",
+      "Travel Counter"
+    ],
+    "specialFeatures": [
+      "Close to Mathura Junction & Shri Krishna Janmabhoomi Temple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 240 6444",
+    "website": "https://hotelgoverdhanpalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.865Z",
+    "updatedAt": "2026-08-22T21:20:26.865Z"
+  },
+  {
+    "hotelId": "mv-iskcon-guesthouse",
+    "name": "ISKCON Krishna Balaram Guesthouse",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Krishna Balaram Temple Complex, Bhaktivedanta Swami Marg, Vrindavan, Uttar Pradesh 281121",
+    "latitude": 27.5729,
+    "longitude": 77.6861,
+    "pricePerNight": 1500,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Govinda's Pure Veg Restaurant",
+      "Direct Temple Access",
+      "Filtered Water",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Stay directly inside Krishna Balaram Temple grounds",
+      "Morning Mangala Aarti access"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 254 0021",
+    "website": "https://iskconvrindavan.com/guesthouse/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.865Z",
+    "updatedAt": "2026-08-22T21:20:26.865Z"
+  },
+  {
+    "hotelId": "mv-hotel-ganpati-palace",
+    "name": "Hotel Ganpati Palace Mathura",
+    "city": "Mathura-Vrindavan",
+    "state": "Uttar Pradesh",
+    "address": "Near Krishna Janmabhoomi Temple, Deeg Gate, Mathura, Uttar Pradesh 281001",
+    "latitude": 27.5054,
+    "longitude": 77.6712,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Vegetarian Bhojnalaya",
+      "Hot Water",
+      "24-hour Reception",
+      "Elevator"
+    ],
+    "specialFeatures": [
+      "200m from Shri Krishna Janmabhoomi entrance gate",
+      "Best value budget stay for devotees"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 565 240 2233",
+    "website": "https://hotelganpatipalacemathura.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.866Z",
+    "updatedAt": "2026-08-22T21:20:26.866Z"
+  }
+]

@@ -1,0 +1,319 @@
+[
+  {
+    "hotelId": "sml-wildflower-hall",
+    "name": "Wildflower Hall, An Oberoi Resort, Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Chharabra, Shimla, Himachal Pradesh 171012",
+    "latitude": 31.1189,
+    "longitude": 77.2478,
+    "pricePerNight": 42000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Heated Whirlpool with Himalayan View",
+      "Indoor Heated Pool with Chandeliers",
+      "The Oberoi Spa",
+      "Pan-Asian & Indian Dining",
+      "Ice Skating Rink in Winter",
+      "Billiards Room",
+      "Helipad"
+    ],
+    "specialFeatures": [
+      "Former summer estate of Lord Kitchener set at 8,250 ft amidst 22 acres of cedar forests",
+      "World's most iconic outdoor heated infinity whirlpool looking out over snow-covered Himalayan peaks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 264 8585",
+    "website": "https://www.oberoihotels.com/hotels-in-shimla-wildflower-hall/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.958Z",
+    "updatedAt": "2026-08-22T21:20:26.958Z"
+  },
+  {
+    "hotelId": "sml-the-oberoi-cecil",
+    "name": "The Oberoi Cecil, Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Chaura Maidan, Shimla, Himachal Pradesh 171004",
+    "latitude": 31.1042,
+    "longitude": 77.1554,
+    "pricePerNight": 22000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Indoor Heated Pool",
+      "The Oberoi Spa",
+      "Grand Atrium Restaurant",
+      "The Cedar Garden",
+      "Children's Activity Centre",
+      "Heritage Ballroom"
+    ],
+    "specialFeatures": [
+      "130-year-old historic grand hotel where the Oberoi hotel empire was born",
+      "Spectacular wooden atrium lounge and indoor heated pool with mountain view"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 280 4848",
+    "website": "https://www.oberoihotels.com/hotels-in-shimla-cecil/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.958Z",
+    "updatedAt": "2026-08-22T21:20:26.958Z"
+  },
+  {
+    "hotelId": "sml-welcomhotel-shimla",
+    "name": "Welcomhotel by ITC Hotels, Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Village Mashobra, Shimla, Himachal Pradesh 171007",
+    "latitude": 31.1345,
+    "longitude": 77.2312,
+    "pricePerNight": 12500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Kaya Kalp Spa",
+      "WelcomCafe Cedrus",
+      "Swizzle Bar",
+      "Fitness Centre",
+      "Pine Forest Trails"
+    ],
+    "specialFeatures": [
+      "Panoramic mountain views overlooking the Mashobra pine valley",
+      "Eco-conscious luxury architecture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 263 7777",
+    "website": "https://www.itchotels.com/in/en/welcomhotelshimla",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.959Z",
+    "updatedAt": "2026-08-22T21:20:26.959Z"
+  },
+  {
+    "hotelId": "sml-radisson-hotel-shimla",
+    "name": "Radisson Hotel Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Goodwood Estate, Lower Bharari Road, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1118,
+    "longitude": 77.1725,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Heated Pool",
+      "Nilaya Spa",
+      "Cafe Valley Vue",
+      "Pulse Bar",
+      "Activity Room"
+    ],
+    "specialFeatures": [
+      "Cedar valley views from outdoor heated pool",
+      "Tranquil Goodwood Estate location"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 9012",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-shimla",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.959Z",
+    "updatedAt": "2026-08-22T21:20:26.959Z"
+  },
+  {
+    "hotelId": "sml-clarkes-hotel",
+    "name": "Clarkes Hotel, A Heritage Hotel",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "The Mall, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1028,
+    "longitude": 77.1741,
+    "pricePerNight": 7800,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Heritage Dining Hall with British Pillars",
+      "18th-century Bar",
+      "Terrace Mountain View",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Built in 1898 on the Mall Road, one of India's oldest heritage boutique properties",
+      "Colonial grandeur with wooden floors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 1010",
+    "website": "https://www.clarkeshotel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.960Z",
+    "updatedAt": "2026-08-22T21:20:26.960Z"
+  },
+  {
+    "hotelId": "sml-hotel-combermere",
+    "name": "Hotel Combermere Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Opposite Tourism Lift, The Mall, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1039,
+    "longitude": 77.1718,
+    "pricePerNight": 5500,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Seventh Heaven Restaurant",
+      "Barbeque Terrace",
+      "Fitness Centre",
+      "Passenger Lift directly to Mall Road"
+    ],
+    "specialFeatures": [
+      "Own private passenger elevator that takes guests straight to the Ridge and Mall Road"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 1246",
+    "website": "https://hotelcombermere.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.960Z",
+    "updatedAt": "2026-08-22T21:20:26.960Z"
+  },
+  {
+    "hotelId": "sml-zostel-shimla",
+    "name": "Zostel Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Village Beolia, Mehli-Junga Road, Shimla, Himachal Pradesh 171013",
+    "latitude": 31.0745,
+    "longitude": 77.1985,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe with Mountain View",
+      "Common Lounge",
+      "Dorm & Private Rooms",
+      "Board Games",
+      "Bonfires"
+    ],
+    "specialFeatures": [
+      "Nestled in serene pine valley away from city bustle with stunning valley views",
+      "Hikes and village walks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/shimla/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.960Z",
+    "updatedAt": "2026-08-22T21:20:26.960Z"
+  },
+  {
+    "hotelId": "sml-the-hosteller-shimla",
+    "name": "The Hosteller Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Circular Road, Near Victory Tunnel, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1085,
+    "longitude": 77.1645,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cafe",
+      "Workation Stations",
+      "Dorms & Privates",
+      "Heated Beds Assistance"
+    ],
+    "specialFeatures": [
+      "Conveniently situated near Victory Tunnel with quick access to Old Bus Stand and Mall Road"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-shimla/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.960Z",
+    "updatedAt": "2026-08-22T21:20:26.960Z"
+  },
+  {
+    "hotelId": "sml-gostops-shimla",
+    "name": "goSTOPS Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Near Chotta Shimla, Kasumpti Road, Shimla, Himachal Pradesh 171002",
+    "latitude": 31.0895,
+    "longitude": 77.1812,
+    "pricePerNight": 749,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Games & TV Lounge",
+      "Mountain View Balcony",
+      "Air Conditioning & Heaters",
+      "Lockers"
+    ],
+    "specialFeatures": [
+      "Budget-friendly social atmosphere with views of Chotta Shimla hills"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-shimla/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.961Z",
+    "updatedAt": "2026-08-22T21:20:26.961Z"
+  },
+  {
+    "hotelId": "sml-hotel-willow-banks",
+    "name": "Hotel Willow Banks Shimla",
+    "city": "Shimla",
+    "state": "Himachal Pradesh",
+    "address": "Near Tourism Lift, The Mall, Shimla, Himachal Pradesh 171001",
+    "latitude": 31.1032,
+    "longitude": 77.1729,
+    "pricePerNight": 3200,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Eighteen71 Cookhouse & Bar",
+      "Akasa Spa",
+      "SkyBAR Rooftop",
+      "Gym",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Estate established in 1871 by Arthur James Craddock ('Architect of Shimla')",
+      "Famous SkyBAR rooftop dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 177 265 8125",
+    "website": "https://www.willowbanks.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.961Z",
+    "updatedAt": "2026-08-22T21:20:26.961Z"
+  }
+]

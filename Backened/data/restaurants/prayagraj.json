@@ -1,0 +1,540 @@
+[
+  {
+    "restaurantId": "rst-pry-el-chico",
+    "name": "El Chico Restaurant",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "24/28, Mahatma Gandhi Marg, Civil Lines, Prayagraj (Allahabad), Uttar Pradesh 211001",
+    "latitude": 25.4529,
+    "longitude": 81.8346,
+    "cuisine": [
+      "Continental",
+      "North Indian",
+      "Mughlai",
+      "Bakery & Desserts"
+    ],
+    "famousDishes": [
+      "Baked Alaska",
+      "Chicken Stroganoff",
+      "Murg Makhani",
+      "Fish Florentine",
+      "Chocolate Fudge Cake"
+    ],
+    "menu": [
+      {
+        "food": "Chicken Stroganoff",
+        "price": 480
+      },
+      {
+        "food": "Murg Makhani with Butter Naan",
+        "price": 440
+      },
+      {
+        "food": "Legendary Baked Alaska",
+        "price": 260
+      },
+      {
+        "food": "Fish Florentine",
+        "price": 540
+      }
+    ],
+    "averageCostForOne": 700,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Fine Dining",
+      "In-House Bakery",
+      "Valet Parking",
+      "Cocktails"
+    ],
+    "specialFeatures": [
+      "Established in 1964, Prayagraj's most aristocratic dining institution frequented by prime ministers, writers, and high court judges",
+      "Famous for vintage Continental recipes and legendary Baked Alaska dessert"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 242 7075",
+    "website": "http://www.elchico.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-netram-mulchand",
+    "name": "Netram Mulchand & Sons",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "258, Sulaki Chauraha, Loknath, Kotwali, Prayagraj, Uttar Pradesh 211003",
+    "latitude": 25.4385,
+    "longitude": 81.8389,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Traditional Sweets",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Desi Ghee Poori Sabzi Thali (3 Sabzis + Raita + Gulab Jamun)",
+      "Dahi Jalebi",
+      "Imarti",
+      "Moong Dal Halwa"
+    ],
+    "menu": [
+      {
+        "food": "Desi Ghee Poori Sabzi Thali (Special)",
+        "price": 160
+      },
+      {
+        "food": "Desi Ghee Jalebi with Thick Dahi",
+        "price": 80
+      },
+      {
+        "food": "Hot Gulab Jamun (2 pcs)",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Heritage Setting",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Over 165 years of culinary heritage in the ancient Loknath lane, serving legendary crisp puris fried in pure desi ghee with pumpkin and aloo dum",
+      "A historic pilgrimage breakfast tradition"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 240 0555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-loknath-chaat",
+    "name": "Nirala Sweets & Loknath Chaat",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Loknath Chauraha, Kotwali Ward, Prayagraj, Uttar Pradesh 211003",
+    "latitude": 25.4382,
+    "longitude": 81.8392,
+    "cuisine": [
+      "Chaat",
+      "Street Food",
+      "Mithai",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Dahi Sonth Ki Tikki",
+      "Papdi Chaat",
+      "Kulfi Falooda",
+      "Rabri",
+      "Badam Milk"
+    ],
+    "menu": [
+      {
+        "food": "Desi Ghee Aloo Tikki Chaat",
+        "price": 60
+      },
+      {
+        "food": "Special Kulfi Falooda Rabri",
+        "price": 80
+      },
+      {
+        "food": "Hot Badam Milk (Kulhad)",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Street Counter",
+      "Pure Vegetarian",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "The epicenter of Prayagraj's nighttime street food culture, famous for crisp tikkis roasted on gigantic cast-iron tawas and rich saffron kulfi falooda",
+      "Unmatched old-city vibrant atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-jadibuti-lassi",
+    "name": "Raja Ram Lassi Bhandar",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Loknath Lane, Chowk, Prayagraj, Uttar Pradesh 211003",
+    "latitude": 25.4379,
+    "longitude": 81.8386,
+    "cuisine": [
+      "Traditional Beverages",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Thick Malai Lassi in Kulhad",
+      "Rabri Lassi",
+      "Kesar Pista Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Special Hand-churned Malai Lassi",
+        "price": 60
+      },
+      {
+        "food": "Rabri Topped Kesar Lassi",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Kulhad Serving",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Famous 100-year-old lassi shop where creamy curd is hand-churned with wooden madhani and served with a two-inch layer of thick clotted malai and rabri in mud pots",
+      "Legendary digestif after Loknath street feasts"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 93351 45678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-tandoor-hut",
+    "name": "Tandoor Hut",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Tashkand Marg, Near Patrika Crossing, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4542,
+    "longitude": 81.8378,
+    "cuisine": [
+      "Mughlai",
+      "North Indian",
+      "Tandoori",
+      "Rolls"
+    ],
+    "famousDishes": [
+      "Mutton Kakori Roll",
+      "Butter Chicken",
+      "Chicken Kali Mirch",
+      "Kadhai Paneer",
+      "Roomali Roti"
+    ],
+    "menu": [
+      {
+        "food": "Special Chicken Kali Mirch",
+        "price": 340
+      },
+      {
+        "food": "Butter Chicken (Half)",
+        "price": 320
+      },
+      {
+        "food": "Chicken Tikka Roll",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Outdoor Seating",
+      "Takeaway",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Civil Lines' most popular spot for late evening tandoori delicacies and succulent kebab rolls",
+      "Vibrant youth and family hangout"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 240 7654",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-sagar-ratna-civil-lines",
+    "name": "Sagar Ratna Civil Lines",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "15/1, Sardar Patel Marg, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4518,
+    "longitude": 81.8329,
+    "cuisine": [
+      "South Indian",
+      "North Indian",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Mysore Masala Dosa",
+      "Rava Idli",
+      "South Indian Thali",
+      "Filter Coffee",
+      "Paneer Dosa"
+    ],
+    "menu": [
+      {
+        "food": "Special Mysore Masala Dosa",
+        "price": 190
+      },
+      {
+        "food": "South Indian Executive Thali",
+        "price": 290
+      },
+      {
+        "food": "Filter Coffee",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Dependable vegetarian family dining serving authentic South Indian fermented crepes, steamed idlis, and aromatic filter kaapi",
+      "Clean, comfortable modern environment"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 242 0420",
+    "website": "https://sagarratna.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-pind-balluchi",
+    "name": "Pind Balluchi Prayagraj",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Hotel Milan Palace, 44/36, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4534,
+    "longitude": 81.8352,
+    "cuisine": [
+      "Punjabi",
+      "North Indian",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Dal Balluchi",
+      "Murgh Rara",
+      "Paneer Tikka",
+      "Amritsari Kulcha with Chole"
+    ],
+    "menu": [
+      {
+        "food": "Signature Dal Balluchi",
+        "price": 320
+      },
+      {
+        "food": "Murgh Rara Punjabi",
+        "price": 440
+      },
+      {
+        "food": "Paneer Tikka Shaslik",
+        "price": 360
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Theme Ambience",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Themed Punjabi village interior with mud walls, wooden doors, and rustic thalis",
+      "Rich slow-cooked gravies and clay tandoor breads"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 242 1505",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-hira-halwai",
+    "name": "Hira Halwai",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Zero Road Chauraha, Kotwali, Prayagraj, Uttar Pradesh 211003",
+    "latitude": 25.4412,
+    "longitude": 81.8365,
+    "cuisine": [
+      "Sweets",
+      "Breakfast",
+      "Street Food"
+    ],
+    "famousDishes": [
+      "Samosa with Chhole Sabzi",
+      "Gulab Jamun",
+      "Jalebi",
+      "Balushahi"
+    ],
+    "menu": [
+      {
+        "food": "Samosa Chhole Plate",
+        "price": 40
+      },
+      {
+        "food": "Hot Desi Ghee Gulab Jamun (2 pcs)",
+        "price": 40
+      },
+      {
+        "food": "Special Balushahi (250g)",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "Quick Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Chowk landmark famous for giant spicy samosas cracked open and smothered in tangy chickpea gravy and tamarind chutney",
+      "Favorite student haunt"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98391 22334",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-the-banyan-tree",
+    "name": "The Banyan Tree - Kanha Shyam",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Hotel Kanha Shyam, Civil Trenches, Dayanand Marg, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4502,
+    "longitude": 81.8315,
+    "cuisine": [
+      "Mughlai",
+      "Awadhi",
+      "Continental",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Galouti Kebab",
+      "Nalli Gosht Biryani",
+      "Paneer Lababdar",
+      "Buffet Spread",
+      "Moong Dal Halwa"
+    ],
+    "menu": [
+      {
+        "food": "Lavish Buffet Dinner",
+        "price": 1100
+      },
+      {
+        "food": "Galouti Kebab with Ulta Tawa Paratha",
+        "price": 580
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 420
+      }
+    ],
+    "averageCostForOne": 1100,
+    "priceCategory": "Premium",
+    "rating": 4.5,
+    "amenities": [
+      "Fine Dining",
+      "Valet Parking",
+      "Air Conditioning",
+      "Full Bar",
+      "Live Music"
+    ],
+    "specialFeatures": [
+      "Premier 4-star hotel dining room offering sophisticated multi-cuisine buffet spreads and classical Awadhi culinary masterpieces",
+      "Host to visiting dignitaries and VIPs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 256 0123",
+    "website": "https://www.hotelkanhashyam.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pry-sainik-sweets",
+    "name": "Sainik Foods & Sweets",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Ashok Nagar Chauraha, Near High Court, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4589,
+    "longitude": 81.8267,
+    "cuisine": [
+      "Chaat",
+      "North Indian",
+      "Mithai",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Pav Bhaji",
+      "Chole Bhature",
+      "Raj Kachori",
+      "Rasmalai",
+      "Badam Milk"
+    ],
+    "menu": [
+      {
+        "food": "Chole Bhature Special",
+        "price": 150
+      },
+      {
+        "food": "Butter Pav Bhaji",
+        "price": 140
+      },
+      {
+        "food": "Special Raj Kachori",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Quick Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "High Court area's favorite quick-service eatery known for high-standard hygiene, crispy raj kachoris, and fluffy bhatures",
+      "Bustling lunch crowd of lawyers and judges"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 242 4444",
+    "website": null,
+    "available": true
+  }
+]

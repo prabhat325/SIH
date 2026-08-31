@@ -1,0 +1,49 @@
+[
+    {
+        "guideId": "JAI-001",
+        "name": "Raja",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "City Tours",
+            "Amber Fort"
+        ],
+        "experienceYears": 12,
+        "rating": null,
+        "contact": "+91-9928130309",
+        "email": null,
+        "pricePerHour": 13,
+        "description": "Trusted Jaipur guide from AwayToIndia.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "JAI-002",
+        "name": "Nitin Pareek",
+        "city": "Jaipur",
+        "state": "Rajasthan",
+        "languages": [
+            "English",
+            "Spanish",
+            "Hindi"
+        ],
+        "specialization": [
+            "City Tours",
+            "Heritage Walks"
+        ],
+        "experienceYears": 12,
+        "rating": 5.0,
+        "contact": "+91-8109030897",
+        "email": "info@pinkfoottravel.com",
+        "pricePerHour": 13,
+        "description": "Licensed private guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

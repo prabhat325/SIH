@@ -1,0 +1,436 @@
+[
+  {
+    "restaurantId": "rst-bg-be-happy-cafe",
+    "name": "Be Happy Cafe",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Kalachakra Ground Road, Behind Japanese Temple, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6978,
+    "longitude": 84.9889,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Bakery & Desserts",
+      "Organic Café"
+    ],
+    "famousDishes": [
+      "Thin Crust Italian Pizza with Yak Cheese",
+      "Homemade Cinnamon Rolls",
+      "Apple Pie",
+      "Fresh Banana Pancake",
+      "Organic Herbal Teas"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Thin Crust Veg Pizza",
+        "price": 340
+      },
+      {
+        "food": "Fresh Baked Homemade Cinnamon Roll",
+        "price": 110
+      },
+      {
+        "food": "Organic Herbal Lemongrass Tea (Pot)",
+        "price": 80
+      },
+      {
+        "food": "Nutella Banana French Crepe",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Serene Garden Patio",
+      "Free Wi-Fi",
+      "Pure Vegetarian & Vegan Friendly",
+      "Books Corner"
+    ],
+    "specialFeatures": [
+      "Bodh Gaya's most cherished international traveler cafe near Kalachakra ground, run by a Canadian-Indian team serving freshly kneaded sourdough pizzas, warm cinnamon rolls, and aromatic pour-over coffee",
+      "Tranquil spiritual oasis"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 99342 87654",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bg-fujiya-green",
+    "name": "Fujiya Green Restaurant",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Near Japanese Temple & Kalachakra Ground, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6965,
+    "longitude": 84.9875,
+    "cuisine": [
+      "Japanese",
+      "Tibetan",
+      "Chinese",
+      "Asian Vegetarian"
+    ],
+    "famousDishes": [
+      "Japanese Vegetable Ramen",
+      "Tempura Udon",
+      "Steamed Tibetan Momos",
+      "Tofu Teriyaki Rice",
+      "Japanese Green Tea"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Vegetable Miso Ramen",
+        "price": 260
+      },
+      {
+        "food": "Crispy Vegetable Tempura Platter",
+        "price": 240
+      },
+      {
+        "food": "Steamed Tibetan Vegetable Momos (8 pcs)",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Japanese Tatami Style Low Tables",
+      "Free Wi-Fi",
+      "Mahabodhi Temple Proximity"
+    ],
+    "specialFeatures": [
+      "Established to cater to Buddhist monks and pilgrims from East Asia, serving authentic comforting bowls of Japanese miso broth, crispy tempura, and freshly folded momos",
+      "Calm and mindful atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98350 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bg-mohammed-restaurant",
+    "name": "Mohammed's Restaurant",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Near Main Gate Mahabodhi Temple, Main Market Road, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6952,
+    "longitude": 84.9912,
+    "cuisine": [
+      "Israeli",
+      "North Indian",
+      "Continental",
+      "Tibetan"
+    ],
+    "famousDishes": [
+      "Middle Eastern Shakshuka with Hummus",
+      "Falafel Laffa Wrap",
+      "Special Thali",
+      "Banana Lassi",
+      "Chai"
+    ],
+    "menu": [
+      {
+        "food": "Shakshuka with Hummus, Tahini & 2 Pitas",
+        "price": 220
+      },
+      {
+        "food": "Jumbo Falafel Wrap",
+        "price": 160
+      },
+      {
+        "food": "Indian Vegetarian Thali",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Outdoor Porch Seating",
+      "Temple Gate Location",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Long-running backpacker and meditation traveler favorite right outside the UNESCO World Heritage Mahabodhi Temple, famous for authentic Middle Eastern hummus and fresh salads",
+      "Friendly multilingual staff"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94312 34567",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bg-siam-thai-restaurant",
+    "name": "Siam Thai Restaurant",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Near Wat Thai Buddhist Temple, Gaya Road, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6989,
+    "longitude": 84.9852,
+    "cuisine": [
+      "Authentic Thai",
+      "Pan Asian",
+      "Vegetarian & Seafood"
+    ],
+    "famousDishes": [
+      "Pad Thai Noodles",
+      "Tom Yum Soup with Lemongrass",
+      "Thai Green Curry with Jasmine Rice",
+      "Papaya Som Tam Salad",
+      "Mango Sticky Rice (Seasonal)"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Pad Thai with Crushed Peanuts",
+        "price": 280
+      },
+      {
+        "food": "Fragrant Thai Green Coconut Curry with Rice",
+        "price": 340
+      },
+      {
+        "food": "Hot Tom Yum Soup",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Thai Temple Architecture",
+      "Air Conditioning",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Cooked by authentic Thai monastic culinary specialists located adjacent to the royal Thai Monastery, using imported galangal, kaffir lime leaves, and authentic Thai herbs",
+      "The most genuine Thai food in Eastern India"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 99344 55667",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bg-maya-heritage",
+    "name": "The Olive - Maya Heritage",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Hotel Maya Heritage, Temple Road, Near Mahabodhi Temple, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6941,
+    "longitude": 84.9898,
+    "cuisine": [
+      "North Indian",
+      "Pan Asian",
+      "Continental",
+      "Pure Vegetarian Options"
+    ],
+    "famousDishes": [
+      "Paneer Butter Masala",
+      "Dal Makhani",
+      "Crispy Asian Vegetables",
+      "Bihari Thali",
+      "Pasta Alfredo"
+    ],
+    "menu": [
+      {
+        "food": "Maya Special Vegetarian Thali",
+        "price": 340
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 290
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Fine Dining",
+      "Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Upscale hotel dining room on Temple Road providing spotless multi-cuisine dining tailored for international Buddhist delegations and cultural tourists",
+      "Comfortable contemporary setting"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 631 220 0411",
+    "website": "http://mayaheritage.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bg-tibet-om-cafe",
+    "name": "Tibet Om Cafe",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Behind Burmese Vihar, Main Road, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6961,
+    "longitude": 84.9925,
+    "cuisine": [
+      "Tibetan",
+      "Himalayan",
+      "Café"
+    ],
+    "famousDishes": [
+      "Steamed Cheese & Veg Momos",
+      "Tibetan Thukpa",
+      "Shaphaley",
+      "Butter Tea (Po Cha)",
+      "Pancake with Honey"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Tibetan Momos (8 pcs)",
+        "price": 140
+      },
+      {
+        "food": "Mixed Veggie Thukpa",
+        "price": 160
+      },
+      {
+        "food": "Traditional Po Cha (Butter Tea)",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 160,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Tibetan Prayer Flags Decor",
+      "Free Wi-Fi",
+      "Meditative Atmosphere"
+    ],
+    "specialFeatures": [
+      "Peaceful Tibetan eatery run by Himalayan refugees near the Burmese monastery, providing nourishing broths and hand-folded dumplings to meditation retreat participants",
+      "Soulful and economical"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bg-tirupati-south-indian",
+    "name": "Tirupati South Indian Restaurant",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Near Root Institute, Mastipur, Bodh Gaya, Bihar 824231",
+    "latitude": 24.7012,
+    "longitude": 84.9841,
+    "cuisine": [
+      "South Indian",
+      "Pure Vegetarian",
+      "Pilgrim Meals"
+    ],
+    "famousDishes": [
+      "Crispy Masala Dosa",
+      "Idli Sambar with Coconut Chutney",
+      "Uttapam",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Special Masala Dosa",
+        "price": 120
+      },
+      {
+        "food": "Steamed Idli Sambar (2 pcs)",
+        "price": 70
+      },
+      {
+        "food": "Filter Coffee",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Pure Vegetarian",
+      "Fast Service",
+      "Clean Family Dining"
+    ],
+    "specialFeatures": [
+      "Convenient pure-vegetarian haven near Buddhist retreat centers serving hygienic South Indian fermented idlis and dosas to international pilgrims",
+      "Quick and light dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-bg-hari-om-cafe",
+    "name": "Hari Om Cafe",
+    "city": "Bodh Gaya",
+    "state": "Bihar",
+    "address": "Near Mahabodhi Temple North Gate, Bodh Gaya, Bihar 824231",
+    "latitude": 24.6958,
+    "longitude": 84.9921,
+    "cuisine": [
+      "Café",
+      "Breakfast",
+      "Indian",
+      "Tibetan"
+    ],
+    "famousDishes": [
+      "Oatmeal Porridge with Fresh Fruits",
+      "Nutella Pancake",
+      "Masala Chai in Clay Pot",
+      "Veg Fried Rice"
+    ],
+    "menu": [
+      {
+        "food": "Nutritious Fruit & Honey Oatmeal",
+        "price": 120
+      },
+      {
+        "food": "Banana Honey Pancake",
+        "price": 130
+      },
+      {
+        "food": "Masala Chai Pot",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Temple Gate Vicinity",
+      "Outdoor Benches",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Cozy dawn gathering point right near the north entrance of the sacred Bodhi Tree complex where meditators begin their day with hot fruit porridge and chai",
+      "Warm hospitality"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 99391 23456",
+    "website": null,
+    "available": true
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "restaurantId": "rst-leh-tibetan-kitchen",
+    "name": "The Tibetan Kitchen",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Fort Road, Near Hotel Yak Tail, Leh, Ladakh 194101",
+    "latitude": 34.1628,
+    "longitude": 77.5845,
+    "cuisine": [
+      "Authentic Ladakhi",
+      "Tibetan",
+      "Bhutanese",
+      "Himalayan Hot Pots"
+    ],
+    "famousDishes": [
+      "Gyako (Traditional Giant Himalayan Hot Pot)",
+      "Mutton Shabhalay (Crispy Meat Pies)",
+      "Steamed Tingmo with Drukpa Chilli Pork",
+      "Thukpa",
+      "Thenthuk (Hand-pulled Noodles)",
+      "Butter Tea (Gur Gur Chai)"
+    ],
+    "menu": [
+      {
+        "food": "Gyako Imperial Himalayan Hot Pot (Serves 2-4 with Meats, Veggies & Broth)",
+        "price": 1200
+      },
+      {
+        "food": "Crispy Mutton Shabhalay (4 pcs)",
+        "price": 260
+      },
+      {
+        "food": "Traditional Hand-pulled Mutton Thenthuk",
+        "price": 220
+      },
+      {
+        "food": "Steamed Tingmo Breads with Spicy Datsi",
+        "price": 180
+      },
+      {
+        "food": "Authentic Ladakhi Butter Tea (Pot)",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Traditional Ladakhi Wood-carved Pavilion",
+      "Outdoor Garden Canopy",
+      "Air Conditioned Main Hall",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Leh's most celebrated dining destination, famous for its magnificent 'Gyako' hot pot simmered at the table inside a grand brass chimney stove and authentic hand-pulled Ladakhi noodles",
+      "Regarded by locals and travelers as an essential culinary pilgrimage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 256 088",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-alchi-kitchen",
+    "name": "Alchi Kitchen (Leh / Choglamsar)",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Choglamsar / Old Leh Road, Near Alchi Heritage Trail, Leh, Ladakh 194101",
+    "latitude": 34.1489,
+    "longitude": 77.5768,
+    "cuisine": [
+      "Indigenous Ladakhi Cuisine",
+      "Traditional Bakery",
+      "Himalayan Farm-to-Table"
+    ],
+    "famousDishes": [
+      "Chhutagi (Ladakhi Bow-Tie Pasta Soup)",
+      "Khambir (Traditional Ladakhi Sourdough Bread with Apricot Jam)",
+      "Skyu (Handmade Wheat Pasta with Root Veggies)",
+      "Walnut & Apricot Mok Moks",
+      "Ladakhi Tsampa Porridge"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Chhutagi Pasta Soup (Veg/Mutton)",
+        "price": 280
+      },
+      {
+        "food": "Fresh Baked Khambir with Local Apricot Jam & Yak Butter",
+        "price": 160
+      },
+      {
+        "food": "Handcrafted Ladakhi Skyu",
+        "price": 260
+      },
+      {
+        "food": "Sweet Apricot Dumplings (Mok Moks)",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "Open Display Kitchen",
+      "Female-Led Ladakhi Social Enterprise",
+      "Traditional Low Wooden Tables (Choktse)",
+      "Cooking Masterclasses"
+    ],
+    "specialFeatures": [
+      "Pioneering indigenous Ladakhi restaurant founded by Chef Nilza Wangmo (recipient of India's Nari Shakti Puraskar) dedicated entirely to elevating ancient home recipes like bow-tie pasta Chhutagi and artisan Khambir breads",
+      "Global culinary acclaim"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94191 78456",
+    "website": "http://alchikitchen.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-bon-appetit",
+    "name": "Bon Appetit",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Changspa Road, Down Green Lane, Leh, Ladakh 194101",
+    "latitude": 34.1678,
+    "longitude": 77.5794,
+    "cuisine": [
+      "Contemporary European",
+      "Wood-fired Pizza",
+      "Tandoori & Grills",
+      "Cocktails"
+    ],
+    "famousDishes": [
+      "Wood-fired Thin Crust Pizza",
+      "Grilled Lamb Chops with Mint Jus",
+      "Pasta Carbonara",
+      "Chocolate Mousse",
+      "Local Seabuckthorn Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Bon Appetit Special Sourdough Pizza",
+        "price": 460
+      },
+      {
+        "food": "Grilled Himalayan Lamb Chops",
+        "price": 580
+      },
+      {
+        "food": "Tagliatelle in Creamy Wild Mushroom Sauce",
+        "price": 390
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Minimalist Ladakhi Stone & Glass Architecture",
+      "Sunset Mountain Panorama Deck",
+      "Full Bar",
+      "Fireplace Lounge"
+    ],
+    "specialFeatures": [
+      "Striking architectural masterpiece hidden amidst barley fields in Changspa, designed using local granite and whitewashed clay, offering sublime uninterrupted views of the sunset over Stok Kangri mountain peak",
+      "Leh's finest romantic dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 251 533",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-gesmo-restaurant",
+    "name": "Gesmo Restaurant & German Bakery (Since 1977)",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Fort Road, Main Market, Leh, Ladakh 194101",
+    "latitude": 34.1634,
+    "longitude": 77.5838,
+    "cuisine": [
+      "Bakery",
+      "Italian",
+      "Breakfast",
+      "Café"
+    ],
+    "famousDishes": [
+      "Yak Cheese Pizza",
+      "Yak Cheese Burger",
+      "Fresh Cinnamon Rolls",
+      "Apple Pie with Vanilla Custard",
+      "Hearty Breakfast Platter"
+    ],
+    "menu": [
+      {
+        "food": "Signature Fresh Yak Cheese Thin Crust Pizza",
+        "price": 380
+      },
+      {
+        "food": "Homemade Yak Cheese Burger with Fries",
+        "price": 260
+      },
+      {
+        "food": "Legendary Fresh Cinnamon Roll",
+        "price": 90
+      },
+      {
+        "food": "Warm Apple Strudel Pie",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Historic 1977 Bakery",
+      "Free Wi-Fi",
+      "Takeaway Trekking Snacks",
+      "Cozy Wooden Interior"
+    ],
+    "specialFeatures": [
+      "Leh's oldest European bakery operating on Fort Road since 1977, world-famous among mountaineers and trekkers for rich artisanal yak cheese pizzas, soft cinnamon buns, and power-packed breakfast platters",
+      "An irreplaceable institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 252 505",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-chopsticks-noodle-bar",
+    "name": "Chopsticks Noodle Bar",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Fort Road, Near State Bank of India, Leh, Ladakh 194101",
+    "latitude": 34.1631,
+    "longitude": 77.5841,
+    "cuisine": [
+      "Pan Asian",
+      "Thai",
+      "Japanese",
+      "Tibetan Fusion"
+    ],
+    "famousDishes": [
+      "Steamed Dim Sums",
+      "Pad Thai Noodles",
+      "Thai Red Curry",
+      "Crispy Sesame Chilli Chicken",
+      "Ramen Bowl"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Crystal Dim Sums (6 pcs)",
+        "price": 240
+      },
+      {
+        "food": "Traditional Pad Thai with Peanuts",
+        "price": 320
+      },
+      {
+        "food": "Himalayan Spicy Miso Ramen",
+        "price": 310
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Contemporary Asian Decor",
+      "Fast Service",
+      "Wine & Beer"
+    ],
+    "specialFeatures": [
+      "Vibrant, stylish Asian diner on Fort Road serving piping hot steaming bowls of broth ramen, authentic wok-tossed pad thai, and delicate dim sums after high-altitude mountain excursions",
+      "Always packed with enthusiastic diners"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 254 000",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-lalas-cafe",
+    "name": "Lala's Cafe",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Main Old Town Alley, Below Leh Royal Palace, Leh, Ladakh 194101",
+    "latitude": 34.1652,
+    "longitude": 77.5867,
+    "cuisine": [
+      "Café",
+      "Traditional Ladakhi Snacks",
+      "Art Gallery"
+    ],
+    "famousDishes": [
+      "Ladakhi Saffron Kahwa",
+      "Fresh Baked Khambir with Apricot Jam",
+      "Yak Cheese Sandwiches",
+      "Herbal Mint Tea"
+    ],
+    "menu": [
+      {
+        "food": "Saffron Almond Ladakhi Kahwa (Pot)",
+        "price": 110
+      },
+      {
+        "food": "Fresh Khambir Sourdough Toast with Yak Butter",
+        "price": 120
+      },
+      {
+        "food": "Yak Cheese & Tomato Sandwich",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Restored 9-room Traditional Mud-Brick Heritage House",
+      "Old Town Leh Views",
+      "Rooftop Statue of Maitreya Buddha",
+      "Artisan Photography Gallery"
+    ],
+    "specialFeatures": [
+      "Set in a meticulously restored traditional 19th-century mud-brick townhouse in the historic Old Town of Leh beneath Leh Palace, saved from demolition by Tibet Heritage Fund",
+      "Magical rooftop photography perch"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-lamayuru-restaurant",
+    "name": "Lamayuru Restaurant",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Fort Road, Near Municipal Market, Leh, Ladakh 194101",
+    "latitude": 34.1625,
+    "longitude": 77.5835,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Ladakhi",
+      "Israeli",
+      "Indian"
+    ],
+    "famousDishes": [
+      "Veg Thukpa",
+      "Mushroom Cheese Khambir",
+      "Israeli Falafel Hummus Platter",
+      "Shakshuka",
+      "Special Veg Thali"
+    ],
+    "menu": [
+      {
+        "food": "Nutritious Veg Mountain Thukpa",
+        "price": 180
+      },
+      {
+        "food": "Hummus Falafel Salad Platter",
+        "price": 240
+      },
+      {
+        "food": "Executive Vegetarian Thali",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian Friendly",
+      "Cozy Wooden Benches",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Friendly and unpretentious traveler diner on Fort Road catering to international trekkers with hearty vegetarian portions, nutritious soups, and comforting Israeli breakfasts",
+      "Warm and welcoming service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 250 144",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-summer-harvest",
+    "name": "Summer Harvest",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Fort Road, Leh, Ladakh 194101",
+    "latitude": 34.1629,
+    "longitude": 77.5848,
+    "cuisine": [
+      "Tibetan",
+      "Ladakhi Non-Veg",
+      "Mughlai",
+      "Kashmiri"
+    ],
+    "famousDishes": [
+      "Steamed Mutton Momos",
+      "Mutton Shabhalay",
+      "Kashmiri Mutton Rogan Josh",
+      "Thenthuk",
+      "Chilli Chicken"
+    ],
+    "menu": [
+      {
+        "food": "Handmade Steamed Mutton Momos (8 pcs)",
+        "price": 220
+      },
+      {
+        "food": "Mutton Shabhalay (2 pcs)",
+        "price": 230
+      },
+      {
+        "food": "Mutton Rogan Josh with Rice",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Traditional Wooden Decor",
+      "Fast Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Long-running favorite on Fort Road serving exceptionally juicy mutton momos and authentic crispy meat pies (shabhalay) alongside comforting Kashmiri curries",
+      "Popular with local Ladakhi guides"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 258 001",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-wonderland-cafe",
+    "name": "Wonderland Restaurant & Coffee House",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Changspa Road, Near Upper Gompa, Leh, Ladakh 194101",
+    "latitude": 34.1685,
+    "longitude": 77.5788,
+    "cuisine": [
+      "Israeli",
+      "Breakfast",
+      "Café",
+      "Italian"
+    ],
+    "famousDishes": [
+      "Israeli Shakshuka with Tahini & Pita",
+      "Muesli Curd Apricot Bowl",
+      "Wood-fired Pizza",
+      "Espresso",
+      "Banana Nutella Pancakes"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Shakshuka with Salad & Pita",
+        "price": 240
+      },
+      {
+        "food": "Fresh Apricot Honey Muesli Bowl",
+        "price": 180
+      },
+      {
+        "food": "Wood-fired Margherita Pizza",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 260,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Open Garden Patio",
+      "Free Wi-Fi",
+      "Hammocks Under Willow Trees"
+    ],
+    "specialFeatures": [
+      "Lush garden cafe shaded by weeping willow trees in Changspa, known for nourishing muesli breakfasts, fresh fruit juices, and relaxed traveler vibes before mountain treks",
+      "Chillout haven"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94191 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-leh-leh-view-rooftop",
+    "name": "Leh View Rooftop Restaurant",
+    "city": "Leh",
+    "state": "Ladakh",
+    "address": "Main Bazaar, Near Jama Masjid, Leh, Ladakh 194101",
+    "latitude": 34.1641,
+    "longitude": 77.5856,
+    "cuisine": [
+      "North Indian",
+      "Ladakhi",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Paneer Butter Masala",
+      "Dal Tadka",
+      "Tibetan Thukpa",
+      "Butter Chicken",
+      "Masala Chai"
+    ],
+    "menu": [
+      {
+        "food": "Special Leh View Veg Thali",
+        "price": 260
+      },
+      {
+        "food": "Butter Chicken with Butter Naan",
+        "price": 360
+      },
+      {
+        "food": "Tibetan Chicken Thukpa",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Rooftop View of Leh Palace & Shanti Stupa",
+      "Open Air Seating",
+      "Main Bazaar Proximity"
+    ],
+    "specialFeatures": [
+      "Rooftop terrace overlooking the cobblestones of the pedestrianized Main Bazaar with direct sightlines up to the 17th-century Leh Royal Palace and hilltop Tsemo Monastery",
+      "Superb evening vantage point"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1982 253 456",
+    "website": null,
+    "available": true
+  }
+]

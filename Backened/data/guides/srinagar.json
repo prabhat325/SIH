@@ -1,0 +1,26 @@
+[
+    {
+        "guideId": "SRI-001",
+        "name": "Oscar Tours Guide",
+        "city": "Srinagar",
+        "state": "Jammu and Kashmir",
+        "languages": [
+            "English",
+            "Hindi",
+            "Urdu"
+        ],
+        "specialization": [
+            "Dal Lake",
+            "Heritage"
+        ],
+        "experienceYears": 10,
+        "rating": null,
+        "contact": "+91-9906707573",
+        "email": null,
+        "pricePerHour": 11,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

@@ -1,0 +1,564 @@
+[
+  {
+    "restaurantId": "rst-pat-pind-balluchi-biscomaun",
+    "name": "Pind Balluchi (18th Floor Revolving)",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "18th Floor, Biscomaun Tower, Gandhi Maidan, Patna, Bihar 800001",
+    "latitude": 25.6178,
+    "longitude": 85.1412,
+    "cuisine": [
+      "Bihari",
+      "North Indian",
+      "Punjabi",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Bihari Sattu Litti Chokha with Desi Ghee",
+      "Dal Balluchi",
+      "Dhabey Da Kukkad",
+      "Mutton Rogan Josh",
+      "Kadhai Paneer"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Bihari Litti Chokha Platter",
+        "price": 280
+      },
+      {
+        "food": "Signature Dal Balluchi (Slow-cooked)",
+        "price": 340
+      },
+      {
+        "food": "Dhabey Da Kukkad Punjabi",
+        "price": 460
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 520
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Revolving Panoramic Dining Room",
+      "360-Degree Patna & River Ganga Views",
+      "Full Bar",
+      "Valet Parking",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Patna's premier iconic dining venue perched on the 18th floor of Biscomaun Tower, slowly revolving to provide breathtaking aerial vistas across Gandhi Maidan and the river Ganges",
+      "Rustic Punjabi village interior in the sky"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 221 9101",
+    "website": "http://pindballuchi.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-harilals-boring-road",
+    "name": "Harilal's Sweets & Restaurant",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "Boring Road Crossing, Sri Krishna Puri, Patna, Bihar 800001",
+    "latitude": 25.6134,
+    "longitude": 85.1145,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Bihari Sweets",
+      "North Indian",
+      "Chaat"
+    ],
+    "famousDishes": [
+      "Special Litti Chokha",
+      "Bihari Anarsa & Khaja",
+      "Paneer Butter Masala",
+      "Raj Kachori",
+      "Kesaria Rasmalai"
+    ],
+    "menu": [
+      {
+        "food": "Desi Ghee Litti Chokha (2 pcs with 3 Chokhas & Chutney)",
+        "price": 160
+      },
+      {
+        "food": "Traditional Bihari Khaja (500g)",
+        "price": 220
+      },
+      {
+        "food": "Executive Vegetarian Thali",
+        "price": 290
+      },
+      {
+        "food": "Special Raj Kachori",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Sweets & Gift Packaging",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Patna's most trusted culinary name for pure vegetarian dining and authentic regional sweet delicacies, including crispy layered Silao Khaja and sesame-coated Anarsa",
+      "A beloved family institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 254 0055",
+    "website": "https://harilals.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-bansi-vihar",
+    "name": "Bansi Vihar (Since 1988)",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "Fraser Road, Near Maurya Lok Complex, Dak Bunglow, Patna, Bihar 800001",
+    "latitude": 25.6112,
+    "longitude": 85.1378,
+    "cuisine": [
+      "South Indian",
+      "Pure Vegetarian",
+      "Filter Coffee"
+    ],
+    "famousDishes": [
+      "Special Butter Masala Dosa",
+      "Onion Rava Masala Dosa",
+      "Idli Vada Sambar",
+      "South Indian Thali",
+      "Madras Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Special Butter Masala Dosa",
+        "price": 170
+      },
+      {
+        "food": "Onion Rava Masala Dosa",
+        "price": 185
+      },
+      {
+        "food": "Authentic Filter Coffee",
+        "price": 65
+      },
+      {
+        "food": "Mini Tiffin Combo (Idli, Vada, Mini Dosa)",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Central Dak Bunglow Location",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Patna's undisputed pioneer of South Indian dining established in 1988 on Fraser Road, maintaining impeccable fermentation standards for crisp dosas and aromatic filter coffee",
+      "Everlasting city favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 222 5547",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-biryani-mahal",
+    "name": "Biryani Mahal",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "Dak Bunglow Road, Near Maurya Lok, Patna, Bihar 800001",
+    "latitude": 25.6098,
+    "longitude": 85.1365,
+    "cuisine": [
+      "Mughlai",
+      "Biryani",
+      "Awadhi Non-Veg"
+    ],
+    "famousDishes": [
+      "Patna Mutton Dum Biryani (with Aloo & Egg)",
+      "Chicken Biryani",
+      "Chicken Reshmi Kebab",
+      "Mutton Chaap",
+      "Firni in Matka"
+    ],
+    "menu": [
+      {
+        "food": "Special Mutton Dum Biryani",
+        "price": 260
+      },
+      {
+        "food": "Chicken Dum Biryani (Full)",
+        "price": 220
+      },
+      {
+        "food": "Chicken Reshmi Kebab (6 pcs)",
+        "price": 240
+      },
+      {
+        "food": "Matka Phirni",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Quick Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Patna's most famous biryani destination on Dak Bunglow Road, renowned for its long-grain Kolkata-Awadhi style fragrant saffron rice cooked with tender mutton and soft potatoes",
+      "Perpetually packed"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 222 3444",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-digha-litti-chokha",
+    "name": "Bhojpuri Rasoi / Digha Litti Chokha",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "Near Digha Ghat, Ganga Pathway Road, Patna, Bihar 800011",
+    "latitude": 25.6541,
+    "longitude": 85.0921,
+    "cuisine": [
+      "Traditional Bhojpuri",
+      "Bihari Street Food",
+      "Pure Desi Ghee"
+    ],
+    "famousDishes": [
+      "Kanda (Cow-Dung Cake) Roasted Litti with Baingan-Alu Chokha & Pure Ghee",
+      "Sattu Sharbat",
+      "Jalebi",
+      "Kheer in Clay Kulhad"
+    ],
+    "menu": [
+      {
+        "food": "Special Desi Ghee Wood-Fire Litti Chokha (2 pcs)",
+        "price": 80
+      },
+      {
+        "food": "Chilled Masala Sattu Sharbat (Glass)",
+        "price": 40
+      },
+      {
+        "food": "Kulhad Kheer",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Traditional Open Wood-Fire Hearth",
+      "Outdoor River Breeze Seating",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Authentic rural Bhojpuri preparation where spiced sattu-stuffed dough balls are roasted directly on natural dried cow-dung cake coals (upla) and immersed in liquid desi ghee before your eyes",
+      "Unmatched rustic aroma"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94310 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-17-degrees-maurya",
+    "name": "17 Degrees - Hotel Maurya",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "Hotel Maurya, Fraser Road, South Gandhi Maidan, Patna, Bihar 800001",
+    "latitude": 25.6165,
+    "longitude": 85.1425,
+    "cuisine": [
+      "Continental",
+      "North Indian",
+      "Pan Asian",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Roast Lamb Chops",
+      "Maurya Butter Chicken",
+      "Crispy Prawns",
+      "Paneer Lababdar",
+      "Cheesecake"
+    ],
+    "menu": [
+      {
+        "food": "Maurya Signature Butter Chicken",
+        "price": 560
+      },
+      {
+        "food": "Grilled Himalayan Trout Fish",
+        "price": 680
+      },
+      {
+        "food": "Dal Maurya (Overnight Cooked)",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Premium",
+    "rating": 4.6,
+    "amenities": [
+      "Rooftop Poolside Terrace",
+      "Full Bar",
+      "Valet Parking",
+      "Live Music",
+      "5-Star Hotel Ambience"
+    ],
+    "specialFeatures": [
+      "Patna's premier luxury rooftop poolside restaurant inside the historic Hotel Maurya, hosting visiting national leaders, corporate captains, and celebrities for over four decades",
+      "Sophisticated fine dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 220 3040",
+    "website": "http://maurya.com/dining",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-kapil-devs-elevens",
+    "name": "Kapil Dev's Elevens",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "Dumraon Palace, Fraser Road, Dak Bunglow, Patna, Bihar 800001",
+    "latitude": 25.6121,
+    "longitude": 85.1382,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Pan Asian",
+      "Cocktails"
+    ],
+    "famousDishes": [
+      "1983 World Cup Platter",
+      "Murg Tikka Mirza",
+      "Dal Elevens",
+      "Fish Finger with Tartar Sauce",
+      "Mocktails"
+    ],
+    "menu": [
+      {
+        "food": "Kapil's Special Tandoori Platter",
+        "price": 540
+      },
+      {
+        "food": "Dal Elevens Makhani",
+        "price": 320
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 360
+      }
+    ],
+    "averageCostForOne": 600,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Cricket Memorabilia Decor",
+      "Air Conditioning",
+      "Full Bar",
+      "Family Dining"
+    ],
+    "specialFeatures": [
+      "Cricket-themed restaurant established by legendary 1983 World Cup winning captain Kapil Dev, decorated with authentic cricket bats, jerseys, and trophies",
+      "Great family entertainment ambiance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 220 5411",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-sujata-sweets",
+    "name": "Sujata Sweets & Restaurant",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "Bailey Road, Near High Court, Patna, Bihar 800001",
+    "latitude": 25.6105,
+    "longitude": 85.1245,
+    "cuisine": [
+      "Bihari Sweets",
+      "Chaat",
+      "North Indian Snacks"
+    ],
+    "famousDishes": [
+      "Bihari Chandrakala",
+      "Pedakiya (Gujiya)",
+      "Kesar Peda",
+      "Samosa Chaat",
+      "Dahi Vada"
+    ],
+    "menu": [
+      {
+        "food": "Special Bihari Chandrakala (500g)",
+        "price": 260
+      },
+      {
+        "food": "Traditional Mawa Pedakiya (500g)",
+        "price": 240
+      },
+      {
+        "food": "Desi Ghee Samosa Chaat",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "High Court Vicinity",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Famous confectioner located near Patna High Court renowned for traditional Bihari festive sweets like Chandrakala stuffed with rich dry-fruit mawa and flaky Pedakiyas",
+      "Local landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 223 5566",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-mainland-china",
+    "name": "Mainland China Patna",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "5th Floor, City Centre Mall, South Gandhi Maidan, Patna, Bihar 800001",
+    "latitude": 25.6158,
+    "longitude": 85.1438,
+    "cuisine": [
+      "Authentic Chinese",
+      "Cantonese",
+      "Pan Asian Fine Dining"
+    ],
+    "famousDishes": [
+      "Steamed Dim Sums",
+      "Drums of Heaven",
+      "Jumbo Prawns in XO Sauce",
+      "Hakka Noodles",
+      "Honey Noodles with Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Dim Sum Platter",
+        "price": 440
+      },
+      {
+        "food": "Chicken in Chilli Plum Sauce",
+        "price": 480
+      },
+      {
+        "food": "Yang Chow Fried Rice",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Premium",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "Mall Location",
+      "Valet Parking",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Premier Chinese fine-dining restaurant in the capital bringing master Cantonese stir-fries, delicate dim sums, and oriental hospitality to Gandhi Maidan",
+      "Celebrated for special occasions"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 250 0888",
+    "website": "https://www.speciality.co.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pat-kaveri-restaurant",
+    "name": "Kaveri Restaurant - Maurya Lok",
+    "city": "Patna",
+    "state": "Bihar",
+    "address": "Maurya Lok Complex, Dak Bunglow Road, Patna, Bihar 800001",
+    "latitude": 25.6118,
+    "longitude": 85.1368,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Chaat"
+    ],
+    "famousDishes": [
+      "Special Chole Bhature",
+      "Paneer Butter Masala",
+      "Masala Dosa",
+      "Pav Bhaji",
+      "Kulfi"
+    ],
+    "menu": [
+      {
+        "food": "Special Chole Bhature",
+        "price": 140
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 130
+      },
+      {
+        "food": "Executive Veg Thali",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Maurya Lok Shopping Hub",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Maurya Lok Complex's classic family dining staple since the 1980s, popular with shoppers and office goers for fluffy bhaturas, dosas, and quick vegetarian lunches",
+      "Reliable and fast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 612 222 1544",
+    "website": null,
+    "available": true
+  }
+]

@@ -1,0 +1,437 @@
+[
+  {
+    "restaurantId": "rst-chn-murugan-idli-shop",
+    "name": "Murugan Idli Shop",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "77-1/A, G.N. Chetty Road, T. Nagar, Chennai, Tamil Nadu 600017",
+    "latitude": 13.0412,
+    "longitude": 80.2365,
+    "cuisine": [
+      "Authentic Tamil Tiffin",
+      "Mallipoo Idli Specialist",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Steaming Soft Mallipoo Idlis with 4 Chutneys (Tomato, Coconut, Mint, Coriander)",
+      "Podi Masala Ghee Dosa",
+      "Gunpowder Podi Idli (Drenched in Pure Ghee)",
+      "Madurai Jigarthanda",
+      "Paniaram"
+    ],
+    "menu": [
+      {
+        "food": "Signature Mallipoo Steamed Idlis (Pair with 4 Chutneys & Sambar)",
+        "price": 60
+      },
+      {
+        "food": "Ghee Podi Masala Dosa",
+        "price": 140
+      },
+      {
+        "food": "Ghee Podi Idli (Plate)",
+        "price": 110
+      },
+      {
+        "food": "Special Madurai Jigarthanda",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Plantain Leaf Dining",
+      "Fast Table Turnover"
+    ],
+    "specialFeatures": [
+      "World-famous Tamil tiffin institution originating from Madurai, celebrated for cloud-soft jasmine-like idlis ('Mallipoo Idli') accompanied by an endless quadruple chutney service and spicy ghee gunpowder podi",
+      "The gold standard of Tamil breakfast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 2815 5449",
+    "website": "http://muruganidlishop.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-chn-buhari-hotel-mount-road",
+    "name": "Buhari Hotel (Birthplace of Chicken 65 - Since 1951)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "83, Anna Salai (Mount Road), Opposite Casino Theatre, Chennai, Tamil Nadu 600002",
+    "latitude": 13.0645,
+    "longitude": 80.2712,
+    "cuisine": [
+      "Mughlai",
+      "Tamil Muslim Biryani",
+      "Birthplace of Chicken 65"
+    ],
+    "famousDishes": [
+      "The Original Chicken 65 (Invented Here in 1965 by A.M. Buhari)",
+      "Chicken 78 & Chicken 82",
+      "Buhari Special Mutton Dum Biryani (Seeraga Samba)",
+      "Ceylon Egg Parotta",
+      "Buhari Madras Tea"
+    ],
+    "menu": [
+      {
+        "food": "The Original 1965 Chicken 65 (Crispy Deep Fried Spiced Chicken)",
+        "price": 290
+      },
+      {
+        "food": "Buhari Special Mutton Dum Biryani with Brinjal Gravy & Raita",
+        "price": 340
+      },
+      {
+        "food": "Ceylon Stuffed Egg Parotta",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Historic 1951 Heritage Restaurant",
+      "Air Conditioning",
+      "Mount Road Cultural Landmark"
+    ],
+    "specialFeatures": [
+      "Founded in 1951 by A.M. Buhari on Mount Road, world-famous in international gastronomy as the indisputable birthplace of 'Chicken 65' created in the year 1965",
+      "A milestone in global Indian food history"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 2855 1199",
+    "website": "http://thebuhari.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-chn-saravana-bhavan-radhakrishnan",
+    "name": "Hotel Saravana Bhavan (Original Radhakrishnan Salai)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "19, Dr. Radhakrishnan Salai, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0456,
+    "longitude": 80.2612,
+    "cuisine": [
+      "Pure Vegetarian South Indian",
+      "Grand Meals",
+      "Filter Coffee"
+    ],
+    "famousDishes": [
+      "Special South Indian Thali on Plantain Leaf (14 curries, payasam, appalam)",
+      "Ghee Roast Paper Dosa",
+      "Rava Khichdi",
+      "Curd Vada",
+      "Madras Filter Kaapi"
+    ],
+    "menu": [
+      {
+        "food": "Special South Indian Banana Leaf Meals",
+        "price": 220
+      },
+      {
+        "food": "Grand Ghee Roast Paper Dosa (2.5 Feet)",
+        "price": 160
+      },
+      {
+        "food": "Authentic Filter Coffee",
+        "price": 45
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Worldwide Brand Flagship",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Founded in 1981 by P. Rajagopal in Chennai, growing from a small Mylapore diner into the world's largest South Indian vegetarian restaurant chain while maintaining uncompromising quality",
+      "The global face of Tamil vegetarian cuisine"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 2811 5005",
+    "website": "http://saravanabhavan.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-chn-rayars-mess-mylapore",
+    "name": "Rayar's Mess (Since 1935)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "13/2, Arundale Street, Off Kutchery Road, Mylapore, Chennai, Tamil Nadu 600004",
+    "latitude": 13.0345,
+    "longitude": 80.2689,
+    "cuisine": [
+      "Traditional Mylapore Tiffin",
+      "Pure Vegetarian Brahmin Mess"
+    ],
+    "famousDishes": [
+      "Hot Crispy Medu Vada (Straight from the oil pan)",
+      "Ven Pongal with Desi Ghee & Cashews",
+      "Rava Dosa",
+      "Gulab Jamun",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Ven Pongal with Ghee & Coconut Chutney",
+        "price": 55
+      },
+      {
+        "food": "Hot Medu Vada (1 pc with Chutney & Sambar)",
+        "price": 30
+      },
+      {
+        "food": "Pure Filter Coffee",
+        "price": 35
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Historic 1935 Hidden Alley Mess",
+      "Pure Vegetarian",
+      "Morning (7-10 AM) & Evening (3-6 PM) Only"
+    ],
+    "specialFeatures": [
+      "Hidden in a narrow residential lane behind Kapaleeshwarar Temple in Mylapore since 1935, celebrated for blistering-hot crunchy Medu Vadas, steaming ghee Pongal, and timeless Mylapore Brahmin tiffin culture",
+      "Legendary hidden institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 99404 25515",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-chn-dakshin-crowne-plaza",
+    "name": "Dakshin - Crowne Plaza Chennai Adyar Park",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "Crowne Plaza Chennai Adyar Park, 132, TT Krishnamachari Road, Alwarpet, Chennai, Tamil Nadu 600018",
+    "latitude": 13.0312,
+    "longitude": 77.2512,
+    "cuisine": [
+      "Royal South Indian Fine Dining",
+      "Tamil",
+      "Chettinad",
+      "Kerala",
+      "Andhra & Mangalore"
+    ],
+    "famousDishes": [
+      "Dakshin Seafood Platter",
+      "Chettinad Kozhi Biryani",
+      "Meen Pollichathu",
+      "Banana Dosa",
+      "Elaneer Payasam",
+      "Iyer's Trolley Live Appams"
+    ],
+    "menu": [
+      {
+        "food": "Dakshin Grand Royal 5-State Tasting Menu",
+        "price": 3800
+      },
+      {
+        "food": "Authentic Chettinad Kozhi Curry with Appams",
+        "price": 1100
+      },
+      {
+        "food": "Elaneer Payasam (Tender Coconut Kheer)",
+        "price": 420
+      }
+    ],
+    "averageCostForOne": 3200,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Temple Sanctuary Architecture",
+      "Live Carnatic Classical Flute & Veena",
+      "Full Bar",
+      "Valet Parking",
+      "Silver Plate Service"
+    ],
+    "specialFeatures": [
+      "Created in 1989 to celebrate the royal and temple cuisines of all 5 southern states, featuring live classical Carnatic instrumentalists and the famous Iyer's Trolley cooking lacy appams and mini banana dosas table-side",
+      "The undisputed temple of South Indian fine dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 2499 4101",
+    "website": "https://www.ihg.com/crowneplaza/hotels/us/en/chennai/maain/hoteldetail",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-chn-nair-mess-chepauk",
+    "name": "Nair Mess (Since 1961)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "22, Mohammed Abdullah Sahib Street, Chepauk, Near MA Chidambaram Cricket Stadium, Chennai, Tamil Nadu 600005",
+    "latitude": 13.0612,
+    "longitude": 80.2789,
+    "cuisine": [
+      "Kerala-Tamil Non-Veg Meals",
+      "Seafood Specialty",
+      "Chepauk Cricket Heritage"
+    ],
+    "famousDishes": [
+      "Vanjaram Fish Fry (Kingfish Tawa Fry)",
+      "Nethili Fry (Anchovies)",
+      "Prawn Masala",
+      "Chepauk Non-Veg Banana Leaf Meals",
+      "Crab Roast"
+    ],
+    "menu": [
+      {
+        "food": "Non-Veg Meals on Plantain Leaf (Unlimited Rice, Meen Kozhambu & Gravies)",
+        "price": 160
+      },
+      {
+        "food": "Vanjaram (Kingfish) Tawa Fry Slice",
+        "price": 280
+      },
+      {
+        "food": "Prawn Thokku Masala",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic Chepauk Alley Mess",
+      "Cricket Stadium Proximity",
+      "Plantain Leaf Table Service"
+    ],
+    "specialFeatures": [
+      "Founded in 1961 right beside Chepauk Cricket Stadium, the historic matchday haven for legendary Indian cricketers and cricket commentators for spicy fish curry meals and crispy fried Vanjaram slices",
+      "Chennai sports and food folklore"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 2841 0032",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-chn-dindigul-thalappakatti",
+    "name": "Dindigul Thalappakatti (Since 1957)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "Near Gemini Flyover, Nungambakkam High Road, Chennai, Tamil Nadu 600034",
+    "latitude": 13.0589,
+    "longitude": 80.2456,
+    "cuisine": [
+      "Tamil Biryani",
+      "Dindigul Heritage",
+      "Non-Vegetarian"
+    ],
+    "famousDishes": [
+      "Dindigul Mutton Dum Biryani (Fragrant Short-Grain Seeraga Samba Rice)",
+      "Thalappakatti Mutton Sukka",
+      "Chicken 65",
+      "Kola Urundai (Minced Mutton Balls)",
+      "Black Pepper Chicken"
+    ],
+    "menu": [
+      {
+        "food": "Famous Thalappakatti Mutton Biryani",
+        "price": 340
+      },
+      {
+        "food": "Mutton Kola Urundai (4 pcs)",
+        "price": 220
+      },
+      {
+        "food": "Thalappakatti Chicken Chukka",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Family Seating",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Founded in 1957 by Nagasamy Naidu (who famously wore a 'Thalappa' turban), celebrated across South India for its distinctive aromatic Seeraga Samba short-grain biryani cooked with grass-fed tender mutton",
+      "Iconic Tamil biryani tradition"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 4855 5555",
+    "website": "http://thalappakatti.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-chn-sangeetha-veg",
+    "name": "Sangeetha Veg Restaurant (RA Puram)",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "7, 10th Cross Street, RA Puram, Chennai, Tamil Nadu 600028",
+    "latitude": 13.0245,
+    "longitude": 80.2512,
+    "cuisine": [
+      "Pure Vegetarian",
+      "South Indian Tiffin",
+      "Filter Coffee"
+    ],
+    "famousDishes": [
+      "Mini Tiffin Combo (Mini Masala Dosa, Idli, Vada, Rava Khichdi, Kesari & Coffee)",
+      "Ghee Onion Rava Dosa",
+      "Filter Coffee",
+      "Poori Masala"
+    ],
+    "menu": [
+      {
+        "food": "Grand Mini Tiffin Platter with Coffee",
+        "price": 160
+      },
+      {
+        "food": "Special Ghee Onion Rava Masala Dosa",
+        "price": 130
+      },
+      {
+        "food": "Steamed Idlis with Sambar & 3 Chutneys",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Chennai's beloved everyday family dining staple, famous for its comprehensive Mini Tiffin breakfast platters and impeccable filter coffee in a clean, modern setting",
+      "Perpetually reliable"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 2493 7878",
+    "website": "http://sangeethaveg.com",
+    "available": true
+  }
+]

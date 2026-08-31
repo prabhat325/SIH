@@ -1,0 +1,255 @@
+[
+  {
+    "hotelId": "bbi-mayfair-lagoon",
+    "name": "Mayfair Lagoon, Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "8-B Jaydev Vihar, Bhubaneswar, Odisha 751013",
+    "latitude": 20.3012,
+    "longitude": 85.8245,
+    "pricePerNight": 12500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Lagoon Swimming Pool with Waterbodies",
+      "Mayfair Spa",
+      "Tea Pot 24/7 Buffet",
+      "Kanika Authentic Odia Cuisine",
+      "Lemon Grass Pan-Asian",
+      "The Baron Bar",
+      "Bowling Alley"
+    ],
+    "specialFeatures": [
+      "10-acre eco-luxury paradise built around a picturesque natural lagoon with swans, floating villas and historic Odia temple architecture",
+      "Kanika - the definitive temple of authentic Odia gastronomy"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 666 0101",
+    "website": "https://www.mayfairhotels.com/mayfair-lagoon/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.120Z",
+    "updatedAt": "2026-08-22T21:20:27.120Z"
+  },
+  {
+    "hotelId": "bbi-welcomhotel-bhubaneswar",
+    "name": "Welcomhotel by ITC Hotels, Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "D/3 Dumuduma, Khandagiri, Bhubaneswar, Odisha 751019",
+    "latitude": 20.2545,
+    "longitude": 85.7845,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Kaya Kalp Spa",
+      "WelcomCafe Sunghad",
+      "Peshawri Royal Kebabs",
+      "Swizzle Bar",
+      "LEED Platinum"
+    ],
+    "specialFeatures": [
+      "Architectural design inspired by ancient Kalinga temples and Khandagiri-Udayagiri caves",
+      "Authentic Peshawri kebabs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 350 1111",
+    "website": "https://www.itchotels.com/in/en/welcomhotelbhubaneswar",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.120Z",
+    "updatedAt": "2026-08-22T21:20:27.120Z"
+  },
+  {
+    "hotelId": "bbi-trident-bhubaneswar",
+    "name": "Trident Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "CB-1 Nayapalli, IRC Village, Bhubaneswar, Odisha 751015",
+    "latitude": 20.3085,
+    "longitude": 85.8145,
+    "pricePerNight": 7200,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool amidst Fruit Orchards",
+      "The Restaurant Multi-cuisine",
+      "The Bar",
+      "14 Acres of Landscaped Gardens",
+      "Jogging Track"
+    ],
+    "specialFeatures": [
+      "14 acres of manicured gardens and fruit orchards inspired by traditional Odishan architecture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 230 1010",
+    "website": "https://www.tridenthotels.com/hotels-in-bhubaneswar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.121Z",
+    "updatedAt": "2026-08-22T21:20:27.121Z"
+  },
+  {
+    "hotelId": "bbi-vivanta-bhubaneswar-dn-square",
+    "name": "Vivanta Bhubaneswar, DN Square",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "DN Regalia Mall, NH-16, South City, Patrapada, Bhubaneswar, Odisha 751019",
+    "latitude": 20.2412,
+    "longitude": 85.7654,
+    "pricePerNight": 6800,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool",
+      "Jiva Spa",
+      "Mynt 24/7 Restaurant",
+      "Wink Bar",
+      "Direct Mall Access",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Modern luxury tower on NH-16 integrated with DN Regalia Mall with rooftop pool"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 668 5555",
+    "website": "https://www.tajhotels.com/en-in/taj/vivanta-bhubaneswar-dn-square/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.122Z",
+    "updatedAt": "2026-08-22T21:20:27.122Z"
+  },
+  {
+    "hotelId": "bbi-swosti-premium",
+    "name": "Swosti Premium Hotel Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "P1 Jaydev Vihar, Nandankanan Road, Bhubaneswar, Odisha 751013",
+    "latitude": 20.3045,
+    "longitude": 85.8289,
+    "pricePerNight": 4900,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Largest Indoor Swimming Pool",
+      "Confucius Chinese Restaurant",
+      "Panorama Multi-cuisine",
+      "Rob Roy Scottish Bar",
+      "Health Club & Spa"
+    ],
+    "specialFeatures": [
+      "Largest convention hotel in Eastern India with authentic Scottish theme bar (Rob Roy) and Chinese fine dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 661 1111",
+    "website": "https://www.swostihotels.com/swosti-premium-bhubaneswar",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.122Z",
+    "updatedAt": "2026-08-22T21:20:27.122Z"
+  },
+  {
+    "hotelId": "bbi-ginger-bhubaneswar",
+    "name": "Ginger Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "Opposite Nalco Headquarters, Jayadev Vihar, Bhubaneswar, Odisha 751013",
+    "latitude": 20.2985,
+    "longitude": 85.8195,
+    "pricePerNight": 2500,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Rooms",
+      "24/7 Desk"
+    ],
+    "specialFeatures": [
+      "Prime Jayadev Vihar corporate location opposite NALCO and Fortune Tower"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 666 3333",
+    "website": "https://www.gingerhotels.com/ginger-bhubaneswar",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.123Z",
+    "updatedAt": "2026-08-22T21:20:27.123Z"
+  },
+  {
+    "hotelId": "bbi-the-hosteller-bhubaneswar",
+    "name": "The Hosteller Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "Near KIIT University, Patia, Chandaka Road, Bhubaneswar, Odisha 751024",
+    "latitude": 20.3545,
+    "longitude": 85.8185,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe",
+      "Workation Stations",
+      "Dorm & Private Rooms",
+      "Indoor Games",
+      "Heritage Tour Desk"
+    ],
+    "specialFeatures": [
+      "Located in trendy Patia near KIIT and Infocity, organizing weekend trips to Konark Sun Temple & Puri Beach"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-bhubaneswar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.123Z",
+    "updatedAt": "2026-08-22T21:20:27.123Z"
+  },
+  {
+    "hotelId": "bbi-hotel-pushpak",
+    "name": "Hotel Pushpak Bhubaneswar",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "address": "Kalpana Square, Cuttack-Puri Road, Bhubaneswar, Odisha 751006",
+    "latitude": 20.2589,
+    "longitude": 85.8412,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Yum Yum South Indian Restaurant",
+      "Golden Bird Odia Dining",
+      "Air Conditioning",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Historic Kalpana Square budget landmark, 5 minutes from Lingaraj Temple and Old Town 1000-year-old temples"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 674 231 0185",
+    "website": "https://hotelpushpak.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.123Z",
+    "updatedAt": "2026-08-22T21:20:27.123Z"
+  }
+]

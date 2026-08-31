@@ -1,0 +1,543 @@
+[
+  {
+    "restaurantId": "rst-msr-emilys-rokeby-manor",
+    "name": "Emily's - Rokeby Manor",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "Rokeby Manor, Landour Cantonment, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4612,
+    "longitude": 78.0934,
+    "cuisine": [
+      "British Colonial",
+      "Continental",
+      "Garhwali Gourmet",
+      "Bakery"
+    ],
+    "famousDishes": [
+      "Mustard Crusted Roast Chicken",
+      "Shepherd's Pie",
+      "Sticky Toffee Pudding with Vanilla Custard",
+      "Warm Apple Crumble",
+      "Garhwali Chicken Curry"
+    ],
+    "menu": [
+      {
+        "food": "Mustard Crusted Roast Chicken",
+        "price": 620
+      },
+      {
+        "food": "Traditional British Shepherd's Pie",
+        "price": 580
+      },
+      {
+        "food": "Famous Sticky Toffee Pudding with Custard",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "1830s Stone Fireplace Salons",
+      "Pine Forest & Himalayan View",
+      "Historic Victorian Decor",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Set in an authentic 1830s British colonial estate in Landour featuring stone fireplaces, timber lintels, and bookshelves, serving vintage country roasts and English puddings",
+      "Mussoorie's finest romantic dining experience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 263 5604",
+    "website": "http://rokebymanor.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-landour-bakehouse",
+    "name": "Landour Bakehouse",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "1947 Sisters Bazaar, Near St. Paul's Church, Landour, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4638,
+    "longitude": 78.0965,
+    "cuisine": [
+      "European Bakery",
+      "Patisserie",
+      "Tea & Coffee"
+    ],
+    "famousDishes": [
+      "Cinnamon Roll",
+      "Lemon Drizzle Cake",
+      "Classic Scones with Clotted Cream & Jam",
+      "Apple Rhubarb Pie",
+      "Fresh Sourdough Bread"
+    ],
+    "menu": [
+      {
+        "food": "Signature Warm Cinnamon Roll",
+        "price": 160
+      },
+      {
+        "food": "Fresh Baked Scones with Cream & Homemade Jam",
+        "price": 180
+      },
+      {
+        "food": "Old Landour Lemon Drizzle Cake Slice",
+        "price": 140
+      },
+      {
+        "food": "Artisanal Filter Coffee",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "Victorian Glass Showcase Bakery",
+      "Pine Forest Views",
+      "Historic Sisters Bazaar Location"
+    ],
+    "specialFeatures": [
+      "Legendary bakery baking heirloom 19th-century recipes from the historic 'Landour Cookbook' compiled by American and British missionary families in the 1800s",
+      "The crown jewel of Landour"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 263 5605",
+    "website": "https://rokebymanor.com/landour-bakehouse/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-kalsang-mall-road",
+    "name": "Kalsang Friends Corner",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "Mall Road, Near Survey Field, Kulri Bazaar, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4568,
+    "longitude": 78.0789,
+    "cuisine": [
+      "Tibetan",
+      "Chinese",
+      "Korean",
+      "Pan Asian"
+    ],
+    "famousDishes": [
+      "Devil's Momos (Spicy Chilli Gravy)",
+      "Kalsang Special Thukpa",
+      "Tingmo with Chilli Chicken",
+      "Thenthuk",
+      "Fruit Beer"
+    ],
+    "menu": [
+      {
+        "food": "Devil's Spicy Steamed Momos (8 pcs)",
+        "price": 210
+      },
+      {
+        "food": "Tibetan Mutton Thenthuk",
+        "price": 240
+      },
+      {
+        "food": "Steamed Tingmo Bread (2 pcs)",
+        "price": 60
+      },
+      {
+        "food": "Chilli Garlic Chicken",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Tibetan Prayer Flags & Red Lantern Decor",
+      "Mall Road View",
+      "Cozy Wooden Booths"
+    ],
+    "specialFeatures": [
+      "Mussoorie's most famous dining icon on Mall Road, decorated with Tibetan tapestries and signed guest scrolls, world-famous for fiery devil momos and comforting noodle soups",
+      "Perpetual crowd favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 263 3257",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-char-dukan-landour",
+    "name": "Char Dukan (Anil's Cafe & Tip Top)",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "Char Dukan, Near St. Paul's Church, Landour Cantonment, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4608,
+    "longitude": 78.0921,
+    "cuisine": [
+      "Breakfast",
+      "Mountain Snacks",
+      "Café"
+    ],
+    "famousDishes": [
+      "Cheese Butter Maggi",
+      "Bun Omelette",
+      "Nutella Banana Pancake",
+      "Honey Ginger Lemon Tea",
+      "Waffles"
+    ],
+    "menu": [
+      {
+        "food": "Signature Cheese Butter Mountain Maggi",
+        "price": 110
+      },
+      {
+        "food": "Double Egg Bun Omelette",
+        "price": 90
+      },
+      {
+        "food": "Hot Ginger Lemon Honey Tea",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic Wooden Shacks",
+      "Outdoor Benches Under Deodar Trees",
+      "Landour Heritage Walk"
+    ],
+    "specialFeatures": [
+      "Century-old cluster of four historic wooden stalls under soaring deodar pines in Landour, immortalized by author Ruskin Bond and visited by generations of travelers for steaming maggi and pancakes",
+      "Pure mountain romance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-the-tavern",
+    "name": "The Tavern Restaurant",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "Picture Palace Road, Kulri Bazaar, The Mall, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4552,
+    "longitude": 78.0812,
+    "cuisine": [
+      "Continental",
+      "North Indian",
+      "Tandoori",
+      "Sizzlers",
+      "Cocktails"
+    ],
+    "famousDishes": [
+      "Tavern Special Sizzler",
+      "Butter Chicken",
+      "Dal Makhani",
+      "Tandoori Trout",
+      "Live Bar Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Tavern Chicken Sizzler",
+        "price": 540
+      },
+      {
+        "food": "Butter Chicken with Garlic Naan",
+        "price": 460
+      },
+      {
+        "food": "Tandoori Himalayan Trout",
+        "price": 650
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "English Pub Ambience",
+      "Live Music Band",
+      "Full Bar",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Cozy English country tavern with dark wood paneling, roaring fireplace vibe, and nightly live rock/acoustic bands",
+      "Mussoorie's premier nightlife dining institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 263 2829",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-lovely-omelette",
+    "name": "Lovely Omelette Centre",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "Mall Road, Kulri Bazaar, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4571,
+    "longitude": 78.0775,
+    "cuisine": [
+      "Breakfast",
+      "Street Food",
+      "Eggs"
+    ],
+    "famousDishes": [
+      "Cheese Butter Masala Omelette",
+      "Chocolate Sweet Omelette",
+      "Toast with Butter"
+    ],
+    "menu": [
+      {
+        "food": "Special Cheese Butter Spicy Omelette (with 2 Toasts)",
+        "price": 120
+      },
+      {
+        "food": "Sweet Chocolate Omelette",
+        "price": 100
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Street Counter",
+      "Quick Service",
+      "Iconic Institution"
+    ],
+    "specialFeatures": [
+      "Tiny legendary shop on Mall Road recognized by national culinary guides for making the fluffiest molten-cheese loaded spicy omelettes in India on a sizzling flat iron griddle",
+      "Always has an eager waiting line"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98371 45678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-urban-turban",
+    "name": "Urban Turban",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "Kulri Bazaar, Near Gandhi Chowk, The Mall, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4561,
+    "longitude": 78.0798,
+    "cuisine": [
+      "Punjabi",
+      "North Indian Non-Veg",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Dhaba Meat",
+      "Butter Chicken",
+      "Dal Makhani",
+      "Tandoori Kebab Platter",
+      "Amritsari Kulcha"
+    ],
+    "menu": [
+      {
+        "food": "Urban Turban Butter Chicken",
+        "price": 440
+      },
+      {
+        "food": "Dhaba Mutton Curry",
+        "price": 480
+      },
+      {
+        "food": "Tandoori Non-Veg Platter",
+        "price": 580
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Vibrant Punjabi Decor",
+      "Full Bar",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Vibrant modern Punjabi eatery on Mall Road famous for authentic rich curries, clay-tandoor flatbreads, and energetic family dining",
+      "Hearty mountain comfort food"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 263 0002",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-chic-chocolate",
+    "name": "Chic Chocolate - Cafe & Confectionery",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "The Mall Road, Near Kulri Bazaar, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4565,
+    "longitude": 78.0781,
+    "cuisine": [
+      "Bakery",
+      "Artisan Chocolates",
+      "Italian",
+      "Café"
+    ],
+    "famousDishes": [
+      "Handmade Dark Mint Chocolates",
+      "Wood-fired Thin Crust Pizza",
+      "Chocolate Waffles",
+      "Hot Chocolate",
+      "Pasta Arrabiata"
+    ],
+    "menu": [
+      {
+        "food": "Assorted Handmade Mountain Chocolates (250g)",
+        "price": 280
+      },
+      {
+        "food": "Four Cheese Wood-fired Pizza",
+        "price": 360
+      },
+      {
+        "food": "Thick Belgian Hot Chocolate",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Chocolate Boutique",
+      "Mall Road Promenade View"
+    ],
+    "specialFeatures": [
+      "Charming retro cafe and artisan confectionery famous for crafting homemade liquor, fruit, and mint chocolates on Mall Road for over 30 years",
+      "Great coffee and pizza"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 263 2774",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-domas-inn",
+    "name": "Doma's Inn (Ivy Cottage)",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "Ivy Cottage, Landour Cantt, Near Chaar Dukan, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4618,
+    "longitude": 78.0945,
+    "cuisine": [
+      "Tibetan",
+      "Chinese",
+      "Himalayan Fusion"
+    ],
+    "famousDishes": [
+      "Tibetan Steamed Momos",
+      "Thukpa",
+      "Shabalay",
+      "Dragon Chicken",
+      "Ginger Honey Tea"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Mutton Momos (8 pcs)",
+        "price": 220
+      },
+      {
+        "food": "Mutton Shabalay (Fried Meat Pastry)",
+        "price": 240
+      },
+      {
+        "food": "Mixed Meat Thukpa",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 320,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Hand-Painted Traditional Tibetan Murals",
+      "Landour Pine View",
+      "Cozy Warm Interior"
+    ],
+    "specialFeatures": [
+      "Vibrantly decorated boutique heritage lodge adjacent to Ruskin Bond's residence, painted with intricate Tibetan dragon murals and serving authentic comfort food",
+      "Warm bohemian charm"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 263 4873",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-msr-clock-tower-cafe",
+    "name": "The Clock Tower Cafe",
+    "city": "Mussoorie",
+    "state": "Uttarakhand",
+    "address": "Landour Bazaar, Near Historic Clock Tower, Mussoorie, Uttarakhand 248179",
+    "latitude": 30.4591,
+    "longitude": 78.0834,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Burgers & Pizza",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood-fired Pizza",
+      "Juicy Lamb Burger",
+      "Garlic Butter Pasta",
+      "Hot Chocolate Fudge",
+      "Cappuccino"
+    ],
+    "menu": [
+      {
+        "food": "Clock Tower Special Pepperoni Pizza",
+        "price": 420
+      },
+      {
+        "food": "Gourmet Monster Lamb Burger",
+        "price": 340
+      },
+      {
+        "food": "Creamy Fettuccine Alfredo",
+        "price": 310
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Vintage Clocks & Retro Posters Decor",
+      "Free Wi-Fi",
+      "Mountain Valley View"
+    ],
+    "specialFeatures": [
+      "Rustic brick-and-wood cafe located near the historic Landour Clock Tower, decorated with vintage timepieces and serving hearty wood-fired sourdough pizzas and burgers",
+      "Cozy chillout venue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 263 1122",
+    "website": null,
+    "available": true
+  }
+]

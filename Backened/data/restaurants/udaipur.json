@@ -1,0 +1,661 @@
+[
+  {
+    "restaurantId": "rst-udr-ambrai-amet-haveli",
+    "name": "Ambrai - Amet Haveli",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Amet Haveli, Outside Chandpole, Naga Nagri, Udaipur, Rajasthan 313001",
+    "latitude": 24.5802,
+    "longitude": 73.6804,
+    "cuisine": [
+      "Mewari",
+      "Rajasthani",
+      "North Indian",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Mewari Meat",
+      "Ambrai Special Murg",
+      "Laal Maas",
+      "Gatte Ki Sabzi",
+      "Paneer Butter Masala"
+    ],
+    "menu": [
+      {
+        "food": "Mewari Meat Special",
+        "price": 650
+      },
+      {
+        "food": "Rajasthani Laal Maas",
+        "price": 620
+      },
+      {
+        "food": "Govind Gatta Curry",
+        "price": 420
+      },
+      {
+        "food": "Ambrai Special Murgh Tikka",
+        "price": 540
+      }
+    ],
+    "averageCostForOne": 1100,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Waterfront Lake Pichola Dining",
+      "City Palace Panoramic View",
+      "Full Bar",
+      "Romantic Candlelight",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Udaipur's most famous romantic dining destination, situated right on the water's edge of Lake Pichola with jaw-dropping close-up views of the illuminated City Palace and Jag Mandir",
+      "Exquisite Mewari meat curries"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 243 1085",
+    "website": "http://www.amethaveliudaipur.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-natraj-dining-hall",
+    "name": "Natraj Dining Hall & Restaurant",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "22-24, City Station Road, Near Bapu Bazaar, Udaipur, Rajasthan 313001",
+    "latitude": 24.5829,
+    "longitude": 73.6968,
+    "cuisine": [
+      "Rajasthani",
+      "Gujarati",
+      "Pure Vegetarian Unlimited Thali"
+    ],
+    "famousDishes": [
+      "Unlimited Gujarati-Rajasthani Thali",
+      "Dal Baati Churma",
+      "Dhokla",
+      "Kadhi",
+      "Aamras (Seasonal)"
+    ],
+    "menu": [
+      {
+        "food": "Special Unlimited Royal Gujarati/Rajasthani Thali",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Lightning Quick Service",
+      "Spacious Hall"
+    ],
+    "specialFeatures": [
+      "Udaipur's most celebrated vegetarian institution serving sensational unlimited Gujarati and Rajasthani thalis with rotating dishes, hot ghee phulkas, and fresh chutneys",
+      "Flocked by travelers and locals daily"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 241 1234",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-tribute-fateh-sagar",
+    "name": "Tribute Restaurant",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "89-B, Ambavgarh, Fateh Sagar Lake Spillway, Udaipur, Rajasthan 313001",
+    "latitude": 24.5934,
+    "longitude": 73.6761,
+    "cuisine": [
+      "Rajasthani",
+      "North Indian",
+      "Continental",
+      "Seafood"
+    ],
+    "famousDishes": [
+      "Laal Maas",
+      "Gatte Ki Sabzi",
+      "Fish Amritsari",
+      "Mutton Rogan Josh",
+      "Cheesecake"
+    ],
+    "menu": [
+      {
+        "food": "Tribute Special Laal Maas",
+        "price": 580
+      },
+      {
+        "food": "Ker Sangri Marwari",
+        "price": 440
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Waterfront Fateh Sagar View",
+      "Full Bar",
+      "Outdoor Deck Seating",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Lakeside tribute to Maharana Pratap's legendary warhorse 'Chetak', serving gourmet Rajasthani curries on a serene lakefront deck where migratory birds gather",
+      "Charming open breeze setting"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 91160 09893",
+    "website": "http://tributeudaipur.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-upre-by-1559-ad",
+    "name": "Upre by 1559 AD",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Rooftop, Lake Pichola Hotel, Outside Chandpole, Naga Nagri, Udaipur, Rajasthan 313001",
+    "latitude": 24.5794,
+    "longitude": 73.6811,
+    "cuisine": [
+      "Mewari",
+      "Rajasthani",
+      "Continental",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Ker Sangri",
+      "Laal Maas",
+      "Murg Malai Tikka",
+      "Mutton Dahiwala",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Royal Mewari Laal Maas",
+        "price": 680
+      },
+      {
+        "food": "Murg Dahiwala",
+        "price": 560
+      },
+      {
+        "food": "Traditional Ker Sangri",
+        "price": 460
+      },
+      {
+        "food": "Upre Signature Cocktail",
+        "price": 450
+      }
+    ],
+    "averageCostForOne": 1200,
+    "priceCategory": "Premium",
+    "rating": 4.6,
+    "amenities": [
+      "Rooftop Cabanas",
+      "Direct Lake View",
+      "Full Bar",
+      "Candlelight Dining",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Private rooftop cabanas overlooking the glistening waters of Lake Pichola and the City Palace domes",
+      "Unmatched sunset cocktail and fine dining experience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 243 1197",
+    "website": "http://www.1559ad.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-sheesh-mahal-leela",
+    "name": "Sheesh Mahal - The Leela Palace",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "The Leela Palace Udaipur, Lake Pichola, Udaipur, Rajasthan 313001",
+    "latitude": 24.5791,
+    "longitude": 73.6768,
+    "cuisine": [
+      "Royal Indian",
+      "Mewari Imperial",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Mewari Laal Maas",
+      "Bhatti Ka Murgh",
+      "Dal Leela",
+      "Smoked Kulfi",
+      "Shahi Tukda"
+    ],
+    "menu": [
+      {
+        "food": "Sheesh Mahal Royal Degustation Menu",
+        "price": 5500
+      },
+      {
+        "food": "Mewari Laal Maas",
+        "price": 1850
+      },
+      {
+        "food": "Dal Leela",
+        "price": 950
+      }
+    ],
+    "averageCostForOne": 5000,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Open Air Palace Terrace",
+      "Lake Waterfront",
+      "Full Bar",
+      "Valet Parking",
+      "Luxury Butler Service",
+      "Live Sarangi"
+    ],
+    "specialFeatures": [
+      "World-renowned open-air, two-level terrace restaurant on Lake Pichola at The Leela Palace, lit by glowing lanterns under starry skies",
+      "Regal dining fit for royalty"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 670 1234",
+    "website": "https://www.theleela.com/the-leela-palace-udaipur/restaurants/sheesh-mahal",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-khamma-ghani",
+    "name": "Khamma Ghani Restaurant",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "5-D, Rang Sagar Lake, Near Hotel Natural, Ambavgarh, Udaipur, Rajasthan 313001",
+    "latitude": 24.5889,
+    "longitude": 73.6745,
+    "cuisine": [
+      "Rajasthani",
+      "Pan Asian",
+      "Continental",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Junglee Maas",
+      "Paneer Lababdar",
+      "Crispy Lotus Stem",
+      "Dhungar Murg",
+      "Mocktails"
+    ],
+    "menu": [
+      {
+        "food": "Signature Junglee Maas",
+        "price": 580
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 380
+      },
+      {
+        "food": "Crispy Honey Chilli Lotus Stem",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 700,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Lakeside Floor & Table Seating",
+      "Full Bar",
+      "Air Conditioning",
+      "Live Music"
+    ],
+    "specialFeatures": [
+      "Picturesque lakefront lounge situated along Rang Sagar, featuring Rajasthani hospitality with floor Baithak seating and multi-cuisine grills",
+      "Lively evening vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 90019 96733",
+    "website": "http://khammaghani.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-jheels-ginger-coffee",
+    "name": "Jheel's Ginger Coffee Bar & Bakery",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "52-56, Gangaur Ghat Marg, Old City, Udaipur, Rajasthan 313001",
+    "latitude": 24.5798,
+    "longitude": 73.6828,
+    "cuisine": [
+      "Café",
+      "Italian",
+      "Bakery",
+      "Specialty Coffee"
+    ],
+    "famousDishes": [
+      "Wood-fired Thin Crust Pizza",
+      "Nutella Frappe",
+      "Spinach Corn Croissant",
+      "Cheesecake",
+      "Ginger Lemon Honey Tea"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Four Cheese Pizza",
+        "price": 360
+      },
+      {
+        "food": "Nutella Cold Coffee Frappe",
+        "price": 180
+      },
+      {
+        "food": "Baked Blueberry Cheesecake",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Waterfront Window Seating",
+      "Rooftop Ghat View",
+      "Free Wi-Fi",
+      "In-House Bakery"
+    ],
+    "specialFeatures": [
+      "Beloved lakeside cafe where wooden bay window tables sit right above the rippling waves of Lake Pichola at Gangaur Ghat",
+      "Famous morning coffee and fresh croissants"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94611 78765",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-jagat-niwas-rooftop",
+    "name": "Jagat Niwas Palace Rooftop",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Jagat Niwas Palace Hotel, 23-25 Lal Ghat, Old City, Udaipur, Rajasthan 313001",
+    "latitude": 24.5786,
+    "longitude": 73.6835,
+    "cuisine": [
+      "Rajasthani",
+      "Mughlai",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Dal Baati Churma Thali",
+      "Safed Maas",
+      "Murg Tikka",
+      "Paneer Khurchan",
+      "Apple Crumble"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Dal Baati Churma Thali",
+        "price": 480
+      },
+      {
+        "food": "Mewari Safed Maas",
+        "price": 580
+      },
+      {
+        "food": "Paneer Khurchan",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Haveli Jharokha Seating",
+      "Lake Pichola View",
+      "Full Bar",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Intricate white marble jharokhas projecting over Lake Pichola in a 17th-century haveli",
+      "Enjoy authentic Dal Baati while watching boats glide towards the Lake Palace"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 242 0238",
+    "website": "http://www.jagatniwaspalace.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-bawarchi-restaurant",
+    "name": "Bawarchi Restaurant",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "6, Delhi Gate, Bapu Bazaar Road, Udaipur, Rajasthan 313001",
+    "latitude": 24.5841,
+    "longitude": 73.6923,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "Thali",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Bawarchi Special Veg Thali",
+      "Kaju Curry",
+      "Paneer Tufani",
+      "Dal Tadka",
+      "Butter Naan"
+    ],
+    "menu": [
+      {
+        "food": "Bawarchi Deluxe Thali",
+        "price": 220
+      },
+      {
+        "food": "Kaju Curry Special",
+        "price": 240
+      },
+      {
+        "food": "Paneer Butter Masala",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Fast Service",
+      "Family Dining"
+    ],
+    "specialFeatures": [
+      "A trusted city staple near Delhi Gate for budget-friendly hearty vegetarian thalis and rich North Indian curries",
+      "Fast and spotless service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 241 4955",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-shri-lala-misthan",
+    "name": "Shri Lala Misthan Bhandar",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Moti Chohatta, Near Clock Tower, Old City, Udaipur, Rajasthan 313001",
+    "latitude": 24.5821,
+    "longitude": 73.6882,
+    "cuisine": [
+      "Street Food",
+      "Mithai",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Pyaaz Kachori",
+      "Mirchi Vada with Green Chutney",
+      "Hot Jalebi",
+      "Rabri",
+      "Khaman Dhokla"
+    ],
+    "menu": [
+      {
+        "food": "Pyaaz Ki Kachori (2 pcs)",
+        "price": 40
+      },
+      {
+        "food": "Jodhpur Mirchi Vada",
+        "price": 35
+      },
+      {
+        "food": "Desi Ghee Jalebi (100g)",
+        "price": 45
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Street Counter",
+      "Pure Vegetarian",
+      "Morning Only"
+    ],
+    "specialFeatures": [
+      "Old City's most beloved morning street food stop, frying spicy jumbo mirchi vadas and crisp onion kachoris straight out of bubbling oil cauldrons",
+      "Generations-old recipe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-1559-ad",
+    "name": "1559 AD",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Near PP Singhal Tower, Fateh Sagar Lake Road, Ambavgarh, Udaipur, Rajasthan 313001",
+    "latitude": 24.5941,
+    "longitude": 73.6754,
+    "cuisine": [
+      "North Indian",
+      "Rajasthani",
+      "Continental",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Laal Maas",
+      "Chicken Rajputana",
+      "Dhungar Paneer Tikka",
+      "Pasta Alfredo",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Laal Maas (Special Rajputana)",
+        "price": 620
+      },
+      {
+        "food": "Chicken Rajputana",
+        "price": 540
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 390
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Colonial Heritage Bungalow",
+      "Lush Courtyard Dining",
+      "Full Bar",
+      "Live Sitar Music",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Set in a charming 16th-century colonial estate named after the year Udaipur was founded by Maharana Udai Singh II",
+      "Elegant romantic courtyard with soothing fountain sounds"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 294 243 5621",
+    "website": "http://www.1559ad.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-udr-charcoal-carlsson",
+    "name": "Charcoal by Carlsson",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "address": "Hotel Pratap Ventatesh, 12 Lal Ghat, Udaipur, Rajasthan 313001",
+    "latitude": 24.5789,
+    "longitude": 73.6841,
+    "cuisine": [
+      "Barbeque & Grills",
+      "Tandoori",
+      "Mexican",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Coal Smoked Barbeque Platter",
+      "Tandoori Chicken Tikka",
+      "Quesadillas",
+      "Grilled Fish"
+    ],
+    "menu": [
+      {
+        "food": "Charcoal Smoked Chicken Barbeque",
+        "price": 440
+      },
+      {
+        "food": "Grilled Fish with Lemon Butter Sauce",
+        "price": 520
+      },
+      {
+        "food": "Veg Tandoori Kebab Platter",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 550,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Rooftop Lake View",
+      "Live Charcoal Barbeque",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Pioneering live coal barbecue restaurant near Lal Ghat bringing Swedish charcoal smoking techniques to Indian tandoori marinades",
+      "Intimate rooftop sunset venue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94141 59238",
+    "website": null,
+    "available": true
+  }
+]

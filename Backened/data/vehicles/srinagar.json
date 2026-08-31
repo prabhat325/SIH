@@ -1,0 +1,72 @@
+[
+    {
+        "vehicleId": "SRINAGAR-AUTO-001",
+        "vehicleType": "Auto Rickshaw",
+        "city": "Srinagar",
+        "state": "Jammu and Kashmir",
+        "baseFare": 40,
+        "farePerKm": 18,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Auto_rickshaw_in_India.jpg/960px-Auto_rickshaw_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "SRINAGAR-TAXI-002",
+        "vehicleType": "Taxi",
+        "city": "Srinagar",
+        "state": "Jammu and Kashmir",
+        "baseFare": 120,
+        "farePerKm": 28,
+        "averageSpeed": 20,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "SRINAGAR-SHAREDTAXI-003",
+        "vehicleType": "Shared Taxi",
+        "city": "Srinagar",
+        "state": "Jammu and Kashmir",
+        "baseFare": 80,
+        "farePerKm": 16,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "SRINAGAR-SHIKARA-004",
+        "vehicleType": "Shikara Boat",
+        "city": "Srinagar",
+        "state": "Jammu and Kashmir",
+        "baseFare": 150,
+        "farePerKm": 0,
+        "averageSpeed": 7,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Shikara_Making_a_Semi_Circle.JPG/960px-Shikara_Making_a_Semi_Circle.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "SRINAGAR-TOURISTBUS-005",
+        "vehicleType": "Tourist Bus",
+        "city": "Srinagar",
+        "state": "Jammu and Kashmir",
+        "baseFare": 700,
+        "farePerKm": 22,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

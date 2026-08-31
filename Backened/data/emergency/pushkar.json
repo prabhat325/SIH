@@ -1,0 +1,52 @@
+[
+  {
+    "serviceId": "PUSHKAR-HOSPITAL-001",
+    "name": "Pushkar Government Hospital",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Near Marwar Bus Stand, Pushkar, Rajasthan 305022",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "PUSHKAR-POLICE-002",
+    "name": "Brahma Temple Police Station",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "type": "Police Station",
+    "address": "Brahma Temple Road, Pushkar, Rajasthan 305022",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://ajmerpolice.rajasthan.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "PUSHKAR-FIRE-003",
+    "name": "Pushkar Fire Station",
+    "city": "Pushkar",
+    "state": "Rajasthan",
+    "type": "Fire Station",
+    "address": "Pushkar, Rajasthan 305022",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

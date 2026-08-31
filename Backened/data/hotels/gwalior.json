@@ -1,0 +1,246 @@
+[
+  {
+    "hotelId": "gwl-taj-usha-kiran-palace",
+    "name": "Taj Usha Kiran Palace, Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Jayendraganj, Lashkar, Gwalior, Madhya Pradesh 474009",
+    "latitude": 26.2085,
+    "longitude": 78.1695,
+    "pricePerNight": 13500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool amidst Royal Palms",
+      "Jiva Spa in Historic Pavilion",
+      "Silver Saloon Royal Maharashtrian & Nepalese Dining",
+      "The Bada Bar",
+      "Heritage Walking Tour"
+    ],
+    "specialFeatures": [
+      "140-year-old royal palace built by Scindia dynasty to host King George V",
+      "Silver Saloon restaurant with historic silver train serving drinks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 244 4000",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-usha-kiran-palace-gwalior/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.005Z",
+    "updatedAt": "2026-08-22T21:20:27.005Z"
+  },
+  {
+    "hotelId": "gwl-radisson-gwalior",
+    "name": "Radisson Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Plot No. 13-14, City Center, Gwalior, Madhya Pradesh 474011",
+    "latitude": 26.2012,
+    "longitude": 78.1885,
+    "pricePerNight": 5800,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool",
+      "Indus Multi-cuisine Restaurant",
+      "Da Vince Bar",
+      "Fitness Centre",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "City Center upscale location with rooftop pool looking out over Gwalior Fort on the horizon"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 400 1111",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-gwalior",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.005Z",
+    "updatedAt": "2026-08-22T21:20:27.005Z"
+  },
+  {
+    "hotelId": "gwl-neemrana-deo-bagh",
+    "name": "Deo Bagh - Neemrana's Heritage Hotel",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Opposite Janaktal, Agra-Bombay Highway, Bahodapur, Gwalior, Madhya Pradesh 474012",
+    "latitude": 26.2345,
+    "longitude": 78.1412,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Courtyard Dining",
+      "Historic Cenotaph Gardens",
+      "Peacock Sanctuary",
+      "Baradari Pavilions"
+    ],
+    "specialFeatures": [
+      "17th-century heritage estate with 15th-century Maratha chhatris and ancient temples in the gardens"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 248 6767",
+    "website": "https://www.neemranahotels.com/deo-bagh-gwalior-madhya-pradesh/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.006Z",
+    "updatedAt": "2026-08-22T21:20:27.006Z"
+  },
+  {
+    "hotelId": "gwl-clarks-inn-suite",
+    "name": "Clarks INN Suite Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Maharani Laxmibai Marg, Near Phoolbagh, Gwalior, Madhya Pradesh 474002",
+    "latitude": 26.2158,
+    "longitude": 78.1721,
+    "pricePerNight": 3800,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Bridge Multi-cuisine Restaurant",
+      "Fitness Centre",
+      "Banquet Hall",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Located opposite scenic Phoolbagh gardens and Jai Vilas Palace"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 240 5000",
+    "website": "https://www.clarksinn.in/clarks-inn-suites-gwalior/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.007Z",
+    "updatedAt": "2026-08-22T21:20:27.007Z"
+  },
+  {
+    "hotelId": "gwl-hotel-landmark",
+    "name": "Hotel Landmark Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Manik Vilas Colony, Station Road, Gwalior, Madhya Pradesh 474002",
+    "latitude": 26.2185,
+    "longitude": 78.1812,
+    "pricePerNight": 3100,
+    "category": "Mid-Range",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swarna Restaurant",
+      "Bar",
+      "Conference Facilities",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Walking distance to Gwalior Railway Junction with reliable business amenities"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 401 1271",
+    "website": "https://hotellandmarkgwalior.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.008Z",
+    "updatedAt": "2026-08-22T21:20:27.008Z"
+  },
+  {
+    "hotelId": "gwl-hotel-shelter",
+    "name": "Hotel Shelter Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Padav, Station Road, Gwalior, Madhya Pradesh 474002",
+    "latitude": 26.2205,
+    "longitude": 78.1828,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Surbhi Pure Veg Restaurant",
+      "Air Conditioning",
+      "Elevator",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Prime Padav location next to railway station, popular for north Indian vegetarian thali"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 238 1830",
+    "website": "https://hotelshelter.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.008Z",
+    "updatedAt": "2026-08-22T21:20:27.008Z"
+  },
+  {
+    "hotelId": "gwl-fabhotel-gwalior",
+    "name": "FabHotel Prime City Center Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "City Center, Behind High Court, Gwalior, Madhya Pradesh 474011",
+    "latitude": 26.2028,
+    "longitude": 78.1872,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "AC Rooms",
+      "24/7 Front Desk",
+      "Complimentary Breakfast",
+      "Power Backup"
+    ],
+    "specialFeatures": [
+      "Modern clean budget rooms in the prime City Center district near High Court"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 70424 24242",
+    "website": "https://www.fabhotels.com/hotels-in-gwalior/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.009Z",
+    "updatedAt": "2026-08-22T21:20:27.009Z"
+  },
+  {
+    "hotelId": "gwl-hotel-surbhi",
+    "name": "Hotel Surbhi Gwalior",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "address": "Near Railway Station, Padav, Gwalior, Madhya Pradesh 474002",
+    "latitude": 26.2192,
+    "longitude": 78.1835,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Room Service",
+      "Hot Showers",
+      "Doctor on Call",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "Affordable transit stay for backpackers and train commuters"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 751 238 0888",
+    "website": "https://hotelsurbhigwalior.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.009Z",
+    "updatedAt": "2026-08-22T21:20:27.009Z"
+  }
+]

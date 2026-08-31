@@ -1,0 +1,828 @@
+[
+  {
+    "restaurantId": "rst-lko-tunday-kababi-aminabad",
+    "name": "Tunday Kababi (Aminabad)",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "168/6, Mohan Meakin Road, Aminabad Market, Lucknow, Uttar Pradesh 226018",
+    "latitude": 26.8458,
+    "longitude": 80.9275,
+    "cuisine": [
+      "Awadhi",
+      "Mughlai",
+      "Kebabs",
+      "Non-Vegetarian"
+    ],
+    "famousDishes": [
+      "Original Galouti Kebab",
+      "Ulte Tawe Ka Paratha",
+      "Mutton Boti Kebab",
+      "Awadhi Mutton Biryani",
+      "Mughlai Shahi Tukda"
+    ],
+    "menu": [
+      {
+        "food": "Galouti Kebab (4 pcs)",
+        "price": 160
+      },
+      {
+        "food": "Ulte Tawe Ka Paratha",
+        "price": 30
+      },
+      {
+        "food": "Mutton Boti Kebab",
+        "price": 220
+      },
+      {
+        "food": "Awadhi Mutton Biryani",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Heritage Dining",
+      "Takeaway",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Established in 1905 by Haji Murad Ali (the one-armed maestro 'Tunday'), creator of the world-famous melt-in-mouth Galouti kebab blended with 160 secret spices",
+      "The most revered culinary institution in Lucknow"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 93359 02888",
+    "website": "http://tundaykababi.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-idris-biryani",
+    "name": "Idris Biryani",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Opposite Pata Nala, Raja Bazar, Chowk, Lucknow, Uttar Pradesh 226003",
+    "latitude": 26.8682,
+    "longitude": 80.9084,
+    "cuisine": [
+      "Awadhi",
+      "Dum Biryani",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Awadhi Mutton Dum Biryani",
+      "Chicken Dum Biryani",
+      "Mutton Korma",
+      "Nihari Kulcha"
+    ],
+    "menu": [
+      {
+        "food": "Mutton Dum Biryani (Full)",
+        "price": 280
+      },
+      {
+        "food": "Chicken Dum Biryani (Full)",
+        "price": 200
+      },
+      {
+        "food": "Mutton Korma (Half)",
+        "price": 240
+      },
+      {
+        "food": "Sheermal",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Takeaway",
+      "Traditional Seating",
+      "Copper Degchi Cooking"
+    ],
+    "specialFeatures": [
+      "Over 55 years of perfection in authentic slow-cooked dum pakht biryani using long-grain basmati and saffron milk in sealed copper degs",
+      "Chowk's most celebrated biryani landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94150 26327",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-raheem-kulcha-nihari",
+    "name": "Mubeen's / Raheem's Kulcha Nihari",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Chowk Bazar, Near Akbari Gate, Lucknow, Uttar Pradesh 226003",
+    "latitude": 26.8679,
+    "longitude": 80.9079,
+    "cuisine": [
+      "Awadhi",
+      "Mughlai",
+      "Traditional Breakfast"
+    ],
+    "famousDishes": [
+      "Nalli Nihari Gosht",
+      "Tandoori Kulcha",
+      "Pasanda Kebab",
+      "Seekh Kebab",
+      "Sheermal"
+    ],
+    "menu": [
+      {
+        "food": "Special Nalli Nihari",
+        "price": 220
+      },
+      {
+        "food": "Special Lucknowi Kulcha",
+        "price": 30
+      },
+      {
+        "food": "Seekh Kebab (4 pcs)",
+        "price": 140
+      },
+      {
+        "food": "Mutton Pasanda",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Historic Street Location",
+      "Takeaway",
+      "Traditional Clay Oven"
+    ],
+    "specialFeatures": [
+      "Historic Akbari Gate institution famous for 12-hour slow-simmered rich marrow Nihari paired with fluffy double-leavened Kulchas",
+      "Quintessential Nawabi dawn breakfast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 93352 14789",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-dastarkhwan",
+    "name": "Dastarkhwan (Tulsi Theatre)",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "29, BN Road, Lalbagh, Near Tulsi Theatre, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8488,
+    "longitude": 80.9392,
+    "cuisine": [
+      "Awadhi",
+      "Mughlai",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Galawati Kebab",
+      "Murg Kalimirch",
+      "Boti Kebab",
+      "Mutton Rogan Josh",
+      "Mughlai Paratha",
+      "Shahi Tukda"
+    ],
+    "menu": [
+      {
+        "food": "Galawati Kebab (4 pcs)",
+        "price": 240
+      },
+      {
+        "food": "Murg Kalimirch (Half)",
+        "price": 340
+      },
+      {
+        "food": "Mutton Boti Kebab",
+        "price": 320
+      },
+      {
+        "food": "Mughlai Paratha",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Family Seating",
+      "Valet Parking",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Premier culinary destination renowned for velvety gravies, peppery murg kalimirch, and royal Lucknowi hospitality",
+      "Consistently ranked among the top dining venues in Uttar Pradesh"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 261 7771",
+    "website": "http://dastarkhwan.co.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-oudhyana-taj-mahal",
+    "name": "Oudhyana - Vivanta by Taj",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Taj Mahal Lucknow, Vipin Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+    "latitude": 26.8521,
+    "longitude": 80.9715,
+    "cuisine": [
+      "Awadhi",
+      "Royal Mughlai",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Kakori Kebab",
+      "Galawat Ke Kebab",
+      "Murgh Awadhi Korma",
+      "Dum Pukht Gosht Biryani",
+      "Sewiyan Ka Muzaffar"
+    ],
+    "menu": [
+      {
+        "food": "Kakori Kebab (4 pcs)",
+        "price": 1100
+      },
+      {
+        "food": "Galawat Ke Kebab (4 pcs)",
+        "price": 1100
+      },
+      {
+        "food": "Dum Pukht Gosht Biryani",
+        "price": 1250
+      },
+      {
+        "food": "Sewiyan Ka Muzaffar",
+        "price": 450
+      }
+    ],
+    "averageCostForOne": 2200,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Luxury Fine Dining",
+      "Valet Parking",
+      "Full Bar",
+      "Chandelier Ballrooms",
+      "Live Sitar Music"
+    ],
+    "specialFeatures": [
+      "Master Chef Ghulam Qureshi curated imperial dining at Taj Mahal Hotel, elevating traditional Awadhi recipes to global gourmet heights",
+      "Lavish chandelier and marble palace ambiance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 671 1000",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-mahal-lucknow/restaurants/oudhyana/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-shukla-chaat-house",
+    "name": "Shukla Chaat House",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "11, Shahnajaf Road, Hazratganj, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8517,
+    "longitude": 80.9458,
+    "cuisine": [
+      "Chaat",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Matar Ki Chaat with Ginger & Lemon",
+      "Aloo Tikki in Desi Ghee",
+      "Pani Batashe (5 Flavors)",
+      "Dahi Vada"
+    ],
+    "menu": [
+      {
+        "food": "Special Matar Chaat in Dona",
+        "price": 50
+      },
+      {
+        "food": "Desi Ghee Aloo Tikki",
+        "price": 60
+      },
+      {
+        "food": "5 Flavours Pani Ke Batashe",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Quick Service",
+      "Standing / Eco Leaf Plates"
+    ],
+    "specialFeatures": [
+      "Hazratganj's beloved 80-year-old chaat stall famous for pure desi-ghee fried white pea chaat served in eco-friendly dried sal leaf donas",
+      "Signature ginger-chilli garnish"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94503 61111",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-royal-cafe-hazratganj",
+    "name": "Royal Cafe",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "51, Mahatma Gandhi Marg, Hazratganj, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8504,
+    "longitude": 80.9429,
+    "cuisine": [
+      "North Indian",
+      "Chaat",
+      "Mughlai",
+      "Continental"
+    ],
+    "famousDishes": [
+      "World Famous Basket Chaat",
+      "Katori Chaat",
+      "Paneer Tikka",
+      "Murg Makhani",
+      "Cassata Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Tokri / Basket Chaat",
+        "price": 240
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 380
+      },
+      {
+        "food": "Butter Chicken",
+        "price": 450
+      },
+      {
+        "food": "Special Royal Sizzler",
+        "price": 420
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Multi-floor Dining",
+      "Live Chaat Counter",
+      "Takeaway",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Home of the original crisp potato-nest 'Basket Chaat' (Tokri Chaat) layered with sprouts, curd, chutneys, and pomegranate",
+      "Central Hazratganj landmark since 1991"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 222 5555",
+    "website": "http://royalcafe.co.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-sharma-tea-stall",
+    "name": "Sharma Tea Stall",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Station Road, Near Novelty Cinema, Lalbagh, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8465,
+    "longitude": 80.9388,
+    "cuisine": [
+      "Tea & Snacks",
+      "Street Food",
+      "Bakery"
+    ],
+    "famousDishes": [
+      "Zafrani Masala Chai",
+      "Bun Makkhan with Samosa",
+      "Round Samosa with Mint Chutney",
+      "Kaju Biscuits"
+    ],
+    "menu": [
+      {
+        "food": "Special Masala Chai (Kulhad)",
+        "price": 30
+      },
+      {
+        "food": "Bun Makkhan",
+        "price": 40
+      },
+      {
+        "food": "Bun Makkhan with Stuffed Samosa",
+        "price": 60
+      },
+      {
+        "food": "Desi Ghee Samosa (2 pcs)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Quick Service",
+      "Outdoor Morning Gathering Spot",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Lucknow's most famous morning tea institution, famous for soft buns slathered in homemade white butter alongside spicy circular samosas",
+      "Vibrant social hub for morning walkers and civil servants"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98390 54321",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-ram-asrey-chowk",
+    "name": "Ram Asrey Sweets",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Chowk Bazar, Near Gole Darwaza, Lucknow, Uttar Pradesh 226003",
+    "latitude": 26.8691,
+    "longitude": 80.9071,
+    "cuisine": [
+      "Awadhi Sweets",
+      "Mithai",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Malai Paan",
+      "Makhan Malai (Winter)",
+      "Gulab Jamun",
+      "Anjeer Barfi",
+      "Chandrakala"
+    ],
+    "menu": [
+      {
+        "food": "Special Malai Paan (2 pcs)",
+        "price": 80
+      },
+      {
+        "food": "Desi Ghee Chandrakala (250g)",
+        "price": 160
+      },
+      {
+        "food": "Makhan Malai Kulhad (Seasonal)",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic Confectionery",
+      "Gift Boxes",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Established in 1805 during the reign of the Nawabs of Awadh, invented the world-famous 'Malai Paan' (sweet folded cream leaf filled with dry fruits)",
+      "Over 220 years of continuous royal sweetmaking"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 225 5589",
+    "website": "https://ramasrey.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-open-air-falooda",
+    "name": "Prakash Kulfi",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "12, 13, Fruit Market, Aminabad, Lucknow, Uttar Pradesh 226018",
+    "latitude": 26.8461,
+    "longitude": 80.9269,
+    "cuisine": [
+      "Desserts",
+      "Kulfi Falooda"
+    ],
+    "famousDishes": [
+      "Kesar Pista Kulfi Falooda",
+      "Sugar Free Kulfi",
+      "Rabri Falooda"
+    ],
+    "menu": [
+      {
+        "food": "Signature Kesar Pista Kulfi with Falooda",
+        "price": 120
+      },
+      {
+        "food": "Special Rabri Kulfi Plate",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 130,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Quick Service",
+      "Air Conditioning",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Aminabad's iconic post-dinner destination since 1956, renowned for ultra-dense saffron pistachio kulfi cut into cubes and topped with silky falooda",
+      "No artificial colors or essence"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94150 25678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-netram-ajay-kumar",
+    "name": "Netram Ajay Kumar Chole Bhature",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Sri Ram Road, Aminabad, Lucknow, Uttar Pradesh 226018",
+    "latitude": 26.8452,
+    "longitude": 80.9281,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "Breakfast & Sweets"
+    ],
+    "famousDishes": [
+      "Desi Ghee Puri Thali with 3 Sabzis & Raita",
+      "Kachori",
+      "Gulab Jamun",
+      "Jalebi"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Desi Ghee Puri Sabzi Thali",
+        "price": 140
+      },
+      {
+        "food": "Khasta Kachori with Aloo Sabzi",
+        "price": 60
+      },
+      {
+        "food": "Hot Desi Ghee Jalebi (100g)",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "Heritage Seating",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Centuries-old Aminabad pure vegetarian landmark famous for golden puris fried in pure desi ghee served with pumpkin, potato, and chana curries",
+      "A staple of traditional UP vegetarian heritage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 262 4589",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-motimahal-delux",
+    "name": "Moti Mahal Delux Hazratganj",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "75, Mahatma Gandhi Marg, Hazratganj, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8509,
+    "longitude": 80.9438,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Chaat"
+    ],
+    "famousDishes": [
+      "Pav Bhaji",
+      "Chana Bhatura",
+      "Special Dosa",
+      "Imarti with Rabri",
+      "Badam Milk"
+    ],
+    "menu": [
+      {
+        "food": "Special Butter Pav Bhaji",
+        "price": 180
+      },
+      {
+        "food": "Special Amritsari Chana Bhatura",
+        "price": 190
+      },
+      {
+        "food": "Desi Ghee Imarti with Rabri",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Spacious Family Seating",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Hazratganj landmark since 1962, famous for freshly griddled buttery pav bhaji and towering hot Imartis dipped in fragrant chasni",
+      "A go-to family dining staple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 400 6666",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-falak-numa-clarks",
+    "name": "Falak Numa - Clarks Avadh",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Hotel Clarks Avadh, 8, Mahatma Gandhi Marg, Hazratganj, Lucknow, Uttar Pradesh 226001",
+    "latitude": 26.8582,
+    "longitude": 80.9398,
+    "cuisine": [
+      "Awadhi",
+      "Nawabi Mughlai",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Nawabi Kakori Kebab",
+      "Dum Gosht Biryani",
+      "Galawati Kebab",
+      "Paneer Dum Anari",
+      "Shahi Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Nawabi Kakori Kebab",
+        "price": 850
+      },
+      {
+        "food": "Dum Gosht Biryani",
+        "price": 790
+      },
+      {
+        "food": "Galawati Kebab with Sheermal",
+        "price": 820
+      }
+    ],
+    "averageCostForOne": 1400,
+    "priceCategory": "Premium",
+    "rating": 4.5,
+    "amenities": [
+      "Rooftop River View",
+      "Live Ghazal Performances",
+      "Full Bar",
+      "Valet Parking",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Historic rooftop fine-dining terrace overlooking the scenic Gomti river bend with nightly live classical Ghazal performances",
+      "Oldest five-star Awadhi dining salon in the state capital"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 262 0131",
+    "website": "https://www.hotelclarks.com/clarks-avadh-lucknow/dining/falaknuma.html",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-vintage-machine",
+    "name": "The Vintage Machine",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "3/11, Ground Floor, Patrakar Puram Road, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+    "latitude": 26.8546,
+    "longitude": 80.9989,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Specialty Coffee",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood-fired Pizza",
+      "Hazelnut Cappuccino",
+      "Truffle Fries",
+      "Penne Alla Vodka"
+    ],
+    "menu": [
+      {
+        "food": "Classic Quattro Formaggi Pizza",
+        "price": 460
+      },
+      {
+        "food": "Artisan Hazelnut Cappuccino",
+        "price": 190
+      },
+      {
+        "food": "Penne Alla Vodka",
+        "price": 410
+      }
+    ],
+    "averageCostForOne": 550,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Free High-Speed Wi-Fi",
+      "Vintage Industrial Decor",
+      "Artisan Coffee Bar"
+    ],
+    "specialFeatures": [
+      "Pioneering gourmet cafe bringing European third-wave espresso culture and handcrafted thin crust pizzas to Lucknow",
+      "Chic industrial steampunk aesthetic"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 522 423 3555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-lko-wahid-biryani",
+    "name": "Wahid Biryani",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "address": "Naaz Cinema Road, Aminabad, Lucknow, Uttar Pradesh 226018",
+    "latitude": 26.8462,
+    "longitude": 80.9271,
+    "cuisine": [
+      "Awadhi",
+      "Mughlai",
+      "Biryani"
+    ],
+    "famousDishes": [
+      "Mutton Dum Biryani",
+      "Chicken Biryani",
+      "Mutton Seekh Kebab",
+      "Rumali Roti"
+    ],
+    "menu": [
+      {
+        "food": "Special Mutton Dum Biryani",
+        "price": 260
+      },
+      {
+        "food": "Chicken Dum Biryani",
+        "price": 190
+      },
+      {
+        "food": "Mutton Seekh Kebab (4 pcs)",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 260,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Takeaway",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Aminabad culinary legend established in 1955 renowned for aromatic saffron-infused rice and tender, juicy cuts of mutton",
+      "Fast, high-volume authentic dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 93352 74890",
+    "website": "http://wahidbiryani.in",
+    "available": true
+  }
+]

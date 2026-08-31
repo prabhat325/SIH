@@ -1,0 +1,784 @@
+[
+  {
+    "restaurantId": "rst-vns-kashi-chaat-bhandar",
+    "name": "Kashi Chaat Bhandar",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "D.57/58, Girja Ghar Chauraha, Dashaswamedh Road, Godowlia, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3096,
+    "longitude": 83.0068,
+    "cuisine": [
+      "Chaat",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Tamatar Chaat",
+      "Palak Patta Chaat",
+      "Dahi Puri",
+      "Gulab Jamun",
+      "Tikhi Pani Puri"
+    ],
+    "menu": [
+      {
+        "food": "Special Banarasi Tamatar Chaat",
+        "price": 60
+      },
+      {
+        "food": "Palak Patta Chaat",
+        "price": 60
+      },
+      {
+        "food": "Dahi Bhalla Tikki",
+        "price": 60
+      },
+      {
+        "food": "Hot Desi Ghee Gulab Jamun",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Quick Service",
+      "Standing / Takeaway"
+    ],
+    "specialFeatures": [
+      "Varanasi's most famous chaat institution, invented the legendary clay-pot Tamatar Chaat",
+      "Visited by culinary personalities and millions of pilgrims annually"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94505 40389",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-deena-chaat-bhandar",
+    "name": "Deena Chaat Bhandar",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "D-47/188, Luxa Road, Dashaswamedh, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3082,
+    "longitude": 83.0039,
+    "cuisine": [
+      "Chaat",
+      "Banarasi Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Tamatar Chaat in Kulhad",
+      "Chole Samosa",
+      "Dahi Golgappe",
+      "Kulfi Falooda"
+    ],
+    "menu": [
+      {
+        "food": "Kulhad Tamatar Chaat",
+        "price": 50
+      },
+      {
+        "food": "Chole Samosa Chaat",
+        "price": 50
+      },
+      {
+        "food": "Dahi Golgappe (6 pcs)",
+        "price": 50
+      },
+      {
+        "food": "Malai Rabri Kulfi",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian",
+      "Quick Service",
+      "Casual Seating"
+    ],
+    "specialFeatures": [
+      "Iconic Banarasi chaat landmark serving sizzling hot spicy-tangy tomato chaat garnished with crunchy namakpara",
+      "Heritage family eatery operating since 1970"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 93354 84080",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-blue-lassi-shop",
+    "name": "Blue Lassi Shop",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "CK 12/1, Kunj Gali, Near Manikarnika Ghat, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3112,
+    "longitude": 83.0135,
+    "cuisine": [
+      "Beverages",
+      "Desserts",
+      "Traditional Lassi"
+    ],
+    "famousDishes": [
+      "Pomegranate Lassi",
+      "Rabri Banana Lassi",
+      "Blueberry Coconut Lassi",
+      "Mango Dryfruit Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Special Malai Rabri Lassi",
+        "price": 80
+      },
+      {
+        "food": "Pomegranate Lassi",
+        "price": 110
+      },
+      {
+        "food": "Mango Dry Fruit Lassi",
+        "price": 120
+      },
+      {
+        "food": "Chocolate Banana Lassi",
+        "price": 100
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Kulhad Serving",
+      "Passport Photo Gallery Wall",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Global sensation operating since 1925 churning fresh thick hand-beaten lassi in earthen kulhads",
+      "Over 80 varieties of fruit-topped malai lassis"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94510 50059",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-ram-bhandar",
+    "name": "Ram Bhandar",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "C.K. 15/29, Katra Ratan Lal, Thatheri Bazaar, Chowk, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3129,
+    "longitude": 83.0102,
+    "cuisine": [
+      "Banarasi Breakfast",
+      "Mithai",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Kachori Sabzi",
+      "Desi Ghee Jalebi",
+      "Malaiyo (Seasonal)",
+      "Launglata"
+    ],
+    "menu": [
+      {
+        "food": "Kachori Sabzi (2 pcs)",
+        "price": 40
+      },
+      {
+        "food": "Desi Ghee Jalebi (100g)",
+        "price": 50
+      },
+      {
+        "food": "Winter Malaiyo (in season)",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Morning Breakfast Spot",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Varanasi's premier century-old dawn breakfast hotspot serving iconic round hing kachoris with spiced pumpkin-chana sabzi",
+      "Closes as soon as stock sells out around 10:30 AM"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-dharambir-malaiyo",
+    "name": "Markandey Malaiyo / Shreeji Sweets",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Chaukhamba Gali, Near Gopal Mandir, Chowk, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3138,
+    "longitude": 83.0118,
+    "cuisine": [
+      "Traditional Banarasi Sweets",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Banarasi Malaiyo",
+      "Rabri",
+      "Kaju Barfi"
+    ],
+    "menu": [
+      {
+        "food": "Kulhad Foam Malaiyo",
+        "price": 60
+      },
+      {
+        "food": "Special Kesar Pista Malaiyo",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Traditional Clay Pot Service"
+    ],
+    "specialFeatures": [
+      "Famous for Malaiyo, the delicate frothy saffron milk cloud prepared with morning winter dew",
+      "Varanasi's signature winter culinary marvel"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98390 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-shree-shivay",
+    "name": "Shree Shivay Thali Restaurant",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "5th Floor, Kuber Complex, Rathyatra Crossing, Mahmoorganj, Varanasi, Uttar Pradesh 221010",
+    "latitude": 25.3031,
+    "longitude": 82.9867,
+    "cuisine": [
+      "North Indian",
+      "Rajasthani",
+      "Gujarati",
+      "Pure Vegetarian Thali"
+    ],
+    "famousDishes": [
+      "Royal Unlimited Veg Thali",
+      "Dal Baati Churma",
+      "Paneer Makhani",
+      "Ker Sangri",
+      "Shrikhand"
+    ],
+    "menu": [
+      {
+        "food": "Shree Shivay Special Unlimited Thali",
+        "price": 399
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Elevator Access",
+      "Pure Vegetarian",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Premier unlimited royal vegetarian thali dining in Varanasi featuring over 25 items",
+      "Warm traditional Indian hospitality with bronze tableware"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 87958 22222",
+    "website": "https://shreeshivay.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-baati-chokha",
+    "name": "Baati Chokha",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Anand Mandir Cinema Building, Raja Chet Singh Kila Road, Teliyabag, Varanasi, Uttar Pradesh 221002",
+    "latitude": 25.3289,
+    "longitude": 82.9934,
+    "cuisine": [
+      "Bhojpuri",
+      "Awadhi",
+      "Rural Vegetarian"
+    ],
+    "famousDishes": [
+      "Sattu Baati Chokha with Desi Ghee",
+      "Dal Chokha Thali",
+      "Kheer in Kulhad",
+      "Churma Ladoo"
+    ],
+    "menu": [
+      {
+        "food": "Special Desi Ghee Baati Chokha Thali",
+        "price": 280
+      },
+      {
+        "food": "Paneer Baati Thali",
+        "price": 320
+      },
+      {
+        "food": "Matka Kheer",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Mud-hut Rural Decor",
+      "Floor & Table Seating",
+      "Pure Vegetarian",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Authentic Bhojpuri village ambiance with clay walls, lanterns, and wood-fire roasted Baati dipped in pure desi ghee",
+      "Promotes indigenous Purvanchal culinary traditions"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 220 5511",
+    "website": "http://www.baatichokha.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-dolphin-rooftop",
+    "name": "Dolphin Rooftop Restaurant",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Manmandir Ghat, D 22/16 Chousatti Ghat Road, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.3075,
+    "longitude": 83.0112,
+    "cuisine": [
+      "North Indian",
+      "Continental",
+      "Pure Vegetarian",
+      "Café"
+    ],
+    "famousDishes": [
+      "Dum Aloo Banarasi",
+      "Paneer Tikka Butter Masala",
+      "Thali",
+      "Wood-fired Pizza",
+      "Cold Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Dum Aloo Banarasi",
+        "price": 260
+      },
+      {
+        "food": "Paneer Butter Masala",
+        "price": 290
+      },
+      {
+        "food": "Vegetarian Thali",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Panoramic Ganges View",
+      "Rooftop Seating",
+      "Free Wi-Fi",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Unobstructed 180-degree panoramic view of the holy Ganga ghats and morning sunrise",
+      "Serene breezy rooftop atmosphere right on Manmandir Ghat"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 250 4911",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-varuna-taj-ganges",
+    "name": "Varuna - Taj Ganges",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Taj Ganges, Nadesar Palace Grounds, Raja Bazar Road, Nadesar, Varanasi, Uttar Pradesh 221002",
+    "latitude": 25.3376,
+    "longitude": 82.9839,
+    "cuisine": [
+      "Royal Indian",
+      "Awadhi",
+      "Banarasi Heritage"
+    ],
+    "famousDishes": [
+      "Banarasi Dum Aloo",
+      "Nawabi Gosht Biryani",
+      "Galouti Kebab",
+      "Nalli Nihari",
+      "Chenna Payesh"
+    ],
+    "menu": [
+      {
+        "food": "Nawabi Gosht Dum Biryani",
+        "price": 1150
+      },
+      {
+        "food": "Banarasi Subz Thali",
+        "price": 1850
+      },
+      {
+        "food": "Nalli Nihari",
+        "price": 1250
+      }
+    ],
+    "averageCostForOne": 2400,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Luxury Fine Dining",
+      "Valet Parking",
+      "Full Bar",
+      "Live Classical Music",
+      "Private Dining"
+    ],
+    "specialFeatures": [
+      "Signature Indian restaurant at Taj Ganges showcasing royal cuisines of Banaras kings and Awadhi nawabs",
+      "Palatial ambiance surrounded by verdant mango orchards"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 666 0001",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-ganges-varanasi/restaurants/varuna/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-roma-cafe",
+    "name": "Roma's Cafe Diner",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "24, Bhelupur Rd, Near IP Vijaya Mall, Bhelupur, Varanasi, Uttar Pradesh 221010",
+    "latitude": 25.2974,
+    "longitude": 82.9961,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "American Diner",
+      "Café"
+    ],
+    "famousDishes": [
+      "Thin Crust Pizza",
+      "Alfredo Pasta",
+      "Cheesecake",
+      "Artisan Coffee",
+      "Burgers"
+    ],
+    "menu": [
+      {
+        "food": "Pesto Genovese Pizza",
+        "price": 440
+      },
+      {
+        "food": "Creamy Alfredo Penne",
+        "price": 380
+      },
+      {
+        "food": "Classic Blueberry Cheesecake",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Free Wi-Fi",
+      "Modern Aesthetic",
+      "Dessert Counter"
+    ],
+    "specialFeatures": [
+      "Chic modern diner popular among Banaras Hindu University scholars, creatives, and international tourists",
+      "Famous for specialty coffee roasts and authentic thin-crust pizzas"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 97920 18181",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-pizzeria-vaatika-cafe",
+    "name": "Pizzeria Vaatika Cafe",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "B-1/178, Assi Ghat, Near Ganga River, Varanasi, Uttar Pradesh 221005",
+    "latitude": 25.2891,
+    "longitude": 83.0067,
+    "cuisine": [
+      "Italian",
+      "Bakery",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood Fired Thin Crust Pizza",
+      "Homemade Apple Pie with Ice Cream",
+      "Ravioli",
+      "Espresso"
+    ],
+    "menu": [
+      {
+        "food": "Vaatika Special Veg Pizza",
+        "price": 380
+      },
+      {
+        "food": "Hot Apple Pie with Vanilla Ice Cream",
+        "price": 160
+      },
+      {
+        "food": "Spinach & Cheese Ravioli",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Riverfront Garden Seating",
+      "Wood-fired Oven",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "India's first authentic wood-fired pizzeria on the banks of the Ganges at legendary Assi Ghat",
+      "Famous warm homemade apple pie baked fresh daily"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 231 2855",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-keshav-tambool",
+    "name": "Keshav Tambool Bhandar",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Near Ravidas Gate, Lanka, BHU Road, Varanasi, Uttar Pradesh 221005",
+    "latitude": 25.2798,
+    "longitude": 82.9984,
+    "cuisine": [
+      "Paan",
+      "Traditional Banarasi Specialties"
+    ],
+    "famousDishes": [
+      "Banarasi Maghai Paan",
+      "Meetha Paan with Gulkand",
+      "Chandi Warq Paan"
+    ],
+    "menu": [
+      {
+        "food": "Special Banarasi Meetha Paan",
+        "price": 35
+      },
+      {
+        "food": "Kesar Maghai Paan",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 50,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Quick Service",
+      "Traditional Heritage Shop"
+    ],
+    "specialFeatures": [
+      "Over 50 years of legendary Banarasi Paan craftsmanship near BHU gate",
+      "Visited by celebrities, prime ministers, and connoisseurs of authentic Maghai leaf"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94152 24567",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-canton-royale",
+    "name": "Canton Royale Restaurant",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Hotel Surya, S-20/51-A-5, The Mall Road, Varanasi Cantonment, Varanasi, Uttar Pradesh 221002",
+    "latitude": 25.3361,
+    "longitude": 82.9823,
+    "cuisine": [
+      "Mughlai",
+      "North Indian",
+      "Continental",
+      "Pan Asian"
+    ],
+    "famousDishes": [
+      "Murgh Malai Kebab",
+      "Kashmiri Rogan Josh",
+      "Paneer Lababdar",
+      "Crispy Corn"
+    ],
+    "menu": [
+      {
+        "food": "Murgh Malai Kebab",
+        "price": 460
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 390
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 330
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Colonial Heritage Decor",
+      "Air Conditioning",
+      "Lush Lawn Seating",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Set in a 19th-century colonial bungalow with manicured gardens in Varanasi Cantonment",
+      "Extensive wine list and relaxed royal dining ambience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 542 250 8466",
+    "website": "http://www.hotelsuryavns.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-thali-restaurant",
+    "name": "Aadha-Aadha Cafe",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "B-3/337, Shivala Ghat Road, Varanasi, Uttar Pradesh 221001",
+    "latitude": 25.2952,
+    "longitude": 83.0071,
+    "cuisine": [
+      "Fusion",
+      "Café",
+      "Mediterranean",
+      "Indian"
+    ],
+    "famousDishes": [
+      "Falafel Hummus Platter",
+      "Shakshuka",
+      "Herbal Teas",
+      "Lemon Tart"
+    ],
+    "menu": [
+      {
+        "food": "Mediterranean Platter",
+        "price": 320
+      },
+      {
+        "food": "Shakshuka with Pita",
+        "price": 260
+      },
+      {
+        "food": "Masala Chai Pot",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Terrace Seating",
+      "Artistic Ambience",
+      "Free Wi-Fi",
+      "Books Corner"
+    ],
+    "specialFeatures": [
+      "Cozy cultural hub hosting acoustic music evenings and book exchanges near Shivala Ghat",
+      "Fresh organic ingredients and fusion breakfasts"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98394 56789",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vns-radhey-krishna",
+    "name": "Chachi Ki Dukan",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "address": "Assi - Lanka Road, Opp. Sankat Mochan Lane, Varanasi, Uttar Pradesh 221005",
+    "latitude": 25.2847,
+    "longitude": 83.0012,
+    "cuisine": [
+      "Street Food",
+      "Breakfast",
+      "Sweets"
+    ],
+    "famousDishes": [
+      "Kachori with Spicy Chana Sabzi",
+      "Fresh Jalebi",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Kachori Jalebi Plate",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 60,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Street Counter",
+      "Pure Vegetarian",
+      "Morning Only"
+    ],
+    "specialFeatures": [
+      "Legendary local street breakfast stall run for over 60 years beloved by university scholars and sadhus alike",
+      "Traditional thin crisp jalebis straight out of the kadhai"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

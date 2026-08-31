@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "RISHIKESH-EVENT-001",
+            "name": "Ganga Dussehra",
+            "city": "Rishikesh",
+            "state": "Uttarakhand",
+            "description": "Celebrates the descent of the Ganges to Earth.",
+            "type": "Religious",
+            "venue": "Har Ki Pauri and various ghats",
+            "usualMonth": "May/June",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "RISHIKESH-EVENT-002",
+            "name": "International Yoga Festival",
+            "city": "Rishikesh",
+            "state": "Uttarakhand",
+            "description": "The world's largest yoga festival attracting practitioners globally.",
+            "type": "Cultural",
+            "venue": "Parmarth Niketan and various ashrams",
+            "usualMonth": "March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "7 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.yogafestival.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "RISHIKESH-EVENT-003",
+            "name": "Kanwar Mela",
+            "city": "Rishikesh",
+            "state": "Uttarakhand",
+            "description": "An annual pilgrimage during Shravan month.",
+            "type": "Religious",
+            "venue": "Various ghats in Rishikesh",
+            "usualMonth": "July/August",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 month",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "RISHIKESH-EVENT-004",
+            "name": "Ganga Mahotsav",
+            "city": "Rishikesh",
+            "state": "Uttarakhand",
+            "description": "A cultural festival celebrating the holy Ganges.",
+            "type": "Cultural",
+            "venue": "Various venues in Rishikesh",
+            "usualMonth": "November",
+            "usualTime": "Evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

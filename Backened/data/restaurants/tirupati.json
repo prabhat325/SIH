@@ -1,0 +1,162 @@
+[
+  {
+    "restaurantId": "rst-tpt-andhra-spice",
+    "name": "Andhra Spice",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Old Tiruchanoor Road, Near Padmavathi Park, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6212,
+    "longitude": 79.4312,
+    "cuisine": [
+      "Authentic Andhra",
+      "Rayalaseema Non-Veg & Veg",
+      "Spicy Thalis"
+    ],
+    "famousDishes": [
+      "Rayalaseema Ragi Mudde with Natu Kodi Pulusu (Country Chicken Gravy)",
+      "Andhra Meals with Gongura Pachadi",
+      "Gongura Mutton",
+      "Ulavacharu Biryani"
+    ],
+    "menu": [
+      {
+        "food": "Rayalaseema Ragi Sankati with Natu Kodi Curry",
+        "price": 290
+      },
+      {
+        "food": "Authentic Andhra Banana Leaf Meals",
+        "price": 180
+      },
+      {
+        "food": "Gongura Mutton Roast",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Banana Leaf Service",
+      "Family Friendly",
+      "Ample Parking"
+    ],
+    "specialFeatures": [
+      "Tirupati's top destination for authentic Rayalaseema culinary heritage, famous for wholesome finger-millet balls (Ragi Mudde) paired with fiery free-range country chicken curry and spicy Gongura pickles",
+      "Rich regional flavors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 223 4567",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-tpt-maurya-restaurant",
+    "name": "Maurya Pure Veg Restaurant",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Opposite Tirupati Railway Station, TP Area, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6289,
+    "longitude": 79.4212,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Andhra Satvik Thali",
+      "South Indian Tiffin"
+    ],
+    "famousDishes": [
+      "Special Andhra Vegetarian Meals (Ghee, Gunpowder Podi, Pappu & Payasam)",
+      "Pesarattu Upma",
+      "Butter Masala Dosa",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Grand Andhra Vegetarian Lunch Thali",
+        "price": 160
+      },
+      {
+        "food": "Andhra Special MLA Pesarattu with Upma",
+        "price": 110
+      },
+      {
+        "food": "Madras Filter Coffee",
+        "price": 35
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian (Satvik)",
+      "Railway Station Proximity",
+      "Fast Turnover"
+    ],
+    "specialFeatures": [
+      "Trusted pilgrimage haven opposite Tirupati Railway Station serving hygienic satvik Andhra meals, crispy green-gram pesarattu dosas stuffed with upma, and pure ghee sweets to Lord Venkateswara devotees",
+      "Clean and fast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 222 5678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-tpt-minerva-grand-blue-fox",
+    "name": "Blue Fox - Hotel Minerva Grand",
+    "city": "Tirupati",
+    "state": "Andhra Pradesh",
+    "address": "Hotel Minerva Grand, Renigunta Road, Near Tirupati Central, Tirupati, Andhra Pradesh 517501",
+    "latitude": 13.6345,
+    "longitude": 79.4389,
+    "cuisine": [
+      "Multi-Cuisine",
+      "Andhra Specialties",
+      "North Indian Fine Dining"
+    ],
+    "famousDishes": [
+      "Andhra Thali Spread",
+      "Paneer Tikka Lababdar",
+      "Hyderabadi Biryani",
+      "Crispy Corn Pepper Fry",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Minerva Grand Executive Thali",
+        "price": 320
+      },
+      {
+        "food": "Paneer Butter Masala with Naan",
+        "price": 290
+      },
+      {
+        "food": "Dum Biryani",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Full Bar",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Upscale hotel dining room on Renigunta Road offering refined multi-cuisine banquets and authentic Andhra delicacies in a comfortable contemporary setting",
+      "High quality and service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 877 667 8888",
+    "website": "http://minervagrand.com",
+    "available": true
+  }
+]

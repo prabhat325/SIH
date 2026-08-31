@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "MAN-001",
+        "name": "Regional Guide",
+        "city": "Manali",
+        "state": "Himachal Pradesh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Adventure"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 10,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

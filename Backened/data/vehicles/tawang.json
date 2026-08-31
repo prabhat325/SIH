@@ -1,0 +1,44 @@
+[
+    {
+        "vehicleId": "TAWANG-SHAREDTAXI-001",
+        "vehicleType": "Shared Taxi",
+        "city": "Tawang",
+        "state": "Arunachal Pradesh",
+        "baseFare": 80,
+        "farePerKm": 16,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "TAWANG-TAXI-002",
+        "vehicleType": "Taxi",
+        "city": "Tawang",
+        "state": "Arunachal Pradesh",
+        "baseFare": 120,
+        "farePerKm": 28,
+        "averageSpeed": 20,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "TAWANG-TOURISTBUS-003",
+        "vehicleType": "Tourist Bus",
+        "city": "Tawang",
+        "state": "Arunachal Pradesh",
+        "baseFare": 700,
+        "farePerKm": 22,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

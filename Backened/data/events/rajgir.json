@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "RAJGIR-EVENT-001",
+            "name": "Rajgir Mahotsav",
+            "city": "Rajgir",
+            "state": "Bihar",
+            "description": "A cultural festival celebrating the Buddhist heritage of Rajgir.",
+            "type": "Cultural",
+            "venue": "Various Buddhist sites in Rajgir",
+            "usualMonth": "November",
+            "usualTime": "Evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "RAJGIR-EVENT-002",
+            "name": "Buddha Purnima",
+            "city": "Rajgir",
+            "state": "Bihar",
+            "description": "The birth anniversary of Lord Buddha at Gridhakuta Hill.",
+            "type": "Religious",
+            "venue": "Gridhakuta Hill and Buddhist monasteries",
+            "usualMonth": "April/May",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "RAJGIR-EVENT-003",
+            "name": "Saptah Mela",
+            "city": "Rajgir",
+            "state": "Bihar",
+            "description": "A traditional fair at Saptah Kund (seven springs).",
+            "type": "Fair",
+            "venue": "Saptah Kund, Rajgir",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "events": [
+        {
+            "eventId": "KONARK-EVENT-001",
+            "name": "Konark Dance Festival",
+            "city": "Konark",
+            "state": "Odisha",
+            "description": "An annual classical dance festival against the backdrop of the ancient Sun Temple.",
+            "type": "Cultural",
+            "venue": "Open Air Auditorium, Konark",
+            "usualMonth": "December",
+            "usualTime": "Evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/a04ef797-bebd-57d1-b224-d2cb44b3ed24/28f95ea9-d965-5637-b64b-7bef54ec534f.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "KONARK-EVENT-002",
+            "name": "International Sand Art Festival",
+            "city": "Konark",
+            "state": "Odisha",
+            "description": "An international sand art festival at Chandrabhaga Beach.",
+            "type": "Exhibition",
+            "venue": "Chandrabhaga Beach",
+            "usualMonth": "December",
+            "usualTime": "Morning to evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "KONARK-EVENT-003",
+            "name": "Ratha Saptami",
+            "city": "Konark",
+            "state": "Odisha",
+            "description": "A religious festival at the Sun Temple with special prayers.",
+            "type": "Religious",
+            "venue": "Sun Temple, Konark",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

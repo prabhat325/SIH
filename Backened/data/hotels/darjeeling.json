@@ -1,0 +1,282 @@
+[
+  {
+    "hotelId": "ixb-mayfair-darjeeling",
+    "name": "Mayfair Darjeeling - Hill Palace Resort",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "The Mall, Opposite Governor House, Darjeeling, West Bengal 734101",
+    "latitude": 27.0458,
+    "longitude": 88.2675,
+    "pricePerNight": 16500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Mayfair Spa",
+      "Magnolia Multi-cuisine Dining",
+      "Tiffany Tea Lounge",
+      "Douglas Bar",
+      "Kanchenjunga View Terraces",
+      "Billiards & Boardroom",
+      "Heritage Wood Paneling"
+    ],
+    "specialFeatures": [
+      "Former summer palace of the Maharaja of Nazargunj situated opposite Governor House",
+      "Breathtaking direct sunrise views of Mt. Kanchenjunga from palace lawns"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 354 225 6376",
+    "website": "https://www.mayfairhotels.com/mayfair-darjeeling/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.141Z",
+    "updatedAt": "2026-08-22T21:20:27.141Z"
+  },
+  {
+    "hotelId": "ixb-windamere-hotel",
+    "name": "Windamere Hotel - A Heritage Hotel of the British Empire",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "Observatory Hill, The Mall, Darjeeling, West Bengal 734101",
+    "latitude": 27.0485,
+    "longitude": 88.2695,
+    "pricePerNight": 14500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Original Coal Fireplaces in Suites",
+      "The Dining Room (British Colonial Roast Dinners)",
+      "The Daisy Dozey Reading Room",
+      "The Bearpark Parlour (1841)",
+      "Traditional English Afternoon High Tea"
+    ],
+    "specialFeatures": [
+      "Historic 1841 colonial sanctuary on Observatory Hill where royalty, Chogyals, and Everest pioneers stayed",
+      "Coal fires in rooms, hot water bottles in bed, and candlelit British dinners"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 354 225 4041",
+    "website": "https://www.windamerehotel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.142Z",
+    "updatedAt": "2026-08-22T21:20:27.142Z"
+  },
+  {
+    "hotelId": "ixb-the-elgin-darjeeling",
+    "name": "The Elgin, Darjeeling - Heritage Hotel",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "18 H.D. Lama Road, Darjeeling, West Bengal 734101",
+    "latitude": 27.0421,
+    "longitude": 88.2645,
+    "pricePerNight": 11500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "The Orchid Dining Room",
+      "The Timber Bar",
+      "Spa",
+      "Lawn High Tea",
+      "Oak Wood Paneling & Lithographs by Daniell"
+    ],
+    "specialFeatures": [
+      "125-year-old summer residence of the Maharaja of Cooch Behar with Burmese teak woodwork, crackling fireplaces and original lithographs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 354 225 4114",
+    "website": "https://www.elginhotels.com/the-elgin-darjeeling/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.142Z",
+    "updatedAt": "2026-08-22T21:20:27.142Z"
+  },
+  {
+    "hotelId": "ixb-cedar-inn",
+    "name": "Cedar Inn Darjeeling",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "Jalapahar Road, Below St. Paul's School, Darjeeling, West Bengal 734101",
+    "latitude": 27.0345,
+    "longitude": 88.2612,
+    "pricePerNight": 7500,
+    "category": "Mid-Range",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Terrace Restaurant with Mt. Kanchenjunga View",
+      "The Bar",
+      "Ayurvedic Spa & Sauna",
+      "Boutique Woodwork",
+      "Free Shuttle to Chowrasta Mall"
+    ],
+    "specialFeatures": [
+      "Tucked high up amidst ancient cedar trees below St. Paul's School with panoramic views of the entire snow-clad Kanchenjunga range"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 354 225 4446",
+    "website": "https://cedarinn.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.144Z",
+    "updatedAt": "2026-08-22T21:20:27.144Z"
+  },
+  {
+    "hotelId": "ixb-sinclairs-darjeeling",
+    "name": "Sinclairs Darjeeling",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "18/1 Gandhi Road, Darjeeling, West Bengal 734101",
+    "latitude": 27.0385,
+    "longitude": 88.2625,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Kanchenjunga View Restaurant",
+      "The Dorje Lounge & Bar",
+      "Indoor Games Room",
+      "Health Club"
+    ],
+    "specialFeatures": [
+      "Located on Gandhi Road with viewing sundeck looking directly out across the valley to Mt. Kanchenjunga"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 354 225 6431",
+    "website": "https://www.sinclairshotels.com/darjeeling",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.144Z",
+    "updatedAt": "2026-08-22T21:20:27.144Z"
+  },
+  {
+    "hotelId": "ixb-zostel-darjeeling",
+    "name": "Zostel Darjeeling",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "Near Ghoom Monastery, Old Military Road, Ghoom, Darjeeling, West Bengal 734102",
+    "latitude": 27.0112,
+    "longitude": 88.2545,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Rooftop Mountain View Cafe",
+      "Bonfire Nights",
+      "AC/Heated Dorms & Privates",
+      "Common Lounge",
+      "Tiger Hill Sunrise Tour Desk"
+    ],
+    "specialFeatures": [
+      "Located near Ghoom (India's highest railway station at 7,407 ft), famous shared sunrise trips to Tiger Hill and Batasia Loop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/darjeeling/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.145Z",
+    "updatedAt": "2026-08-22T21:20:27.145Z"
+  },
+  {
+    "hotelId": "ixb-the-hosteller-darjeeling",
+    "name": "The Hosteller Darjeeling",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "Coombewood, Below Chowrasta Mall, Darjeeling, West Bengal 734101",
+    "latitude": 27.0441,
+    "longitude": 88.2685,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cafe",
+      "Workation Stations",
+      "Dorms & Private Rooms",
+      "Heaters Assistance"
+    ],
+    "specialFeatures": [
+      "Walking distance from Chowrasta Mall Road and legendary Glenary's Bakery & Keventers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-darjeeling/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.145Z",
+    "updatedAt": "2026-08-22T21:20:27.145Z"
+  },
+  {
+    "hotelId": "ixb-gostops-darjeeling",
+    "name": "goSTOPS Darjeeling",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "Hermitage Road, Near Mall, Darjeeling, West Bengal 734101",
+    "latitude": 27.0465,
+    "longitude": 88.2662,
+    "pricePerNight": 749,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Lounge",
+      "Home Theatre",
+      "Bunk Bed Privacy Curtains",
+      "Lockers"
+    ],
+    "specialFeatures": [
+      "Charming views of misty pine valleys near Governor's House entrance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-darjeeling/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.146Z",
+    "updatedAt": "2026-08-22T21:20:27.146Z"
+  },
+  {
+    "hotelId": "ixb-hideout-travel-cafe",
+    "name": "Hideout Travel Cafe & Hostel",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "Dr. S.M. Das Road, Near Clock Tower, Darjeeling, West Bengal 734101",
+    "latitude": 27.0412,
+    "longitude": 88.2635,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Organic Coffee & Bakery Cafe",
+      "Wooden Bunks",
+      "Board Games",
+      "Darjeeling First Flush Tea Tasting"
+    ],
+    "specialFeatures": [
+      "Cozy bohemian wood-paneled backpacker travel cafe in the center of town near Clock Tower"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98320 54321",
+    "website": "https://hideoutdarjeeling.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.146Z",
+    "updatedAt": "2026-08-22T21:20:27.146Z"
+  }
+]

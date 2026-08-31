@@ -1,0 +1,523 @@
+[
+  {
+    "restaurantId": "rst-atq-kesar-da-dhaba",
+    "name": "Kesar Da Dhaba",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Chowk Passian, Near Telephone Exchange, Old Amritsar, Punjab 143001",
+    "latitude": 31.6258,
+    "longitude": 74.8789,
+    "cuisine": [
+      "Punjabi Pure Vegetarian",
+      "Traditional Dhaba",
+      "Desi Ghee Delicacies"
+    ],
+    "famousDishes": [
+      "Dal Makhani (12-Hour Slow Cooked in Desi Ghee)",
+      "Lachha Paratha",
+      "Palak Paneer",
+      "Mah Ki Dal",
+      "Phirni in Clay Pot",
+      "Kadhai Paneer"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Dal Makhani with Desi Ghee",
+        "price": 210
+      },
+      {
+        "food": "Crisp Desi Ghee Lachha Paratha",
+        "price": 60
+      },
+      {
+        "food": "Shahi Paneer",
+        "price": 240
+      },
+      {
+        "food": "Earthen Clay Pot Saffron Phirni",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Heritage Since 1916",
+      "Traditional Seating"
+    ],
+    "specialFeatures": [
+      "Established in 1916 in Sheikhupura (now Pakistan) and relocated to Amritsar after Partition, celebrated for its legendary black urad dal simmered overnight over slow coal embers and topped with fragrant sizzling desi ghee",
+      "Visited by Lala Lajpat Rai, Jawaharlal Nehru, and Indira Gandhi"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 255 2103",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-kulcha-land",
+    "name": "Kulcha Land",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Opposite District Shopping Centre, Ranjit Avenue, Amritsar, Punjab 143001",
+    "latitude": 31.6542,
+    "longitude": 74.8621,
+    "cuisine": [
+      "Amritsari Kulchas",
+      "Punjabi Breakfast",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Aloo Pyaaz Kulcha",
+      "Paneer Stuffed Kulcha",
+      "Masala Kulcha with Spicy Chole & Tamarind Onion Chutney",
+      "Makhania Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Amritsari Aloo Pyaaz Kulcha with Chole & Chutney",
+        "price": 110
+      },
+      {
+        "food": "Special Paneer Kulcha",
+        "price": 140
+      },
+      {
+        "food": "Sweet Amritsari Malai Lassi",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Clay Tandoor Bakery",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Pioneering kulcha establishment baking multi-layered flaky dough stuffed with spiced potatoes in glowing underground clay tandoors and crushed by hand with melting butter",
+      "The hallmark breakfast of Punjab"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98888 23456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-makhan-fish",
+    "name": "Makhan Fish & Chicken Corner",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "21, Basant Nagar, Majitha Road, Amritsar, Punjab 143001",
+    "latitude": 31.6489,
+    "longitude": 74.8765,
+    "cuisine": [
+      "Amritsari Seafood",
+      "Punjabi Non-Veg",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Original Amritsari Fried Fish (Singhara Fish with Ajwain Batter)",
+      "Tandoori Fish Tikka",
+      "Butter Chicken",
+      "Mutton Chaap",
+      "Keema Naan"
+    ],
+    "menu": [
+      {
+        "food": "World Famous Amritsari Fried Fish (250g)",
+        "price": 340
+      },
+      {
+        "food": "Tandoori Fish Tikka (250g)",
+        "price": 360
+      },
+      {
+        "food": "Butter Chicken (Half)",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "Family Dining",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Established in 1962, the world's most famous destination for authentic 'Amritsari Fish' coated in seasoned gram flour and carom seed (ajwain) batter and deep-fried to golden crispy perfection",
+      "A must-visit for foodies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 222 7933",
+    "website": "http://makhanfish.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-beera-chicken",
+    "name": "Beera Chicken Corner",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Opposite Bandari Hospital, Sehaj Avenue, Majitha Road, Amritsar, Punjab 143001",
+    "latitude": 31.6468,
+    "longitude": 74.8778,
+    "cuisine": [
+      "Punjabi Tandoori",
+      "Non-Vegetarian Grills"
+    ],
+    "famousDishes": [
+      "Original Tandoori Roast Chicken (Whole Spiced)",
+      "Mutton Tikka",
+      "Chicken Seekh Kebab",
+      "Tandoori Roti"
+    ],
+    "menu": [
+      {
+        "food": "Whole Roasted Tandoori Chicken",
+        "price": 380
+      },
+      {
+        "food": "Mutton Tikka Plate",
+        "price": 260
+      },
+      {
+        "food": "Chicken Seekh Kebab (4 pcs)",
+        "price": 200
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Outdoor Car Dining",
+      "Takeaway",
+      "Charcoal Grill Tandoors"
+    ],
+    "specialFeatures": [
+      "Operating since 1972, famous for its unique whole roast chicken marinated lightly in secret dry spices without artificial red coloring and cooked over open charcoal embers",
+      "Juicy, succulent, and legendary"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98141 42205",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-bharawan-da-dhaba",
+    "name": "Bharawan Da Dhaba (Since 1912)",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Near Town Hall, Hall Bazar, Old Amritsar, Punjab 143001",
+    "latitude": 31.6289,
+    "longitude": 74.8761,
+    "cuisine": [
+      "Punjabi Pure Vegetarian",
+      "North Indian Thali"
+    ],
+    "famousDishes": [
+      "Special Punjabi Thali",
+      "Amritsari Stuffed Kulcha with Dal",
+      "Sarson Ka Saag & Makki Ki Roti (Winter)",
+      "Shahi Paneer",
+      "Phirni"
+    ],
+    "menu": [
+      {
+        "food": "Bharawan Special Deluxe Veg Thali",
+        "price": 280
+      },
+      {
+        "food": "Amritsari Aloo Kulcha Thali with Chole & Dal",
+        "price": 170
+      },
+      {
+        "food": "Sarson Ka Saag with 2 Makki Roti & White Butter",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Spacious Family Seating",
+      "Close to Golden Temple"
+    ],
+    "specialFeatures": [
+      "Historic 110-year-old landmark near Town Hall serving comforting homestyle vegetarian Punjabi feasts and seasonal winter Sarson Saag loaded with freshly churned white butter",
+      "Golden Temple pilgrim favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 253 2575",
+    "website": "http://bharawandadhaba.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-bhai-kulwant-singh",
+    "name": "Bhai Kulwant Singh Kulchian Wale",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Bazar Bikanerian, Near Golden Temple Gate, Old Amritsar, Punjab 143001",
+    "latitude": 31.6212,
+    "longitude": 74.8772,
+    "cuisine": [
+      "Traditional Amritsari Kulcha",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Aloo Pyaaz Chur Chur Kulcha",
+      "Gobi Kulcha",
+      "Paneer Kulcha",
+      "Tamarind Chana Gravy"
+    ],
+    "menu": [
+      {
+        "food": "Special Aloo Pyaaz Chur Chur Kulcha with Chole",
+        "price": 90
+      },
+      {
+        "food": "Special Mixed Gobi Paneer Kulcha",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Golden Temple Proximity",
+      "Clay Oven Cooking"
+    ],
+    "specialFeatures": [
+      "Famous street-side tandoor right outside the Golden Temple complex baking sizzling flaky, crunchy multi-layered chur chur kulchas served on fresh leaf plates with spicy chickpea curry",
+      "Authentic Punjabi street art"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-gurdas-ram-jalebi",
+    "name": "Gurdas Ram Jalebi Wale",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Katra Ahluwalia, Near Golden Temple Heritage Street, Amritsar, Punjab 143001",
+    "latitude": 31.6229,
+    "longitude": 74.8781,
+    "cuisine": [
+      "Mithai",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Desi Ghee Hot Jalebi",
+      "Desi Ghee Imarti",
+      "Rabri"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Desi Ghee Jalebi (100g)",
+        "price": 40
+      },
+      {
+        "food": "Crispy Imarti Plate",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 60,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Heritage Sweet Stall",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic 70-year-old tiny shop frying thick, plump, syrup-dripping golden jalebis in pure desi ghee right along the Golden Temple Heritage Walk",
+      "Perpetually crowded with devotees"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98142 87654",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-kanha-sweets",
+    "name": "Kanha Sweets",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Shop No. 1, Dayanand Nagar, Lawrence Road, Amritsar, Punjab 143001",
+    "latitude": 31.6441,
+    "longitude": 74.8723,
+    "cuisine": [
+      "Breakfast",
+      "Mithai",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Poori Chana with Sweet Potato (Meethi Launji)",
+      "Pinni",
+      "Gulab Jamun",
+      "Malai Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Poori Chana Breakfast Platter with Launji (2 Pooris)",
+        "price": 120
+      },
+      {
+        "food": "Authentic Amritsari Urad Dal Pinni (500g)",
+        "price": 280
+      },
+      {
+        "food": "Thick Sweet Lassi",
+        "price": 65
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Takeaway Confectionery",
+      "Morning Breakfast Rush"
+    ],
+    "specialFeatures": [
+      "Lawrence Road's ultimate morning institution renowned for jumbo crispy bhatura-like pooris paired with spicy black chickpeas and unique sweet pumpkin-potato launji chutney",
+      "Famous Amritsari Pinni sweets"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 222 2855",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-ahuja-milk-centre",
+    "name": "Ahuja Milk Centre",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Near Hindu College, Dhab Khatikan, B.K. Dutt Gate, Amritsar, Punjab 143001",
+    "latitude": 31.6312,
+    "longitude": 74.8715,
+    "cuisine": [
+      "Dairy & Beverages",
+      "Desserts"
+    ],
+    "famousDishes": [
+      "Special Hand-Beaten Malai Lassi (Flavored with Peda)",
+      "Kesar Badam Milk",
+      "Phirni"
+    ],
+    "menu": [
+      {
+        "food": "Signature Peda-Infused Malai Lassi (Glass)",
+        "price": 60
+      },
+      {
+        "food": "Hot Kesar Badam Milk (Kulhad)",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 70,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Quick Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Legendary lassi parlour since 1955 that crushes real mawa pedas into rich thick whole-milk yogurt before churning, topped with clotted cream and natural essences",
+      "World-renowned beverage landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98140 55667",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-atq-crystal-restaurant",
+    "name": "Crystal Restaurant",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Crystal Chowk, Queens Road, INA Colony, Amritsar, Punjab 143001",
+    "latitude": 31.6389,
+    "longitude": 74.8734,
+    "cuisine": [
+      "Continental",
+      "North Indian",
+      "Mughlai",
+      "Pan Asian",
+      "Fine Dining"
+    ],
+    "famousDishes": [
+      "Crystal Special Butter Chicken",
+      "Mutton Rogan Josh",
+      "Chicken Sizzler",
+      "Grilled Fish Lemon Butter",
+      "Cassata Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Crystal Special Murgh Makhani",
+        "price": 480
+      },
+      {
+        "food": "Mutton Rogan Josh Kashmiri",
+        "price": 520
+      },
+      {
+        "food": "Continental Chicken Steak Sizzler",
+        "price": 490
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Vintage Fine Dining Decor",
+      "Full Bar",
+      "Valet Parking",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Established in 1974 at Crystal Chowk, Amritsar's most revered multi-cuisine fine-dining family restaurant celebrating five decades of aristocratic dining",
+      "Classy colonial ambiance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 222 6666",
+    "website": "http://crystalrestaurant.co.in",
+    "available": true
+  }
+]

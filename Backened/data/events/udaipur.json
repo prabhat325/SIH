@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "UDAIPUR-EVENT-001",
+            "name": "Mewar Festival",
+            "city": "Udaipur",
+            "state": "Rajasthan",
+            "description": "A cultural festival celebrating the heritage of Mewar.",
+            "type": "Cultural",
+            "venue": "Various venues in Udaipur",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "UDAIPUR-EVENT-002",
+            "name": "Gangaur Festival",
+            "city": "Udaipur",
+            "state": "Rajasthan",
+            "description": "An 18-day festival honoring Goddess Gauri.",
+            "type": "Religious",
+            "venue": "Various venues in Udaipur",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "18 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "UDAIPUR-EVENT-003",
+            "name": "Shilpgram Festival",
+            "city": "Udaipur",
+            "state": "Rajasthan",
+            "description": "A rural arts and crafts festival at Shilpgram.",
+            "type": "Cultural",
+            "venue": "Shilpgram",
+            "usualMonth": "December",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "UDAIPUR-EVENT-004",
+            "name": "World Music Festival",
+            "city": "Udaipur",
+            "state": "Rajasthan",
+            "description": "An international music festival at historic venues.",
+            "type": "Concert",
+            "venue": "City Palace and various venues",
+            "usualMonth": "February/March",
+            "usualTime": "Evening",
+            "usualDuration": "3-4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.udaipurworldmusicfestival.com/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

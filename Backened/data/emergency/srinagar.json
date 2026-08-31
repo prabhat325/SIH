@@ -1,0 +1,92 @@
+[
+  {
+    "serviceId": "SRINAGAR-HOSPITAL-001",
+    "name": "Sher-i-Kashmir Institute of Medical Sciences",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "type": "Hospital",
+    "address": "Soura, Srinagar, Jammu and Kashmir 190011",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://skims.ac.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "SRINAGAR-HOSPITAL-002",
+    "name": "Government Medical College Srinagar",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "type": "Hospital",
+    "address": "Karan Nagar, Srinagar, Jammu and Kashmir 190004",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "SRINAGAR-HOSPITAL-003",
+    "name": "SMHS Hospital",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "type": "Hospital",
+    "address": "Karan Nagar, Srinagar, Jammu and Kashmir 190004",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "SRINAGAR-POLICE-004",
+    "name": "Kothibagh Police Station",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "type": "Police Station",
+    "address": "Kothibagh, Srinagar, Jammu and Kashmir 190001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://jkpolice.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "SRINAGAR-FIRE-005",
+    "name": "Srinagar Central Fire Station",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "type": "Fire Station",
+    "address": "Karan Nagar, Srinagar, Jammu and Kashmir 190004",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

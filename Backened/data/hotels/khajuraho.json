@@ -1,0 +1,251 @@
+[
+  {
+    "hotelId": "khj-the-lalit-temple-view",
+    "name": "The Lalit Temple View Khajuraho",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Opposite Circuit House, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8488,
+    "longitude": 79.9275,
+    "pricePerNight": 12500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool with Temple View",
+      "Rejuve The Spa",
+      "Panna All-Day Dining",
+      "Mahua Bar",
+      "Classical Dance Evening",
+      "Putting Green"
+    ],
+    "specialFeatures": [
+      "Only luxury hotel with unobstructed direct views of the UNESCO Western Group of Temples",
+      "Daily live classical Bundelkhandi dance & light shows on palace lawns"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 272 111",
+    "website": "https://www.thelalit.com/the-lalit-khajuraho/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.000Z",
+    "updatedAt": "2026-08-22T21:20:27.000Z"
+  },
+  {
+    "hotelId": "khj-radisson-jass-hotel",
+    "name": "Radisson Jass Hotel Khajuraho",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "By Pass Road, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8465,
+    "longitude": 79.9385,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Large Outdoor Pool",
+      "Temple Cafe",
+      "Temple View Bar",
+      "Spa & Sauna",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "5-star resort set in tranquil green oasis with huge outdoor pool and evening sitar music"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 272 344",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-khajuraho",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.000Z",
+    "updatedAt": "2026-08-22T21:20:27.000Z"
+  },
+  {
+    "hotelId": "khj-ramada-by-wyndham",
+    "name": "Ramada by Wyndham Khajuraho",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Airport Road, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8395,
+    "longitude": 79.9248,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Gautama Multi-cuisine Restaurant",
+      "Mahua Bar",
+      "Tennis Court",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Sprawling resort on Airport Road with marble architecture and outdoor sports facilities"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 272 144",
+    "website": "https://www.wyndhamhotels.com/ramada/khajuraho-india/ramada-khajuraho/overview",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.001Z",
+    "updatedAt": "2026-08-22T21:20:27.001Z"
+  },
+  {
+    "hotelId": "khj-clarks-khajuraho",
+    "name": "Clarks Khajuraho",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Khajuraho Airport Road, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8412,
+    "longitude": 79.9295,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Darpan Multi-cuisine Restaurant",
+      "Kamini Bar",
+      "Cricket Pitch & Lawns"
+    ],
+    "specialFeatures": [
+      "Set in 18 acres of lush green lawns with Bundeli folk dance evenings"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 274 038",
+    "website": "https://www.hotelclarks.com/clarks-khajuraho/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.001Z",
+    "updatedAt": "2026-08-22T21:20:27.001Z"
+  },
+  {
+    "hotelId": "khj-hotel-chandela",
+    "name": "Hotel Chandela Khajuraho",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Airport Road, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8431,
+    "longitude": 79.9321,
+    "pricePerNight": 4100,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Rasna Restaurant",
+      "Rimjhim Coffee Shop",
+      "Health Club",
+      "Badminton"
+    ],
+    "specialFeatures": [
+      "Heritage hospitality pioneer in Khajuraho set in palm-fringed gardens"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 272 355",
+    "website": "https://hotelchandelakhajuraho.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.002Z",
+    "updatedAt": "2026-08-22T21:20:27.002Z"
+  },
+  {
+    "hotelId": "khj-zostel-khajuraho",
+    "name": "Zostel Khajuraho",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Near Jain Temples, Eastern Group Road, Sevagram, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8512,
+    "longitude": 79.9345,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Temple View Cafe",
+      "Air Conditioning",
+      "Common Games Lounge",
+      "Lockers",
+      "Bicycle Rental"
+    ],
+    "specialFeatures": [
+      "Walking distance to Eastern Group Jain temples",
+      "Bicycle tours of rural Khajuraho villages and waterfalls"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/khajuraho/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.002Z",
+    "updatedAt": "2026-08-22T21:20:27.002Z"
+  },
+  {
+    "hotelId": "khj-hotel-isabel-palace",
+    "name": "Hotel Isabel Palace",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Airport Road, Sevagram, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8445,
+    "longitude": 79.9261,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Restaurant",
+      "Garden View Rooms",
+      "Ayurvedic Massage",
+      "Airport Pickup"
+    ],
+    "specialFeatures": [
+      "Charming family boutique hotel with immaculate gardens and rooftop candlelight dinners"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 274 445",
+    "website": "https://hotelisabelpalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.002Z",
+    "updatedAt": "2026-08-22T21:20:27.002Z"
+  },
+  {
+    "hotelId": "khj-hotel-surya",
+    "name": "Hotel Surya Khajuraho",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Main Road, Near Western Group of Temples, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8525,
+    "longitude": 79.9241,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Cafe",
+      "Air Conditioning",
+      "Travel Desk",
+      "Bicycle Hire"
+    ],
+    "specialFeatures": [
+      "2-minute stroll to UNESCO Western Group entrance gate and sound & light show arena"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 274 145",
+    "website": "https://hotelsuryakhajuraho.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.003Z",
+    "updatedAt": "2026-08-22T21:20:27.003Z"
+  }
+]

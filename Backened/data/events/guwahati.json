@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "GUWAHATI-EVENT-001",
+            "name": "Rongali Bihu",
+            "city": "Guwahati",
+            "state": "Assam",
+            "description": "Assam's grandest cultural festival marking the Assamese New Year.",
+            "type": "Festival",
+            "venue": "Various venues including Latasil Field",
+            "usualMonth": "April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://assamtourism.gov.in/bihu-festival.php",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "GUWAHATI-EVENT-002",
+            "name": "Brahmaputra Beach Festival",
+            "city": "Guwahati",
+            "state": "Assam",
+            "description": "An annual festival along the Brahmaputra River during Magh Bihu.",
+            "type": "Festival",
+            "venue": "Bharalumukh, Brahmaputra Riverfront",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://assamtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "GUWAHATI-EVENT-003",
+            "name": "Magh Bihu",
+            "city": "Guwahati",
+            "state": "Assam",
+            "description": "The harvest festival marked by feasts and bonfires.",
+            "type": "Festival",
+            "venue": "Various venues across Guwahati",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://assamtourism.gov.in/bihu-festival.php",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "GUWAHATI-EVENT-004",
+            "name": "Ambubachi Mela",
+            "city": "Guwahati",
+            "state": "Assam",
+            "description": "An annual religious fair at Kamakhya Temple.",
+            "type": "Religious",
+            "venue": "Kamakhya Temple",
+            "usualMonth": "June/July",
+            "usualTime": "Morning to evening",
+            "usualDuration": "4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://assamtourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

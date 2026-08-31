@@ -1,0 +1,391 @@
+[
+  {
+    "hotelId": "blr-the-leela-palace",
+    "name": "The Leela Palace Bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "23 HAL Old Airport Road, Kodihalli, Bengaluru, Karnataka 560008",
+    "latitude": 12.9605,
+    "longitude": 77.6485,
+    "pricePerNight": 22000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Heated Swimming Pool",
+      "The Spa by The Leela",
+      "Jamavar Royal Indian",
+      "Le Cirque Signature French-Italian",
+      "Zen Pan-Asian",
+      "The Library Bar",
+      "Butler Service"
+    ],
+    "specialFeatures": [
+      "Architectural tribute to the royal palaces of Mysore and Vijayanagara Empire set in 7 acres of landscaped gardens with cascading waterfalls",
+      "Gold leaf domes and century-old copper artifacts"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 2521 1234",
+    "website": "https://www.theleela.com/the-leela-palace-bengaluru",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.051Z",
+    "updatedAt": "2026-08-22T21:20:27.051Z"
+  },
+  {
+    "hotelId": "blr-the-oberoi-bengaluru",
+    "name": "The Oberoi, Bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "37-39 Mahatma Gandhi Road, Yellappa Garden, Bengaluru, Karnataka 560001",
+    "latitude": 12.9734,
+    "longitude": 77.6189,
+    "pricePerNight": 20000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool in Tropical Gardens",
+      "The Oberoi Spa",
+      "Rim Naam Thai Restaurant on Lotus Pond",
+      "Lapis Global Cuisine",
+      "The Polo Club Bar",
+      "Centenary Raintree"
+    ],
+    "specialFeatures": [
+      "Built around a magnificent 120-year-old blooming rain tree in central MG Road",
+      "Award-winning open-air Thai restaurant Rim Naam floating above lotus ponds"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 2558 5858",
+    "website": "https://www.oberoihotels.com/hotels-in-bengaluru/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.052Z",
+    "updatedAt": "2026-08-22T21:20:27.052Z"
+  },
+  {
+    "hotelId": "blr-taj-west-end",
+    "name": "Taj West End, Bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "25 Race Course Road, High Grounds, Bengaluru, Karnataka 560001",
+    "latitude": 12.9835,
+    "longitude": 77.5854,
+    "pricePerNight": 18000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Two Outdoor Pools",
+      "Jiva Grande Spa",
+      "Blue Ginger Vietnamese Dining",
+      "Machan Cafe",
+      "Mynt Multi-cuisine",
+      "Blue Bar on Water Pavilion",
+      "20 Acres of Heritage Flora"
+    ],
+    "specialFeatures": [
+      "Founded in 1887, Bengaluru's oldest luxury heritage hotel on 20 acres of tropical flora",
+      "India's first open-air Vietnamese restaurant Blue Ginger"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 6660 5660",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-west-end-bengaluru/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.053Z",
+    "updatedAt": "2026-08-22T21:20:27.053Z"
+  },
+  {
+    "hotelId": "blr-itc-gardenia",
+    "name": "ITC Gardenia, a Luxury Collection Hotel",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "1 Residency Road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025",
+    "latitude": 12.9668,
+    "longitude": 77.5975,
+    "pricePerNight": 16000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Kaya Kalp Spa",
+      "Edo Japanese Restaurant",
+      "Kebabs & Kurries",
+      "Lotus Pavilion Open-Air Lounge",
+      "Highland Nectar Bar",
+      "LEED Platinum Certified"
+    ],
+    "specialFeatures": [
+      "World's first hotel to achieve LEED Zero Carbon certification",
+      "Vertical gardens and the iconic Lotus Pavilion in heart of city next to UB City"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 2211 9898",
+    "website": "https://www.itchotels.com/in/en/itcgardenia-bengaluru",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.055Z",
+    "updatedAt": "2026-08-22T21:20:27.055Z"
+  },
+  {
+    "hotelId": "blr-four-seasons-bengaluru",
+    "name": "Four Seasons Hotel Bengaluru at Embassy ONE",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "8 Bellary Road, Ganganagar, Bengaluru, Karnataka 560032",
+    "latitude": 13.0112,
+    "longitude": 77.5895,
+    "pricePerNight": 19500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Butterfly Pool",
+      "Infuse Spa",
+      "Copitas Rooftop Cocktail Bar (Asia's 50 Best Bars)",
+      "Far & East Pan-Asian",
+      "CUR8 Italian Grill",
+      "Helipad"
+    ],
+    "specialFeatures": [
+      "Home to Copitas, ranked consistently among Asia's 50 Best Bars on 21st floor",
+      "Butterfly garden swimming pool with private cabanas"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4522 2222",
+    "website": "https://www.fourseasons.com/bengaluru/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.056Z",
+    "updatedAt": "2026-08-22T21:20:27.056Z"
+  },
+  {
+    "hotelId": "blr-the-ritz-carlton-bangalore",
+    "name": "The Ritz-Carlton, Bangalore",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "99 Residency Road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025",
+    "latitude": 12.9685,
+    "longitude": 77.6045,
+    "pricePerNight": 17500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Thermal Pool",
+      "The Ritz-Carlton Spa with Jaali Jaali theme",
+      "Riwaz North-West Frontier Dining",
+      "Bang Rooftop Lounge",
+      "The Lantern Dim Sum Bar",
+      "Helipad"
+    ],
+    "specialFeatures": [
+      "Bang - open-air panoramic rooftop bar on 16th floor",
+      "Over 1,200 curated contemporary art pieces across the property"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4914 8000",
+    "website": "https://www.ritzcarlton.com/en/hotels/blrbr-the-ritz-carlton-bangalore/overview/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.057Z",
+    "updatedAt": "2026-08-22T21:20:27.057Z"
+  },
+  {
+    "hotelId": "blr-the-chancery-pavilion",
+    "name": "The Chancery Pavilion",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "135 Residency Road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560025",
+    "latitude": 12.9662,
+    "longitude": 77.6012,
+    "pricePerNight": 5500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Ithaca Multi-cuisine Restaurant",
+      "Amnesia Lounge Bar",
+      "Sigma Health Club",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Prime Central Business District location on Residency Road near Brigade Road and MG Road"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4141 4141",
+    "website": "https://chanceryhotels.com/the-chancery-pavilion/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.058Z",
+    "updatedAt": "2026-08-22T21:20:27.058Z"
+  },
+  {
+    "hotelId": "blr-bloomrooms-city-centre",
+    "name": "Bloomrooms @ City Centre",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "11 Railway Parallel Road, Kumara Park East, Seshadripuram, Bengaluru, Karnataka 560001",
+    "latitude": 12.9895,
+    "longitude": 77.5812,
+    "pricePerNight": 3800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Signature CloudBeds",
+      "Cafe",
+      "Work Desks",
+      "Rain Showers",
+      "24/7 Front Desk"
+    ],
+    "specialFeatures": [
+      "Award-winning bright yellow-white Scandinavian design next to Bengaluru Golf Club and Race Course"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4684 4444",
+    "website": "https://bloomrooms.com/hotels/bengaluru/city-centre",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.058Z",
+    "updatedAt": "2026-08-22T21:20:27.058Z"
+  },
+  {
+    "hotelId": "blr-zostel-bangalore",
+    "name": "Zostel Bangalore (Indiranagar)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "2012 100 Feet Road, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560038",
+    "latitude": 12.9698,
+    "longitude": 77.6412,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free High-Speed Wi-Fi (300 Mbps)",
+      "Rooftop Cafe",
+      "Dedicated Co-working Pods",
+      "AC Dorms & Privates",
+      "Lockers",
+      "Gaming Zone"
+    ],
+    "specialFeatures": [
+      "Prime 100 Feet Road Indiranagar location in the heart of Bengaluru's microbrewery & cafe culture",
+      "Startup founder meetups"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/bangalore-indiranagar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.059Z",
+    "updatedAt": "2026-08-22T21:20:27.059Z"
+  },
+  {
+    "hotelId": "blr-the-hosteller-bangalore",
+    "name": "The Hosteller Bangalore (Koramangala)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "80 Feet Road, 4th Block, Koramangala, Bengaluru, Karnataka 560034",
+    "latitude": 12.9345,
+    "longitude": 77.6245,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Work Cafe",
+      "Air Conditioning",
+      "Dorms & Private Rooms",
+      "Community Events",
+      "Board Games"
+    ],
+    "specialFeatures": [
+      "Located in Koramangala, India's startup Silicon Valley district surrounded by top cafes, bars and incubators"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-bangalore-koramangala/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.059Z",
+    "updatedAt": "2026-08-22T21:20:27.059Z"
+  },
+  {
+    "hotelId": "blr-gostops-bengaluru",
+    "name": "goSTOPS Bengaluru",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "Gandhi Nagar, Near Majestic Railway Station, Bengaluru, Karnataka 560009",
+    "latitude": 12.9785,
+    "longitude": 77.5754,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Lounge",
+      "Home Cinema",
+      "AC Dorms",
+      "Luggage Storage",
+      "24/7 Security"
+    ],
+    "specialFeatures": [
+      "Walking distance from Krantivira Sangolli Rayanna (Majestic) Railway Station and Metro interchange"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-bengaluru/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.060Z",
+    "updatedAt": "2026-08-22T21:20:27.060Z"
+  },
+  {
+    "hotelId": "blr-covie-koramangala",
+    "name": "The Covie Koramangala - Co-Living & Boutique Stay",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "1st Main Road, Jakkasandra Extension, Koramangala 1st Block, Bengaluru, Karnataka 560034",
+    "latitude": 12.9265,
+    "longitude": 77.6321,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Work Desks",
+      "Terrace Garden",
+      "Self-service Kitchen",
+      "Daily Housekeeping",
+      "Laundry"
+    ],
+    "specialFeatures": [
+      "Chic co-living hotel designed for tech innovators, freelancers and tech travelers in South Bengaluru"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 99991 23456",
+    "website": "https://thecovie.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.060Z",
+    "updatedAt": "2026-08-22T21:20:27.060Z"
+  }
+]

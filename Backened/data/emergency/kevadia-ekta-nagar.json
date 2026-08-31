@@ -1,0 +1,5 @@
+[
+{"serviceId":"KEVADIA-EKTA-NAGAR-HOSPITAL-001","name":"Community Health Centre Ekta Nagar","city":"Kevadia / Ekta Nagar","state":"Gujarat","type":"Hospital","address":"Ekta Nagar, Narmada district, Gujarat 393151","latitude":null,"longitude":null,"phone":null,"website":null,"available24x7":false,"emergencyFacilities":[],"verified":true,"available":true},
+{"serviceId":"KEVADIA-EKTA-NAGAR-POLICE-001","name":"Kevadia Police Station","city":"Kevadia / Ekta Nagar","state":"Gujarat","type":"Police Station","address":"Kevadia Colony, Narmada district, Gujarat 393151","latitude":null,"longitude":null,"phone":null,"website":"https://narmadapolice.gujarat.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+{"serviceId":"KEVADIA-EKTA-NAGAR-FIRE-001","name":"Ekta Nagar Fire Station","city":"Kevadia / Ekta Nagar","state":"Gujarat","type":"Fire Station","address":"Ekta Nagar, Narmada district, Gujarat 393151","latitude":null,"longitude":null,"phone":null,"website":"https://statueofunity.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

@@ -1,0 +1,324 @@
+[
+  {
+    "hotelId": "rsh-ananda-in-the-himalayas",
+    "name": "Ananda in the Himalayas",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "The Palace Estate, Narendra Nagar, Tehri Garhwal, Rishikesh, Uttarakhand 249175",
+    "latitude": 30.1584,
+    "longitude": 78.2912,
+    "pricePerNight": 45000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "24,000 sq ft Ayurvedic Spa",
+      "Outdoor Temperature-controlled Pool",
+      "Gourmet Wellness Cuisine",
+      "Vedanta & Yoga Pavilions",
+      "6-hole Golf Course",
+      "Helipad"
+    ],
+    "specialFeatures": [
+      "World's leading destination spa & wellness retreat on the 100-acre Maharaja's Palace Estate",
+      "Views of the holy Ganges river winding through Rishikesh valley"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1378 227 500",
+    "website": "https://www.anandaspa.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.936Z",
+    "updatedAt": "2026-08-22T21:20:26.936Z"
+  },
+  {
+    "hotelId": "rsh-taj-rishikesh-resort",
+    "name": "Taj Rishikesh Resort & Spa, Uttarakhand",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Village Singthali, 5th Stone, Badrinath Road, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1428,
+    "longitude": 78.4815,
+    "pricePerNight": 26000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Heated Infinity Pool on Ganga Cliff",
+      "Jiva Spa",
+      "Riverside Dining (Riverside)",
+      "Rock Flour Restaurant",
+      "Private Ganga Beach",
+      "Ganga Aarti Pavilion"
+    ],
+    "specialFeatures": [
+      "Private white sand beach on the sacred Ganga",
+      "Architectural marvel inspired by Garhwali havelis",
+      "Daily private Ganga Aarti on property cliff"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1378 262 626",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-rishikesh-resort-and-spa/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.936Z",
+    "updatedAt": "2026-08-22T21:20:26.936Z"
+  },
+  {
+    "hotelId": "rsh-the-roseate-ganges",
+    "name": "The Roseate Ganges Rishikesh",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Village Timli Kalthwar, Badrinath Road, Shivpuri, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1345,
+    "longitude": 78.3892,
+    "pricePerNight": 22000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Temperature-controlled Infinity Pool",
+      "Aheli Spa",
+      "Chidya Ghar Bar",
+      "Roasted by Roseate",
+      "Private Luxury Villas",
+      "Yoga Lawn"
+    ],
+    "specialFeatures": [
+      "16 luxury standalone villas overlooking the emerald waters of river Ganga",
+      "Bespoke rafting and yoga retreats"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1378 263 700",
+    "website": "https://www.roseatehotels.com/rishikesh/theroseateganges/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.937Z",
+    "updatedAt": "2026-08-22T21:20:26.937Z"
+  },
+  {
+    "hotelId": "rsh-aloha-on-the-ganges",
+    "name": "Aloha On The Ganges",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "National Highway 58, Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1352,
+    "longitude": 78.3248,
+    "pricePerNight": 9500,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Infinity Pool Overlooking Ganga",
+      "Ayurvedic Spa",
+      "Latitude Multi-cuisine Restaurant",
+      "Patio Ganga Cafe",
+      "Yoga Sessions"
+    ],
+    "specialFeatures": [
+      "Iconic infinity pool hovering directly above the turquoise Ganga near Lakshman Jhula",
+      "Spacious luxury river-view apartments"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 242 6000",
+    "website": "https://www.alohaontheganges.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.937Z",
+    "updatedAt": "2026-08-22T21:20:26.937Z"
+  },
+  {
+    "hotelId": "rsh-ganga-kinare",
+    "name": "Ganga Kinare - A Riverside Boutique Hotel",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "23 Haridwar Road, Near AIIMS / Triveni Ghat, Rishikesh, Uttarakhand 249201",
+    "latitude": 30.0988,
+    "longitude": 78.2915,
+    "pricePerNight": 6800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Private Ghat with Ganga Aarti",
+      "Jal & Jalebi Restaurant",
+      "Ayur Ganga Spa",
+      "Complimentary Bicycles",
+      "Yoga Pavilion"
+    ],
+    "specialFeatures": [
+      "Only hotel in town with its own private Ganga ghat for morning meditation and evening aarti",
+      "Right on the riverside promenade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 243 5243",
+    "website": "https://gangakinare.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.938Z",
+    "updatedAt": "2026-08-22T21:20:26.938Z"
+  },
+  {
+    "hotelId": "rsh-divine-resort-spa",
+    "name": "Divine Resort & Spa Rishikesh",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Laxman Jhula Road, Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1298,
+    "longitude": 78.3265,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Rooftop Ganga View Dining",
+      "Spa & Wellness",
+      "Yoga Hall",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Cliffside property right next to Lakshman Jhula with clear views of white water rafters and suspension bridge"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 244 2129",
+    "website": "https://divineresort.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.938Z",
+    "updatedAt": "2026-08-22T21:20:26.938Z"
+  },
+  {
+    "hotelId": "rsh-zostel-rishikesh",
+    "name": "Zostel Rishikesh (Tapovan)",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Mani Ram Marg, Behind BSNL Office, Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1312,
+    "longitude": 78.3289,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe & Yoga Deck",
+      "Common Chillout Lounge",
+      "Air Conditioning",
+      "Lockers",
+      "Rafting / Bungee Desk"
+    ],
+    "specialFeatures": [
+      "Backpacker capital of Tapovan with vibrant spiritual & adventure vibe",
+      "Curated white water rafting and Beatles Ashram walks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/rishikesh/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.938Z",
+    "updatedAt": "2026-08-22T21:20:26.938Z"
+  },
+  {
+    "hotelId": "rsh-the-hosteller-rishikesh",
+    "name": "The Hosteller Rishikesh (Tapovan)",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Badrinath Road, Upper Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1338,
+    "longitude": 78.3312,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Cafe",
+      "Co-working Desks",
+      "Bonfire Nights",
+      "Dorm & Private Rooms",
+      "24/7 Security"
+    ],
+    "specialFeatures": [
+      "Spacious common area designed for remote work and digital nomad yoga lovers",
+      "Surrounded by Himalayan green hills"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-rishikesh/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.939Z",
+    "updatedAt": "2026-08-22T21:20:26.939Z"
+  },
+  {
+    "hotelId": "rsh-gostops-rishikesh",
+    "name": "goSTOPS Rishikesh Lakshman Jhula",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Near Post Office, Lakshman Jhula, Rishikesh, Uttarakhand 249302",
+    "latitude": 30.1265,
+    "longitude": 78.3298,
+    "pricePerNight": 749,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Game Room",
+      "Rooftop Lounge",
+      "Air Conditioned Dorms",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "2-minute walk to iconic German Bakery and Lakshman Jhula suspension bridge",
+      "Lively music jams on terrace"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-rishikesh/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.939Z",
+    "updatedAt": "2026-08-22T21:20:26.939Z"
+  },
+  {
+    "hotelId": "rsh-shiv-shakti-hostel",
+    "name": "Shiv Shakti Hostel Rishikesh",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Hotel Santushti Lane, Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1325,
+    "longitude": 78.3274,
+    "pricePerNight": 650,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Yoga Deck",
+      "Shared Kitchen",
+      "Clean Dorms & Privates",
+      "Hot Showers"
+    ],
+    "specialFeatures": [
+      "One of Rishikesh's pioneer boutique hostels with warm family hospitality",
+      "Daily sunrise yoga classes"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 89795 64321",
+    "website": "https://shivshaktihostel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.939Z",
+    "updatedAt": "2026-08-22T21:20:26.939Z"
+  }
+]

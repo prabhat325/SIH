@@ -1,0 +1,72 @@
+[
+    {
+        "vehicleId": "GWALIOR-AUTO-001",
+        "vehicleType": "Auto Rickshaw",
+        "city": "Gwalior",
+        "state": "Madhya Pradesh",
+        "baseFare": 25,
+        "farePerKm": 13,
+        "averageSpeed": 25,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Auto_rickshaw_in_India.jpg/960px-Auto_rickshaw_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GWALIOR-ERICKSHAW-002",
+        "vehicleType": "E-Rickshaw",
+        "city": "Gwalior",
+        "state": "Madhya Pradesh",
+        "baseFare": 15,
+        "farePerKm": 10,
+        "averageSpeed": 20,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/e/eb/Share_of_E-Rickshaw_Production_in_India_till_FY_2018.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GWALIOR-TAXI-003",
+        "vehicleType": "Taxi",
+        "city": "Gwalior",
+        "state": "Madhya Pradesh",
+        "baseFare": 60,
+        "farePerKm": 18,
+        "averageSpeed": 32,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GWALIOR-BUS-004",
+        "vehicleType": "Local Bus",
+        "city": "Gwalior",
+        "state": "Madhya Pradesh",
+        "baseFare": 15,
+        "farePerKm": 3,
+        "averageSpeed": 28,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GWALIOR-TOURISTBUS-005",
+        "vehicleType": "Tourist Bus",
+        "city": "Gwalior",
+        "state": "Madhya Pradesh",
+        "baseFare": 500,
+        "farePerKm": 18,
+        "averageSpeed": 30,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

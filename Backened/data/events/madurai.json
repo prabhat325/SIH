@@ -1,0 +1,57 @@
+{
+    "events": [
+        {
+            "eventId": "MADURAI-EVENT-001",
+            "name": "Chithirai Festival",
+            "city": "Madurai",
+            "state": "Tamil Nadu",
+            "description": "Madurai's biggest 15-day festival celebrating the celestial wedding of Goddess Meenakshi and Lord Sundareswarar.",
+            "type": "Religious",
+            "venue": "Meenakshi Amman Temple and city streets",
+            "usualMonth": "April/May",
+            "usualTime": "Morning to evening",
+            "usualDuration": "15 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/events/chithirai",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/ab6c9fff-b53e-5dad-b5a7-8f53614d4323/be72a8be-f394-5e19-84d0-51eb0ed62b01.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "MADURAI-EVENT-002",
+            "name": "Float Festival",
+            "city": "Madurai",
+            "state": "Tamil Nadu",
+            "description": "A temple festival with deities on decorated floats.",
+            "type": "Religious",
+            "venue": "Meenakshi Temple and city streets",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://madurai.nic.in/festivals-and-events/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MADURAI-EVENT-003",
+            "name": "Pongal",
+            "city": "Madurai",
+            "state": "Tamil Nadu",
+            "description": "The harvest festival with traditional celebrations.",
+            "type": "Festival",
+            "venue": "Citywide",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://madurai.nic.in/festivals-and-events/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

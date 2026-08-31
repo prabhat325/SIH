@@ -1,0 +1,26 @@
+[
+    {
+        "guideId": "KOL-001",
+        "name": "Suvendu Mondal",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "languages": [
+            "English",
+            "Hindi",
+            "Bengali"
+        ],
+        "specialization": [
+            "Cultural Tours",
+            "Heritage"
+        ],
+        "experienceYears": 7,
+        "rating": null,
+        "contact": "+91-7003761660",
+        "email": "suvendumondal73@gmail.com",
+        "pricePerHour": 11,
+        "description": "Registered tourist guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

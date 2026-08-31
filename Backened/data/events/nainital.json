@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "NAINITAL-EVENT-001",
+            "name": "Uttarayani Mela",
+            "city": "Nainital",
+            "state": "Uttarakhand",
+            "description": "A traditional winter fair celebrating the sun's transition.",
+            "type": "Fair",
+            "venue": "Various venues in Nainital",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "NAINITAL-EVENT-002",
+            "name": "Summer Festival",
+            "city": "Nainital",
+            "state": "Uttarakhand",
+            "description": "An annual summer festival with boating competitions and cultural programs.",
+            "type": "Festival",
+            "venue": "Naini Lake and various venues",
+            "usualMonth": "May/June",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "NAINITAL-EVENT-003",
+            "name": "Autumn Festival",
+            "city": "Nainital",
+            "state": "Uttarakhand",
+            "description": "A cultural festival celebrating autumn in the hills.",
+            "type": "Cultural",
+            "venue": "Various venues in Nainital",
+            "usualMonth": "October/November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

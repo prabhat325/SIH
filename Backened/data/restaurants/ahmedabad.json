@@ -1,0 +1,511 @@
+[
+  {
+    "restaurantId": "rst-amd-agashiye-house-of-mg",
+    "name": "Agashiye - The House of MG",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "The House of MG, Opposite Sidi Saiyyed Mosque, Lal Darwaja, Ahmedabad, Gujarat 380001",
+    "latitude": 23.0289,
+    "longitude": 72.5812,
+    "cuisine": [
+      "Royal Gujarati",
+      "Kathiawadi Heritage",
+      "Pure Vegetarian Thali"
+    ],
+    "famousDishes": [
+      "Grand Agashiye Thali (Served on Kansa Bronze)",
+      "Rasawala Dhokla",
+      "Surti Undhiyu",
+      "Kaju Keri Nu Shaak",
+      "Ringna No Olo",
+      "Bhindi Sambhariya",
+      "Kesar Jalebi with Rabdi"
+    ],
+    "menu": [
+      {
+        "food": "Agashiye Heritage Bronze Thali Experience",
+        "price": 850
+      },
+      {
+        "food": "Agashiye Grand Royal Silver Thali Experience",
+        "price": 1250
+      }
+    ],
+    "averageCostForOne": 950,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "1924 Heritage Haveli Rooftop",
+      "Open Terrace Overlooking Sidi Saiyyed Mosque",
+      "Pure Vegetarian",
+      "Valet Parking",
+      "Hand-Washing Brass Urns"
+    ],
+    "specialFeatures": [
+      "Set on the grand rooftop terrace ('Agashiye') of the 1924 ancestral mansion of the Mangaldas family, serving heirloom Gujarati feasts on glistening pure bronze kansa thalis with unparalleled royal grace",
+      "Ahmedabad's finest cultural dining experience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 79 2550 6941",
+    "website": "http://houseofmg.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-vishalla",
+    "name": "Vishalla Environmental Village",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Opposite APMC Market, Vasna Road, Sarkhej Highway, Ahmedabad, Gujarat 380055",
+    "latitude": 22.9978,
+    "longitude": 72.5312,
+    "cuisine": [
+      "Traditional Gujarati",
+      "Kathiawadi Village Thali",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Traditional Village Thali on Leaf Plates (Pattris)",
+      "Bajra No Rotlo with Fresh White Makhan & Jaggery",
+      "Undhiyu",
+      "Kadhi",
+      "Khichdi",
+      "Sukhadia Sweets"
+    ],
+    "menu": [
+      {
+        "food": "Complete Vishalla Village Dining Experience & Thali",
+        "price": 750
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Mud-Hut Rural Village Environment",
+      "Vechaar Utensil Museum",
+      "Live Folk Dance & Puppet Shows",
+      "Floor Bamboo Mat Dining",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Created in 1978 by architect Surendra Patel to recreate an authentic Gujarati village illuminated by lanterns, featuring floor seating on bamboo mats and the world-famous Vechaar Museum of antique bronze utensils",
+      "An unforgettable cultural journey"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 79 2660 7974",
+    "website": "http://vishalla.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-manek-chowk-night-street",
+    "name": "Manek Chowk Night Food Market",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Manek Chowk, Old City, Near Jama Masjid, Ahmedabad, Gujarat 380001",
+    "latitude": 23.0245,
+    "longitude": 72.5878,
+    "cuisine": [
+      "Gujarati Night Street Food",
+      "Desserts & Fusion",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Gwalior Dosa (Drenched in Amul Butter)",
+      "Chocolate Cheese Grilled Sandwich",
+      "Pav Bhaji",
+      "Kulfi Falooda",
+      "Pineapple Cheese Sandwich"
+    ],
+    "menu": [
+      {
+        "food": "Gwalior Butter Dosa Plate",
+        "price": 140
+      },
+      {
+        "food": "Nutella Chocolate Cheese Sandwich",
+        "price": 150
+      },
+      {
+        "food": "Special Matka Kulfi",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Nocturnal Street Food Square (9 PM to 2 AM)",
+      "Pure Vegetarian",
+      "Old Heritage City Vibe"
+    ],
+    "specialFeatures": [
+      "Ahmedabad's legendary square that serves as a jewelry market by day and transforms by night into a vibrant culinary fairyland grilling buttery dosas and chocolate cheese sandwiches until 2 AM",
+      "Epic center of nocturnal street life"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-swati-snacks",
+    "name": "Swati Snacks (Law Garden)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Near Law Garden, Ellisbridge, Ahmedabad, Gujarat 380006",
+    "latitude": 23.0268,
+    "longitude": 72.5612,
+    "cuisine": [
+      "Gujarati Farsan",
+      "Traditional Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Panki Chutney (Rice Batter Steamed in Banana Leaf)",
+      "Fada Ni Khichdi",
+      "Handvo with Sesame",
+      "Baked Masala Khichdi",
+      "Sugarcane Juice with Ginger"
+    ],
+    "menu": [
+      {
+        "food": "Signature Panki Chutney (2 pcs steamed in banana leaves)",
+        "price": 180
+      },
+      {
+        "food": "Traditional Handvo with Mint Chutney",
+        "price": 160
+      },
+      {
+        "food": "Fada Ni Khichdi with Kadhi",
+        "price": 210
+      },
+      {
+        "food": "Fresh Cold-Pressed Sugarcane Juice",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Impeccable Modern Hygiene",
+      "Law Garden Location"
+    ],
+    "specialFeatures": [
+      "Celebrated across India for elevating humble Gujarati home snacks like 'Panki' (delicate rice batter steamed paper-thin between banana leaves) into an art form with clinical hygiene",
+      "Loved by generations"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 79 2640 5900",
+    "website": "http://swatisnacks.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-gordhan-thal",
+    "name": "Gordhan Thal",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Ground Floor, Sapath-III, Near Rajpath Club, SG Highway, Bodakdev, Ahmedabad, Gujarat 380054",
+    "latitude": 23.0389,
+    "longitude": 72.5112,
+    "cuisine": [
+      "Gujarati",
+      "Rajasthani",
+      "Pure Vegetarian Unlimited Thali"
+    ],
+    "famousDishes": [
+      "Grand Gujarati Royal Thali",
+      "Dhokla",
+      "Khandvi",
+      "Dal Baati Churma",
+      "Surti Kadhi",
+      "Basundi",
+      "Kesar Shrikhand"
+    ],
+    "menu": [
+      {
+        "food": "Grand Gordhan Unlimited Gujarati Feast Thali",
+        "price": 420
+      }
+    ],
+    "averageCostForOne": 420,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Valet Parking",
+      "Royal Bronze Service"
+    ],
+    "specialFeatures": [
+      "SG Highway's most famous destination for grand unlimited Gujarati hospitality, serving over 28 meticulously prepared sweet, spicy, and tangy delicacies served by attentive turbanned waiters",
+      "Ever-bustling family venue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 79 2687 1222",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-das-khaman",
+    "name": "Das Khaman (Since 1922)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Shop No. 2, Trade Center, Near Stadium Cross Road, Navrangpura, Ahmedabad, Gujarat 380009",
+    "latitude": 23.0412,
+    "longitude": 72.5634,
+    "cuisine": [
+      "Gujarati Farsan",
+      "Traditional Snacks",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Nylon Khaman",
+      "Sev Khamani",
+      "Vati Dal Na Khaman",
+      "Tam Tam Khaman",
+      "Sandwich Dhokla"
+    ],
+    "menu": [
+      {
+        "food": "Signature Soft Nylon Khaman (250g)",
+        "price": 80
+      },
+      {
+        "food": "Special Sev Khamani (250g)",
+        "price": 90
+      },
+      {
+        "food": "Spicy Tam Tam Khaman (250g)",
+        "price": 85
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Historic 1922 Brand",
+      "Takeaway Boxes"
+    ],
+    "specialFeatures": [
+      "Founded in 1922 by Pitamberdas, the undisputed master of authentic melt-in-mouth yellow spongy Nylon Khaman and sweet-spicy Sev Khamani garnished with mustard seeds and fresh pomegranate",
+      "Gujarat's farsan benchmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 79 2656 0088",
+    "website": "http://daskhaman.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-lucky-tea-stall",
+    "name": "Lucky Tea Stall (Since 1950s)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Opposite City College, Near Sidi Saiyyed Mosque, Lal Darwaja, Ahmedabad, Gujarat 380001",
+    "latitude": 23.0278,
+    "longitude": 72.5818,
+    "cuisine": [
+      "Tea & Bun Maska",
+      "Bakery",
+      "Heritage Cafe"
+    ],
+    "famousDishes": [
+      "Special Kadak Masala Chai",
+      "Soft Bun Maska with Butter",
+      "Maska Bun with Jam",
+      "Veg Puff"
+    ],
+    "menu": [
+      {
+        "food": "Signature Kadak Cutting Chai",
+        "price": 25
+      },
+      {
+        "food": "Soft Bun Maska (Loaded with Amul Butter)",
+        "price": 45
+      },
+      {
+        "food": "Crispy Vegetable Puff",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 60,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Historic Cafe Built Around 16th-Century Sufi Graves",
+      "Original MF Husain Painting on Display"
+    ],
+    "specialFeatures": [
+      "Unique heritage tea room famously constructed around 26 historic 16th-century Sufi graves where green tombs sit calmly between the wooden cafe tables, frequent haunt of artist M.F. Husain who gifted the cafe an original canvas",
+      "Incredible atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-chandravilas-restaurant",
+    "name": "Chandravilas Restaurant (Since 1900)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Gandhi Road, Near Danapith, Old City, Ahmedabad, Gujarat 380001",
+    "latitude": 23.0252,
+    "longitude": 72.5861,
+    "cuisine": [
+      "Traditional Breakfast",
+      "Fafda Jalebi",
+      "Gujarati Thali"
+    ],
+    "famousDishes": [
+      "Famous Crispy Fafda with Hot Jalebi, Raw Papaya Sambharo & Fried Green Chillies",
+      "Traditional Gujarati Thali",
+      "Khaman"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Fafda Jalebi Combo Plate (with Papaya Sambharo)",
+        "price": 90
+      },
+      {
+        "food": "Traditional Lunch Thali",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Established in 1900",
+      "Historic Heritage Eatery",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Established in 1900 on Gandhi Road, frequented by Mahatma Gandhi, Sardar Vallabhbhai Patel, and Raj Kapoor for its crisp gram-flour Fafda ribbons paired with piping hot saffron jalebis and spicy papaya chutney",
+      "125 years of living history"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 79 2214 0001",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-raipur-bhajia-house",
+    "name": "Raipur Bhajia House (Since 1933)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Near Raipur Darwaja, Old City, Ahmedabad, Gujarat 380001",
+    "latitude": 23.0189,
+    "longitude": 72.5934,
+    "cuisine": [
+      "Street Food",
+      "Traditional Bhajiya",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Famous Methi Na Gota (Fenugreek Fritters)",
+      "Aloo Bhajia",
+      "Raw Papaya & Green Chilli Sambharo"
+    ],
+    "menu": [
+      {
+        "food": "Hot Desi Ghee Fried Methi Gota (250g with Sambharo & Kadhi Chutney)",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic Gate Location",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Operating at the historic Raipur Gate since 1933, famous across Gujarat for frying soft, golden fenugreek fritters ('Methi Gota') accompanied by hot yellow gram-flour kadhi dip and spicy papaya slaw",
+      "Unmatched monsoon comfort food"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-amd-tomatos-cg-road",
+    "name": "Tomato's (Since 1994)",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "Mardiya Plaza, CG Road, Ellisbridge, Ahmedabad, Gujarat 380006",
+    "latitude": 23.0312,
+    "longitude": 72.5567,
+    "cuisine": [
+      "American Retro Diner",
+      "Mexican",
+      "Continental",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Mexican Chimichangas",
+      "Wood-fired Thin Crust Pizza",
+      "Tomato's Special Enchiladas",
+      "Chilli Cheese Nachos",
+      "Chocolate Mud Pie"
+    ],
+    "menu": [
+      {
+        "food": "Loaded Mexican Supreme Enchiladas",
+        "price": 380
+      },
+      {
+        "food": "Wood-fired BBQ Veg Pizza",
+        "price": 420
+      },
+      {
+        "food": "Famous Chocolate Mud Pie",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "1950s American Retro Diner Interior",
+      "Air Conditioning",
+      "Vintage Jukebox & Neon Signs"
+    ],
+    "specialFeatures": [
+      "Ahmedabad's legendary 1950s American diner concept complete with retro Hollywood memorabilia, red leather booths, and classic Mexican sizzling plates",
+      "Beloved celebration diner for three decades"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 79 2646 0501",
+    "website": "http://tomatos.in",
+    "available": true
+  }
+]

@@ -1,0 +1,251 @@
+[
+  {
+    "hotelId": "pyg-hotel-kanha-shyam",
+    "name": "Hotel Kanha Shyam",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "22/1 Strachey Road, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4529,
+    "longitude": 81.8347,
+    "pricePerNight": 6200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Patiala Peg Bar",
+      "Jannat Multi-cuisine Restaurant",
+      "Fitness Centre",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Premier heritage landmark 4-star hotel in Civil Lines Prayagraj",
+      "Renowned Mughlai and North Indian culinary experience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 256 0123",
+    "website": "https://hotelkanhashyam.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.868Z",
+    "updatedAt": "2026-08-22T21:20:26.868Z"
+  },
+  {
+    "hotelId": "pyg-grand-continental-hotel",
+    "name": "Grand Continental Hotel Prayagraj",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "13 Sardar Patel Marg, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4545,
+    "longitude": 81.8329,
+    "pricePerNight": 4800,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Orchid Multi-cuisine Restaurant",
+      "Conference Rooms",
+      "Gym",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Iconic Civil Lines location near High Court & Company Bagh",
+      "Landscaped courtyard and swimming pool"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 226 0631",
+    "website": "https://www.grandcontinentalhotel.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.868Z",
+    "updatedAt": "2026-08-22T21:20:26.868Z"
+  },
+  {
+    "hotelId": "pyg-legend-hotel",
+    "name": "The Legend Hotel",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "23-C Strachey Road, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4518,
+    "longitude": 81.8361,
+    "pricePerNight": 4100,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Signature Dining",
+      "Fitness Suite",
+      "Airport Shuttle",
+      "Banquet Hall"
+    ],
+    "specialFeatures": [
+      "Modern boutique luxury design in heart of Civil Lines",
+      "Popular bakery and patisserie in-house"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 226 0681",
+    "website": "https://thelegendhotel.co.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.868Z",
+    "updatedAt": "2026-08-22T21:20:26.868Z"
+  },
+  {
+    "hotelId": "pyg-hotel-yatrik",
+    "name": "Hotel Yatrik Prayagraj",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "33 Sardar Patel Marg, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4561,
+    "longitude": 81.8315,
+    "pricePerNight": 3400,
+    "category": "Mid-Range",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Garden Restaurant",
+      "Lawn Dinners",
+      "24/7 Room Service"
+    ],
+    "specialFeatures": [
+      "Historic garden bungalow hotel established in the 1960s",
+      "Large open green lawns in the heart of town"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 226 0921",
+    "website": "https://www.hotelyatrik.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.869Z",
+    "updatedAt": "2026-08-22T21:20:26.869Z"
+  },
+  {
+    "hotelId": "pyg-hotel-polo-max",
+    "name": "Hotel Polo Max Prayagraj",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Prayagraj Junction Railway Station Premises, Civil Lines Side, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4485,
+    "longitude": 81.8298,
+    "pricePerNight": 2600,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Max Bistro Restaurant",
+      "Air Conditioning",
+      "24-hour Front Desk",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "Located right at Prayagraj Junction Railway Station platform complex",
+      "Direct transit convenience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 240 8800",
+    "website": "https://www.maxhotels.in/hotel-polo-max-allahabad/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.869Z",
+    "updatedAt": "2026-08-22T21:20:26.869Z"
+  },
+  {
+    "hotelId": "pyg-hotel-milan-palace",
+    "name": "Hotel Milan Palace",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "4/2 Strachey Road, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4539,
+    "longitude": 81.8354,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Multi-cuisine Restaurant",
+      "Conference Hall",
+      "Elevator",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Comfortable family suites in prime Civil Lines shopping area"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 256 1201",
+    "website": "https://www.milanpalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.869Z",
+    "updatedAt": "2026-08-22T21:20:26.869Z"
+  },
+  {
+    "hotelId": "pyg-rahi-ilawart-upstdc",
+    "name": "Rahi Ilawart Tourist Bungalow (UPSTDC)",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "35 M.G. Marg, Civil Lines, Prayagraj, Uttar Pradesh 211001",
+    "latitude": 25.4578,
+    "longitude": 81.8341,
+    "pricePerNight": 1500,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Parking",
+      "Restaurant",
+      "Triveni Sangam Tour Desk",
+      "Large Compound",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Official Uttar Pradesh State Tourism bungalow",
+      "Triveni Sangam boat booking and Kumbh information desk"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 260 1440",
+    "website": "https://www.uptourism.gov.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.870Z",
+    "updatedAt": "2026-08-22T21:20:26.870Z"
+  },
+  {
+    "hotelId": "pyg-hotel-triveni-darshan",
+    "name": "Hotel Triveni Darshan (UPSTDC)",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "address": "Near Yamuna Bridge, Kydganj, Prayagraj, Uttar Pradesh 211003",
+    "latitude": 25.4312,
+    "longitude": 81.8595,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Yamuna River View Terrace",
+      "Bhojnalaya",
+      "Boating Desk",
+      "Car Parking"
+    ],
+    "specialFeatures": [
+      "Overlooks the holy Triveni Sangam and sacred Yamuna waters",
+      "Walking distance to boat departure points"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 532 253 0300",
+    "website": "https://www.uptourism.gov.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.870Z",
+    "updatedAt": "2026-08-22T21:20:26.870Z"
+  }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "guideId": "GOA-001",
+        "name": "Goa Tourist Guide",
+        "city": "Goa",
+        "state": "Goa",
+        "languages": [
+            "English",
+            "Hindi",
+            "Konkani"
+        ],
+        "specialization": [
+            "Beach Tours",
+            "Heritage"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": "+91-8929175340",
+        "email": null,
+        "pricePerHour": 13,
+        "description": "Registered tourist guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

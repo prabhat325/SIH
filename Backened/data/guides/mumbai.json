@@ -1,0 +1,26 @@
+[
+    {
+        "guideId": "MUM-001",
+        "name": "Mumbai Heritage Guide",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "languages": [
+            "English",
+            "Hindi",
+            "Marathi"
+        ],
+        "specialization": [
+            "Heritage Walks",
+            "Art Deco"
+        ],
+        "experienceYears": 10,
+        "rating": null,
+        "contact": "+91-9212145538",
+        "email": "tours@theindianvoyage.com",
+        "pricePerHour": 14,
+        "description": "Professional heritage guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

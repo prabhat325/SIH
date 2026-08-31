@@ -1,0 +1,313 @@
+[
+  {
+    "hotelId": "bho-jehan-numa-palace",
+    "name": "Jehan Numa Palace Hotel",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "157 Shamla Hills, Bhopal, Madhya Pradesh 462013",
+    "latitude": 23.2458,
+    "longitude": 77.3892,
+    "pricePerNight": 11500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool with Fountain View",
+      "Chakra Spa",
+      "Shahnama Fine Dining",
+      "Under the Mango Tree Barbecue",
+      "Shergar Bar",
+      "Horse Riding Track"
+    ],
+    "specialFeatures": [
+      "19th-century royal palace blending British colonial, Italian Renaissance and classical Greek architecture",
+      "Horse track running around the courtyard and central open-air dining under a century-old mango tree"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 266 1100",
+    "website": "https://www.jehannuma.com/palace-bhopal/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.995Z",
+    "updatedAt": "2026-08-22T21:20:26.995Z"
+  },
+  {
+    "hotelId": "bho-jehan-numa-retreat",
+    "name": "Jehan Numa Retreat",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Dr. Salim Ali Road, Near Van Vihar National Park, Prempura, Bhopal, Madhya Pradesh 462002",
+    "latitude": 23.2285,
+    "longitude": 77.3621,
+    "pricePerNight": 13500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool in Wilderness",
+      "Jiva Spa / Organic Spa",
+      "The Under the Jamun Tree Dining",
+      "Golf Green",
+      "Bhopali Royal Wazwan"
+    ],
+    "specialFeatures": [
+      "Bordering Van Vihar National Park and Upper Lake, eco-luxury retreat amidst natural wilderness",
+      "Farm-to-fork gastronomy and birdwatching"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 423 5100",
+    "website": "https://www.jehannuma.com/retreat-bhopal/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.995Z",
+    "updatedAt": "2026-08-22T21:20:26.995Z"
+  },
+  {
+    "hotelId": "bho-courtyard-by-marriott",
+    "name": "Courtyard by Marriott Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "DB City Mall, Hoshangabad Road, Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011",
+    "latitude": 23.2334,
+    "longitude": 77.4325,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Pool",
+      "MoMo Cafe",
+      "Bayleaf Fine Indian Dining",
+      "Fitness Centre",
+      "Direct Mall Access"
+    ],
+    "specialFeatures": [
+      "Integrated with DB City Mall, premier business and luxury entertainment destination in Bhopal"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 666 1666",
+    "website": "https://www.marriott.com/en-us/hotels/bhocy-courtyard-bhopal/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.996Z",
+    "updatedAt": "2026-08-22T21:20:26.996Z"
+  },
+  {
+    "hotelId": "bho-radisson-bhopal",
+    "name": "Radisson Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Gulmohar Colony, Bawadiya Kalan, Bhopal, Madhya Pradesh 462026",
+    "latitude": 23.1895,
+    "longitude": 77.4412,
+    "pricePerNight": 6800,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Infinity Pool",
+      "Nilaya Spa",
+      "Fusion Cafe",
+      "Urza Bar",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Modern luxury tower with rooftop infinity pool looking over southern lakes of Bhopal"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 668 1111",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-bhopal",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.996Z",
+    "updatedAt": "2026-08-22T21:20:26.996Z"
+  },
+  {
+    "hotelId": "bho-noor-us-sabah-palace",
+    "name": "Noor-Us-Sabah Palace",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "VIP Road, Koh-e-Fiza, Bhopal, Madhya Pradesh 462001",
+    "latitude": 23.2754,
+    "longitude": 77.3789,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Za-aiqa Royal Mughlai Dining",
+      "Marble Arch Lake View Restaurant",
+      "Palace Spa",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "1920s royal residential palace of Begum Abida Sultan on hillock overlooking the stunning Upper Lake (Bada Talab)"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 422 3333",
+    "website": "https://noorussabahpalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.997Z",
+    "updatedAt": "2026-08-22T21:20:26.997Z"
+  },
+  {
+    "hotelId": "bho-sayaji-hotel-bhopal",
+    "name": "Sayaji Hotel Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Van Vihar Road, Prempura, Bhopal, Madhya Pradesh 462002",
+    "latitude": 23.2312,
+    "longitude": 77.3685,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Kebabsville Live Grill",
+      "Cravings Multi-cuisine",
+      "Bowling Alley",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Famous poolside live grill buffet at Kebabsville overlooking Upper Lake"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 430 0000",
+    "website": "https://sayajihotels.com/sayaji-hotel-bhopal/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.997Z",
+    "updatedAt": "2026-08-22T21:20:26.997Z"
+  },
+  {
+    "hotelId": "bho-ginger-bhopal",
+    "name": "Ginger Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Railway Station Road, MP Nagar Zone 1, Bhopal, Madhya Pradesh 462011",
+    "latitude": 23.2325,
+    "longitude": 77.4365,
+    "pricePerNight": 2400,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Square Meal Restaurant",
+      "Fitness Room",
+      "Meeting Rooms",
+      "24/7 Desk"
+    ],
+    "specialFeatures": [
+      "Smart, dependable IHCL budget hotel in MP Nagar commercial district"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 666 3333",
+    "website": "https://www.gingerhotels.com/ginger-bhopal",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.998Z",
+    "updatedAt": "2026-08-22T21:20:26.998Z"
+  },
+  {
+    "hotelId": "bho-the-hosteller-bhopal",
+    "name": "The Hosteller Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Arera Colony, Near 10 No. Market, Bhopal, Madhya Pradesh 462016",
+    "latitude": 23.2145,
+    "longitude": 77.4285,
+    "pricePerNight": 850,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cafe",
+      "Workation Stations",
+      "Dorm & Private Rooms",
+      "Games Room"
+    ],
+    "specialFeatures": [
+      "Prime Arera Colony location, walking distance to cafes and green parks",
+      "Community weekend tours to Sanchi & Bhimbetka"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-bhopal/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.998Z",
+    "updatedAt": "2026-08-22T21:20:26.998Z"
+  },
+  {
+    "hotelId": "bho-hotel-grand-ashirwad",
+    "name": "Hotel Grand Ashirwad",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Zone-I, Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462011",
+    "latitude": 23.2348,
+    "longitude": 77.4341,
+    "pricePerNight": 1700,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Vegetarian Restaurant",
+      "Room Service",
+      "Elevator",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Comfortable family budget hotel in MP Nagar with prompt service"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 427 0000",
+    "website": "https://hotelgrandashirwad.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.998Z",
+    "updatedAt": "2026-08-22T21:20:26.998Z"
+  },
+  {
+    "hotelId": "bho-lake-view-ashok",
+    "name": "Hotel Lake View Ashok (MPT)",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "address": "Shamla Hills, Bhopal, Madhya Pradesh 462013",
+    "latitude": 23.2435,
+    "longitude": 77.3821,
+    "pricePerNight": 2800,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Kinara Lake View Restaurant",
+      "Swimming Pool",
+      "Lush Lawns",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Perched on Shamla Hills with panoramic sunset views over Upper Lake"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 755 266 0090",
+    "website": "https://mpstdc.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.999Z",
+    "updatedAt": "2026-08-22T21:20:26.999Z"
+  }
+]

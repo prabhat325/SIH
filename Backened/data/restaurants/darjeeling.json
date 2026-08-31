@@ -1,0 +1,219 @@
+[
+  {
+    "restaurantId": "rst-daj-glenarys-since-1913",
+    "name": "Glenary's Bakery, Pub & Restaurant (Since 1913)",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "Nehru Road, Near The Mall / Chowrasta, Darjeeling, West Bengal 734101",
+    "latitude": 27.0425,
+    "longitude": 88.2678,
+    "cuisine": [
+      "British Colonial Bakery",
+      "Continental",
+      "Himalayan Pub & Darjeeling Tea"
+    ],
+    "famousDishes": [
+      "Fresh Baked Apple Pie with Custard",
+      "Roast Chicken with Stuffing",
+      "Sausage Rolls & Meat Pies",
+      "Chocolate Eclairs",
+      "Darjeeling First Flush Muscatel Tea in Porcelain Pot",
+      "Draught Beer in the Cellar Pub"
+    ],
+    "menu": [
+      {
+        "food": "Glenary's Special Roast Chicken with Roast Potatoes & Gravy",
+        "price": 460
+      },
+      {
+        "food": "Famous Warm Apple Pie Slice with Custard",
+        "price": 140
+      },
+      {
+        "food": "Fresh Baked Chicken Sausage Roll",
+        "price": 80
+      },
+      {
+        "food": "Pot of Pure Darjeeling First Flush Tea",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.8,
+    "amenities": [
+      "110-Year-Old Colonial Bakery Ground Floor",
+      "Rooftop Restaurant with Kanchenjunga Views",
+      "Underground Cellar Pub with Live Rock Bands",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Operating on Nehru Road since 1913, the undisputed crown jewel of Darjeeling, encompassing a fragrant ground-floor bakery, an elegant colonial dining room with panoramic mountain views, and a legendary cellar pub with live acoustic music",
+      "The beating heart of Darjeeling town"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 354 225 8408",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-daj-keventers-since-1911",
+    "name": "Keventer's (Since 1911)",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "1, Clubside, Nehru Road, Near Chowrasta, Darjeeling, West Bengal 734101",
+    "latitude": 27.0418,
+    "longitude": 88.2665,
+    "cuisine": [
+      "British Colonial English Breakfast",
+      "Darjeeling Dairy",
+      "Pork Platters"
+    ],
+    "famousDishes": [
+      "Full Traditional English Breakfast Platter (Pork Sausages, Sliced Ham, Fried Eggs, Meatloaf, Salami & Butter Toast)",
+      "Hot Chocolate with Whipped Cream",
+      "Pork Platter",
+      "Darjeeling Tea"
+    ],
+    "menu": [
+      {
+        "food": "Keventer's Special English Breakfast Platter",
+        "price": 340
+      },
+      {
+        "food": "Full Mixed Pork Meat Platter (Sausage, Ham, Salami, Bacon)",
+        "price": 380
+      },
+      {
+        "food": "Rich Hot Chocolate Cup",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic 1911 Open-Air Rooftop Terrace",
+      "Direct Views of Mount Kanchenjunga",
+      "Featured in Satyajit Ray's 'Kanchenjungha' and Bollywood's 'Barfi!'"
+    ],
+    "specialFeatures": [
+      "Established in 1911 by Edward Keventer, famous across the world for its open-air rooftop terrace where travelers enjoy sizzling English pork breakfasts and steaming hot chocolate while gazing at the snow-capped peak of Mount Kanchenjunga",
+      "A cinematic Himalayan landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 354 225 6542",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-daj-kunga-restaurant",
+    "name": "Kunga Restaurant",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "51, Gandhi Road, Near Clubside, Darjeeling, West Bengal 734101",
+    "latitude": 27.0402,
+    "longitude": 88.2654,
+    "cuisine": [
+      "Authentic Tibetan",
+      "Himalayan Soul Food"
+    ],
+    "famousDishes": [
+      "Steamed Pork / Chicken / Veg Momos with Fiery Red Chutney",
+      "Gyathuk (Tibetan Noodle Soup)",
+      "Thentuk (Hand-Pulled Flat Noodle Soup)",
+      "Tibetan Shaphaley",
+      "Hot Lemon Ginger Honey Tea"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Juicy Tibetan Momos (10 pcs)",
+        "price": 160
+      },
+      {
+        "food": "Special Mixed Meat Gyathuk Noodle Soup",
+        "price": 180
+      },
+      {
+        "food": "Crispy Fried Shaphaley (2 pcs)",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Cozy 6-Table Mountain Diner",
+      "Tibetan Prayer Wheel Decor",
+      "Family Run by Tibetan Hosts"
+    ],
+    "specialFeatures": [
+      "Darjeeling's most beloved small Tibetan eatery on Gandhi Road, celebrated for piping hot hand-pulled Thentuk soups and the juiciest momos that warm cold mountain travelers to the bone",
+      "Perpetual traveler favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 354 225 3885",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-daj-sonams-kitchen",
+    "name": "Sonam's Kitchen",
+    "city": "Darjeeling",
+    "state": "West Bengal",
+    "address": "142, Zakir Hussain Road, Above Chowrasta, Darjeeling, West Bengal 734101",
+    "latitude": 27.0465,
+    "longitude": 88.2691,
+    "cuisine": [
+      "Traveler Breakfast",
+      "Bakery & Coffee",
+      "Pure Vegetarian Friendly"
+    ],
+    "famousDishes": [
+      "Crispy Homemade Hash Browns with Cheese",
+      "Banana Chocolate Pancake",
+      "Freshly Brewed French Press Roast Coffee",
+      "Scrambled Eggs on Multigrain Toast",
+      "Hot Porridge with Honey"
+    ],
+    "menu": [
+      {
+        "food": "Signature Crispy Golden Hash Browns Plate with Cheese",
+        "price": 140
+      },
+      {
+        "food": "Banana Pancake with Chocolate Drizzle",
+        "price": 120
+      },
+      {
+        "food": "French Press Fresh Coffee",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 160,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Tiny Quaint Wooden Cafe",
+      "Warm Hospitality by Sonam & Pema",
+      "Book Exchange Shelf"
+    ],
+    "specialFeatures": [
+      "Charming hill-station cafe run with boundless warmth by local host Sonam on the winding path above Chowrasta, famous for the best homemade hash browns and pour-over coffee in the Eastern Himalayas",
+      "Soulful and comforting"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 97330 08500",
+    "website": null,
+    "available": true
+  }
+]

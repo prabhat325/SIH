@@ -1,0 +1,567 @@
+[
+  {
+    "restaurantId": "rst-srx-ahdoos-restaurant",
+    "name": "Ahdoos Restaurant (Since 1918)",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "Ahdoos Hotel, Residency Road, Regal Chowk, Jhelum River Bank, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0734,
+    "longitude": 74.8145,
+    "cuisine": [
+      "Authentic Kashmiri Wazwan",
+      "Mughlai",
+      "Kashmiri Bakery"
+    ],
+    "famousDishes": [
+      "Rogan Josh",
+      "Rista (Spicy Meatballs in Saffron Gravy)",
+      "Gushtaba (Velvety Meatballs in Curd Gravy)",
+      "Tabak Maaz",
+      "Kashmiri Kahwa",
+      "Haakh Kashmiri"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Mutton Rogan Josh",
+        "price": 490
+      },
+      {
+        "food": "Traditional Mutton Rista (2 pcs)",
+        "price": 480
+      },
+      {
+        "food": "Royal Mutton Gushtaba (2 pcs)",
+        "price": 510
+      },
+      {
+        "food": "Crispy Fried Tabak Maaz",
+        "price": 490
+      },
+      {
+        "food": "Kashmiri Saffron Kahwa with Crushed Almonds",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 700,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Historic 1918 Institution",
+      "In-House Heritage Bakery",
+      "Jhelum Riverfront View",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Over a century of culinary prestige on the banks of the Jhelum, founded by Master Confectioner Haji Mohammad Sultan who served the Maharaja of Kashmir",
+      "The ultimate authority on authentic 36-course Kashmiri Wazwan"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 247 2593",
+    "website": "http://ahdooshotel.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-mughal-darbar",
+    "name": "Mughal Darbar",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "1st Floor, Residency Road, Munshi Mohalla, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0728,
+    "longitude": 74.8152,
+    "cuisine": [
+      "Kashmiri Wazwan",
+      "Mughlai",
+      "Non-Vegetarian Banquet"
+    ],
+    "famousDishes": [
+      "Wazwan Trammi (4-Person Feast)",
+      "Mutton Rogan Josh",
+      "Rista",
+      "Gushtaba",
+      "Seekh Tujj",
+      "Kashmiri Pulao"
+    ],
+    "menu": [
+      {
+        "food": "Mini Wazwan Platter",
+        "price": 750
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 420
+      },
+      {
+        "food": "Mutton Rista",
+        "price": 420
+      },
+      {
+        "food": "Kashmiri Pulao with Fruits & Nuts",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 550,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Traditional Wazwan Dining",
+      "Bakery Counter",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Famous Residency Road landmark offering complete traditional Wazwan banquets served on large engraved copper platters ('Trammi') covered with hot basmati rice and royal gravies",
+      "A Srinagar staple since decades"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 247 5683",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-chai-jaai-tea-room",
+    "name": "Chai Jaai Tea Room",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "The Bund, Near Dhanjibuoy Building, Lal Chowk, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0719,
+    "longitude": 74.8168,
+    "cuisine": [
+      "Kashmiri Tea Salon",
+      "Bakery & Breads",
+      "Café"
+    ],
+    "famousDishes": [
+      "Pink Noon Chai (Sheer Chai)",
+      "Saffron Kahwa in Samovar",
+      "Traditional Kashmiri Tsot with Butter",
+      "Walnut Pie",
+      "Shirmal with Harissa"
+    ],
+    "menu": [
+      {
+        "food": "Royal Saffron Almond Kahwa",
+        "price": 140
+      },
+      {
+        "food": "Traditional Kashmiri Pink Noon Chai with Makhan",
+        "price": 120
+      },
+      {
+        "food": "Kashmiri Bakery Platter (Lavaas, Tsot, Shirmal)",
+        "price": 180
+      },
+      {
+        "food": "Kashmiri Walnut Tart",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Riverfront Bund Promenade",
+      "Cotswold English Tea Room & Kashmiri Khatamband Woodwork",
+      "Free Wi-Fi",
+      "Art Gallery"
+    ],
+    "specialFeatures": [
+      "Inspired by European tea salons and centuries-old Kashmiri Chaikhana culture, overlooking the River Jhelum with exquisite hand-carved walnut ceilings and papier-mache teapots",
+      "Srinagar's most artistic cafe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 245 5588",
+    "website": "http://chaijaai.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-shamyana-dal-lake",
+    "name": "Shamyana Restaurant",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "Boulevard Road, Opposite Ghat No. 2, Dal Lake, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0812,
+    "longitude": 74.8341,
+    "cuisine": [
+      "Kashmiri Wazwan",
+      "North Indian",
+      "Mughlai",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Kashmiri Rogan Josh",
+      "Gushtaba",
+      "Tandoori Trout Fish",
+      "Haak Saag",
+      "Butter Chicken"
+    ],
+    "menu": [
+      {
+        "food": "Dal Lake Tandoori Trout Fish",
+        "price": 650
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 460
+      },
+      {
+        "food": "Gushtaba",
+        "price": 480
+      },
+      {
+        "food": "Haak Kashmiri Saag",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 600,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Direct Dal Lake Water View",
+      "Air Conditioning",
+      "Garden Lawn Seating",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Picturesque dining terrace situated right opposite the shikaras of Dal Lake Ghat 2, serving fresh Himalayan rainbow trout and royal Wazwan curries against scenic Zabarwan mountain backdrops",
+      "Serene lakeside ambience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 245 2360",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-krishna-vaishno-dhaba",
+    "name": "Krishna Vaishno Dhaba",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "Durganag Road, Sonwar Bagh, Near Dal Lake, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0745,
+    "longitude": 74.8312,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "Punjabi Dhaba"
+    ],
+    "famousDishes": [
+      "Kashmiri Rajma Chawal with Desi Ghee",
+      "Shahi Paneer",
+      "Dal Makhani",
+      "Kheer",
+      "Tandoori Butter Roti"
+    ],
+    "menu": [
+      {
+        "food": "Signature Kashmiri Rajma Chawal Special",
+        "price": 160
+      },
+      {
+        "food": "Shahi Paneer with 2 Butter Naan",
+        "price": 220
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 170
+      },
+      {
+        "food": "Sweet Rice Kheer",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian",
+      "Air Conditioning",
+      "Rapid Service",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Srinagar's most famous and beloved pure-vegetarian landmark in Sonwar Bagh, revered for over four decades for soulful Kashmiri red kidney beans (Rajma) and comforting dal makhani",
+      "Massive following among tourists and locals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 245 0417",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-lhasa-restaurant",
+    "name": "Lhasa Restaurant",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "Boulevard Road, Near Nehru Park, Dal Lake, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0841,
+    "longitude": 74.8412,
+    "cuisine": [
+      "Tibetan",
+      "Chinese",
+      "Kashmiri"
+    ],
+    "famousDishes": [
+      "Steamed Mutton Momos",
+      "Thukpa Noodle Soup",
+      "Chilli Garlic Trout",
+      "Shaphaley",
+      "Fried Wontons"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Mutton Momos (8 pcs)",
+        "price": 260
+      },
+      {
+        "food": "Tibetan Mutton Thukpa",
+        "price": 240
+      },
+      {
+        "food": "Chilli Garlic Fried Trout Fish",
+        "price": 580
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Lush Garden Seating",
+      "Dal Lake View",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Quiet leafy courtyard garden retreat along Boulevard Road serving authentic Tibetan momos, soul-warming thukpa noodle broths, and fresh Himalayan trout",
+      "Relaxed mountain garden vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 245 4238",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-jee-enn-sons",
+    "name": "Jee Enn Sons Bakery",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "Residency Road, Opposite Radio Kashmir, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0721,
+    "longitude": 74.8194,
+    "cuisine": [
+      "Kashmiri Bakery",
+      "Patisserie",
+      "Sweets"
+    ],
+    "famousDishes": [
+      "Kashmiri Walnut Fudge",
+      "Sheermal",
+      "Bakarkhani",
+      "Apple Pie",
+      "Coconut Macaroons"
+    ],
+    "menu": [
+      {
+        "food": "Famous Kashmiri Walnut Fudge (500g)",
+        "price": 420
+      },
+      {
+        "food": "Traditional Saffron Sheermal (per pc)",
+        "price": 50
+      },
+      {
+        "food": "Layered Bakarkhani",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Heritage Confectionery",
+      "Gift Boxes",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Established in 1954, legendary Srinagar confectioners renowned for rich Kashmiri walnut fudge made with fresh local walnuts, honey, and pure cream",
+      "Beloved gift souvenir from the valley"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 247 2821",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-stream-restaurant",
+    "name": "Stream Restaurant",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "Boulevard Road, Opposite Ghat No. 1, Dal Lake, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0798,
+    "longitude": 74.8329,
+    "cuisine": [
+      "Kashmiri Wazwan",
+      "Pan Asian",
+      "Continental",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Mutton Rogan Josh",
+      "Crispy Trout Fish with Tartar Sauce",
+      "Chicken Malai Tikka",
+      "Fried Rice with Manchurian"
+    ],
+    "menu": [
+      {
+        "food": "Kashmiri Rogan Josh Special",
+        "price": 480
+      },
+      {
+        "food": "Fresh Valley Fried Trout Fish",
+        "price": 620
+      },
+      {
+        "food": "Murgh Malai Kebab",
+        "price": 440
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Dal Lake View",
+      "Valet Parking",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Sophisticated multi-cuisine restaurant directly facing the sparkling Dal Lake waters, perfect for watching sunset shikara rides over gourmet dinners",
+      "Warm wood-lined interior"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 245 9999",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-makai-park-street",
+    "name": "Makai Point / Dal Lake Kebabs",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "Foreshore Road, Makai Park, Dal Lake, Srinagar, Jammu and Kashmir 190006",
+    "latitude": 34.1245,
+    "longitude": 74.8682,
+    "cuisine": [
+      "Kashmiri Street Food",
+      "Barbeque",
+      "Kebabs"
+    ],
+    "famousDishes": [
+      "Charcoal Roasted Kashmiri Bhutta (Makai)",
+      "Mutton Seekh Tujj with 5 Chutneys",
+      "Lavaas Bread with Kebab",
+      "Pink Tea"
+    ],
+    "menu": [
+      {
+        "food": "Mutton Tujj Skewers (4 skewers with Chutneys & Lavaas)",
+        "price": 240
+      },
+      {
+        "food": "Spiced Roasted Sweet Corn Cob",
+        "price": 40
+      },
+      {
+        "food": "Samovar Saffron Kahwa",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Open Air Lakeside Promenade",
+      "Charcoal Braziers",
+      "Evening Street Gathering"
+    ],
+    "specialFeatures": [
+      "Srinagar's famous evening promenade at Makai Point on Foreshore Road, where vendors roast fresh sweet corn and sizzle minced mutton Tujj on iron skewers over glowing charcoal embers",
+      "Unmissable local culture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-srx-grand-wazwan",
+    "name": "Grand Mughal / Kareem's Wazwan",
+    "city": "Srinagar",
+    "state": "Jammu and Kashmir",
+    "address": "Boulevard Road, Dalgate, Srinagar, Jammu and Kashmir 190001",
+    "latitude": 34.0782,
+    "longitude": 74.8291,
+    "cuisine": [
+      "Kashmiri Wazwan",
+      "Mughlai",
+      "Biryani"
+    ],
+    "famousDishes": [
+      "Wazwan Thali",
+      "Mutton Rogan Josh",
+      "Rista",
+      "Aab Gosht",
+      "Tabak Maaz",
+      "Phirni"
+    ],
+    "menu": [
+      {
+        "food": "Special Wazwan Thali (4 Wazwan items with Rice)",
+        "price": 650
+      },
+      {
+        "food": "Mutton Aab Gosht (Milk & Cardamom Gravy)",
+        "price": 490
+      },
+      {
+        "food": "Kashmiri Phirni",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 600,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Dal Lake Proximity",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Authentic Kashmiri Wazwan masterchefs preparing traditional copper degchi dishes with unground pure mountain spices and walnuts",
+      "Great introductory Wazwan platters for tourists"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 194 245 1212",
+    "website": null,
+    "available": true
+  }
+]

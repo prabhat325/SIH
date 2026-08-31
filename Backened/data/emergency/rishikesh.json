@@ -1,0 +1,73 @@
+[
+  {
+    "serviceId": "RISHIKESH-HOSPITAL-001",
+    "name": "All India Institute of Medical Sciences Rishikesh",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "type": "Hospital",
+    "address": "Virbhadra Road, Rishikesh, Uttarakhand 249203",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://aiimsrishikesh.edu.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "RISHIKESH-HOSPITAL-002",
+    "name": "Government Hospital Rishikesh",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "type": "Hospital",
+    "address": "Haridwar Road, Rishikesh, Uttarakhand 249201",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "RISHIKESH-POLICE-003",
+    "name": "Rishikesh Kotwali Police Station",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "type": "Police Station",
+    "address": "Haridwar Road, Rishikesh, Uttarakhand 249201",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://uttarakhandpolice.uk.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "RISHIKESH-FIRE-004",
+    "name": "Rishikesh Fire Station",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "type": "Fire Station",
+    "address": "Haridwar Road, Rishikesh, Uttarakhand 249201",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

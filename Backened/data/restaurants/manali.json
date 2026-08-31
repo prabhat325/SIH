@@ -1,0 +1,549 @@
+[
+  {
+    "restaurantId": "rst-mnl-cafe-1947",
+    "name": "Cafe 1947",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Near Nehru Kund, Old Manali, Manalsu River Bridge, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2578,
+    "longitude": 77.1789,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Himalayan Trout",
+      "Café",
+      "Cocktails"
+    ],
+    "famousDishes": [
+      "Wood Fired Pizza 'The Metallica'",
+      "Fresh Pan-Seared Trout with Lemon Butter",
+      "Penne Gorgonzola",
+      "Sizzling Brownie",
+      "Mulled Wine"
+    ],
+    "menu": [
+      {
+        "food": "Signature Wood-fired Pizza 'The Metallica'",
+        "price": 480
+      },
+      {
+        "food": "Fresh Himalayan Rainbow Trout in Lemon Butter Sauce",
+        "price": 650
+      },
+      {
+        "food": "Penne Pasta in Creamy Mushroom Sauce",
+        "price": 380
+      },
+      {
+        "food": "Spiced Hot Mulled Wine (Winter Special)",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 600,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Riverside Wooden Deck (Manalsu River)",
+      "Full Bar",
+      "Live Acoustic Music",
+      "Indoor Fireplace",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Manali's most famous and beloved culinary icon, situated right on the rocky banks of the roaring Manalsu River in Old Manali where crystal-clear mountain waters rush past open timber decks",
+      "Unmatched bohemian ambience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98160 74747",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-johnsons-cafe",
+    "name": "Johnson's Cafe & Bar",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Hotel Johnson's Lodge, Circuit House Road, Siyal, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2478,
+    "longitude": 77.1865,
+    "cuisine": [
+      "European",
+      "Himalayan Trout Specialty",
+      "Italian",
+      "Bar & Grills"
+    ],
+    "famousDishes": [
+      "Wood-Oven Baked Trout with Almond Butter",
+      "Wood-fired Margherita Pizza",
+      "Roast Lamb Chops",
+      "Apple Crumble with Custard",
+      "Cocktails by the Fireplace"
+    ],
+    "menu": [
+      {
+        "food": "Johnson's Signature Baked Trout with Almond & Garlic Butter",
+        "price": 680
+      },
+      {
+        "food": "Wood-fired Four Cheese Pizza",
+        "price": 440
+      },
+      {
+        "food": "Hot Apple Crumble with Vanilla Ice Cream",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Lush Manicured Apple Orchard Lawn",
+      "Cozy Fireplace Bar",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Established in 1997, celebrated nationwide for pioneering the preparation of fresh local rainbow trout baked in wood ovens with garlic and flaked almonds in a picturesque apple orchard setting",
+      "Premier Manali institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1902 251 523",
+    "website": "http://johnsonslodge.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-the-lazy-dog",
+    "name": "The Lazy Dog Lounge",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Manu Temple Road, Old Manali, Beside Manalsu River, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2568,
+    "longitude": 77.1794,
+    "cuisine": [
+      "Pan Asian",
+      "Continental",
+      "Mexican",
+      "Craft Cocktails"
+    ],
+    "famousDishes": [
+      "Grilled Trout with Herbs",
+      "Korean Bulgogi Rice Bowl",
+      "Thai Red Curry",
+      "Crispy Quesadillas",
+      "Craft Beers & Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Grilled Himalayan Trout with Lemon Caper Butter",
+        "price": 640
+      },
+      {
+        "food": "Pan-Asian Teriyaki Chicken Rice Bowl",
+        "price": 420
+      },
+      {
+        "food": "Loaded Mexican Quesadillas",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Riverside Wooden Verandah",
+      "Full Bar",
+      "Live Music Band Stages",
+      "Hammocks & River Deck"
+    ],
+    "specialFeatures": [
+      "Chic wooden riverside lounge in Old Manali featuring open-air decks over the river, plush lounge chairs, and eclectic world cuisine ranging from sushi and dim sums to grilled trout",
+      "Vibrant evening nightlife"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98059 84540",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-chopsticks-mall-road",
+    "name": "Chopsticks Restaurant",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Mall Road, Opposite Model Town Market, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2434,
+    "longitude": 77.1891,
+    "cuisine": [
+      "Tibetan",
+      "Chinese",
+      "Bhutanese",
+      "Japanese"
+    ],
+    "famousDishes": [
+      "Steamed Mutton Momos",
+      "Gyathuk Noodle Soup",
+      "Bhutanese Kewa Datshi (Cheese Potato)",
+      "Tingmo with Chilli Pork",
+      "Manali Special Chowmein"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Juicy Mutton Momos (8 pcs)",
+        "price": 210
+      },
+      {
+        "food": "Bhutanese Ema Datshi (Chilli Cheese Stew)",
+        "price": 280
+      },
+      {
+        "food": "Chopsticks Special Mixed Meat Thukpa",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Mall Road Landmark",
+      "Bar Service",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Operating on Mall Road since decades, celebrated for serving the most authentic Tibetan and Bhutanese dishes in central Manali, including the fiery national cheese dish of Bhutan 'Ema Datshi'",
+      "A favorite of travelers and lamas"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1902 252 639",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-dylans-coffee-house",
+    "name": "Dylan's Toasted & Roasted Coffee House",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Old Manali Village Road, Near Post Office, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2552,
+    "longitude": 77.1812,
+    "cuisine": [
+      "Artisan Coffee",
+      "Bakery & Desserts",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "World Famous Fresh Baked Hot Chocolate Chip Cookies",
+      "Fresh Roasted Dark Coffee",
+      "Cinnamon Pancakes",
+      "Apple Crumble"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Warm Soft-Centered Chocolate Chip Cookie",
+        "price": 80
+      },
+      {
+        "food": "Freshly Ground French Press Coffee",
+        "price": 120
+      },
+      {
+        "food": "Fluffy Cinnamon Honey Pancake",
+        "price": 150
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Cozy Wooden Interior with Bob Dylan Posters",
+      "Free Wi-Fi",
+      "Fresh Roastery Machine"
+    ],
+    "specialFeatures": [
+      "Cult classic Bob Dylan tribute coffee roastery in Old Manali famous across the international backpacking trail for warm, gooey, fresh-out-of-the-oven chocolate chip cookies",
+      "Irresistible aroma on the cobblestone lanes"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98160 35777",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-il-forno",
+    "name": "Il Forno",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Hadimba Temple Road, Siyal, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2489,
+    "longitude": 77.1815,
+    "cuisine": [
+      "Authentic Italian",
+      "Wood-fired Pizza",
+      "Pasta"
+    ],
+    "famousDishes": [
+      "Wood-fired Quattro Stagioni Pizza",
+      "Homemade Spinach Ricotta Ravioli",
+      "Calzone",
+      "Apple Strudel",
+      "Tiramisu"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Wood-fired Prosciutto Pizza",
+        "price": 490
+      },
+      {
+        "food": "Handcrafted Spinach Ricotta Ravioli in Sage Butter",
+        "price": 420
+      },
+      {
+        "food": "Homemade Italian Tiramisu",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "19th-Century Stone-Timber Himachali House",
+      "Apple Orchard Garden Seating",
+      "Wood-fired Brick Oven"
+    ],
+    "specialFeatures": [
+      "Rustic Italian trattoria housed in a charming 19th-century traditional Himachali stone-and-timber cottage on the cedar-lined road to Hadimba Temple, run in collaboration with Italian master bakers",
+      "Exquisite gourmet flavors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98160 60000",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-drifters-cafe",
+    "name": "Drifter's Cafe",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Drifter's Inn, Manu Temple Road, Old Manali, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2571,
+    "longitude": 77.1782,
+    "cuisine": [
+      "Continental",
+      "Breakfast & Brunch",
+      "Café",
+      "Cocktails"
+    ],
+    "famousDishes": [
+      "All-Day Skillet Breakfast",
+      "Belgian Waffles with Apple Compote",
+      "Mutton Lasagna",
+      "Hot Mulled Wine",
+      "Artisan Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Drifter's Hearty Skillet Breakfast",
+        "price": 290
+      },
+      {
+        "food": "Layered Baked Mutton Lasagna",
+        "price": 390
+      },
+      {
+        "food": "Crispy Belgian Waffle with Ice Cream",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Sunlit Rooftop Terrace",
+      "Board Games Collection & Library",
+      "Full Bar",
+      "Acoustic Evenings"
+    ],
+    "specialFeatures": [
+      "Sun-drenched wooden cafe and travelers' inn with panoramic views of snow-dusted peaks, packed with board games, acoustic guitars, and hearty skillet breakfasts",
+      "Laidback mountain vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98050 33127",
+    "website": "http://driftersinn.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-renaissance-manali",
+    "name": "Renaissance Manali",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Old Manali Road, Near Manu Temple, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2582,
+    "longitude": 77.1775,
+    "cuisine": [
+      "Mexican",
+      "Italian",
+      "Café"
+    ],
+    "famousDishes": [
+      "Smoky Chipotle Chicken Tacos",
+      "Loaded Nachos Supreme",
+      "Handmade Gnocchi",
+      "Burrito Bowls",
+      "Sangria"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Smoky Chicken Tacos (3 pcs)",
+        "price": 340
+      },
+      {
+        "food": "Loaded Mexican Supreme Nachos",
+        "price": 290
+      },
+      {
+        "food": "Handmade Gnocchi in Creamy Pesto",
+        "price": 360
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Chic Bohemian Decor",
+      "Cozy Floor Seating & Balconies",
+      "Cocktails"
+    ],
+    "specialFeatures": [
+      "Specialized boutique kitchen famous for serving the most authentic Mexican tacos, burritos, and homemade gnocchi in the Himalayas with imported cheeses and fresh herbs",
+      "Loved by international foodies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98160 55555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-mount-view-restaurant",
+    "name": "Mount View Restaurant (Since 1970)",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Mall Road, Near Bus Stand, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2421,
+    "longitude": 77.1882,
+    "cuisine": [
+      "Tibetan",
+      "Chinese",
+      "Japanese",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Steamed Trout Fish",
+      "Peking Duck",
+      "Mutton Momos",
+      "Yakitori Skewers",
+      "Japanese Sushi Rolls"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Ginger Garlic Trout Fish",
+        "price": 580
+      },
+      {
+        "food": "Steamed Mutton Momos (8 pcs)",
+        "price": 200
+      },
+      {
+        "food": "Crispy Peking Roast Duck",
+        "price": 680
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Central Mall Road Location",
+      "Full Bar"
+    ],
+    "specialFeatures": [
+      "One of Manali's oldest established restaurants operating since 1970 on Mall Road, pioneering Japanese and authentic Tibetan dishes in the Kullu Valley",
+      "Historic culinary fixture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 1902 252 465",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mnl-sunshine-cafe",
+    "name": "Sunshine Cafe",
+    "city": "Manali",
+    "state": "Himachal Pradesh",
+    "address": "Old Manali Village, Near Clubhouse Road, Manali, Himachal Pradesh 175131",
+    "latitude": 32.2541,
+    "longitude": 77.1823,
+    "cuisine": [
+      "Café",
+      "Hot Chocolate Specialties",
+      "Himalayan Trout",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Thick Dark Hot Chocolate",
+      "Grilled Trout with Garlic Rice",
+      "Vegetarian Lasagna",
+      "Lemon Cheesecake"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Thick Dark Hot Chocolate",
+        "price": 160
+      },
+      {
+        "food": "Grilled Fresh Rainbow Trout",
+        "price": 590
+      },
+      {
+        "food": "Baked Veg Lasagna",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Cozy Wooden Fireplace Corner",
+      "Free Wi-Fi",
+      "Board Games"
+    ],
+    "specialFeatures": [
+      "Renowned for the thickest, richest molten dark hot chocolate in Old Manali, served in giant ceramic mugs beside a roaring wood stove on snowy winter afternoons",
+      "A true cozy sanctuary"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98160 22334",
+    "website": null,
+    "available": true
+  }
+]

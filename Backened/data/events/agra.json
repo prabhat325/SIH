@@ -1,0 +1,74 @@
+{
+    "events": [
+        {
+            "eventId": "AGRA-EVENT-001",
+            "name": "Taj Mahotsav",
+            "city": "Agra",
+            "state": "Uttar Pradesh",
+            "description": "A 10-day annual cultural festival celebrating India's artistic traditions against the backdrop of the Taj Mahal.",
+            "type": "Festival",
+            "venue": "Shilpgram, Near Taj Mahal",
+            "usualMonth": "February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.incredibleindia.gov.in/en/festivals-and-events/uttar-pradesh/taj-mahotsav",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/9c51400a-afdf-59b7-943d-9ddc0f53a4c8/67a48ac7-7794-5f04-a330-3852e03cb7be.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "AGRA-EVENT-002",
+            "name": "Ram Barat",
+            "city": "Agra",
+            "state": "Uttar Pradesh",
+            "description": "A unique annual marriage procession of Lord Rama before Dussehra.",
+            "type": "Religious",
+            "venue": "Various locations in Agra",
+            "usualMonth": "September/October",
+            "usualTime": "Evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://agra.nic.in/festivals/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "AGRA-EVENT-003",
+            "name": "Bateshwar Fair",
+            "city": "Agra",
+            "state": "Uttar Pradesh",
+            "description": "An annual cattle fair dedicated to Lord Shiva.",
+            "type": "Fair",
+            "venue": "Bateshwar Temple Complex",
+            "usualMonth": "October/November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://agra.nic.in/festivals/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "AGRA-EVENT-004",
+            "name": "Sharad Purnima Festival",
+            "city": "Agra",
+            "state": "Uttar Pradesh",
+            "description": "An annual festival marking the appearance of Lord Shiva.",
+            "type": "Religious",
+            "venue": "Various temples in Agra",
+            "usualMonth": "August/September",
+            "usualTime": "Evening to night",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://agra.nic.in/festivals/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

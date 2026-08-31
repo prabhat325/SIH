@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "AHMEDABAD-EVENT-001",
+            "name": "International Kite Festival",
+            "city": "Ahmedabad",
+            "state": "Gujarat",
+            "description": "The famous Uttarayan kite festival attracting international participants.",
+            "type": "Festival",
+            "venue": "Sabarmati Riverfront",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "2 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://gujarattourism.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "AHMEDABAD-EVENT-002",
+            "name": "Navratri Festival",
+            "city": "Ahmedabad",
+            "state": "Gujarat",
+            "description": "Nine nights of Garba and Dandiya dance celebrations.",
+            "type": "Cultural",
+            "venue": "Various venues across Ahmedabad",
+            "usualMonth": "September/October",
+            "usualTime": "Evening to night",
+            "usualDuration": "9 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://gujarattourism.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "AHMEDABAD-EVENT-003",
+            "name": "Kankaria Carnival",
+            "city": "Ahmedabad",
+            "state": "Gujarat",
+            "description": "A cultural carnival at Kankaria Lake.",
+            "type": "Cultural",
+            "venue": "Kankaria Lake",
+            "usualMonth": "December/January",
+            "usualTime": "Evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://gujarattourism.com/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

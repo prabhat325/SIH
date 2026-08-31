@@ -1,0 +1,89 @@
+[
+  {
+    "serviceId": "AGRA-HOSPITAL-001",
+    "name": "S.N. Medical College and Hospital",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "S.N. Medical College Campus, Moti Katra, Agra, Uttar Pradesh 282002",
+    "latitude": null,
+    "longitude": null,
+    "phone": "+91-562-2260353",
+    "website": "https://snmcagra.ac.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AGRA-HOSPITAL-002",
+    "name": "District Hospital Agra",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "District Hospital, Moti Katra, Agra, Uttar Pradesh 282002",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AGRA-POLICE-003",
+    "name": "Taj Suraksha Police Station",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "type": "Police Station",
+    "address": "Taj East Gate Road, near Taj Mahal, Agra, Uttar Pradesh 282001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.agrapolice.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AGRA-POLICE-004",
+    "name": "Shahganj Police Station",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "type": "Police Station",
+    "address": "Shahganj, Agra, Uttar Pradesh 282010",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.agrapolice.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "AGRA-FIRE-005",
+    "name": "Fire Station Tajganj",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "type": "Fire Station",
+    "address": "Tajganj, Agra, Uttar Pradesh 282001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

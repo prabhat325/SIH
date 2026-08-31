@@ -1,0 +1,94 @@
+[
+  {
+    "serviceId": "DELHI-HOSPITAL-001",
+    "name": "All India Institute of Medical Sciences",
+    "city": "Delhi",
+    "state": "Delhi",
+    "type": "Hospital",
+    "address": "Ansari Nagar, New Delhi, Delhi 110029",
+    "latitude": null,
+    "longitude": null,
+    "phone": "+91-11-26588500",
+    "website": "https://www.aiims.edu/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "DELHI-HOSPITAL-002",
+    "name": "Lok Nayak Hospital",
+    "city": "Delhi",
+    "state": "Delhi",
+    "type": "Hospital",
+    "address": "Jawaharlal Nehru Marg, New Delhi, Delhi 110002",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://health.delhigovt.nic.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "DELHI-HOSPITAL-003",
+    "name": "Safdarjung Hospital",
+    "city": "Delhi",
+    "state": "Delhi",
+    "type": "Hospital",
+    "address": "Ansari Nagar West, New Delhi, Delhi 110029",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://vmmc-sjh.mohfw.gov.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "DELHI-POLICE-004",
+    "name": "Connaught Place Police Station",
+    "city": "Delhi",
+    "state": "Delhi",
+    "type": "Police Station",
+    "address": "Baba Kharak Singh Marg, Connaught Place, New Delhi, Delhi 110001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://delhipolice.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "DELHI-FIRE-005",
+    "name": "Connaught Place Fire Station",
+    "city": "Delhi",
+    "state": "Delhi",
+    "type": "Fire Station",
+    "address": "Barakhamba Road, Connaught Place, New Delhi, Delhi 110001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://dfs.delhigovt.nic.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

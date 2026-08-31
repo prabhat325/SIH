@@ -1,0 +1,354 @@
+[
+  {
+    "hotelId": "ccu-the-oberoi-grand",
+    "name": "The Oberoi Grand, Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "15 Jawaharlal Nehru Road, New Market Area, Dharmatala, Kolkata, West Bengal 700013",
+    "latitude": 22.5605,
+    "longitude": 88.3512,
+    "pricePerNight": 16500,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool in Royal Palms Courtyard",
+      "The Oberoi Spa",
+      "Threesixtythree° All-Day Fine Dining",
+      "Baan Thai Authentic Thai",
+      "The Chowringhee Bar",
+      "Palace Ballroom"
+    ],
+    "specialFeatures": [
+      "The 'Grande Dame of Chowringhee' built in the 1880s, India's most famous Victorian luxury hotel",
+      "Baan Thai restaurant and serene palm courtyard pool in the heart of Kolkata"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2249 2323",
+    "website": "https://www.oberoihotels.com/hotels-in-kolkata/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.133Z",
+    "updatedAt": "2026-08-22T21:20:27.133Z"
+  },
+  {
+    "hotelId": "ccu-itc-royal-bengal",
+    "name": "ITC Royal Bengal, a Luxury Collection Hotel",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "1 JBS Haldane Avenue, EM Bypass, Tangra, Kolkata, West Bengal 700046",
+    "latitude": 22.5445,
+    "longitude": 88.3985,
+    "pricePerNight": 14000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool",
+      "Kaya Kalp Royal Spa",
+      "Grand Market Pavilion (Largest Buffet in India)",
+      "Royal Vega Pure Vegetarian Grandeur",
+      "Ottimo Italian",
+      "The Brass Room Bar",
+      "Helipad"
+    ],
+    "specialFeatures": [
+      "Architectural tribute to the aristocratic mansions and palaces of Bengal",
+      "Grand Market Pavilion featuring the largest luxury buffet spread in India"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 4446 4646",
+    "website": "https://www.itchotels.com/in/en/itcroyalbengal-kolkata",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.133Z",
+    "updatedAt": "2026-08-22T21:20:27.133Z"
+  },
+  {
+    "hotelId": "ccu-taj-bengal-kolkata",
+    "name": "Taj Bengal, Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "34-B Belvedere Road, Alipore, Kolkata, West Bengal 700027",
+    "latitude": 22.5325,
+    "longitude": 88.3325,
+    "pricePerNight": 12500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool in Atrium",
+      "Jiva Spa",
+      "Sonargaon Authentic Bengali & Indian Dining",
+      "Souk Mediterranean",
+      "Chinoiserie Chinese",
+      "The Junction Bar",
+      "Promenade Lounge"
+    ],
+    "specialFeatures": [
+      "Sonargaon restaurant serving authentic mustard hilsa, kosha mangsho, and royal zamindari recipes",
+      "Set in posh heritage Alipore diplomatic enclave"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 6612 3939",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-bengal-kolkata/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.133Z",
+    "updatedAt": "2026-08-22T21:20:27.133Z"
+  },
+  {
+    "hotelId": "ccu-itc-sonar",
+    "name": "ITC Sonar, a Luxury Collection Hotel",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "1 JBS Haldane Avenue, EM Bypass, Kolkata, West Bengal 700046",
+    "latitude": 22.5435,
+    "longitude": 88.3972,
+    "pricePerNight": 11500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool surrounded by Water Lily Lilies",
+      "Kaya Kalp Spa",
+      "Peshawri Kebabs",
+      "Dum Pukht Royal Awadhi",
+      "Eden Pavilion 24/7",
+      "Highland Nectar Bar"
+    ],
+    "specialFeatures": [
+      "World's first hotel designed around the concept of Bengal's traditional Bagans (water garden estates) with lotus ponds and banyan trees"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2345 4545",
+    "website": "https://www.itchotels.com/in/en/itcsonar-kolkata",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.134Z",
+    "updatedAt": "2026-08-22T21:20:27.134Z"
+  },
+  {
+    "hotelId": "ccu-the-lalit-great-eastern",
+    "name": "The Lalit Great Eastern Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "1, 2 & 3 Old Court House Street, Dalhousie Square, BBD Bagh, Kolkata, West Bengal 700069",
+    "latitude": 22.5685,
+    "longitude": 88.3502,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool in Heritage Courtyard",
+      "Rejuve The Spa",
+      "The Bakery (1830s Original)",
+      "Alfresco Multi-cuisine",
+      "Wilson's The Pub (1830)",
+      "Victorian Architecture"
+    ],
+    "specialFeatures": [
+      "Established in 1840, Asia's first luxury hotel ('The Jewel of the East')",
+      "Home to the historic 1830s Bakery and original Victorian iron pillars in heart of BBD Bagh"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 4444 7777",
+    "website": "https://www.thelalit.com/the-lalit-kolkata/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.134Z",
+    "updatedAt": "2026-08-22T21:20:27.134Z"
+  },
+  {
+    "hotelId": "ccu-the-park-kolkata",
+    "name": "The Park Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "17 Park Street, Taltala, Kolkata, West Bengal 700016",
+    "latitude": 22.5535,
+    "longitude": 88.3525,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Aqua Poolside Lounge",
+      "Aura Spa",
+      "The Bridge 24/7 Dining",
+      "Someplace Else (Iconic British Pub & Live Rock)",
+      "Tantra Nightclub",
+      "Roxy Bar"
+    ],
+    "specialFeatures": [
+      "Situated right on iconic Park Street",
+      "Home to Someplace Else, India's most legendary live rock pub running since 1994"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2249 9000",
+    "website": "https://www.theparkhotels.com/kolkata.html",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.135Z",
+    "updatedAt": "2026-08-22T21:20:27.135Z"
+  },
+  {
+    "hotelId": "ccu-peerless-hotel-kolkata",
+    "name": "The Peerless Inn Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "12 Jawaharlal Nehru Road, Esplanade, Dharmatala, Kolkata, West Bengal 700013",
+    "latitude": 22.5621,
+    "longitude": 88.3518,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Aaheli Specialty Bengali Restaurant",
+      "Oceanic 24/7 Buffet",
+      "Ego Bar",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Home to Aaheli, Kolkata's pioneer fine-dining authentic Bengali restaurant serving daab chingri and bhetki paturi"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 4400 3900",
+    "website": "https://peerlesshotels.com/kolkata/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.136Z",
+    "updatedAt": "2026-08-22T21:20:27.136Z"
+  },
+  {
+    "hotelId": "ccu-zostel-kolkata",
+    "name": "Zostel Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "Near Kalighat Metro, Rashbehari Avenue, South Kolkata, Kolkata, West Bengal 700026",
+    "latitude": 22.5185,
+    "longitude": 88.3475,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Rooftop Cafe (Kolkata Theme)",
+      "AC Dorms & Privates",
+      "Common Library",
+      "Lockers",
+      "Heritage Tram & Howrah Bridge Tours"
+    ],
+    "specialFeatures": [
+      "Artistic Kolkata-themed backpacker hostel near Kalighat and Lake Market, organizing street food walks, College Street book hunting and Kumartuli idol-maker trails"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/kolkata/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.137Z",
+    "updatedAt": "2026-08-22T21:20:27.137Z"
+  },
+  {
+    "hotelId": "ccu-the-hosteller-kolkata",
+    "name": "The Hosteller Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "Park Circus, Near Quest Mall, Ballygunge, Kolkata, West Bengal 700017",
+    "latitude": 22.5395,
+    "longitude": 88.3685,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cafe",
+      "Workation Stations",
+      "Dorm & Private Rooms",
+      "24/7 Reception",
+      "Board Games"
+    ],
+    "specialFeatures": [
+      "Prime South-Central location near Quest Mall and Park Circus biryani eateries (Arsalan & Shiraz)"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-kolkata/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.138Z",
+    "updatedAt": "2026-08-22T21:20:27.138Z"
+  },
+  {
+    "hotelId": "ccu-broadway-hotel-heritage",
+    "name": "Broadway Hotel - Heritage Bar & Hotel",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "27A Ganesh Chandra Avenue, Chandni Chawk, Kolkata, West Bengal 700013",
+    "latitude": 22.5692,
+    "longitude": 88.3554,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 4.1,
+    "amenities": [
+      "Free Wi-Fi",
+      "Historic 1930s Broadway Bar",
+      "High Ceiling Colonial Rooms",
+      "Room Service",
+      "Elevator"
+    ],
+    "specialFeatures": [
+      "Iconic 1937 Art Deco hotel and bar retaining its original wooden furniture, vintage fans, and Old Calcutta charm"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 2236 3930",
+    "website": "https://broadwayhotelkolkata.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.138Z",
+    "updatedAt": "2026-08-22T21:20:27.138Z"
+  },
+  {
+    "hotelId": "ccu-bubble-beds-kolkata",
+    "name": "Bubble Beds Hostel",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "11A Pratapaditya Road, Near Kalighat Metro, Kolkata, West Bengal 700026",
+    "latitude": 22.5165,
+    "longitude": 88.3461,
+    "pricePerNight": 699,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Kitchen",
+      "AC Dorm Pods with Privacy Curtains",
+      "Lockers",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "Super-clean Japanese style capsule dorm pods next to Kalighat Metro Station"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 33 4001 2345",
+    "website": "https://bubblebeds.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.139Z",
+    "updatedAt": "2026-08-22T21:20:27.139Z"
+  }
+]

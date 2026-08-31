@@ -1,0 +1,312 @@
+[
+  {
+    "hotelId": "pud-palais-de-mahe",
+    "name": "Palais de Mahe - CGH Earth",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "4 Bussy Street, White Town, Puducherry 605001",
+    "latitude": 11.9312,
+    "longitude": 79.8345,
+    "pricePerNight": 19500,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Central Courtyard Swimming Pool",
+      "Ayurvedic Wellness Spa",
+      "Les Alizes Rooftop French & Creole Dining",
+      "Earth Cafe",
+      "Free Vintage Bicycles",
+      "French Quarter Heritage Walk"
+    ],
+    "specialFeatures": [
+      "Magnificent French colonial mansion with ochre yellow arcades, deep verandas, and inner courtyard pool in White Town",
+      "Steps from Promenade Beach and Sri Aurobindo Ashram"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 234 5611",
+    "website": "https://www.cghearth.com/palaisdemahe",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.170Z",
+    "updatedAt": "2026-08-22T21:20:27.170Z"
+  },
+  {
+    "hotelId": "pud-the-promenade",
+    "name": "The Promenade, Pondicherry",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "23 Goubert Avenue, Promenade Beach, White Town, Puducherry 605001",
+    "latitude": 11.9325,
+    "longitude": 79.8358,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Bay of Bengal View Pool",
+      "BlueLine 24/7 Oceanfront Dining",
+      "Bay of Buddha Rooftop Pan-Asian",
+      "Risque Lounge Bar",
+      "Promenade Beachfront"
+    ],
+    "specialFeatures": [
+      "Prime seafront location right on Goubert Avenue / Promenade Beach",
+      "Bay of Buddha rooftop restaurant overlooking the old French lighthouse and waves"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 222 7750",
+    "website": "https://thepromenadepondicherry.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.171Z",
+    "updatedAt": "2026-08-22T21:20:27.171Z"
+  },
+  {
+    "hotelId": "pud-villa-shanti",
+    "name": "Villa Shanti - Heritage Boutique Hotel",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "14 Rue Suffren, White Town, Puducherry 605001",
+    "latitude": 11.9338,
+    "longitude": 79.8335,
+    "pricePerNight": 8500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Courtyard Restaurant with Vertical Garden",
+      "The Cafe Bar",
+      "Boutique French Rooms",
+      "Ayurvedic Massage",
+      "Library"
+    ],
+    "specialFeatures": [
+      "19th-century French colonial house restored by Parisian architects around a lush vertical courtyard garden",
+      "Celebrated Franco-Indian gastronomy"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 421 0940",
+    "website": "https://lavillashanti.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.172Z",
+    "updatedAt": "2026-08-22T21:20:27.172Z"
+  },
+  {
+    "hotelId": "pud-le-dupleix",
+    "name": "Le Dupleix - Heritage Hotel",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "5 Rue de la Caserne, White Town, Puducherry 605001",
+    "latitude": 11.9305,
+    "longitude": 79.8341,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Courtyard Gourmet Seafood Restaurant",
+      "Governor's Lounge Bar",
+      "Wood Carved Suites",
+      "Heritage French Architecture"
+    ],
+    "specialFeatures": [
+      "18th-century residence of the French Mayor of Pondicherry featuring antique woodwork and central open-air dining under a mango tree"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 222 6999",
+    "website": "https://ledupleix.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.172Z",
+    "updatedAt": "2026-08-22T21:20:27.172Z"
+  },
+  {
+    "hotelId": "pud-accord-puducherry",
+    "name": "Accord Puducherry",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "1 Tilagar Nagar, Ellaipillaichavady, Puducherry 605009",
+    "latitude": 11.9412,
+    "longitude": 79.8112,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool with Sunken Bar",
+      "Seasons Global Dining",
+      "Zodiac Bar",
+      "Spa & Health Club",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Upscale modern luxury hotel with expansive swimming pool and convention facilities"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 229 9000",
+    "website": "https://theaccordhotels.com/puducherry/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.173Z",
+    "updatedAt": "2026-08-22T21:20:27.173Z"
+  },
+  {
+    "hotelId": "pud-zostel-pondicherry",
+    "name": "Zostel Pondicherry",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "Auroville Main Road, Bommayapalayam, Near Auroville Beach, Puducherry 605104",
+    "latitude": 11.9845,
+    "longitude": 79.8454,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Open Air Garden Cafe",
+      "AC Dorms & Private Huts",
+      "Bonfire Nights",
+      "Bicycle & Moped Hire",
+      "Auroville Matrimandir Tour Desk"
+    ],
+    "specialFeatures": [
+      "Nestled in bohemian Auroville beach belt with organic garden cafe, surfboard rentals, and meditation circles"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/pondicherry/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.173Z",
+    "updatedAt": "2026-08-22T21:20:27.173Z"
+  },
+  {
+    "hotelId": "pud-the-hosteller-pondicherry",
+    "name": "The Hosteller Pondicherry (White Town)",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "Needarajappaiyer Street, Near French Quarter, Heritage Town, Puducherry 605001",
+    "latitude": 11.9345,
+    "longitude": 79.8285,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Cafe",
+      "Co-working Desks",
+      "Air Conditioned Dorms & Privates",
+      "Board Games"
+    ],
+    "specialFeatures": [
+      "Walking distance from French Quarter cobblestone streets, botanical garden, and Promenade Beach"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-pondicherry/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.174Z",
+    "updatedAt": "2026-08-22T21:20:27.174Z"
+  },
+  {
+    "hotelId": "pud-gostops-pondicherry",
+    "name": "goSTOPS Pondicherry",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "Rangapillai Street, MG Road Area, Puducherry 605001",
+    "latitude": 11.9358,
+    "longitude": 79.8298,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Lounge",
+      "Home Cinema",
+      "AC Dorms",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "Vibrant colors, projector movie screenings, and social hostel community"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-pondicherry/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.174Z",
+    "updatedAt": "2026-08-22T21:20:27.174Z"
+  },
+  {
+    "hotelId": "pud-micasa-hostels",
+    "name": "Micasa Hostels Puducherry",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "217 Mission Street, Heritage Town, Puducherry 605001",
+    "latitude": 11.9365,
+    "longitude": 79.8312,
+    "pricePerNight": 750,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Chillout Deck",
+      "Community Kitchen",
+      "AC Dorms",
+      "Lockers"
+    ],
+    "specialFeatures": [
+      "Prime Mission Street location in Tamil Quarter, 3 minutes to bakeries and Sri Aurobindo Ashram"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94880 12345",
+    "website": "https://micasahostels.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.174Z",
+    "updatedAt": "2026-08-22T21:20:27.174Z"
+  },
+  {
+    "hotelId": "pud-patricia-guest-house",
+    "name": "Patricia French Guest House",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "18 Rue Francois Martin, White Town, Puducherry 605001",
+    "latitude": 11.9318,
+    "longitude": 79.8328,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "French Courtyard Garden",
+      "Homemade Croissants & Breakfast",
+      "Air Conditioning",
+      "Library"
+    ],
+    "specialFeatures": [
+      "Charming boutique homestay run by a Franco-Pondicherrian family with authentic French breakfasts"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 233 5432",
+    "website": "https://patriciaguesthouse.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.175Z",
+    "updatedAt": "2026-08-22T21:20:27.175Z"
+  }
+]

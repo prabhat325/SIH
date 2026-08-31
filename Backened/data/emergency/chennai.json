@@ -1,0 +1,5 @@
+[
+{"serviceId":"CHENNAI-HOSPITAL-001","name":"Government General Hospital Chennai","city":"Chennai","state":"Tamil Nadu","type":"Hospital","address":"Park Town, Chennai 600003","latitude":null,"longitude":null,"phone":"+91-44-25305000","website":"https://www.mmc.tn.gov.in","available24x7":true,"emergencyFacilities":["24x7 Emergency","ICU","Trauma Care","Ambulance"],"verified":true,"available":true},
+{"serviceId":"CHENNAI-POLICE-001","name":"Fort St George Police Station","city":"Chennai","state":"Tamil Nadu","type":"Police Station","address":"Fort St George, Chennai 600009","latitude":null,"longitude":null,"phone":null,"website":"https://eservices.tnpolice.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+{"serviceId":"CHENNAI-FIRE-001","name":"Egmore Fire and Rescue Station","city":"Chennai","state":"Tamil Nadu","type":"Fire Station","address":"Poonamallee High Road, Egmore, Chennai 600008","latitude":null,"longitude":null,"phone":null,"website":"https://www.tnfrs.tn.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

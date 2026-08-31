@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "GAN-001",
+        "name": "Regional Guide",
+        "city": "Gangtok",
+        "state": "Sikkim",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "North-East India"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 9,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

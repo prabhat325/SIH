@@ -1,0 +1,92 @@
+[
+  {
+    "serviceId": "JAMMU-HOSPITAL-001",
+    "name": "Government Medical College Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "type": "Hospital",
+    "address": "Bakshi Nagar, Jammu, Jammu and Kashmir 180001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://gmcjammu.nic.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAMMU-HOSPITAL-002",
+    "name": "Government Hospital Gandhi Nagar",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "type": "Hospital",
+    "address": "Gandhi Nagar, Jammu, Jammu and Kashmir 180004",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAMMU-HOSPITAL-003",
+    "name": "Shri Mata Vaishno Devi Narayana Superspeciality Hospital",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "type": "Hospital",
+    "address": "Kakriyal, Katra, Jammu and Kashmir 182320",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.smvdnshospital.com/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAMMU-POLICE-004",
+    "name": "City Police Station Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "type": "Police Station",
+    "address": "Residency Road, Jammu, Jammu and Kashmir 180001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://jkpolice.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAMMU-FIRE-005",
+    "name": "Gandhi Nagar Fire Station",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "type": "Fire Station",
+    "address": "Gandhi Nagar, Jammu, Jammu and Kashmir 180004",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

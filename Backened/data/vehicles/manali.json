@@ -1,0 +1,58 @@
+[
+    {
+        "vehicleId": "MANALI-SHAREDTAXI-001",
+        "vehicleType": "Shared Taxi",
+        "city": "Manali",
+        "state": "Himachal Pradesh",
+        "baseFare": 80,
+        "farePerKm": 16,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "MANALI-TAXI-002",
+        "vehicleType": "Taxi",
+        "city": "Manali",
+        "state": "Himachal Pradesh",
+        "baseFare": 120,
+        "farePerKm": 28,
+        "averageSpeed": 20,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "MANALI-TOURISTBUS-003",
+        "vehicleType": "Tourist Bus",
+        "city": "Manali",
+        "state": "Himachal Pradesh",
+        "baseFare": 700,
+        "farePerKm": 22,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "MANALI-TEMPO-004",
+        "vehicleType": "Tempo Traveller",
+        "city": "Manali",
+        "state": "Himachal Pradesh",
+        "baseFare": 1200,
+        "farePerKm": 28,
+        "averageSpeed": 17,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/In_a_minibus_in_Goa%2C_India.jpg/960px-In_a_minibus_in_Goa%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

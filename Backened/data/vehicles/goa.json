@@ -1,0 +1,86 @@
+[
+    {
+        "vehicleId": "GOA-TAXI-001",
+        "vehicleType": "Taxi",
+        "city": "Goa",
+        "state": "Goa",
+        "baseFare": 60,
+        "farePerKm": 18,
+        "averageSpeed": 32,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GOA-AUTO-002",
+        "vehicleType": "Auto Rickshaw",
+        "city": "Goa",
+        "state": "Goa",
+        "baseFare": 25,
+        "farePerKm": 13,
+        "averageSpeed": 25,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Auto_rickshaw_in_India.jpg/960px-Auto_rickshaw_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GOA-BIKETAXI-003",
+        "vehicleType": "Bike Taxi",
+        "city": "Goa",
+        "state": "Goa",
+        "baseFare": 20,
+        "farePerKm": 8,
+        "averageSpeed": 28,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Motorcycle-pilot-goa-india.jpg/960px-Motorcycle-pilot-goa-india.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GOA-FERRY-004",
+        "vehicleType": "Ferry",
+        "city": "Goa",
+        "state": "Goa",
+        "baseFare": 20,
+        "farePerKm": 4,
+        "averageSpeed": 18,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ferry_at_India_Street_Pier_jeh.jpg/960px-Ferry_at_India_Street_Pier_jeh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GOA-BUS-005",
+        "vehicleType": "Local Bus",
+        "city": "Goa",
+        "state": "Goa",
+        "baseFare": 15,
+        "farePerKm": 3,
+        "averageSpeed": 28,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "GOA-TOURISTBUS-006",
+        "vehicleType": "Tourist Bus",
+        "city": "Goa",
+        "state": "Goa",
+        "baseFare": 500,
+        "farePerKm": 18,
+        "averageSpeed": 30,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

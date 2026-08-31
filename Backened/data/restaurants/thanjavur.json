@@ -1,0 +1,162 @@
+[
+  {
+    "restaurantId": "rst-tjv-sree-ariya-bhavan",
+    "name": "Sree Ariya Bhavan",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "address": "Near Old Bus Stand & Railway Station Road, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7845,
+    "longitude": 79.1345,
+    "cuisine": [
+      "Traditional Tamil Brahmin",
+      "Pure Vegetarian Thali",
+      "South Indian Tiffin"
+    ],
+    "famousDishes": [
+      "Grand Thanjavur Banana Leaf Meal (With Vatha Kuzhambu, Mor Kuzhambu & Payasam)",
+      "Ghee Roast Dosa",
+      "Medu Vada",
+      "Kumbakonam Degree Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Grand Thanjavur Vegetarian Leaf Meal",
+        "price": 160
+      },
+      {
+        "food": "Ghee Roast Masala Dosa",
+        "price": 100
+      },
+      {
+        "food": "Kumbakonam Degree Coffee (Brass Cup)",
+        "price": 35
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Brihadeeswara Temple Vicinity",
+      "Rapid Service"
+    ],
+    "specialFeatures": [
+      "Thanjavur's premier vegetarian dining destination, famous for authentic Chola-delta homestyle banana-leaf feasts featuring sun-dried turkey berry (sundakkai) Vatha Kuzhambu and frothy degree coffee",
+      "A pilgrimage must-visit"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 4362 277 000",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-tjv-sathars-restaurant",
+    "name": "Sathars Restaurant (Since 1968)",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "address": "148, Gandhiji Road, Near Railway Station, Thanjavur, Tamil Nadu 613001",
+    "latitude": 10.7812,
+    "longitude": 79.1389,
+    "cuisine": [
+      "Tamil Non-Veg",
+      "Biryani",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Thanjavur Mutton Dum Biryani",
+      "Sathars Special Chicken Fry",
+      "Mutton Chukka",
+      "Parotta with Salna",
+      "Pepper Chicken"
+    ],
+    "menu": [
+      {
+        "food": "Thanjavur Special Mutton Biryani",
+        "price": 280
+      },
+      {
+        "food": "Sathars Fried Chicken (Quarter)",
+        "price": 180
+      },
+      {
+        "food": "Flaky Parotta with Chicken Salna",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Railway Station Proximity",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Thanjavur's most iconic non-vegetarian institution since 1968 on Gandhiji Road, celebrated for aromatic seeraga samba mutton biryani and crispy spiced country chicken",
+      "Beloved local landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 4362 230 555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-tjv-thillana-sangam",
+    "name": "Thillana - Sangam Hotel",
+    "city": "Thanjavur",
+    "state": "Tamil Nadu",
+    "address": "Sangam Hotel, Trichy Road, Thanjavur, Tamil Nadu 613007",
+    "latitude": 10.7789,
+    "longitude": 79.1245,
+    "cuisine": [
+      "Chettinad",
+      "South Indian",
+      "Continental Fine Dining"
+    ],
+    "famousDishes": [
+      "Chettinad Kozhi Biryani",
+      "Mutton Sukka Varuval",
+      "Meen Kozhambu",
+      "Appam with Coconut Stew",
+      "Elaneer Payasam"
+    ],
+    "menu": [
+      {
+        "food": "Royal Chettinad Tasting Thali Spread",
+        "price": 650
+      },
+      {
+        "food": "Chettinad Kozhi Curry with 2 Appams",
+        "price": 420
+      },
+      {
+        "food": "Elaneer Payasam",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "Valet Parking",
+      "Live Classical Sitar/Veena"
+    ],
+    "specialFeatures": [
+      "Upscale hotel fine-dining restaurant presenting authentic Chettinad and Chola delta recipes in an elegant classical ambiance for international cultural heritage tourists",
+      "Top fine dining in Thanjavur"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 4362 225 151",
+    "website": "http://sangamhotels.com",
+    "available": true
+  }
+]

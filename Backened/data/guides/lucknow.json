@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "LUC-001",
+        "name": "Regional Guide",
+        "city": "Lucknow",
+        "state": "Uttar Pradesh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Heritage Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 9,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

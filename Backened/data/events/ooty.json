@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "OOTY-EVENT-001",
+            "name": "Summer Festival",
+            "city": "Ooty",
+            "state": "Tamil Nadu",
+            "description": "An annual summer festival with flower shows and boat races.",
+            "type": "Festival",
+            "venue": "Various venues in Ooty",
+            "usualMonth": "May",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "OOTY-EVENT-002",
+            "name": "Tea and Tourism Festival",
+            "city": "Ooty",
+            "state": "Tamil Nadu",
+            "description": "A festival celebrating the Nilgiris' tea heritage.",
+            "type": "Festival",
+            "venue": "Various tea estates in Ooty",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "OOTY-EVENT-003",
+            "name": "Pongal",
+            "city": "Ooty",
+            "state": "Tamil Nadu",
+            "description": "The harvest festival with traditional celebrations.",
+            "type": "Festival",
+            "venue": "Various temples and venues",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

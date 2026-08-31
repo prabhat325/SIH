@@ -1,0 +1,92 @@
+[
+  {
+    "serviceId": "MATHURAVRINDAVAN-HOSPITAL-001",
+    "name": "District Hospital Mathura",
+    "city": "Mathura–Vrindavan",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "Dampier Nagar, Mathura, Uttar Pradesh 281001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "MATHURAVRINDAVAN-HOSPITAL-002",
+    "name": "K.D. Medical College Hospital",
+    "city": "Mathura–Vrindavan",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "NH-2, Mathura-Delhi Highway, Mathura, Uttar Pradesh 281406",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://kdmedicalcollege.com/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "MATHURAVRINDAVAN-HOSPITAL-003",
+    "name": "Nayati Medicity",
+    "city": "Mathura–Vrindavan",
+    "state": "Uttar Pradesh",
+    "type": "Hospital",
+    "address": "NH-2, Mathura-Delhi Highway, Mathura, Uttar Pradesh 281001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://nayatihealthcare.com/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "MATHURAVRINDAVAN-POLICE-004",
+    "name": "Vrindavan Police Station",
+    "city": "Mathura–Vrindavan",
+    "state": "Uttar Pradesh",
+    "type": "Police Station",
+    "address": "Vrindavan, Mathura, Uttar Pradesh 281121",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://mathurapolice.com/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "MATHURAVRINDAVAN-FIRE-005",
+    "name": "Mathura Fire Station",
+    "city": "Mathura–Vrindavan",
+    "state": "Uttar Pradesh",
+    "type": "Fire Station",
+    "address": "Dampier Nagar, Mathura, Uttar Pradesh 281001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

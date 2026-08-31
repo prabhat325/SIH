@@ -1,0 +1,57 @@
+{
+    "events": [
+        {
+            "eventId": "PURI-EVENT-001",
+            "name": "Rath Yatra",
+            "city": "Puri",
+            "state": "Odisha",
+            "description": "One of the world's oldest and largest religious festivals with grand chariot procession.",
+            "type": "Religious",
+            "venue": "Jagannath Temple and city streets",
+            "usualMonth": "June/July",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/729b7f9d-ae68-5334-8232-1d2ec5e06a11/0831c2a9-3a2b-5bf7-b70f-05f1d51f5cdb.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "PURI-EVENT-002",
+            "name": "Chandan Yatra",
+            "city": "Puri",
+            "state": "Odisha",
+            "description": "A 42-day festival with boat processions on Narendra Tank.",
+            "type": "Religious",
+            "venue": "Jagannath Temple and Narendra Tank",
+            "usualMonth": "April/May",
+            "usualTime": "Morning to evening",
+            "usualDuration": "42 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PURI-EVENT-003",
+            "name": "Snana Yatra",
+            "city": "Puri",
+            "state": "Odisha",
+            "description": "The bathing festival of Lord Jagannath.",
+            "type": "Religious",
+            "venue": "Jagannath Temple",
+            "usualMonth": "May/June",
+            "usualTime": "Morning",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

@@ -1,0 +1,415 @@
+[
+  {
+    "hotelId": "bom-the-taj-mahal-palace",
+    "name": "The Taj Mahal Palace, Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Apollo Bunder, Colaba, Mumbai, Maharashtra 400001",
+    "latitude": 18.9217,
+    "longitude": 72.8331,
+    "pricePerNight": 35000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool with Arabian Sea Breeze",
+      "Jiva Spa",
+      "Wasabi by Morimoto",
+      "Golden Dragon",
+      "Shamiana 24/7",
+      "Harbour Bar (1933)",
+      "Butler Service"
+    ],
+    "specialFeatures": [
+      "India's most iconic luxury hotel built in 1903 standing directly opposite the Gateway of India",
+      "Home to India's first licensed bar (Harbour Bar) and first authentic Japanese restaurant (Wasabi)"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6665 3366",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-mahal-palace-mumbai/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.017Z",
+    "updatedAt": "2026-08-22T21:20:27.017Z"
+  },
+  {
+    "hotelId": "bom-the-oberoi-mumbai",
+    "name": "The Oberoi, Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Nariman Point, Marine Drive, Mumbai, Maharashtra 400021",
+    "latitude": 18.9272,
+    "longitude": 72.8205,
+    "pricePerNight": 28000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Heated Ocean Pool",
+      "The Oberoi Spa 24/7",
+      "Ziya Contemporary Indian Dining (Michelin Chef Vineet Bhatia)",
+      "Vetro Italian",
+      "The Eau Bar",
+      "Sea View Suites"
+    ],
+    "specialFeatures": [
+      "Iconic location at the tip of Marine Drive overlooking the Queen's Necklace",
+      "Ziya restaurant curated by Michelin-starred chef Vineet Bhatia"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6632 5757",
+    "website": "https://www.oberoihotels.com/hotels-in-mumbai/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.017Z",
+    "updatedAt": "2026-08-22T21:20:27.017Z"
+  },
+  {
+    "hotelId": "bom-the-st-regis-mumbai",
+    "name": "The St. Regis Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "462 Senapati Bapat Marg, Lower Parel, Mumbai, Maharashtra 400013",
+    "latitude": 18.9942,
+    "longitude": 72.8248,
+    "pricePerNight": 22000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Infinity Pool",
+      "Iridium Spa",
+      "By the Mekong Asian",
+      "Seven Kitchens Buffet",
+      "Asilo Rooftop Lounge",
+      "St. Regis Butler Service"
+    ],
+    "specialFeatures": [
+      "Tallest luxury hotel tower in India soaring above Palladium Mall in Lower Parel",
+      "Asilo - iconic open-air rooftop lounge on 38th floor"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6162 8000",
+    "website": "https://www.marriott.com/en-us/hotels/bomxr-the-st-regis-mumbai/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.017Z",
+    "updatedAt": "2026-08-22T21:20:27.017Z"
+  },
+  {
+    "hotelId": "bom-jw-marriott-juhu",
+    "name": "JW Marriott Mumbai Juhu",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Juhu Tara Road, Juhu Beach, Mumbai, Maharashtra 400049",
+    "latitude": 19.1012,
+    "longitude": 72.8258,
+    "pricePerNight": 19000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Saltwater Outdoor Pools",
+      "Quan Spa",
+      "Lotus Cafe 24/7",
+      "Dashanzi Asian",
+      "Direct Juhu Beach Access",
+      "Celebrity Spotting Lounge"
+    ],
+    "specialFeatures": [
+      "Prime beachfront luxury favorite of Bollywood celebrities",
+      "Direct private pathway to Juhu Beach and famous Sunday brunch at Lotus Cafe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6693 3000",
+    "website": "https://www.marriott.com/en-us/hotels/bomjw-jw-marriott-mumbai-juhu/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.018Z",
+    "updatedAt": "2026-08-22T21:20:27.018Z"
+  },
+  {
+    "hotelId": "bom-itc-maratha",
+    "name": "ITC Maratha, a Luxury Collection Hotel",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Sahar Airport Road, Andheri East, Mumbai, Maharashtra 400099",
+    "latitude": 19.1028,
+    "longitude": 72.8685,
+    "pricePerNight": 14000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Kaya Kalp Royal Spa",
+      "Outdoor Pool",
+      "Peshawri",
+      "Dum Pukht",
+      "Dakshin Coastal South Indian",
+      "Airport Shuttle"
+    ],
+    "specialFeatures": [
+      "Tribute to the Maratha dynasty and Victorian Bombay architecture",
+      "Legendary Peshawri and Dakshin culinary institutions"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 2830 3030",
+    "website": "https://www.itchotels.com/in/en/itcmaratha-mumbai",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.018Z",
+    "updatedAt": "2026-08-22T21:20:27.018Z"
+  },
+  {
+    "hotelId": "bom-trident-nariman-point",
+    "name": "Trident, Nariman Point, Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "CR 2 Nariman Point, Netaji Subhash Chandra Bose Road, Mumbai, Maharashtra 400021",
+    "latitude": 18.9281,
+    "longitude": 72.8218,
+    "pricePerNight": 12500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool with Ocean View",
+      "The Trident Spa",
+      "Frangipani Mediterranean",
+      "India Jones Pan-Asian",
+      "Opium Den Bar"
+    ],
+    "specialFeatures": [
+      "Floor-to-ceiling vistas of the twinkling Queen's Necklace and Arabian Sea",
+      "Prime South Mumbai business address"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6632 4343",
+    "website": "https://www.tridenthotels.com/hotels-in-mumbai-nariman-point/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.019Z",
+    "updatedAt": "2026-08-22T21:20:27.019Z"
+  },
+  {
+    "hotelId": "bom-soho-house-mumbai",
+    "name": "Soho House Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "16 Juhu Tara Road, Chandrabai Nagar, Juhu, Mumbai, Maharashtra 400049",
+    "latitude": 19.0988,
+    "longitude": 72.8265,
+    "pricePerNight": 18500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool overlooking Sea",
+      "Cecconi's Italian Beachfront Restaurant",
+      "Cowshed Spa",
+      "34-seat Cinema Screening Room",
+      "Private Members Club"
+    ],
+    "specialFeatures": [
+      "Celebrity boutique members club and luxury hotel overlooking the Arabian Sea in Juhu",
+      "Cecconi's beachfront Italian dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6213 3333",
+    "website": "https://www.sohohouse.com/houses/soho-house-mumbai",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.019Z",
+    "updatedAt": "2026-08-22T21:20:27.019Z"
+  },
+  {
+    "hotelId": "bom-dragonfly-hotel",
+    "name": "Dragonfly Hotel Andheri",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "New Chakala Link Road, Opposite Solitaire Corporate Park, Andheri East, Mumbai, Maharashtra 400093",
+    "latitude": 19.1154,
+    "longitude": 72.8612,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cocoon Multi-cuisine Dining",
+      "Rooftop Garden",
+      "Free Airport Drop",
+      "Business Centre"
+    ],
+    "specialFeatures": [
+      "Modern boutique experience close to Mumbai International Airport and Chakala Metro"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6823 3000",
+    "website": "https://dragonflyhotel.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.019Z",
+    "updatedAt": "2026-08-22T21:20:27.019Z"
+  },
+  {
+    "hotelId": "bom-residency-hotel-fort",
+    "name": "Residency Hotel Fort",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "26 Corner of D.N. Road and Rustom Sidhwa Marg, Fort, Mumbai, Maharashtra 400001",
+    "latitude": 18.9374,
+    "longitude": 72.8345,
+    "pricePerNight": 5200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Residency Cafe",
+      "Room Service",
+      "Laundry",
+      "24/7 Front Desk"
+    ],
+    "specialFeatures": [
+      "Heritage district of Fort, 5 minutes from CSMT UNESCO Railway Terminus and Kala Ghoda Arts Quarter"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 6667 3333",
+    "website": "https://residencyhotel.com/mumbai-fort/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.020Z",
+    "updatedAt": "2026-08-22T21:20:27.020Z"
+  },
+  {
+    "hotelId": "bom-zostel-mumbai",
+    "name": "Zostel Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Karve Road, Marol Industrial Area, Andheri East, Mumbai, Maharashtra 400059",
+    "latitude": 19.1212,
+    "longitude": 72.8795,
+    "pricePerNight": 1099,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Rooftop Bollywood Cafe",
+      "AC Dorms & Privates",
+      "Common Games Zone",
+      "Lockers",
+      "Workation Pods"
+    ],
+    "specialFeatures": [
+      "Bollywood-themed hostel with vibrant murals, movie nights, and street food excursions",
+      "Close to Marol Naka Metro"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/mumbai/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.020Z",
+    "updatedAt": "2026-08-22T21:20:27.020Z"
+  },
+  {
+    "hotelId": "bom-gostops-mumbai",
+    "name": "goSTOPS Mumbai (Bandra / CST)",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "P D'Mello Road, Near Sandhurst Road Station, Mumbai, Maharashtra 400009",
+    "latitude": 18.9512,
+    "longitude": 72.8425,
+    "pricePerNight": 899,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Lounge",
+      "Home Theatre Room",
+      "Air Conditioned Bunk Beds",
+      "Lockers"
+    ],
+    "specialFeatures": [
+      "Affordable backpacker base in South Mumbai close to CST & Marine Drive"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-mumbai/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.021Z",
+    "updatedAt": "2026-08-22T21:20:27.021Z"
+  },
+  {
+    "hotelId": "bom-cohostel-bandra",
+    "name": "Cohostel Bandra",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Waroda Road, Off Hill Road, Bandra West, Mumbai, Maharashtra 400050",
+    "latitude": 19.0545,
+    "longitude": 72.8312,
+    "pricePerNight": 1150,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Terrace Cafe",
+      "AC Dorms",
+      "Community Kitchen",
+      "Work Desks"
+    ],
+    "specialFeatures": [
+      "Located in trendy Bandra West amidst bohemian cafes, designer boutiques, and Bandstand Promenade"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 91360 48800",
+    "website": "https://cohostel.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.022Z",
+    "updatedAt": "2026-08-22T21:20:27.022Z"
+  },
+  {
+    "hotelId": "bom-basti-backpackers",
+    "name": "Basti - A Backpackers Hostel",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "Santacruz West, Near Main Market, Mumbai, Maharashtra 400054",
+    "latitude": 19.0825,
+    "longitude": 72.8385,
+    "pricePerNight": 950,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Indian Theme Lounge",
+      "Terrace Garden",
+      "Air Conditioning",
+      "Free Breakfast"
+    ],
+    "specialFeatures": [
+      "Quaint village-style aesthetic hostel in prime western suburbs near Juhu Beach"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98200 45678",
+    "website": "https://bastihostel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.022Z",
+    "updatedAt": "2026-08-22T21:20:27.022Z"
+  }
+]

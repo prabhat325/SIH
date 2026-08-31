@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "MAT-001",
+        "name": "Regional Guide",
+        "city": "Mathura–Vrindavan",
+        "state": "Uttar Pradesh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Krishna Temples"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 9,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

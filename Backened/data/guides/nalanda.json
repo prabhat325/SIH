@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "NAL-001",
+        "name": "Regional Guide",
+        "city": "Nalanda",
+        "state": "Bihar",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Buddhist Heritage"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 7,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "restaurantId": "rst-vsh-vaishali-residency",
+    "name": "Vaishali Residency Restaurant",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Opposite Ashokan Pillar & Relic Stupa, Kolhua, Vaishali, Bihar 844128",
+    "latitude": 25.9878,
+    "longitude": 85.1245,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Bihari",
+      "North Indian Thali"
+    ],
+    "famousDishes": [
+      "Bihari Sattu Litti Chokha with Desi Ghee",
+      "Special Vegetarian Thali",
+      "Poori Sabzi with Kheer",
+      "Dal Tadka with Jeera Rice",
+      "Masala Chai"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Desi Ghee Litti Chokha Platter",
+        "price": 140
+      },
+      {
+        "food": "Vaishali Deluxe Vegetarian Thali",
+        "price": 210
+      },
+      {
+        "food": "Paneer Butter Masala with Tandoori Roti",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Ashokan Pillar & Lion Capital Proximity",
+      "Pure Vegetarian",
+      "Spacious Garden Seating",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Located directly opposite the magnificent 3rd-century BC Emperor Ashoka Pillar and the Buddha Relic Stupa, serving clean satvik and traditional Bihari meals to historical pilgrims",
+      "Quiet meditative setting"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6224 228 100",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vsh-hotel-vishal",
+    "name": "Hotel Vishal Restaurant",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Near Bawan Pokhar Temple, Vaishali, Bihar 844128",
+    "latitude": 25.9912,
+    "longitude": 85.1289,
+    "cuisine": [
+      "North Indian",
+      "Bihari",
+      "Chinese",
+      "Snacks"
+    ],
+    "famousDishes": [
+      "Bihari Veg Thali",
+      "Sattu Paratha with Baingan Chokha",
+      "Chowmein",
+      "Tea & Pakoras"
+    ],
+    "menu": [
+      {
+        "food": "Standard Bihari Lunch Thali",
+        "price": 130
+      },
+      {
+        "food": "Sattu Stuffed Paratha (2 pcs)",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Family Seating",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Clean and dependable family dining venue near Bawan Pokhar tank serving hot homestyle dal-chawal, crispy sattu parathas, and snacks for touring groups",
+      "Comfortable stop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94312 88990",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vsh-lichhavi-dhaba",
+    "name": "King Lichhavi Dhaba",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Hajipur-Vaishali Highway, Near Lalganj Chowk, Vaishali, Bihar 844128",
+    "latitude": 25.9645,
+    "longitude": 85.1512,
+    "cuisine": [
+      "Dhaba Style",
+      "North Indian Non-Veg & Veg",
+      "Bihari"
+    ],
+    "famousDishes": [
+      "Bihari Mutton Curry with Tandoori Roti",
+      "Desi Murgh Curry",
+      "Dal Fry",
+      "Sattu Paratha",
+      "Litti Chokha"
+    ],
+    "menu": [
+      {
+        "food": "Homestyle Bihari Mutton Curry (Handi)",
+        "price": 320
+      },
+      {
+        "food": "Desi Chicken Curry",
+        "price": 240
+      },
+      {
+        "food": "Desi Ghee Litti Chokha",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Outdoor Dhaba Seating",
+      "Quick Service",
+      "Highway Parking"
+    ],
+    "specialFeatures": [
+      "Celebrated highway food haven named after the ancient Lichhavi Republic (the world's first democracy), renowned for clay-handi slow-simmered spicy Bihari mutton and fresh charcoal rotis",
+      "Rich rustic taste"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-vsh-mahavira-bhojnalaya",
+    "name": "Mahavira Jain Bhojnalaya",
+    "city": "Vaishali",
+    "state": "Bihar",
+    "address": "Near Kundalpur Mahavira Birthplace Memorial, Basokund, Vaishali, Bihar 844128",
+    "latitude": 26.0021,
+    "longitude": 85.1189,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Sattvic Jain Cuisine (No Onion/Garlic/Root Vegetables)"
+    ],
+    "famousDishes": [
+      "Jain Sampurna Thali",
+      "Dal Baati with Ghee",
+      "Moong Dal Khichdi",
+      "Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Pure Jain Satvik Thali",
+        "price": 120
+      },
+      {
+        "food": "Jain Dal Baati Platter",
+        "price": 150
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian (Strict Jain Principles)",
+      "Basokund Temple Proximity",
+      "Community Dining"
+    ],
+    "specialFeatures": [
+      "Dedicated pilgrimage dining hall at Basokund (revered as the sacred birthplace of the 24th Tirthankara Lord Mahavira), preparing pure satvik meals following strict Jain vows",
+      "Serene and sacred"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

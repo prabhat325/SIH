@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "BHU-001",
+        "name": "Regional Guide",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Temple Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 8,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

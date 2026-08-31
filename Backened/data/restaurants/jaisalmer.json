@@ -1,0 +1,538 @@
+[
+  {
+    "restaurantId": "rst-jsm-the-trio",
+    "name": "The Trio",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Mandir Palace, Gandhi Chowk, Near Hanuman Circle, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9152,
+    "longitude": 70.9123,
+    "cuisine": [
+      "Rajasthani",
+      "Thar Desert Cuisine",
+      "North Indian",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Laal Maas",
+      "Ker Sangri",
+      "Jaisalmeri Lal Chana",
+      "Mutton Seekh Kebab",
+      "Papad Mangodi Ki Sabzi"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Laal Maas",
+        "price": 540
+      },
+      {
+        "food": "Ker Sangri of Thar Desert",
+        "price": 420
+      },
+      {
+        "food": "Jaisalmeri Chana Curry",
+        "price": 340
+      },
+      {
+        "food": "Dal Baati Churma",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Canopy Tent Roof Seating",
+      "Air Conditioning",
+      "Full Bar",
+      "Heritage Palace View",
+      "Live Folk Sitar"
+    ],
+    "specialFeatures": [
+      "Iconic desert pavilion dining overlooking Gandhi Chowk, styled like a royal Shikar safari tent with hand-printed canopies, low wooden tables, and authentic Thar recipes",
+      "A Jaisalmer landmark for 30 years"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 2992 252 733",
+    "website": "http://www.fortrajwada.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-desert-boys-dhani",
+    "name": "Desert Boy's Dhani",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Near Sunset Point, Bera Road, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9198,
+    "longitude": 70.9082,
+    "cuisine": [
+      "Pure Vegetarian Rajasthani",
+      "Desert Folk Cuisine"
+    ],
+    "famousDishes": [
+      "Traditional Dal Baati Churma",
+      "Gatte Ki Curry",
+      "Bajra Roti with Desi Ghee & Gur",
+      "Kadhi",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Desert Boy Special Rajasthani Thali",
+        "price": 350
+      },
+      {
+        "food": "Dal Baati Churma with Bajre Ki Roti",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Mud Hut Ethnic Setting",
+      "Live Kalbeliya Dance & Folk Music",
+      "Outdoor Bonfire in Winter",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Charming village-style open courtyard setting with lantern light, thatched roofs, and nightly live Rajasthani folk performances while dining on comforting desert recipes",
+      "Warm and hospitable"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94141 49333",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-suryagarh-nosh",
+    "name": "Nosh - Suryagarh",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Suryagarh Palace, Kahala Phata, Sam Road, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.8923,
+    "longitude": 70.7915,
+    "cuisine": [
+      "Halwai Gourmet",
+      "Thar Desert Cuisine",
+      "North Indian",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Thar Haldi Ki Sabzi (Fresh Turmeric)",
+      "Laal Maas",
+      "Dungar Murgh",
+      "Bati Platter with 5 Chutneys",
+      "Gulab Jamun Cheesecake"
+    ],
+    "menu": [
+      {
+        "food": "Suryagarh Royal Desert Thali",
+        "price": 3200
+      },
+      {
+        "food": "Thar Fresh Haldi Ki Sabzi",
+        "price": 950
+      },
+      {
+        "food": "Laal Maas Mathania",
+        "price": 1250
+      }
+    ],
+    "averageCostForOne": 2800,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Fortress Palace Ambience",
+      "Fine Dining",
+      "Valet Parking",
+      "Full Bar",
+      "Live Folk Performances"
+    ],
+    "specialFeatures": [
+      "Spectacular golden sandstone fortress dining room reviving ancient culinary traditions of desert nomads, including slow-cooked fresh golden turmeric (Kacchi Haldi) curry cooked in pure ghee",
+      "Ultra-luxury hospitality"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 2992 269 269",
+    "website": "https://www.suryagarh.com/dining/nosh",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-jaisal-italy",
+    "name": "Jaisal Italy",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Fort 1st Gate, Gopa Chowk, Jaisalmer Fort, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9134,
+    "longitude": 70.9145,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Pasta & Pizza",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood-fired Thin Crust Pizza",
+      "Homemade Spinach Ravioli",
+      "Tiramisu",
+      "Bruschetta",
+      "Italian Espresso"
+    ],
+    "menu": [
+      {
+        "food": "Quattro Formaggi Wood-fired Pizza",
+        "price": 420
+      },
+      {
+        "food": "Handmade Ricotta & Spinach Ravioli",
+        "price": 380
+      },
+      {
+        "food": "Classic Italian Tiramisu",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Fort Ramparts Balcony",
+      "Air Conditioning",
+      "Free Wi-Fi",
+      "Italian Coffee Machine"
+    ],
+    "specialFeatures": [
+      "Charming boutique Italian restaurant perched directly at the First Gate of the Living Golden Fort, run in collaboration with Italian chefs",
+      "Freshly rolled pasta and scenic fort walls"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 2992 254 445",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-pleasant-haveli-rooftop",
+    "name": "Pleasant Haveli Rooftop Restaurant",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Hotel Pleasant Haveli, Chainpura Street, Gandhi Chowk, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9168,
+    "longitude": 70.9118,
+    "cuisine": [
+      "Rajasthani",
+      "North Indian",
+      "Continental",
+      "Café"
+    ],
+    "famousDishes": [
+      "Dal Baati Churma",
+      "Gatte Ki Sabzi",
+      "Paneer Butter Masala",
+      "Nutella Banana Pancake",
+      "Masala Chai"
+    ],
+    "menu": [
+      {
+        "food": "Special Dal Baati Churma Thali",
+        "price": 320
+      },
+      {
+        "food": "Gatte Ki Sabzi with Butter Naan",
+        "price": 240
+      },
+      {
+        "food": "Banana Nutella Pancakes",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "360-Degree Fort View Rooftop",
+      "Free Wi-Fi",
+      "Sunset Seating",
+      "Pure Vegetarian Friendly"
+    ],
+    "specialFeatures": [
+      "Spectacular uninterrupted view of the glowing Golden Fort rising out of the desert sands at sunset and illuminated after dark",
+      "Relaxed floor cushions and chilled vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 2992 253 253",
+    "website": "http://www.pleasanthaveli.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-kanchan-shree-icecream",
+    "name": "Kanchan Shree Ice Cream & Lassi",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Gopa Chowk, Near Golden Fort Main Gate, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9138,
+    "longitude": 70.9141,
+    "cuisine": [
+      "Beverages",
+      "Desserts",
+      "Dairy"
+    ],
+    "famousDishes": [
+      "Thick Makhania Lassi",
+      "Kesar Kulfi Falooda",
+      "Banana Lassi",
+      "Badam Milk"
+    ],
+    "menu": [
+      {
+        "food": "Signature Thick Makhania Lassi (Kulhad)",
+        "price": 60
+      },
+      {
+        "food": "Kesar Pista Kulfi Plate",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 70,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Quick Service",
+      "Pure Vegetarian",
+      "Fort Gate Vicinity"
+    ],
+    "specialFeatures": [
+      "Famous sweet stop in Gopa Chowk serving rich, golden-yellow saffron lassi topped with solid layers of sweet makkhan",
+      "The perfect refreshing desert antidote"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94141 55667",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-1st-gate-home-fusion",
+    "name": "1st Gate Home-Fusion",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Near Dhibba Para, Fort First Gate, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9128,
+    "longitude": 70.9139,
+    "cuisine": [
+      "Italian Gourmet",
+      "Pure Vegetarian Fusion",
+      "Café"
+    ],
+    "famousDishes": [
+      "Sourdough Thin Crust Pizza",
+      "Gnocchi Quattro Formaggi",
+      "Vegan Salads",
+      "Tiramisu"
+    ],
+    "menu": [
+      {
+        "food": "Sourdough Margherita Pizza",
+        "price": 440
+      },
+      {
+        "food": "Homemade Gnocchi Formaggi",
+        "price": 390
+      },
+      {
+        "food": "Freshly Roasted Cappuccino",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Rooftop Fort Ramparts View",
+      "Pure Vegetarian",
+      "Air Conditioning",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Award-winning vegetarian Italian kitchen using authentic olive oil, imported cheeses, and artisanal sourdough crusts right below the fort walls",
+      "Serene and stylish"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 2992 254 464",
+    "website": "http://www.1stgate.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-milan-restaurant",
+    "name": "Milan Restaurant",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Air Force Road, Near Hanuman Circle, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9161,
+    "longitude": 70.9102,
+    "cuisine": [
+      "North Indian Non-Veg",
+      "Mughlai",
+      "Rajasthani"
+    ],
+    "famousDishes": [
+      "Mutton Laal Maas",
+      "Chicken Curry",
+      "Keema Naan",
+      "Tandoori Chicken"
+    ],
+    "menu": [
+      {
+        "food": "Desi Style Mutton Laal Maas",
+        "price": 380
+      },
+      {
+        "food": "Chicken Curry with Tandoori Roti",
+        "price": 260
+      },
+      {
+        "food": "Keema Naan with Gravy",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Fast Service",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "No-frills budget joint adored by local army personnel and desert drivers for fiery homestyle mutton curries and tandoori rotis",
+      "Generous portions at low prices"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 2992 252 500",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-kabeela-restaurant",
+    "name": "Kabeela Restaurant",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Near Gadisar Lake Gate, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9089,
+    "longitude": 70.9234,
+    "cuisine": [
+      "Rajasthani",
+      "North Indian",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Dal Baati Churma",
+      "Kadhai Paneer",
+      "Butter Chicken",
+      "Gadisar Fish Tikka"
+    ],
+    "menu": [
+      {
+        "food": "Kabeela Special Dal Baati",
+        "price": 340
+      },
+      {
+        "food": "Butter Chicken",
+        "price": 420
+      },
+      {
+        "food": "Kadhai Paneer",
+        "price": 310
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Lake Vicinity",
+      "Air Conditioning",
+      "Outdoor Seating",
+      "Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Located near the scenic holy Gadisar Lake gateway, offering traditional desert hospitality and multi-cuisine favorites after scenic lake boat rides",
+      "Great evening dinner location"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94147 88990",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jsm-romany-jaisalmer",
+    "name": "Romany Jaisalmer Rooftop",
+    "city": "Jaisalmer",
+    "state": "Rajasthan",
+    "address": "Inside Fort, Kotri Para, Jaisalmer Fort, Jaisalmer, Rajasthan 345001",
+    "latitude": 26.9125,
+    "longitude": 70.9158,
+    "cuisine": [
+      "Indian",
+      "Continental",
+      "Israeli",
+      "Café"
+    ],
+    "famousDishes": [
+      "Shakshuka with Pita",
+      "Cheese Garlic Naan",
+      "Veg Biryani",
+      "Chai Latte"
+    ],
+    "menu": [
+      {
+        "food": "Israeli Shakshuka Plate",
+        "price": 240
+      },
+      {
+        "food": "Special Fort Dum Veg Biryani",
+        "price": 260
+      },
+      {
+        "food": "Ginger Lemon Honey Tea Pot",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "High Fort Ramparts View",
+      "Free Wi-Fi",
+      "Cozy Floor Cushions",
+      "Books Library"
+    ],
+    "specialFeatures": [
+      "Cozy backpacker rooftop tucked inside the living fort alleys, offering sweeping views across the golden rooftops and outer desert horizons",
+      "Welcoming nomadic bohemian vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94142 34567",
+    "website": null,
+    "available": true
+  }
+]

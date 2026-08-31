@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "RIS-001",
+        "name": "Regional Guide",
+        "city": "Rishikesh",
+        "state": "Uttarakhand",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Spiritual Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 10,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "restaurantId": "rst-ayd-makhan-malai",
+    "name": "Makhan-Malai Restaurant",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Near Ram Janmabhoomi Path, Tedhi Bazar, Ayodhya, Uttar Pradesh 224123",
+    "latitude": 26.7975,
+    "longitude": 82.1989,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "Awadhi Veg",
+      "Thali"
+    ],
+    "famousDishes": [
+      "Ram Rasoi Special Thali",
+      "Paneer Butter Masala",
+      "Dal Tadka",
+      "Gulab Jamun",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Ram Rasoi Special Veg Thali",
+        "price": 280
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 240
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 190
+      },
+      {
+        "food": "Kesar Matka Lassi",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian (No Onion Garlic option)",
+      "Family Seating",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Premier pure vegetarian dining venue close to the Ram Janmabhoomi temple complex",
+      "Offers sattvic cuisine prepared following strict traditional Vaishnav standards"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5278 232 555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-shri-kanak-bhavan-prasad",
+    "name": "Kanak Bhavan Rasoi & Sweets",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Near Kanak Bhavan Temple Complex, Tulsi Nagar, Ayodhya, Uttar Pradesh 224123",
+    "latitude": 26.8021,
+    "longitude": 82.2034,
+    "cuisine": [
+      "Sattvic",
+      "North Indian",
+      "Traditional Mithai",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Kanak Rasoi Mahaprasad Thali",
+      "Khoya Peda",
+      "Desi Ghee Laddu",
+      "Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Bhog Prasad Thali",
+        "price": 150
+      },
+      {
+        "food": "Desi Ghee Besan Laddu (250g)",
+        "price": 140
+      },
+      {
+        "food": "Ayodhya Peda (250g)",
+        "price": 130
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Sattvic (No Onion/Garlic)",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic temple-adjacent rasoi preparing traditional Vaishnavite bhog and authentic Ayodhya pedas using pure cow ghee",
+      "Serene spiritual ambiance"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94507 88990",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-maurya-misthan-bhandar",
+    "name": "Maurya Misthan Bhandar",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Naya Ghat, Ram Ki Paidi Road, Ayodhya, Uttar Pradesh 224123",
+    "latitude": 26.7981,
+    "longitude": 82.2082,
+    "cuisine": [
+      "Street Food",
+      "Mithai",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Bedmi Poori with Aloo Sabzi",
+      "Jalebi",
+      "Rabri",
+      "Kachori Chhole",
+      "Kulhad Chai"
+    ],
+    "menu": [
+      {
+        "food": "Poori Sabzi Plate (4 pcs)",
+        "price": 70
+      },
+      {
+        "food": "Hot Desi Ghee Jalebi (100g)",
+        "price": 40
+      },
+      {
+        "food": "Kulhad Rabri",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Pure Vegetarian",
+      "Riverside Vicinity",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Famous stop for pilgrims returning from holy dips at Ram Ki Paidi and Saryu Ghat",
+      "Freshly fried piping hot pooris and crispy golden jalebis"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98381 23456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-chandra-marwadi-bhojnalaya",
+    "name": "Chandra Marwadi Bhojnalaya",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Near Hanuman Garhi Temple, Main Mandir Marg, Ayodhya, Uttar Pradesh 224123",
+    "latitude": 26.7994,
+    "longitude": 82.2001,
+    "cuisine": [
+      "Rajasthani",
+      "North Indian",
+      "Pure Vegetarian Thali"
+    ],
+    "famousDishes": [
+      "Unlimited Rajasthani Thali",
+      "Dal Baati Churma",
+      "Gatte Ki Sabzi",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Unlimited Pure Desi Ghee Thali",
+        "price": 220
+      },
+      {
+        "food": "Special Dal Baati Churma Thali",
+        "price": 250
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "Traditional Dining",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Decades-old pilgrimage dining hall near Hanuman Garhi serving hearty unlimited vegetarian thalis prepared in pure desi ghee",
+      "Homestyle comforting flavours"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94157 65432",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-radhe-radhe-bhojnalaya",
+    "name": "Radhe Radhe Bhojnalaya",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Near Railway Station Road, Civil Lines, Faizabad-Ayodhya, Uttar Pradesh 224001",
+    "latitude": 26.7785,
+    "longitude": 82.1432,
+    "cuisine": [
+      "North Indian",
+      "Pure Vegetarian",
+      "Punjabi"
+    ],
+    "famousDishes": [
+      "Shahi Paneer",
+      "Dal Fry",
+      "Tandoori Butter Roti",
+      "Sev Tamatar",
+      "Jeera Rice"
+    ],
+    "menu": [
+      {
+        "food": "Executive Veg Thali",
+        "price": 180
+      },
+      {
+        "food": "Shahi Paneer",
+        "price": 160
+      },
+      {
+        "food": "Dal Fry Butter",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Clean, budget-friendly family restaurant known for quick service and generous portions of North Indian dishes",
+      "Popular with transit passengers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5278 224 890",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-saryu-restaurant",
+    "name": "Saryu Waves Restaurant",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Hotel Krusak, Near Saryu Barrage, Guptar Ghat Road, Ayodhya, Uttar Pradesh 224123",
+    "latitude": 26.7889,
+    "longitude": 82.1645,
+    "cuisine": [
+      "North Indian",
+      "Chinese",
+      "Continental",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Paneer Tikka Lababdar",
+      "Crispy Chilli Babycorn",
+      "Veg Biryani with Raita",
+      "Kadhai Chaap"
+    ],
+    "menu": [
+      {
+        "food": "Paneer Tikka Butter Masala",
+        "price": 310
+      },
+      {
+        "food": "Soya Malai Chaap Curry",
+        "price": 280
+      },
+      {
+        "food": "Dum Veg Biryani",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "River View",
+      "Air Conditioning",
+      "Valet Parking",
+      "Garden Seating"
+    ],
+    "specialFeatures": [
+      "Upscale riverside dining near Guptar Ghat offering scenic sunset views across the holy Saryu river",
+      "Contemporary vegetarian fusion menu"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 91400 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-raghav-sweets",
+    "name": "Raghav Sweets & Restaurant",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Dharampura, Near Dashrath Mahal, Ayodhya, Uttar Pradesh 224123",
+    "latitude": 26.7989,
+    "longitude": 82.2012,
+    "cuisine": [
+      "Sweets",
+      "Chaat",
+      "North Indian Snacks"
+    ],
+    "famousDishes": [
+      "Mava Peda",
+      "Samosa with Chutney",
+      "Rabri Jalebi",
+      "Dahi Vada",
+      "Dhokla"
+    ],
+    "menu": [
+      {
+        "food": "Samosa (2 pcs)",
+        "price": 30
+      },
+      {
+        "food": "Desi Ghee Jalebi with Rabri",
+        "price": 80
+      },
+      {
+        "food": "Dahi Vada Plate",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Pure Vegetarian",
+      "Traditional Seating",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic sweet confectioner located close to Dashrath Mahal, renowned for its fresh khoya pedas offered at local shrines",
+      "Centuries-old recipe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94520 98765",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-amrapali-grand",
+    "name": "Amrapali Restaurant",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "The Grand JBR Hotel, NH-28 Bypass, Near Ayodhya Cantt, Ayodhya, Uttar Pradesh 224001",
+    "latitude": 26.7645,
+    "longitude": 82.1329,
+    "cuisine": [
+      "North Indian",
+      "Mughlai Veg",
+      "South Indian",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Amrapali Special Dal",
+      "Paneer Pasanda",
+      "Veg Sizzler",
+      "Gulab Jamun with Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Paneer Pasanda",
+        "price": 360
+      },
+      {
+        "food": "Amrapali Dal Makhani",
+        "price": 290
+      },
+      {
+        "food": "Assorted Bread Basket",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 600,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Fine Dining",
+      "Valet Parking",
+      "Full Power Backup",
+      "Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Elegant multi-cuisine hotel dining room catering to high-profile pilgrims and touring dignitaries",
+      "Modern presentation with traditional flavors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5278 228 000",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-awadhi-zaika",
+    "name": "Awadhi Zaika",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Civil Lines, Near Pushpraj Guest House, Faizabad, Ayodhya, Uttar Pradesh 224001",
+    "latitude": 26.7761,
+    "longitude": 82.1468,
+    "cuisine": [
+      "Awadhi",
+      "Mughlai",
+      "North Indian",
+      "Kebabs"
+    ],
+    "famousDishes": [
+      "Galouti Kebab",
+      "Chicken Dum Biryani",
+      "Mutton Rogan Josh",
+      "Roomali Roti",
+      "Shahi Tukda"
+    ],
+    "menu": [
+      {
+        "food": "Galouti Kebab (4 pcs)",
+        "price": 260
+      },
+      {
+        "food": "Chicken Dum Biryani",
+        "price": 240
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Family Dining",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Popular multi-cuisine eatery in the twin city of Faizabad serving authentic Nawabi non-vegetarian specialties and slow-cooked dum biryani",
+      "Tender succulent kebabs"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 5278 226 789",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ayd-hanuman-bhojnalaya",
+    "name": "Hanuman Garhi Bhojnalaya",
+    "city": "Ayodhya",
+    "state": "Uttar Pradesh",
+    "address": "Temple Stairs, Hanuman Garhi, Ayodhya, Uttar Pradesh 224123",
+    "latitude": 26.7997,
+    "longitude": 82.2005,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Sattvic",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Bhojan Thali",
+      "Kadhi Pakoda with Chawal",
+      "Aloo Jeera",
+      "Moong Dal Halwa"
+    ],
+    "menu": [
+      {
+        "food": "Standard Thali",
+        "price": 120
+      },
+      {
+        "food": "Special Desi Ghee Thali",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Pure Vegetarian",
+      "No Onion Garlic Available",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Dedicated pilgrimage eatery serving simple, soulful Vaishnavite meals to devotees visiting Lord Hanuman's citadel",
+      "Freshly cooked round-the-clock"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

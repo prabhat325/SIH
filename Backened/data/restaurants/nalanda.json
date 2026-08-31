@@ -1,0 +1,214 @@
+[
+  {
+    "restaurantId": "rst-nal-nalanda-cafeteria",
+    "name": "Nalanda Archaeological Cafeteria",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Opposite Ancient Nalanda University Ruins Gate, Nalanda, Bihar 803111",
+    "latitude": 25.1368,
+    "longitude": 85.4452,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Bihari Snacks",
+      "North Indian Thali"
+    ],
+    "famousDishes": [
+      "Bihari Thali",
+      "Poori Aloo Sabzi",
+      "Sattu Paratha with Chokha",
+      "Desi Masala Chai",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Standard Vegetarian Thali",
+        "price": 160
+      },
+      {
+        "food": "Hot Poori Sabzi Plate (4 pcs)",
+        "price": 80
+      },
+      {
+        "food": "Sattu Paratha with Dahi & Chutney",
+        "price": 90
+      },
+      {
+        "food": "Clay Pot Masala Chai",
+        "price": 25
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "UNESCO World Heritage Ruins Proximity",
+      "Pure Vegetarian",
+      "Outdoor Shaded Garden Seating"
+    ],
+    "specialFeatures": [
+      "Conveniently located directly at the entrance gate of the 5th-century Ancient Nalanda Mahavihara ruins, serving fresh wholesome pilgrim lunches and hot tea under shaded banyan trees",
+      "Essential pitstop for world travelers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nal-hotel-nalanda-regency",
+    "name": "Regency Restaurant - Nalanda Regency",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Bargaon Mor, Near Nalanda Ruins Road, Nalanda, Bihar 803111",
+    "latitude": 25.1321,
+    "longitude": 85.4418,
+    "cuisine": [
+      "North Indian",
+      "Bihari Traditional",
+      "Chinese",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Royal Bihari Thali (Litti, Dal Pitha, Chokha)",
+      "Paneer Butter Masala",
+      "Dal Tadka",
+      "Butter Naan",
+      "Matka Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Royal Nalanda Thali",
+        "price": 260
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 220
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Moderate",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Spacious Family Seating",
+      "Tourist Coach Friendly"
+    ],
+    "specialFeatures": [
+      "Leading air-conditioned dining venue near the ruins offering authentic Bihari culinary classics including steamed rice-flour dumplings ('Dal Pitha') and wood-roasted Littis in pure ghee",
+      "Comfortable group dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 281 888",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nal-green-leaf",
+    "name": "Green Leaf Restaurant",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "Main Road, Near Kundalpur Jain Tirth Gate, Nalanda, Bihar 803111",
+    "latitude": 25.1412,
+    "longitude": 85.4512,
+    "cuisine": [
+      "Bihari",
+      "North Indian",
+      "Pure Vegetarian Jain Options"
+    ],
+    "famousDishes": [
+      "Desi Ghee Litti Chokha",
+      "Dal Fry with Jeera Rice",
+      "Aloo Dum Bihari",
+      "Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Special Litti Chokha (2 pcs)",
+        "price": 90
+      },
+      {
+        "food": "Bihari Homestyle Thali",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Pure Vegetarian",
+      "Jain Food Available on Request",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Clean, budget eatery near Kundalpur (birthplace of Lord Mahavira) preparing authentic zero-onion/garlic Jain meals and traditional ghee-roasted Littis",
+      "Pilgrim friendly"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94314 55667",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-nal-highway-treat-dhaba",
+    "name": "Highway Treat Dhaba",
+    "city": "Nalanda",
+    "state": "Bihar",
+    "address": "State Highway 78, Nalanda-Rajgir Highway, Nalanda, Bihar 803111",
+    "latitude": 25.1245,
+    "longitude": 85.4389,
+    "cuisine": [
+      "Dhaba",
+      "North Indian",
+      "Bihari Snacks"
+    ],
+    "famousDishes": [
+      "Tandoori Sattu Paratha with Curd",
+      "Dal Tadka with Hot Tandoori Rotis",
+      "Sev Tamatar",
+      "Chai"
+    ],
+    "menu": [
+      {
+        "food": "Special Sattu Paratha Plate with Dahi & Pickle",
+        "price": 80
+      },
+      {
+        "food": "Yellow Dal Tadka Butter",
+        "price": 110
+      },
+      {
+        "food": "Tandoori Roti with Butter",
+        "price": 15
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Open Air Highway Dhaba",
+      "Quick Service",
+      "Ample Parking"
+    ],
+    "specialFeatures": [
+      "Popular highway food stop between Nalanda and Rajgir, famous for crisp tandoori sattu-filled flatbreads served with fresh curd and roasted tomato-garlic chokha",
+      "Loved by road trippers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

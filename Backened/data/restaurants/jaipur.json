@@ -1,0 +1,848 @@
+[
+  {
+    "restaurantId": "rst-jpr-lmb-johari-bazar",
+    "name": "Laxmi Misthan Bhandar (LMB)",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "98-99, Johari Bazar, Pink City, Jaipur, Rajasthan 302003",
+    "latitude": 26.9208,
+    "longitude": 75.8267,
+    "cuisine": [
+      "Rajasthani",
+      "North Indian",
+      "Mithai",
+      "Pure Vegetarian Thali"
+    ],
+    "famousDishes": [
+      "Royal Rajasthani Thali",
+      "Paneer Ghewar",
+      "Pyaaz Kachori",
+      "Dal Baati Churma",
+      "Doodh Feeni"
+    ],
+    "menu": [
+      {
+        "food": "LMB Special Royal Rajasthani Thali",
+        "price": 540
+      },
+      {
+        "food": "Dal Baati Churma Platter",
+        "price": 380
+      },
+      {
+        "food": "Desi Ghee Paneer Ghewar (500g)",
+        "price": 360
+      },
+      {
+        "food": "Crispy Pyaaz Kachori (2 pcs)",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Heritage Decor",
+      "Sweet Boutique",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Established in 1727 alongside the founding of Jaipur city, world-famous for inventing Paneer Ghewar and serving royal Rajasthani vegetarian banquets",
+      "Johari Bazar's most legendary dining landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 256 5844",
+    "website": "http://www.hotellmb.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-chokhi-dhani",
+    "name": "Chokhi Dhani Ethnic Restaurant",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "12 Miles, Tonk Road, Goner Mod Flyover, Jaipur, Rajasthan 303905",
+    "latitude": 26.7698,
+    "longitude": 75.8345,
+    "cuisine": [
+      "Traditional Rajasthani",
+      "Pure Vegetarian Feast"
+    ],
+    "famousDishes": [
+      "Traditional Dal Baati Churma",
+      "Gatte Ki Sabzi",
+      "Ker Sangri",
+      "Bajre Ki Roti with Jaggery & White Butter",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Chaupal Rajasthani Thali",
+        "price": 900
+      },
+      {
+        "food": "Royal Gorbandh Rajasthani Buffet Thali",
+        "price": 1200
+      }
+    ],
+    "averageCostForOne": 1000,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Cultural Village Experience",
+      "Folk Dance & Puppet Shows",
+      "Camel & Elephant Rides",
+      "Traditional Floor Seating",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "World-renowned 5-star ethnic village resort offering immersive Rajasthani rural hospitality, authentic sit-down Chaupal feast, and lively folk performances under the stars",
+      "A must-visit cultural tourism pilgrimage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 516 5000",
+    "website": "https://www.chokhidhani.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-rawat-misthan-bhandar",
+    "name": "Rawat Misthan Bhandar",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Station Road, Opposite Polovictory Cinema, Sindhi Camp, Jaipur, Rajasthan 302001",
+    "latitude": 26.9214,
+    "longitude": 75.7989,
+    "cuisine": [
+      "Rajasthani Snacks",
+      "Mithai",
+      "North Indian",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Famous Pyaaz Kachori",
+      "Mawa Kachori",
+      "Mirchi Vada",
+      "Dal Baati Thali",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "World Famous Pyaaz Kachori",
+        "price": 50
+      },
+      {
+        "food": "Jodhpur Mirchi Vada",
+        "price": 45
+      },
+      {
+        "food": "Sweet Mawa Kachori in Chasni",
+        "price": 65
+      },
+      {
+        "food": "Dal Baati Churma Thali",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Quick Service",
+      "Packed Snack Boxes for Travel",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "The ultimate Kachori authority of India, frying over 10,000 jumbo flaky onion kachoris daily that tourists carry across international flights",
+      "Iconic transit culinary landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 236 7635",
+    "website": "http://rawatpyaazkachori.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-1135-ad-amer",
+    "name": "1135 AD",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Level 2, Jaleb Chowk, Amer Fort, Jaipur, Rajasthan 302001",
+    "latitude": 26.9855,
+    "longitude": 75.8507,
+    "cuisine": [
+      "Royal Rajputana",
+      "Mughlai",
+      "North Indian Fine Dining"
+    ],
+    "famousDishes": [
+      "Laal Maas",
+      "Safed Maas",
+      "Amer Ka Kheer",
+      "Dhungar Murg",
+      "Thali Shahi"
+    ],
+    "menu": [
+      {
+        "food": "Rajputana Laal Maas (Mathania Chillies)",
+        "price": 850
+      },
+      {
+        "food": "Safed Maas Mewari",
+        "price": 850
+      },
+      {
+        "food": "Murgh Dhungar",
+        "price": 790
+      },
+      {
+        "food": "Shahi Rajputana Thali",
+        "price": 1850
+      }
+    ],
+    "averageCostForOne": 2200,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Palatial Fort Ambience",
+      "Fine Dining",
+      "Full Bar",
+      "Live Classical Shehnai / Sitar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Breathtaking royal fine dining located inside the ramparts of the 16th-century Amer Fort, decorated with pure silver doors, crystal chandeliers, and gold leaf inlay",
+      "Imperial recipes of Rajput warriors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 253 0101",
+    "website": "http://www.1135ad.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-handi-mi-road",
+    "name": "Handi Restaurant",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Maya Mansion, Opposite GPO, MI Road, Jaipur, Rajasthan 302001",
+    "latitude": 26.9172,
+    "longitude": 75.8095,
+    "cuisine": [
+      "Rajasthani Non-Veg",
+      "Mughlai",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Handi Meat (Clay Pot)",
+      "Laal Maas",
+      "Murg Malai Tikka",
+      "Keema Baati",
+      "Rumali Roti"
+    ],
+    "menu": [
+      {
+        "food": "Signature Handi Meat (Half)",
+        "price": 540
+      },
+      {
+        "food": "Traditional Laal Maas",
+        "price": 520
+      },
+      {
+        "food": "Chicken Tikka",
+        "price": 420
+      },
+      {
+        "food": "Rumali Roti",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Rooftop & Indoor Seating",
+      "Air Conditioning",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Legendary meat lovers haven since 1984 famous for slow-simmering tender goat meat inside sealed clay handis over charcoal embers",
+      "Central MI Road landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 237 2472",
+    "website": "http://handirestaurant.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-niros-mi-road",
+    "name": "Niros",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Mirza Ismail Road (MI Road), Panch Batti, Jaipur, Rajasthan 302001",
+    "latitude": 26.9178,
+    "longitude": 75.8123,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Continental",
+      "Chinese"
+    ],
+    "famousDishes": [
+      "Laal Maas",
+      "Butter Chicken",
+      "Chicken Hong Kong",
+      "Fish Florentine",
+      "Reshmi Kebab"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Rajasthani Laal Maas",
+        "price": 620
+      },
+      {
+        "food": "Niros Special Butter Chicken",
+        "price": 560
+      },
+      {
+        "food": "Reshmi Kebab",
+        "price": 480
+      },
+      {
+        "food": "Fish Florentine",
+        "price": 580
+      }
+    ],
+    "averageCostForOne": 800,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Heritage 1949 Ambience",
+      "Full Bar",
+      "Valet Parking",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Jaipur's oldest pioneer of fine dining established in 1949, patronised by royalty, Bollywood legends, and foreign dignitaries for over seven decades",
+      "First restaurant in Jaipur to serve Continental cuisine"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 237 4493",
+    "website": "http://www.nirosindia.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-suvarna-mahal-rambagh",
+    "name": "Suvarna Mahal - Rambagh Palace",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Taj Rambagh Palace, Bhawani Singh Road, Jaipur, Rajasthan 302005",
+    "latitude": 26.8978,
+    "longitude": 75.8089,
+    "cuisine": [
+      "Royal Indian",
+      "Rajputana",
+      "Awadhi",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Dhungar Murgh",
+      "Laal Maas",
+      "Gatte Ka Pulao",
+      "Kundan Kalia",
+      "Gulab Ki Kheer"
+    ],
+    "menu": [
+      {
+        "food": "Maharaja Royal Thali",
+        "price": 4500
+      },
+      {
+        "food": "Royal Rajputana Laal Maas",
+        "price": 1650
+      },
+      {
+        "food": "Dhungar Murgh",
+        "price": 1550
+      },
+      {
+        "food": "Gulab Ki Kheer",
+        "price": 650
+      }
+    ],
+    "averageCostForOne": 4500,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Grand Palace Dining Room",
+      "Gold Cutlery Service",
+      "Live Classical Sitar",
+      "Valet Parking",
+      "Full Bar",
+      "Sommelier"
+    ],
+    "specialFeatures": [
+      "The former royal banquet hall of the Maharaja of Jaipur, featuring Italian Renaissance Florentine ceiling frescoes, gilded mirror work, and sterling silver tableware",
+      "Gourmet recipes from royal princely houses of India"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 221 1919",
+    "website": "https://www.tajhotels.com/en-in/taj/rambagh-palace-jaipur/restaurants/suvarna-mahal/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-spice-court",
+    "name": "Spice Court",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Hari Mahal Palace, Jacob Road, Civil Lines, Jaipur, Rajasthan 302006",
+    "latitude": 26.9076,
+    "longitude": 75.7891,
+    "cuisine": [
+      "Rajasthani",
+      "North Indian",
+      "Heritage Cuisine"
+    ],
+    "famousDishes": [
+      "Junglee Maas",
+      "Keema Baati",
+      "Safed Maas",
+      "Govind Gatta Curry",
+      "Bhuna Kukkad"
+    ],
+    "menu": [
+      {
+        "food": "Signature Junglee Maas",
+        "price": 580
+      },
+      {
+        "food": "Crispy Keema Baati (2 pcs)",
+        "price": 340
+      },
+      {
+        "food": "Govind Gatta Curry",
+        "price": 380
+      },
+      {
+        "food": "Safed Maas",
+        "price": 560
+      }
+    ],
+    "averageCostForOne": 700,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Courtyard Garden Seating",
+      "Air Conditioning",
+      "Full Bar",
+      "Puppet Shows",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Heritage Haveli courtyard dining famous for authentic 'Junglee Maas' cooked with only meat, ghee, salt, and dry red chillies as royal hunting parties once did",
+      "Lush garden lawns"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 222 0202",
+    "website": "http://spicecourtjaipur.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-tapri-the-tea-house",
+    "name": "Tapri Central",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "B4-E, 3rd Floor, Surana Jewellers Building, Opposite Central Park, C Scheme, Jaipur, Rajasthan 302001",
+    "latitude": 26.9094,
+    "longitude": 75.8078,
+    "cuisine": [
+      "Café",
+      "Street Food Fusion",
+      "Beverages",
+      "Snacks"
+    ],
+    "famousDishes": [
+      "Cutting Chai in Kulhad",
+      "Handvo",
+      "Tadka Maggi",
+      "Sauteed Mushrooms with Garlic Bread",
+      "Khakra Pizza"
+    ],
+    "menu": [
+      {
+        "food": "Special Masala Chai Kettle",
+        "price": 140
+      },
+      {
+        "food": "Gujarati Handvo Cake",
+        "price": 180
+      },
+      {
+        "food": "Cheese Butter Khakra Pizza",
+        "price": 210
+      },
+      {
+        "food": "Bun Makkhan with Chai",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Rooftop Park View",
+      "Air Conditioning",
+      "Free Wi-Fi",
+      "Youth & Cultural Ambience"
+    ],
+    "specialFeatures": [
+      "Cult modern rooftop cafe facing the verdant Central Park, celebrated for reimagining humble Indian street chai and tea-time nostalgia into an energetic bohemian salon",
+      "Jaipur's favorite gathering spot"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 401 1777",
+    "website": "http://tapri.net",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-pandit-kulfi",
+    "name": "Pandit Kulfi",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Near Hawa Mahal, Sirah Deori Bazar, Pink City, Jaipur, Rajasthan 302002",
+    "latitude": 26.9241,
+    "longitude": 75.8271,
+    "cuisine": [
+      "Desserts",
+      "Kulfi"
+    ],
+    "famousDishes": [
+      "Kesar Pista Kulfi Falooda",
+      "Rabri Kulfi",
+      "Matka Kulfi",
+      "Paan Kulfi"
+    ],
+    "menu": [
+      {
+        "food": "Special Kesar Pista Kulfi Falooda",
+        "price": 80
+      },
+      {
+        "food": "Matka Kulfi Special",
+        "price": 90
+      },
+      {
+        "food": "Royal Paan Kulfi",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Quick Service",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Iconic 70-year-old dessert stall right next to Hawa Mahal churning dense, saffron-infused kulfi in traditional clay moulds cooled by salted ice barrels",
+      "Essential Pink City heritage walk stop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98290 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-mahaveer-rabri-bhandar",
+    "name": "Mahaveer Rabri Bhandar",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Mishra Rajaji Ka Rasta, Chandpole Bazar, Jaipur, Rajasthan 302001",
+    "latitude": 26.9248,
+    "longitude": 75.8142,
+    "cuisine": [
+      "Rajasthani Desi Food",
+      "Sweets",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Bejar Ki Roti with Aloo Pyaaz Paneer Sabzi & Desi Ghee",
+      "Thick Rabri",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Bejar Ki Roti Thali with Aloo Pyaaz Paneer Sabzi & Garlic Chutney",
+        "price": 160
+      },
+      {
+        "food": "Signature Desi Ghee Rabri (100g)",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Pure Vegetarian",
+      "Traditional Seating",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic old-city gem famous for hot rustic multigrain 'Bejar ki Roti' dipped in melting desi ghee, served with fiery garlic chutney, spicy potato-onion curry, and thick rabri",
+      "Beloved by locals for over 70 years"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 231 0555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-gulab-ji-chai",
+    "name": "Gulab Ji Chai Wale",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Opposite Ganpati Plaza, MI Road, Jaipur, Rajasthan 302001",
+    "latitude": 26.9189,
+    "longitude": 75.8012,
+    "cuisine": [
+      "Tea & Snacks",
+      "Breakfast",
+      "Street Food"
+    ],
+    "famousDishes": [
+      "Special Masala Chai",
+      "Bun Makkhan with Samosa",
+      "Maska Bun",
+      "Round Samosa"
+    ],
+    "menu": [
+      {
+        "food": "Special Masala Kadak Chai",
+        "price": 25
+      },
+      {
+        "food": "Maska Bun with Samosa Stuffed",
+        "price": 50
+      },
+      {
+        "food": "Crisp Desi Ghee Samosa (2 pcs)",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 60,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Street Side Morning Gathering",
+      "Quick Service",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Over 75 years of dawn tea culture on MI Road founded by the late Gulab Singh ji who spent a lifetime feeding tea and bread to the poor daily",
+      "Beloved city social institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94140 78901",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-peshawri-itc-rajputana",
+    "name": "Peshawri - ITC Rajputana",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "ITC Rajputana, Palace Road, Gopalbari, Jaipur, Rajasthan 302006",
+    "latitude": 26.9192,
+    "longitude": 75.7951,
+    "cuisine": [
+      "North West Frontier",
+      "Tandoori",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Dal Bukhara",
+      "Sikandari Raan",
+      "Murgh Malai Kebab",
+      "Tandoori Aloo",
+      "Naan Bukhara"
+    ],
+    "menu": [
+      {
+        "food": "Signature Dal Bukhara",
+        "price": 850
+      },
+      {
+        "food": "Sikandari Raan (Slow Roasted Leg of Lamb)",
+        "price": 2800
+      },
+      {
+        "food": "Murgh Malai Kebab",
+        "price": 1250
+      },
+      {
+        "food": "Naan Bukhara (Gigantic)",
+        "price": 1400
+      }
+    ],
+    "averageCostForOne": 2500,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Luxury Fine Dining",
+      "Valet Parking",
+      "Full Bar",
+      "Open Display Kitchen",
+      "Wheelchair Accessible"
+    ],
+    "specialFeatures": [
+      "Authentic stone and timber North-West Frontier tavern inside ITC Rajputana, famous for slow-simmered 18-hour Dal Bukhara and clay tandoor roasts eaten with fingers and aprons",
+      "Globally acclaimed culinary experience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 510 0100",
+    "website": "https://www.itchotels.com/in/en/itcrajputana-jaipur/dining/peshawri",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-samode-haveli-restaurant",
+    "name": "The Restaurant - Samode Haveli",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "Samode Haveli, Near Jorawar Singh Gate, Gangapole, Jaipur, Rajasthan 302002",
+    "latitude": 26.9389,
+    "longitude": 75.8341,
+    "cuisine": [
+      "Rajasthani Heritage",
+      "North Indian",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Laal Maas",
+      "Rajasthani Royal Thali",
+      "Murgh Korma",
+      "Kher Sangri",
+      "Cardamom Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Samode Heritage Thali",
+        "price": 2100
+      },
+      {
+        "food": "Royal Laal Maas",
+        "price": 950
+      },
+      {
+        "food": "Ker Sangri Marwari",
+        "price": 680
+      }
+    ],
+    "averageCostForOne": 2200,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Historic Courtyard Dining",
+      "Fine Dining",
+      "Full Bar",
+      "Valet Parking",
+      "Lush Poolside Tables"
+    ],
+    "specialFeatures": [
+      "Dine in a 225-year-old royal aristocratic townhouse adorned with hand-painted frescoed ceilings, antique mirror mosaics, and courtyard fountains",
+      "Unrivalled romantic royal atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 263 2407",
+    "website": "https://www.samode.com/samodehaveli/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-jpr-natraj-mi-road",
+    "name": "Natraj Restaurant",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "address": "MI Road, Near Panch Batti, Jaipur, Rajasthan 302001",
+    "latitude": 26.9175,
+    "longitude": 75.8115,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "South Indian",
+      "Rajasthani"
+    ],
+    "famousDishes": [
+      "Special Vegetarian Thali",
+      "Paneer Butter Masala",
+      "Dal Tadka",
+      "Butter Dosa",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Special Executive Veg Thali",
+        "price": 260
+      },
+      {
+        "food": "Paneer Butter Masala",
+        "price": 240
+      },
+      {
+        "food": "Dal Fry Butter",
+        "price": 170
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Family Seating",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Reliable pure-vegetarian family establishment serving comfort food thalis and quick service meals on MI Road since decades",
+      "Great value and wholesome cooking"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 141 237 5834",
+    "website": null,
+    "available": true
+  }
+]

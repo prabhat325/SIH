@@ -1,0 +1,844 @@
+[
+  {
+    "restaurantId": "rst-del-karims-jama-masjid",
+    "name": "Karim's (Original 1913)",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "16, Gali Kababian, Jama Masjid, Old Delhi, Delhi 110006",
+    "latitude": 28.6508,
+    "longitude": 77.2334,
+    "cuisine": [
+      "Mughlai",
+      "Awadhi",
+      "Tandoori",
+      "Historic Royal Non-Veg"
+    ],
+    "famousDishes": [
+      "Mutton Burra Kebab",
+      "Mutton Korma",
+      "Mutton Nihari",
+      "Chicken Jahangiri",
+      "Sheermal",
+      "Shahi Tukda"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Mutton Burra Kebab (4 pcs)",
+        "price": 480
+      },
+      {
+        "food": "Royal Mutton Korma",
+        "price": 380
+      },
+      {
+        "food": "Early Morning Mutton Nihari",
+        "price": 360
+      },
+      {
+        "food": "Chicken Jahangiri (Half)",
+        "price": 340
+      },
+      {
+        "food": "Saffron Sheermal",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Historic Heritage Alley",
+      "Takeaway",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Founded in 1913 by Haji Karimuddin, royal cook to the last Mughal Emperor Bahadur Shah Zafar, preserving original royal imperial recipes",
+      "India's most iconic Mughlai culinary shrine"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2326 9880",
+    "website": "http://karimshotels.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-bukhara-itc-maurya",
+    "name": "Bukhara - ITC Maurya",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "ITC Maurya, Sardar Patel Marg, Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi 110021",
+    "latitude": 28.5978,
+    "longitude": 77.1738,
+    "cuisine": [
+      "North West Frontier",
+      "Tandoori",
+      "Royal Indian"
+    ],
+    "famousDishes": [
+      "Dal Bukhara",
+      "Sikandari Raan",
+      "Murgh Malai Kabab",
+      "Tandoori Jhinga",
+      "Naan Bukhara"
+    ],
+    "menu": [
+      {
+        "food": "Signature Dal Bukhara (18-hr slow simmered)",
+        "price": 950
+      },
+      {
+        "food": "Sikandari Raan (Whole Roasted Leg of Spring Lamb)",
+        "price": 3200
+      },
+      {
+        "food": "Murgh Malai Kabab",
+        "price": 1450
+      },
+      {
+        "food": "Giant Naan Bukhara",
+        "price": 1600
+      }
+    ],
+    "averageCostForOne": 3500,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Open Display Kitchen",
+      "Earthen Stone & Wood Decor",
+      "Full Bar",
+      "Valet Parking",
+      "No Cutlery (Apron Provided)"
+    ],
+    "specialFeatures": [
+      "Globally legendary restaurant recognized repeatedly among the World's Best Restaurants, hosting world leaders from Bill Clinton to Vladimir Putin",
+      "Unaltered iconic rustic menu since 1978"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2611 2233",
+    "website": "https://www.itchotels.com/in/en/itcmaurya-new-delhi/dining/bukhara",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-indian-accent",
+    "name": "Indian Accent",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "The Lodhi, Lodhi Road, CGO Complex, Pragati Vihar, New Delhi, Delhi 110003",
+    "latitude": 28.5921,
+    "longitude": 77.2389,
+    "cuisine": [
+      "Modern Indian",
+      "Progressive Fine Dining",
+      "Gourmet Tasting Menus"
+    ],
+    "famousDishes": [
+      "Meetha Achaar Pork Ribs",
+      "Duck Khurchan Cornetto",
+      "Daulat Ki Chaat",
+      "Warm Doda Barfi Treacle Tart",
+      "Pulkoddi"
+    ],
+    "menu": [
+      {
+        "food": "Chef's 6-Course Chef Tasting Menu (Non-Veg)",
+        "price": 4900
+      },
+      {
+        "food": "Chef's 6-Course Chef Tasting Menu (Veg)",
+        "price": 4400
+      },
+      {
+        "food": "Meetha Achaar Spare Ribs",
+        "price": 1650
+      }
+    ],
+    "averageCostForOne": 5000,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Glass House Overlooking Water Body",
+      "Sommelier Wine Pairing",
+      "Full Bar",
+      "Valet Parking",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Pioneered modern inventive Indian cuisine by Chef Manish Mehrotra, consistently ranked as the #1 Restaurant in India on the Asia's 50 Best list",
+      "Artisanal glasshouse setting on the reflecting pool at The Lodhi"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 6617 5151",
+    "website": "https://indianaccent.com/newdelhi/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-moti-mahal-daryaganj",
+    "name": "Moti Mahal (Original Daryaganj)",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "3704, Netaji Subhash Marg, Daryaganj, New Delhi, Delhi 110002",
+    "latitude": 28.6475,
+    "longitude": 77.2412,
+    "cuisine": [
+      "Punjabi Tandoori",
+      "Mughlai",
+      "North Indian Non-Veg"
+    ],
+    "famousDishes": [
+      "Original Butter Chicken (Murgh Makhani)",
+      "Original Dal Makhani",
+      "Tandoori Chicken",
+      "Burra Kebab",
+      "Butter Naan"
+    ],
+    "menu": [
+      {
+        "food": "The Original 1947 Butter Chicken",
+        "price": 480
+      },
+      {
+        "food": "The Original Dal Makhani",
+        "price": 340
+      },
+      {
+        "food": "Tandoori Chicken (Full)",
+        "price": 460
+      },
+      {
+        "food": "Garlic Butter Naan",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Heritage 1947 Dining",
+      "Full Bar",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "The birthplace of Butter Chicken, Dal Makhani, and Tandoori Chicken founded by Kundan Lal Gujral in 1947 after Partition",
+      "Historic dining institution visited by Jawaharlal Nehru, Indira Gandhi, and Richard Nixon"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2327 3356",
+    "website": "http://motimahal.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-gulati-pandara-road",
+    "name": "Gulati Restaurant",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "6, Pandara Road Market, India Gate, New Delhi, Delhi 110003",
+    "latitude": 28.6089,
+    "longitude": 77.2341,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Tandoori",
+      "Punjabi"
+    ],
+    "famousDishes": [
+      "Butter Chicken",
+      "Dal Makhani",
+      "Kakori Kebab",
+      "Murgh Malai Tikka",
+      "Mutton Rogan Josh",
+      "Dum Biryani"
+    ],
+    "menu": [
+      {
+        "food": "Gulati Special Butter Chicken",
+        "price": 540
+      },
+      {
+        "food": "Overnight Cooked Dal Makhani",
+        "price": 380
+      },
+      {
+        "food": "Melt-in-Mouth Kakori Kebab (4 pcs)",
+        "price": 560
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 590
+      }
+    ],
+    "averageCostForOne": 800,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Late Night Dining",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Delhi's most legendary late-night culinary hotspot near India Gate since 1959, renowned for rich velvety butter chicken and succulent kebabs",
+      "Perpetually packed with food lovers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2338 8836",
+    "website": "http://www.gulatirestaurant.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-paranthe-wali-gali",
+    "name": "Pandit Gaya Prasad Shiv Charan Parantha",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "34, Gali Paranthe Wali, Chandni Chowk, Old Delhi, Delhi 110006",
+    "latitude": 28.6558,
+    "longitude": 77.2312,
+    "cuisine": [
+      "Street Food",
+      "Traditional Paranthas",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Khoya Parantha",
+      "Rabri Parantha",
+      "Kaju Parantha",
+      "Mirchi Parantha",
+      "Aloo Parantha with Kaddu Sabzi & Aloo Methi"
+    ],
+    "menu": [
+      {
+        "food": "Special Paneer Parantha with 3 Sabzis & Chutneys",
+        "price": 80
+      },
+      {
+        "food": "Sweet Khoya Parantha",
+        "price": 100
+      },
+      {
+        "food": "Mix Veg Parantha",
+        "price": 80
+      },
+      {
+        "food": "Kulhad Lassi",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Pure Vegetarian (No Onion/Garlic)",
+      "Historic Alley Setting",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Established in 1872 in the legendary Paranthe Wali Gali, frying unique stuffed flatbreads in pure desi ghee shallow pans accompanied by free pumpkin and potato curries",
+      "Over 150 years of heritage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98114 41234",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-saravana-bhavan-cp",
+    "name": "Saravana Bhavan (Connaught Place)",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "P-13, Outer Circle, Connaught Place, New Delhi, Delhi 110001",
+    "latitude": 28.6318,
+    "longitude": 77.2185,
+    "cuisine": [
+      "South Indian",
+      "Pure Vegetarian",
+      "Tamil Cuisine"
+    ],
+    "famousDishes": [
+      "Ghee Roast Masala Dosa",
+      "South Indian Meals (Thali)",
+      "Rava Khichdi",
+      "Appam with Coconut Milk",
+      "Madras Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Special Ghee Roast Masala Dosa",
+        "price": 210
+      },
+      {
+        "food": "Grand South Indian Meals Thali",
+        "price": 290
+      },
+      {
+        "food": "Authentic Filter Coffee",
+        "price": 75
+      },
+      {
+        "food": "Mini Ghee Idlis in Sambar (14 pcs)",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Fast Service",
+      "Family Friendly"
+    ],
+    "specialFeatures": [
+      "Delhi's most reliable benchmark for authentic Tamil vegetarian cuisine, serving piping hot sambar, crisp fermented rice crepes, and frothy brass tumbler filter coffee",
+      "Everlasting queue in CP"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2331 7755",
+    "website": "http://saravanabhavan.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-wengers-cp",
+    "name": "Wenger's & Wenger's Deli",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "A-16, Inner Circle, Connaught Place, New Delhi, Delhi 110001",
+    "latitude": 28.6334,
+    "longitude": 77.2189,
+    "cuisine": [
+      "Bakery",
+      "European Patisserie",
+      "Deli & Sandwiches"
+    ],
+    "famousDishes": [
+      "Mutton Shami Kebab Roll",
+      "Chicken Patty",
+      "Chocolate Nutella Waffle",
+      "Black Forest Cake",
+      "Bagels & Paninis"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Mutton Shami Kebab",
+        "price": 110
+      },
+      {
+        "food": "Classic Chicken Patty",
+        "price": 65
+      },
+      {
+        "food": "Fresh Nutella Strawberry Waffle",
+        "price": 190
+      },
+      {
+        "food": "Smoked Chicken Panini Bagel",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Historic 1926 Bakery",
+      "Takeaway",
+      "Deli Seating Adjacent"
+    ],
+    "specialFeatures": [
+      "Delhi's oldest Swiss confectionery established in 1926 by a Swiss couple, serving generations of Delhiites crisp butter puff patties, artisan pastries, and savory shami kebabs",
+      "CP's cherished crown jewel"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2332 4403",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-sita-ram-diwan-chand",
+    "name": "Sita Ram Diwan Chand",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "2243, Rajguru Marg, Chuna Mandi, Paharganj, New Delhi, Delhi 110055",
+    "latitude": 28.6434,
+    "longitude": 77.2132,
+    "cuisine": [
+      "Street Food",
+      "Punjabi Breakfast",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Special Paneer Stuffed Chole Bhature",
+      "Aloo Chole",
+      "Sweet Lassi",
+      "Pickled Green Chillies & Amla"
+    ],
+    "menu": [
+      {
+        "food": "Special Paneer-Laced Chole Bhature (2 Bhaturas)",
+        "price": 90
+      },
+      {
+        "food": "Sweet Malai Lassi (Glass)",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning Seating",
+      "Quick Service",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Recognized as the undisputed king of Delhi Chole Bhature since 1955, making ultra-soft bhaturas laced with paneer shreds and dry-spiced pindi chana with tangy ginger-amla pickle",
+      "Culinary cult status"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2358 6612",
+    "website": "http://sitaramdiwanchand.co.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-kake-da-hotel",
+    "name": "Kake Da Hotel",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "67, Municipal Market, Connaught Circus, Outer Circle, Connaught Place, New Delhi, Delhi 110001",
+    "latitude": 28.6348,
+    "longitude": 77.2205,
+    "cuisine": [
+      "Punjabi Non-Veg",
+      "Dhaba Style",
+      "Mughlai"
+    ],
+    "famousDishes": [
+      "Dahi Meat",
+      "Kake Da Kadhai Chicken",
+      "Mutton Saag",
+      "Brain Curry (Maghaz)",
+      "Butter Roti"
+    ],
+    "menu": [
+      {
+        "food": "Signature Dahi Meat (Half)",
+        "price": 340
+      },
+      {
+        "food": "Kadhai Chicken",
+        "price": 310
+      },
+      {
+        "food": "Mutton Rogan Josh",
+        "price": 340
+      },
+      {
+        "food": "Tandoori Butter Roti",
+        "price": 20
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Air Conditioning",
+      "Historic 1931 Dhaba",
+      "Takeaway",
+      "High Speed Service"
+    ],
+    "specialFeatures": [
+      "Legendary Connaught Place rustic Punjabi diner operating since 1931, renowned for rich slow-cooked Dahi Meat simmered in copper cauldrons with pure desi ghee",
+      "Immortal flavor profiles"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2341 1580",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-rajinder-da-dhaba",
+    "name": "Rajinder Da Dhaba",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "AB-14, Safdarjung Enclave Market, Opp. Deer Park, New Delhi, Delhi 110029",
+    "latitude": 28.5638,
+    "longitude": 77.1954,
+    "cuisine": [
+      "North Indian Non-Veg",
+      "Mughlai Street Food",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Galouti Kebab with Mughlai Paratha",
+      "Special Chicken Malai Tikka",
+      "Butter Chicken",
+      "Mutton Seekh Kebab",
+      "Tandoori Fish"
+    ],
+    "menu": [
+      {
+        "food": "Galouti Kebab (4 pcs) with 2 Paranthas",
+        "price": 280
+      },
+      {
+        "food": "Chicken Malai Tikka (Full)",
+        "price": 360
+      },
+      {
+        "food": "Butter Chicken Special",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Open Air Street Car Dining",
+      "Indoor AC Seating",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Delhi's ultimate car-bonnet open air food culture phenomenon in Safdarjung Enclave, grilling thousands of juicy malai tikkas and melt-in-mouth galoutis nightly",
+      "Unbeatable nocturnal vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2610 0355",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-natraj-dahi-bhalla",
+    "name": "Natraj Dahi Bhalla Corner",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "1396, Main Road, Near Chandni Chowk Metro Station Gate 5, Old Delhi, Delhi 110006",
+    "latitude": 28.6571,
+    "longitude": 77.2289,
+    "cuisine": [
+      "Chaat",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Dahi Bhalla with Saunth Chutney",
+      "Crispy Aloo Tikki with Chole"
+    ],
+    "menu": [
+      {
+        "food": "Special Dahi Bhalla Plate",
+        "price": 70
+      },
+      {
+        "food": "Crispy Desi Ghee Aloo Tikki",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Street Counter",
+      "Pure Vegetarian",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Operating since 1940 selling only two perfected items: velvet soft lentil dumplings dipped in sweet curd and saunth, and crisp golden potato tikkis fried in pure ghee",
+      "Old Delhi benchmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98111 67400",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-big-chill-khan-market",
+    "name": "The Big Chill Cafe (Khan Market)",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "68-A, Khan Market, Rabindra Nagar, New Delhi, Delhi 110003",
+    "latitude": 28.6002,
+    "longitude": 77.2271,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Desserts & Bakery",
+      "Milkshakes"
+    ],
+    "famousDishes": [
+      "Penne Vodka with Smoked Chicken",
+      "Four Cheese Pasta",
+      "Banoffee Pie",
+      "Belgian Chocolate Shake",
+      "Mississippi Mud Pie"
+    ],
+    "menu": [
+      {
+        "food": "Penne Alla Vodka with Smoked Chicken",
+        "price": 540
+      },
+      {
+        "food": "Baked Four Cheese Pasta",
+        "price": 510
+      },
+      {
+        "food": "Legendary Banoffee Pie",
+        "price": 290
+      },
+      {
+        "food": "Belgian Chocolate Milkshake",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 800,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Retro Hollywood Poster Decor",
+      "Air Conditioning",
+      "In-House Bakery Counter"
+    ],
+    "specialFeatures": [
+      "Cult classic retro Italian trattoria with vintage movie posters covering every wall, famous for rich pasta sauces, decadent milkshakes, and the greatest banoffee pie in Delhi",
+      "Beloved youth & family staple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 4175 7588",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-andhra-bhavan-canteen",
+    "name": "Andhra Bhavan Canteen",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "1, Ashoka Road, Near India Gate, Feroze Shah Road, New Delhi, Delhi 110001",
+    "latitude": 28.6189,
+    "longitude": 77.2284,
+    "cuisine": [
+      "Andhra",
+      "South Indian",
+      "Spicy Non-Veg & Veg Thali"
+    ],
+    "famousDishes": [
+      "Unlimited Traditional Andhra Veg Thali (with Gunpowder & Ghee)",
+      "Hyderabadi Chicken Dum Biryani (Sunday Only)",
+      "Mutton Fry",
+      "Fish Curry",
+      "Prawn Roast"
+    ],
+    "menu": [
+      {
+        "food": "Unlimited Traditional Andhra Veg Thali",
+        "price": 180
+      },
+      {
+        "food": "Spicy Andhra Mutton Fry",
+        "price": 260
+      },
+      {
+        "food": "Sunday Special Hyderabadi Dum Biryani",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Lightning Fast High-Volume Service",
+      "Canteen Hall"
+    ],
+    "specialFeatures": [
+      "The legendary state bhavan canteen drawing massive queues of civil servants and students for authentic fiery Andhra meals served on steel plates with hot rice, podi, and ghee",
+      "Unmatched flavor and value"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2338 2031",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-del-havemore-pandara",
+    "name": "Havemore Restaurant",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "11-12, Pandara Road Market, Near India Gate, New Delhi, Delhi 110003",
+    "latitude": 28.6092,
+    "longitude": 77.2345,
+    "cuisine": [
+      "North Indian",
+      "Mughlai",
+      "Punjabi Tandoori"
+    ],
+    "famousDishes": [
+      "Signature Butter Chicken",
+      "Tandoori Fish Tikka",
+      "Mutton Burra Kebab",
+      "Dal Makhani",
+      "Kadhai Paneer"
+    ],
+    "menu": [
+      {
+        "food": "Havemore Special Butter Chicken (Full)",
+        "price": 680
+      },
+      {
+        "food": "Tandoori Sole Fish Tikka",
+        "price": 750
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Late Night Dining",
+      "Full Bar"
+    ],
+    "specialFeatures": [
+      "Pandara Road's famed culinary destination operating since 1959, locked in friendly rivalry for Delhi's best butter chicken with tender juicy chicken and velvety sweet-tangy gravy",
+      "Always bustling with foodies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2338 8924",
+    "website": "http://havemore.co.in",
+    "available": true
+  }
+]

@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "eventId": "VAISHALI-EVENT-001",
+            "name": "Buddha Purnima",
+            "city": "Vaishali",
+            "state": "Bihar",
+            "description": "The birth anniversary of Lord Buddha at Buddhist stupas.",
+            "type": "Religious",
+            "venue": "Buddhist stupas and monasteries",
+            "usualMonth": "April/May",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "VAISHALI-EVENT-002",
+            "name": "Vaishali Mahotsav",
+            "city": "Vaishali",
+            "state": "Bihar",
+            "description": "A cultural festival celebrating the Buddhist and Jain heritage.",
+            "type": "Cultural",
+            "venue": "Various Buddhist and Jain sites",
+            "usualMonth": "November",
+            "usualTime": "Evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://bihartourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

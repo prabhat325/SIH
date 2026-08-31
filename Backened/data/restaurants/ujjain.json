@@ -1,0 +1,431 @@
+[
+  {
+    "restaurantId": "rst-ujn-shree-ganga-mahakal",
+    "name": "Shree Ganga Restaurant",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Near Mahakaleshwar Temple Gate No. 4, Mahakal Marg, Ujjain, Madhya Pradesh 456006",
+    "latitude": 23.1834,
+    "longitude": 75.7689,
+    "cuisine": [
+      "Malwi",
+      "Rajasthani",
+      "Pure Vegetarian Sattvic Thali"
+    ],
+    "famousDishes": [
+      "Malwi Dal Baati Churma (with 3 Churmas)",
+      "Shree Ganga Royal Mahakal Thali",
+      "Kadhi Pakoda",
+      "Gatte Ki Sabzi",
+      "Kesaria Shrikhand"
+    ],
+    "menu": [
+      {
+        "food": "Special Desi Ghee Dal Baati Churma Thali",
+        "price": 260
+      },
+      {
+        "food": "Royal Mahakal Satvik Thali",
+        "price": 220
+      },
+      {
+        "food": "Kesaria Shrikhand Cup",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 240,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Mahakaleshwar Jyotirlinga Proximity",
+      "Pure Vegetarian (No Onion/Garlic Available)",
+      "Air Conditioning",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Premier pilgrimage dining destination situated immediately outside the sacred Mahakaleshwar Jyotirlinga temple, famous for traditional Malwa Dal Baati dipped in pure desi ghee and sweet churma",
+      "Loved by pilgrims and spiritual seekers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 734 255 1222",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ujn-tower-chowk-food-street",
+    "name": "Tower Chowk Chaat & Food Street",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Tower Chowk, Freeganj, Ujjain, Madhya Pradesh 456001",
+    "latitude": 23.1789,
+    "longitude": 75.7891,
+    "cuisine": [
+      "Malwi Street Food",
+      "Chaat",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Bhutte Ka Kees (Spiced Grated Corn)",
+      "Garadu (Fried Yam with Chaat Masala - Winter)",
+      "Malwi Poha Jalebi",
+      "Dahi Vada",
+      "Sabudana Khichdi"
+    ],
+    "menu": [
+      {
+        "food": "Special Malwi Bhutte Ka Kees",
+        "price": 60
+      },
+      {
+        "food": "Crispy Fried Garadu Plate (Seasonal)",
+        "price": 70
+      },
+      {
+        "food": "Desi Ghee Jalebi with Rabri",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Open Street Food Boulevard",
+      "Pure Vegetarian",
+      "Evening Street Gathering"
+    ],
+    "specialFeatures": [
+      "Ujjain's premier nighttime street food epicenter at Tower Chowk, famous for authentic Malwa delicacies like sweet-spiced grated corn ('Bhutte Ka Kees') and crunchy deep-fried Garadu yam",
+      "Incredible flavors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ujn-bhola-guru-sweets",
+    "name": "Bhola Guru Sweet & Namkeen (Since 1950)",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Gopal Mandir Marg, Chhatri Chowk, Ujjain, Madhya Pradesh 456006",
+    "latitude": 23.1812,
+    "longitude": 75.7723,
+    "cuisine": [
+      "Traditional Sweets",
+      "Desserts",
+      "Malwa Namkeens"
+    ],
+    "famousDishes": [
+      "Mawa Bati (Giant Stuffed Gulab Jamun)",
+      "Malpua with Rabri",
+      "Kesar Milk",
+      "Ratlami Sev",
+      "Kaju Katli"
+    ],
+    "menu": [
+      {
+        "food": "Signature Ujjain Mawa Bati (2 pcs)",
+        "price": 80
+      },
+      {
+        "food": "Hot Malpua with Malai Rabri",
+        "price": 90
+      },
+      {
+        "food": "Spicy Ujjain Laung Sev (500g)",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Heritage Confectionery",
+      "Pure Vegetarian",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Operating since 1950 near the historic Gopal Mandir, world-renowned for 'Mawa Bati' (a giant crispy-fried mawa dumpling stuffed with dry fruits and soaked in cardamom syrup) and spicy Malwa namkeens",
+      "Must-try regional dessert"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 734 255 3456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ujn-meghdoot-shipra-mpt",
+    "name": "Meghdoot Restaurant - MPT Shipra Residency",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Hotel Shipra Residency, University Road, Madhav Nagar, Ujjain, Madhya Pradesh 456010",
+    "latitude": 23.1745,
+    "longitude": 75.7912,
+    "cuisine": [
+      "North Indian",
+      "Malwi",
+      "Continental",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Malwi Thali",
+      "Paneer Lababdar",
+      "Dal Makhani",
+      "Sev Tamatar Ki Sabzi",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "MPT Shipra Deluxe Thali",
+        "price": 290
+      },
+      {
+        "food": "Paneer Butter Masala",
+        "price": 260
+      },
+      {
+        "food": "Dal Tadka with Rice",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Garden Seating",
+      "MPT Operated"
+    ],
+    "specialFeatures": [
+      "Madhya Pradesh Tourism's flagship hotel restaurant named after Kalidasa's epic poem Meghdoot, offering refined vegetarian dining and authentic Malwa dishes in a peaceful garden setting",
+      "Dependable quality"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 734 255 1495",
+    "website": "http://mpstdc.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ujn-swastik-restaurant",
+    "name": "Swastik Restaurant",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Station Road, Opposite Railway Station, Ujjain, Madhya Pradesh 456006",
+    "latitude": 23.1798,
+    "longitude": 75.7812,
+    "cuisine": [
+      "Pure Vegetarian",
+      "North Indian",
+      "Gujarati Thali"
+    ],
+    "famousDishes": [
+      "Unlimited Gujarati & North Indian Thali",
+      "Shahi Paneer",
+      "Dal Fry",
+      "Butter Tandoori Roti",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Special Unlimited Veg Thali",
+        "price": 220
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Station Proximity",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Trusted pure-vegetarian family diner opposite Ujjain Junction serving wholesome unlimited thalis and comforting Punjabi dishes to arriving pilgrims",
+      "Fast and clean"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 734 256 0001",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ujn-mahakal-lok-food-court",
+    "name": "Mahakal Lok Food Court & Bhojnalaya",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Shri Mahakal Mahalok Corridor Complex, Ujjain, Madhya Pradesh 456006",
+    "latitude": 23.1845,
+    "longitude": 75.7667,
+    "cuisine": [
+      "Pure Vegetarian Sattvic",
+      "North Indian",
+      "South Indian",
+      "Malwi Snacks"
+    ],
+    "famousDishes": [
+      "Mahakal Prasadam Thali",
+      "Crispy Masala Dosa",
+      "Poha Jalebi",
+      "Dal Baati",
+      "Kulfi"
+    ],
+    "menu": [
+      {
+        "food": "Mahakal Lok Special Satvik Thali",
+        "price": 180
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 120
+      },
+      {
+        "food": "Desi Ghee Dal Baati",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Grand Mahakal Lok Corridor Proximity",
+      "Air Conditioning",
+      "High Hygiene Standards",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Modern multi-counter pilgrim food pavilion within the sprawling new Shri Mahakal Mahalok corridor complex, providing clean satvik meals and snacks after temple darshan",
+      "Spacious and spotless"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ujn-chhappan-bhog",
+    "name": "Chhappan Bhog Sweets & Chaat",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Freeganj Main Road, Near Madhav Club, Ujjain, Madhya Pradesh 456001",
+    "latitude": 23.1765,
+    "longitude": 75.7878,
+    "cuisine": [
+      "Mithai",
+      "Chaat",
+      "Malwa Namkeens",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Raj Kachori",
+      "Paneer Jalebi",
+      "Kaju Katli",
+      "Pani Puri",
+      "Rabri Falooda"
+    ],
+    "menu": [
+      {
+        "food": "Special Raj Kachori",
+        "price": 110
+      },
+      {
+        "food": "Paneer Jalebi (100g)",
+        "price": 60
+      },
+      {
+        "food": "Rabri Kulfi Falooda",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Takeaway Confectionery"
+    ],
+    "specialFeatures": [
+      "Premier confectionery in Freeganj offering 56 varieties of traditional Indian sweets, savory Malwi namkeens, and hygienic evening street chaats",
+      "Great gift packaging"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 734 251 5656",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-ujn-apni-rasoi",
+    "name": "Apni Rasoi",
+    "city": "Ujjain",
+    "state": "Madhya Pradesh",
+    "address": "Dewas Road, Near Nanakheda Bus Stand, Ujjain, Madhya Pradesh 456010",
+    "latitude": 23.1612,
+    "longitude": 75.7989,
+    "cuisine": [
+      "North Indian",
+      "Punjabi",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Paneer Tikka Butter Masala",
+      "Dal Makhani",
+      "Sev Tamatar",
+      "Butter Naan",
+      "Veg Biryani"
+    ],
+    "menu": [
+      {
+        "food": "Paneer Butter Masala",
+        "price": 230
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 180
+      },
+      {
+        "food": "Malwi Sev Tamatar",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Family Friendly",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Popular pure-vegetarian family diner on Dewas Road known for quick service, generous portions, and homestyle Malwi Sev Tamatar curries",
+      "Comfortable setting"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 734 252 2333",
+    "website": null,
+    "available": true
+  }
+]

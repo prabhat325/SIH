@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "eventId": "ALAPPUZHA-EVENT-001",
+            "name": "Nehru Trophy Boat Race",
+            "city": "Alappuzha",
+            "state": "Kerala",
+            "description": "Kerala's most famous snake boat race held annually on Punnamada Lake.",
+            "type": "Sports",
+            "venue": "Punnamada Lake",
+            "usualMonth": "August",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.nehrutrophyboatrace.org/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e5bfc230-535e-5f43-8f53-1914e313fd42/3f67eaa1-d457-5588-927f-558f9c07635c.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "ALAPPUZHA-EVENT-002",
+            "name": "Alappuzha Beach Festival",
+            "city": "Alappuzha",
+            "state": "Kerala",
+            "description": "An annual cultural festival celebrating Kerala's backwater heritage.",
+            "type": "Cultural",
+            "venue": "Alappuzha Beach",
+            "usualMonth": "December/January",
+            "usualTime": "Evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://keralatourism.org/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

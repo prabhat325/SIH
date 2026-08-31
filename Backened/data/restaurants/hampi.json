@@ -1,0 +1,217 @@
+[
+  {
+    "restaurantId": "rst-hmp-mango-tree",
+    "name": "Mango Tree Restaurant (Since 1990s)",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Near Kamalapur Road / New Hampi Bazaar, Hampi, Karnataka 583239",
+    "latitude": 15.3345,
+    "longitude": 76.4621,
+    "cuisine": [
+      "South Indian Banana Leaf",
+      "Continental",
+      "Israeli",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Special South Indian Thali on Banana Leaf",
+      "Shakshuka with Pita & Hummus",
+      "Nutella Banana Pancake",
+      "Curry Special with Rice",
+      "Fresh Mango Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Grand Karnataka Banana Leaf Thali",
+        "price": 180
+      },
+      {
+        "food": "Mediterranean Shakshuka Platter with Hummus & Falafel",
+        "price": 240
+      },
+      {
+        "food": "Nutella Banana French Crepe",
+        "price": 140
+      },
+      {
+        "food": "Fresh Chilled Mango Lassi",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Shaded Garden Canopy Seating",
+      "Floor Cushions & Low Tables",
+      "Pure Vegetarian",
+      "UNESCO Heritage Proximity"
+    ],
+    "specialFeatures": [
+      "Hampi's most world-famous backpacker and traveler restaurant, celebrated for over three decades for its relaxed garden ambiance, banana-leaf thalis, and international traveler comfort food",
+      "The ultimate Hampi dining institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94488 45678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hmp-laughing-buddha-cafe",
+    "name": "Laughing Buddha Cafe",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Virupapur Gaddi, Across Tungabhadra River, Hampi / Sanapur, Karnataka 583234",
+    "latitude": 15.3421,
+    "longitude": 76.4589,
+    "cuisine": [
+      "Israeli",
+      "Continental",
+      "Indian",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood-fired Thin Crust Pizza",
+      "Laffa Wrap with Tahini",
+      "Muesli with Curd & Honey",
+      "Iced Cold Coffee",
+      "Banoffee Pie"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Veg Farmhouse Pizza",
+        "price": 340
+      },
+      {
+        "food": "Falafel Hummus Platter",
+        "price": 220
+      },
+      {
+        "food": "Fresh Fruit Muesli Bowl",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Riverbank & Boulder Views",
+      "Hammocks & Low Floor Mattresses",
+      "Free Wi-Fi",
+      "Sunset Viewpoint"
+    ],
+    "specialFeatures": [
+      "Perched directly above the rocky boulders of the Tungabhadra River overlooking the ancient Virupaksha temple tower across the water, famous for chilled sunset vibes and wood-fired pizzas",
+      "Iconic hippie-side retreat"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hmp-archana-rooftop",
+    "name": "Archana Guest House & Rooftop Restaurant",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Near Virupaksha Temple Bazaar, Hampi, Karnataka 583239",
+    "latitude": 15.3352,
+    "longitude": 76.4598,
+    "cuisine": [
+      "South Indian",
+      "Continental Breakfast",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Crispy Masala Dosa",
+      "Fresh Papaya Juice",
+      "Vegetable Curry with Chapati",
+      "Ginger Lemon Honey Tea"
+    ],
+    "menu": [
+      {
+        "food": "Special Masala Dosa",
+        "price": 100
+      },
+      {
+        "food": "Vegetarian Lunch Thali",
+        "price": 160
+      },
+      {
+        "food": "Ginger Lemon Honey Tea Pot",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "7th-Century Virupaksha Temple Tower View Rooftop",
+      "Pure Vegetarian",
+      "Breezy Open Air"
+    ],
+    "specialFeatures": [
+      "Rooftop dining terrace offering an awe-inspiring direct sightline of the towering 9-tiered Gopuram of the 7th-century Virupaksha Temple as temple bells chime at dawn and dusk",
+      "Sacred atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hmp-shanbhag-kamalapur",
+    "name": "Shanbhag Restaurant",
+    "city": "Hampi",
+    "state": "Karnataka",
+    "address": "Kamalapur Main Road, Near Archaeological Museum, Kamalapur, Hampi, Karnataka 583221",
+    "latitude": 15.3189,
+    "longitude": 76.4789,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Karnataka Meals",
+      "Udupi Tiffin"
+    ],
+    "famousDishes": [
+      "Unlimited North Karnataka Jowar Roti Meal",
+      "Ghee Masala Dosa",
+      "Medu Vada with Sambar",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "North Karnataka Jowar Roti Meal",
+        "price": 140
+      },
+      {
+        "food": "Ghee Masala Dosa",
+        "price": 80
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Pure Vegetarian",
+      "Kamalapur Bus Hub Proximity",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Reliable pure-vegetarian hub in Kamalapur serving authentic rustic North Karnataka meals with jowar (sorghum) rotis, yennegai (stuffed brinjal curry), and fresh curd",
+      "Clean and fast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8394 241 234",
+    "website": null,
+    "available": true
+  }
+]

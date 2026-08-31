@@ -1,0 +1,246 @@
+[
+  {
+    "hotelId": "jmu-radisson-blu-jammu",
+    "name": "Radisson Blu Hotel Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Radisson Square, Narwal Bala, Bypass Road, Jammu, Jammu and Kashmir 180006",
+    "latitude": 32.7042,
+    "longitude": 74.8879,
+    "pricePerNight": 7500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Swimming Pool",
+      "Spa & Wellness",
+      "BLU-Pan World Cuisine",
+      "Amrik Sukhdev Dhaba style dining",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Leading international 5-star hotel in Jammu city with scenic Tawi river valley backdrop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 249 0400",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-jammu",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.924Z",
+    "updatedAt": "2026-08-22T21:20:26.924Z"
+  },
+  {
+    "hotelId": "jmu-vivanta-jammu",
+    "name": "Vivanta Jammu City Centre",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Near Railway Station, Bahu Fort Road, Jammu, Jammu and Kashmir 180004",
+    "latitude": 32.7121,
+    "longitude": 74.8712,
+    "pricePerNight": 7000,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Pool",
+      "Jiva Spa",
+      "Mynt Restaurant",
+      "Wink Bar",
+      "Banqueting"
+    ],
+    "specialFeatures": [
+      "Signature Taj hospitality in the heart of Jammu city near Bahu Fort and Tawi river"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 247 9000",
+    "website": "https://www.tajhotels.com/en-in/taj/vivanta-jammu/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.924Z",
+    "updatedAt": "2026-08-22T21:20:26.924Z"
+  },
+  {
+    "hotelId": "jmu-hari-niwas-palace",
+    "name": "Hari Niwas Palace - Heritage Hotel",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Palace Road, Samadhiyan, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7485,
+    "longitude": 74.8698,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Nilambari Dogri Restaurant",
+      "Amar Mahal Museum View",
+      "Lush Lawns",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Art Deco royal palace of Maharaja Hari Singh overlooking Tawi River and Trikuta Hills"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 254 3303",
+    "website": "https://hariniwaspalace.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.924Z",
+    "updatedAt": "2026-08-22T21:20:26.924Z"
+  },
+  {
+    "hotelId": "jmu-fortune-inn-riviera",
+    "name": "Fortune Inn Riviera, Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "9 Gulab Singh Marg, Near Jewel Chowk, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7235,
+    "longitude": 74.8582,
+    "pricePerNight": 4600,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Earthen Oven Restaurant",
+      "Neptune Bar",
+      "Fitness Centre",
+      "Business Centre"
+    ],
+    "specialFeatures": [
+      "Earthen Oven specialty North Indian and frontier cuisine",
+      "Central Jewel Chowk location"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 256 1415",
+    "website": "https://www.fortunehotels.in/jammu-fortune-inn-riviera.dh.20",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.925Z",
+    "updatedAt": "2026-08-22T21:20:26.925Z"
+  },
+  {
+    "hotelId": "jmu-lemon-tree-jammu",
+    "name": "Lemon Tree Hotel, Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Channi Himmat, National Highway 1A, Jammu, Jammu and Kashmir 180015",
+    "latitude": 32.6985,
+    "longitude": 74.8912,
+    "pricePerNight": 3900,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Citrus Cafe",
+      "Slounge Bar",
+      "Fitness Centre",
+      "Meeting Rooms"
+    ],
+    "specialFeatures": [
+      "Convenient highway location for Vaishno Devi & Kashmir travelers"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 246 8888",
+    "website": "https://www.lemontreehotels.com/lemon-tree-hotel/jammu/hotel-jammu",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.926Z",
+    "updatedAt": "2026-08-22T21:20:26.926Z"
+  },
+  {
+    "hotelId": "jmu-hotel-asia-jammu-tawi",
+    "name": "Hotel Asia Jammu Tawi",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Nehru Market, Near Tawi Bridge, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7158,
+    "longitude": 74.8621,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Pavilion Restaurant",
+      "Yangtse Chinese",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Longstanding landmark hotel in Jammu near Nehru Market with swimming pool"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 243 5757",
+    "website": "https://hotelasiajammutawi.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.926Z",
+    "updatedAt": "2026-08-22T21:20:26.926Z"
+  },
+  {
+    "hotelId": "jmu-hotel-premier",
+    "name": "Hotel Premier Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Residency Road, Old Heritage Market, Jammu, Jammu and Kashmir 180001",
+    "latitude": 32.7289,
+    "longitude": 74.8635,
+    "pricePerNight": 1700,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Restaurant",
+      "Room Service",
+      "Elevator",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Centrally located on historic Residency Road near Raghunath Temple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 254 2484",
+    "website": "https://hotelpremierjammu.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.926Z",
+    "updatedAt": "2026-08-22T21:20:26.926Z"
+  },
+  {
+    "hotelId": "jmu-hotel-city-sun",
+    "name": "Hotel City Sun Jammu",
+    "city": "Jammu",
+    "state": "Jammu and Kashmir",
+    "address": "Near Jammu Tawi Railway Station, Jammu, Jammu and Kashmir 180004",
+    "latitude": 32.7088,
+    "longitude": 74.8745,
+    "pricePerNight": 1300,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "AC Rooms",
+      "24-hour Room Service",
+      "Hot Water",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "Walking distance to Jammu Tawi Railway Station, ideal transit stay"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 191 247 1122",
+    "website": "https://hotelcitysunjammu.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.927Z",
+    "updatedAt": "2026-08-22T21:20:26.927Z"
+  }
+]

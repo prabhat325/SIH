@@ -1,0 +1,26 @@
+[
+    {
+        "guideId": "AMR-001",
+        "name": "Anil Sharma",
+        "city": "Amritsar",
+        "state": "Punjab",
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi"
+        ],
+        "specialization": [
+            "Golden Temple",
+            "Heritage Tours"
+        ],
+        "experienceYears": 10,
+        "rating": null,
+        "contact": "+91-9780234705",
+        "email": null,
+        "pricePerHour": 10,
+        "description": "Trusted Amritsar guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

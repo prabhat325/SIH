@@ -1,0 +1,212 @@
+[
+  {
+    "restaurantId": "rst-mdu-amma-mess",
+    "name": "Amma Mess (Since 1992)",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "136, Alagar Kovil Road, Next to Mattuthavani Bus Stand Road, Madurai, Tamil Nadu 625002",
+    "latitude": 9.9412,
+    "longitude": 78.1456,
+    "cuisine": [
+      "Madurai Non-Veg Heritage",
+      "Unique Egg Delicacies",
+      "Seafood & Mutton"
+    ],
+    "famousDishes": [
+      "World-Famous Bone Marrow Omelette (Nalli Omelette)",
+      "Crab Meat Omelette",
+      "Ayira Meen Fish Curry (Spiny Loach Fish)",
+      "Pallipalayam Mutton Chukka",
+      "Bone Marrow Gravy (Nalli Fry)",
+      "Rabbit Roast"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Nalli (Bone Marrow) Fluffy Omelette",
+        "price": 290
+      },
+      {
+        "food": "Authentic Ayira Meen Meen Kozhambu (Clay Pot Fish Curry)",
+        "price": 420
+      },
+      {
+        "food": "Kari Dosa with Mutton Chukka",
+        "price": 260
+      },
+      {
+        "food": "Madurai Non-Veg Unlimited Meals",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Air Conditioning",
+      "Banana Leaf Service",
+      "Culinary TV Show Destination"
+    ],
+    "specialFeatures": [
+      "Madurai's globally celebrated non-vegetarian laboratory, famous for inventing the sensational 'Nalli Omelette' (juicy goat bone marrow whipped into golden fluffy eggs) and cooking freshwater spiny loach fish (Ayira Meen)",
+      "An adventurous culinary pilgrimage"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 452 253 1000",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mdu-konar-mess",
+    "name": "Simmakkal Konar Kadai (Konar Mess - Since 1943)",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "12, North Veli Street, Near Simmakkal Roundabout, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9278,
+    "longitude": 78.1212,
+    "cuisine": [
+      "Madurai Street Heritage",
+      "Kari Dosa Inventor",
+      "Non-Vegetarian"
+    ],
+    "famousDishes": [
+      "Original Madurai Kari Dosa (3-Layer Thick Kal Dosa topped with Egg & Minced Spiced Mutton)",
+      "Elumbu Roast (Bone Fry)",
+      "Mutton Brain Fry",
+      "Kola Urundai",
+      "Mutton Blood Fry (Kootu)"
+    ],
+    "menu": [
+      {
+        "food": "The Original Mutton Kari Dosa",
+        "price": 240
+      },
+      {
+        "food": "Chicken Kari Dosa",
+        "price": 190
+      },
+      {
+        "food": "Mutton Brain Pepper Fry",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic 1943 Mess",
+      "Open Iron Tawa Grill Theater",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Operating since 1943 at Simmakkal, celebrated in Indian culinary history as the inventor of 'Kari Dosa'—a monumental three-tiered dish starting with a thick fermented kal dosa, smeared with seasoned beaten egg, and topped with a sizzling layer of minced spicy mutton chukka",
+      "Madurai's greatest street food creation"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 452 262 2334",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mdu-famous-jigarthanda",
+    "name": "Famous Jigarthanda (Since 1977 - GI Tagged)",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "Shop No. 71, East Marret Street, Near Palace Road, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9189,
+    "longitude": 78.1245,
+    "cuisine": [
+      "GI-Tagged Royal Beverage",
+      "Traditional Madurai Desserts"
+    ],
+    "famousDishes": [
+      "Famous Special Jigarthanda (Almond Gum / Badam Pisin, Nannari Sarsaparilla Syrup, Evaporated Milk & Basundi Ice Cream)",
+      "Jigarthanda with Basundi Float"
+    ],
+    "menu": [
+      {
+        "food": "Original Special Jigarthanda (Large Cup with Basundi)",
+        "price": 80
+      },
+      {
+        "food": "Famous Royal Jigarthanda (Glass)",
+        "price": 100
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.9,
+    "amenities": [
+      "GI Tag Certified Stall",
+      "Pure Vegetarian",
+      "Quick Service",
+      "Historic Marret Street Stall"
+    ],
+    "specialFeatures": [
+      "Founded in 1977 by P.S. Sheik Meeran on East Marret Street, world-famous for creating Madurai's GI-tagged elixir 'Jigarthanda' (meaning 'heart cooler'), composed of wild almond gum (badam pisin), nannari root syrup, condensed milk, and creamy basundi",
+      "Madurai's most famous sweet treasure"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98421 23456",
+    "website": "http://famousjigarthanda.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mdu-sree-sabarees",
+    "name": "Sree Sabarees Pure Veg",
+    "city": "Madurai",
+    "state": "Tamil Nadu",
+    "address": "West Perumal Maistry Street, Near Madurai Junction Railway Station, Madurai, Tamil Nadu 625001",
+    "latitude": 9.9178,
+    "longitude": 78.1134,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Tamil Brahmin Thali",
+      "South Indian Tiffin"
+    ],
+    "famousDishes": [
+      "Special South Indian Banana Leaf Meals",
+      "Ghee Podi Roast Dosa",
+      "Panchamirtham",
+      "Rava Khichdi",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Executive South Indian Banana Leaf Meal",
+        "price": 170
+      },
+      {
+        "food": "Ghee Roast Masala Dosa",
+        "price": 110
+      },
+      {
+        "food": "Madras Filter Kaapi",
+        "price": 35
+      }
+    ],
+    "averageCostForOne": 150,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Railway Station & Meenakshi Temple Vicinity"
+    ],
+    "specialFeatures": [
+      "Clean, bustling pure-vegetarian institution near Meenakshi Amman Temple providing piping hot plantain-leaf meals, ghee roast dosas, and frothy filter coffee to temple pilgrims",
+      "Spotless and efficient"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 452 234 8888",
+    "website": null,
+    "available": true
+  }
+]

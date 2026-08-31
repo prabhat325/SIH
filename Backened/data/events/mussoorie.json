@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "MUSSOORIE-EVENT-001",
+            "name": "Summer Festival",
+            "city": "Mussoorie",
+            "state": "Uttarakhand",
+            "description": "An annual summer festival with cultural programs and adventure sports.",
+            "type": "Festival",
+            "venue": "Various venues in Mussoorie",
+            "usualMonth": "May/June",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MUSSOORIE-EVENT-002",
+            "name": "Winter Carnival",
+            "city": "Mussoorie",
+            "state": "Uttarakhand",
+            "description": "A winter festival with cultural programs and food festivals.",
+            "type": "Festival",
+            "venue": "Various venues in Mussoorie",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MUSSOORIE-EVENT-003",
+            "name": "Doon Valley Festival",
+            "city": "Mussoorie",
+            "state": "Uttarakhand",
+            "description": "A cultural festival celebrating the Doon Valley heritage.",
+            "type": "Cultural",
+            "venue": "Various venues in Mussoorie",
+            "usualMonth": "October/November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uttarakhandtourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

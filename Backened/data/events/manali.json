@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "MANALI-EVENT-001",
+            "name": "Winter Carnival",
+            "city": "Manali",
+            "state": "Himachal Pradesh",
+            "description": "A five-day national-level cultural festival with skiing championships.",
+            "type": "Festival",
+            "venue": "Manu Rangshala and various venues",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://manaliwintercarnival.co.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MANALI-EVENT-002",
+            "name": "Hadimba Devi Fair",
+            "city": "Manali",
+            "state": "Himachal Pradesh",
+            "description": "A traditional spring fair at Hadimba Devi Temple.",
+            "type": "Fair",
+            "venue": "Hadimba Devi Temple",
+            "usualMonth": "May",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://himachaltourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MANALI-EVENT-003",
+            "name": "Doongri Forest Festival",
+            "city": "Manali",
+            "state": "Himachal Pradesh",
+            "description": "A cultural festival celebrating the region's forest heritage.",
+            "type": "Cultural",
+            "venue": "Doongri Forest",
+            "usualMonth": "May/June",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://himachaltourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MANALI-EVENT-004",
+            "name": "Losar Festival",
+            "city": "Manali",
+            "state": "Himachal Pradesh",
+            "description": "The Tibetan New Year at Himalayan Nyingmapa Gompa.",
+            "type": "Religious",
+            "venue": "Himalayan Nyingmapa Gompa",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://himachaltourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

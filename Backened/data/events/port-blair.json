@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "PORTBLAIR-EVENT-001",
+            "name": "Island Tourism Festival",
+            "city": "Port Blair / Sri Vijaya Puram",
+            "state": "Andaman and Nicobar Islands",
+            "description": "An annual festival showcasing the unique culture of the Andaman and Nicobar Islands.",
+            "type": "Festival",
+            "venue": "Various venues in Port Blair",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://andamans.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PORTBLAIR-EVENT-002",
+            "name": "Subhash Mela",
+            "city": "Port Blair / Sri Vijaya Puram",
+            "state": "Andaman and Nicobar Islands",
+            "description": "A festival commemorating Netaji Subhash Chandra Bose's visit.",
+            "type": "Cultural",
+            "venue": "Cellular Jail and various venues",
+            "usualMonth": "December",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://andamans.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PORTBLAIR-EVENT-003",
+            "name": "Beach Festival",
+            "city": "Port Blair / Sri Vijaya Puram",
+            "state": "Andaman and Nicobar Islands",
+            "description": "A beach festival with water sports and cultural programs.",
+            "type": "Festival",
+            "venue": "Various beaches in Port Blair",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://andamans.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

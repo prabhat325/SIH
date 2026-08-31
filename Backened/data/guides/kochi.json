@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "KOC-001",
+        "name": "Regional Guide",
+        "city": "Kochi",
+        "state": "Kerala",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Heritage"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 10,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

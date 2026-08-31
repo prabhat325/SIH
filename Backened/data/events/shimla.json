@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "SHIMLA-EVENT-001",
+            "name": "Summer Festival",
+            "city": "Shimla",
+            "state": "Himachal Pradesh",
+            "description": "An annual summer festival with cultural programs and flower shows.",
+            "type": "Festival",
+            "venue": "Various venues in Shimla",
+            "usualMonth": "May/June",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://himachaltourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SHIMLA-EVENT-002",
+            "name": "Winter Carnival",
+            "city": "Shimla",
+            "state": "Himachal Pradesh",
+            "description": "A winter festival with cultural programs and food festivals.",
+            "type": "Festival",
+            "venue": "Various venues in Shimla",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://himachaltourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SHIMLA-EVENT-003",
+            "name": "Sipi Fair",
+            "city": "Shimla",
+            "state": "Himachal Pradesh",
+            "description": "A traditional fair at Sipi Temple.",
+            "type": "Fair",
+            "venue": "Sipi Temple (near Shimla)",
+            "usualMonth": "June",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://himachaltourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

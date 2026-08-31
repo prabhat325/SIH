@@ -1,0 +1,6 @@
+[
+  {"serviceId":"MUNNAR-HOSPITAL-001","name":"Tata Tea General Hospital","city":"Munnar","state":"Kerala","type":"Hospital","address":"General Hospital Road, Munnar, Idukki, Kerala 685612","latitude":null,"longitude":null,"phone":"04865-230242","website":null,"available24x7":false,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"MUNNAR-HOSPITAL-002","name":"Government Taluk Headquarters Hospital Devikulam","city":"Munnar","state":"Kerala","type":"Hospital","address":"Devikulam, Idukki, Kerala 685613","latitude":null,"longitude":null,"phone":null,"website":"https://dhs.kerala.gov.in","available24x7":false,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"MUNNAR-POLICE-001","name":"Munnar Police Station","city":"Munnar","state":"Kerala","type":"Police Station","address":"Munnar, Idukki, Kerala 685612","latitude":null,"longitude":null,"phone":null,"website":"https://keralapolice.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"MUNNAR-FIRE-001","name":"Munnar Fire and Rescue Station","city":"Munnar","state":"Kerala","type":"Fire Station","address":"Munnar, Idukki, Kerala 685612","latitude":null,"longitude":null,"phone":null,"website":"https://fire.kerala.gov.in","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

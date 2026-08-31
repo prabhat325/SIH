@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "eventId": "AJMER-EVENT-001",
+            "name": "Urs Festival",
+            "city": "Ajmer",
+            "state": "Rajasthan",
+            "description": "The death anniversary of Sufi saint Khwaja Moinuddin Chishti at Ajmer Sharif Dargah.",
+            "type": "Religious",
+            "venue": "Ajmer Sharif Dargah",
+            "usualMonth": "Varies (Islamic calendar)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "6 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "AJMER-EVENT-002",
+            "name": "Gangaur Festival",
+            "city": "Ajmer",
+            "state": "Rajasthan",
+            "description": "A traditional festival honoring Goddess Gauri.",
+            "type": "Religious",
+            "venue": "Various venues in Ajmer",
+            "usualMonth": "March/April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

@@ -1,0 +1,538 @@
+[
+  {
+    "restaurantId": "rst-pne-kayani-bakery",
+    "name": "Kayani Bakery (Since 1955)",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "6, Dr. Coyaji Road, East Street, Camp, Pune, Maharashtra 411001",
+    "latitude": 18.5145,
+    "longitude": 73.8789,
+    "cuisine": [
+      "Parsi-Irani Bakery",
+      "Heritage Confectionery"
+    ],
+    "famousDishes": [
+      "World Famous Mawa Cake",
+      "Shrewsbury Biscuits (Pure Butter)",
+      "Brazil Nut Biscuits",
+      "Sponge Cake",
+      "Cheese Papadi"
+    ],
+    "menu": [
+      {
+        "food": "Original Pune Mawa Cake (Box of 6)",
+        "price": 240
+      },
+      {
+        "food": "Legendary Shrewsbury Butter Biscuits (500g)",
+        "price": 260
+      },
+      {
+        "food": "Brazil Nut Cookies (500g)",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Historic 1955 Bakery Counter",
+      "Strict Batch Timings",
+      "Takeaway Only"
+    ],
+    "specialFeatures": [
+      "Founded in 1955 by the Kayani brothers from Iran on East Street, world-famous for its melt-in-mouth pure butter Shrewsbury biscuits and cardamom-scented Mawa cakes that sell out within minutes of batch openings",
+      "Pune's most famous culinary souvenir"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2636 0517",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-vaishali-fc-road",
+    "name": "Vaishali Restaurant (Since 1949)",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "1218/1, Fergusson College Road, Shivajinagar, Pune, Maharashtra 411004",
+    "latitude": 18.5225,
+    "longitude": 73.8412,
+    "cuisine": [
+      "South Indian",
+      "Mumbai-Pune Street Chaat",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "SPDP (Sev Potato Dahi Puri)",
+      "Mysore Cheese Masala Dosa",
+      "Veg Cheese Cutlet",
+      "Rava Masala Dosa",
+      "South Indian Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Iconic SPDP (Sev Potato Dahi Puri Plate)",
+        "price": 120
+      },
+      {
+        "food": "Special Mysore Cheese Masala Dosa",
+        "price": 180
+      },
+      {
+        "food": "Hot Filter Coffee",
+        "price": 55
+      },
+      {
+        "food": "Veg Cheese Cutlet with Sambar",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Outdoor Tree Courtyard Seating",
+      "Air Conditioned Section",
+      "Pure Vegetarian",
+      "FC Road Landmark"
+    ],
+    "specialFeatures": [
+      "Founded in 1949 by Jagannath Shetty, Pune's most iconic youth and intellectual cultural salon on FC Road, credited with inventing the cult 'SPDP' chaat and fostering student revolutions and creative ideas under its courtyard trees",
+      "Unrivaled emotional icon of Pune"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2553 1244",
+    "website": "http://vaishalihotel.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-goodluck-cafe",
+    "name": "Cafe Goodluck (Since 1935)",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Goodluck Chowk, Fergusson College Road, Deccan Gymkhana, Pune, Maharashtra 411004",
+    "latitude": 18.5189,
+    "longitude": 73.8418,
+    "cuisine": [
+      "Irani Cafe",
+      "Parsi-Mughlai",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Bun Maska with Kadak Irani Chai",
+      "Keema Ghotala with Pav",
+      "Caramel Custard",
+      "Brain Masala Fry",
+      "Cheese Omelette"
+    ],
+    "menu": [
+      {
+        "food": "Soft Bun Maska with Special Irani Chai",
+        "price": 70
+      },
+      {
+        "food": "Mutton Keema Ghotala with 2 Pavs",
+        "price": 180
+      },
+      {
+        "food": "Famous Caramel Custard",
+        "price": 90
+      },
+      {
+        "food": "Cheese Masala Omelette",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic 1935 Irani Marble Tables",
+      "Deccan Corner Junction",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Operating since 1935 at Goodluck Chowk, this vintage Irani tea room is famous for buttery crusty buns dipped in steaming sweet chai and spicy mutton keema ghotala",
+      "Frequented by legendary film institute (FTII) directors and artists"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2567 6893",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-shabree-restaurant",
+    "name": "Shabree Restaurant",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "1199/1A, Parichay Hotel, FC Road, Shivajinagar, Pune, Maharashtra 411004",
+    "latitude": 18.5245,
+    "longitude": 73.8421,
+    "cuisine": [
+      "Authentic Maharashtrian",
+      "Pure Vegetarian Thali"
+    ],
+    "famousDishes": [
+      "Traditional Maharashtrian Thali",
+      "Pithla Bhakri with Thecha",
+      "Bharli Vangi (Stuffed Brinjal)",
+      "Hot Puran Poli with Desi Ghee",
+      "Solkadhi",
+      "Alu Vadi"
+    ],
+    "menu": [
+      {
+        "food": "Grand Maharashtrian Unlimited Thali",
+        "price": 380
+      },
+      {
+        "food": "Pithla Bhakri with Green Chilli Thecha Platter",
+        "price": 210
+      },
+      {
+        "food": "Desi Ghee Puran Poli (2 pcs)",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Traditional Maharashtrian Decor",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Pune's premier destination for authentic Maharashtrian traditional thalis, serving rustic jowar/bajra bhakris, fiery green chilli thecha, peanut-spiced curries, and melt-in-mouth jaggery Puran Polis",
+      "True cultural cuisine"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2553 1511",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-bedekar-tea-stall",
+    "name": "Bedekar Tea Stall (Since 1948)",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "418, Munjabacha Bol, Narayan Peth, Pune, Maharashtra 411030",
+    "latitude": 28.5178,
+    "longitude": 73.8512,
+    "cuisine": [
+      "Traditional Puneri Snacks",
+      "Misal Pav",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Special Puneri Misal with Pohe Base",
+      "Sweet-Spiced Tarri (Rassa)",
+      "Special Masala Chai",
+      "Kokum Sharbat"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Bedekar Misal Plate (with Bread & Extra Tarri)",
+        "price": 90
+      },
+      {
+        "food": "Special Ginger Masala Chai",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic Heritage Peth Shop",
+      "Pure Vegetarian",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Narayan Peth's historic misal shrine operating since 1948, celebrated for unique Puneri-style sweetish-spicy sprout misal layered over soft flattened rice (pohe) and served with traditional sliced bread and fiery kat gravy",
+      "The quintessential Puneri taste"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2445 1270",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-sujata-mastani",
+    "name": "Sujata Mastani (Since 1953)",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "1260, Sadashiv Peth, Near Khanya Maruti Chowk, Pune, Maharashtra 411030",
+    "latitude": 18.5112,
+    "longitude": 73.8525,
+    "cuisine": [
+      "Desserts",
+      "Signature Pune Mastani Shakes"
+    ],
+    "famousDishes": [
+      "Mango Mastani (Thick Saffron Mango Shake topped with Real Ice Cream, Dry Fruits & Glace Cherries)",
+      "Kesar Pista Mastani",
+      "Chocolate Mastani",
+      "Anjeer Mastani"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Royal Mango Mastani (Large Glass)",
+        "price": 140
+      },
+      {
+        "food": "Special Kesar Pista Dryfruit Mastani",
+        "price": 150
+      },
+      {
+        "food": "Sitaphal (Custard Apple) Mastani (Seasonal)",
+        "price": 150
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Pure Vegetarian",
+      "Famous City Dessert Landmark",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Invented Pune's signature dessert drink 'Mastani' (named after Bajirao Peshwa's legendary queen Mastani), featuring an ultra-dense hand-churned fruit milkshake crowned with scoops of velvet ice cream and dry fruits",
+      "A must-try sweet wonder"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2447 4641",
+    "website": "http://sujatamastani.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-george-restaurant",
+    "name": "George Restaurant (Since 1936)",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "2436, General Thimayya Road, East Street, Camp, Pune, Maharashtra 411001",
+    "latitude": 18.5138,
+    "longitude": 73.8795,
+    "cuisine": [
+      "Mughlai",
+      "Parsi-Irani",
+      "Tandoori",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Mutton Dum Biryani",
+      "Chicken Tikka",
+      "Mutton Rogan Josh",
+      "Chelo Kebab",
+      "Caramel Custard"
+    ],
+    "menu": [
+      {
+        "food": "George Special Mutton Biryani",
+        "price": 380
+      },
+      {
+        "food": "Chicken Tikka (6 pcs)",
+        "price": 340
+      },
+      {
+        "food": "Caramel Custard",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Vintage Camp Ambience",
+      "Full Bar",
+      "Family Dining"
+    ],
+    "specialFeatures": [
+      "Camp's beloved non-vegetarian institution since 1936, famous for flavorful long-grain mutton biryanis, clay-oven tandoori grills, and silky caramel custards",
+      "Historic family hangout"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2636 1934",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-malaka-spice",
+    "name": "Malaka Spice",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "Lane 5, Opposite Oxford Comforts, Koregaon Park, Pune, Maharashtra 411001",
+    "latitude": 18.5368,
+    "longitude": 73.8961,
+    "cuisine": [
+      "Southeast Asian",
+      "Thai",
+      "Vietnamese",
+      "Malaysian",
+      "Craft Cocktails"
+    ],
+    "famousDishes": [
+      "Top Hats (Crispy Cups with Minced Veggies)",
+      "Murtabak",
+      "Malaka Tom Yum Soup",
+      "Thai Green Curry",
+      "Vietnamese Grilled Chicken"
+    ],
+    "menu": [
+      {
+        "food": "Signature Malaka Top Hats (8 pcs)",
+        "price": 360
+      },
+      {
+        "food": "Thai Green Curry with Jasmine Rice",
+        "price": 490
+      },
+      {
+        "food": "Malaka Special Vietnamese Noodle Soup",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Art Gallery Garden Dining",
+      "Lush Koregaon Park Canopy",
+      "Full Bar",
+      "Valet Parking",
+      "Pet Friendly"
+    ],
+    "specialFeatures": [
+      "Award-winning Southeast Asian open-air garden bistro adorned with original artwork for sale, cooking farm-fresh organic herbs and street food recipes from Cambodia, Vietnam, and Malaysia",
+      "Chic Koregaon Park vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2615 1088",
+    "website": "http://malakaspice.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-sukanta-thali",
+    "name": "Sukanta Thali",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "636, Pulachi Wadi, Deccan Gymkhana, Near Z-Bridge, Pune, Maharashtra 411004",
+    "latitude": 18.5175,
+    "longitude": 73.8445,
+    "cuisine": [
+      "Rajasthani",
+      "Gujarati",
+      "Pure Vegetarian Unlimited Thali"
+    ],
+    "famousDishes": [
+      "Grand Unlimited Royal Thali",
+      "Dal Baati Churma",
+      "Paneer Makhani",
+      "Dhokla & Kachori",
+      "Jalebi Rabri",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Sukanta Special Unlimited Royal Thali",
+        "price": 390
+      }
+    ],
+    "averageCostForOne": 390,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Valet Parking",
+      "Rapid Service"
+    ],
+    "specialFeatures": [
+      "Deccan Gymkhana's premier royal vegetarian feast hall serving over 25 lavish items with rotating daily menus, hot rotis brushed with ghee, and traditional Indian hospitality",
+      "Perennial family favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2553 0077",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pne-german-bakery-kp",
+    "name": "German Bakery Koregaon Park",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "292, North Main Road, Near Osho Ashram, Koregaon Park, Pune, Maharashtra 411001",
+    "latitude": 32.5389,
+    "longitude": 73.8989,
+    "cuisine": [
+      "Bakery",
+      "European",
+      "Breakfast",
+      "Café"
+    ],
+    "famousDishes": [
+      "Keema Pav",
+      "Warm Apple Crumble Pie",
+      "Spanish Omelette",
+      "Chai Latte",
+      "Red Velvet Cake"
+    ],
+    "menu": [
+      {
+        "food": "German Bakery Special Keema Pav",
+        "price": 260
+      },
+      {
+        "food": "Warm Apple Strudel with Custard",
+        "price": 190
+      },
+      {
+        "food": "Full Loaded Spanish Omelette",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Open Air Bohemian Deck",
+      "Free Wi-Fi",
+      "Osho Ashram Proximity",
+      "Artisan Bakery"
+    ],
+    "specialFeatures": [
+      "Historic bohemian hangout established in 1988 near the Osho Meditation Resort in Koregaon Park, celebrated for its artistic soul, travelers' breakfasts, and fresh European bakery bakes",
+      "An international traveler landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 20 2615 6565",
+    "website": null,
+    "available": true
+  }
+]

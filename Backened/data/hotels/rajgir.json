@@ -1,0 +1,246 @@
+[
+  {
+    "hotelId": "rgr-the-rajgir-residency",
+    "name": "The Rajgir Residency Hotel",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Bodhgaya-Rajgir Highway, Near Hot Springs, Rajgir, Bihar 803116",
+    "latitude": 25.0289,
+    "longitude": 85.4215,
+    "pricePerNight": 6500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Indoor Swimming Pool",
+      "Lotus Japanese & Continental Restaurant",
+      "Spa & Health Club",
+      "Lush Lawns",
+      "Bar"
+    ],
+    "specialFeatures": [
+      "Premier Indo-Japanese collaboration hotel in Rajgir, popular with international Buddhist pilgrims",
+      "Indoor heated swimming pool and traditional Japanese bath facilities"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 404",
+    "website": "https://rajgirresidency.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.982Z",
+    "updatedAt": "2026-08-22T21:20:26.982Z"
+  },
+  {
+    "hotelId": "rgr-indo-hokke-hotel",
+    "name": "Indo Hokke Hotel Rajgir",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "VIP Road, Near Ropeway, Rajgir, Bihar 803116",
+    "latitude": 25.0215,
+    "longitude": 85.4298,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Ofuro Japanese Hot Spring Bath",
+      "Hatsuhana Japanese Restaurant",
+      "Lotus Sutra Meditation Garden",
+      "Banqueting"
+    ],
+    "specialFeatures": [
+      "Authentic Japanese 'Ofuro' communal mineral hot bath experience",
+      "Hatsuhana restaurant serving authentic Japanese cuisine in the hills of Rajgir"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 245",
+    "website": "https://indohokkehotel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.983Z",
+    "updatedAt": "2026-08-22T21:20:26.983Z"
+  },
+  {
+    "hotelId": "rgr-gargee-gautam-vihar",
+    "name": "Gargee Gautam Vihar Resort Rajgir",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Kund Area, Near Hot Springs, Rajgir, Bihar 803116",
+    "latitude": 25.0254,
+    "longitude": 85.4241,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Gautam Multi-cuisine Restaurant",
+      "Spa",
+      "Lawn Barbecues",
+      "Conference Hall"
+    ],
+    "specialFeatures": [
+      "Located near Brahmakund natural sulfur hot springs and Griddhakuta (Vulture's Peak)"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 333",
+    "website": "https://gargeehotels.com/gargee-gautam-vihar-resort-rajgir/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.983Z",
+    "updatedAt": "2026-08-22T21:20:26.983Z"
+  },
+  {
+    "hotelId": "rgr-pandu-pokhar-camping",
+    "name": "Pandu Pokhar Eco Camp & Resort",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Pandu Pokhar Eco Park, Rajgir, Bihar 803116",
+    "latitude": 25.0345,
+    "longitude": 85.4189,
+    "pricePerNight": 3600,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Boating Lake",
+      "Organic Cafe",
+      "Adventure Sports",
+      "Glamping Tents & Cottages"
+    ],
+    "specialFeatures": [
+      "Set inside 22-acre scenic Pandu Pokhar eco-park with zip-lining, boating, and meditation zones"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 888",
+    "website": "https://pandupokhar.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.984Z",
+    "updatedAt": "2026-08-22T21:20:26.984Z"
+  },
+  {
+    "hotelId": "rgr-tathagat-vihar-rajgir",
+    "name": "Tathagat Vihar (BSTDC)",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Near Kund Market, Rajgir, Bihar 803116",
+    "latitude": 25.0271,
+    "longitude": 85.4229,
+    "pricePerNight": 1900,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Parking",
+      "Restaurant",
+      "Garden Compound",
+      "Travel Information Desk",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Official Bihar Tourism property within walking distance to Rajgir hot spring baths"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 273",
+    "website": "https://www.bstdc.bih.nic.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.984Z",
+    "updatedAt": "2026-08-22T21:20:26.984Z"
+  },
+  {
+    "hotelId": "rgr-hotel-nalanda-heritage",
+    "name": "Hotel Nalanda Heritage Rajgir",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Bangali Para, Near Bus Stand, Rajgir, Bihar 803116",
+    "latitude": 25.0312,
+    "longitude": 85.4175,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Pure Veg Restaurant",
+      "Air Conditioning",
+      "Hot Water",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Central town budget stay close to Vishwa Shanti Stupa ropeway station"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 120",
+    "website": "https://hotelnalandaheritagerajgir.in/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.984Z",
+    "updatedAt": "2026-08-22T21:20:26.984Z"
+  },
+  {
+    "hotelId": "rgr-hotel-vijay-niketan",
+    "name": "Hotel Vijay Niketan",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Near Kund Area, Rajgir, Bihar 803116",
+    "latitude": 25.0261,
+    "longitude": 85.4255,
+    "pricePerNight": 1400,
+    "category": "Budget",
+    "rating": 3.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Vegetarian Dining",
+      "24-hour Desk",
+      "Hot Water",
+      "Parking"
+    ],
+    "specialFeatures": [
+      "3-minute walk to Brahmakund and Lakshmi Narayan Temple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 456",
+    "website": "https://hotelvijayniketan.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.985Z",
+    "updatedAt": "2026-08-22T21:20:26.985Z"
+  },
+  {
+    "hotelId": "rgr-anand-lok-hotel",
+    "name": "Hotel Anand Lok",
+    "city": "Rajgir",
+    "state": "Bihar",
+    "address": "Ropeway Road, Rajgir, Bihar 803116",
+    "latitude": 25.0238,
+    "longitude": 85.4281,
+    "pricePerNight": 1200,
+    "category": "Budget",
+    "rating": 3.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Bhojnalaya",
+      "Hot Showers",
+      "Luggage Storage",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Directly on the road leading to Ratnagiri Hill and Glass Bridge / Nature Safari"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 255 789",
+    "website": "https://hotelanandlokrajgir.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.985Z",
+    "updatedAt": "2026-08-22T21:20:26.985Z"
+  }
+]

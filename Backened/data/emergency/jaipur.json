@@ -1,0 +1,93 @@
+[
+  {
+    "serviceId": "JAIPUR-HOSPITAL-001",
+    "name": "SMS Hospital",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Jawaharlal Nehru Marg, Jaipur, Rajasthan 302004",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://education.rajasthan.gov.in/smsmedicalcollege/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAIPUR-HOSPITAL-002",
+    "name": "Fortis Escorts Hospital Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Malviya Nagar, Jawaharlal Nehru Marg, Jaipur, Rajasthan 302017",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.fortishealthcare.com/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAIPUR-HOSPITAL-003",
+    "name": "Jaipur Hospital",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Lal Kothi, Tonk Road, Jaipur, Rajasthan 302015",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.jaipurhospital.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAIPUR-POLICE-004",
+    "name": "Mansarovar Police Station",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "type": "Police Station",
+    "address": "Mansarovar, Jaipur, Rajasthan 302020",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://jaipurpolice.rajasthan.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "JAIPUR-FIRE-005",
+    "name": "Bani Park Fire Station",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "type": "Fire Station",
+    "address": "Bani Park, Jaipur, Rajasthan 302016",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

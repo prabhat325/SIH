@@ -1,0 +1,224 @@
+[
+  {
+    "restaurantId": "rst-gok-namaste-cafe",
+    "name": "Namaste Cafe (Since 1990s)",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "On Om Beach Rocks, Om Beach, Gokarna, Karnataka 581326",
+    "latitude": 14.5189,
+    "longitude": 74.3168,
+    "cuisine": [
+      "Coastal Seafood",
+      "Continental",
+      "Israeli",
+      "Beverages"
+    ],
+    "famousDishes": [
+      "Fresh Kingfish Tawa Fry",
+      "Butter Garlic Calamari (Squid)",
+      "Nutella Banana Pancake",
+      "Spanish Omelette",
+      "Chilled Iced Coffee",
+      "King Prawns Masala"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Catch Kingfish Tawa Fry with Salad",
+        "price": 460
+      },
+      {
+        "food": "Butter Garlic Calamari Rings",
+        "price": 380
+      },
+      {
+        "food": "Full English Breakfast with Eggs, Toast & Coffee",
+        "price": 240
+      },
+      {
+        "food": "Nutella Banana Crepe",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Direct Om Beachfront Rock Location",
+      "Waves Crashing at Tables",
+      "Full Bar",
+      "Sunset Ocean Horizon View"
+    ],
+    "specialFeatures": [
+      "Gokarna's most iconic beach restaurant perched right on the rocks where the waves of Om Beach break, world-renowned for fresh catch seafood, chilled beverages, and relaxed coastal dining",
+      "The quintessential Gokarna landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 8386 257 141",
+    "website": "http://namastegokarna.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gok-sunset-cafe-kudle",
+    "name": "Sunset Cafe (Kudle Beach)",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "On the Sands of Kudle Beach, Gokarna, Karnataka 581326",
+    "latitude": 14.5278,
+    "longitude": 74.3145,
+    "cuisine": [
+      "Continental",
+      "Italian Wood-fired Pizza",
+      "Seafood",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood-fired Thin Crust Margherita Pizza",
+      "Grilled Tuna Steak",
+      "Prawns Curry with Steamed Rice",
+      "Cold Beer",
+      "Avocado Toast"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Four Cheese Pizza",
+        "price": 360
+      },
+      {
+        "food": "Grilled Arabian Sea Tuna with Garlic Butter",
+        "price": 420
+      },
+      {
+        "food": "Fresh Avocado Toast with Poached Eggs",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Direct Kudle Beach Sand Seating",
+      "Sunset Horizon",
+      "Full Bar",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Charming beach shack on Kudle Beach sands offering candle-lit tables by the surf at twilight while watching the sun sink into the Arabian Sea",
+      "Relaxed coastal bohemian vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gok-chez-christophe",
+    "name": "Chez Christophe (French Bistro)",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Middle Beach / Kudle Trail, Gokarna, Karnataka 581326",
+    "latitude": 14.5389,
+    "longitude": 74.3112,
+    "cuisine": [
+      "Authentic French",
+      "Artisan Bakery & Crepes",
+      "Mediterranean"
+    ],
+    "famousDishes": [
+      "Authentic Buckwheat Galettes (Savory Crepes)",
+      "Quiche Lorraine",
+      "Fresh Sourdough Bread with Camembert",
+      "Chocolate Eclair",
+      "French Press Coffee"
+    ],
+    "menu": [
+      {
+        "food": "French Buckwheat Galette with Cheese & Mushrooms",
+        "price": 280
+      },
+      {
+        "food": "Homemade French Quiche with Salad",
+        "price": 220
+      },
+      {
+        "food": "Belgian Chocolate Tart",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Artistic Bohemian Garden",
+      "Handmade Sourdough Bakery",
+      "Live Acoustic Music Nights"
+    ],
+    "specialFeatures": [
+      "Run by French chef Christophe, bringing artisanal French country baking, slow-fermented sourdough baguettes, and Brittany crepes to the quiet palm groves of Gokarna",
+      "Gourmet coastal hideaway"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-gok-prema-restaurant",
+    "name": "Prema Restaurant (Since 1980s)",
+    "city": "Gokarna",
+    "state": "Karnataka",
+    "address": "Car Street, Near Mahabaleshwar Temple, Gokarna, Karnataka 581326",
+    "latitude": 14.5425,
+    "longitude": 74.3178,
+    "cuisine": [
+      "Pure Vegetarian",
+      "South Indian Thali",
+      "Homemade Ice Creams",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Special South Indian Thali",
+      "Homemade Natural Ice Creams (Chiku, Mango, Fig)",
+      "Banana Nutella Pancake",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Homestyle South Indian Lunch Thali",
+        "price": 120
+      },
+      {
+        "food": "Signature Homemade Chiku (Sapodilla) Ice Cream Scoop",
+        "price": 60
+      },
+      {
+        "food": "Banana Honey Pancake",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Mahabaleshwar Temple Proximity",
+      "Pure Vegetarian",
+      "Historic Town Diner"
+    ],
+    "specialFeatures": [
+      "Gokarna town's oldest traveler and pilgrim diner near the sacred 4th-century Atmalinga Mahabaleshwar Temple, famous for budget-friendly thalis and artisanal fresh-fruit churned ice creams",
+      "Warm local hospitality"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

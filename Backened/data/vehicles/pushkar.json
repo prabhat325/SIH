@@ -1,0 +1,58 @@
+[
+    {
+        "vehicleId": "PUSHKAR-AUTO-001",
+        "vehicleType": "Auto Rickshaw",
+        "city": "Pushkar",
+        "state": "Rajasthan",
+        "baseFare": 25,
+        "farePerKm": 13,
+        "averageSpeed": 25,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Auto_rickshaw_in_India.jpg/960px-Auto_rickshaw_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "PUSHKAR-TAXI-002",
+        "vehicleType": "Taxi",
+        "city": "Pushkar",
+        "state": "Rajasthan",
+        "baseFare": 60,
+        "farePerKm": 18,
+        "averageSpeed": 32,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "PUSHKAR-TOURISTBUS-003",
+        "vehicleType": "Tourist Bus",
+        "city": "Pushkar",
+        "state": "Rajasthan",
+        "baseFare": 500,
+        "farePerKm": 18,
+        "averageSpeed": 30,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "PUSHKAR-TEMPO-004",
+        "vehicleType": "Tempo Traveller",
+        "city": "Pushkar",
+        "state": "Rajasthan",
+        "baseFare": 900,
+        "farePerKm": 22,
+        "averageSpeed": 28,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/In_a_minibus_in_Goa%2C_India.jpg/960px-In_a_minibus_in_Goa%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

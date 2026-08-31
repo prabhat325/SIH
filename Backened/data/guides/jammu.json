@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "JAM-001",
+        "name": "Regional Guide",
+        "city": "Jammu",
+        "state": "Jammu and Kashmir",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Temple Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 9,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

@@ -1,0 +1,6 @@
+[
+  {"serviceId":"VAISHALI-HOSPITAL-001","name":"Sadar Hospital Hajipur","city":"Vaishali","state":"Bihar","type":"Hospital","address":"Hajipur, Vaishali, Bihar 844101","latitude":25.685,"longitude":85.215,"phone":"+91-6224-272233","website":"https://vaishali.nic.in/","available24x7":true,"emergencyFacilities":["24x7 Emergency","Ambulance"],"verified":true,"available":true},
+  {"serviceId":"VAISHALI-HOSPITAL-002","name":"Primary Health Centre Vaishali","city":"Vaishali","state":"Bihar","type":"Hospital","address":"Vaishali, Bihar 844128","latitude":25.99,"longitude":85.13,"phone":null,"website":"https://vaishali.nic.in/","available24x7":false,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"VAISHALI-POLICE-001","name":"Vaishali Police Station","city":"Vaishali","state":"Bihar","type":"Police Station","address":"Vaishali, Bihar 844128","latitude":null,"longitude":null,"phone":null,"website":"https://vaishali.nic.in/police/","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"VAISHALI-FIRE-001","name":"Hajipur Fire Station","city":"Vaishali","state":"Bihar","type":"Fire Station","address":"Hajipur, Vaishali, Bihar 844101","latitude":null,"longitude":null,"phone":null,"website":"https://vaishali.nic.in/","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

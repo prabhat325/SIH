@@ -1,0 +1,550 @@
+[
+  {
+    "restaurantId": "rst-goa-martins-corner",
+    "name": "Martin's Corner (Since 1989)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "69, Binwaddo, Near St. John the Baptist Church, Betalbatim, Salcete, South Goa, Goa 403713",
+    "latitude": 15.2891,
+    "longitude": 73.9212,
+    "cuisine": [
+      "Authentic Goan Seafood",
+      "Portuguese Heritage",
+      "Tandoori & Grills"
+    ],
+    "famousDishes": [
+      "Crab Xec Xec (Toasted Coconut Spiced Crab)",
+      "Kingfish Recheado (Spicy Red Masala)",
+      "Pork Vindaloo with Poi Bread",
+      "Butter Garlic Jumbo Prawns",
+      "Goan Fish Curry Thali",
+      "Traditional Bebinca with Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Signature Crab Xec Xec (Thick roasted coconut curry)",
+        "price": 950
+      },
+      {
+        "food": "Kingfish Recheado Masala Fry",
+        "price": 680
+      },
+      {
+        "food": "Authentic Pork Vindaloo with Traditional Goan Poi",
+        "price": 460
+      },
+      {
+        "food": "Traditional 7-Layer Goan Bebinca",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Thatched Tropical Pavilion",
+      "Full Bar",
+      "Live Acoustic Music Evenings",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Founded in 1989 by Mrs. Carafina Pereira in Betalbatim, world-renowned as Sachin Tendulkar's favorite restaurant and celebrated across the globe for authentic homestyle Goan Catholic seafood masterpieces",
+      "An essential Goan culinary legend"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 288 0413",
+    "website": "http://martinscornergoa.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-fishermans-wharf",
+    "name": "The Fisherman's Wharf",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Before The Leela, Mobor Beach, Salcette, Cavelossim, South Goa, Goa 403731",
+    "latitude": 15.1678,
+    "longitude": 73.9456,
+    "cuisine": [
+      "Goan Coastal",
+      "Seafood Specialty",
+      "Pan Asian",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Butter Garlic Tiger Prawns",
+      "Goan Fish Curry with Steamed Rice",
+      "Stuffed Crab",
+      "Pork Sorpotel with Sannas",
+      "Cocktails"
+    ],
+    "menu": [
+      {
+        "food": "Butter Garlic Tiger Prawns Platter",
+        "price": 850
+      },
+      {
+        "food": "Traditional Goan Fish Curry Rice",
+        "price": 480
+      },
+      {
+        "food": "Baked Stuffed Crab",
+        "price": 540
+      }
+    ],
+    "averageCostForOne": 1100,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "River Sal Waterfront Promenade",
+      "Full Bar",
+      "Live Goan Bands",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Picturesque riverside dining along the calm waters of the River Sal in Cavelossim where fishing trawlers dock, accompanied by nightly live retro Goan acoustic bands",
+      "Sensational seafood feasts"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 287 1317",
+    "website": "http://thefishermanswharf.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-mums-kitchen-panaji",
+    "name": "Mum's Kitchen (Since 1997)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "854, Martin's Building, Dayanand Bandodkar Marg, Miramar, Panaji, North Goa, Goa 403001",
+    "latitude": 15.4854,
+    "longitude": 73.8112,
+    "cuisine": [
+      "Authentic Goan Hindu & Christian Heritage",
+      "Slow-Cooked Clay Pot Seafood"
+    ],
+    "famousDishes": [
+      "Crab Xacuti",
+      "Pork Sorpotel",
+      "Prawn Curry in Earthen Pot (Koddi)",
+      "Tambdi Bhaji (Red Amaranth)",
+      "Alle Belle (Goan Jaggery-Coconut Crepes)"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Crab Xacuti with Coconut & 18 Spices",
+        "price": 890
+      },
+      {
+        "food": "Slow-Cooked Pork Sorpotel with Steamed Sannas",
+        "price": 490
+      },
+      {
+        "food": "Prawn Curry in Clay Pot with Red Goan Rice",
+        "price": 580
+      },
+      {
+        "food": "Alle Belle (Sweet Coconut Crepe)",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 950,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Heritage Indo-Portuguese Decor",
+      "Full Bar",
+      "Preservation of Lost Recipes"
+    ],
+    "specialFeatures": [
+      "Founded in 1997 with a mission to document and revive endangered family recipes from Goan mothers across both Christian and Hindu communities, cooked in earthen pots without artificial colors",
+      "A culinary institution in Panaji"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98221 75559",
+    "website": "http://mumskitchengoa.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-souza-lobo",
+    "name": "Souza Lobo (Since 1932)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Calangute Beach Promenade, Calangute, North Goa, Goa 403516",
+    "latitude": 15.5412,
+    "longitude": 73.7545,
+    "cuisine": [
+      "Goan Coastal",
+      "Seafood Shack Classics",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Seafood Platter Souza Lobo (Lobster, Crab, Prawns, Kingfish)",
+      "Prawn Balchao",
+      "Masala Fried Calamari (Squid)",
+      "Bebinca",
+      "Goan Chouriço Pao"
+    ],
+    "menu": [
+      {
+        "food": "Grand Seafood Platter Souza Lobo",
+        "price": 2400
+      },
+      {
+        "food": "Spicy Prawn Balchao with Poi",
+        "price": 580
+      },
+      {
+        "food": "Crispy Calamari Rings Masala Fry",
+        "price": 460
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Direct Beachfront Sand Tables",
+      "Full Bar",
+      "Sunset Ocean Horizon View",
+      "Historic 1932 Shack"
+    ],
+    "specialFeatures": [
+      "Operating directly on Calangute Beach sands since 1932, famous for massive platters of freshly caught Arabian Sea fish, prawns, and crabs as ocean waves crash just steps away",
+      "Classic old-world beach dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 228 1234",
+    "website": "http://souzalobo.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-gunpowder-assagao",
+    "name": "Gunpowder",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "House No. 6, Saunto Vaddo, Near Assagao Church, Assagao, North Goa, Goa 403507",
+    "latitude": 15.5891,
+    "longitude": 73.7789,
+    "cuisine": [
+      "Peninsular South Indian",
+      "Kerala Coastal",
+      "Andhra & Tamil Soul Food"
+    ],
+    "famousDishes": [
+      "Kerala Beef Fry with Soft Malabar Parotta",
+      "Pandhi Curry (Coorg Pork)",
+      "Appam with Egg Roast",
+      "Kozhi Roast",
+      "Kokum Margarita"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Kerala Beef Fry with 2 Flaky Parottas",
+        "price": 480
+      },
+      {
+        "food": "Coorg Pandhi Curry (Pork in Dark Kachampuli Vinegar)",
+        "price": 520
+      },
+      {
+        "food": "Lacy Appams with Vegetable Stew",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "150-Year-Old Portuguese Villa Courtyard",
+      "Canopy Garden Cocktail Bar",
+      "Artisan Boutique On-Site"
+    ],
+    "specialFeatures": [
+      "Sensational dining venue set inside the lush bohemian garden courtyard of a restored heritage Portuguese villa in fashionable Assagao, celebrated for fiery South Indian coastal soul food",
+      "Top food destination in Goa"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 226 8083",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-vinayak-family-restaurant",
+    "name": "Vinayak Family Restaurant",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "House No. 252, Main Road, Near Primary Health Centre, Assagao, North Goa, Goa 403507",
+    "latitude": 15.5925,
+    "longitude": 73.7821,
+    "cuisine": [
+      "Traditional Goan Hindu",
+      "Fish Thali Specialist",
+      "Coastal Seafood"
+    ],
+    "famousDishes": [
+      "Special Goan Fish Curry Thali (with Fried Surmai/Chonak, Tisryo Clams & Kismoor)",
+      "Prawn Rava Fry",
+      "Crab Masala",
+      "Solkadhi"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Goan Fish Curry Thali (Kingfish / Surmai)",
+        "price": 280
+      },
+      {
+        "food": "Crispy Prawns Rava Fry",
+        "price": 360
+      },
+      {
+        "food": "Crab Masala Fry",
+        "price": 420
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Paddy Field View Porch",
+      "Family Dining",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Unpretentious family-run tavern overlooking green paddy fields in Assagao, widely acknowledged by locals as the ultimate spot for an authentic, delicious, and budget-friendly Goan Fish Curry Thali",
+      "Perpetually buzzing with locals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 90115 86658",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-thalassa-siolim",
+    "name": "Thalassa - Greek Taverna",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "Plot No. 301/1, Vaddy, Near Siolim Bridge, Siolim, North Goa, Goa 403517",
+    "latitude": 15.6212,
+    "longitude": 73.7689,
+    "cuisine": [
+      "Greek",
+      "Mediterranean",
+      "Cocktails & Sunset Bar"
+    ],
+    "famousDishes": [
+      "Greek Souvlaki Skewers with Tzatziki",
+      "Pork Chops",
+      "Spanakopita (Spinach Feta Pastry)",
+      "Fresh Steamed Mussels in White Wine",
+      "Baklava"
+    ],
+    "menu": [
+      {
+        "food": "Thalassa Special Meat Souvlaki with Pita & Tzatziki",
+        "price": 580
+      },
+      {
+        "food": "Grilled Lamb Chops Greek Style",
+        "price": 750
+      },
+      {
+        "food": "Authentic Honey Nut Baklava",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 1200,
+    "priceCategory": "Premium",
+    "rating": 4.6,
+    "amenities": [
+      "Whitewashed Greek Taverna",
+      "Waterfront Chapora River & Backwaters View",
+      "Sunset DJ Evenings",
+      "Full Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Founded by Greek chef Mariketty Grana, famous for its whitewashed Aegean island aesthetic overlooking the Chapora River backwaters with fire dancers and euphoric sunset cocktail evenings",
+      "Goa's most iconic sunset lounge"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98500 33537",
+    "website": "http://thalassagoa.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-viva-panjim",
+    "name": "Viva Panjim (Fontainhas Heritage)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "House No. 178, 31st January Road, Behind Mary Immaculate High School, Fontainhas, Panaji, Goa 403001",
+    "latitude": 15.4989,
+    "longitude": 73.8312,
+    "cuisine": [
+      "Goan Portuguese",
+      "Catholic Heritage Cuisine",
+      "Seafood"
+    ],
+    "famousDishes": [
+      "Prawn Stuffed Calamari",
+      "Pork Vindaloo with Poi",
+      "Fish Curry Rice",
+      "Prawn Balchao",
+      "Bebinca with Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Prawn Stuffed Calamari (Squid)",
+        "price": 420
+      },
+      {
+        "food": "Authentic Pork Vindaloo with Goan Bread",
+        "price": 340
+      },
+      {
+        "food": "Goan Fish Curry Thali",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic Fontainhas Latin Quarter Cottage",
+      "Outdoor Cobblestone Alley Tables",
+      "Quaint Family Dining"
+    ],
+    "specialFeatures": [
+      "Cozy, romantic heritage dining hidden in the vibrant yellow-and-blue cobblestone alleys of Fontainhas (Asia's only surviving Latin Quarter), serving authentic home-cooked Portuguese-Goan dishes",
+      "Award-winning heritage tavern"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 242 2405",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-brittos-baga",
+    "name": "Britto's Restaurant & Bar (Since 1965)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "House No. 7/171, Baga Beach, Calangute, North Goa, Goa 403516",
+    "latitude": 15.5568,
+    "longitude": 73.7512,
+    "cuisine": [
+      "Goan Coastal",
+      "Continental",
+      "Seafood Grills",
+      "Bakery & Desserts"
+    ],
+    "famousDishes": [
+      "Baked Stuffed Crab",
+      "Jumbo Prawns in Butter Garlic",
+      "Goan Caldine Curry",
+      "Pork Ribs Barbeque",
+      "Strawberry Tart",
+      "Bebinca"
+    ],
+    "menu": [
+      {
+        "food": "Britto's Signature Baked Crab",
+        "price": 540
+      },
+      {
+        "food": "Jumbo Butter Garlic Prawns",
+        "price": 780
+      },
+      {
+        "food": "Pork Spare Ribs in BBQ Sauce",
+        "price": 520
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Direct Beach Sand Seating",
+      "Full Bar",
+      "Baga Beach Sunset Horizon",
+      "In-House Bakery Showcase"
+    ],
+    "specialFeatures": [
+      "Operating right on the sands of Baga Beach since 1965, famous for rich baked crab shells, seafood grills, and an irresistible bakery counter featuring giant fruit tarts and layered bebincas",
+      "Baga's definitive beach institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 227 7331",
+    "website": "http://brittosgoa.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-goa-ritz-classic-panaji",
+    "name": "Ritz Classic (Original 18th June Road)",
+    "city": "Goa",
+    "state": "Goa",
+    "address": "1st Floor, Wagle Vision Building, 18th June Road, Panaji, North Goa, Goa 403001",
+    "latitude": 15.4965,
+    "longitude": 73.8278,
+    "cuisine": [
+      "Traditional Goan Hindu",
+      "Fish Thali",
+      "Seafood"
+    ],
+    "famousDishes": [
+      "Ritz Classic Grand Fish Curry Thali (Kingfish, Prawn Curry, Crab Masala, Tisryo & Kismoor)",
+      "Squid Butter Garlic",
+      "Crab Masala",
+      "Solkadhi"
+    ],
+    "menu": [
+      {
+        "food": "Ritz Classic Special Grand Fish Thali",
+        "price": 340
+      },
+      {
+        "food": "Squid Butter Garlic Fry",
+        "price": 380
+      },
+      {
+        "food": "Kingfish Tawa Fry",
+        "price": 440
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Full Bar",
+      "High-Volume Traditional Service",
+      "Downtown Panaji Location"
+    ],
+    "specialFeatures": [
+      "The legendary weekday lunch benchmark for Panaji office workers, judges, and visiting dignitaries, serving towering copper thalis laden with fresh catch fish curry, fried kingfish, and dried prawn kismoor",
+      "Top fish thali authority"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 832 242 6417",
+    "website": "http://ritzclassicgoa.com",
+    "available": true
+  }
+]

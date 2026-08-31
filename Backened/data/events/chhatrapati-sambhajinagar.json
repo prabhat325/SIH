@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "SAMBHAJINAGAR-EVENT-001",
+            "name": "Ellora-Ajanta Festival",
+            "city": "Chhatrapati Sambhajinagar",
+            "state": "Maharashtra",
+            "description": "A three-day cultural festival celebrating the UNESCO World Heritage Sites.",
+            "type": "Cultural",
+            "venue": "Soneri Mahal",
+            "usualMonth": "February",
+            "usualTime": "Evening",
+            "usualDuration": "3 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://chhsambhajinagar.in/events/eaif.php",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SAMBHAJINAGAR-EVENT-002",
+            "name": "Ajanta-Ellora International Film Festival",
+            "city": "Chhatrapati Sambhajinagar",
+            "state": "Maharashtra",
+            "description": "An annual five-day international film festival.",
+            "type": "Cultural",
+            "venue": "PVR INOX, Prozone Mall",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "5 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://chhsambhajinagar.in/events/eaif.php",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SAMBHAJINAGAR-EVENT-003",
+            "name": "Tuljabhavani Navaratri Mahotsav",
+            "city": "Chhatrapati Sambhajinagar",
+            "state": "Maharashtra",
+            "description": "A state-level festival celebrating the nine nights of Navaratri.",
+            "type": "Religious",
+            "venue": "Various temples across the city",
+            "usualMonth": "September/October",
+            "usualTime": "Morning to night",
+            "usualDuration": "9 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://maharashtratourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "SAMBHAJINAGAR-EVENT-004",
+            "name": "Ganesh Chaturthi",
+            "city": "Chhatrapati Sambhajinagar",
+            "state": "Maharashtra",
+            "description": "The grand celebration of Lord Ganesha's birth anniversary.",
+            "type": "Religious",
+            "venue": "Various pandals across the city",
+            "usualMonth": "August/September",
+            "usualTime": "Morning to night",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://maharashtratourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "BHUBANESWAR-EVENT-001",
+            "name": "Rath Yatra",
+            "city": "Bhubaneswar",
+            "state": "Odisha",
+            "description": "The grand chariot festival of Lord Jagannath.",
+            "type": "Religious",
+            "venue": "Various temples across Bhubaneswar",
+            "usualMonth": "June/July",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "BHUBANESWAR-EVENT-002",
+            "name": "Ashokastami Rath Yatra",
+            "city": "Bhubaneswar",
+            "state": "Odisha",
+            "description": "The annual chariot festival held on Ashokastami.",
+            "type": "Religious",
+            "venue": "Lingaraj Temple and city streets",
+            "usualMonth": "April",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "BHUBANESWAR-EVENT-003",
+            "name": "Durga Puja",
+            "city": "Bhubaneswar",
+            "state": "Odisha",
+            "description": "The grand celebration of Goddess Durga with elaborately decorated pandals.",
+            "type": "Religious",
+            "venue": "Various pandals across Bhubaneswar",
+            "usualMonth": "September/October",
+            "usualTime": "Morning to night",
+            "usualDuration": "5-10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://odishatourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

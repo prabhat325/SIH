@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "MUNNAR-EVENT-001",
+            "name": "Neelakurinji Bloom Festival",
+            "city": "Munnar",
+            "state": "Kerala",
+            "description": "A unique festival celebrating the rare blooming of Neelakurinji flowers (once every 12 years).",
+            "type": "Festival",
+            "venue": "Eravikulam National Park and surrounding areas",
+            "usualMonth": "August-October (every 12 years)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://keralatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MUNNAR-EVENT-002",
+            "name": "Onam Celebrations",
+            "city": "Munnar",
+            "state": "Kerala",
+            "description": "Kerala's harvest festival celebrated in tea estates with Onasadya.",
+            "type": "Festival",
+            "venue": "Various venues in Munnar",
+            "usualMonth": "August/September",
+            "usualTime": "Morning to evening",
+            "usualDuration": "10 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://keralatourism.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MUNNAR-EVENT-003",
+            "name": "Munnar Tea Festival",
+            "city": "Munnar",
+            "state": "Kerala",
+            "description": "A festival celebrating Munnar's tea heritage.",
+            "type": "Festival",
+            "venue": "Various tea estates in Munnar",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://keralatourism.org/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

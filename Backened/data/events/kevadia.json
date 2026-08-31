@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "eventId": "KEVADIA-EVENT-001",
+            "name": "Statue of Unity Light and Sound Show",
+            "city": "Kevadia / Ekta Nagar",
+            "state": "Gujarat",
+            "description": "Daily light and sound show depicting Sardar Patel's life.",
+            "type": "Cultural",
+            "venue": "Statue of Unity",
+            "usualMonth": "Year-round",
+            "usualTime": "Evening",
+            "usualDuration": "Daily",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://statueofunity.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "KEVADIA-EVENT-002",
+            "name": "Ekta Diwas",
+            "city": "Kevadia / Ekta Nagar",
+            "state": "Gujarat",
+            "description": "Unity Day on October 31st marking Sardar Patel's birth anniversary.",
+            "type": "Cultural",
+            "venue": "Statue of Unity",
+            "usualMonth": "October",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://statueofunity.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

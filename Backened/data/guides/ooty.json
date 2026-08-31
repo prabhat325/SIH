@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "OOT-001",
+        "name": "Regional Guide",
+        "city": "Ooty",
+        "state": "Tamil Nadu",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Hill Stations"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 9,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

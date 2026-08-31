@@ -1,0 +1,436 @@
+[
+  {
+    "restaurantId": "rst-khj-raja-cafe",
+    "name": "Raja Cafe (Since 1978)",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Main Market, Opposite Western Group of Temples, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8512,
+    "longitude": 79.9234,
+    "cuisine": [
+      "Italian",
+      "Continental",
+      "Bundelkhandi & North Indian",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood-fired Thin Crust Pizza",
+      "Bundelkhandi Thali",
+      "Swiss Fondue",
+      "Tandoori Chicken",
+      "Espresso Coffee",
+      "Apple Pie"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Four Cheese Pizza",
+        "price": 420
+      },
+      {
+        "food": "Raja Special Royal Thali",
+        "price": 340
+      },
+      {
+        "food": "Tandoori Chicken (Half)",
+        "price": 360
+      },
+      {
+        "food": "Homemade Apple Pie with Ice Cream",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Direct Temple View Rooftop Deck",
+      "Treehouse Canopy Seating",
+      "Full Bar",
+      "Free Wi-Fi",
+      "Swiss Hospitality Heritage"
+    ],
+    "specialFeatures": [
+      "Established in 1978 by two local brothers and their Swiss wives, this iconic treehouse rooftop cafe sits directly opposite the Western Group of Temples, offering wood-fired pizzas and sunset views of the 10th-century erotic temple spires",
+      "A legendary traveler landmark"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 272 307",
+    "website": "http://rajacafe.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-khj-agrasen-pure-veg",
+    "name": "Agrasen Pure Veg Restaurant",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Near Shivsagar Lake & Western Temples, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8498,
+    "longitude": 80.9221,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Bundelkhandi",
+      "North Indian Thali"
+    ],
+    "famousDishes": [
+      "Bundelkhandi Dal Baati Churma",
+      "Paneer Butter Masala",
+      "Special Gujarati-Marwari Thali",
+      "Dal Tadka",
+      "Lassi"
+    ],
+    "menu": [
+      {
+        "food": "Special Desi Ghee Dal Baati Churma Thali",
+        "price": 240
+      },
+      {
+        "food": "Agrasen Executive Veg Thali",
+        "price": 210
+      },
+      {
+        "food": "Paneer Lababdar with Butter Naan",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Fast Service",
+      "Family Seating"
+    ],
+    "specialFeatures": [
+      "Trusted pure-vegetarian restaurant serving wholesome Bundelkhandi dal baati and North Indian comfort thalis right next to the historic Shivsagar lake",
+      "High hygiene and great value"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 274 555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-khj-mediterraneo-italian",
+    "name": "Mediterraneo Italian Restaurant",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Jain Temple Road, Near Gole Market, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8525,
+    "longitude": 79.9278,
+    "cuisine": [
+      "Authentic Italian",
+      "Pasta & Pizza",
+      "Bakery",
+      "Café"
+    ],
+    "famousDishes": [
+      "Handmade Tagliatelle with Pesto",
+      "Wood-fired Margherita Pizza",
+      "Bruschetta Al Pomodoro",
+      "Tiramisu",
+      "Italian Espresso"
+    ],
+    "menu": [
+      {
+        "food": "Handcrafted Fettuccine Funghi e Pesto",
+        "price": 380
+      },
+      {
+        "food": "Wood-fired Prosciutto & Funghi Pizza",
+        "price": 440
+      },
+      {
+        "food": "Classic Homemade Tiramisu",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Rooftop Terrace",
+      "Brick Wood-Fired Oven",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Cozy rooftop trattoria run with authentic Italian culinary passion, serving freshly rolled egg pasta, extra virgin olive oil dressings, and sourdough pizzas to international travelers",
+      "Charming village views"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94251 45678",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-khj-panna-the-lalit",
+    "name": "Panna - The LaLiT Temple View",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "The LaLiT Temple View, Opposite Circuit House, Sevagram, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8465,
+    "longitude": 79.9289,
+    "cuisine": [
+      "Royal Indian",
+      "Bundelkhandi Heritage",
+      "Continental Fine Dining"
+    ],
+    "famousDishes": [
+      "Bundelkhandi Gosht Korma",
+      "LaLiT Dal Makhani",
+      "Tandoori Jhinga",
+      "Paneer Tikka Panna",
+      "Moong Dal Halwa"
+    ],
+    "menu": [
+      {
+        "food": "Royal Bundelkhandi Set Dinner",
+        "price": 2800
+      },
+      {
+        "food": "Bundelkhandi Gosht",
+        "price": 950
+      },
+      {
+        "food": "Signature Dal LaLiT",
+        "price": 550
+      }
+    ],
+    "averageCostForOne": 2500,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "Temple View Manicured Lawns",
+      "5-Star Luxury Fine Dining",
+      "Full Bar",
+      "Valet Parking",
+      "Live Classical Sitar"
+    ],
+    "specialFeatures": [
+      "Palatial 5-star fine-dining salon overlooking landscaped lawns with direct sightlines to the Western Group of Temples, specializing in royal Bundelkhandi royal recipes",
+      "Opulent dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 272 111",
+    "website": "https://www.thelalit.com/the-lalit-khajuraho/eat-and-drink/panna/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-khj-lassi-corner",
+    "name": "Lassi Corner & Breakfast Cafe",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Jain Temple Road, Near Western Temples, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8518,
+    "longitude": 79.9254,
+    "cuisine": [
+      "Beverages",
+      "Breakfast",
+      "Café"
+    ],
+    "famousDishes": [
+      "Special Thick Banana Lassi",
+      "Pomegranate Lassi",
+      "Pancakes with Honey",
+      "Masala Chai in Kulhad",
+      "Ginger Lemon Honey Tea"
+    ],
+    "menu": [
+      {
+        "food": "Special Mixed Dry Fruit Lassi (Kulhad)",
+        "price": 80
+      },
+      {
+        "food": "Banana Nutella Pancake",
+        "price": 120
+      },
+      {
+        "food": "Masala Chai Pot",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Outdoor Village Benches",
+      "Pure Vegetarian",
+      "Quick Service"
+    ],
+    "specialFeatures": [
+      "Popular backpacker beverage stall on Jain Temple Road famous for blending the creamiest fruit lassis and serving hearty pancake breakfasts before sunrise temple tours",
+      "Friendly local vibe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-khj-pinch-of-spice",
+    "name": "Pinch of Spice Khajuraho",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Airport Road, Sevagram, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8421,
+    "longitude": 79.9212,
+    "cuisine": [
+      "Mughlai",
+      "North Indian",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Murgh Boti Masala",
+      "Paneer Lababdar",
+      "Dal Makhani",
+      "Mutton Rogan Josh",
+      "Butter Naan"
+    ],
+    "menu": [
+      {
+        "food": "Murg Boti Masala",
+        "price": 440
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 340
+      },
+      {
+        "food": "Dal Makhani",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Valet Parking",
+      "Family Friendly",
+      "Full Bar"
+    ],
+    "specialFeatures": [
+      "Upscale multi-cuisine restaurant on Airport Road famous for rich tandoori grills, clay-oven rotis, and aromatic Mughlai gravies",
+      "Spacious family dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 7686 274 000",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-khj-blue-sky-restaurant",
+    "name": "Blue Sky Restaurant",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Opposite Western Group of Temples, Sevagram, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8509,
+    "longitude": 79.9241,
+    "cuisine": [
+      "Indian",
+      "Continental",
+      "Chinese",
+      "Café"
+    ],
+    "famousDishes": [
+      "Tandoori Fish",
+      "Dal Tadka with Jeera Rice",
+      "Wood-fired Pizza",
+      "Chicken Curry",
+      "Cold Beer"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Local Fish Fry",
+        "price": 360
+      },
+      {
+        "food": "Chicken Curry with Rice",
+        "price": 320
+      },
+      {
+        "food": "Wood-fired Veg Pizza",
+        "price": 310
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Bamboo Treehouse Rooftop",
+      "Direct Temple Spire View",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Rustic thatched-bamboo rooftop treehouse overlooking the lush temple park gardens, offering cold beverages and multi-cuisine traveler comfort food",
+      "Relaxed bohemian setting"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94251 67890",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-khj-badri-seth-halwai",
+    "name": "Badri Seth Halwai (Since 1960)",
+    "city": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "address": "Gole Market, Main Bazaar, Khajuraho, Madhya Pradesh 471606",
+    "latitude": 24.8521,
+    "longitude": 79.9265,
+    "cuisine": [
+      "Street Food",
+      "Breakfast",
+      "Traditional Sweets"
+    ],
+    "famousDishes": [
+      "Indori Poha with Sev",
+      "Crispy Desi Ghee Jalebi",
+      "Samosa with Chutney",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Poha Jalebi Combo Plate",
+        "price": 50
+      },
+      {
+        "food": "Hot Desi Ghee Samosa (2 pcs)",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 60,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Old Heritage Halwai Shop",
+      "Morning Only"
+    ],
+    "specialFeatures": [
+      "Historic old-bazaar halwai frying golden crisp jalebis in pure desi ghee and dishing out spicy yellow poha to temple priests and local villagers since 1960",
+      "Local morning ritual"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

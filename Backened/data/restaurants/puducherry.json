@@ -1,0 +1,217 @@
+[
+  {
+    "restaurantId": "rst-pdy-carte-blanche-hotel-de-lorient",
+    "name": "Carte Blanche - Hôtel de l'Orient",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "17, Rue Romain Rolland, White Town (French Quarter), Puducherry 605001",
+    "latitude": 11.9325,
+    "longitude": 79.8345,
+    "cuisine": [
+      "Franco-Tamil Creole Heritage",
+      "French",
+      "Seafood Fine Dining"
+    ],
+    "famousDishes": [
+      "Creole Prawn Rougail",
+      "Poisson en Papillote (Baked Fish in Banana Leaf)",
+      "Creole Duck Curry with Tamarind",
+      "Bouillabaisse Seafood Soup",
+      "Crepes Suzette with Cointreau"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Franco-Tamil Prawn Rougail with Steamed Rice",
+        "price": 680
+      },
+      {
+        "food": "Fresh Catch Fish en Papillote with Herbs",
+        "price": 620
+      },
+      {
+        "food": "Crepes Suzette Flambéed with Orange Liqueur",
+        "price": 280
+      }
+    ],
+    "averageCostForOne": 950,
+    "priceCategory": "Premium",
+    "rating": 4.8,
+    "amenities": [
+      "18th-Century Restored French Colonial Courtyard",
+      "Neem Tree Canopy Dining",
+      "Full Bar",
+      "Heritage White Town Location"
+    ],
+    "specialFeatures": [
+      "Set in the breezy central courtyard of an 18th-century French mansion in White Town, reviving the unique, nearly extinct 'Franco-Tamil Creole' culinary heritage created by French colonists and Tamil chefs over 300 years",
+      "An extraordinary historical dining experience"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 234 3051",
+    "website": "https://www.neemranahotels.com/hotel-de-lorient-pondicherry/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pdy-cafe-des-arts",
+    "name": "Cafe des Arts",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "10, Rue Suffren, White Town (French Quarter), Puducherry 605001",
+    "latitude": 11.9312,
+    "longitude": 79.8325,
+    "cuisine": [
+      "French Bohemian Cafe",
+      "Crepes & Galettes",
+      "Bakery & Coffee"
+    ],
+    "famousDishes": [
+      "Croque-Monsieur with Emmental",
+      "Buckwheat Savory Galette with Goat Cheese & Honey",
+      "Nutella Banana French Crepe",
+      "Fresh Hibiscus Iced Tea",
+      "Gazpacho"
+    ],
+    "menu": [
+      {
+        "food": "Classic French Croque-Monsieur with Green Salad",
+        "price": 290
+      },
+      {
+        "food": "Goat Cheese & Walnut Buckwheat Galette",
+        "price": 340
+      },
+      {
+        "food": "Fresh Chilled Hibiscus Mint Iced Tea",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "19th-Century Mustard Yellow French Villa",
+      "Lush Garden Patio",
+      "Vintage Rickshaw Installation",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Housed inside an iconic mustard-yellow French colonial townhouse on Rue Suffren with shuttered windows, bougainvillea blooms, and vintage art installations, serving authentic French crepes and tartines",
+      "The definitive White Town cafe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 99944 81914",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pdy-baker-street",
+    "name": "Baker Street - Concept Store",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "123, Bussy Street, Near Mission Street, Puducherry 605001",
+    "latitude": 11.9345,
+    "longitude": 79.8278,
+    "cuisine": [
+      "Authentic French Boulangerie",
+      "Patisserie & Viennoiserie"
+    ],
+    "famousDishes": [
+      "Pure Butter Croissants",
+      "Pain au Chocolat",
+      "Traditional Quiche Lorraine",
+      "French Baguettes",
+      "Chocolate Eclairs",
+      "Macarons"
+    ],
+    "menu": [
+      {
+        "food": "Pure Butter Flaky French Croissant",
+        "price": 110
+      },
+      {
+        "food": "Authentic Quiche Lorraine (Ham & Cheese / Veg)",
+        "price": 180
+      },
+      {
+        "food": "Classic Chocolate Eclair",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Authentic French Artisan Bakery Counter",
+      "Air Conditioning",
+      "Takeaway Patisserie Boxes"
+    ],
+    "specialFeatures": [
+      "Founded by French master bakers in Pondicherry, turning out authentic crusty French baguettes, laminated butter croissants, and exquisite chocolate eclairs following traditional French baking statutes",
+      "The capital of French pastry in India"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 222 7899",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pdy-surguru-spot",
+    "name": "Hotel Surguru (Sardar Vallabhai Patel Salai)",
+    "city": "Puducherry",
+    "state": "Puducherry",
+    "address": "104, Sardar Vallabhai Patel Salai, Heritage Town, Puducherry 605001",
+    "latitude": 11.9389,
+    "longitude": 79.8289,
+    "cuisine": [
+      "Pure Vegetarian",
+      "South Indian Meals",
+      "Tiffin & Filter Coffee"
+    ],
+    "famousDishes": [
+      "Grand South Indian Banana Leaf Meals",
+      "Special Ghee Podi Masala Dosa",
+      "Paniaram",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Executive South Indian Vegetarian Meal",
+        "price": 180
+      },
+      {
+        "food": "Ghee Roast Masala Dosa",
+        "price": 120
+      },
+      {
+        "food": "Madras Filter Coffee",
+        "price": 40
+      }
+    ],
+    "averageCostForOne": 160,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Central Heritage Town",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Puducherry's undisputed king of pure-vegetarian South Indian dining, famous for immaculate banana leaf meals, ghee roast dosas, and aromatic filter coffee",
+      "Everlasting family favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 413 233 9022",
+    "website": "http://hotelsurguru.com",
+    "available": true
+  }
+]

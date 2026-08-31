@@ -1,0 +1,38 @@
+{
+    "events": [
+        {
+            "eventId": "KHAJURAHO-EVENT-001",
+            "name": "Khajuraho Dance Festival",
+            "city": "Khajuraho",
+            "state": "Madhya Pradesh",
+            "description": "A week-long classical dance festival against the backdrop of UNESCO temples.",
+            "type": "Cultural",
+            "venue": "Open-air auditorium near Western Group of Temples",
+            "usualMonth": "February",
+            "usualTime": "Evening",
+            "usualDuration": "7 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.incredibleindia.gov.in/en/festivals-and-events/madhya-pradesh/khajuraho-dance-festival",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "KHAJURAHO-EVENT-002",
+            "name": "Shivratri Festival",
+            "city": "Khajuraho",
+            "state": "Madhya Pradesh",
+            "description": "A religious festival at the ancient temples.",
+            "type": "Religious",
+            "venue": "Khajuraho Temples",
+            "usualMonth": "February/March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://mptourism.com/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

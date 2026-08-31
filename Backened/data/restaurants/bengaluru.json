@@ -1,0 +1,552 @@
+[
+  {
+    "restaurantId": "rst-blr-mtr-lalbagh",
+    "name": "Mavalli Tiffin Room (MTR) (Since 1924)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "14, Lalbagh Fort Road, Near Lalbagh Main Gate, Mavalli, Bengaluru, Karnataka 560004",
+    "latitude": 12.9554,
+    "longitude": 77.5856,
+    "cuisine": [
+      "Heritage South Indian",
+      "Karnataka Brahmin Pure Veg",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Original Rava Idli (Invented Here in WWII with Pure Ghee)",
+      "Masala Dosa with Spiced Ghee",
+      "Bisibelebath with Khara Boondi",
+      "Chandrahara Sweet",
+      "Filter Coffee in Silver Tumbler"
+    ],
+    "menu": [
+      {
+        "food": "Signature Rava Idli with Pure Ghee & Potato Sagu",
+        "price": 90
+      },
+      {
+        "food": "Special Masala Dosa with Ghee Dip",
+        "price": 110
+      },
+      {
+        "food": "Authentic Bisibelebath with Raita",
+        "price": 100
+      },
+      {
+        "food": "Madras Filter Coffee (Pure Brass Tumbler)",
+        "price": 45
+      }
+    ],
+    "averageCostForOne": 180,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Historic 1924 Heritage Restaurant",
+      "Pure Vegetarian",
+      "Silverware Heritage Dining",
+      "Strict Quality Standards"
+    ],
+    "specialFeatures": [
+      "Founded in 1924 by the Maiya brothers near Lalbagh, world-famous for inventing the 'Rava Idli' during World War II rice shortages and maintaining gold-standard pure ghee fermentation for a century",
+      "Bengaluru's greatest living culinary temple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 2222 0022",
+    "website": "http://mavallitiffinrooms.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-vidyarthi-bhavan",
+    "name": "Vidyarthi Bhavan (Since 1943)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "32, Gandhi Bazaar Main Road, Basavanagudi, Bengaluru, Karnataka 560004",
+    "latitude": 12.9425,
+    "longitude": 77.5718,
+    "cuisine": [
+      "South Indian",
+      "Iconic Masala Dosa",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Legendary Thick Crispy VB Masala Dosa (Golden Ghee Crust)",
+      "Crispy Medu Vada",
+      "Kesari Bath",
+      "Rava Vada",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Vidyarthi Bhavan Masala Dosa",
+        "price": 75
+      },
+      {
+        "food": "Crispy Medu Vada with Chutney",
+        "price": 45
+      },
+      {
+        "food": "Kesari Bath (Pineapple / Saffron)",
+        "price": 50
+      },
+      {
+        "food": "Aromatic Filter Coffee",
+        "price": 35
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Historic 1943 Students' Heritage Cafe",
+      "Portraits of Kannada Literary Titans",
+      "Balancing Waiter Dosa Stacks (20+ plates on one arm)"
+    ],
+    "specialFeatures": [
+      "Established in 1943 in Gandhi Bazaar for students, world-famous for its ultra-crisp golden brown thick masala dosas with potato sagu and the theatrical sight of waiters carrying towers of 20 dosas perched on one arm",
+      "An essential Bengaluru cultural ritual"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 2667 7588",
+    "website": "http://vidyarthibhavan.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-ctr-shri-sagar",
+    "name": "Central Tiffin Room (CTR) / Shri Sagar (Since 1950)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "7th Cross, Margosa Road, Malleshwaram, Bengaluru, Karnataka 560003",
+    "latitude": 13.0012,
+    "longitude": 77.5712,
+    "cuisine": [
+      "South Indian",
+      "Benne Dosa Specialist",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Benne Masala Dosa (Butter Dosa with Melting White Butter)",
+      "Mangalore Bajji",
+      "Poori Sagu",
+      "Filter Kaapi",
+      "Rava Idli"
+    ],
+    "menu": [
+      {
+        "food": "Signature Crispy Benne Masala Dosa",
+        "price": 85
+      },
+      {
+        "food": "Crispy Mangalore Bajji (4 pcs with Coconut Chutney)",
+        "price": 50
+      },
+      {
+        "food": "Filter Coffee",
+        "price": 35
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic Malleshwaram Heritage Cafe",
+      "Pure Vegetarian",
+      "Traditional Vintage Seating"
+    ],
+    "specialFeatures": [
+      "Malleshwaram's crown jewel since 1950, celebrated for serving the crunchiest, golden-fried Benne (butter) Masala Dosa in India with a fluffy cloud interior and spicy potato filling",
+      "Unchallenged master of butter dosas"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 2331 7531",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-koshys-st-marks",
+    "name": "Koshy's Parade Cafe (Since 1940)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "39, St. Marks Road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+    "latitude": 12.9738,
+    "longitude": 77.6012,
+    "cuisine": [
+      "Anglo-Indian",
+      "Continental",
+      "Kerala Heritage",
+      "Breakfast & Pub"
+    ],
+    "famousDishes": [
+      "Appam with Mutton Stew",
+      "Koshy's Special Roast Chicken",
+      "Fish Moolie",
+      "Mutton Cutlets",
+      "Pork Sausages with Bacon",
+      "Cold Draft Beer"
+    ],
+    "menu": [
+      {
+        "food": "Lacy Appams with Kerala Mutton Stew",
+        "price": 380
+      },
+      {
+        "food": "Koshy's Special Roast Chicken with Stuffing & Mash",
+        "price": 440
+      },
+      {
+        "food": "Crispy Mutton Cutlet (2 pcs with Mustard)",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "1940 Colonial Heritage Cafe",
+      "Full Bar (Jewel Box)",
+      "Intellectual Cultural Gathering Spot"
+    ],
+    "specialFeatures": [
+      "Historic institution on St. Marks Road that hosted Jawaharlal Nehru, Queen Elizabeth II, and Nikita Khrushchev, acting as Bangalore's bohemian salon for journalists, artists, and diplomats under slow-whirring ceiling fans",
+      "Timeless Bangalore soul"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 2221 3793",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-nagarjuna-residency",
+    "name": "Nagarjuna (Since 1984)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "44/1, Residency Road, Near Galaxy Theatre, Bengaluru, Karnataka 560025",
+    "latitude": 12.9712,
+    "longitude": 77.6089,
+    "cuisine": [
+      "Authentic Andhra",
+      "Banana Leaf Meals",
+      "Fiery Non-Veg"
+    ],
+    "famousDishes": [
+      "Unlimited Andhra Meals on Plantain Leaf with Gunpowder & Ghee",
+      "Nagarjuna Chicken Sholay Kebab",
+      "Andhra Chilli Chicken",
+      "Mutton Roast",
+      "Gongura Mutton"
+    ],
+    "menu": [
+      {
+        "food": "Unlimited Andhra Vegetarian Banana Leaf Meal",
+        "price": 280
+      },
+      {
+        "food": "Signature Chicken Sholay Kebab (Deep-fried with Curry Leaves)",
+        "price": 360
+      },
+      {
+        "food": "Fiery Andhra Chilli Chicken",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Banana Leaf Table Service",
+      "Valet Parking",
+      "Rapid Service"
+    ],
+    "specialFeatures": [
+      "Bengaluru's supreme temple of fiery Andhra cuisine on Residency Road, where piping hot rice is crowned with yellow pappu dal, spicy gunpowder podi, and molten ghee followed by legendary curry leaf-tossed Sholay kebabs",
+      "A fiery South Indian feast"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4112 1199",
+    "website": "http://nagarjunarestaurants.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-karavalli-gateway",
+    "name": "Karavalli - The Gateway Hotel",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "The Gateway Hotel, 66, Residency Road, Bengaluru, Karnataka 560025",
+    "latitude": 12.9705,
+    "longitude": 77.6095,
+    "cuisine": [
+      "Southwestern Coastal Indian",
+      "Mangalorean",
+      "Goan & Keralan Seafood"
+    ],
+    "famousDishes": [
+      "Kane Rava Fry (Ladyfish)",
+      "Crab Milagu Fry",
+      "Alleppey Fish Curry",
+      "Koli Barthad (Coorg Spiced Chicken)",
+      "Elaneer Payasam (Tender Coconut Kheer)"
+    ],
+    "menu": [
+      {
+        "food": "Kane (Ladyfish) Rava Fry",
+        "price": 850
+      },
+      {
+        "food": "Crab Milagu Pepper Fry",
+        "price": 1450
+      },
+      {
+        "food": "Signature Alleppey Fish Mango Curry",
+        "price": 950
+      },
+      {
+        "food": "Elaneer Payasam",
+        "price": 320
+      }
+    ],
+    "averageCostForOne": 2200,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "Traditional Coastal Mangalorean Bungalow",
+      "Banyan Tree Courtyard Dining",
+      "Full Bar",
+      "Valet Parking",
+      "Sommelier Wine List"
+    ],
+    "specialFeatures": [
+      "Consistently ranked among Asia's 50 Best Restaurants, Karavalli revives indigenous home-style coastal recipes from Mangalore, Calicut, and Goa inside a traditional courtyard house under ancient trees",
+      "The benchmark of coastal fine dining in India"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 6660 4545",
+    "website": "https://www.tajhotels.com/en-in/gateway/residency-road-bangalore/restaurants/karavalli/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-toit-indiranagar",
+    "name": "Toit Brewpub",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "298, 100 Feet Road, Near Domlur Flyover, Indiranagar, Bengaluru, Karnataka 560038",
+    "latitude": 12.9791,
+    "longitude": 77.6402,
+    "cuisine": [
+      "Microbrewery",
+      "Craft Beer",
+      "Wood-fired Pizza",
+      "Continental Pub Food"
+    ],
+    "famousDishes": [
+      "Basmati Blonde (Craft Ale)",
+      "Tint-In-Wit (Belgian Witbier)",
+      "Toit Baked Nachos",
+      "Wood-fired BBQ Chicken Pizza",
+      "Beer Battered Fish & Chips"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Craft Beer Mug (500ml)",
+        "price": 290
+      },
+      {
+        "food": "Wood-fired Smoky BBQ Chicken Pizza",
+        "price": 540
+      },
+      {
+        "food": "Beer Battered Fish & Chips with Tartar Sauce",
+        "price": 460
+      }
+    ],
+    "averageCostForOne": 900,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Multi-Level Microbrewery",
+      "Pet Friendly Outdoor Deck",
+      "On-Site Fermentation Vats",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Pioneered Bengaluru's craft beer revolution in 2010 on Indiranagar 100ft road, famous for its world-class artisanal ales, bubbling Belgian witbiers, and electric pub energy",
+      "The epicenter of Bangalore pub culture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 90197 13388",
+    "website": "http://toit.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-meghana-foods",
+    "name": "Meghana Foods (Since 2006)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "57/1, 1st Floor, 5th Block, Jyoti Nivas College Road, Koramangala, Bengaluru, Karnataka 560095",
+    "latitude": 12.9345,
+    "longitude": 77.6189,
+    "cuisine": [
+      "Andhra Biryani",
+      "Spicy Non-Veg Curries"
+    ],
+    "famousDishes": [
+      "Meghana Special Chicken Biryani (Boneless Chicken in Spicy Gravy over Fragrant Rice)",
+      "Mutton Dum Biryani",
+      "Chicken 65",
+      "Paneer Biryani",
+      "Mirchi Ka Salan"
+    ],
+    "menu": [
+      {
+        "food": "Signature Meghana Special Boneless Chicken Biryani",
+        "price": 340
+      },
+      {
+        "food": "Authentic Mutton Dum Biryani",
+        "price": 380
+      },
+      {
+        "food": "Meghana Chicken 65",
+        "price": 290
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "High-Volume Quick Service",
+      "Takeaway Specialist"
+    ],
+    "specialFeatures": [
+      "Bengaluru's cult biryani destination, world-famous for its unique Andhra-style preparation where spicy pan-fried marinated chicken chunks are layered beneath steaming aromatic basmati rice",
+      "Beloved by millions of techies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4146 3720",
+    "website": "http://meghanafoods.co.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-veena-stores",
+    "name": "Veena Stores (Since 1977)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "187, 15th Cross Road, Margosa Road, Malleshwaram, Bengaluru, Karnataka 560003",
+    "latitude": 13.0068,
+    "longitude": 77.5705,
+    "cuisine": [
+      "Traditional Breakfast",
+      "South Indian",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Melt-in-mouth Steamed Idli (Served with Mint-Coriander Chutney)",
+      "Crispy Medu Vada",
+      "Khara Bath (Upma)",
+      "Kesari Bath",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Soft Idli Plate (2 pcs with Mint Chutney Pool)",
+        "price": 40
+      },
+      {
+        "food": "Crisp Medu Vada (1 pc)",
+        "price": 30
+      },
+      {
+        "food": "Khara Bath (Spicy Upma)",
+        "price": 35
+      }
+    ],
+    "averageCostForOne": 60,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Iconic Standing Breakfast Counter",
+      "Pure Vegetarian",
+      "Morning Rush (No Seating)"
+    ],
+    "specialFeatures": [
+      "Operating since 1977 as a humble standing condiment store in Malleshwaram, revered across Karnataka for the softest cloud-like idlis submerged in rivers of fresh mint-coconut chutney",
+      "Pure breakfast ecstasy on the footpath"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 2334 4838",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-blr-empire-church-street",
+    "name": "Hotel Empire (Since 1966)",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "36, Church Street, Off Brigade Road, Shanthala Nagar, Bengaluru, Karnataka 560001",
+    "latitude": 12.9745,
+    "longitude": 77.6065,
+    "cuisine": [
+      "Mughlai",
+      "Kerala Parotta & Grills",
+      "Late-Night Feasts"
+    ],
+    "famousDishes": [
+      "Empire Special Ghee Rice with Chicken Kebab",
+      "Coin Parottas with Brain Pepper Fry",
+      "Empire Butter Chicken",
+      "Grilled Chicken",
+      "Shawarma Roll"
+    ],
+    "menu": [
+      {
+        "food": "Empire Special Ghee Rice with Half Chicken Kebab Combo",
+        "price": 290
+      },
+      {
+        "food": "Flaky Coin Parottas (Set of 3) with Chicken Curry",
+        "price": 180
+      },
+      {
+        "food": "Whole Tandoori Grilled Chicken",
+        "price": 440
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Late-Night Open (Till 2 AM)",
+      "Church Street Youth Epicenter"
+    ],
+    "specialFeatures": [
+      "Bangalore's legendary midnight sanctuary since 1966, known across the city for crispy deep-fried Chicken Kebabs served over rich Ghee Rice and hot flaky coin parottas to late-night partygoers",
+      "Night-owl Bangalore tradition"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 80 4041 4041",
+    "website": "http://hotelempire.in",
+    "available": true
+  }
+]

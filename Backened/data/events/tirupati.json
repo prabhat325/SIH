@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "TIRUPATI-EVENT-001",
+            "name": "Brahmotsavam",
+            "city": "Tirupati",
+            "state": "Andhra Pradesh",
+            "description": "The most important annual festival at Tirumala Venkateswara Temple.",
+            "type": "Religious",
+            "venue": "Tirumala Venkateswara Temple",
+            "usualMonth": "September/October",
+            "usualTime": "Morning to evening",
+            "usualDuration": "9 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://tirumala.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "TIRUPATI-EVENT-002",
+            "name": "Rathasaptami",
+            "city": "Tirupati",
+            "state": "Andhra Pradesh",
+            "description": "The chariot festival with Lord Venkateswara on a decorated chariot.",
+            "type": "Religious",
+            "venue": "Tirumala Temple",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://tirumala.org/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "TIRUPATI-EVENT-003",
+            "name": "Vaikunta Ekadasi",
+            "city": "Tirupati",
+            "state": "Andhra Pradesh",
+            "description": "One of the most important festivals when Vaikunta Dwaram is opened.",
+            "type": "Religious",
+            "venue": "Tirumala Venkateswara Temple",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://tirumala.org/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

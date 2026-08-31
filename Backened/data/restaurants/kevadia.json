@@ -1,0 +1,266 @@
+[
+  {
+    "restaurantId": "rst-kvd-shrestha-bharat-bhavan",
+    "name": "Shrestha Bharat Bhavan Restaurant",
+    "city": "Kevadia",
+    "state": "Gujarat",
+    "address": "Shrestha Bharat Bhavan Complex, Near Statue of Unity Promenade, Ekta Nagar (Kevadia), Gujarat 393151",
+    "latitude": 21.8389,
+    "longitude": 73.7189,
+    "cuisine": [
+      "Multi-Cuisine",
+      "Gujarati",
+      "North Indian",
+      "South Indian Buffet"
+    ],
+    "famousDishes": [
+      "SOU Special Gujarati Thali",
+      "Paneer Butter Masala",
+      "Dal Makhani",
+      "Crispy Masala Dosa",
+      "Gulab Jamun"
+    ],
+    "menu": [
+      {
+        "food": "Special Grand Tourist Buffet Spread",
+        "price": 480
+      },
+      {
+        "food": "Statue of Unity Deluxe Veg Thali",
+        "price": 280
+      },
+      {
+        "food": "Paneer Lababdar with 2 Butter Naans",
+        "price": 260
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Narmada River & Sardar Sarovar View",
+      "Air Conditioning",
+      "Valet Parking",
+      "Spacious Hall for Tour Groups"
+    ],
+    "specialFeatures": [
+      "Premier dining facility located right along the scenic promenade leading to the colossal 182-meter Statue of Unity, offering hygienic multi-cuisine buffets overlooking the Narmada River",
+      "Ideal for visiting families"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 2640 234 500",
+    "website": "https://statueofunity.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-kvd-ekta-food-court",
+    "name": "Ekta Food Court - Statue of Unity",
+    "city": "Kevadia",
+    "state": "Gujarat",
+    "address": "Ekta Food Court, Near SOU Bus Terminal, Ekta Nagar, Gujarat 393151",
+    "latitude": 21.8354,
+    "longitude": 73.7212,
+    "cuisine": [
+      "Pan Indian Food Court",
+      "Gujarati",
+      "South Indian",
+      "Fast Food"
+    ],
+    "famousDishes": [
+      "Kathiawadi Undhiyu & Rotla",
+      "Masala Dosa",
+      "Pav Bhaji",
+      "Chole Bhature",
+      "Amul Ice Creams"
+    ],
+    "menu": [
+      {
+        "food": "Kathiawadi Special Thali",
+        "price": 220
+      },
+      {
+        "food": "Special Mysore Masala Dosa",
+        "price": 140
+      },
+      {
+        "food": "Butter Pav Bhaji",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 200,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Air Conditioning",
+      "Diverse State Cuisine Counters",
+      "High Seating Capacity",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Sprawling modern food court bringing regional cuisines from across India under one roof to celebrate national integration ('Ekta') right beside the Statue of Unity",
+      "Fast, hygienic, and affordable"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-kvd-tent-city-dining-hall",
+    "name": "Tent City 1 Royal Dining Pavilion",
+    "city": "Kevadia",
+    "state": "Gujarat",
+    "address": "Tent City 1, Dyke 3, Sardar Sarovar Dam Backwaters, Ekta Nagar, Gujarat 393151",
+    "latitude": 21.8512,
+    "longitude": 73.7421,
+    "cuisine": [
+      "Royal Gujarati",
+      "North Indian",
+      "Continental Buffet"
+    ],
+    "famousDishes": [
+      "Royal Kathiawadi Banquet",
+      "Ringna No Olo with Rotla & Jaggery",
+      "Dal Baati",
+      "Kesar Jalebi",
+      "Live Pasta Station"
+    ],
+    "menu": [
+      {
+        "food": "Royal Tent City Buffet Dinner Experience",
+        "price": 850
+      }
+    ],
+    "averageCostForOne": 850,
+    "priceCategory": "Premium",
+    "rating": 4.6,
+    "amenities": [
+      "Luxury Safari Tent Ambience",
+      "Dam Backwaters View",
+      "Live Cultural Performances",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Lavish banquet pavilion within the luxury Tent City resort overlooking Sardar Sarovar Dam backwaters, presenting royal Gujarati and Kathiawadi cultural feasts alongside evening tribal folk dances",
+      "Resort luxury dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 79 6170 6000",
+    "website": "https://tentcitynarmada.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-kvd-sankalp-restaurant",
+    "name": "Sankalp Restaurant Ekta Nagar",
+    "city": "Kevadia",
+    "state": "Gujarat",
+    "address": "Near Ekta Mall & Cactus Garden Road, Ekta Nagar, Gujarat 393151",
+    "latitude": 21.8412,
+    "longitude": 73.7145,
+    "cuisine": [
+      "South Indian",
+      "Pure Vegetarian",
+      "North Indian"
+    ],
+    "famousDishes": [
+      "Record-Breaking Long Paper Dosa",
+      "Chettinad Masala Dosa",
+      "Idli Vada Platter",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Special 4-Foot Long Paper Dosa",
+        "price": 340
+      },
+      {
+        "food": "Spring Masala Dosa",
+        "price": 190
+      },
+      {
+        "food": "Authentic Filter Coffee",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Modern Family Seating",
+      "Ample Parking"
+    ],
+    "specialFeatures": [
+      "Famous South Indian chain known globally for its Guinness World Record-holding giant paper dosas, providing authentic crisp dosas and filter coffee near Ekta Mall",
+      "High hygiene and reliability"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 2640 238 900",
+    "website": "http://sankalponline.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-kvd-amul-food-plaza",
+    "name": "Amul Food Plaza & Cafe",
+    "city": "Kevadia",
+    "state": "Gujarat",
+    "address": "Near SOU Ticket Counter, Ekta Nagar, Gujarat 393151",
+    "latitude": 21.8378,
+    "longitude": 73.7198,
+    "cuisine": [
+      "Dairy Delicacies",
+      "Ice Creams & Shakes",
+      "Fast Food"
+    ],
+    "famousDishes": [
+      "Amul Cheese Grilled Sandwich",
+      "Amul Butter Pav Bhaji",
+      "Artisanal Ice Creams",
+      "Amul Kool Shakes",
+      "Pizza"
+    ],
+    "menu": [
+      {
+        "food": "Amul Double Cheese Grilled Sandwich",
+        "price": 110
+      },
+      {
+        "food": "Amul Special Butter Pav Bhaji",
+        "price": 120
+      },
+      {
+        "food": "Kesar Pista Premium Ice Cream Scoop",
+        "price": 50
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Quick Service",
+      "Amul Product Emporium"
+    ],
+    "specialFeatures": [
+      "Flagship dairy parlour and cafe celebrating Gujarat's world-famous Amul cooperative movement, serving piping hot buttery snacks, cheese toasts, and fresh milk ice creams right near the monument entrance",
+      "Great quick bite stop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": "https://amul.com",
+    "available": true
+  }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "guideId": "AGR-001",
+        "name": "Shahid Khan",
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Taj Mahal",
+            "Heritage Tours"
+        ],
+        "experienceYears": 17,
+        "rating": 4.56,
+        "contact": "+91-8955388819",
+        "email": "info@mytajtour.com",
+        "pricePerHour": 12,
+        "description": "Professional guide with 17 years experience.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "AGR-002",
+        "name": "Arun Kumar Kanojia",
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Taj Mahal",
+            "Monuments"
+        ],
+        "experienceYears": 12,
+        "rating": null,
+        "contact": "+91-9837642601",
+        "email": null,
+        "pricePerHour": 12,
+        "description": "Licensed tour guide for Taj Mahal.",
+        "image": null,
+        "verified": true,
+        "available": true
+    },
+    {
+        "guideId": "AGR-003",
+        "name": "Kamran Khan",
+        "city": "Agra",
+        "state": "Uttar Pradesh",
+        "languages": [
+            "English",
+            "Hindi",
+            "Spanish"
+        ],
+        "specialization": [
+            "Taj Mahal",
+            "Pan-India Tours"
+        ],
+        "experienceYears": 15,
+        "rating": null,
+        "contact": "+91-9458501468",
+        "email": "info@theindiaunscripted.com",
+        "pricePerHour": 14,
+        "description": "Government Licensed Pan-India Tour Guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

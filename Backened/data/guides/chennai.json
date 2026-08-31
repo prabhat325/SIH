@@ -1,0 +1,25 @@
+[
+    {
+        "guideId": "CHE-001",
+        "name": "Regional Guide",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "languages": [
+            "English",
+            "Tamil",
+            "Hindi"
+        ],
+        "specialization": [
+            "Cultural Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 12,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

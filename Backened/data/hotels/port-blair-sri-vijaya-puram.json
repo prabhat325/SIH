@@ -1,0 +1,254 @@
+[
+  {
+    "hotelId": "ixz-welcomhotel-bay-island",
+    "name": "Welcomhotel by ITC Hotels, Bay Island, Port Blair",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Marine Hill, Port Blair, Sri Vijaya Puram, Andaman and Nicobar Islands 744101",
+    "latitude": 11.6685,
+    "longitude": 92.7485,
+    "pricePerNight": 18500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Seawater Swimming Pool",
+      "Swarna Spa",
+      "WelcomCafe Bay Island Seafood",
+      "Swizzle Ocean Bar",
+      "Padauk Wood Architecture",
+      "Ross Island Views"
+    ],
+    "specialFeatures": [
+      "Designed by legendary architect Charles Correa built using native Andaman padauk timber overlooking the Bay of Bengal and Ross Island",
+      "Dramatic open ocean views"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 234 627",
+    "website": "https://www.itchotels.com/in/en/welcomhotelbayisland-portblair",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.163Z",
+    "updatedAt": "2026-08-22T21:20:27.163Z"
+  },
+  {
+    "hotelId": "ixz-symphony-samudra-beachside",
+    "name": "Symphony Samudra Beachside Jungle Resort and Spa",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Chidiya Tapu Beach Road, Sri Vijaya Puram, Andaman and Nicobar Islands 744105",
+    "latitude": 11.5085,
+    "longitude": 92.7045,
+    "pricePerNight": 14000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Infinity Pool overlooking Sunset Bay",
+      "Ocean Spa",
+      "Isle Bay Fresh Seafood Dining",
+      "Sunset Bar",
+      "Private Beach Access",
+      "Scuba Diving Centre"
+    ],
+    "specialFeatures": [
+      "Eco-luxury 5-star jungle resort nestled beside the biological park and famous sunset point of Chidiya Tapu (Bird Island)",
+      "Infinity pool reaching into the rainforest"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 280 000",
+    "website": "https://symphonyresorts.com/symphony-samudra-port-blair/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.164Z",
+    "updatedAt": "2026-08-22T21:20:27.164Z"
+  },
+  {
+    "hotelId": "ixz-seashell-port-blair",
+    "name": "SeaShell Port Blair",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Marine Hill, Sri Vijaya Puram, Andaman and Nicobar Islands 744101",
+    "latitude": 11.6712,
+    "longitude": 92.7465,
+    "pricePerNight": 9500,
+    "category": "Luxury",
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Amaya Rooftop Ocean Lounge Bar",
+      "Salt & Pepper Multi-cuisine",
+      "Ayurvedic Spa",
+      "Harbour View Balconies",
+      "Ferry Booking Desk"
+    ],
+    "specialFeatures": [
+      "Amaya - Port Blair's most celebrated rooftop lounge bar with panoramic views of the Andaman sea harbour and Mount Harriet"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 242 770",
+    "website": "https://seashellhotels.net/port-blair/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.164Z",
+    "updatedAt": "2026-08-22T21:20:27.164Z"
+  },
+  {
+    "hotelId": "ixz-sinclairs-bayview",
+    "name": "Sinclairs Bayview Port Blair",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Corbyn's Cove Road, South Point, Sri Vijaya Puram, Andaman and Nicobar Islands 744106",
+    "latitude": 11.6545,
+    "longitude": 92.7585,
+    "pricePerNight": 7500,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Seafront Swimming Pool",
+      "Bayview Seafood Restaurant",
+      "Alto Espirito Spanish Bar",
+      "Spa",
+      "Private Seafront Deck"
+    ],
+    "specialFeatures": [
+      "Only hotel in Port Blair perched right on the waterfront rock promontory with 270-degree crashing wave ocean views"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 227 824",
+    "website": "https://www.sinclairshotels.com/port-blair",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.164Z",
+    "updatedAt": "2026-08-22T21:20:27.164Z"
+  },
+  {
+    "hotelId": "ixz-peerless-resort-port-blair",
+    "name": "Peerless Resort Port Blair",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Corbyn's Cove Beach, Sri Vijaya Puram, Andaman and Nicobar Islands 744101",
+    "latitude": 11.6425,
+    "longitude": 92.7489,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Corbyn's Cove Beachfront Access",
+      "Corbyn's Delight Restaurant",
+      "Sea Breeze Bar",
+      "Lush Coconut Groves",
+      "Water Sports Desk"
+    ],
+    "specialFeatures": [
+      "The ONLY resort located directly on the sands of famous Corbyn's Cove Beach with jet skiing and speedboats right outside"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 229 311",
+    "website": "https://peerlesshotels.com/port-blair/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.165Z",
+    "updatedAt": "2026-08-22T21:20:27.165Z"
+  },
+  {
+    "hotelId": "ixz-zostel-port-blair",
+    "name": "Zostel Port Blair",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Haddo, Near Haddo Jetty, Sri Vijaya Puram, Andaman and Nicobar Islands 744102",
+    "latitude": 11.6785,
+    "longitude": 92.7245,
+    "pricePerNight": 1099,
+    "category": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Rooftop Ocean View Cafe",
+      "AC Dorms & Privates",
+      "Common Lounge",
+      "Havelock & Neil Island Ferry Desk",
+      "Scuba Certification Help"
+    ],
+    "specialFeatures": [
+      "Island backpacker hub 5 minutes from Haddo inter-island ferry wharf and Cellular Jail national memorial",
+      "Shared Havelock/Neil ferry buddies"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/port-blair/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.165Z",
+    "updatedAt": "2026-08-22T21:20:27.165Z"
+  },
+  {
+    "hotelId": "ixz-the-shelter-port-blair",
+    "name": "The Shelter - Heritage Homestay",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "Dollygunj, Near Airport, Sri Vijaya Puram, Andaman and Nicobar Islands 744103",
+    "latitude": 11.6385,
+    "longitude": 92.7185,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Garden Cafe",
+      "Home Cooked Island Meals",
+      "Air Conditioning",
+      "Airport Pickup"
+    ],
+    "specialFeatures": [
+      "Award-winning eco homestay with lush tropical gardens, wooden cottages, and warm local island hospitality"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 250 855",
+    "website": "https://theshelterandaman.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.165Z",
+    "updatedAt": "2026-08-22T21:20:27.165Z"
+  },
+  {
+    "hotelId": "ixz-aashiana-residency",
+    "name": "Aashiana Residency Port Blair",
+    "city": "Port Blair",
+    "state": "Andaman and Nicobar Islands",
+    "address": "MA Road, Middle Point, Sri Vijaya Puram, Andaman and Nicobar Islands 744101",
+    "latitude": 11.6645,
+    "longitude": 92.7385,
+    "pricePerNight": 1600,
+    "category": "Budget",
+    "rating": 4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Air Conditioning",
+      "Room Service",
+      "Elevator",
+      "Travel Desk"
+    ],
+    "specialFeatures": [
+      "Centrally located in Middle Point, 1 km from Cellular Jail and Aberdeen Bazaar market"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 3192 232 555",
+    "website": "https://aashianaresidency.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:27.166Z",
+    "updatedAt": "2026-08-22T21:20:27.166Z"
+  }
+]

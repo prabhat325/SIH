@@ -1,0 +1,167 @@
+[
+  {
+    "restaurantId": "rst-mhb-moonrakers",
+    "name": "Moonrakers Restaurant (Since 1990s)",
+    "city": "Mahabalipuram",
+    "state": "Tamil Nadu",
+    "address": "Othavadai Street, Near Shore Temple Road, Mahabalipuram, Tamil Nadu 603104",
+    "latitude": 12.6212,
+    "longitude": 80.1945,
+    "cuisine": [
+      "Coastal Seafood",
+      "Fresh Catch Tawa Fry",
+      "Continental"
+    ],
+    "famousDishes": [
+      "Jumbo Butter Garlic Tiger Prawns",
+      "Grilled Lobster in Lemon Garlic Butter",
+      "Tawa Fried Kingfish (Vanjaram)",
+      "Calamari Rings Fry",
+      "Crab Masala",
+      "Cold Beer"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Catch Grilled Lobster (by weight / seasonal)",
+        "price": 1450
+      },
+      {
+        "food": "Jumbo Tiger Prawns in Butter Garlic",
+        "price": 650
+      },
+      {
+        "food": "Vanjaram (Kingfish) Tawa Fry Slice",
+        "price": 380
+      },
+      {
+        "food": "Crispy Calamari Rings Fry",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 600,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Outdoor Thatched Roof Seating",
+      "Fresh Catch Ice Display",
+      "Shore Temple Proximity",
+      "Chilled Beverages"
+    ],
+    "specialFeatures": [
+      "Mahabalipuram's most famous seafood institution on Othavadai Street, where guests handpick their freshly caught Bay of Bengal lobsters, jumbo prawns, and crabs straight from the ice boxes to be grilled live",
+      "Legendary traveler favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 2744 3164",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mhb-seashore-garden",
+    "name": "Seashore Garden Restaurant",
+    "city": "Mahabalipuram",
+    "state": "Tamil Nadu",
+    "address": "Near Shore Temple & Beach Road, Mahabalipuram, Tamil Nadu 603104",
+    "latitude": 12.6189,
+    "longitude": 80.1989,
+    "cuisine": [
+      "Seafood",
+      "Continental",
+      "Indian Curries"
+    ],
+    "famousDishes": [
+      "Seafood Platter",
+      "Grilled Red Snapper",
+      "Prawn Masala with Naan",
+      "Cold Coffee",
+      "Pineapple Fritters"
+    ],
+    "menu": [
+      {
+        "food": "Seashore Special Mixed Seafood Platter",
+        "price": 950
+      },
+      {
+        "food": "Whole Grilled Red Snapper with Garlic Butter",
+        "price": 680
+      },
+      {
+        "food": "Prawn Curry with Rice",
+        "price": 380
+      }
+    ],
+    "averageCostForOne": 500,
+    "priceCategory": "Moderate",
+    "rating": 4.4,
+    "amenities": [
+      "Beach & Bay of Bengal Ocean Breeze View",
+      "Outdoor Garden Seating",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Breezy beachside garden cafe offering panoramic views of the ocean near the 8th-century UNESCO Shore Temple, serving fresh grilled seafood and cold drinks",
+      "Pleasant coastal setting"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 44 2744 2661",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mhb-geetha-cafe",
+    "name": "Geetha Cafe",
+    "city": "Mahabalipuram",
+    "state": "Tamil Nadu",
+    "address": "Opposite Arjuna's Penance Rock Relief, Mahabalipuram, Tamil Nadu 603104",
+    "latitude": 12.6178,
+    "longitude": 80.1925,
+    "cuisine": [
+      "Pure Vegetarian",
+      "South Indian Tiffin",
+      "Breakfast"
+    ],
+    "famousDishes": [
+      "Ghee Masala Dosa",
+      "Steamed Idli Sambar",
+      "Medu Vada",
+      "Madras Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Special Masala Dosa",
+        "price": 80
+      },
+      {
+        "food": "Idli Vada Sambar Combo",
+        "price": 60
+      },
+      {
+        "food": "Hot Filter Coffee",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "UNESCO World Heritage Monument View",
+      "Pure Vegetarian",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Situated directly opposite the magnificent 7th-century rock-cut bas-relief of Arjuna's Penance (Descent of the Ganges), serving clean, hot dosas and filter coffee to temple explorers",
+      "Prime historical location"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

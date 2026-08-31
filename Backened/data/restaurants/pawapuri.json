@@ -1,0 +1,196 @@
+[
+  {
+    "restaurantId": "rst-pwp-jal-mandir-bhojnalaya",
+    "name": "Jal Mandir Pilgrim Bhojnalaya",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Opposite Sacred Jal Mandir Water Tank, Pawapuri, Bihar 803115",
+    "latitude": 25.0934,
+    "longitude": 85.5289,
+    "cuisine": [
+      "Pure Vegetarian",
+      "Sattvic Jain Thali (No Onion/Garlic)"
+    ],
+    "famousDishes": [
+      "Unlimited Jain Prasad Thali",
+      "Dal Baati with Desi Ghee",
+      "Moong Dal Halwa",
+      "Kheer in Kulhad",
+      "Chhachh"
+    ],
+    "menu": [
+      {
+        "food": "Unlimited Jal Mandir Jain Thali",
+        "price": 140
+      },
+      {
+        "food": "Special Desi Ghee Dal Baati Churma",
+        "price": 180
+      },
+      {
+        "food": "Desi Ghee Moong Dal Halwa",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Sacred Lotus Water Tank View",
+      "Pure Vegetarian (Strict Jain Standards)",
+      "Clean Air Cooled Hall"
+    ],
+    "specialFeatures": [
+      "Situated directly facing the white marble Jal Mandir where Lord Mahavira attained Nirvana in 527 BC, serving pure, hygienic satvik thalis prepared with devotion in pure ghee",
+      "The premier culinary destination in Pawapuri"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 555",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pwp-shwetambar-dharamsala-rasoi",
+    "name": "Jain Shwetambar Temple Bhojanalaya",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Jain Shwetambar Temple Complex, Pawapuri, Bihar 803115",
+    "latitude": 25.0912,
+    "longitude": 85.5265,
+    "cuisine": [
+      "Sattvic Jain",
+      "Traditional Thali"
+    ],
+    "famousDishes": [
+      "Prasadam Thali (Dal, Rice, Roti, Seasonal Veggies without Root Crops)",
+      "Khichdi with Ghee",
+      "Lapsi"
+    ],
+    "menu": [
+      {
+        "food": "Complete Shwetambar Jain Thali",
+        "price": 100
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Temple Complex Location",
+      "Traditional Floor & Table Seating",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Community kitchen within the historic temple complex offering nourishing, light, and digestible satvik prasadam meals to visiting devotees from all over the world",
+      "Pious and humble atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pwp-tourist-bungalow-bstdc",
+    "name": "BSTDC Tourist Complex Restaurant",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Bihar State Tourism Development Corp Complex, Pawapuri, Bihar 803115",
+    "latitude": 25.0968,
+    "longitude": 85.5312,
+    "cuisine": [
+      "North Indian",
+      "Bihari",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Bihari Sattu Paratha with Chokha",
+      "Poori Sabzi with Kheer",
+      "Dal Tadka with Jeera Rice",
+      "Masala Tea"
+    ],
+    "menu": [
+      {
+        "food": "BSTDC Special Vegetarian Thali",
+        "price": 160
+      },
+      {
+        "food": "Poori Bhaji Breakfast Plate",
+        "price": 75
+      }
+    ],
+    "averageCostForOne": 140,
+    "priceCategory": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Government Tourist Bungalow",
+      "Ample Parking",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Reliable government-operated tourism restaurant providing clean vegetarian meals, bottled water, and air-conditioned rest for touring buses and private cars",
+      "Comfortable rest stop"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 6112 262 344",
+    "website": "http://bstdc.bih.nic.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-pwp-highway-food-plaza",
+    "name": "Pawapuri Highway Food Plaza",
+    "city": "Pawapuri",
+    "state": "Bihar",
+    "address": "Pawapuri More, National Highway 31 / 20 Intersection, Bihar 803115",
+    "latitude": 25.1054,
+    "longitude": 85.5412,
+    "cuisine": [
+      "Dhaba",
+      "Bihari Street Food",
+      "Snacks"
+    ],
+    "famousDishes": [
+      "Crisp Litti Chokha with Ghee",
+      "Sattu Paratha",
+      "Chai in Kulhad",
+      "Samosa"
+    ],
+    "menu": [
+      {
+        "food": "Special Litti Chokha Plate (2 pcs)",
+        "price": 70
+      },
+      {
+        "food": "Hot Samosa with Chutney (2 pcs)",
+        "price": 30
+      },
+      {
+        "food": "Kulhad Masala Chai",
+        "price": 20
+      }
+    ],
+    "averageCostForOne": 80,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "NH-31 Highway Intersection",
+      "24-Hour Service",
+      "Ample Truck & Car Parking"
+    ],
+    "specialFeatures": [
+      "Busy highway hub at the main turn-off for Pawapuri on the Patna-Ranchi national corridor, famous for fast fresh-off-the-fire littis and steaming kulhad tea around the clock",
+      "High convenience for motorists"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": null,
+    "website": null,
+    "available": true
+  }
+]

@@ -1,0 +1,318 @@
+[
+  {
+    "hotelId": "amr-taj-swarna",
+    "name": "Taj Swarna, Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Plot No. C-3, Outer Circular Road, Majitha Verka Bypass, Amritsar, Punjab 143001",
+    "latitude": 31.6612,
+    "longitude": 74.8821,
+    "pricePerNight": 11500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Heated Pool",
+      "Jiva Spa",
+      "Grand Trunk All-Day Dining",
+      "The Peg Bar",
+      "Health Club",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Amritsar's leading ultra-luxury hotel celebrating Punjab's spirit",
+      "Grand Trunk restaurant showcasing authentic Amritsari kulchas and tandoori flavours"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 665 8000",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-swarna-amritsar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.913Z",
+    "updatedAt": "2026-08-22T21:20:26.913Z"
+  },
+  {
+    "hotelId": "amr-radisson-blu",
+    "name": "Radisson Blu Hotel Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Airport Road, Adjacent to Sri Guru Ram Dass Jee International Airport, Amritsar, Punjab 143001",
+    "latitude": 31.7061,
+    "longitude": 74.8095,
+    "pricePerNight": 7800,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Tavolo Mondo Restaurant",
+      "Wall Street Bar",
+      "Free Airport Shuttle",
+      "Spa"
+    ],
+    "specialFeatures": [
+      "Located opposite international airport in lush 9-acre greenery",
+      "Free luxury shuttle to Golden Temple"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 661 1111",
+    "website": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-amritsar",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.914Z",
+    "updatedAt": "2026-08-22T21:20:26.914Z"
+  },
+  {
+    "hotelId": "amr-hyatt-regency",
+    "name": "Hyatt Regency Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "MBM Farms, Grand Trunk Road, Amritsar, Punjab 143001",
+    "latitude": 31.6258,
+    "longitude": 74.9125,
+    "pricePerNight": 7200,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Vitality Pool",
+      "Shavya Spa",
+      "Punjab Province Restaurant",
+      "The Lounge Bar",
+      "Free Temple Shuttle"
+    ],
+    "specialFeatures": [
+      "Punjab Province restaurant serving farm-to-table authentic Punjabi feasts",
+      "Vitality swimming pool and spa"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 525 1234",
+    "website": "https://www.hyatt.com/en-US/hotel/india/hyatt-regency-amritsar/atqhr",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.914Z",
+    "updatedAt": "2026-08-22T21:20:26.914Z"
+  },
+  {
+    "hotelId": "amr-ranjits-svaasa",
+    "name": "Ranjit's SVAASA - Heritage Haveli",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "47-A The Mall, Civil Lines, Amritsar, Punjab 143001",
+    "latitude": 31.6428,
+    "longitude": 74.8732,
+    "pricePerNight": 5800,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Organic Spa & Ayurvedic Centre",
+      "Courtyard Dining",
+      "Herbal Tea Lounge",
+      "Yoga Sessions"
+    ],
+    "specialFeatures": [
+      "200-year-old restored brick haveli of the Rai Bahadur family",
+      "Organic satvik gastronomy & rejuvenating wellness spa"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 256 6618",
+    "website": "https://svaasa.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.915Z",
+    "updatedAt": "2026-08-22T21:20:26.915Z"
+  },
+  {
+    "hotelId": "amr-fairfield-by-marriott",
+    "name": "Fairfield by Marriott Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Albert Road, Near Circuit House, Amritsar, Punjab 143001",
+    "latitude": 31.6395,
+    "longitude": 74.8789,
+    "pricePerNight": 4900,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Kava Restaurant & Bar",
+      "24/7 Fitness Center",
+      "Meeting Rooms"
+    ],
+    "specialFeatures": [
+      "Marriott hospitality in prime Albert Road / Mall area",
+      "Close to top shopping malls and heritage eateries"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 522 6666",
+    "website": "https://www.marriott.com/en-us/hotels/atqfi-fairfield-amritsar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.915Z",
+    "updatedAt": "2026-08-22T21:20:26.915Z"
+  },
+  {
+    "hotelId": "amr-ramada-amritsar",
+    "name": "Ramada by Wyndham Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "117/1 Hall Bazar, Katra Ahluwalia, Amritsar, Punjab 143001",
+    "latitude": 31.6289,
+    "longitude": 74.8765,
+    "pricePerNight": 4500,
+    "category": "Mid-Range",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Swimming Pool",
+      "Al Fresco Restaurant",
+      "Fitness Centre",
+      "Room Service"
+    ],
+    "specialFeatures": [
+      "Only 800m walking distance from the Golden Temple",
+      "Rooftop pool and dining with old city views"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 502 5555",
+    "website": "https://www.wyndhamhotels.com/ramada/amritsar-india/ramada-amritsar/overview",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.915Z",
+    "updatedAt": "2026-08-22T21:20:26.915Z"
+  },
+  {
+    "hotelId": "amr-hotel-cj-international",
+    "name": "Hotel CJ International",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Opposite Golden Temple Langar Building, Katra Ahluwalia, Amritsar, Punjab 143001",
+    "latitude": 31.6212,
+    "longitude": 74.8781,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Vegetarian Dining",
+      "Direct Golden Temple View Balcony",
+      "Air Conditioning",
+      "24/7 Hot Water"
+    ],
+    "specialFeatures": [
+      "Located directly opposite the Golden Temple Langar hall",
+      "Wake up to live Gurbani morning chants"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 183 254 3478",
+    "website": "https://hotelcjinternational.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.916Z",
+    "updatedAt": "2026-08-22T21:20:26.916Z"
+  },
+  {
+    "hotelId": "amr-zostel-amritsar",
+    "name": "Zostel Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Near Jallianwala Bagh, Katra Ahluwalia, Amritsar, Punjab 143001",
+    "latitude": 31.6241,
+    "longitude": 74.8805,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Rooftop Common Room",
+      "AC Dorms",
+      "Free Board Games",
+      "Lockers",
+      "Wagah Border Tour Desk"
+    ],
+    "specialFeatures": [
+      "200m from Golden Temple & Jallianwala Bagh",
+      "Daily organized shared trips to Wagah Border ceremony"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/amritsar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.916Z",
+    "updatedAt": "2026-08-22T21:20:26.916Z"
+  },
+  {
+    "hotelId": "amr-gostops-amritsar",
+    "name": "goSTOPS Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Main Heritage Street, Near Town Hall, Amritsar, Punjab 143001",
+    "latitude": 31.6265,
+    "longitude": 74.8772,
+    "pricePerNight": 749,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Common Lounge",
+      "Bunk Bed Privacy Curtains",
+      "Lockers",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Located right on the pedestrian-only Golden Temple Heritage Street walkway",
+      "Social travel atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-amritsar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.916Z",
+    "updatedAt": "2026-08-22T21:20:26.916Z"
+  },
+  {
+    "hotelId": "amr-the-hosteller-amritsar",
+    "name": "The Hosteller Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "address": "Katra Jaimal Singh, Near Hall Gate, Amritsar, Punjab 143001",
+    "latitude": 31.6315,
+    "longitude": 74.8739,
+    "pricePerNight": 699,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free Wi-Fi",
+      "Cafe",
+      "Workation Stations",
+      "Dorms & Privates",
+      "24/7 Reception",
+      "Luggage Storage"
+    ],
+    "specialFeatures": [
+      "Great base for exploring Amritsari street food stalls like Kesar Da Dhaba and Bhai Kulwant Singh Kulchian"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98101 87717",
+    "website": "https://www.thehosteller.com/hostels/the-hosteller-amritsar/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.917Z",
+    "updatedAt": "2026-08-22T21:20:26.917Z"
+  }
+]

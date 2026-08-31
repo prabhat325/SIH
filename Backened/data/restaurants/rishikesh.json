@@ -1,0 +1,566 @@
+[
+  {
+    "restaurantId": "rst-rsh-chotiwala-swargashram",
+    "name": "Chotiwala Restaurant (Original 1958)",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Swarg Ashram, Near Ram Jhula Footbridge, Rishikesh, Uttarakhand 249304",
+    "latitude": 30.1218,
+    "longitude": 78.3145,
+    "cuisine": [
+      "Garhwali",
+      "North Indian",
+      "South Indian",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Chotiwala Special Royal Thali",
+      "Garhwali Kafuli & Manduwa Roti",
+      "Dal Makhani",
+      "Paneer Butter Masala",
+      "Gulab Jamun",
+      "Lassi in Kulhad"
+    ],
+    "menu": [
+      {
+        "food": "Chotiwala Special Royal Thali",
+        "price": 280
+      },
+      {
+        "food": "Garhwali Traditional Thali (Kafuli, Jhangore Kheer)",
+        "price": 320
+      },
+      {
+        "food": "Special Masala Dosa",
+        "price": 140
+      },
+      {
+        "food": "Matka Malai Lassi",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Pure Vegetarian (No Onion/Garlic Available)",
+      "Ganga Riverfront Location",
+      "Iconic Painted Chotiwala Mascot Seated Outside",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Established in 1958 at Swarg Ashram, globally famous for its live smiling 'Chotiwala' mascot dressed in royal robes seated on an elevated platform outside",
+      "An immortal spiritual tourism landmark visited by millions of yogis and pilgrims"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 243 0079",
+    "website": "http://chotiwalarestaurant.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-little-buddha-cafe",
+    "name": "Little Buddha Cafe",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Near Laxman Jhula, Paidal Marg, Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1294,
+    "longitude": 78.3278,
+    "cuisine": [
+      "Tibetan",
+      "Israeli",
+      "Continental",
+      "Vegan & Ayurvedic",
+      "Café"
+    ],
+    "famousDishes": [
+      "Steamed Tibetan Vegetable Momos",
+      "Israeli Shakshuka with Fresh Pita",
+      "Buddha Vegan Salad Bowl",
+      "Wood-fired Pizza",
+      "Nutella Banana Crepe",
+      "Ginger Lemon Honey Tea"
+    ],
+    "menu": [
+      {
+        "food": "Steamed Vegetable Momos (8 pcs)",
+        "price": 160
+      },
+      {
+        "food": "Middle Eastern Shakshuka with Hummus & Pita",
+        "price": 240
+      },
+      {
+        "food": "Farmhouse Wood-fired Pizza",
+        "price": 340
+      },
+      {
+        "food": "Fresh Nutella Banana Crepe",
+        "price": 160
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Treehouse Bamboo Loft Architecture",
+      "Direct Panoramic Ganges View",
+      "Free Wi-Fi",
+      "Floor Cushions & Low Tables",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Bohemian treehouse-style bamboo cafe overlooking the rapids of the holy Ganga near Laxman Jhula, filled with global yoga practitioners, acoustic music, and wholesome world cuisine",
+      "Quintessential Rishikesh backpacker culture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98971 12345",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-the-sitting-elephant",
+    "name": "The Sitting Elephant - EllBee Ganga View",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Hotel EllBee Ganga View, 355 Haridwar Road, Palika Nagar, Rishikesh, Uttarakhand 249201",
+    "latitude": 30.1045,
+    "longitude": 78.2912,
+    "cuisine": [
+      "North Indian",
+      "Garhwali Specialties",
+      "Continental",
+      "Pure Vegetarian Fine Dining"
+    ],
+    "famousDishes": [
+      "Garhwali Kafuli with Manduwa Roti",
+      "Dal EllBee",
+      "Paneer Tikka Lababdar",
+      "Pesto Penne Pasta",
+      "Ganga Aarti Special Dinner"
+    ],
+    "menu": [
+      {
+        "food": "Traditional Garhwali Thali",
+        "price": 450
+      },
+      {
+        "food": "Dal EllBee (Slow simmered black lentils)",
+        "price": 320
+      },
+      {
+        "food": "Paneer Lababdar",
+        "price": 360
+      }
+    ],
+    "averageCostForOne": 650,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Rooftop Ganga River & Hill View",
+      "Air Conditioning",
+      "Valet Parking",
+      "Pure Vegetarian",
+      "Fine Dining"
+    ],
+    "specialFeatures": [
+      "Rooftop fine-dining restaurant designed around an elephant theme overlooking the majestic curve of the river Ganga and the Rajaji National Park hills where wild elephants roam",
+      "Breathtaking sunset venue"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 244 2442",
+    "website": "http://ellbeehotels.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-beatles-cafe",
+    "name": "Beatles Cafe (Cafe Delmar)",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Paidal Marg, Near Laxman Jhula, Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1308,
+    "longitude": 78.3289,
+    "cuisine": [
+      "Vegan",
+      "Continental",
+      "Gluten-Free",
+      "Specialty Coffee",
+      "Café"
+    ],
+    "famousDishes": [
+      "Vegan Soy Burger with Sweet Potato Fries",
+      "Zucchini Ribbon Pesto Pasta",
+      "Avocado Toast",
+      "Chocolate Silk Mousse",
+      "Artisan Pour Over Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Signature Beatles Vegan Burger",
+        "price": 260
+      },
+      {
+        "food": "Raw Zucchini Pesto Pasta (Gluten-Free)",
+        "price": 280
+      },
+      {
+        "food": "Specialty Pour Over Mountain Coffee",
+        "price": 140
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "1960s Beatles Vinyl & Art Decor",
+      "Balcony Ganga View",
+      "Free Wi-Fi",
+      "Pure Vegetarian & 100% Vegan Options"
+    ],
+    "specialFeatures": [
+      "Thematic tribute cafe commemorating the 1968 visit of The Beatles to Rishikesh to learn Transcendental Meditation, serving gourmet vegan meals and artisan coffees over tranquil river views",
+      "A creative sanctuary"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 89799 49999",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-bistro-nirvana",
+    "name": "Bistro Nirvana",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Near Green Hills Cottage, Swami Omkarananda Saraswati Road, Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1345,
+    "longitude": 78.3241,
+    "cuisine": [
+      "Mediterranean",
+      "Italian",
+      "Garhwali",
+      "Ayurvedic Fusion",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Wood-fired Pizza Nirvana",
+      "Falafel Hummus Platter",
+      "Garhwali Koda Roti with Gahat Dal",
+      "Yak Cheese Salad",
+      "Herbal Teas"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Truffle & Mushroom Pizza",
+        "price": 380
+      },
+      {
+        "food": "Mediterranean Mezze Platter",
+        "price": 310
+      },
+      {
+        "food": "Garhwali Organic Thali",
+        "price": 340
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Moderate",
+    "rating": 4.5,
+    "amenities": [
+      "Mud-Brick Rustic Garden",
+      "Bamboo Hut Seating",
+      "Free Wi-Fi",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Earthy open-air garden cafe constructed using natural bamboo, clay, and river stones, known for freshly kneaded organic sourdough pizzas and Himalayan herb-infused herbal infusions",
+      "Peaceful hideaway"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98970 33445",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-rajasthani-misthan",
+    "name": "Rajasthani Misthan Bhandar",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Triveni Ghat Road, Ghat Market, Rishikesh, Uttarakhand 249201",
+    "latitude": 30.1089,
+    "longitude": 78.2975,
+    "cuisine": [
+      "Breakfast",
+      "Sweets",
+      "Street Food",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Bedmi Puri with Aloo Sabzi",
+      "Desi Ghee Jalebi",
+      "Rabri",
+      "Kachori with Chhole",
+      "Kulhad Badam Milk"
+    ],
+    "menu": [
+      {
+        "food": "Crisp Bedmi Puri Aloo Thali (2 pcs)",
+        "price": 80
+      },
+      {
+        "food": "Hot Desi Ghee Jalebi (100g)",
+        "price": 50
+      },
+      {
+        "food": "Kulhad Malai Rabri",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Pure Vegetarian",
+      "Triveni Ghat Aarti Proximity",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Historic 60-year-old sweetshop located at Triveni Ghat where morning pilgrims returning from holy dips relish piping hot desi ghee puris and crisp saffron jalebis",
+      "Bustling sacred morning ritual"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 243 0456",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-pure-soul-cafe",
+    "name": "Pure Soul - Organic Cafe & Kitchen",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Opposite Balaknath Temple, Badrinath Road, Tapovan, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1362,
+    "longitude": 78.3218,
+    "cuisine": [
+      "Organic Italian",
+      "Vegan",
+      "Healthy Gourmet",
+      "Café"
+    ],
+    "famousDishes": [
+      "Organic Handcrafted Ravioli",
+      "Neapolitan Pizza",
+      "Superfood Acai Bowls",
+      "Raw Vegan Tarts",
+      "Matcha Latte"
+    ],
+    "menu": [
+      {
+        "food": "Handcrafted Spinach Ricotta Ravioli",
+        "price": 410
+      },
+      {
+        "food": "Organic Neapolitan Margherita",
+        "price": 380
+      },
+      {
+        "food": "Raw Vegan Avocado Lime Tart",
+        "price": 210
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Swimming Pool Deck Seating",
+      "Mountain Forest Backdrop",
+      "Free Wi-Fi",
+      "100% Organic Ingredients"
+    ],
+    "specialFeatures": [
+      "Upscale wellness cafe beside an azure plunge pool facing the lush Himalayan forest foothills, preparing nutrient-dense artisanal Italian dishes using certified organic ingredients",
+      "Chic and relaxing"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 97600 00123",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-ganga-beach-restaurant",
+    "name": "Ganga Beach Restaurant",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Near Laxman Jhula Post Office, Paidal Marg, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1281,
+    "longitude": 78.3265,
+    "cuisine": [
+      "Indian",
+      "Italian",
+      "Mexican",
+      "Continental",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Wood-fired Pizza",
+      "Enchiladas",
+      "Paneer Butter Masala",
+      "Apple Pie with Ice Cream",
+      "Fresh Pomegranate Juice"
+    ],
+    "menu": [
+      {
+        "food": "Ganga Beach Special Veg Pizza",
+        "price": 340
+      },
+      {
+        "food": "Paneer Butter Masala with Butter Naan",
+        "price": 260
+      },
+      {
+        "food": "Warm Apple Pie with Ice Cream",
+        "price": 150
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Open Terrace Overhanging the Ganges",
+      "Free Wi-Fi",
+      "Pure Vegetarian"
+    ],
+    "specialFeatures": [
+      "Open wooden terrace projecting directly above the swirling waters of the Ganges where you can feel the mountain spray and watch river rafters paddle past",
+      "Great riverfront breeze"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 244 0055",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-jal-jalebi-beyond",
+    "name": "Jal Jalebi & Beyond - Ganga Kinare",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Hotel Ganga Kinare, 237 Virbhadra Road, Rishikesh, Uttarakhand 249201",
+    "latitude": 30.1012,
+    "longitude": 78.2889,
+    "cuisine": [
+      "Contemporary Indian",
+      "Garhwali Gourmet",
+      "Pure Vegetarian Fine Dining"
+    ],
+    "famousDishes": [
+      "Ganga Kinare Royal Thali",
+      "Jhangore Ki Kheer",
+      "Aloo Jakhiya",
+      "Crispy Paneer Tikka",
+      "Gourmet Jalebi with Rabri"
+    ],
+    "menu": [
+      {
+        "food": "Royal Himalayan Feast Thali",
+        "price": 650
+      },
+      {
+        "food": "Aloo Jakhiya (Mountain Herb Tempered Potatoes)",
+        "price": 280
+      },
+      {
+        "food": "Hot Saffron Jalebi with Malai Rabri",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 750,
+    "priceCategory": "Premium",
+    "rating": 4.7,
+    "amenities": [
+      "Private Riverside Promenade",
+      "Glass Wall Ganga View",
+      "Valet Parking",
+      "Fine Dining",
+      "Air Conditioning"
+    ],
+    "specialFeatures": [
+      "Luxury riverside dining salon inside the boutique heritage resort Ganga Kinare, celebrating local Himalayan ingredients and Garhwali culinary traditions with panoramic riverfront glass walls",
+      "Refined spiritual dining"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 243 5243",
+    "website": "https://www.gangakinare.com/dining",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-rsh-german-bakery-laxman",
+    "name": "Devraj Coffee Corner (German Bakery)",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "address": "Near Laxman Jhula Bridge, Tapovan Side, Rishikesh, Uttarakhand 249192",
+    "latitude": 30.1298,
+    "longitude": 78.3271,
+    "cuisine": [
+      "Bakery",
+      "European",
+      "Breakfast",
+      "Café"
+    ],
+    "famousDishes": [
+      "Yak Cheese Sandwiches",
+      "Apple Strudel",
+      "Cinnamon Danish",
+      "Espresso",
+      "Muesli Curd Honey Bowl"
+    ],
+    "menu": [
+      {
+        "food": "Himalayan Yak Cheese Toastie",
+        "price": 190
+      },
+      {
+        "food": "Warm Apple Strudel with Vanilla Custard",
+        "price": 150
+      },
+      {
+        "food": "Double Espresso",
+        "price": 90
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Balcony Tables Overlooking Laxman Jhula",
+      "Fresh Daily Breads",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Historic 1990s bakery perched right by the suspension cables of Laxman Jhula, famous for fresh German sourdough loaves, wholesome muesli bowls, and uninterrupted riverfront views",
+      "Legendary meeting point"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 135 244 0123",
+    "website": null,
+    "available": true
+  }
+]

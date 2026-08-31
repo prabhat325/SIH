@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "MAHABALIPURAM-EVENT-001",
+            "name": "Indian Dance Festival",
+            "city": "Mahabalipuram",
+            "state": "Tamil Nadu",
+            "description": "An annual classical dance festival at the Shore Temple.",
+            "type": "Cultural",
+            "venue": "Shore Temple",
+            "usualMonth": "December/January",
+            "usualTime": "Evening",
+            "usualDuration": "4 weeks",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/events/indian-dance-festival",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MAHABALIPURAM-EVENT-002",
+            "name": "Pongal Festival",
+            "city": "Mahabalipuram",
+            "state": "Tamil Nadu",
+            "description": "The harvest festival with traditional rituals.",
+            "type": "Festival",
+            "venue": "Various temples and venues",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "MAHABALIPURAM-EVENT-003",
+            "name": "Arjuna's Penance Festival",
+            "city": "Mahabalipuram",
+            "state": "Tamil Nadu",
+            "description": "A cultural festival at the historic monument.",
+            "type": "Cultural",
+            "venue": "Arjuna's Penance monument",
+            "usualMonth": "February/March",
+            "usualTime": "Evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.tn.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

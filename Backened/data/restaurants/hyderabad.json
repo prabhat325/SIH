@@ -1,0 +1,439 @@
+[
+  {
+    "restaurantId": "rst-hyd-paradise-biryani-secunderabad",
+    "name": "Paradise Biryani (Since 1953)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Paradise Circle, MG Road, Secunderabad, Hyderabad, Telangana 500003",
+    "latitude": 17.4412,
+    "longitude": 78.4878,
+    "cuisine": [
+      "Royal Hyderabadi",
+      "Dum Biryani Heritage",
+      "Mughlai & Kebabs"
+    ],
+    "famousDishes": [
+      "World-Famous Hyderabadi Mutton Dum Biryani (Cooked with Zafran Saffron, Tender Goat & Basmati)",
+      "Special Chicken Biryani",
+      "Mutton Seekh Kebab",
+      "Mirchi Ka Salan",
+      "Double Ka Meetha",
+      "Qubani Ka Meetha with Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "World-Famous Hyderabadi Mutton Dum Biryani (with Salan & Raita)",
+        "price": 360
+      },
+      {
+        "food": "Paradise Special Chicken Dum Biryani",
+        "price": 320
+      },
+      {
+        "food": "Mutton Seekh Kebab (4 pcs)",
+        "price": 310
+      },
+      {
+        "food": "Royal Double Ka Meetha (Bread Pudding in Saffron Rabri)",
+        "price": 120
+      }
+    ],
+    "averageCostForOne": 400,
+    "priceCategory": "Moderate",
+    "rating": 4.7,
+    "amenities": [
+      "Historic Multi-Floor Biryani Palace",
+      "Air Conditioning",
+      "Express Takeaway Counter",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Established in 1953 as a small 100-sq-ft cafe in Secunderabad, growing into the world's most famous and recognized Hyderabadi Biryani brand, serving millions of biryani lovers and global dignitaries",
+      "A global icon of Indian culinary culture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 6690 4212",
+    "website": "http://paradisefoodcourt.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hyd-bawarchi-rtc-x-roads",
+    "name": "Bawarchi Restaurant (RTC X Roads)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "RTC X Roads, Opposite Sandhya Theatre, Chikkadpally, Hyderabad, Telangana 500020",
+    "latitude": 17.4045,
+    "longitude": 78.4989,
+    "cuisine": [
+      "Authentic Hyderabadi",
+      "Biryani Specialist",
+      "Tandoori"
+    ],
+    "famousDishes": [
+      "Bawarchi Special Mutton Dum Biryani",
+      "Chicken Boti Kebab",
+      "Mutton Boti Kebab",
+      "Tangdi Kebab",
+      "Mirchi Ka Salan",
+      "Qubani Ka Meetha"
+    ],
+    "menu": [
+      {
+        "food": "Original RTC X Roads Mutton Dum Biryani",
+        "price": 310
+      },
+      {
+        "food": "Special Chicken Biryani (Full)",
+        "price": 270
+      },
+      {
+        "food": "Spicy Chicken Boti Kebab",
+        "price": 240
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "High-Volume Biryani Kitchen",
+      "Midnight Service"
+    ],
+    "specialFeatures": [
+      "The single original RTC X Roads location that sparked hundreds of copycats across India, celebrated by connoisseurs for its darker, intensely spiced traditional mutton dum biryani with tender melt-in-mouth meat",
+      "True local cult favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 2763 4494",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hyd-shadab-hotel-charminar",
+    "name": "Hotel Shadab (Since 1953)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "21-1-140/144, Near High Court & Madina Circle, Ghansi Bazaar, Charminar, Hyderabad, Telangana 500002",
+    "latitude": 17.3689,
+    "longitude": 78.4734,
+    "cuisine": [
+      "Nizami Mughlai",
+      "Charminar Heritage",
+      "Breakfast & Haleem"
+    ],
+    "famousDishes": [
+      "Mutton Paya with Charminar Sheermal / Kulcha",
+      "Shadab Special Mutton Biryani",
+      "Nalli Nihari",
+      "Hyderabadi Haleem",
+      "Shadab Falooda",
+      "Zafrani Chai"
+    ],
+    "menu": [
+      {
+        "food": "Dawn Mutton Paya Stew with 2 Tandoori Kulchas",
+        "price": 220
+      },
+      {
+        "food": "Shadab Special Mutton Dum Biryani",
+        "price": 320
+      },
+      {
+        "food": "Slow-Cooked Nalli Nihari",
+        "price": 280
+      },
+      {
+        "food": "Royal Shadab Kulfi Falooda",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "Historic Old City Landmark",
+      "Air Conditioned Family Floor",
+      "Early Morning (5 AM) Paya Service"
+    ],
+    "specialFeatures": [
+      "Historic culinary monument near Charminar where Nizam-era traditions thrive, famous for serving steaming bone-marrow Paya and Nihari at dawn and unforgettable aromatic biryanis all day",
+      "The beating heart of Old Hyderabad"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 2456 5949",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hyd-cafe-niloufer-lakdikapul",
+    "name": "Cafe Niloufer & Bakers (Since 1978)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "11-5-422/C/B, Red Hills Road, Near Niloufer Hospital, Lakdikapul, Hyderabad, Telangana 500004",
+    "latitude": 17.4012,
+    "longitude": 78.4612,
+    "cuisine": [
+      "Hyderabadi Irani Chai",
+      "Osmania Biscuits",
+      "Bakery & Breakfast"
+    ],
+    "famousDishes": [
+      "Special Malai Bun Maska with Double Cream",
+      "Niloufer Special Rich Kadak Irani Chai",
+      "Original Melting Osmania Biscuits (Salted-Sweet)",
+      "Fine Mawa Cake",
+      "Bun Maska Jam"
+    ],
+    "menu": [
+      {
+        "food": "Niloufer Special Golden Irani Chai",
+        "price": 40
+      },
+      {
+        "food": "Signature Malai Bun Maska (Loaded with Fresh Clotted Cream)",
+        "price": 90
+      },
+      {
+        "food": "Box of Authentic Osmania Biscuits (500g)",
+        "price": 180
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Historic 1978 Irani Tea Heritage",
+      "State-of-the-Art Clean Bakery",
+      "Takeaway Biscuit Emporium"
+    ],
+    "specialFeatures": [
+      "Founded in 1978 by Babu Rao near Niloufer Hospital, undisputed king of Hyderabadi Irani chai, famous for its rich slow-brewed decoction blended with reduced whole buffalo milk and iconic melting Osmania biscuits",
+      "Hyderabad's daily tea ritual"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 2331 0088",
+    "website": "http://cafenioufer.com",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hyd-pista-house-charminar",
+    "name": "Pista House (World-Famous GI-Tagged Haleem)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Near Charminar, Shalibanda Road, Hyderabad, Telangana 500002",
+    "latitude": 17.3589,
+    "longitude": 78.4712,
+    "cuisine": [
+      "GI-Tagged Hyderabadi Haleem",
+      "Mughlai",
+      "Bakery & Desserts"
+    ],
+    "famousDishes": [
+      "GI-Tagged Mutton Haleem (Pounded Meat, Wheat, Lentils, Pure Desi Ghee & Fried Onions)",
+      "Hyderabadi Mutton Biryani",
+      "Zafrani Chai",
+      "Qubani Sweet",
+      "Pista House Biscuits"
+    ],
+    "menu": [
+      {
+        "food": "GI-Tagged Royal Hyderabadi Mutton Haleem Bowl",
+        "price": 260
+      },
+      {
+        "food": "Special Mutton Dum Biryani",
+        "price": 310
+      },
+      {
+        "food": "Special Zafrani Chai with Maska Bun",
+        "price": 60
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.7,
+    "amenities": [
+      "GI Tag Certified Haleem Pioneer",
+      "Air Conditioned Section",
+      "Global Courier Delivery"
+    ],
+    "specialFeatures": [
+      "Founded by Mohd Abdul Majeed, Pista House played the pivotal role in securing Geographical Indication (GI) status for 'Hyderabadi Haleem', famous worldwide for its silky, slow-pounded 12-hour meat-and-wheat porridge",
+      "Hyderabad's culinary ambassador to the world"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 2452 4286",
+    "website": "http://pistahouse.in",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hyd-adaa-taj-falaknuma",
+    "name": "Adaa - Taj Falaknuma Palace",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Taj Falaknuma Palace, Engine Bowli, Falaknuma, Hyderabad, Telangana 500053",
+    "latitude": 17.3312,
+    "longitude": 78.4678,
+    "cuisine": [
+      "Royal Nizami Gastronomy",
+      "Imperial Hyderabadi Fine Dining"
+    ],
+    "famousDishes": [
+      "Nizam's Royal Tasting Dastarkhwan",
+      "Dum Ki Nalli (Slow-Braised Lamb Shanks in Almond Gravy)",
+      "Kacche Gosht Ki Biryani",
+      "Haleem with Warq (Edible Silver)",
+      "Qubani Ka Meetha with Clotted Malai"
+    ],
+    "menu": [
+      {
+        "food": "Royal Dastarkhwan 6-Course Nizami Tasting Menu",
+        "price": 8500
+      },
+      {
+        "food": "Signature Dum Ki Nalli Lamb Shanks",
+        "price": 2400
+      },
+      {
+        "food": "Kacche Gosht Ki Biryani (Slow-Cooked in Sealed Dough Pot)",
+        "price": 1950
+      }
+    ],
+    "averageCostForOne": 7500,
+    "priceCategory": "Premium",
+    "rating": 4.9,
+    "amenities": [
+      "2,000-ft Hilltop 1893 Royal Palace",
+      "Horse-Drawn Carriage Arrival",
+      "Rose Petal Showers",
+      "Full Sommelier Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Perched 2,000 feet above Hyderabad inside the 1893 palace of the richest man in the world, the Nizam of Hyderabad, offering slow-cooked royal Nizami feast banquets amidst Belgian crystal chandeliers and museum art",
+      "The pinnacle of royal luxury dining in India"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 6629 8585",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-falaknuma-palace-hyderabad/restaurants/adaa/",
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hyd-chutneys-banjara-hills",
+    "name": "Chutneys (Banjara Hills)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Road No. 3, Banjara Hills, Next to Nagarjuna Circle, Hyderabad, Telangana 500034",
+    "latitude": 17.4245,
+    "longitude": 78.4489,
+    "cuisine": [
+      "Andhra Tiffin",
+      "Pure Vegetarian",
+      "6-Chutney Platter Specialist"
+    ],
+    "famousDishes": [
+      "Famous Guntur Idli (Tossed in Fiery Red Chilli Guntur Powder & Pure Ghee)",
+      "Babai Hotel White Butter Dosa",
+      "7 Signature Chutneys Platter (Mango, Ginger, Groundnut, Coconut, Tomato, Pudina)",
+      "Steam Dosa"
+    ],
+    "menu": [
+      {
+        "food": "Signature Guntur Idlis (Tossed in Fiery Guntur Masala & Ghee)",
+        "price": 140
+      },
+      {
+        "food": "Babai Hotel Special Butter Dosa",
+        "price": 160
+      },
+      {
+        "food": "Steamed Dosa with 6 Chutneys",
+        "price": 130
+      }
+    ],
+    "averageCostForOne": 250,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Pure Vegetarian",
+      "Banjara Hills Upscale Location",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Invented Hyderabad's famous 6-chutney platter where every dosa or idli is accompanied by a colorful palette of dips from sweet mango to fiery ginger, famous for butter-loaded Babai dosas and Guntur podi idlis",
+      "Vegetarian culinary legend"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 2335 8484",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-hyd-famous-ice-cream",
+    "name": "Famous Ice Cream (Since 1951)",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "Shop No. 3, Mozamjahi Market, Abids, Hyderabad, Telangana 500001",
+    "latitude": 17.3889,
+    "longitude": 78.4756,
+    "cuisine": [
+      "Handcrafted Pot Ice Creams",
+      "Pure Natural Seasonal Fruit Sweets"
+    ],
+    "famousDishes": [
+      "Hand-Churned Mango Pot Ice Cream",
+      "Custard Apple (Sitaphal) Ice Cream",
+      "Sapota (Chiku) Ice Cream",
+      "Anjeer (Fig) Ice Cream",
+      "Muskmelon Ice Cream"
+    ],
+    "menu": [
+      {
+        "food": "Fresh Hand-Churned Sitaphal (Custard Apple) Ice Cream Cup",
+        "price": 60
+      },
+      {
+        "food": "Seasonal Alphonso Mango Ice Cream Cup",
+        "price": 60
+      },
+      {
+        "food": "Rich Anjeer Badam Ice Cream",
+        "price": 70
+      }
+    ],
+    "averageCostForOne": 70,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic 1935 Mozamjahi Stone Market Clock Tower",
+      "Pure Vegetarian",
+      "Late Night Open"
+    ],
+    "specialFeatures": [
+      "Operating since 1951 under the stone arches of the historic Mozamjahi Market, hand-churning 100% natural seasonal fruit pulps into wooden ice pots without artificial chemicals or preservatives",
+      "A beloved midnight institution"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571006687898-106c559d8c0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 40 2461 4440",
+    "website": null,
+    "available": true
+  }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "vehicleId": "MAHABALIPURAM-AUTO-001",
+        "vehicleType": "Auto Rickshaw",
+        "city": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "baseFare": 25,
+        "farePerKm": 13,
+        "averageSpeed": 25,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Auto_rickshaw_in_India.jpg/960px-Auto_rickshaw_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "MAHABALIPURAM-TAXI-002",
+        "vehicleType": "Taxi",
+        "city": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "baseFare": 60,
+        "farePerKm": 18,
+        "averageSpeed": 32,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Taxi_of_Kolkata.jpg/960px-Taxi_of_Kolkata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "MAHABALIPURAM-BUS-003",
+        "vehicleType": "Local Bus",
+        "city": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "baseFare": 15,
+        "farePerKm": 3,
+        "averageSpeed": 28,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "MAHABALIPURAM-TOURISTBUS-004",
+        "vehicleType": "Tourist Bus",
+        "city": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "baseFare": 500,
+        "farePerKm": 18,
+        "averageSpeed": 30,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/South_india_bus_1.jpg/960px-South_india_bus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    },
+    {
+        "vehicleId": "MAHABALIPURAM-BOAT-005",
+        "vehicleType": "Boat",
+        "city": "Mahabalipuram",
+        "state": "Tamil Nadu",
+        "baseFare": 100,
+        "farePerKm": 0,
+        "averageSpeed": 8,
+        "contacts": [],
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Mangrove_Arch_Boat_Ashtamudi_Kollam_Kerala_Mar22_A7C_01490.jpg/960px-Mangrove_Arch_Boat_Ashtamudi_Kollam_Kerala_Mar22_A7C_01490.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "available": true
+    }
+]

@@ -1,0 +1,5 @@
+[
+  {"serviceId":"NAINITAL-HOSPITAL-001","name":"B D Pandey District Hospital","city":"Nainital","state":"Uttarakhand","type":"Hospital","address":"Mallital, Nainital, Uttarakhand 263001","latitude":29.3979,"longitude":79.4464,"phone":"+91-5942-235670","website":"https://nainital.nic.in/","available24x7":false,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"NAINITAL-POLICE-001","name":"Nainital Police Station","city":"Nainital","state":"Uttarakhand","type":"Police Station","address":"Tallital, Nainital, Uttarakhand 263001","latitude":null,"longitude":null,"phone":"+91-5942-235870","website":"https://nainital.nic.in/","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true},
+  {"serviceId":"NAINITAL-FIRE-001","name":"Nainital Fire Station","city":"Nainital","state":"Uttarakhand","type":"Fire Station","address":"Tallital, Nainital, Uttarakhand 263001","latitude":null,"longitude":null,"phone":null,"website":"https://ukfireservices.com/","available24x7":true,"emergencyFacilities":[],"verified":true,"available":true}
+]

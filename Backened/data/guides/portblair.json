@@ -1,0 +1,24 @@
+[
+    {
+        "guideId": "POR-001",
+        "name": "Regional Guide",
+        "city": "Port Blair",
+        "state": "Andaman and Nicobar Islands",
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "specialization": [
+            "Island Tours"
+        ],
+        "experienceYears": 8,
+        "rating": null,
+        "contact": null,
+        "email": null,
+        "pricePerHour": 10,
+        "description": "Professional tour guide.",
+        "image": null,
+        "verified": true,
+        "available": true
+    }
+]

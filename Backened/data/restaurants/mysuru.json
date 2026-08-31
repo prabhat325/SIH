@@ -1,0 +1,309 @@
+[
+  {
+    "restaurantId": "rst-mys-mylari-hotel",
+    "name": "Original Hotel Vinayaka Mylari (Since 1938)",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Shop No. 79, Near Police Station, Nazarbad Main Road, Mysuru, Karnataka 570010",
+    "latitude": 12.3089,
+    "longitude": 76.6621,
+    "cuisine": [
+      "Heritage South Indian",
+      "Mylari Dosa Specialist",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Original Mylari Butter Dosa (Pillow-Soft Cast Iron Dosa with Homemade White Butter & Sagu)",
+      "Filter Coffee"
+    ],
+    "menu": [
+      {
+        "food": "Original Mylari Sagu Masala Butter Dosa",
+        "price": 65
+      },
+      {
+        "food": "Special Plain Butter Dosa",
+        "price": 55
+      },
+      {
+        "food": "Hot Filter Coffee",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 90,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Historic 1938 Tiny Eatery",
+      "Pure Vegetarian",
+      "Traditional Wood & Iron Griddle Cooking"
+    ],
+    "specialFeatures": [
+      "Mysuru's most legendary single-dish heritage shrine in Nazarbad, renowned for cast-iron griddle dosas with a paper-crisp outer skin and a cloud-soft spongy interior stuffed with spiced onion sagu and dollops of freshly churned white butter",
+      "An unforgettable gastronomic miracle"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 94486 08710",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mys-guru-sweets",
+    "name": "Guru Sweet Mart (Home of Original Mysore Pak)",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Shop No. 1, Sayyaji Rao Road, Near Devaraja Market, Mysuru, Karnataka 570001",
+    "latitude": 12.3112,
+    "longitude": 76.6534,
+    "cuisine": [
+      "Royal Mysore Confectionery",
+      "Pure Desi Ghee Sweets"
+    ],
+    "famousDishes": [
+      "Original Soft Desi Ghee Mysore Pak (Invented in the Mysore Palace Kitchen)",
+      "Peda",
+      "Damrot Halwa"
+    ],
+    "menu": [
+      {
+        "food": "Original Palace Recipe Ghee Mysore Pak (250g)",
+        "price": 160
+      },
+      {
+        "food": "Royal Badam Halwa (250g)",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 120,
+    "priceCategory": "Budget",
+    "rating": 4.8,
+    "amenities": [
+      "Historic Confectionery",
+      "Direct Descendants of Royal Chef Kakasura Madappa",
+      "Takeaway"
+    ],
+    "specialFeatures": [
+      "Operated by the direct great-grandsons of Kakasura Madappa, the royal chef of the Maharaja of Mysore who invented the world-famous 'Mysore Pak' sweet in 1935 in the palace kitchens",
+      "Taste the original royal creation"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 244 3495",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mys-hotel-rrr",
+    "name": "Hotel RRR (Since 1980s)",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Gandhi Square, Near Mysore Palace North Gate, Chamrajpura, Mysuru, Karnataka 570001",
+    "latitude": 12.3078,
+    "longitude": 76.6545,
+    "cuisine": [
+      "Andhra Style",
+      "Fiery Biryani & Non-Veg",
+      "Banana Leaf Meals"
+    ],
+    "famousDishes": [
+      "Andhra Chicken Biryani in Banana Leaf",
+      "Mutton Biryani",
+      "Mutton Pepper Chops",
+      "Chilli Chicken",
+      "Andhra Meals"
+    ],
+    "menu": [
+      {
+        "food": "Special Andhra Chicken Biryani on Banana Leaf",
+        "price": 270
+      },
+      {
+        "food": "Mutton Pepper Chops Fry",
+        "price": 310
+      },
+      {
+        "food": "Andhra Banana Leaf Meal",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 300,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Air Conditioning",
+      "Banana Leaf Service",
+      "Mysore Palace Proximity"
+    ],
+    "specialFeatures": [
+      "Historic Gandhi Square diner famous for serving fiery Andhra-style spiced mutton and chicken biryanis wrapped inside steaming banana leaves that impart a distinct fragrance",
+      "Perennially packed with tourists and locals"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 244 4898",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mys-gayatri-tiffin-room",
+    "name": "Gayatri Tiffin Room (GTR)",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "2954, Chamundipuram Main Road, Mysuru, Karnataka 570004",
+    "latitude": 12.2945,
+    "longitude": 76.6531,
+    "cuisine": [
+      "South Indian",
+      "Traditional Breakfast",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "GTR Crispy Butter Masala Dosa",
+      "Filter Coffee",
+      "Crispy Vada with Sambar",
+      "Kesari Bath"
+    ],
+    "menu": [
+      {
+        "food": "GTR Butter Masala Dosa",
+        "price": 70
+      },
+      {
+        "food": "Steamed Idli Vada Combo",
+        "price": 55
+      },
+      {
+        "food": "Authentic Filter Coffee",
+        "price": 30
+      }
+    ],
+    "averageCostForOne": 100,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic South Mysuru Cafe",
+      "Pure Vegetarian",
+      "Morning Breakfast Rush"
+    ],
+    "specialFeatures": [
+      "Chamundipuram's classic 60-year-old breakfast institution celebrated for golden crispy dosas, steaming filter coffee, and traditional Mysore hospitality",
+      "A beloved neighborhood gem"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 233 0088",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mys-hotel-hanumanthu",
+    "name": "Hotel Hanumanthu Mess (Since 1930)",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "Mandi Market, Akbar Road, Mandi Mohalla, Mysuru, Karnataka 570001",
+    "latitude": 12.3168,
+    "longitude": 76.6512,
+    "cuisine": [
+      "Heritage Non-Veg",
+      "Firewood Cooked Pulao"
+    ],
+    "famousDishes": [
+      "Hanumanthu Mutton Pulao (Cooked on Firewood in Copper Handis with Country Spices)",
+      "Mutton Chops",
+      "Liver Fry",
+      "Boti Curry"
+    ],
+    "menu": [
+      {
+        "food": "Legendary Hanumanthu Firewood Mutton Pulao",
+        "price": 280
+      },
+      {
+        "food": "Mutton Pepper Chops Dry",
+        "price": 240
+      },
+      {
+        "food": "Spicy Mutton Liver Fry",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 280,
+    "priceCategory": "Budget",
+    "rating": 4.6,
+    "amenities": [
+      "Historic 1930s Mess",
+      "Traditional Firewood Kitchen",
+      "Takeaway in Banana Leaves"
+    ],
+    "specialFeatures": [
+      "Established in 1930 in Mandi Mohalla, cooking legendary mutton pulao over slow firewood in copper cauldrons with short-grain seeraga samba rice and tender country lamb",
+      "Cult status among carnivores"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 244 0404",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-mys-the-old-house",
+    "name": "The Old House",
+    "city": "Mysuru",
+    "state": "Karnataka",
+    "address": "451, Jhansi Rani Lakshmi Bai Road, Krishnamurthy Puram, Mysuru, Karnataka 570004",
+    "latitude": 12.2989,
+    "longitude": 76.6456,
+    "cuisine": [
+      "Italian",
+      "Artisan Bakery",
+      "Organic Cafe",
+      "Pure Vegetarian"
+    ],
+    "famousDishes": [
+      "Wood-fired Sourdough Pizza",
+      "Handcrafted Ravioli",
+      "Tiramisu",
+      "Artisan Gelato",
+      "Cappuccino"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Four Cheese Margherita Pizza",
+        "price": 440
+      },
+      {
+        "food": "Handmade Spinach Ricotta Ravioli",
+        "price": 380
+      },
+      {
+        "food": "Authentic Espresso Tiramisu",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Restored Heritage Bungalow Courtyard",
+      "Brick Wood-Fired Pizza Oven",
+      "Artisan Bakery Showcase",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Set in a charming 100-year-old restored heritage villa with courtyards and clay-tiled roofs, baking authentic Neapolitan sourdough pizzas and hand-churned gelatos",
+      "Mysuru's favorite bohemian cafe"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 821 425 8080",
+    "website": null,
+    "available": true
+  }
+]

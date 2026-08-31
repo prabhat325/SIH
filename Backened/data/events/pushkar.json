@@ -1,0 +1,57 @@
+{
+    "events": [
+        {
+            "eventId": "PUSHKAR-EVENT-001",
+            "name": "Pushkar Camel Fair",
+            "city": "Pushkar",
+            "state": "Rajasthan",
+            "description": "One of the world's largest camel fairs and Rajasthan's most famous festival.",
+            "type": "Fair",
+            "venue": "Pushkar Fair Ground and Pushkar Lake",
+            "usualMonth": "October/November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "14 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [
+                "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/cc5baaaf-fe15-572f-b9ab-82fd3fe98544/21e39b12-7829-576c-87ad-4c8854bb9869.jpg"
+            ],
+            "available": true
+        },
+        {
+            "eventId": "PUSHKAR-EVENT-002",
+            "name": "Kartik Purnima",
+            "city": "Pushkar",
+            "state": "Rajasthan",
+            "description": "The full moon festival when pilgrims take holy dips in Pushkar Lake.",
+            "type": "Religious",
+            "venue": "Pushkar Lake",
+            "usualMonth": "November",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PUSHKAR-EVENT-003",
+            "name": "Pushkar Holi Festival",
+            "city": "Pushkar",
+            "state": "Rajasthan",
+            "description": "A unique Holi celebration at the Brahma Temple.",
+            "type": "Festival",
+            "venue": "Brahma Temple and city",
+            "usualMonth": "March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tourism.rajasthan.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}

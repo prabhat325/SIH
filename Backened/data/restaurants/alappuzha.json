@@ -1,0 +1,165 @@
+[
+  {
+    "restaurantId": "rst-alp-harbour-restaurant",
+    "name": "Harbour Restaurant (Beach Road)",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "Beach Road, Near Alappuzha Sea Bridge & Lighthouse, Alappuzha, Kerala 688012",
+    "latitude": 9.4921,
+    "longitude": 76.3189,
+    "cuisine": [
+      "Kerala Coastal",
+      "Seafood Specialty",
+      "Backwaters Heritage"
+    ],
+    "famousDishes": [
+      "Backwaters Karimeen Pollichathu",
+      "Spicy Jumbo Prawns Roast",
+      "Fish Curry Meals with Red Rice",
+      "Kallummakkaya (Mussels) Fry",
+      "Tapioca with Fish Curry (Kappa Meen)"
+    ],
+    "menu": [
+      {
+        "food": "Authentic Karimeen Pollichathu in Banana Leaf",
+        "price": 580
+      },
+      {
+        "food": "Alappuzha Jumbo Prawns Roast",
+        "price": 620
+      },
+      {
+        "food": "Kappa (Tapioca) with Spicy Fish Curry",
+        "price": 220
+      }
+    ],
+    "averageCostForOne": 450,
+    "priceCategory": "Moderate",
+    "rating": 4.6,
+    "amenities": [
+      "Alappuzha Beach & Lighthouse Proximity",
+      "Air Conditioning",
+      "Full Bar",
+      "Fresh Catch Showcase"
+    ],
+    "specialFeatures": [
+      "Alappuzha's top destination for fresh Vembanad Lake fish and Arabian Sea prawns, famous for clay-pot fish curries seasoned with sour Kodampuli (Malabar tamarind) and steamed tapioca",
+      "Authentic backwater flavors"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 477 225 1400",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-alp-thaff-restaurant",
+    "name": "Thaff Restaurant",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "General Hospital Junction, CCSB Road, Alappuzha, Kerala 688001",
+    "latitude": 9.4989,
+    "longitude": 76.3345,
+    "cuisine": [
+      "Malabar Non-Veg",
+      "Kerala Biryani",
+      "Arabic Grills"
+    ],
+    "famousDishes": [
+      "Thaff Special Chicken Biryani",
+      "Malabar Parotta with Beef Fry",
+      "Alfaham Chicken",
+      "Mutton Chops",
+      "Fresh Juices"
+    ],
+    "menu": [
+      {
+        "food": "Malabar Dum Biryani",
+        "price": 220
+      },
+      {
+        "food": "Spicy Beef Fry with 2 Flaky Parottas",
+        "price": 180
+      },
+      {
+        "food": "Quarter Alfaham Chicken with Kuboos",
+        "price": 190
+      }
+    ],
+    "averageCostForOne": 220,
+    "priceCategory": "Budget",
+    "rating": 4.5,
+    "amenities": [
+      "Air Conditioning",
+      "Family Seating",
+      "Central Town Location",
+      "Fast Service"
+    ],
+    "specialFeatures": [
+      "Alappuzha's most popular family diner for crispy layered Malabar parottas, sizzling charcoal-grilled Alfaham chicken, and traditional Malabar biryanis",
+      "Bustling town favorite"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 477 223 5111",
+    "website": null,
+    "available": true
+  },
+  {
+    "restaurantId": "rst-alp-cassia-restaurant",
+    "name": "Cassia Restaurant & Cafe",
+    "city": "Alappuzha",
+    "state": "Kerala",
+    "address": "VCSB Road, Near District Court Bridge, Alappuzha, Kerala 688001",
+    "latitude": 9.4965,
+    "longitude": 76.3312,
+    "cuisine": [
+      "Wood-fired Pizza",
+      "Continental",
+      "Kerala Seafood",
+      "Café"
+    ],
+    "famousDishes": [
+      "Wood-fired Thin Crust Margherita Pizza",
+      "Grilled Backwater Fish",
+      "Pasta Carbonara",
+      "Iced Cold Coffee",
+      "Brownie Sundae"
+    ],
+    "menu": [
+      {
+        "food": "Wood-fired Four Cheese Pizza",
+        "price": 380
+      },
+      {
+        "food": "Grilled Backwaters Fish Steak",
+        "price": 460
+      },
+      {
+        "food": "Iced Cappuccino",
+        "price": 110
+      }
+    ],
+    "averageCostForOne": 350,
+    "priceCategory": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Canal View Porch",
+      "Brick Pizza Oven",
+      "Air Conditioning",
+      "Free Wi-Fi"
+    ],
+    "specialFeatures": [
+      "Cozy canalside cafe offering freshly baked wood-fired pizzas, artisan coffees, and continental favorites for travelers exploring the Venice of the East",
+      "Charming atmosphere"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 477 225 3300",
+    "website": null,
+    "available": true
+  }
+]

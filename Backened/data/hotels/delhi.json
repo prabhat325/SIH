@@ -1,0 +1,460 @@
+[
+  {
+    "hotelId": "del-the-leela-palace",
+    "name": "The Leela Palace New Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Diplomatic Enclave, Chanakyapuri, New Delhi, Delhi 110023",
+    "latitude": 28.5794,
+    "longitude": 77.1865,
+    "pricePerNight": 24000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Temperature-controlled Infinity Pool",
+      "ESPA Luxury Spa",
+      "Jamavar Fine Dining",
+      "Le Cirque",
+      "Megu Japanese",
+      "The Library Bar",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "Palatial Lutyens architecture with Murano glass chandeliers and 1,000+ art pieces",
+      "Delhi's only rooftop infinity pool overlooking the city skyline",
+      "Culinary capitals Jamavar & Le Cirque"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 3933 1234",
+    "website": "https://www.theleela.com/the-leela-palace-new-delhi",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.907Z",
+    "updatedAt": "2026-08-22T21:20:26.907Z"
+  },
+  {
+    "hotelId": "del-taj-mahal-hotel",
+    "name": "The Taj Mahal Hotel, New Delhi (Taj Mansingh)",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Number 1, Mansingh Road, New Delhi, Delhi 110011",
+    "latitude": 28.6052,
+    "longitude": 77.2255,
+    "pricePerNight": 20000,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Pool",
+      "Jiva Spa",
+      "Machan 24/7 Restaurant",
+      "House of Ming",
+      "Varq Indian Fine Dining",
+      "Ricks Bar",
+      "Fitness Centre"
+    ],
+    "specialFeatures": [
+      "Iconic diplomatic landmark near India Gate",
+      "Home of the legendary Machan cafe and House of Ming Chinese dining",
+      "Mughal dome architecture"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 6656 6162",
+    "website": "https://www.tajhotels.com/en-in/taj/taj-mahal-new-delhi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.908Z",
+    "updatedAt": "2026-08-22T21:20:26.908Z"
+  },
+  {
+    "hotelId": "del-the-imperial",
+    "name": "The Imperial New Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Janpath, Connaught Place, New Delhi, Delhi 110001",
+    "latitude": 28.6225,
+    "longitude": 77.2185,
+    "pricePerNight": 19500,
+    "category": "Luxury",
+    "rating": 4.8,
+    "amenities": [
+      "Free Wi-Fi",
+      "Imperial Spa & Salon",
+      "Swimming Pool in Royal Palms",
+      "The Spice Route Restaurant",
+      "1911 Bar",
+      "Art Gallery Collection"
+    ],
+    "specialFeatures": [
+      "1931 Art Deco colonial landmark with 24 king palms lining the driveway",
+      "The Spice Route - one of world's most spectacular interior designed restaurants",
+      "Over 5,000 British-era colonial artworks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2334 1234",
+    "website": "https://theimperialindia.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.908Z",
+    "updatedAt": "2026-08-22T21:20:26.908Z"
+  },
+  {
+    "hotelId": "del-the-oberoi",
+    "name": "The Oberoi, New Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Dr. Zakir Hussain Marg, Golf Links, New Delhi, Delhi 110003",
+    "latitude": 28.5995,
+    "longitude": 77.2385,
+    "pricePerNight": 22000,
+    "category": "Luxury",
+    "rating": 4.9,
+    "amenities": [
+      "Free Wi-Fi",
+      "Heated Indoor & Outdoor Pools",
+      "The Oberoi Spa",
+      "threesixty° Dining",
+      "Baoshuan Rooftop Chinese",
+      "Cirrus9 Rooftop Bar",
+      "Clean Air Filtered Environment"
+    ],
+    "specialFeatures": [
+      "Sweeping views of Delhi Golf Course and Humayun's Tomb",
+      "State-of-the-art clean air filtration system in all rooms",
+      "Cirrus9 panoramic open rooftop lounge"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2436 3030",
+    "website": "https://www.oberoihotels.com/hotels-in-delhi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.909Z",
+    "updatedAt": "2026-08-22T21:20:26.909Z"
+  },
+  {
+    "hotelId": "del-itc-maurya",
+    "name": "ITC Maurya, a Luxury Collection Hotel",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Diplomatic Enclave, Sardar Patel Marg, New Delhi, Delhi 110021",
+    "latitude": 28.5971,
+    "longitude": 77.1738,
+    "pricePerNight": 17500,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Kaya Kalp Spa",
+      "Outdoor Pool",
+      "Bukhara Restaurant",
+      "Dum Pukht Restaurant",
+      "Golf Green",
+      "Valet Parking"
+    ],
+    "specialFeatures": [
+      "World-famous Bukhara restaurant serving Dal Bukhara and Sikandari Raan",
+      "Preferred residence for visiting world leaders and US Presidents"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2611 2233",
+    "website": "https://www.itchotels.com/in/en/itcmaurya-new-delhi",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.909Z",
+    "updatedAt": "2026-08-22T21:20:26.909Z"
+  },
+  {
+    "hotelId": "del-the-lodhi",
+    "name": "The Lodhi, New Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Lodhi Road, CGO Complex, Pragati Vihar, New Delhi, Delhi 110003",
+    "latitude": 28.5912,
+    "longitude": 77.2378,
+    "pricePerNight": 21000,
+    "category": "Luxury",
+    "rating": 4.7,
+    "amenities": [
+      "Free Wi-Fi",
+      "Private Plunge Pools in Rooms",
+      "The Lodhi Spa & Turkish Hammam",
+      "Élan Restaurant",
+      "Tennis & Squash Courts",
+      "Gym"
+    ],
+    "specialFeatures": [
+      "Custom private plunge pools in most room balconies",
+      "Authentic Turkish Hammam baths and 50-meter Olympic lap pool"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 4363 3333",
+    "website": "https://www.thelodhi.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.910Z",
+    "updatedAt": "2026-08-22T21:20:26.910Z"
+  },
+  {
+    "hotelId": "del-roseate-house",
+    "name": "Roseate House New Delhi (Aerocity)",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "Asset 10, Northern Access Road, Aerocity, New Delhi, Delhi 110037",
+    "latitude": 28.5518,
+    "longitude": 77.1215,
+    "pricePerNight": 11000,
+    "category": "Luxury",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Infinity Pool",
+      "Aheli Spa",
+      "DEL World Cuisine",
+      "Kheer Fine Indian Dining",
+      "Cinema Upstage Club",
+      "Bar 43"
+    ],
+    "specialFeatures": [
+      "Ultra-modern hospitality next to IGI Airport with 71-seater 4K private cinema",
+      "Kheer Indian restaurant with stunning brass design"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 7155 8800",
+    "website": "https://www.roseatehotels.com/newdelhi/roseatehouse/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.910Z",
+    "updatedAt": "2026-08-22T21:20:26.910Z"
+  },
+  {
+    "hotelId": "del-aloft-aerocity",
+    "name": "Aloft New Delhi Aerocity",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "5B IGI T3 Road, Aerocity, New Delhi, Delhi 110037",
+    "latitude": 28.5492,
+    "longitude": 77.1232,
+    "pricePerNight": 7500,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Outdoor Splash Pool",
+      "Nook Restaurant",
+      "W XYZ Bar",
+      "Re:charge Gym",
+      "Pet Friendly"
+    ],
+    "specialFeatures": [
+      "High-tech urban lifestyle hotel in Aerocity",
+      "Live acoustic music nights at W XYZ Bar"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 4565 0000",
+    "website": "https://www.marriott.com/en-us/hotels/delal-aloft-new-delhi-aerocity/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.910Z",
+    "updatedAt": "2026-08-22T21:20:26.910Z"
+  },
+  {
+    "hotelId": "del-maidens-hotel",
+    "name": "Maidens Hotel New Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "7 Sham Nath Marg, Prema Kunj, Civil Lines, Delhi, 110054",
+    "latitude": 28.6781,
+    "longitude": 77.2251,
+    "pricePerNight": 6800,
+    "category": "Mid-Range",
+    "rating": 4.5,
+    "amenities": [
+      "Free Wi-Fi",
+      "Swimming Pool",
+      "Curzon Room Restaurant",
+      "The Cavalry Bar",
+      "8 Acres of Heritage Gardens"
+    ],
+    "specialFeatures": [
+      "Built in 1903, one of Delhi's oldest heritage colonial hotels",
+      "Peacocks roaming across 8 acres of manicured emerald lawns"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 2397 5464",
+    "website": "https://www.maidenshotel.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.911Z",
+    "updatedAt": "2026-08-22T21:20:26.911Z"
+  },
+  {
+    "hotelId": "del-bloomrooms-janpath",
+    "name": "Bloomrooms @ Janpath",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "1 Janpath Lane, Connaught Place, New Delhi, Delhi 110001",
+    "latitude": 28.6212,
+    "longitude": 77.2178,
+    "pricePerNight": 4200,
+    "category": "Mid-Range",
+    "rating": 4.4,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Cafe",
+      "Custom CloudBeds",
+      "Rain Showers",
+      "Work Desks",
+      "Airport Transfer"
+    ],
+    "specialFeatures": [
+      "Vibrant signature bright yellow-white Scandinavian minimalist design",
+      "Steps away from Janpath Market & CP"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 4122 5666",
+    "website": "https://bloomrooms.com/hotels/delhi/janpath",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.911Z",
+    "updatedAt": "2026-08-22T21:20:26.911Z"
+  },
+  {
+    "hotelId": "del-zostel-delhi",
+    "name": "Zostel Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "5 Ara Kashan Road, Opposite New Delhi Railway Station, Paharganj, New Delhi, Delhi 110055",
+    "latitude": 28.6441,
+    "longitude": 77.2189,
+    "pricePerNight": 999,
+    "category": "Budget",
+    "rating": 4.3,
+    "amenities": [
+      "Free High-Speed Wi-Fi",
+      "Rooftop Cafe",
+      "Air Conditioning",
+      "Common Chillout Zone",
+      "Lockers",
+      "Walking Tours"
+    ],
+    "specialFeatures": [
+      "India's flagship Zostel hostel location right by New Delhi Railway Station and Airport Express Metro",
+      "Old Delhi street food walks"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 22 4896 2264",
+    "website": "https://www.zostel.com/zostel/delhi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.911Z",
+    "updatedAt": "2026-08-22T21:20:26.911Z"
+  },
+  {
+    "hotelId": "del-gostops-delhi",
+    "name": "goSTOPS Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "4/23-B Asaf Ali Road, Daryaganj, Delhi Gate, New Delhi, Delhi 110002",
+    "latitude": 28.6385,
+    "longitude": 77.2398,
+    "pricePerNight": 850,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Games Lounge",
+      "Common Kitchen",
+      "Home Theatre",
+      "Air Conditioning",
+      "24/7 Security"
+    ],
+    "specialFeatures": [
+      "Walking distance to historic Old Delhi Chandni Chowk and Jama Masjid",
+      "Dynamic backpacker community"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 74288 82828",
+    "website": "https://gostops.com/hostels/gostops-delhi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.911Z",
+    "updatedAt": "2026-08-22T21:20:26.911Z"
+  },
+  {
+    "hotelId": "del-joeys-hostel",
+    "name": "Joey's Hostel Delhi",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "1/49 Lalita Park, Main Vikas Marg, Laxmi Nagar, New Delhi, Delhi 110092",
+    "latitude": 28.6312,
+    "longitude": 77.2745,
+    "pricePerNight": 799,
+    "category": "Budget",
+    "rating": 4.4,
+    "amenities": [
+      "Free Wi-Fi",
+      "Terrace Kitchen & Lounge",
+      "Xbox & Games",
+      "Air Conditioning",
+      "Laundry",
+      "Breakfast Included"
+    ],
+    "specialFeatures": [
+      "Famous rooftop view of Yamuna and Akshardham Temple",
+      "Rated one of the warmest community hostels in Asia"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 98114 74343",
+    "website": "https://joeyshostel.com/delhi/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.912Z",
+    "updatedAt": "2026-08-22T21:20:26.912Z"
+  },
+  {
+    "hotelId": "del-hotel-city-star",
+    "name": "Hotel City Star Paharganj",
+    "city": "Delhi",
+    "state": "Delhi",
+    "address": "8718 DB Gupta Road, Paharganj, New Delhi, Delhi 110055",
+    "latitude": 28.6472,
+    "longitude": 77.2145,
+    "pricePerNight": 2200,
+    "category": "Budget",
+    "rating": 4.2,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Restaurant",
+      "Gym",
+      "Airport Pickup Service",
+      "24-hour Room Service"
+    ],
+    "specialFeatures": [
+      "Consistently recognized as premier boutique budget hotel in Paharganj",
+      "Soundproofed rooms"
+    ],
+    "images": [
+      "https://images.unsplash.com/photo-1596436889106-be35e843f974?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "phone": "+91 11 4350 4350",
+    "website": "https://hotelcitystar.com/",
+    "available": true,
+    "createdAt": "2026-08-22T21:20:26.912Z",
+    "updatedAt": "2026-08-22T21:20:26.912Z"
+  }
+]

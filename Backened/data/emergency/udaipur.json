@@ -1,0 +1,92 @@
+[
+  {
+    "serviceId": "UDAIPUR-HOSPITAL-001",
+    "name": "Maharana Bhupal Government Hospital",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "RNT Medical College Campus, Udaipur, Rajasthan 313001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://rntmedicalcollege.org/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU",
+      "Trauma Care"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "UDAIPUR-HOSPITAL-002",
+    "name": "Geetanjali Hospital",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Hiran Magri, Udaipur, Rajasthan 313002",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://www.geetanjalihospital.co.in/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "UDAIPUR-HOSPITAL-003",
+    "name": "Pacific Institute of Medical Sciences Hospital",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "type": "Hospital",
+    "address": "Bhillo Ka Bedla, Udaipur, Rajasthan 313001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://pimsudr.org/",
+    "available24x7": true,
+    "emergencyFacilities": [
+      "24x7 Emergency",
+      "ICU"
+    ],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "UDAIPUR-POLICE-004",
+    "name": "Surajpole Police Station",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "type": "Police Station",
+    "address": "Surajpole, Udaipur, Rajasthan 313001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": "https://udaipurpolice.rajasthan.gov.in/",
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  },
+  {
+    "serviceId": "UDAIPUR-FIRE-005",
+    "name": "Udaipur Central Fire Station",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "type": "Fire Station",
+    "address": "Madhuban, Udaipur, Rajasthan 313001",
+    "latitude": null,
+    "longitude": null,
+    "phone": null,
+    "website": null,
+    "available24x7": false,
+    "emergencyFacilities": [],
+    "verified": true,
+    "available": true
+  }
+]

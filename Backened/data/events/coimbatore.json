@@ -1,0 +1,72 @@
+{
+    "events": [
+        {
+            "eventId": "COIMBATORE-EVENT-001",
+            "name": "Pongal Festival",
+            "city": "Coimbatore",
+            "state": "Tamil Nadu",
+            "description": "The harvest festival celebrated with great fervor.",
+            "type": "Festival",
+            "venue": "Citywide",
+            "usualMonth": "January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "4 days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.com/coimbatore/festivals.php",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "COIMBATORE-EVENT-002",
+            "name": "Koniamman Temple Festival",
+            "city": "Coimbatore",
+            "state": "Tamil Nadu",
+            "description": "A grand celebration featuring a procession on a decorated chariot.",
+            "type": "Religious",
+            "venue": "Sri Koniamman Temple",
+            "usualMonth": "March",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.com/coimbatore/festivals.php",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "COIMBATORE-EVENT-003",
+            "name": "Coimbatore Shopping Festival",
+            "city": "Coimbatore",
+            "state": "Tamil Nadu",
+            "description": "An annual shopping extravaganza at CODISSIA Trade Fair Complex.",
+            "type": "Exhibition",
+            "venue": "CODISSIA Trade Fair Complex",
+            "usualMonth": "December/January",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several days",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://codissia.com/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "COIMBATORE-EVENT-004",
+            "name": "Thai Poosam Festival",
+            "city": "Coimbatore",
+            "state": "Tamil Nadu",
+            "description": "Celebrated in honor of Lord Murugan with elaborate processions.",
+            "type": "Religious",
+            "venue": "Maruthamalai Temple",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 day",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://www.tamilnadutourism.com/coimbatore/festivals.php",
+            "images": [],
+            "available": true
+        }
+    ]
+}

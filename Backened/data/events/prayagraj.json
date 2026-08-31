@@ -1,0 +1,55 @@
+{
+    "events": [
+        {
+            "eventId": "PRAYAGRAJ-EVENT-001",
+            "name": "Kumbh Mela",
+            "city": "Prayagraj",
+            "state": "Uttar Pradesh",
+            "description": "The world's largest religious gathering held every 12 years at Triveni Sangam.",
+            "type": "Religious",
+            "venue": "Triveni Sangam",
+            "usualMonth": "Varies (every 12 years)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://uptourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PRAYAGRAJ-EVENT-002",
+            "name": "Magh Mela",
+            "city": "Prayagraj",
+            "state": "Uttar Pradesh",
+            "description": "An annual religious fair during the Hindu month of Magh.",
+            "type": "Religious",
+            "venue": "Triveni Sangam",
+            "usualMonth": "January/February",
+            "usualTime": "Morning to evening",
+            "usualDuration": "1 month",
+            "recurring": true,
+            "frequency": "Yearly",
+            "website": "https://uptourism.gov.in/",
+            "images": [],
+            "available": true
+        },
+        {
+            "eventId": "PRAYAGRAJ-EVENT-003",
+            "name": "Ardh Kumbh Mela",
+            "city": "Prayagraj",
+            "state": "Uttar Pradesh",
+            "description": "The half Kumbh held every 6 years.",
+            "type": "Religious",
+            "venue": "Triveni Sangam",
+            "usualMonth": "Varies (every 6 years)",
+            "usualTime": "Morning to evening",
+            "usualDuration": "Several weeks",
+            "recurring": true,
+            "frequency": "Other",
+            "website": "https://uptourism.gov.in/",
+            "images": [],
+            "available": true
+        }
+    ]
+}
