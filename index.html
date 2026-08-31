@@ -55,220 +55,7 @@
   </script>
 
   <!-- Custom Design System Stylesheet -->
-  <link rel="stylesheet" href="css/main.css">
-
-  <style>
-/* =========================================================
-   RAAHI — PREMIUM USER DASHBOARD
-   ========================================================= */
-
-#view-dashboard {
-  position: relative;
-  isolation: isolate;
-}
-
-/* Ambient dashboard glow */
-#view-dashboard::before,
-#view-dashboard::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-  z-index: -1;
-  border-radius: 9999px;
-  filter: blur(80px);
-  opacity: .16;
-}
-
-#view-dashboard::before {
-  width: 420px;
-  height: 420px;
-  top: 40px;
-  left: -180px;
-  background: rgba(245, 158, 11, .65);
-}
-
-#view-dashboard::after {
-  width: 360px;
-  height: 360px;
-  right: -140px;
-  top: 420px;
-  background: rgba(168, 85, 247, .45);
-}
-
-/* Premium profile header */
-#view-dashboard > div:first-of-type {
-  position: relative;
-  overflow: hidden;
-  background:
-    radial-gradient(
-      circle at 85% 20%,
-      rgba(245, 158, 11, .13),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 10% 90%,
-      rgba(168, 85, 247, .08),
-      transparent 30%
-    ),
-    rgba(255, 255, 255, .88);
-  backdrop-filter: blur(18px);
-  box-shadow:
-    0 20px 60px rgba(28, 25, 23, .08),
-    inset 0 1px 0 rgba(255,255,255,.7);
-  transition:
-    transform .45s cubic-bezier(.2,.8,.2,1),
-    box-shadow .45s ease,
-    border-color .45s ease;
-}
-
-.dark #view-dashboard > div:first-of-type {
-  background:
-    radial-gradient(
-      circle at 85% 20%,
-      rgba(245, 158, 11, .12),
-      transparent 35%
-    ),
-    radial-gradient(
-      circle at 10% 90%,
-      rgba(168, 85, 247, .10),
-      transparent 30%
-    ),
-    rgba(28, 25, 23, .82);
-}
-
-#view-dashboard > div:first-of-type:hover {
-  transform: translateY(-3px);
-  box-shadow:
-    0 28px 80px rgba(28, 25, 23, .13),
-    0 0 45px rgba(245, 158, 11, .08);
-}
-
-/* Avatar glow */
-#dash-user-avatar {
-  position: relative;
-  box-shadow:
-    0 0 0 4px rgba(245, 158, 11, .25),
-    0 0 30px rgba(245, 158, 11, .25),
-    0 10px 25px rgba(0,0,0,.12);
-  transition:
-    transform .45s cubic-bezier(.2,.8,.2,1),
-    box-shadow .45s ease;
-}
-
-#dash-user-avatar:hover {
-  transform: scale(1.08) rotate(2deg);
-  box-shadow:
-    0 0 0 5px rgba(245, 158, 11, .4),
-    0 0 45px rgba(245, 158, 11, .4),
-    0 15px 35px rgba(0,0,0,.18);
-}
-
-/* Quick stats */
-#view-dashboard > div:first-of-type
-  .text-center {
-  position: relative;
-  padding: .65rem 1rem;
-  border-radius: 1rem;
-  transition:
-    transform .3s ease,
-    background .3s ease,
-    box-shadow .3s ease;
-}
-
-#view-dashboard > div:first-of-type
-  .text-center:hover {
-  transform: translateY(-5px);
-  background: rgba(245, 158, 11, .07);
-  box-shadow:
-    0 10px 30px rgba(245, 158, 11, .10);
-}
-
-/* Dashboard navigation */
-.dash-tab-btn {
-  position: relative;
-  overflow: hidden;
-  border: 1px solid transparent;
-  transition:
-    transform .3s cubic-bezier(.2,.8,.2,1),
-    box-shadow .3s ease,
-    border-color .3s ease,
-    background .3s ease;
-}
-
-.dash-tab-btn::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  transform: translateX(-110%);
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255,255,255,.25),
-    transparent
-  );
-  transition: transform .55s ease;
-}
-
-.dash-tab-btn:hover::before {
-  transform: translateX(110%);
-}
-
-.dash-tab-btn:hover {
-  transform: translateY(-2px);
-  box-shadow:
-    0 10px 28px rgba(245, 158, 11, .18);
-  border-color: rgba(245, 158, 11, .28);
-}
-
-.dash-tab-btn:active {
-  transform: translateY(0) scale(.97);
-}
-
-/* Every dashboard card gets life */
-#view-dashboard .dash-tab-pane > div,
-#view-dashboard .dash-tab-pane article,
-#view-dashboard .dash-tab-pane .group {
-  transition:
-    transform .35s cubic-bezier(.2,.8,.2,1),
-    box-shadow .35s ease,
-    border-color .35s ease;
-}
-
-#view-dashboard .dash-tab-pane > div:hover,
-#view-dashboard .dash-tab-pane article:hover,
-#view-dashboard .dash-tab-pane .group:hover {
-  box-shadow:
-    0 18px 45px rgba(28, 25, 23, .10);
-}
-
-/* Smooth tab entrance */
-.dash-tab-pane:not(.hidden) {
-  animation: raahiDashReveal .45s cubic-bezier(.2,.8,.2,1);
-}
-
-@keyframes raahiDashReveal {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Respect reduced-motion preference */
-@media (prefers-reduced-motion: reduce) {
-  #view-dashboard *,
-  #view-dashboard::before,
-  #view-dashboard::after {
-    animation: none !important;
-    transition: none !important;
-  }
-}
-
-</style>
+  <link rel="stylesheet" crossorigin href="/assets/index-0n8g2qO_.css">
 </head>
 
 <body
@@ -343,83 +130,12 @@
           </button>
 
           <!-- Notifications Icon -->
-        <!-- Notifications -->
-<div class="relative" id="notifications-container">
-
-  <button
-    id="btn-notifications"
-    onclick="RaahiNotifications.toggle()"
-    class="relative w-8 h-8 sm:w-9 sm:h-9 rounded-xl flex items-center justify-center text-stone-600 dark:text-stone-300 hover:text-amber-600 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors cursor-pointer"
-    title="Notifications & Alerts"
-    type="button"
-  >
-    <span class="material-symbols-outlined text-xl">
-      notifications
-    </span>
-
-    <!-- Unread indicator -->
-    <span
-      id="notification-dot"
-      class="hidden absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-amber-500"
-    ></span>
-  </button>
-
-  <!-- Notification dropdown -->
-  <div
-    id="notifications-dropdown"
-    class="hidden absolute right-0 top-full mt-2 w-80 sm:w-96 max-h-[28rem] overflow-hidden rounded-2xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 shadow-xl z-[100]"
-  >
-
-    <!-- Header -->
-    <div
-      class="flex items-center justify-between px-4 py-3 border-b border-stone-200 dark:border-stone-700"
-    >
-      <div>
-        <h3 class="font-bold text-sm text-stone-900 dark:text-stone-100">
-          Notifications
-        </h3>
-
-        <p
-          id="notification-count"
-          class="text-[11px] text-stone-500 dark:text-stone-400 mt-0.5"
-        >
-          Loading...
-        </p>
-      </div>
-
-      <button
-        type="button"
-        onclick="RaahiNotifications.close()"
-        class="w-7 h-7 rounded-lg flex items-center justify-center text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-800"
-        title="Close notifications"
-      >
-        <span class="material-symbols-outlined text-lg">
-          close
-        </span>
-      </button>
-    </div>
-
-    <!-- Notification list -->
-    <div
-      id="notifications-list"
-      class="overflow-y-auto max-h-[22rem]"
-    >
-      <div class="px-4 py-8 text-center">
-        <span
-          class="material-symbols-outlined text-3xl text-stone-300 dark:text-stone-600"
-        >
-          notifications
-        </span>
-
-        <p class="mt-2 text-xs text-stone-500 dark:text-stone-400">
-          Loading notifications...
-        </p>
-      </div>
-    </div>
-
-  </div>
-
-</div>
+          <button onclick="RaahiApp.showToast('All regional tourism advisories & notifications are up-to-date.', 'info')"
+            class="relative w-8 h-8 sm:w-9 sm:h-9 rounded-xl flex items-center justify-center text-stone-600 dark:text-stone-300 hover:text-amber-600 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors cursor-pointer"
+            title="Notifications & Alerts">
+            <span class="material-symbols-outlined text-xl">notifications</span>
+            <span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-amber-500"></span>
+          </button>
 
           <!-- Theme Switcher -->
           <button id="btn-theme-toggle"
@@ -1332,14 +1048,9 @@
       </div>
 
       <!-- Places Grid -->
-    <!-- Places Grid -->
-<div id="places-grid-container"
-     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-  <!-- Rendered by js/places.js -->
-</div>
-
-<!-- Places Pagination -->
-<div id="places-pagination"></div>
+      <div id="places-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered by js/places.js -->
+      </div>
 
     </div>
 
@@ -1381,12 +1092,9 @@
         </select>
       </div>
 
-   <div id="hotels-grid-container"
-     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-  <!-- Rendered by js/hotels.js -->
-</div>
-
-<div id="hotels-pagination"></div>
+      <div id="hotels-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Rendered by js/hotels.js -->
+      </div>
     </div>
 
     <!-- =======================================================================
@@ -1435,7 +1143,6 @@
       <div id="restaurants-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Rendered by js/restaurants.js -->
       </div>
-      <div id="restaurants-pagination"></div>
     </div>
 
     <!-- =======================================================================
@@ -1453,7 +1160,6 @@
       <div id="events-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Rendered by js/events.js -->
       </div>
-      <div id="events-pagination"></div>
     </div>
 
     <!-- =======================================================================
@@ -1471,7 +1177,6 @@
       <div id="guides-grid-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Rendered by js/guides.js -->
       </div>
-      <div id="guides-pagination"></div>
     </div>
 
     <!-- =======================================================================
@@ -1533,7 +1238,6 @@
       <div id="vehicles-grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <!-- Rendered by js/vehicles.js -->
       </div>
-      <div id="vehicles-pagination"></div>
     </div>
 
     <!-- =======================================================================
@@ -1672,11 +1376,9 @@
       <div class="space-y-4">
         <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white">Verified Regional Emergency Stations
         </h3>
-      <div id="emergency-services-list" class="space-y-3">
-  <!-- Rendered by js/emergency.js -->
-</div>
-
-<div id="emergency-pagination"></div>
+        <div id="emergency-services-list" class="space-y-3">
+          <!-- Rendered by js/emergency.js -->
+        </div>
       </div>
     </div>
 
@@ -2247,8 +1949,7 @@
     <!-- =======================================================================
          VIEW 11: USER DASHBOARD (#view-dashboard)
          ======================================================================= -->
-  <div id="view-dashboard"
-  class="view-section hidden-view w-full max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-10 overflow-x-hidden">
+    <div id="view-dashboard" class="view-section hidden-view max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
 
       <!-- Profile Header & Travel Intelligence Profile (Section 11) -->
       <div
@@ -2376,147 +2077,29 @@
         </div>
       </div>
 
-  <!-- Tab Pane 3: My Change Requests -->
-
-<!-- Tab Pane 3: My Contributions -->
-<div id="dash-pane-contributions" class="dash-tab-pane hidden">
-
-  <!-- Header -->
-  <div class="flex flex-col md:flex-row md:items-end justify-between gap-5 mb-8">
-
-    <div>
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full
-        bg-purple-100 dark:bg-purple-950/50
-        text-purple-700 dark:text-purple-300
-        text-[10px] font-extrabold uppercase tracking-wider">
-
-        <span class="material-symbols-outlined text-sm">
-          verified
-        </span>
-
-        Community Contributions
+      <!-- Tab Pane 3: My Contributions -->
+      <div id="dash-pane-contributions" class="dash-tab-pane hidden">
+        <div
+          class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="bg-stone-50 dark:bg-stone-800 text-[10px] uppercase font-bold text-stone-500 tracking-wider">
+                  <th class="py-3 px-4">Request ID</th>
+                  <th class="py-3 px-4">Resource</th>
+                  <th class="py-3 px-4">Change Type</th>
+                  <th class="py-3 px-4">Field</th>
+                  <th class="py-3 px-4">Date</th>
+                  <th class="py-3 px-4">Status</th>
+                </tr>
+              </thead>
+              <tbody id="dash-contributions-table-body">
+                <!-- Populated by js/dashboard.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
-
-      <h2 class="font-heading text-3xl sm:text-4xl font-extrabold
-        text-stone-900 dark:text-white mt-3">
-        My Change Requests
-      </h2>
-
-      <p class="text-sm text-stone-500 dark:text-stone-400 mt-2">
-        Track every correction you've submitted to Raahi.
-      </p>
-    </div>
-
-    <button
-      onclick="RaahiDashboard.renderContributions()"
-      class="dash-glow-btn inline-flex items-center justify-center gap-2
-        px-5 py-3 rounded-xl
-        bg-white dark:bg-stone-900
-        border border-stone-200 dark:border-stone-700
-        text-stone-800 dark:text-white
-        text-xs font-extrabold
-        hover:border-amber-500 hover:text-amber-500
-        hover:-translate-y-1
-        transition-all duration-300">
-
-      <span class="material-symbols-outlined text-sm">
-        refresh
-      </span>
-
-      Refresh
-    </button>
-
-  </div>
-
-
-  <!-- Request Statistics -->
-  <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-
-    <div class="p-5 rounded-2xl
-      bg-white dark:bg-stone-900
-      border border-stone-200 dark:border-stone-800
-      hover:-translate-y-1 hover:border-stone-500
-      transition-all duration-300">
-
-      <p class="text-[10px] font-extrabold uppercase text-stone-400">
-        All
-      </p>
-
-      <p id="dash-request-count-all"
-        class="text-2xl font-extrabold text-white mt-2">
-        0
-      </p>
-
-    </div>
-
-
-    <div class="p-5 rounded-2xl
-      bg-white dark:bg-stone-900
-      border border-amber-500/30
-      hover:-translate-y-1 hover:border-amber-500
-      transition-all duration-300">
-
-      <p class="text-[10px] font-extrabold uppercase text-amber-500">
-        Pending
-      </p>
-
-      <p id="dash-request-count-pending"
-        class="text-2xl font-extrabold text-amber-500 mt-2">
-        0
-      </p>
-
-    </div>
-
-
-    <div class="p-5 rounded-2xl
-      bg-white dark:bg-stone-900
-      border border-emerald-500/30
-      hover:-translate-y-1 hover:border-emerald-500
-      transition-all duration-300">
-
-      <p class="text-[10px] font-extrabold uppercase text-emerald-500">
-        Approved
-      </p>
-
-      <p id="dash-request-count-approved"
-        class="text-2xl font-extrabold text-emerald-500 mt-2">
-        0
-      </p>
-
-    </div>
-
-
-    <div class="p-5 rounded-2xl
-      bg-white dark:bg-stone-900
-      border border-red-500/30
-      hover:-translate-y-1 hover:border-red-500
-      transition-all duration-300">
-
-      <p class="text-[10px] font-extrabold uppercase text-red-500">
-        Rejected
-      </p>
-
-      <p id="dash-request-count-rejected"
-        class="text-2xl font-extrabold text-red-500 mt-2">
-        0
-      </p>
-
-    </div>
-
-  </div>
-
-
-  <!-- Cards Container -->
-  <div
-    id="dash-contributions-table-body"
-    class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-
-    <!-- Populated by dashboard.js -->
-
-  </div>
-
-</div>
-
 
     </div>
 
@@ -2577,103 +2160,35 @@
         </div>
       </div>
 
-     
-      <!-- Community Change Requests -->
-<div
-  class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm">
-
-  <!-- Header -->
-  <div class="p-6 border-b border-stone-200 dark:border-stone-800">
-    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-
-      <div>
-        <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white">
-          Community Change Requests
-        </h3>
-
-        <p class="text-xs text-stone-500 mt-1">
-          Review and manage requests submitted by the Raahi community.
-        </p>
-      </div>
-
-      <!-- Status Tabs -->
+      <!-- Verification Table -->
       <div
-        class="flex items-center gap-1 p-1 bg-stone-100 dark:bg-stone-800 rounded-xl">
-
-        <button
-          id="admin-filter-pending"
-          onclick="RaahiAdmin.setRequestFilter('Pending')"
-          class="px-3 py-2 rounded-lg text-[11px] font-bold bg-amber-600 text-white transition-all">
-          Pending
-        </button>
-
-        <button
-          id="admin-filter-approved"
-          onclick="RaahiAdmin.setRequestFilter('Approved')"
-          class="px-3 py-2 rounded-lg text-[11px] font-bold text-stone-500 hover:text-stone-800 dark:hover:text-white transition-all">
-          Approved
-        </button>
-
-        <button
-          id="admin-filter-rejected"
-          onclick="RaahiAdmin.setRequestFilter('Rejected')"
-          class="px-3 py-2 rounded-lg text-[11px] font-bold text-stone-500 hover:text-stone-800 dark:hover:text-white transition-all">
-          Rejected
-        </button>
-
+        class="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl overflow-hidden shadow-sm">
+        <div class="p-6 border-b border-stone-200 dark:border-stone-800">
+          <h3 class="font-heading text-lg font-bold text-stone-900 dark:text-white">Community Change Requests Queue</h3>
+          <p class="text-xs text-stone-500">Review side-by-side diffs and apply verified corrections directly to the
+            live platform.</p>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-stone-50 dark:bg-stone-800 text-[10px] uppercase font-bold text-stone-500 tracking-wider">
+                <th class="py-3 px-4">ID</th>
+                <th class="py-3 px-4">Resource</th>
+                <th class="py-3 px-4">Field</th>
+                <th class="py-3 px-4">Submitted By</th>
+                <th class="py-3 px-4">Date</th>
+                <th class="py-3 px-4">Status</th>
+                <th class="py-3 px-4 text-right">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="admin-changes-table-body">
+              <!-- Populated by js/admin.js -->
+            </tbody>
+          </table>
+        </div>
       </div>
+
     </div>
-  </div>
-
-
-  <!-- Request List -->
-  <div id="admin-request-list" class="divide-y divide-stone-100 dark:divide-stone-800">
-
-    <!-- Populated by js/admin.js -->
-
-  </div>
-
-
-  <!-- Empty State -->
-  <div
-    id="admin-request-empty"
-    class="hidden p-12 text-center">
-
-    <span
-      class="material-symbols-outlined text-4xl text-stone-300 dark:text-stone-700">
-      inbox
-    </span>
-
-    <h4
-      class="mt-3 text-sm font-bold text-stone-700 dark:text-stone-300">
-      No requests found
-    </h4>
-
-    <p class="mt-1 text-xs text-stone-400">
-      There are no requests in this category.
-    </p>
-
-  </div>
-
-
-  <!-- Loading -->
-  <div
-    id="admin-request-loading"
-    class="hidden p-12 text-center">
-
-    <span
-      class="material-symbols-outlined animate-spin text-3xl text-amber-600">
-      progress_activity
-    </span>
-
-    <p class="mt-3 text-xs text-stone-500">
-      Loading requests...
-    </p>
-
-  </div>
-
-</div>
-
 
   </main>
 
@@ -2761,9 +2276,8 @@
   <!-- Modal 1: Place Detail Modal -->
   <div id="place-detail-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
     <div class="absolute inset-0 bg-black/70 backdrop-blur-sm" onclick="RaahiPlaces.closeDetailModal()"></div>
- <div
-  id="place-detail-modal-scroll"
-  class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10">
+    <div
+      class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white dark:bg-stone-900 rounded-3xl shadow-2xl z-10">
       <div id="place-modal-content"></div>
     </div>
   </div>
@@ -2903,7 +2417,7 @@
   <div id="auth-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 overflow-y-auto">
     <div class="fixed inset-0 bg-black/75 backdrop-blur-sm" onclick="RaahiAuth.closeAuthModal()"></div>
     <div
-    class="relative w-full max-w-md max-h-[90vh] overflow-y-auto bg-white dark:bg-stone-900 rounded-3xl shadow-2xl p-6 sm:p-7 z-10 border border-stone-200 dark:border-stone-800 my-8">
+      class="relative w-full max-w-md bg-white dark:bg-stone-900 rounded-3xl shadow-2xl p-6 sm:p-7 z-10 border border-stone-200 dark:border-stone-800 my-8">
 
       <!-- Modal Header -->
       <div class="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-stone-800 mb-4">
@@ -2937,7 +2451,31 @@
 
       <!-- PANE 1: SIGN IN -->
       <div id="auth-pane-signin" class="space-y-4">
+        <!-- Quick Social & Instant Options -->
+        <div class="space-y-2">
+          <!-- Sign in with Google Button -->
+          <button id="btn-google-signin" onclick="RaahiAuth.loginWithGoogle()"
+            class="w-full py-2.5 px-4 rounded-2xl border border-stone-300 dark:border-stone-700 hover:bg-stone-50 dark:hover:bg-stone-800 text-stone-800 dark:text-stone-200 text-xs font-bold flex items-center justify-center gap-2.5 transition-all shadow-2xs">
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24">
+              <path fill="#4285F4"
+                d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z" />
+              <path fill="#34A853"
+                d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.33 24 12 24z" />
+              <path fill="#FBBC05"
+                d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.98 0 12s.45 3.82 1.25 5.42l4.03-3.15z" />
+              <path fill="#EA4335"
+                d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.33 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z" />
+            </svg>
+            <span>Continue with Google</span>
+          </button>
 
+          <!-- Continue as Guest Button -->
+          <button onclick="RaahiAuth.loginAsGuest()"
+            class="w-full py-2.5 px-4 rounded-2xl bg-stone-100 dark:bg-stone-800 hover:bg-stone-200 dark:hover:bg-stone-750 text-stone-700 dark:text-stone-300 text-xs font-bold flex items-center justify-center gap-2 transition-all">
+            <span class="material-symbols-outlined text-base text-stone-500">person_outline</span>
+            <span>Continue as Guest Explorer</span>
+          </button>
+        </div>
 
         <div class="flex items-center my-3">
           <div class="flex-grow border-t border-stone-200 dark:border-stone-800"></div>
@@ -2951,8 +2489,8 @@
             <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Email Address</label>
             <div class="relative">
               <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">mail</span>
-              <input id="auth-signin-email" type="email" placeholder="👉ENTER YOUR EMAIL👈"
-                
+              <input id="auth-signin-email" type="email" placeholder="aakash.traveler@raahi.in"
+                value="aakash.traveler@raahi.in"
                 class="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500">
             </div>
           </div>
@@ -2961,7 +2499,7 @@
             <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Password</label>
             <div class="relative">
               <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">lock</span>
-              <input id="auth-signin-password" type="password" placeholder="🫣🫣••••••••🫣🫣" 
+              <input id="auth-signin-password" type="password" placeholder="••••••••" value="demo1234"
                 class="w-full pl-9 pr-10 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500">
               <button type="button"
                 onclick="RaahiAuth.togglePasswordVisibility('auth-signin-password', 'signin-pass-toggle-icon')"
@@ -2977,9 +2515,37 @@
             <span class="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
         </form>
+
+        <!-- Quick One-Click Demo Personas -->
+        <div class="pt-3 border-t border-stone-100 dark:border-stone-800">
+          <span
+            class="text-[10px] font-extrabold uppercase tracking-wider text-stone-400 block mb-2 text-center">Instant
+            Demo Personas</span>
+          <div class="grid grid-cols-2 gap-2">
+            <button onclick="RaahiAuth.loginAs('traveler')"
+              class="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-300 dark:border-amber-800 text-left hover:bg-amber-100 transition-colors flex items-center gap-2">
+              <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80"
+                alt="Traveler" class="w-8 h-8 rounded-full object-cover border border-amber-600 shrink-0">
+              <div class="min-w-0">
+                <h5 class="text-[11px] font-bold text-amber-950 dark:text-amber-200 truncate">Traveler</h5>
+                <p class="text-[9px] text-stone-500 truncate">Aakash Verma</p>
+              </div>
+            </button>
+
+            <button onclick="RaahiAuth.loginAs('admin')"
+              class="p-2.5 rounded-xl bg-purple-50 dark:bg-purple-950/40 border border-purple-300 dark:border-purple-800 text-left hover:bg-purple-100 transition-colors flex items-center gap-2">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=120&q=80"
+                alt="Admin" class="w-8 h-8 rounded-full object-cover border border-purple-600 shrink-0">
+              <div class="min-w-0">
+                <h5 class="text-[11px] font-bold text-purple-950 dark:text-purple-200 truncate">Curator Admin</h5>
+                <p class="text-[9px] text-stone-500 truncate">Vikramaditya</p>
+              </div>
+            </button>
+          </div>
         </div>
 
-     
+      </div>
+
       <!-- PANE 2: CREATE ACCOUNT (SIGN UP) -->
       <div id="auth-pane-signup" class="hidden space-y-3.5">
         <form onsubmit="RaahiAuth.handleSignUp(event)" class="space-y-3">
@@ -2987,37 +2553,17 @@
             <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Full Name</label>
             <div class="relative">
               <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">person</span>
-              <input id="auth-signup-name" type="text" placeholder="🤡🤡e.g. BANTI SINGH🤡🤡"
+              <input id="auth-signup-name" type="text" placeholder="e.g. Priya Sharma"
                 class="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500"
                 required>
             </div>
           </div>
 
           <div>
-  <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">
-    Username
-  </label>
-  <div class="relative">
-    <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">
-      alternate_email
-    </span>
-    <input
-      id="auth-signup-username"
-      type="text"
-      placeholder="🤖🤖e.g. PRAVEER-SINGH-ai🤖🤖"
-      minlength="3"
-      maxlength="30"
-      pattern="[A-Za-z0-9_]+"
-      class="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500"
-      required>
-  </div>
-</div>
-
-          <div>
             <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Email Address</label>
             <div class="relative">
               <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">mail</span>
-              <input id="auth-signup-email" type="email" placeholder="😴😴banti_singh@gmail.com😴😴"
+              <input id="auth-signup-email" type="email" placeholder="priya.sharma@example.com"
                 class="w-full pl-9 pr-3 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500"
                 required>
             </div>
@@ -3027,7 +2573,7 @@
             <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Create Password</label>
             <div class="relative">
               <span class="material-symbols-outlined absolute left-3 top-2.5 text-stone-400 text-base">lock</span>
-              <input id="auth-signup-password" type="password" placeholder="🫣🫣...........🫣🫣"
+              <input id="auth-signup-password" type="password" placeholder="Minimum 6 characters"
                 class="w-full pl-9 pr-10 py-2 text-xs rounded-xl bg-stone-50 dark:bg-stone-800 border border-stone-200 dark:border-stone-700 text-stone-900 dark:text-white outline-none focus:border-amber-500"
                 required>
               <button type="button"
@@ -3038,7 +2584,21 @@
             </div>
           </div>
 
-        
+          <!-- Account Role Selection -->
+          <div>
+            <label class="block text-[11px] font-bold text-stone-600 dark:text-stone-400 mb-1">Select Profile
+              Type</label>
+            <div class="flex gap-2">
+              <button type="button" id="signup-role-traveler" onclick="RaahiAuth.selectSignupRole('traveler')"
+                class="flex-1 p-2.5 rounded-xl border-2 border-amber-600 bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-200 text-xs font-bold flex items-center justify-center gap-1.5 transition-all shadow-xs">
+                <span>🎒 Traveler</span>
+              </button>
+              <button type="button" id="signup-role-admin" onclick="RaahiAuth.selectSignupRole('admin')"
+                class="flex-1 p-2.5 rounded-xl border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800 text-stone-600 dark:text-stone-400 text-xs font-semibold flex items-center justify-center gap-1.5 transition-all">
+                <span>🛡️ Local Curator</span>
+              </button>
+            </div>
+          </div>
 
           <!-- Avatar Picker -->
           <div>
@@ -3719,68 +3279,6 @@
   <script src="js/admin.js"></script>
   <script src="js/ai-concierge.js"></script>
   <script src="js/app.js"></script>
-  <script src="js/notifications.js"></script>
-
-  <!-- USER CHANGE REQUEST DETAILS MODAL -->
-<div
-  id="dash-request-details-modal"
-  class="fixed inset-0 z-[60] hidden items-center justify-center p-4">
-
-  <!-- Backdrop -->
-  <div
-    class="absolute inset-0 bg-black/70 backdrop-blur-sm"
-    onclick="RaahiDashboard.closeRequestDetails()">
-  </div>
-
-  <!-- Modal -->
-  <div
-    class="
-      relative
-      z-10
-      w-full
-      max-w-3xl
-      max-h-[90vh]
-      overflow-y-auto
-      rounded-3xl
-      bg-white
-      dark:bg-stone-900
-      border
-      border-stone-200
-      dark:border-stone-800
-      shadow-2xl
-    ">
-
-    <div id="dash-request-details-content">
-      <!-- Populated by js/dashboard.js -->
-    </div>
-
-  </div>
-
-</div>
-
-
-<!-- =========================================================
-     EMERGENCY DETAIL MODAL
-========================================================= -->
-
-<div
-  id="emergency-detail-modal"
-  class="hidden fixed inset-0 z-[9999] bg-black/60 backdrop-blur-sm
-         flex items-center justify-center p-4">
-
-  <div
-    class="w-full max-w-2xl max-h-[90vh]
-           overflow-y-auto
-           rounded-2xl
-           shadow-2xl">
-
-    <div id="emergency-modal-content"></div>
-
-  </div>
-
-</div>
-
-</body>
 </body>
 
 </html>

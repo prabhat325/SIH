@@ -1,0 +1,1029 @@
+/* ==========================================================================
+   RAAHI - Heritage Intelligence Design System
+   Matches DESIGN.md specifications & Luxury Aesthetic
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --color-surface: #faf9f5;
+  --color-surface-dim: #dbdad6;
+  --color-surface-bright: #faf9f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f4f4f0;
+  --color-surface-container: #efeeea;
+  --color-surface-container-high: #e9e8e4;
+  --color-surface-container-highest: #e3e2df;
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #42493e;
+  --color-inverse-surface: #2f312e;
+  --color-inverse-on-surface: #f2f1ed;
+
+  --color-primary: #154212;
+  --color-primary-container: #2d5a27;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #9dd090;
+  --color-primary-fixed: #bcf0ae;
+  --color-primary-fixed-dim: #a1d494;
+  --color-on-primary-fixed: #002201;
+  --color-on-primary-fixed-variant: #23501e;
+
+  --color-secondary: #735c00;
+  --color-secondary-container: #fed65b;
+  --color-secondary-fixed: #ffe088;
+  --color-secondary-fixed-dim: #e9c349;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #745c00;
+
+  --color-outline: #72796e;
+  --color-outline-variant: #c2c9bb;
+  --color-background: #faf9f5;
+
+  /* Glassmorphism & Elevation */
+  --glass-bg: rgba(255, 255, 255, 0.82);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-blur: blur(20px);
+  --shadow-subtle: 0 4px 20px rgba(0, 0, 0, 0.04);
+  --shadow-elevation: 0 12px 36px rgba(21, 66, 18, 0.08);
+  --shadow-floating: 0 20px 48px rgba(0, 0, 0, 0.12);
+}
+
+.dark {
+  --color-surface: #141613;
+  --color-surface-dim: #1e201d;
+  --color-surface-bright: #252824;
+  --color-surface-container-lowest: #1a1c19;
+  --color-surface-container-low: #20231f;
+  --color-surface-container: #262925;
+  --color-surface-container-high: #2d312c;
+  --color-surface-container-highest: #353a33;
+  --color-on-surface: #f2f1ed;
+  --color-on-surface-variant: #c2c9bb;
+  --color-inverse-surface: #faf9f5;
+  --color-inverse-on-surface: #1b1c1a;
+  --color-background: #121411;
+  --glass-bg: rgba(26, 28, 25, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface-container-low);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-outline-variant);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-container);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Glassmorphism Panels */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(21, 66, 18, 0.08);
+}
+
+.dark .glass-nav {
+  background: rgba(20, 22, 19, 0.88);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* AI Gradient Border */
+.ai-gradient-border {
+  position: relative;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  background: linear-gradient(var(--glass-bg), var(--glass-bg)) padding-box,
+    linear-gradient(135deg, #e9c349, rgba(253, 252, 248, 0.5), #154212) border-box;
+}
+
+.ai-border-gold {
+  position: relative;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  background: linear-gradient(var(--glass-bg), var(--glass-bg)) padding-box,
+    linear-gradient(135deg, #fed65b, #e9c349, #faf9f5) border-box;
+}
+
+/* Shimmer & Glow Effects */
+@keyframes goldPulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 15px rgba(233, 195, 73, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 25px rgba(233, 195, 73, 0.6);
+  }
+}
+
+.glow-gold {
+  animation: goldPulse 3s infinite ease-in-out;
+}
+
+@keyframes gentleFloat {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.float-animation {
+  animation: gentleFloat 4s infinite ease-in-out;
+}
+
+/* Masonry Grid */
+.masonry-grid {
+  column-count: 1;
+  column-gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid {
+    column-count: 3;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 24px;
+}
+
+/* Material Symbols Adjustments */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+.material-symbols-outlined.fill-1,
+.material-symbols-outlined[style*="'FILL' 1"] {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Transitions */
+.view-section {
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.view-section.hidden-view {
+  display: none !important;
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+.view-section.active-view {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 3D Perspective Card Tilt */
+.tilt-card {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0.2, 1), box-shadow 0.25s ease;
+}
+
+.tilt-card:hover {
+  transform: translateY(-6px) rotateX(2deg) rotateY(-2deg);
+}
+
+/* Luxury Boarding Pass Ticket Styles */
+.royal-ticket {
+  background: radial-gradient(circle at 0% 50%, transparent 12px, var(--color-surface-container-lowest) 13px),
+    radial-gradient(circle at 100% 50%, transparent 12px, var(--color-surface-container-lowest) 13px);
+  background-size: 100% 100%;
+  border-radius: 1.25rem;
+  border: 1px solid var(--color-outline-variant);
+  box-shadow: var(--shadow-elevation);
+}
+
+.dark .royal-ticket {
+  background: radial-gradient(circle at 0% 50%, transparent 12px, #1e201d 13px),
+    radial-gradient(circle at 100% 50%, transparent 12px, #1e201d 13px);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Interactive Map Hotspot Pins */
+.map-hotspot {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.map-hotspot:hover {
+  transform: scale(1.25) translateY(-4px);
+  z-index: 20;
+}
+
+/* Live Weather Pill Glow */
+.weather-pill {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(244, 244, 240, 0.8));
+  border: 1px solid rgba(115, 92, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.dark .weather-pill {
+  background: linear-gradient(135deg, rgba(40, 44, 38, 0.9), rgba(30, 32, 29, 0.8));
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Modals */
+.modal-backdrop {
+  background: rgba(15, 20, 14, 0.75);
+  backdrop-filter: blur(10px);
+}
+
+/* Step Progress Indicator */
+.step-line::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 36px;
+  bottom: -20px;
+  width: 2px;
+  background: var(--color-outline-variant);
+  opacity: 0.35;
+}
+
+/* Card Hover & Zoom Effects */
+.card-hover {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
+.img-zoom {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover:hover .img-zoom {
+  transform: scale(1.05);
+}
+
+/* Custom Leaflet Marker Reset */
+.custom-leaflet-marker {
+  background: transparent;
+  border: none;
+}
+
+/* AI Travel Intelligence Enhancements */
+.ai-badge {
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.15), rgba(245, 158, 11, 0.25));
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #b45309;
+}
+
+.dark .ai-badge {
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.25), rgba(245, 158, 11, 0.15));
+  border-color: rgba(245, 158, 11, 0.35);
+  color: #fcd34d;
+}
+
+.ai-chip {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  user-select: none;
+}
+
+.ai-chip:hover {
+  transform: translateY(-2px);
+}
+
+.ai-chip.selected {
+  background-color: #d97706 !important;
+  color: #ffffff !important;
+  border-color: #d97706 !important;
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25);
+}
+
+/* Processing Stepper Pulse */
+@keyframes stepPulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.15);
+    opacity: 0.7;
+  }
+}
+
+.step-active-pulse {
+  animation: stepPulse 1.5s infinite ease-in-out;
+}
+
+/* Route Timeline Connector */
+.route-connector {
+  position: relative;
+}
+
+.route-connector::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 36px;
+  bottom: -16px;
+  width: 2px;
+  background: repeating-linear-gradient(to bottom, #d97706, #d97706 4px, transparent 4px, transparent 8px);
+  z-index: 1;
+}
+
+.route-connector:last-child::before {
+  display: none;
+}
+
+/* Subtle Shimmer for AI Cards */
+@keyframes aiGlow {
+
+  0%,
+  100% {
+    border-color: rgba(245, 158, 11, 0.25);
+    box-shadow: 0 4px 20px rgba(217, 119, 6, 0.04);
+  }
+
+  50% {
+    border-color: rgba(245, 158, 11, 0.5);
+    box-shadow: 0 8px 24px rgba(217, 119, 6, 0.12);
+  }
+}
+
+.ai-card-glow {
+  animation: aiGlow 4s infinite ease-in-out;
+}
+
+/* Story Flow Node Line */
+.flow-step-arrow::after {
+  content: '→';
+  position: absolute;
+  right: -16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #d97706;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .flow-step-arrow::after {
+    content: '↓';
+    right: 50%;
+    top: auto;
+    bottom: -18px;
+    transform: translateX(50%);
+  }
+}
+
+/* ==========================================================================
+   AI Smart Match Custom Range Sliders & Match Cards
+   ========================================================================== */
+.smart-match-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 9999px;
+  background: #e7e5e4;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.dark .smart-match-slider {
+  background: #292524;
+}
+
+.smart-match-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d97706;
+  border: 2.5px solid #ffffff;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.45);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.smart-match-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+  background: #b45309;
+}
+
+.smart-match-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #d97706;
+  border: 2.5px solid #ffffff;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.45);
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.smart-match-slider::-moz-range-thumb:hover {
+  transform: scale(1.2);
+  background: #b45309;
+}
+
+/* Radar Pulse Loading Effect */
+@keyframes radarWave {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.9;
+  }
+
+  50% {
+    transform: scale(1.08);
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 0.9;
+  }
+}
+
+.radar-anim {
+  animation: radarWave 2s infinite ease-in-out;
+}
+
+/* Match Score Shimmer */
+@keyframes matchBadgeGlow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(16, 185, 129, 0.35);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.65);
+  }
+}
+
+.match-badge-glow {
+  animation: matchBadgeGlow 2.5s infinite ease-in-out;
+}
+
+/* ==========================================================================
+   Explainable AI Card (xAI) & Similar Vibes Carousel Styles
+   ========================================================================== */
+.xai-card {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.04) 0%, rgba(217, 119, 6, 0.08) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.35);
+  box-shadow: 0 8px 30px rgba(217, 119, 6, 0.06);
+}
+
+.dark .xai-card {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.06) 0%, rgba(120, 53, 15, 0.15) 100%);
+  border-color: rgba(245, 158, 11, 0.25);
+}
+
+.xai-feature-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 9999px;
+  background-color: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  box-shadow: 0 1px 2px rgba(16, 185, 129, 0.05);
+  transition: all 0.2s ease;
+}
+
+.dark .xai-feature-pill {
+  background-color: rgba(6, 78, 59, 0.35);
+  color: #6ee7b7;
+  border-color: rgba(16, 185, 129, 0.4);
+}
+
+.xai-feature-pill:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.15);
+}
+
+.xai-caution-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  background-color: #fffbeb;
+  color: #92400e;
+  border: 1px solid #fde68a;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  transition: all 0.2s ease;
+}
+
+.dark .xai-caution-box {
+  background-color: rgba(120, 53, 15, 0.25);
+  color: #fde68a;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+/* Similar Vibes Carousel Track & Cards */
+.similar-carousel-track {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.similar-carousel-track::-webkit-scrollbar {
+  height: 6px;
+}
+
+.similar-carousel-track::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+  border-radius: 9999px;
+}
+
+.similar-carousel-track::-webkit-scrollbar-thumb {
+  background: rgba(217, 119, 6, 0.4);
+  border-radius: 9999px;
+}
+
+.similar-card {
+  scroll-snap-align: start;
+  flex: 0 0 calc(75% - 0.5rem);
+  max-width: 280px;
+  min-width: 220px;
+}
+
+@media (min-width: 640px) {
+  .similar-card {
+    flex: 0 0 calc(45% - 0.5rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .similar-card {
+    flex: 0 0 calc(31% - 0.5rem);
+  }
+}
+
+/* ==========================================================================
+   AI Itinerary Builder: Cuisine Cards, Pro-Tips & Print Styles
+   ========================================================================== */
+.cuisine-card {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(217, 119, 6, 0.15) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.35);
+  box-shadow: 0 4px 20px rgba(217, 119, 6, 0.06);
+}
+
+.dark .cuisine-card {
+  background: linear-gradient(135deg, rgba(120, 53, 15, 0.25) 0%, rgba(180, 83, 9, 0.15) 100%);
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.pro-tip-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  background-color: rgba(245, 158, 11, 0.1);
+  border: 1px dashed rgba(245, 158, 11, 0.4);
+  color: #92400e;
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.dark .pro-tip-box {
+  background-color: rgba(120, 53, 15, 0.2);
+  border-color: rgba(245, 158, 11, 0.3);
+  color: #fde68a;
+}
+
+.day-tab-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.day-tab-btn.active {
+  background-color: #d97706;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.35);
+}
+
+.day-tab-btn:not(.active) {
+  background-color: #f5f5f4;
+  color: #57534e;
+}
+
+.dark .day-tab-btn:not(.active) {
+  background-color: #292524;
+  color: #d6d3d1;
+}
+
+.day-tab-btn:not(.active):hover {
+  background-color: #e7e5e4;
+  color: #1c1917;
+}
+
+.dark .day-tab-btn:not(.active):hover {
+  background-color: #44403c;
+  color: #ffffff;
+}
+
+/* Print / Export PDF Optimization */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  header,
+  footer,
+  #ai-fab-toggle,
+  #ai-concierge-drawer,
+  .no-print,
+  #planner-wizard-container,
+  #planner-processing-container,
+  #destination-detail-modal,
+  #ai-smart-match-modal {
+    display: none !important;
+  }
+
+  #view-planner {
+    display: block !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #planner-result-container {
+    display: block !important;
+  }
+
+  .lg\:col-span-7,
+  .lg\:col-span-12 {
+    width: 100% !important;
+  }
+
+  .cuisine-card,
+  .xai-card,
+  .p-6,
+  .rounded-3xl {
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 1px solid #cccccc !important;
+  }
+}
+
+/* ==========================================================================
+   Predictive ML Travel Budget Forecaster Styles
+   ========================================================================== */
+.budget-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(254, 243, 199, 0.2) 100%);
+  border: 1.5px solid rgba(245, 158, 11, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.dark .budget-card {
+  background: linear-gradient(145deg, rgba(28, 25, 23, 0.95) 0%, rgba(120, 53, 15, 0.25) 100%);
+  border-color: rgba(245, 158, 11, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.budget-breakdown-card {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.budget-breakdown-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.donut-segment {
+  transition: stroke-dasharray 0.8s cubic-bezier(0.4, 0, 0.2, 1), stroke-dashoffset 0.8s cubic-bezier(0.4, 0, 0.2, 1), stroke-width 0.2s ease;
+  cursor: pointer;
+}
+
+.donut-segment:hover {
+  stroke-width: 22;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+}
+
+.budget-tier-chip {
+  padding: 0.625rem 1rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1.5px solid;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.budget-tier-chip.active {
+  border-color: #d97706;
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #b45309;
+}
+
+.dark .budget-tier-chip.active {
+  background-color: rgba(180, 83, 9, 0.3);
+  color: #fde68a;
+  border-color: #f59e0b;
+}
+
+.budget-tier-chip:not(.active) {
+  border-color: #e7e5e4;
+  background-color: #fafaf9;
+  color: #78716c;
+}
+
+.dark .budget-tier-chip:not(.active) {
+  border-color: #44403c;
+  background-color: #1c1917;
+  color: #a8a29e;
+}
+
+/* ==========================================================================
+   Crowd & Climate Forecaster Styles
+   ========================================================================== */
+.crowd-climate-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 253, 244, 0.3) 50%, rgba(254, 243, 199, 0.2) 100%);
+  border: 1.5px solid rgba(16, 185, 129, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.dark .crowd-climate-card {
+  background: linear-gradient(145deg, rgba(28, 25, 23, 0.95) 0%, rgba(6, 78, 59, 0.2) 50%, rgba(120, 53, 15, 0.15) 100%);
+  border-color: rgba(16, 185, 129, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.crowd-bar {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.crowd-bar:hover {
+  filter: brightness(1.15) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+  transform: scaleY(1.04);
+  transform-origin: bottom;
+}
+
+.crowd-bar.active-month {
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 2px #d97706, 0 4px 12px rgba(217, 119, 6, 0.4);
+}
+
+.climate-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border: 1px solid;
+  transition: all 0.2s ease;
+}
+
+/* ==========================================================================
+   City Details Travel Hub Styles
+   ========================================================================== */
+.city-cat-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.125rem;
+  border-radius: 1rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.city-cat-tab-btn.active-cat-btn {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  color: #ffffff !important;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.city-cat-tab-btn.inactive-cat-btn {
+  background-color: #ffffff;
+  color: #57534e;
+  border: 1px solid #e7e5e4;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.dark .city-cat-tab-btn.inactive-cat-btn {
+  background-color: #1c1917;
+  color: #d6d3d1;
+  border-color: #292524;
+}
+
+.city-cat-tab-btn.inactive-cat-btn:hover {
+  border-color: #d97706;
+  color: #d97706;
+  background-color: #fffbeb;
+}
+
+.dark .city-cat-tab-btn.inactive-cat-btn:hover {
+  background-color: rgba(69, 26, 3, 0.3);
+  color: #fbbf24;
+  border-color: #b45309;
+}
+
+/* ==========================================================================
+   DARK MODE REFINEMENTS & CONTRAST SYSTEM
+   ========================================================================== */
+
+/* Hero atmospheric gradient in dark mode: deep charcoal -> dark warm brown -> subtle amber glow */
+.dark .hero-atmospheric-bg {
+  background: radial-gradient(ellipse 90% 60% at 50% -10%, rgba(217, 119, 6, 0.12), rgba(28, 25, 23, 0.55) 45%, #0c0a09 100%) !important;
+}
+
+/* "Try asking" Suggestion Chips High-Contrast System */
+.chip-suggestion {
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dark .chip-suggestion {
+  background-color: #23201d !important;
+  border-color: #3d3733 !important;
+  color: #f5f5f4 !important;
+}
+
+.dark .chip-suggestion:hover {
+  background-color: #2e2620 !important;
+  border-color: #d97706 !important;
+  color: #fbbf24 !important;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.2);
+}
+
+/* Ask Raahi Search Bar Dark Mode Polish */
+.dark .home-search-container {
+  background-color: #1a1715 !important;
+  border-color: #38322e !important;
+}
+
+.dark .home-search-container:focus-within {
+  border-color: #d97706 !important;
+  box-shadow: 0 0 0 1px #d97706, 0 12px 28px -6px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* ==========================================================================
+   YOUTUBE-STYLE COLLAPSIBLE SIDEBAR & RESPONSIVE LAYOUT ENGINE
+   ========================================================================== */
+
+#raahi-desktop-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 45;
+  transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: width;
+}
+
+#app-main-content {
+  transition: margin-left 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: margin-left;
+}
+
+#app-main-header {
+  transition: padding-left 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: padding-left;
+}
+
+/* Active Navigation Item Glow & Left Accent Indicator */
+.active-sidebar-nav-item {
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.18) 0%, rgba(245, 158, 11, 0.04) 100%) !important;
+  border-left: 3.5px solid #f59e0b !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 14px rgba(245, 158, 11, 0.15), inset 0 0 12px rgba(245, 158, 11, 0.06);
+}
+
+.active-sidebar-nav-item .material-symbols-outlined {
+  color: #fbbf24 !important;
+  filter: drop-shadow(0 0 8px rgba(251, 191, 36, 0.6));
+  transform: scale(1.08);
+}
+
+.active-sidebar-nav-item .active-indicator {
+  opacity: 1 !important;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.8);
+}
+
+/* Hover Micro-Interactions */
+.expanded-nav-item:hover {
+  transform: translateX(3px);
+  background-color: rgba(30, 41, 59, 0.7);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.expanded-nav-item:hover .material-symbols-outlined {
+  color: #fbbf24;
+  filter: drop-shadow(0 0 6px rgba(251, 191, 36, 0.4));
+}
+
+.collapsed-nav-item:hover {
+  background-color: rgba(30, 41, 59, 0.85);
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.15);
+}
+
+.collapsed-nav-item:hover .material-symbols-outlined {
+  color: #fbbf24;
+  filter: drop-shadow(0 0 6px rgba(251, 191, 36, 0.5));
+}
+
+/* Sidebar Custom Smooth Scrollbar */
+#raahi-desktop-sidebar nav::-webkit-scrollbar,
+#raahi-mobile-sidebar-container nav::-webkit-scrollbar {
+  width: 5px;
+}
+
+#raahi-desktop-sidebar nav::-webkit-scrollbar-track,
+#raahi-mobile-sidebar-container nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#raahi-desktop-sidebar nav::-webkit-scrollbar-thumb,
+#raahi-mobile-sidebar-container nav::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 9999px;
+}
+
+#raahi-desktop-sidebar nav::-webkit-scrollbar-thumb:hover,
+#raahi-mobile-sidebar-container nav::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.4);
+}
+
